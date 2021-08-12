@@ -61,3 +61,38 @@
     color: $primary-color;
   }
 }
+
+button{
+  margin: 10px;
+  padding: 0;
+  background: none;
+  border: none;
+  border-radius: 0;
+  outline: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+.slide-arrow{
+  position: absolute;
+  top: 40%;
+  margin-top: -15px;
+}
+.prev-arrow{
+  left: -100px;
+  width: 0;
+  height: 0;
+  border-left: 0 solid transparent;
+  border-right: 30px solid white;
+  border-top: 35px solid transparent;
+  border-bottom: 35px solid transparent;
+}
+.next-arrow{
+  right: -100px;
+  width: 0;
+  height: 0px;
+  border-right: 0 solid transparent;
+  border-left: 30px solid white;
+  border-top: 35px solid transparent;
+  border-bottom: 35px solid transparent;
+}

@@ -155,20 +155,18 @@ skills:
 
 experience-title: Sub-Groups
 experience:
-- {name: DevCom, icon: 'icon-1.png', link: 'https://www.insti.app/org/devcom'}
-- {name: Csec Group, icon: 'icon2.png', link: 'https://www.insti.app/org/csec'}
-- {name: BlockChain Circle, icon: 'icon-2.jpg', link: 'https://www.insti.app/event/introduction-to-blockchain-38607fb2' }
+- {name: DevCom, icon: 'icon-1.png', link: 'devcom-iitb.org'}
+- {name: GSoC Incubation Cell, icon: 'gsoc.png', link: 'https://www.facebook.com/groups/172338573292734/'}
+- {name: BlockChain Circle, icon: 'icon-2.jpg', link: ' https://www.facebook.com/groups/Blockchain.IITB/' }
 
 
 #-------------------------------
 # Education Section
 
-education-title: Achievements
+education-title: Fun Facts!!
 education:
-- {name: Number of Wiki Articles, date: '2006', organization: 'Masassusets Institute of Technology'}
-- {name: Number of Sessions, date: '2004', organization: 'Harvard University'}
-- {name: Any other ideas, date: '2000', organization: 'Cardiff School'}
-- {name: Years of Existence, date: '1998', organization: 'Cardiff School'}
+- {name: Number of Wiki Articles, organization: '110+'}
+- {name: Number of Github repos, organization: '45+'}
 
 
 #-------------------------------
@@ -508,32 +506,33 @@ soc-items:
 # Testimonials Section
 
 testimonial-items:
-  - name: "WnCC Wiki- Grundy"
-    image: "assets/images/testimonial/wiki.png"
-    designation : " "
-    content : "It is an educational wiki, meant to help beginners get started with programming. It’s got 100+ articles, on various programming topics. All tutorials are hand-tailored by students of IIT Bombay. However, unlike conventional programming tutorials, these take a slightly different approach. Rather than reinventing the wheel, Grundy aims at bringing together a number of online tutorials and resources along with a set of pre-requisites and motivation to learn a programming skill. Here are some top articles of Wiki."
-    
-  - name: "Code in Quarantine"
-    image: "assets/images/testimonial/ciq.jpeg"
-    designation: " "
-    content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, <strong>quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</strong> Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
-    
-  - name: "Newsletter"
-    image: "assets/images/testimonial/newsletter.png"
-    designation: " "
-    content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, <strong>quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</strong> Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
-
-  - name: "Algos Simplified"
-    image: "assets/images/testimonial/client-1.png"
-    designation: " "
-    content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, <strong>quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</strong> Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
-
   - name: "Seasons of Code"
-    image: "assets/images/testimonial/soc.png"
+    image: "assets/images/testimonial/SoC (1).png"
     designation: " "
     content: "Seasons of Code is a programme launched by the WnCC, along the lines of GSoC without much greenery though. The idea is that one can choose from the projects offered by mentors who are senior undergrads, doctorate students or professors, and in some exceptional cases, startups. The projects floated span several genres, including Development, Scientific Computation, Machine Learning and Open Source. With most of the projects running in summer, we’ve also had projects that have extended into the semester and some in winter."
+  
+  - name: "WnCC Wiki- Grundy"
+    image: "assets/images/testimonial/Grundy.png"
+    designation : " "
+    content : "It is an educational wiki, meant to help beginners get started with programming. It’s got 100+ articles, on various programming topics. All tutorials are hand-tailored by students of IIT Bombay. However, unlike conventional programming tutorials, these take a slightly different approach. Rather than reinventing the wheel, Grundy aims at bringing together a number of online tutorials and resources along with a set of pre-requisites and motivation to learn a programming skill. Here are some top articles of Wiki."
+   
+  - name: "Learner's Space"
+    image: "assets/images/testimonial/ls (1).png"
+    designation: " "
+    content: " Learners’ Space, is a programme done in collaboration with the Career cell, where enthusiastic students can pursue courses of their interest. It serves as an excellent platform for students to learn new things and make the most out of summer vacations. WnCC runs courses on a variety of topics ranging from Python, Machine Learning to Web/App development. Material (Tutorials, References & Documentation) is released, along with weekly assignments/projects allowing students to implement all that they have learned. " 
+  
+  - name: "Newsletter"
+    image: "assets/images/testimonial/news (1).png"
+    designation: " "
+    content: "WnCC runs a fortnightly newsletter keep people updated with the latest tech and coding info . It contains some very interesting and innovative articles and developments related to programming. "
+  
+  - name: "Code in Quarantine"
+    image: "assets/images/testimonial/ciq (1).jpg"
+    designation: " "
+    content: "Code in Quarantine was a venture by WnCC aimed to help people begin their journey in programming. It spanned 8 weeks and covered a variety of topics such as Machine Learning, Competitive Programming, Web development, Blockchain etc. Beginner friendly resources and tutorials were shared along with tasks to help strengthen the concepts. "
+
   - name: "Reflections"
-    image: "assets/images/testimonial/reflections.jpg"
+    image: "assets/images/testimonial/reflections (1).jpg"
     designation: " "
     content: "Reflections are our beloved series of informal events that aim to give one an idea of the breadth of Computer Science. These are mostly conducted in Hostel Lounges, where speakers discuss about their CS research projects conducted as RnDs or internships. The problems discussed are usually very specific, but the discussion often covers an overview, providing a general understanding of the topic."
 #-------------------------------
