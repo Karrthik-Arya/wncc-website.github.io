@@ -245,8 +245,86 @@ soc-label:
     title : "2020",
     type : "2020"
   }
+-  {
+    title : "2021",
+    type : "2021"
+  }
 
 soc-items:
+  - title : "Introduction to Web Development"
+    image_small: "assets/images/soc/2021/small_item-1.jpg"
+    image : "assets/images/soc/2021/item-1.jpg"
+    url: "/soc/projects/2021/project-1"
+    soc-type:
+     - type: "Development" 
+     - type: "2021"
+
+  - title : "(Un)Clear"
+    image_small: "assets/images/soc/2021/small_item-2.png"
+    image : "assets/images/soc/2021/item-2.png"
+    url: "/soc/projects/2021/project-2"
+    soc-type:
+     - type: "Machine Learning" 
+     - type: "2021"
+
+  - title : "Goal ICPC"
+    image_small: "assets/images/soc/2021/small_item-3.png"
+    image : "assets/images/soc/2021/item-3.png"
+    url: "/soc/projects/2021/project-3"
+    soc-type:
+     - type: "Miscellaneous" 
+     - type: "2021"
+
+  - title : "Traffic congestion modelling and rendering"
+    image_small: "assets/images/soc/2021/small_item-4.jpg"
+    image : "assets/images/soc/2021/item-4.jpg"
+    url: "/soc/projects/2021/project-4"
+    soc-type:
+     - type: "Development" 
+     - type: "Graphics"
+     - type: "2021"
+
+  - title : "PyRated"
+    image_small: "assets/images/soc/2021/small_item-5.png"
+    image : "assets/images/soc/2021/item-5.png"
+    url: "/soc/projects/2021/project-5"
+    soc-type:
+     - type: "Machine Learning" 
+     - type: "2021"
+
+  - title : "Tools for Data Science"
+    image_small: "assets/images/soc/2021/small_item-6.png"
+    image : "assets/images/soc/2021/item-6.png"
+    url: "/soc/projects/2021/project-6"
+    soc-type:
+     - type: "Machine Learning" 
+     - type: "2021"
+
+  - title : "Machine Learning Based Metropolitan Air Pollution Estimation"
+    image_small: "assets/images/soc/2021/small_item-7.jpg"
+    image : "assets/images/soc/2021/item-7.jpg"
+    url: "/soc/projects/2021/project-7"
+    soc-type:
+     - type: "Machine Learning"
+     - type: "Graphics" 
+     - type: "2021"
+
+  - title : "Audio Controlled Drone"
+    image_small: "assets/images/soc/2021/small_item-8.jpeg"
+    image : "assets/images/soc/2021/item-8.jpeg"
+    url: "/soc/projects/2021/project-8"
+    soc-type:
+     - type: "Machine Learning" 
+     - type: "2021"
+
+  - title : "NLPlay with Transformers"
+    image_small: "assets/images/soc/2021/small_item-9.png"
+    image : "assets/images/soc/2021/item-9.png"
+    url: "/soc/projects/2021/project-9"
+    soc-type:
+     - type: "Machine Learning" 
+     - type: "2021"
+  
   - title : "Why The Hype Around GANs"
     image_small: "assets/images/soc/item-1_small.png"
     image : "assets/images/soc/item-1.png"
