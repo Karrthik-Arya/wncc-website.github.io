@@ -83,9 +83,15 @@ permalink: /soc/
     <div class="row row-eq-height shuffle-wrapper">
       {% for item in site.data.settings.soc-items %}
       <div class="col-lg-4 col-6 mb-4 shuffle-item" data-groups="[{% for soc in item.soc-type %}{% if forloop.first == true %}{% else %},{% endif %}&quot;{{ soc.type }}&quot;{% endfor %}]">
+<<<<<<< HEAD
         <div class="rounded hover-wrapper border pr-3 pl-3 pt-3 pb-3" href="{{ item.url }}" style = "height:350px">
           <a href = "{{item.url}}">
           <span class="rounded"> <p class="lead text-center" ><strong>{{ item.title }}</strong></p> <img src="{{ site.baseurl }}/{{ item.image_small }}" alt="{{ item.title }}" class="img-fluid  w-100 d-block mt-5 h-75"></span>
+=======
+        <div class="rounded hover-wrapper border pr-3 pl-3 pt-3 pb-3" href="{{site.baseutl}}{{ item.url }}" style = "height:350px">
+          <a href = "{{ site.baseurl }}{{item.url}}">
+          <span class="rounded"> <p class="lead" >{{ item.title }}</p> <img src="{{ site.baseurl }}/{{ item.image_small }}" alt="{{ item.title }}" class="img-fluid  w-100 d-block mt-5 h-75"></span>
+>>>>>>> 6ade020fa621226ee47b9b2fc131bb3c83a599c7
           <div class="hover-overlay">
           </div>
           </a>
