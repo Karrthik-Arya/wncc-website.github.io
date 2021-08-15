@@ -73,7 +73,7 @@ permalink: /soc/
       {% for item in site.data.settings.soc-items %}
       <div class="col-lg-4 col-6 mb-4 shuffle-item" data-groups="[{% for soc in item.soc-type %}{% if forloop.first == true %}{% else %},{% endif %}&quot;{{ soc.type }}&quot;{% endfor %}]">
         <div class="rounded hover-wrapper border pr-3 pl-3 pt-3 pb-3" href="{{site.baseutl}}{{ item.url }}" style = "height:350px">
-          <a href = "https://karrthik-arya.github.io/wncc-website.github.io/soc/">
+          <a href = "{{ site.baseurl }}">
           <span class="rounded"> <p class="lead" >{{ item.title }}</p> <img src="{{ site.baseurl }}/{{ item.image_small }}" alt="{{ item.title }}" class="img-fluid  w-100 d-block mt-5 h-75"></span>
           <div class="hover-overlay">
           </div>
