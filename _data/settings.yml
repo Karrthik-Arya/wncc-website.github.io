@@ -8,7 +8,7 @@ phone: 0000
 address: IIT Bombay, Powai, Mumbai, Maharashtra
 
 menu:
-- {name: Resources, link: '/resources/'}
+- {name: Resources, link: '{{ site.baseurl }}/resources/'}
 - {name: SoC, link: '/soc/'}
 - {name: Events, link: '/events/'}
 - {name: Contact, link: '/contact/'}
