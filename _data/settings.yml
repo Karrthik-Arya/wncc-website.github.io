@@ -1020,6 +1020,13 @@ resources-items:
     btn-title: "Visit Algorithms Simplified"
     btn-link: "https://github.com/wncc/CodeInQuarantine"
     
+  - title: "Learner's Space 2021"
+    fdis: "Undergraduate Acadamic Council(UGAC), IIT Bomabay launched a month long technical summer school with Web and Coding Club in summers 2021. In this, week wise tutorials for some of the most interesting and essential technical skills, were provided to students."
+    name: "ls21"
+    ldis: "These tutorials contain mixture of important articles, videos and assignments that can help understand these topics better and content is divided week-wise to manage time. If you are looking for learning one of these skills, then these resources can help you find easy and nice content."
+    btn-title: "Get Started"
+    btn-link: "https://github.com/wncc/TSS-2021"
+
   - title: "Learner's Space 2020"
     fdis: "Undergraduate Acadamic Council(UGAC), IIT Bomabay launched a two months long technical summer school with Web and Coding Club in summers 2020. In this, week wise tutorials of python, machine learning and web development, three of the most hot-tech-skills, were provided to more then 600 students."
     name: "ls"
@@ -1127,7 +1134,23 @@ ls:
   - title: "Machine Learning"
     discription: ""
     link: "https://github.com/wncc/learners-space/tree/master/Machine%20Learning"
-    image: "ls3.png"  
+    image: "ls3.png"
+
+ls21:
+  - title: "Python and its Applications"
+    discription: ""
+    link: "https://github.com/wncc/TSS-2021/tree/main/Python%20%26%20its%20Applications"
+    image: "tss1.png"  
+
+  - title: "Intro to App Development"
+    discription: ""
+    link: "https://github.com/wncc/TSS-2021/tree/main/Intro%20to%20App%20Development"
+    image: "tss2.png"  
+
+  - title: "Fundamentals of MLOps"
+    discription: ""
+    link: "https://github.com/wncc/TSS-2021/tree/main/Fundamentals%20of%20MLOps"
+    image: "tss3.png"  
 
   
 
