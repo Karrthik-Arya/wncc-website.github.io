@@ -1,0 +1,86 @@
+---
+layout: project
+title: Seasons of Code
+project: Book Tracker
+topics:
+    - Web Development
+mentors:
+    - Saket Kumar
+    - Sachin Kumar      
+    
+mentees:
+- 4 students   
+    
+permalink: /soc/projects/2021/project-37
+---
+
+<h2 class="display1 m-3 p-3 text-center">{{page.project}}</h2>
+
+{% for project in site.data.settings.soc-items %}
+{% if project.title == page.project %}
+<div>
+    <img src="{{ site.baseurl }}/{{ project.image }}"  width = "300" height="300" alt="{{ project.project}}" class="border rounded img-soc">
+</div>
+<div>
+    <br>
+    <ul>
+        {% for topic in page.topics %}
+        <li><h4 class="text-primary text-center">{{topic}}</h4></li>
+        {% endfor %}
+    </ul>
+    <br>
+    <h4 class="display3  ">Mentors :</h4> 
+    <ul>
+        {% for mentor in page.mentors %}
+        <li><p class="lead">{{mentor}}</p></li>
+        {% endfor %}
+    </ul>
+    <h4 class="display3  ">Mentees :</h4> 
+    <ul>
+        {% for mentee in page.mentees %}
+        <li><p class="lead">{{mentee}}</p></li>
+        {% endfor %}
+    </ul>
+</div>
+<div>
+    <p class="display3" style = "font-size:20px;" >
+        <br>
+        We will be building an app that gives the status or track of books that someone has already issued; this is to help those who are looking for that particular book, this help in the manner that he/she can approach the person directly for temporary help or either wait for the person to return that book to the library so that he/she can issue that book immediately. This will help the required person immediately as well as make the book of it’s best use. This idea can indeed be extended to many things and ease the book issuing system in the library.
+
+        Procedure: If a person issues a book, he/she will update or add to the app and mention the book’s name; by filtering this book, anyone (with the app installed and registered/authenticated) can know about the book. The idea is to resolve real-life problems.
+
+        Resources can find the link : < https://docs.google.com/document/d/1X18AAu01-kwY4c62lV7HUnKA6qsXp56TDkSWJjQ3fGY/edit?usp=sharing >
+  <br>
+</div>
+<div>
+    <h4 class="display3" style="margin:40px 0px 40px 0px;">Tentative Timeline :</h4>
+    <table class="table table-striped">
+    <thead>
+        <tr>
+        <th>Week</th>
+        <th>Work</th>
+        </tr>
+    </thead>
+    <tbody>
+    <tr>
+      <td style='width: 120px'>Week 1</td>
+      <td>It is expected from all the mentees to go through all the resources provided and learn the basics of all the tools that are required for the project. Setting up firebase authentication»flutter»Api. Structure for app backend should be completed. Authentication system must be completed(backend + app screen), Testing should also be completed. </td>
+    </tr>
+    <tr>
+      <td>Week 2</td>
+      <td>All api(6 or 7) should be finished.(2-3 mentees). All different screens should also get finished.(2-3 mentees)</td>
+    </tr>
+    <tr>
+      <td>Week 3</td>
+      <td>API Integration. Bug solving</td>
+    </tr>
+    <tr>
+      <td>Week 4</td>
+      <td>Final testing. Deployment</td>
+    </tr>
+    </tbody>
+    </table>
+</div>
+
+{% endif %}
+{% endfor %}

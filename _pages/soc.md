@@ -32,7 +32,7 @@ permalink: /soc/
     <div class="row">
       <div class="col-md-6 col-sm-12 text-center p-3">
         <section>
-          <img class="icon major_soc " src="/svg/light-siber-one.svg" />
+          <img class="icon major_soc " src="{{ site.baseurl }}/svg/light-siber-one.svg" />
           <h3 class="text-white">Padawan</h3>
           <p class="text-white">The Force is strong with you. <br> Train yourself to let go of everything you fear to lose. <br> The Force will be with you always.<br> Ready are you?</p><br />
           <a target="_blank" type="button" href="https://forms.gle/6hSaLUSB8Gfeogw7A" class="btn btn-info ">Become a Padawan</a>
@@ -40,7 +40,7 @@ permalink: /soc/
       </div>
       <div class="col-md-6 col-sm-12 text-center p-3">
         <section>
-          <img class="icon major_soc" src="/svg/light-siber.svg" />
+          <img class="icon major_soc" src="{{ site.baseurl }}/svg/light-siber.svg" />
           <h3 class="text-white">Master</h3>
           <p class="text-white">I can feel you code. <br> It gives you focus. It makes you stronger. <br> Use the force <br> and someday you will be the most powerful Jedi ever.</p><br />
           <a target="_blank" type="button" href="https://goo.gl/forms/1WXW4oSDwlCHD4313" class="btn btn-info">Become a Master</a>

@@ -1,0 +1,75 @@
+I"�
+<h2 class="display1 m-3 p-3 text-center">Developing Hybrid ANN-Statistical Model for Robust Stock Market Prediction</h2>
+
+<div>
+    <img src="/assets/images/soc/2021/item-17.png" width="300" height="300" alt="" class="border rounded img-soc" />
+</div>
+<div>
+    <br />
+    <ul>
+        
+        <li><h4 class="text-primary text-center">Machine Learning</h4></li>
+        
+    </ul>
+    <br />
+    <h4 class="display3  ">Mentors :</h4> 
+    <ul>
+        
+        <li><p class="lead">Shantanu Gulawani</p></li>
+        
+    </ul>
+    <h4 class="display3  ">Mentees :</h4> 
+    <ul>
+        
+        <li><p class="lead">3</p></li>
+        
+    </ul>
+</div>
+<div>
+    <p class="display3" style="font-size:20px;">
+        <br />
+        The volatility of stock market is generally modeled by three techniques; namely Technical Analysis, Machine Learning algorithms &amp; statistical analysis. These models help in developing optimal portfolio for best returns with minimum risk.
+        <br /><br />
+        A hybrid Artificial Neural Network &amp; Time series analysis based statistical approach has the potential to obtain robustness in the prediction. This will essentially make possible to predict the seasonal volatility in market as well as currency value prediction.
+        <br /><br />
+        With this project, efficacy of various techniques shall be benchmarked with plenty of daily stock market data.
+        <br /><br />
+        I suggest to read following Paper:
+        <br />
+        Yan Hu, Jian Ni, Liu Wen, “A hybrid deep learning approach by integrating LSTM-ANN networks with GARCH model for copper price volatility prediction,” Physica A: Statistical Mechanics and its Applications, Volume 557, 2020, 124907, ISSN 0378-4371, <a href="https://doi.org/10.1016/j.physa.2020.124907">https://doi.org/10.1016/j.physa.2020.124907</a>.
+        <br /><br />
+        Applicants are welcome to contact me on Whatsapp, if unable to obtain the above document or to obtain more information.
+        <br />
+    </p>
+</div>
+<div>
+    <h4 class="display3" style="margin:40px 0px 40px 0px;">Tentative Timeline :</h4>
+    <table class="table table-striped">
+  <thead>
+    <tr>
+      <th>Week Number</th>
+      <th>Tasks to be Completed</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><strong>Week 1</strong></td>
+      <td>Literature Reviews</td>
+    </tr>
+    <tr>
+      <td><strong>Week 2</strong></td>
+      <td>Developing fundamental framework</td>
+    </tr>
+    <tr>
+      <td><strong>Week 3-4</strong></td>
+      <td>Benchmarking Algorithms</td>
+    </tr>
+    <tr>
+      <td><strong>Week 5-6</strong></td>
+      <td>Further development and Validation; Project Closure &amp; Packaging</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+
+:ET

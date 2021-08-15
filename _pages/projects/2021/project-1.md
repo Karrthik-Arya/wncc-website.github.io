@@ -46,6 +46,7 @@ permalink: /soc/projects/2021/project-1
         <br>
         This will teach you to develop a website using various tools like HTML, CSS , JavaScript, PHP Angular and a few other tools. There are no prerequisites for this, however having basic idea of HTML will help.
         <br>
+    </p>
 </div>
 <div>
     <h4 class="display3" style="margin:40px 0px 40px 0px;">Tentative Timeline :</h4>

@@ -306,7 +306,6 @@ soc-items:
     url: "/soc/projects/2021/project-7"
     soc-type:
      - type: "Machine Learning"
-     - type: "Graphics" 
      - type: "2021"
 
   - title : "Audio Controlled Drone"
@@ -324,7 +323,342 @@ soc-items:
     soc-type:
      - type: "Machine Learning" 
      - type: "2021"
+
+  - title : "DIY FaceApp"
+    image_small: "assets/images/soc/2021/small_item-10.jpg"
+    image : "assets/images/soc/2021/item-10.jpg"
+    url: "/soc/projects/2021/project-10"
+    soc-type:
+     - type: "Machine Learning"
+     - type: "Graphics" 
+     - type: "2021"
   
+  - title : "A Deep Dive into CNNs"
+    image_small: "assets/images/soc/2021/small_item-11.jpg"
+    image : "assets/images/soc/2021/item-11.jpg"
+    url: "/soc/projects/2021/project-11"
+    soc-type:
+     - type: "Machine Learning" 
+     - type: "2021"
+
+  - title : "Snake AI"
+    image_small: "assets/images/soc/2021/small_item-12.jpg"
+    image : "assets/images/soc/2021/item-12.jpg"
+    url: "/soc/projects/2021/project-12"
+    soc-type:
+     - type: "Machine Learning" 
+     - type: "2021"
+
+  - title : "Facial Recognition App"
+    image_small: "assets/images/soc/2021/small_item-13.jpg"
+    image : "assets/images/soc/2021/item-13.jpg"
+    url: "/soc/projects/2021/project-13"
+    soc-type:
+     - type: "Machine Learning" 
+     - type: "Graphics"
+     - type: "2021"
+
+  - title : "Gaming meets AI !!!"
+    image_small: "assets/images/soc/2021/small_item-14.jpg"
+    image : "assets/images/soc/2021/item-14.jpg"
+    url: "/soc/projects/2021/project-14"
+    soc-type:
+     - type: "Machine Learning" 
+     - type: "2021"
+
+  - title : "R(ea)L Trader"
+    image_small: "assets/images/soc/2021/small_item-15.jpeg"
+    image : "assets/images/soc/2021/item-15.jpeg"
+    url: "/soc/projects/2021/project-15"
+    soc-type:
+     - type: "Machine Learning" 
+     - type: "2021" 
+    
+  - title : "Computational Geometry"
+    image_small: "assets/images/soc/2021/small_item-16.png"
+    image : "assets/images/soc/2021/item-16.png"
+    url: "/soc/projects/2021/project-16"
+    soc-type:
+     - type: "Miscellaneous" 
+     - type: "2021"
+
+  - title : "Developing Hybrid ANN-Statistical Model for Robust Stock Market Prediction"
+    image_small: "assets/images/soc/2021/small_item-17.png"
+    image : "assets/images/soc/2021/item-17.png"
+    url: "/soc/projects/2021/project-17"
+    soc-type:
+     - type: "Machine Learning" 
+     - type: "2021"
+
+  - title : "Si-Phy"
+    image_small: "assets/images/soc/2021/small_item-18.jpg"
+    image : "assets/images/soc/2021/item-18.jpg"
+    url: "/soc/projects/2021/project-18"
+    soc-type:
+     - type: "Development" 
+     - type: "2021"
+
+  - title : "Astronomical Data-modelling and Interpretation"
+    image_small: "assets/images/soc/2021/small_item-19.png"
+    image : "assets/images/soc/2021/item-19.png"
+    url: "/soc/projects/2021/project-19"
+    soc-type:
+     - type: "Machine Learning" 
+     - type: "Graphics"
+     - type: "2021"
+
+  - title : "Visual Perception for Self Driving Cars"
+    image_small: "assets/images/soc/2021/small_item-20.png"
+    image : "assets/images/soc/2021/item-20.png"
+    url: "/soc/projects/2021/project-20"
+    soc-type:
+     - type: "Machine Learning" 
+     - type: "Graphics"
+     - type: "2021"
+
+  - title : "Convolutional Neural Networks and Applications"
+    image_small: "assets/images/soc/2021/small_item-21.png"
+    image : "assets/images/soc/2021/item-21.png"
+    url: "/soc/projects/2021/project-21"
+    soc-type:
+     - type: "Machine Learning" 
+     - type: "2021"
+
+  - title : "Quantum Computing Algorithms"
+    image_small: "assets/images/soc/2021/small_item-22.jpg"
+    image : "assets/images/soc/2021/item-22.jpg"
+    url: "/soc/projects/2021/project-22"
+    soc-type:
+     - type: "Miscellaneous" 
+     - type: "2021"
+  
+  - title : "Algorithm Visualizer"
+    image_small: "assets/images/soc/2021/small_item-23.png"
+    image : "assets/images/soc/2021/item-23.png"
+    url: "/soc/projects/2021/project-23"
+    soc-type:
+     - type: "Development" 
+     - type: "2021"
+  
+  - title : "Anime Club IITB Website using Django"
+    image_small: "assets/images/soc/2021/small_item-24.png"
+    image : "assets/images/soc/2021/item-24.png"
+    url: "/soc/projects/2021/project-24"
+    soc-type:
+     - type: "Development" 
+     - type: "2021"
+
+  - title : "Machine Learning in Browser"
+    image_small: "assets/images/soc/2021/small_item-25.jpeg"
+    image : "assets/images/soc/2021/item-25.jpeg"
+    url: "/soc/projects/2021/project-25"
+    soc-type:
+     - type: "Machine Learning" 
+     - type: "Development"
+     - type: "2021"
+
+  - title : "Browser Based PDF Manager"
+    image_small: "assets/images/soc/2021/small_item-26.jpeg"
+    image : "assets/images/soc/2021/item-26.jpeg"
+    url: "/soc/projects/2021/project-26"
+    soc-type:
+     - type: "Machine Learning" 
+     - type: "2021"
+
+
+  - title : "Resume Script Generator"
+    image_small: "assets/images/soc/2021/small_item-27.webp"
+    image : "assets/images/soc/2021/item-27.webp"
+    url: "/soc/projects/2021/project-27"
+    soc-type:
+     - type: "Machine Learning" 
+     - type: "2021"
+
+  - title : "Competative Coding"
+    image_small: "assets/images/soc/2021/small_item-28.png"
+    image : "assets/images/soc/2021/item-28.png"
+    url: "/soc/projects/2021/project-28"
+    soc-type:
+     - type: "Development" 
+     - type: "2021"
+
+  - title : "Deep reinforcement learning - 2048 AI"
+    image_small: "assets/images/soc/2021/small_item-29.jpg"
+    image : "assets/images/soc/2021/item-29.jpg"
+    url: "/soc/projects/2021/project-29"
+    soc-type:
+     - type: "Machine Learning" 
+     - type: "2021"
+
+  - title : "Reinforcement Learning to Finance"
+    image_small: "assets/images/soc/2021/small_item-30.png"
+    image : "assets/images/soc/2021/item-30.png"
+    url: "/soc/projects/2021/project-30"
+    soc-type:
+     - type: "Machine Learning" 
+     - type: "2021"
+
+  - title : "Physicc - A Simple Physics Engine"
+    image_small: "assets/images/soc/2021/small_item-31.jpeg"
+    image : "assets/images/soc/2021/item-31.jpeg"
+    url: "/soc/projects/2021/project-31"
+    soc-type:
+     - type: "Machine Learning" 
+     - type: "2021"
+
+  - title : "Image Colorization"
+    image_small: "assets/images/soc/2021/small_item-32.png"
+    image : "assets/images/soc/2021/item-32.png"
+    url: "/soc/projects/2021/project-32"
+    soc-type:
+     - type: "Machine Learning" 
+     - type: "2021"
+
+  - title : "Language Model Based Syntax Autocompletion in a Text Editor"
+    image_small: "assets/images/soc/2021/small_item-33.png"
+    image : "assets/images/soc/2021/item-33.png"
+    url: "/soc/projects/2021/project-33"
+    soc-type:
+     - type: "Machine Learning" 
+     - type: "2021"
+
+  - title : "Computer vision based web app"
+    image_small: "assets/images/soc/2021/small_item-34.jpeg"
+    image : "assets/images/soc/2021/item-34.jpeg"
+    url: "/soc/projects/2021/project-34"
+    soc-type:
+     - type: "Machine Learning" 
+     - type: "2021"
+
+  - title : "Techster Texter"
+    image_small: "assets/images/soc/2021/small_item-35.jpeg"
+    image : "assets/images/soc/2021/item-35.jpeg"
+    url: "/soc/projects/2021/project-35"
+    soc-type:
+     - type: "Machine Learning" 
+     - type: "2021"
+
+  - title : "Language Detection"
+    image_small: "assets/images/soc/2021/small_item-36.jpg"
+    image : "assets/images/soc/2021/item-36.jpg"
+    url: "/soc/projects/2021/project-36"
+    soc-type:
+     - type: "Machine Learning" 
+     - type: "2021"
+
+  - title : "Book Tracker"
+    image_small: "assets/images/soc/2021/small_item-37.jpg"
+    image : "assets/images/soc/2021/item-37.jpg"
+    url: "/soc/projects/2021/project-37"
+    soc-type:
+     - type: "Machine Learning" 
+     - type: "2021"
+
+  - title : "ResoBin - Not the bin we deserve but the bin we need!"
+    image_small: "assets/images/soc/2021/small_item-38.jpg"
+    image : "assets/images/soc/2021/item-38.jpg"
+    url: "/soc/projects/2021/project-38"
+    soc-type:
+     - type: "Machine Learning" 
+     - type: "2021"
+
+  - title : "Cribbit Cribbit (Open for PGs Only)"
+    image_small: "assets/images/soc/2021/small_item-39.png"
+    image : "assets/images/soc/2021/item-39.png"
+    url: "/soc/projects/2021/project-39"
+    soc-type:
+     - type: "Machine Learning" 
+     - type: "2021"
+  
+  - title : "Moodify"
+    image_small: "assets/images/soc/2021/small_item-40.png"
+    image : "assets/images/soc/2021/item-40.png"
+    url: "/soc/projects/2021/project-40"
+    soc-type:
+     - type: "Machine Learning" 
+     - type: "2021"
+       
+  - title : "Agree to Disagree"
+    image_small: "assets/images/soc/2021/small_item-41.jpg"
+    image : "assets/images/soc/2021/item-41.jpg"
+    url: "/soc/projects/2021/project-41"
+    soc-type:
+     - type: "Machine Learning" 
+     - type: "2021"
+       
+  - title : "Unscripted"
+    image_small: "assets/images/soc/2021/small_item-42.png"
+    image : "assets/images/soc/2021/item-42.png"
+    url: "/soc/projects/2021/project-42"
+    soc-type:
+     - type: "Machine Learning" 
+     - type: "2021"
+       
+  - title : "Watson (World's smartest assistant in your pocket)"
+    image_small: "assets/images/soc/2021/small_item-43.png"
+    image : "assets/images/soc/2021/item-43.png"
+    url: "/soc/projects/2021/project-43"
+    soc-type:
+     - type: "Machine Learning" 
+     - type: "2021"
+       
+  - title : "Introduction to App Development"
+    image_small: "assets/images/soc/2021/small_item-44.jpg"
+    image : "assets/images/soc/2021/item-44.jpg"
+    url: "/soc/projects/2021/project-44"
+    soc-type:
+     - type: "Machine Learning" 
+     - type: "2021"
+       
+  - title : "IITinder"
+    image_small: "assets/images/soc/2021/small_item-45.jpeg"
+    image : "assets/images/soc/2021/item-45.jpeg"
+    url: "/soc/projects/2021/project-45"
+    soc-type:
+     - type: "Machine Learning" 
+     - type: "2021"
+       
+  - title : "BriefKing"
+    image_small: "assets/images/soc/2021/small_item-46.jpeg"
+    image : "assets/images/soc/2021/item-46.jpeg"
+    url: "/soc/projects/2021/project-46"
+    soc-type:
+     - type: "Machine Learning" 
+     - type: "2021"
+     
+   
+  - title : "Meta Learning - Learning to Learn"
+    image_small: "assets/images/soc/2021/small_item-47.jpeg"
+    image : "assets/images/soc/2021/item-47.jpeg"
+    url: "/soc/projects/2021/project-47"
+    soc-type:
+     - type: "Machine Learning" 
+     - type: "2021"
+        
+  - title : "Break free of the matrix, by building one!"
+    image_small: "assets/images/soc/2021/small_item-48.jpeg"
+    image : "assets/images/soc/2021/item-48.jpeg"
+    url: "/soc/projects/2021/project-48"
+    soc-type:
+     - type: "Machine Learning" 
+     - type: "2021"
+        
+  - title : "Procedurally Generated Infinite Open World"
+    image_small: "assets/images/soc/2021/small_item-49.jpeg"
+    image : "assets/images/soc/2021/item-49.jpeg"
+    url: "/soc/projects/2021/project-49"
+    soc-type:
+     - type: "Machine Learning" 
+     - type: "2021"
+        
+  - title : "PAC MAN"
+    image_small: "assets/images/soc/2021/small_item-50.png"
+    image : "assets/images/soc/2021/item-50.png"
+    url: "/soc/projects/2021/project-50"
+    soc-type:
+     - type: "Machine Learning" 
+     - type: "2021"
+
   - title : "Why The Hype Around GANs"
     image_small: "assets/images/soc/item-1_small.png"
     image : "assets/images/soc/item-1.png"
