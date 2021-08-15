@@ -141,21 +141,55 @@
     });
 
     // Shuffle js filter and masonry
-    var Shuffle = window.Shuffle;
     var jQuery = window.jQuery;
+    var Shuffle = window.Shuffle;
 
     var myShuffle = new Shuffle(document.querySelector('.shuffle-wrapper'), {
         itemSelector: '.shuffle-item',
-        buffer: 1
+        buffer: 1,
+        filterMode: Shuffle.FilterMode.ALL
     });
 
-    jQuery('input[name="shuffle-filter"]').on('change', function (evt) {
-        var input = evt.currentTarget;
-        if (input.checked) {
-            myShuffle.filter(input.value);
+    jQuery('input[name="shuffle-filter"]').on('change', function (evt1) {
+        var input1 = evt1.currentTarget;
+        let x =0;
+        jQuery('input[name="shuffle-filter1"]').on('change', function (evt2){
+            x =1;
+            var input2 = evt2.currentTarget;
+            if(input1.value == "all"){
+                myShuffle.filter(input2.value);
+            }else if (input2.value == "all"){
+                myShuffle.filter(input1.value);
+            }
+            else{
+                myShuffle.filter([input1.value, input2.value]);
+            }
+        
+        });
+        if(x == 0){
+            myShuffle.filter(input1.value);
         }
     });
 
+    jQuery('input[name="shuffle-filter1"]').on('change', function (evt2) {
+        var input2 = evt2.currentTarget;
+        let x = 0;
+        jQuery('input[name="shuffle-filter"]').on('change', function (evt1){
+            x =1;
+            var input1 = evt1.currentTarget;
+            if(input1.value == "all"){
+                myShuffle.filter(input2.value);
+            }else if (input2.value == "all"){
+                myShuffle.filter(input1.value);
+            }
+            else{
+                myShuffle.filter([input1.value, input2.value]);
+            }
+        });
+        if(x == 0){
+            myShuffle.filter(input2.value);
+        }
+    });
 
 
 })(jQuery);

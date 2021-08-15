@@ -61,9 +61,20 @@ permalink: /soc/
           <label class="btn btn-sm btn-primary active">
             <input type="radio" name="shuffle-filter" value="all" checked="checked" />All
           </label>
-          {% for label in site.data.settings.soc-label %}
+          {% for label in site.data.settings.soc-type-label %}
           <label class="btn btn-sm btn-primary">
             <input type="radio" name="shuffle-filter" value="{{ label.type }}" />{{ label.title }}
+          </label>
+          {% endfor %}
+        </div>
+        <br>
+        <div class="btn-group btn-group-toggle justify-content-center d-flex scroll"  data-toggle="buttons">
+          <label class="btn btn-sm btn-primary active">
+            <input type="radio" name="shuffle-filter1" value="all" checked="checked" />All
+          </label>
+          {% for label in site.data.settings.soc-year-label %}
+          <label class="btn btn-sm btn-primary">
+            <input type="radio" name="shuffle-filter1" value="{{ label.type }}" />{{ label.title }}
           </label>
           {% endfor %}
         </div>
@@ -74,7 +85,7 @@ permalink: /soc/
       <div class="col-lg-4 col-6 mb-4 shuffle-item" data-groups="[{% for soc in item.soc-type %}{% if forloop.first == true %}{% else %},{% endif %}&quot;{{ soc.type }}&quot;{% endfor %}]">
         <div class="rounded hover-wrapper border pr-3 pl-3 pt-3 pb-3" href="{{ item.url }}" style = "height:350px">
           <a href = "{{item.url}}">
-          <span class="rounded"> <p class="lead" >{{ item.title }}</p> <img src="{{ site.baseurl }}/{{ item.image_small }}" alt="{{ item.title }}" class="img-fluid  w-100 d-block mt-5 h-75"></span>
+          <span class="rounded"> <p class="lead text-center" ><strong>{{ item.title }}</strong></p> <img src="{{ site.baseurl }}/{{ item.image_small }}" alt="{{ item.title }}" class="img-fluid  w-100 d-block mt-5 h-75"></span>
           <div class="hover-overlay">
           </div>
           </a>
