@@ -58,6 +58,9 @@ permalink: /soc/
     <div class="row mb-5">
       <div class="col-12">
         <div class="btn-group btn-group-toggle justify-content-center d-flex scroll"  data-toggle="buttons">
+          <label class="btn btn-sm btn-primary disabled" style = "pointer-events:none">
+          Topic:
+          </label>
           <label class="btn btn-sm btn-primary active">
             <input type="radio" name="shuffle-filter" value="all" checked="checked" />All
           </label>
@@ -69,6 +72,9 @@ permalink: /soc/
         </div>
         <br>
         <div class="btn-group btn-group-toggle justify-content-center d-flex"  data-toggle="buttons">
+          <label class="btn btn-sm btn-primary disabled" style = "pointer-events:none">
+          Year:
+          </label>
           <label class="btn btn-sm btn-primary active">
             <input type="radio" name="shuffle-filter1" value="all" checked="checked" />All
           </label>
@@ -85,7 +91,7 @@ permalink: /soc/
       <div class="col-lg-4 col-6 mb-4 shuffle-item" data-groups="[{% for soc in item.soc-type %}{% if forloop.first == true %}{% else %},{% endif %}&quot;{{ soc.type }}&quot;{% endfor %}]">
         <div class="shadow-sm rounded hover-wrapper pr-3 pl-3 pt-3 pb-3 bg-white border-top border-right" href="{{site.baseutl}}{{ item.url }}" style = "height:350px">
           <a href = "{{ site.baseurl }}{{item.url}}">
-          <span class="rounded"> <p class="lead text-center" ><strong>{{ item.title }}</strong></p> <img src="{{ site.baseurl }}/{{ item.image_small }}" alt="{{ item.title }}" class="img-fluid  w-100 d-block mt-5 h-75 rounded"></span>
+          <span class="rounded"> <p class="lead text-center font-weight-bold" >{{ item.title }}</p> <img src="{{ site.baseurl }}/{{ item.image_small }}" alt="{{ item.title }}" class="img-fluid  w-100 d-block mt-5 h-75 rounded"></span>
           <div class="hover-overlay rounded">
           </div>
           </a>
