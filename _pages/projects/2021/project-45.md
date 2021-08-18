@@ -45,7 +45,6 @@ permalink: /soc/projects/2021/project-45
 <div>
     <p class="display3" style = "font-size:20px;" >
         <br>
-        <p>
         Description:
         
         Okay,then how is it different from Tinder?
