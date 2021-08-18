@@ -45,7 +45,9 @@ permalink: /soc/projects/2021/project-39
     <p class="display3" style = "font-size:20px;" >
         <br>
         Design an online secure portal to file and redress exam cribs. Profs and TAs will have the roles of moderator, whereas students can file cribs.
-        <br>
+
+Goal: Design an online secure portal to file and redress exam cribs. Profs and TAs will have the roles of moderator, whereas students can file cribs.
+      </p>  <br>
 </div>
 <div>
     <h4 class="display3" style="margin:40px 0px 40px 0px;">Tentative Timeline :</h4>

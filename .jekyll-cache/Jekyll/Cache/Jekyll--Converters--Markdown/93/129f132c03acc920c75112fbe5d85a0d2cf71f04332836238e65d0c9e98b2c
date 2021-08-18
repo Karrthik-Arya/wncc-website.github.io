@@ -1,0 +1,177 @@
+I"N<h2 class="display1 m-3 p-3 text-center">Reinforcement Learning to Finance</h2>
+
+<div>
+    <img src="/wncc-website.github.io/assets/images/soc/2021/item-30.png" width="300" height="300" alt="" class="border rounded img-soc" />
+</div>
+<div>
+    <br />
+    <ul>
+        
+        <li><h4 class="text-primary text-center">Machine Learning</h4></li>
+        
+    </ul>
+    <br />
+    <h4 class="display3  ">Mentors :</h4> 
+    <ul>
+        
+        <li><p class="lead">Siddesh Pawar</p></li>
+        
+    </ul>
+    <h4 class="display3  ">Mentees :</h4> 
+    <ul>
+        
+        <li><p class="lead">5(freshies) + 3(sophies and above)</p></li>
+        
+    </ul>
+</div>
+<div>
+    <p class="display3" style="font-size:20px;">
+        <br /><p>
+        The experiments would be carried using libraries: OpenAI Gym and FinRL. A strong inclination towards mathematics is required(this should reflect in the proposal). The project would include experiments on NASDAQ-100, DJIA, S&amp;P 500, HSI datasets. The tasks would be different for freshies and sophies. The task for freshies would be more focussed on reinforcement learning algorithms with a few experiments on the datasets towards the end. The ones for sophies would be heavier on the implementation side. The project would include contribution to the Note that this would be more of a reinforcement learning project than a core finance project. The final aim of the project is to set baselines for RL algorithms using different datasets.
+
+        It is mandatory to read the following blogs and summarize the content in the proposal: https://medium.com/ai%C2%B3-theory-practice-business/reinforcement-learning-part-1-a-brief-introduction-a53a849771cf
+        https://blog.floydhub.com/an-introduction-to-q-learning-reinforcement-learning/ https://deepsense.ai/what-is-reinforcement-learning-the-complete-guide/ https://analyticsindiamag.com/reinforcement-learning-in-finance-a-newbie-in-portfolio-selection-and-allocation/
+
+        Prerequisites:
+        Freshies: Prior experience in python/C++.
+        Sophies: A completed course in Machine learning and a basic course in probability. Prior exposure to convex optimization would be an add-on(but not necessary). Sophies should explicitly mention their other commitments during the summers in their proposal.
+  </p><br />
+&lt;/div&gt;
+<div>
+    <h4 class="display3" style="margin:40px 0px 40px 0px;">Tentative Timeline :</h4>
+    <table class="table table-striped">
+  <thead>
+    <tr>
+      <th>Week Number</th>
+      <th>Tasks to be Completed</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><strong>Week 1</strong></td>
+      <td>Introduction to basic RL algorithms and their implementation in Open AI Gym.</td>
+    </tr>
+    <tr>
+      <td><strong>Week 2</strong></td>
+      <td>Setting baselines in OpenAI Gym and FinRL.</td>
+    </tr>
+    <tr>
+      <td><strong>Week 3</strong></td>
+      <td>Experiments using basic online learning algorithms and MDPs(markov decision processes) on available datasets.</td>
+    </tr>
+    <tr>
+      <td><strong>Week 4</strong></td>
+      <td>Experiments using Deep RL algorithms and developing a UI.</td>
+    </tr>
+    <tr>
+      <td><strong>Week 5</strong></td>
+      <td>Pushing code to FinRL library.</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</p></div>
+:ET

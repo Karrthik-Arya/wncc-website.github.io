@@ -56,7 +56,7 @@ permalink: /soc/projects/2021/project-27
         In proposal, you must include your motivation, how will you contribute/what new you can add and why should we take you. For those who do not satisfy (Soft) prerequisite, please do also include how are you gonna cover it up(just give a brief plan, we will provide you help and resources).
 
         At the end of this, you will have hands-on-experience on one of the most used Python-Web framework, Django along with HTML, CSS, bootstrap. Also, you will learn about LaTEX, which will definetely help you in making your assignments as well as resume. Timeline will use three weeks of starting SOC period and three weeks of summer vacations.
-        
+ </p>      
 <br>
 </div>
 <div>

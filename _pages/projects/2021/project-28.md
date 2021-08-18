@@ -45,7 +45,7 @@ permalink: /soc/projects/2021/project-28
     <p class="display3" style = "font-size:20px;" >
         <br>
         Initially, mentees would focus on learning new ideas and algorithms. But eventually most of the time would be spent on implementing those algorithms using a suitable platform (preferrably codeforces) as a rating based approach helps to check track progress.
-        <br>
+        </p><br>
 </div>
 <div>
     <h4 class="display3" style="margin:40px 0px 40px 0px;">Tentative Timeline :</h4>

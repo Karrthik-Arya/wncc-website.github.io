@@ -52,7 +52,7 @@ permalink: /soc/projects/2021/project-29
             Reinforcement Learning: An Introduction Book by Andrew Barto and Richard S. Sutton is a great book for RL
 
             Prerequisites: Python programming Calculus, linear algebra and probability theory
-<br>
+</p><br>
 </div>
 <div>
     <h4 class="display3" style="margin:40px 0px 40px 0px;">Tentative Timeline :</h4>

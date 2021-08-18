@@ -46,6 +46,8 @@ permalink: /soc/projects/2021/project-33
 <div>
     <p class="display3" style = "font-size:20px;" >
         <br>
+        Description:
+
         “This project aims to build an open source code editor (like Sublime Text), that uses natural language processing to create a language model for code prediction. Natural Language Processing is used widely to build models of languages that can be used to predict the sentiment/future words/infer information from languages and the idea is to build such a model out of a codebase to create auto completions automatically. A lot of papers/projects have come up on this, we will attempt to integrate everything into a nice package. Initially we will create a simple model that learns from an existing corpus of code to create general auto completions, later on we will try to extend this to be more locally aware.
 
         Some reading (NLP):
@@ -60,7 +62,7 @@ permalink: /soc/projects/2021/project-33
         https://www.sitepoint.com/build-a-desktop-application-with-electron-and-angular/
         https://www.electronjs.org/
         The Second team will work on the NLP model. The mentors will work with them to build a good model that works decently. The aim is to initially create a language model from the code corpus and then try to implement some recent papers that add in more local awareness. We may investigate using classical code completion methods (like the ones in used in Sublime Text) to augment the NLP based approach.
-   <br>
+  </p> <br>
 </div>
 <div>
     <h4 class="display3" style="margin:40px 0px 40px 0px;">Tentative Timeline (ML) :</h4>

@@ -44,6 +44,8 @@ permalink: /soc/projects/2021/project-32
 <div>
     <p class="display3" style = "font-size:20px;" >
         <br>
+        Description:
+        
         Colorizing black and white images is one of the most exciting applications of deep learning. Out of the many available techniques, Generative Adversarial Networks(GANs) based methods have shown excellent results on this task. Referring to GANs, Facebook’s AI research director Yann LeCun called adversarial training “the most interesting idea in the last 10 years in ML”. GANs are really the biggest breakthrough in the history of AI.
 
         Image-to-image translation involves translating an image from one domain to another. It includes synthesizing photos from label maps, reconstructing objects from edge maps, and colorizing images. Pix2Pix GAN is a conditional image-to-image translation architecture which has produced really great results. This project will involve the implementation of this paper for image colorization. We can also try the other translation tasks given in the paper(if time permits).
@@ -51,6 +53,7 @@ permalink: /soc/projects/2021/project-32
         The link to the paper : https://arxiv.org/pdf/1611.07004.pdf
 
         You can take up this project even if you’re new to ML, you will just need to devote more time to it then.
+</p>
 <br>
 </div>
 <div>

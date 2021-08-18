@@ -45,12 +45,14 @@ permalink: /soc/projects/2021/project-31
 <div>
     <p class="display3" style = "font-size:20px;" >
         <br>
+        Pre-requisites: Some understanding of Object Oriented Programming, and enthu!
+        
         With this project you will get a very good idea of how the Rendering and Physics pipeline of a modern day AAA game works! We will give you an in house Renderer which you will use to render your objects. You will be required to first build a basic physics engine capable of performing the following tasks:
 
         1. Integration of Newton’s Equations of motion (figuring out positions from forces)
         2. Collision Detection
         3. Rigid body dynamics (including forces and torques)
-        4. Constrained rigid body motion With these functionalities in place you will already have in your hands a        physics engine pretty close to production quality With this finished, if time is left, you will explore more complex and efficient algorithms. You can also explore learning in detail and modifying the implementation of Rendering and our in-house Rendering Engine.
+        4. Constrained rigid body motion With these functionalities in place you will already have in your hands a physics engine pretty close to production quality With this finished, if time is left, you will explore more complex and efficient algorithms. You can also explore learning in detail and modifying the implementation of Rendering and our in-house Rendering Engine.
         Proposal:
 
         You need to submit a project proposal. Your proposal should include:
@@ -68,6 +70,7 @@ permalink: /soc/projects/2021/project-31
         Resources to learn about Rendering: https://learnopengl.com
 
         Link to Renderer: https://github.com/sanidhyaanand/Physicc
+  </p>
   <br>
 </div>
 <div>

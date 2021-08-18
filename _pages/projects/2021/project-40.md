@@ -47,6 +47,14 @@ permalink: /soc/projects/2021/project-40
         <br>
         The project targets to build a music recommender system which takes in your picture and then predicts your mood and accordingly predicts a song for you.
         <br>
+        Pre-requisites: Enthusiasm and a positive learning attitude Comfort with the concepts from CS101 and a little of Python is a plus but not mandatory
+        <br>
+        What all will be required to complete this project ? To carry out this project we’ll use Machine Learning, Deep Learning, Computer Vision and maybe some APIs and development tools too if time permits.
+        <br>
+        How do we wish to accomplish it ? We’ll first build a Face Recognition and mood predictor model using Convolutional Neural Networks (CNNs) and later integrate it with a music recommender system. If time permits, we’ll integrate this using the Spotify API to allow more variability in the selection of songs and finally deploy it as a web application.
+        <br>
+        Selection Procedure: First filter through SoP and later can have an interview or a small assignment
+        </p><br>
 </div>
 <div>
     <h4 class="display3" style="margin:40px 0px 40px 0px;">Tentative Timeline :</h4>

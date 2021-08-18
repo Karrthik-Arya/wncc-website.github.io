@@ -44,6 +44,8 @@ permalink: /soc/projects/2021/project-49
 <div>
     <p class="display3" style = "font-size:20px;" >
         <br>
+        Description:
+        
         This project is for people interested in the field of Computer Graphics and Rendering and this project will give a very good idea of the rendering pipeline used in modern game engines. The implementation will be using the OpenGL framework in C++. The engine should be capable of the following -
 
         1.Procedural generation of landmass (https://en.wikipedia.org/wiki/Procedural_generation for more details) - It is upto you to make it voxel or continuous
@@ -54,6 +56,7 @@ permalink: /soc/projects/2021/project-49
         Getting Started with openGL: https://learnopengl.com/ https://www.cse.iitb.ac.in/~paragc/teaching/2019/cs475/
 
         Noise generation for terrain: https://en.wikipedia.org/wiki/Perlin_noise https://en.wikipedia.org/wiki/Worley_noise
+  </p>
   <br>
 </div>
 <div>

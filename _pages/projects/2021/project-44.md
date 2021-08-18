@@ -45,8 +45,15 @@ permalink: /soc/projects/2021/project-44
 <div>
     <p class="display3" style = "font-size:20px;" >
         <br>
+        Description:
+
         We will be using Flutter Framework to compose user interfaces and implement functionality. Flutter is an extremely trending framework for app development that gives you a rich set of pre-built and pre-styled wireframing widgets. It uses web technologies which are easy to understand. Alibaba recently made their app in Flutter. If it’s good enough for a 25-billion dollar company, it’s worth learning.
-        <br>
+        
+        Preferred Skills: 
+        
+        Some small amount of Coding knowledge would be beneficial along with a working computer onto which you can install Flutter.
+  </p>
+  <br>
 </div>
 <div>
     <h4 class="display3" style="margin:40px 0px 40px 0px;">Tentative Timeline :</h4>

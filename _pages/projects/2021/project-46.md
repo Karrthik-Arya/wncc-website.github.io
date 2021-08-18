@@ -45,10 +45,12 @@ permalink: /soc/projects/2021/project-46
 <div>
     <p class="display3" style = "font-size:20px;" >
         <br>
+        Description:
+        
         Did you just sleep while watching a lecture and are too lazy to watch it again? Do you think a 1 hour lecture could be done away in like 10-20 mins? Or you really wanted to attend a webinar but do not have the patience to listen to the speaker for 2-3 hours?
 
         Don’t worry! BriefKing has got you covered! Briefking is an attempt to automate the day-to-day stuff that you do. The Input to this application will be “your daily class lectures” and the expected output is a brief but detailed summary of the entire lecture. This is more of a Research and Development Project. You can expect reading a lot of research papers and then implement a suitable model while keeping in mind the accuracy. We will not go deep into the topics rather it will be more of an implementation based project.
-  <br>
+  </p><br>
 </div>
 <div>
     <h4 class="display3" style="margin:40px 0px 40px 0px;">Tentative Timeline :</h4>

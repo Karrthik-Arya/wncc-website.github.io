@@ -62,7 +62,7 @@ NLP- https://www.youtube.com/watch?v=fM4qTMfCoak&list=PLZoTAELRMXVMdJ5sqbCK2LiM0
 OCR- https://www.youtube.com/watch?v=aELZtpOClWk&list=PLreVlKwe2Z0QKobecSxrheGzrgd4iXJje
 
 Github- https://github.com/tejpal123456789/Natural-Language-Processing/blob/main/language_detection.ipynb
-        <br>
+       </p> <br>
 </div>
 <div>
     <h4 class="display3" style="margin:40px 0px 40px 0px;">Tentative Timeline :</h4>

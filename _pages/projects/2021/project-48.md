@@ -44,9 +44,14 @@ permalink: /soc/projects/2021/project-48
 <div>
     <p class="display3" style = "font-size:20px;" >
         <br>
+        Description:
+        
         From background removal to Google’s PageRank algorithm! Matrices form the backbone of today Computer Science! As the title says, this project will give you a whole new perspective on what you’ve been learning from school (matrices) and probably life too! This project aims to give you a good understanding of some of the algorithms that make all this possible. We will build a matrix library, and then see it’s applications in solving linear recurrences, specifically for competitive programming (Project Euler 25, 258 and more possibly)
 
-        Our library would be lightweight, optimised and templated with functionality similar to how matrices work in MATLAB or NumPy. It would also support Matrix factorizations (LU, QR, SVD and Spectral Decomposition) and would only depend on the standard library
+        Our library would be lightweight, optimised and templated with functionality similar to how matrices work in MATLAB or NumPy. It would also support Matrix factorizations (LU, QR, SVD and Spectral Decomposition) and would only depend on the standard library.
+
+        We will then use all the knowledge gained to build a linear equation solver.
+  </p>
   <br>
 </div>
 <div>

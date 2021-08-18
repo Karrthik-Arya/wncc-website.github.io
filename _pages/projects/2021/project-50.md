@@ -45,6 +45,8 @@ permalink: /soc/projects/2021/project-50
 <div>
     <p class="display3" style = "font-size:20px;" >
         <br>
+        Description:
+        
         Reinforcement Learning (RL) is a field of Artificial Intelligence where an agent learns by interacting with its environment and receiving a reward/penalty for its actions. RL has recently started receiving a lot more attention, owing to the famous victory by an RL agent over the world champion in the game of “Go”. This project aims to get people familiar with the field and get started with a hands-on project that will require them to understand and implement some of the popular RL algorithms. We will start with building a simple GUI, and will then try out algorithms like SARSA and Q-learning for training agents in basic environments. We will then move on to Deep RL techniques for handling Pac-Man which involve the use of neural networks for training the agents.
 
         Reading:
@@ -56,6 +58,7 @@ permalink: /soc/projects/2021/project-50
         Links:
 
         Sutton and Barto (http://incompleteideas.net/book/RLbook2018trimmed.pdf) Coursera (https://www.coursera.org/specializations/reinforcement-learning?) Enjoy watching this beautiful documentary about AlphaGo by DeepMind - (https://www.youtube.com/watch?v=WXuK6gekU1Y)
+  </p>
 </div>
 <div>
     <h4 class="display3" style="margin:40px 0px 40px 0px;">Tentative Timeline :</h4>

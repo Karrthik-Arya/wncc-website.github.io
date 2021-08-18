@@ -45,10 +45,13 @@ permalink: /soc/projects/2021/project-38
 <div>
     <p class="display3" style = "font-size:20px;" >
         <br>
+        Description:
+        
         You may have caught yourself asking for past papers, resources and anything and everything possible one day before your exams. The SSS fb page is filled with such requests before every mid sem and end sem. There are a number of electives offered by various departments in the institute and many students find it difficult to find the required resources. To solve this problem, we propose to create a collaborative platform for collecting resources and making them available for use by all. Students will be able to upload past papers, tutorials etc for the courses they have taken and will be able to access the material uploaded by others.
 
         We will be using ReactJS for the frontend and Django for the backend. We are looking for enthusiastic people who are willing to learn. There are no other prerequisites. At the end of this, you will have made your own first live project. And the knowledge gained would be enough for you to make your own portals and websites.
   <br>
+</p>
 </div>
 <div>
     <h4 class="display3" style="margin:40px 0px 40px 0px;">Tentative Timeline :</h4>
