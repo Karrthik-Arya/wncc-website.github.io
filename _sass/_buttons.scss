@@ -74,15 +74,16 @@ button{
   appearance: none;
 }
 .slide-arrow{
-  position: absolute;
-  top: 40%;
-  margin-top: -15px;
   @include mobile{
     display: none;
   }
   @include tablet{
     display: none;
   }
+  position: absolute;
+  top: 40%;
+  margin-top: -15px;
+  
 }
 .prev-arrow{
   left: -10px;
