@@ -206,5 +206,96 @@
     z-index: -1;
   }
 }
-
 /* /footer */
+
+#facts{
+  animation: text-shadow 1.5s ease-in-out infinite;
+  font-size: 5em;
+  font-weight: 900;
+  line-height: 1;
+
+  &:hover {
+    animation-play-state: paused;
+}
+}
+
+@keyframes text-shadow {
+  0% {  
+      transform: translateY(0);
+      text-shadow: 
+          0 0 0 #0c2ffb, 
+          0 0 0 #2cfcfd, 
+          0 0 0 #fb203b, 
+          0 0 0 #fefc4b;
+  }
+
+  20% {  
+      transform: translateY(-1em);
+      text-shadow: 
+          0 0.125em 0 #0c2ffb, 
+          0 0.25em 0 #2cfcfd, 
+          0 -0.125em 0 #fb203b, 
+          0 -0.25em 0 #fefc4b;
+  }
+
+  40% {  
+      transform: translateY(0.5em);
+      text-shadow: 
+          0 -0.0625em 0 #0c2ffb, 
+          0 -0.125em 0 #2cfcfd, 
+          0 0.0625em 0 #fb203b, 
+          0 0.125em 0 #fefc4b;
+  }
+  
+ 60% {
+      transform: translateY(-0.25em);
+      text-shadow: 
+          0 0.03125em 0 #0c2ffb, 
+          0 0.0625em 0 #2cfcfd, 
+          0 -0.03125em 0 #fb203b, 
+          0 -0.0625em 0 #fefc4b;
+  }
+
+  80% {  
+      transform: translateY(0);
+      text-shadow: 
+          0 0 0 #0c2ffb, 
+          0 0 0 #2cfcfd, 
+          0 0 0 #fb203b, 
+          0 0 0 #fefc4b;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation: none !important;
+    transition: none !important;
+  }
+}
+
+@keyframes shad-anim {
+  0% {background-position: 0 0}
+  0% {background-position: 100% -100%}
+  }
+
+
+
+.team_card {
+    border-radius: 5px;
+    height: 550px;
+    width: 350px;
+    margin: 20px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    box-shadow: 0 0 60px -5px grey;
+
+    &:hover {
+      transition: all 0.2s ease-out;
+      box-shadow: 0px 4px 8px rgba(38, 38, 38, 0.2);
+      top: -4px;
+      border: 1px solid #cccccc;
+      background-color: white;
+    }
+  
+}

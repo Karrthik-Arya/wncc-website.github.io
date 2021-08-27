@@ -9,7 +9,7 @@
     </div>
       <div class ="row justify-content-md-center" >
       <div class="col-md-4 col-sm-6 mb-4 mb-md-0">
-        <div class="card text-center">
+        <div class="card team_card text-center">
           <img src="{{ site.baseurl }}/assets/images/team/DK.jpg" class="card-img-top" width:="350px" height="400px">
           <div class="card-body">
             <h4 class="card-title">Divyanshi Kamra</h4>
@@ -27,7 +27,7 @@
         </div>
       </div>
     <div class="col-md-4 col-sm-6 mb-4 mb-md-0">
-        <div class="card text-center">
+        <div class="card team_card text-center">
           <img src="{{ site.baseurl }}/assets/images/team/Shruti.jpeg" class="card-img-top" width:="350px" height="400px">
           <div class="card-body">
             <h4 class="card-title">Shruti Singh </h4>
@@ -48,7 +48,7 @@
       <div class="row">
       {% for team-member in site.data.settings.team %}
       <div class="col-md-4 col-sm-6 mb-4 mb-md-0 mx-auto">
-        <div class="card text-center">
+        <div class="card team_card text-center">
           <img src="{{ site.baseurl }}/{{ team-member.image }}" class="card-img-top" width:="350px" height="400px">
           <div class="card-body">
             <h4 class="card-title">{{ team-member.title }}</h4>

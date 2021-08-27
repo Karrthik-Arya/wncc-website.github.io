@@ -31,8 +31,7 @@ permalink: /resources/
                 </article>
             </div>
             {% endfor %} -->
-            {% if item.name == "wiki" %}
-            
+            {% if item.name == "wiki" %}         
             {% for label in site.data.settings.wiki %}
             <div class="col-lg-4 col-sm-6 mb-4">
                 <article class="card shadow">
@@ -47,10 +46,7 @@ permalink: /resources/
                     </div>
                 </article>
             </div>
-            {% endfor %}
-            
-           
-            
+            {% endfor %}  
             {% elsif item.name == "ciq" %}
             
             {% for label in site.data.settings.ciq %}
