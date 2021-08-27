@@ -295,7 +295,14 @@
       box-shadow: 0px 4px 8px rgba(38, 38, 38, 0.2);
       top: -4px;
       border: 1px solid #cccccc;
-      background-color: white;
+      background-color: rgb(44, 44, 44);
     }
   
+}
+.team_card:hover .text-dark{
+  color: aliceblue !important;
+}
+
+.team_card:hover .card-title{
+  color: aliceblue !important;
 }
