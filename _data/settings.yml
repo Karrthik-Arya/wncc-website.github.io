@@ -163,7 +163,7 @@ skills:
 
 experience-title: Sub-Groups
 experience:
-- {name: DevCom, icon: 'icon-1.png', link: 'devcom-iitb.org'}
+- {name: DevCom, icon: 'icon-1.png', link: 'https://devcom-iitb.org'}
 - {name: GSoC Incubation Cell, icon: 'gsoc.png', link: 'https://www.facebook.com/groups/172338573292734/'}
 - {name: BlockChain Circle, icon: 'icon-2.jpg', link: ' https://www.facebook.com/groups/Blockchain.IITB/' }
 
