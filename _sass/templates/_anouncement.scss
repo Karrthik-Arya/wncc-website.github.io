@@ -1,3 +1,17 @@
+.side-bar{
+    position: fixed;
+    bottom: 400px; 
+    right:5px; 
+    z-index:30;
+    @include mobile{
+        bottom: 200px;
+    }
+    @include mobile-xs{
+        bottom: 200px;
+    }
+}
+
+
 :root {
 	--easing: cubic-bezier(0.33, 1, 0.68, 1);
 	--easing-2: cubic-bezier(0.61, 1, 0.88, 1);
@@ -128,6 +142,10 @@ input[type="checkbox"]:checked {
   @include mobile{
     font-size: 3em;
     }
+  @include mobile-xs{
+        font-size: 3em;
+        }
+
   }
   
   @keyframes text-shadow-anouncement {

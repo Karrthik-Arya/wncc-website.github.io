@@ -80,6 +80,9 @@ button{
   @include tablet{
     display: none;
   }
+  @include mobile-xs{
+    display: none;
+  }
   position: absolute;
   top: 40%;
   margin-top: -15px;
