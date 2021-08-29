@@ -107,6 +107,10 @@
   @include mobile{
     font-size: 60px;
   }
+
+  @include mobile-xs{
+    font-size: 40px;
+  }
 }
 
 
