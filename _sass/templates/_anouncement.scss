@@ -1,0 +1,170 @@
+:root {
+	--easing: cubic-bezier(0.33, 1, 0.68, 1);
+	--easing-2: cubic-bezier(0.61, 1, 0.88, 1);
+}
+
+input[type="checkbox"]:checked {
+	& + .box:after {
+		transform: scale3d(8.5, 4, 1);
+        @include mobile{
+            transform: scale3d(7, 4, 1);
+        }
+    opacity: 0.8;
+    background: rgb(255, 230, 0);
+    border-radius: 2px;
+    transition: 0.3s;
+	}
+	
+	& + .box .box__item {
+		transform: translateX(0px);
+    opacity: 1;
+		visibility: visible;
+    transition: all 0.7s ease-out;
+	}
+
+    & +.box .ti-bell{
+        &:before{
+        content:"\e646";
+        font-size: 35px;
+        transition: 0.3s;
+        }
+        animation: none;
+      }
+    
+}
+.box {
+	padding: 10px 45px 10px 10px;
+	position: relative;
+	
+	&:after {
+        text-align: center;
+		content: '';
+		width: 55px;
+		height: 60px;
+		position: absolute;
+		right: 0;
+		top: 50%;
+        padding:25px;
+		background:rgb(255, 230, 0);
+        border-radius: 10%;
+		transform-origin: 100% 50%;
+		transform: translateY(-50%);
+		transition: transform 0.5s;
+		z-index: -1;
+	}
+	
+	&__item {
+		visibility: hidden;
+		transform: translateX(20px);
+		opacity: 0;
+		transition: 
+			opacity 0.2s 0.8s 0;
+	}
+}
+
+.toggle {
+	display: block;
+	position: absolute;
+	right: 0;
+	top: 50%;
+	transform: translateY(-50%);
+	
+	&__checkbox {
+		display: none;
+	}
+}
+
+.ti-bell{
+    display:block;
+    transition: 0.3s;
+    animation: ring 4s .7s ease-in-out infinite;
+    &:hover{
+    animation: none;
+    }
+}
+
+@keyframes ring {
+  0% { -webkit-transform: rotateZ(0); }
+  1% { -webkit-transform: rotateZ(30deg); }
+  3% { -webkit-transform: rotateZ(-28deg); }
+  5% { -webkit-transform: rotateZ(34deg); }
+  7% { -webkit-transform: rotateZ(-32deg); }
+  9% { -webkit-transform: rotateZ(30deg); }
+  11% { -webkit-transform: rotateZ(-28deg); }
+  13% { -webkit-transform: rotateZ(26deg); }
+  15% { -webkit-transform: rotateZ(-24deg); }
+  17% { -webkit-transform: rotateZ(22deg); }
+  19% { -webkit-transform: rotateZ(-20deg); }
+  21% { -webkit-transform: rotateZ(18deg); }
+  23% { -webkit-transform: rotateZ(-16deg); }
+  25% { -webkit-transform: rotateZ(14deg); }
+  27% { -webkit-transform: rotateZ(-12deg); }
+  29% { -webkit-transform: rotateZ(10deg); }
+  31% { -webkit-transform: rotateZ(-8deg); }
+  33% { -webkit-transform: rotateZ(6deg); }
+  35% { -webkit-transform: rotateZ(-4deg); }
+  37% { -webkit-transform: rotateZ(2deg); }
+  39% { -webkit-transform: rotateZ(-1deg); }
+  41% { -webkit-transform: rotateZ(1deg); }
+
+  43% { -webkit-transform: rotateZ(0); }
+  100% { -webkit-transform: rotateZ(0); }
+}
+
+#anouncement{
+    animation: text-shadow-anouncement 1.5s ease-in-out infinite;
+    font-size: 4em;
+    font-weight: 900;
+    line-height: 1;
+    text-align: left; 
+    color: black;
+    text-shadow: 2px 2px #5a5858;
+    &:hover {
+      animation-play-state: paused;
+  }
+  @include mobile{
+    font-size: 3em;
+    }
+  }
+  
+  @keyframes text-shadow-anouncement {
+    0% {  
+        text-shadow: 
+            0 0 0 #0c2ffb, 
+            0 0 0 #2cfcfd, 
+            0 0 0 #fb203b, 
+            0 0 0 #fefc4b;
+    }
+  
+    20% {  
+        text-shadow: 
+            0 0.095em 0 #0c2ffb, 
+            0 0.25em 0 #2cfcfd, 
+            0 -0.095em 0 #fb203b, 
+            0 -0.25em 0 #fefc4b;
+    }
+  
+    40% {  
+        text-shadow: 
+            0 -0.0325em 0 #0c2ffb, 
+            0 -0.035em 0 #2cfcfd, 
+            0 0.0625em 0 #fb203b, 
+            0 0.095em 0 #fefc4b;
+    }
+    
+   60% {
+        text-shadow: 
+            0 0.03125em 0 #0c2ffb, 
+            0 0.035em 0 #2cfcfd, 
+            0 -0.03125em 0 #fb203b, 
+            0 -0.0625em 0 #fefc4b;
+    }
+  
+    80% {  
+        text-shadow: 
+            0 0 0 #0c2ffb, 
+            0 0 0 #2cfcfd, 
+            0 0 0 #fb203b, 
+            0 0 0 #fefc4b;
+    }
+  }
