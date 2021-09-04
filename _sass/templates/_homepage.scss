@@ -4,45 +4,6 @@
   overflow: hidden;
 }
 
-.wave {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-
-  &::before,
-  &::after {
-    content: "";
-    position: absolute;
-    width: 800px;
-    height: 800px;
-    bottom: 0;
-    left: 50%;
-    background-color: rgba(255, 255, 255, .4);
-    border-radius: 45%;
-    transform: translateX(-50%) rotate(0);
-    animation: rotate 6s linear infinite;
-    z-index: 10;
-  }
-
-  &::after {
-    border-radius: 47%;
-    background-color: rgba(255, 255, 255, .9);
-    transform: translateX(-50%) rotate(0);
-    animation: rotate 10s linear -5s infinite;
-    z-index: 20;
-  }
-}
-
-@keyframes rotate {
-  50% {
-    transform: translateX(-50%) rotate(180deg);
-  }
-
-  100% {
-    transform: translateX(-50%) rotate(360deg);
-  }
-}
-
 /* /skills */
 
 /* education */
@@ -277,34 +238,3 @@
   0% {background-position: 0 0}
   0% {background-position: 100% -100%}
   }
-
-
-
-.team_card {
-    transition: 0.7s;
-    border-radius: 5px;
-    width: 350px;
-    margin: 20px;
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    box-shadow: 0 0 60px -5px grey;
-
-    &:hover {
-      transition: 0.7s;
-      box-shadow: 0px 4px 8px rgba(38, 38, 38, 0.2);
-      top: -4px;
-      border: 1px solid #cccccc;
-      background-color: rgb(44, 44, 44);
-    }
-  
-}
-.team_card:hover .text-dark{
-  transition: 0.7s;
-  color: aliceblue !important;
-}
-
-.team_card:hover .card-title{
-  transition: 0.7s;
-  color: aliceblue !important;
-}

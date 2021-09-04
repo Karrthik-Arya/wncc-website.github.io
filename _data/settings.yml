@@ -81,6 +81,7 @@ team:
     github : "https://github.com/vrinda01go?tab=repositories"
     facebook: "https://www.facebook.com/vrinda.goel.7967/"
     linkedin : "https://www.linkedin.com/in/vrinda-goel-2956ab209/"
+    i: 2
 
   - title : "Shreedhar Malpani"
     image : "assets/images/team/Shreedhar Malpani.jpg"
@@ -88,6 +89,7 @@ team:
     github: "https://github.com/shreedharmalpani"
     facebook: "https://www.facebook.com/pranav.malpani.798/"
     linkedin : "https://www.linkedin.com/in/shreedhar-malpani-23a139209/"
+    i: 3
 
   - title : "Karrthik Arya"
     image : "assets/images/team/Karrthik Arya.JPG"
@@ -95,6 +97,7 @@ team:
     github: "https://github.com/Karrthik-Arya"
     facebook: "https://www.facebook.com/karrthik.arya/"
     linkedin : "https://www.linkedin.com/in/karrthik-arya-30997320b/"
+    i: 4
 
   - title : "Sarthak Mehrotra"
     image : "assets/images/team/Sarthak.jpeg"
@@ -102,6 +105,7 @@ team:
     github: "https://github.com/SarthakM320"
     facebook: "https://www.facebook.com/sarthak.mehrotra.39750/"
     linkedin : "https://www.linkedin.com/in/sarthak-mehrotra-a4a01120b/"
+    i: 5
 
   - title : "Subarno Nath Roy"
     image : "assets/images/team/Subarno Nath Roy.jpg"
@@ -109,6 +113,7 @@ team:
     github: "https://github.com/SubarnoNR"
     facebook: "https://www.facebook.com/subarno.nathroy/"
     linkedin : "https://www.linkedin.com/in/subarno-nath-roy-46b73ba/"
+    i: 6
 
   - title : "Shubh Kumar"
     image : "assets/images/team/Shubh Kumar.jpg"
@@ -116,6 +121,7 @@ team:
     github: "https://github.com/thevaliantthird"
     facebook: "https://www.facebook.com/profile.php?id=100057361624828"
     linkedin : "https://www.linkedin.com/in/shubh-kumar-526052b5/"
+    i: 7
 
   - title : "Ishit Garg"
     image : "assets/images/team/Ishit Garg.jpeg"
@@ -123,6 +129,7 @@ team:
     github: "https://github.com/ishit16"
     facebook: "https://www.facebook.com/ishit.garg.18"
     linkedin : "https://www.linkedin.com/in/ishit-garg-a4120b201/"
+    i: 8
 
   - title : "Himanshu Choudhary"
     image : "assets/images/team/Himanshu_Choudhary.jpg"
@@ -130,6 +137,7 @@ team:
     github: "https://github.com/HimanshuC22"
     facebook: "https://www.facebook.com/profile.php?id=100011777830160"
     linkedin : "https://www.linkedin.com/in/himanshu-choudhary-26514813a/"
+    i: 9
 
   - title : "Ved Khandekar"
     image : "assets/images/team/Ved Khandekar.jpeg"
@@ -137,6 +145,7 @@ team:
     github: "https://github.com/vedk"
     facebook: "https://www.facebook.com/ved.khandekar.1/"
     linkedin : "https://www.linkedin.com/in/ved-khandekar-29824612b/"
+    i: 10
 
   - title : "Jash Kabra"
     image : "assets/images/team/Jash_Kabra.jpg"
@@ -144,6 +153,7 @@ team:
     github: "https://github.com/JashKabra"
     facebook: "https://www.facebook.com/JashKabra/"
     linkedin : "https://www.linkedin.com/in/jash-kabra-148a32207/"
+    i: 11
 
 
 
@@ -936,7 +946,7 @@ testimonial-items:
   - name: "WnCC Wiki- Grundy"
     image: "assets/images/testimonial/Grundy.png"
     designation : " "
-    content : "It is an educational wiki, meant to help beginners get started with programming. It’s got 100+ articles, on various programming topics. All tutorials are hand-tailored by students of IIT Bombay. However, unlike conventional programming tutorials, these take a slightly different approach. Rather than reinventing the wheel, Grundy aims at bringing together a number of online tutorials and resources along with a set of pre-requisites and motivation to learn a programming skill. Here are some top articles of Wiki."
+    content : "It is an educational wiki, meant to help beginners get started with programming. It’s got 100+ articles, on various programming topics. All tutorials are hand-tailored by students of IIT Bombay. However, unlike conventional programming tutorials, these take a slightly different approach. Rather than reinventing the wheel, Grundy aims at bringing together a number of online tutorials and resources along with a set of pre-requisites and motivation to learn a programming skill."
    
   - name: "Learner's Space"
     image: "assets/images/testimonial/ls (1).png"

@@ -1,73 +1,65 @@
 {% if site.data.settings.team %}
 <!-- team -->
 <section class="section bg-cover">
-  <div class="container">
-    <div class="row">
-      <div class="col-12 text-center">
-        <h2 class="section-title">Team </h2>
+  <div class="container-fluid">
+      <div class="col-10">
+        <h1 id = "section-title" class="section-title team-title">The Team </h1>
+    </div>
+      <div class='team-info rounded'><span id='teamtext'></span>
+      <div class='console-underscore' id='teamconsole'>&#95;</div></div>
+      <div class ="images float-center">
+
+        <section class="team-section">
+          <div class="team-member" tabindex="0"  style = "grid-row:1/4; grid-column:2">
+            <img class = "team-image" src = "{{site.baseurl}}/assets/images/team/himanshu1.png" id ="Himanshu">
+          </div>
+          <div class="team-member" tabindex="0"  style = "grid-row:1/4; grid-column:3">
+            <img class = "team-image"  src = "{{site.baseurl}}/assets/images/team/Karrthik1.png" id ="Karrthik">
+          </div>
+          
+          <div class="team-member" tabindex="0"  style = "grid-row:1/4; grid-column:4">
+            <img class = "team-image"  src = "{{site.baseurl}}/assets/images/team/DK1.png" id ="DK">
+          </div>
+
+          <div class="team-member" tabindex="0"  style = "grid-row:1; grid-column:5">
+            <img class = "team-image"  src = "{{site.baseurl}}/assets/images/team/jash1.png" id ="Jash">
+          </div>
+
+          <div class="team-member" tabindex="0"  style = "grid-row:1; grid-column:6">
+            <img class = "team-image" src = "{{site.baseurl}}/assets/images/team/Subarno2.png" id ="Subarno">
+          </div>
+
+          <div class="team-member" tabindex="0" style = "grid-row:2; grid-column:1">
+            <img class = "team-image"  src = "{{site.baseurl}}/assets/images/team/Ishit2.png" id ="Ishit">
+          </div>
+
+          <div class="team-member" tabindex="0" style = "grid-row:2; grid-column:2; margin-left:-50px">
+            <img class = "team-image"  src = "{{site.baseurl}}/assets/images/team/sarthak1.png" id ="Jash">
+          </div>
+
+          <div class="team-member" tabindex="0" style = "grid-row:2; grid-column:3">
+            <img class = "team-image"  src = "{{site.baseurl}}/assets/images/team/shubh.png" id ="Jash">
+          </div>
+
+          <div class="team-member" tabindex="0" style = "grid-row:2; grid-column:4">
+            <img class = "team-image" src = "{{site.baseurl}}/assets/images/team/shruti1.png" id ="Jash">
+          </div>
+
+          <div class="team-member" tabindex="0" style = "grid-row:2; grid-column:5">
+            <img class = "team-image" src = "{{site.baseurl}}/assets/images/team/ved.png" id ="Jash">
+          </div>
+
+          <div class="team-member" tabindex="0" style = "grid-row:2; grid-column:6">
+            <img class = "team-image"  src = "{{site.baseurl}}/assets/images/team/Vrinda1.png" id ="Jash">
+          </div>
+
+          <div class="team-member" tabindex="0" style = "grid-row:2; grid-column:7">
+            <img class = "team-image"  src = "{{site.baseurl}}/assets/images/team/shreedhar1.png" id ="Jash">
+          </div>
+          
+        </section>
+      
       </div>
-    </div>
-      <div class ="row justify-content-md-center" >
-      <div class="col-md-4 col-sm-6 mb-4 mb-md-0">
-        <div class="card team_card text-center">
-          <img src="{{ site.baseurl }}/assets/images/team/DK.jpg" class="card-img-top" width:="350px" height="400px">
-          <div class="card-body">
-            <h4 class="card-title">Divyanshi Kamra</h4>
-            <p class="text-dark font-secondary">Manager</p>
-            <div class ="row justify-content-md-center">
-              <div class="col col-lg-2">
-              <h5><a class="text-dark" href="https://github.com/divyanshikamra"><i class="ti-github"></i></a></h5>    </div>
-              <div class="col-md-auto">
-                <h5><a class="text-dark" href="https://www.facebook.com/divyanshi.kamra.7/"><i class="ti-facebook"></i></a></h5>
-              </div>
-              <div class="col col-lg-2">
-              <h5><a class="text-dark" href="https://www.linkedin.com/in/divyanshi-kamra-36268b1b3/"><i class="ti-linkedin"></i></a></h5>    </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    <div class="col-md-4 col-sm-6 mb-4 mb-md-0">
-        <div class="card team_card text-center">
-          <img src="{{ site.baseurl }}/assets/images/team/Shruti.jpeg" class="card-img-top" width:="350px" height="400px">
-          <div class="card-body">
-            <h4 class="card-title">Shruti Singh </h4>
-            <p class="text-dark font-secondary">Manager</p>
-            <div class ="row justify-content-md-center">
-              <div class="col col-lg-2">
-              <h5><a class="text-dark" href="https://github.com/shruhh"><i class="ti-github"></i></a></h5>    </div>
-              <div class="col-md-auto">
-                <h5><a class="text-dark" href="https://www.facebook.com/shruti.s.50364592/"><i class="ti-facebook"></i></a></h5>
-              </div>
-              <div class="col col-lg-2">
-              <h5><a class="text-dark" href="https://www.linkedin.com/in/shruti-singh-a02714195/"><i class="ti-linkedin"></i></a></h5>    </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-      <div class="row">
-      {% for team-member in site.data.settings.team %}
-      <div class="col-md-4 col-sm-6 mb-4 mb-md-0 mx-auto">
-        <div class="card team_card text-center">
-          <img src="{{ site.baseurl }}/{{ team-member.image }}" class="card-img-top" width:="350px" height="400px">
-          <div class="card-body">
-            <h4 class="card-title">{{ team-member.title }}</h4>
-            <p class="text-dark font-secondary">{{ team-member.designation }}</p>
-            <div class ="row justify-content-md-center">
-              <div class="col col-lg-2">
-              <h5><a class="text-dark" href="{{team-member.github}}"><i class="ti-github"></i></a></h5>    </div>
-              <div class="col-md-auto">
-                <h5><a class="text-dark" href="{{team-member.facebook}}"><i class="ti-facebook"></i></a></h5>
-              </div>
-              <div class="col col-lg-2">
-              <h5><a class="text-dark" href="{{team-member.linkedin}}"><i class="ti-linkedin"></i></a></h5>    </div>
-            </div>
-          </div>
-          </div>
-        </div>
-      {% endfor %}
-    </div>
-    </div>
   </div>
 </section>
 <!-- /team -->

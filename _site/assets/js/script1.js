@@ -1,8 +1,114 @@
+
 (function ($) {
     'use strict';
 
+    consoleText(["Web and Coding Club <font color = '#ffa500'>IIT Bombay</font>"], 'text',['tomato']);
+    let active = false;
+    teamText(['<font color = "green">WnCC@itc:</font><font color = "blue">~</font>$ ./WnCC-team.sh <br> \
+     Reading package lists.        .         .           .           Done <br> \
+     Setting up dependency tree <font color = "tomato">tty14</font> <br> \
+     Fetched 260 kb in 1s(286 kb/s) <br> \
+     Preparing to unpack . .  .  <font color = "green">/managers.gz</font> <br> \
+     Adding "Conevenrs to <font color = "blue">/usr/bin/tty14/members</font>" <br>\
+     Build Successful!<br>\
+     <font color = "green">Click on the images to know about the members</font>'],
+     ["teamtext"], ["black"]);
+    $("#Karrthik").click(function() {
+        teamText(['const tty14 {<br> &emsp; name: Karrthik Arya;<br> &emsp; type:Convener;<br> &emsp; contacts:<br> &emsp; &emsp; <a href="https://www.linkedin.com/in/karrthik-arya-30997320b/">linkedin</a> <br>  };'], 'teamtext',['tomato']);
+        active =true;
+    });
+    $("#DK").click(function() {
+        teamText(['const tty14 {<br> &emsp; name: Divyanshi Kamra;<br> &emsp; type:Manager;<br> };'], 'teamtext',['tomato']);
+        active = true;
+    });
+    $("#Jash").click(function() {
+        teamText(['const tty14 {<br> &emsp; name: Jash Kabra;<br> &emsp; type:Convener;<br> };'], 'teamtext',['tomato']);
+        active = true;
+    });
+function consoleText(words, id, colors) {
+  if (colors === undefined) colors = ['#fff'];
+  var visible = true;
+  var con = document.getElementById('teamconsole');
+  var letterCount = 1;
+  var x = 1;
+  var waiting = false;
+  var target = document.getElementById(id)
+  target.setAttribute('style', 'color:' + colors[0])
+  window.setInterval(function() {
 
+    if (letterCount === 0 && waiting === false) {
+      waiting = true;
+      target.innerHTML = words[0].substring(0, letterCount)
+      window.setTimeout(function() {
+        var usedColor = colors.shift();
+        colors.push(usedColor);
+        var usedWord = words.shift();
+        words.push(usedWord);
+        x = 1;
+        target.setAttribute('style', 'color:' + colors[0])
+        letterCount += x;
+        waiting = false;
+      }, 1000)
+    } else if (letterCount === words[0].length + 1 && waiting === false) {
+      waiting = true;
+      window.setTimeout(function() {
+        x = -1;
+        letterCount += x;
+        waiting = false;
+      }, 1000)
+    } else if (waiting === false) {
+      target.innerHTML = words[0].substring(0, letterCount)
+      letterCount += x;
+    }
+  }, 120)
+  window.setInterval(function() {
+    if (visible === true) {
+      con.className = 'console-underscore hidden'
+      visible = false;
 
+    } else {
+      con.className = 'console-underscore'
+
+      visible = true;
+    }
+  }, 400)
+}
+function teamText(words, id, colors) {
+  if (colors === undefined) colors = ['#fff'];
+  var letterCount = 1;
+  var x = 1;
+  var target = document.getElementById(id);
+  target.setAttribute('style', 'color:' + colors[0]);
+  if(active === true){
+      clearInterval(timer);
+      target.innerHTML = '';
+      active =false;
+  }
+  let timer = setInterval(function() {
+      if (words[0][letterCount] === '&'){
+        letterCount += 6;
+      }else if (words[0].substring(letterCount, letterCount+2) === '<b'){
+        target.innerHTML = words[0].substring(0, letterCount)
+        letterCount += 5;
+      }
+      else if (words[0].substring(letterCount, letterCount+2) === '<a'){
+        target.innerHTML = words[0].substring(0, letterCount)
+        letterCount += 50;
+      }else if (words[0].substring(letterCount, letterCount+2) === '</'){
+        target.innerHTML = words[0].substring(0, letterCount)
+        letterCount += 3;
+      }else{
+      target.innerHTML = words[0].substring(0, letterCount)
+        letterCount += x;
+        if (letterCount === words[0].length + 1) {
+        clearInterval(timer);
+        active =false;
+        }
+    }
+
+  }, 30)
+  
+}
     // Sticky Menu
     $(window).scroll(function () {
         if ($('.navigation').offset().top > 100) {
@@ -190,6 +296,8 @@
             myShuffle.filter(input2.value);
         }
     });
+    
+
 
     
 })(jQuery);
