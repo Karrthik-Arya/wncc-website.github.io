@@ -1,32 +1,78 @@
 .team-title{
   margin-left: 150px;
+  color: aliceblue;
+  @include mobile-xs{
+    margin:0;
+    text-align: center;
+    font-size: 3em;
+    width: fit-content;
+  }
 }
 
+.team-card {
+  border-radius: 8px;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  margin: auto;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  box-shadow: 0 0 80px -10px black;
+  &:hover{
+    background-color: rgb(44, 44, 44);
+    transition: 1.5s;
+  }
+}
 
+.team-card:hover .card-title{
+  color: aliceblue;
+}
+.team-card:hover .card-desc{
+  color: aliceblue;
+}
+.team-card:hover .ti-github{
+  color: aliceblue;
+}
+
+.team-card:hover .ti-facebook{
+  color: aliceblue;
+}
+
+.team-card:hover .ti-linkedin{
+  color: aliceblue;
+}
 .team-info {
-    margin-top: -200px;
+  border-radius: 10%;
+  background-color: rgb(33, 33, 33);
+    margin-top: -180px;
     float: right;
-    font-size: 2em;
-    height:200px;
-    width:850px;
+    font-size: 1.5em;
+    height:250px;
+    width:700px;
     display:block;
     color:gray;
     font-family: monospace;
     z-index:1;
     padding: 10px;
+    @include mobile-xs{
+      display: none;
+    }
   }
-  .console-underscore {
+  .team-console-underscore {
      display:inline-block;
     position:relative;
     top:-0.14em;
     left:10px;
+    color: greenyellow;
   }
   
   .team-image{
     width:15vw;
     height:20vw;
     &:hover{
-      transform: scale(1.1);
+      transform: scale(1.05);
       transition: 0.7s ease-out;
       cursor: pointer;
     }
@@ -37,23 +83,37 @@
   
 
 .team-section{
-    margin-top: 150px;
+    margin-top: 40px;
     display: grid;
     grid-template-columns: repeat(14, 0.5fr);
     -ms-grid-rows: 1fr;
     grid-template-rows: repeat(3, 0.5fr);
     position: relative;
-    top: 300px;
-    left: 50px;
-    margin-bottom: 100px;
-    padding-left: 50px;
+    top: 220px;
+    left: 10px;
+    padding-bottom: 120px;
+    padding-left: 10vw;
     padding-right: 50px;
+    @include mobile-xs{
+      display: none;
+    }
 }
 
 .team-member {
   position: relative;
-  margin-left: -30px;
-  margin-right: -30px;
-  margin-top: -175px;
+  margin-left: -15px;
+  margin-right: -25px;
+  margin-top: -125px;
   outline: 0 !important;
+}
+
+.mobile-team{
+  display:none;
+  @include mobile-xs{
+    display:block;
+  }
+}
+
+.bg-cover{
+  background-color: rgb(33, 33, 33);
 }
