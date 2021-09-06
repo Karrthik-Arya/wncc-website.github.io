@@ -87,6 +87,7 @@
   &:after{
     width:50%;
   }
+  
 }
 
 .console-container {
@@ -100,6 +101,10 @@
   bottom:0;
   left:0;
   right:0;
+  @include mobile-xs {
+    font-size: 4em; 
+    width: 300px;   
+  }
 }
 .console-underscore {
    display:inline-block;

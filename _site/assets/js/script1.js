@@ -2,7 +2,7 @@
 (function ($) {
     'use strict';
 
-    consoleText(["Web and Coding Club <font color = '#ffa500'>IIT Bombay</font>"], 'text',['tomato']);
+    consoleText(["Web and Coding Club <br> <font color = '#ffa500'>IIT Bombay</font>"], 'text',['tomato']);
     let active = false;
     teamText(['<font color = "lightgreen">WnCC@itc:</font><font color = "blue">~</font>$ ./WnCC-team.sh <br> \
      Reading package lists.         .            .            .            Done <br> \
