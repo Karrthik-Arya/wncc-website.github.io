@@ -60,6 +60,9 @@
     @include mobile-xs{
       display: none;
     }
+    @include mobile{
+      display: none;
+    }
   }
   .team-console-underscore {
      display:inline-block;
@@ -98,19 +101,25 @@
     @include mobile-xs{
       display: none;
     }
+    @include mobile{
+      display: none;
+    }
 }
 
 .team-member {
   position: relative;
-  margin-left: -15px;
+  margin-left: -20px;
   margin-right: -25px;
-  margin-top: -125px;
+  margin-top: -9vw;
   outline: 0 !important;
 }
 
 .mobile-team{
   display:none;
   @include mobile-xs{
+    display:block;
+  }
+  @include mobile{
     display:block;
   }
 }

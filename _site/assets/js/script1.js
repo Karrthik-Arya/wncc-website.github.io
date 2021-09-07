@@ -84,7 +84,7 @@
             &emsp; <font color = "green">type</font>: Manager;<br>\
             &emsp; contact at:<br> \
             &emsp; &emsp; <a href="https://www.linkedin.com/in/shruti-singh-a02714195/"><i class = "ti-linkedin"></i> Shruti Singh</a>; <br> \
-            &emsp; &emsp; <a href="https://www.facebook.com/shruti.s.50364592/"><i class = "ti-facebook"></i> shruti.s.50364592/a>; <br> \
+            &emsp; &emsp; <a href="https://www.facebook.com/shruti.s.50364592/"><i class = "ti-facebook"></i> shruti.s.50364592</a>; <br> \
             &emsp; &emsp; <a href="https://github.com/shruhh"><i class = "ti-github"></i> shruhh</a>; <br> \
             };'], 'teamtext',['white']);
         active = true;
