@@ -55,7 +55,6 @@
     display:block;
     color:gray;
     font-family: monospace;
-    z-index:1;
     padding: 10px;
     @include mobile-xs{
       display: none;
@@ -70,6 +69,7 @@
     top:-0.14em;
     left:10px;
     color: greenyellow;
+    animation: blink 0.7s infinite;
   }
   
   .team-image{
