@@ -33,7 +33,13 @@
         });
     });
 
-    consoleText(["Web and Coding Club <br> <font color = '#ffa500'>IIT Bombay</font>"], 'text',['tomato']);
+    consoleText(["Web and Coding Club "], 'text',['white'], 'console');
+    window.setTimeout(function(){
+        $("#console2").css({
+            'visibility': 'visible'
+        });
+        consoleText(["IIT Bombay", "Turning Caffiene to Code", "Coders Together Strong"], 'text2', ['#ffa500'],'console2');
+    }, 3500);
     let active = false;
     teamText(['<font color = "lightgreen">WnCC@itc:</font><font color = "blue">~</font>$ ./WnCC-team.sh <br> \
      Reading package lists.         .            .            .            Done <br> \
@@ -186,10 +192,9 @@
         active = true;
     });
 
-function consoleText(words, id, colors) {
+function consoleText(words, id, colors, console_id) {
   if (colors === undefined) colors = ['#fff'];
-  var visible = true;
-  var con = document.getElementById('teamconsole');
+  var con = document.getElementById(console_id);
   var letterCount = 1;
   var x = 1;
   var waiting = false;
@@ -211,28 +216,23 @@ function consoleText(words, id, colors) {
         waiting = false;
       }, 1000)
     } else if (letterCount === words[0].length + 1 && waiting === false) {
-      waiting = true;
+        if(console_id === "console"){
+        $("#"+console_id).empty();
+        }
+        else{
+        waiting = true;
       window.setTimeout(function() {
         x = -1;
         letterCount += x;
         waiting = false;
       }, 1000)
+    }
+      
     } else if (waiting === false) {
       target.innerHTML = words[0].substring(0, letterCount)
       letterCount += x;
     }
   }, 120)
-  window.setInterval(function() {
-    if (visible === true) {
-      con.className = 'console-underscore hidden'
-      visible = false;
-
-    } else {
-      con.className = 'console-underscore'
-
-      visible = true;
-    }
-  }, 400)
 }
 function teamText(words, id, colors) {
   if (colors === undefined) colors = ['#fff'];

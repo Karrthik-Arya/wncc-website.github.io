@@ -125,3 +125,16 @@
     opacity: 0;
   }
 }
+
+#console2{
+  visibility: hidden;
+}
+
+#console-container2{
+  font-size: 3.2em;
+  margin-top: 200px;
+  width:fit-content;
+  @include mobile-xs{
+    margin-top:220px;
+  }
+}
