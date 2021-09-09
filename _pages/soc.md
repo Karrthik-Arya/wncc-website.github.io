@@ -55,9 +55,10 @@ permalink: /soc/
 <!-- soc -->
 <section class="section">
   <div class="container">
+  <h2 class = "text-center mt-0 mb-4">Endeavours of the Jedi Order</h2>
     <div class="row mb-5">
       <div class="col-12">
-        <div class="btn-group btn-group-toggle justify-content-center d-flex scroll"  data-toggle="buttons">
+        <div class="btn-group btn-group-toggle justify-content-center d-flex flex-wrap"  data-toggle="buttons">
           <label class="btn btn-sm btn-primary disabled" style = "pointer-events:none">
           Topic:
           </label>

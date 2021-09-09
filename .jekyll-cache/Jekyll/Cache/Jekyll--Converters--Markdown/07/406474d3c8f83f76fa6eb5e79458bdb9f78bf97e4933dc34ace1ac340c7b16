@@ -1,4 +1,4 @@
-I"ώ<!-- about-soc -->
+I"Πώ<!-- about-soc -->
 <section class="section">
   <div class="container-fluid">
     <div class="row">
@@ -49,6 +49,7 @@
 <!-- soc -->
 <section class="section">
   <div class="container">
+  <h2 class="text-center mt-0 mb-4">Endeavours of the Jedi Order</h2>
     <div class="row mb-5">
       <div class="col-12">
         <div class="btn-group btn-group-toggle justify-content-center d-flex scroll" data-toggle="buttons">
