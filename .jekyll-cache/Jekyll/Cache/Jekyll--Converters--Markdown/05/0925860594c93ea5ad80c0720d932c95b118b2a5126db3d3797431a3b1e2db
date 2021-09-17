@@ -1,111 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-  <meta charset="utf-8">
-  <title>Events</title>
-
-  <!-- mobile responsive meta -->
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  
-  <!-- ** Plugins Needed for the Project ** -->
-  <!-- Bootstrap -->
-  <link rel="stylesheet" href="/wncc-website.github.io/assets/plugins/bootstrap/bootstrap.min.css">
-  <!-- slick slider -->
-  <link rel="stylesheet" href="/wncc-website.github.io/assets/plugins/slick/slick.css">
-  <!-- themefy-icon -->
-  <link rel="stylesheet" href="/wncc-website.github.io/assets/plugins/themify-icons/themify-icons.css">
-
-  <!-- Main Stylesheet -->
-  <link href="/wncc-website.github.io/assets/css/style.css" rel="stylesheet">
-  
-  <!--Favicon-->
-  <link rel="shortcut icon" href="/wncc-website.github.io/assets/images/favicon.ico" type="image/x-icon">
-  <link rel="icon" href="/wncc-website.github.io/assets/images/favicon.ico" type="image/x-icon">
-
-  <style>
-  .img-soc{
-    width: 100%;
-    height: auto;
-    aspect-ratio: attr(width) / attr(height);
-  }
-  @media screen and (max-width: 767px) {
-    .scroll{
-      overflow-x: scroll;
-      scroll-behavior: smooth;
-    }
-  }
-  </style>
-
-</head>
-
-<body>
-
-
-  <header class="navigation fixed-top">
-  <nav class="navbar navbar-expand-lg navbar-dark">
-    <a class="navbar-brand font-tertiary h3" href="/">
-      
-        <img src="/wncc-website.github.io/assets/images/logo.png" alt="WnCC IIT Bombay">
-      
-    </a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navigation"
-      aria-controls="navigation" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-
-    <div class="collapse navbar-collapse text-center" id="navigation">
-      <ul class="navbar-nav ml-auto">
-        <li class="nav-item active">
-          <a class="nav-link" href="/wncc-website.github.io/">Home</a>
-        </li>
-        
-          <li class="nav-item ">
-            <a class="nav-link" href="/wncc-website.github.io/resources/">Resources</a>
-          </li>
-        
-          <li class="nav-item ">
-            <a class="nav-link" href="/wncc-website.github.io/soc/">SoC</a>
-          </li>
-        
-          <li class="nav-item ">
-            <a class="nav-link" href="/wncc-website.github.io/events/">Events</a>
-          </li>
-        
-          <li class="nav-item ">
-            <a class="nav-link" href="/wncc-website.github.io/#contact">Contact</a>
-          </li>
-        
-      </ul>
-    </div>
-  </nav>
-</header>
-
-
-  <!-- page title -->
-<section class="page-title bg-primary position-relative">
-  <div class="container">
-    <div class="row">
-      <div class="col-12 text-center">
-        <h1 class="text-white display-1">Events</h1>
-      </div>
-    </div>
-  </div>
-  <!-- background shapes -->
-<!-- 
-  <img src="/wncc-website.github.io/assets/images/illustrations/page-title.png" alt="illustrations" class="bg-shape-1 w-100">
-  <img src="/wncc-website.github.io/assets/images/illustrations/leaf-pink-round.png" alt="illustrations" class="bg-shape-2">
-  <img src="/wncc-website.github.io/assets/images/illustrations/dots-cyan.png" alt="illustrations" class="bg-shape-3">
-  <img src="/wncc-website.github.io/assets/images/illustrations/leaf-orange.png" alt="illustrations" class="bg-shape-4">
-  <img src="/wncc-website.github.io/assets/images/illustrations/leaf-yellow.png" alt="illustrations" class="bg-shape-5">
-  <img src="/wncc-website.github.io/assets/images/illustrations/dots-group-cyan.png" alt="illustrations" class="bg-shape-6">
-  <img src="/wncc-website.github.io/assets/images/illustrations/leaf-cyan-lg.png" alt="illustrations" class="bg-shape-7">
--->
-</section>
-<!-- /page title -->
-
-<!-- Labels for different years -->
+I"±/<!-- Labels for different years -->
 <section class="section">
   <div class="container">
     <div class="row mb-5">
@@ -129,7 +22,7 @@
      <div class="row shuffle-wrapper">
       
       <div class="col-lg-4 col-6 mb-4 shuffle-item" data-groups="[&quot;2020&quot;]">
-        <div class="position-relative rounded hover-wrapper p-3" href="/events/event/code-games/">
+        <div class="position-relative rounded hover-wrapper p-4" href="/events/event/code-games/">
           <span class="rounded"> <img src="/wncc-website.github.io/assets/images/events/code_games.jpeg" alt="Code Games" class="img-fluid  w-100 d-block p-10" /></span>
           <div class="hover-overlay">
             <div class="hover-content p-1 m-1">
@@ -140,7 +33,7 @@
       </div>
       
       <div class="col-lg-4 col-6 mb-4 shuffle-item" data-groups="[&quot;2020&quot;]">
-        <div class="position-relative rounded hover-wrapper p-3" href="/events/event/code-in-quarantine/">
+        <div class="position-relative rounded hover-wrapper p-4" href="/events/event/code-in-quarantine/">
           <span class="rounded"> <img src="/wncc-website.github.io/assets/images/events/code_in_quarantine.jpeg" alt="Code in Quarantine" class="img-fluid  w-100 d-block p-10" /></span>
           <div class="hover-overlay">
             <div class="hover-content p-1 m-1">
@@ -151,7 +44,7 @@
       </div>
       
       <div class="col-lg-4 col-6 mb-4 shuffle-item" data-groups="[&quot;2020&quot;]">
-        <div class="position-relative rounded hover-wrapper p-3" href="/events/event/game-development/">
+        <div class="position-relative rounded hover-wrapper p-4" href="/events/event/game-development/">
           <span class="rounded"> <img src="/wncc-website.github.io/assets/images/events/game_development.jpeg" alt="Game Development" class="img-fluid  w-100 d-block p-10" /></span>
           <div class="hover-overlay">
             <div class="hover-content p-1 m-1">
@@ -162,7 +55,7 @@
       </div>
       
       <div class="col-lg-4 col-6 mb-4 shuffle-item" data-groups="[&quot;2020&quot;]">
-        <div class="position-relative rounded hover-wrapper p-3" href="/events/event/git-github-workshop/">
+        <div class="position-relative rounded hover-wrapper p-4" href="/events/event/git-github-workshop/">
           <span class="rounded"> <img src="/wncc-website.github.io/assets/images/events/git.jpeg" alt="Git/GitHub Workshop" class="img-fluid  w-100 d-block p-10" /></span>
           <div class="hover-overlay">
             <div class="hover-content p-1 m-1">
@@ -173,7 +66,7 @@
       </div>
       
       <div class="col-lg-4 col-6 mb-4 shuffle-item" data-groups="[&quot;2020&quot;]">
-        <div class="position-relative rounded hover-wrapper p-3" href="/events/event/covid_talks/">
+        <div class="position-relative rounded hover-wrapper p-4" href="/events/event/covid_talks/">
           <span class="rounded"> <img src="/wncc-website.github.io/assets/images/events/insti_against_covid.png" alt="COVID Talks" class="img-fluid  w-100 d-block p-10" /></span>
           <div class="hover-overlay">
             <div class="hover-content p-1 m-1">
@@ -184,7 +77,7 @@
       </div>
       
       <div class="col-lg-4 col-6 mb-4 shuffle-item" data-groups="[&quot;2020&quot;]">
-        <div class="position-relative rounded hover-wrapper p-3" href="/events/event/qna-with-kalpesh/">
+        <div class="position-relative rounded hover-wrapper p-4" href="/events/event/qna-with-kalpesh/">
           <span class="rounded"> <img src="/wncc-website.github.io/assets/images/events/qna_with_kalpesh.png" alt="QnA with Kalpesh" class="img-fluid  w-100 d-block p-10" /></span>
           <div class="hover-overlay">
             <div class="hover-content p-1 m-1">
@@ -195,7 +88,7 @@
       </div>
       
       <div class="col-lg-4 col-6 mb-4 shuffle-item" data-groups="[&quot;2020&quot;]">
-        <div class="position-relative rounded hover-wrapper p-3" href="/events/event/rattlesnake/">
+        <div class="position-relative rounded hover-wrapper p-4" href="/events/event/rattlesnake/">
           <span class="rounded"> <img src="/wncc-website.github.io/assets/images/events/rattle_snake.jpeg" alt="RattleSnake" class="img-fluid  w-100 d-block p-10" /></span>
           <div class="hover-overlay">
             <div class="hover-content p-1 m-1">
@@ -206,7 +99,7 @@
       </div>
       
       <div class="col-lg-4 col-6 mb-4 shuffle-item" data-groups="[&quot;2020&quot;]">
-        <div class="position-relative rounded hover-wrapper p-3" href="/events/event/learners-space/">
+        <div class="position-relative rounded hover-wrapper p-4" href="/events/event/learners-space/">
           <span class="rounded"> <img src="/wncc-website.github.io/assets/images/events/learners_space.jpeg" alt="Learners' Space" class="img-fluid  w-100 d-block p-10" /></span>
           <div class="hover-overlay">
             <div class="hover-content p-1 m-1">
@@ -217,7 +110,7 @@
       </div>
       
       <div class="col-lg-4 col-6 mb-4 shuffle-item" data-groups="[&quot;2020&quot;]">
-        <div class="position-relative rounded hover-wrapper p-3" href="/events/event/algorithms-simplified/">
+        <div class="position-relative rounded hover-wrapper p-4" href="/events/event/algorithms-simplified/">
           <span class="rounded"> <img src="/wncc-website.github.io/assets/images/events/algorithms_simplified.jpg" alt="Algorithms Simplified" class="img-fluid  w-100 d-block p-10" /></span>
           <div class="hover-overlay">
             <div class="hover-content p-1 m-1">
@@ -228,7 +121,7 @@
       </div>
       
       <div class="col-lg-4 col-6 mb-4 shuffle-item" data-groups="[&quot;2020&quot;]">
-        <div class="position-relative rounded hover-wrapper p-3" href="/events/event/soc_2020/">
+        <div class="position-relative rounded hover-wrapper p-4" href="/events/event/soc_2020/">
           <span class="rounded"> <img src="/wncc-website.github.io/assets/images/events/soc_2020.jpeg" alt="Seasons of Code 2020" class="img-fluid  w-100 d-block p-10" /></span>
           <div class="hover-overlay">
             <div class="hover-content p-1 m-1">
@@ -239,7 +132,7 @@
       </div>
       
       <div class="col-lg-4 col-6 mb-4 shuffle-item" data-groups="[&quot;2021&quot;]">
-        <div class="position-relative rounded hover-wrapper p-3" href="/events/event/intro-app-dev/">
+        <div class="position-relative rounded hover-wrapper p-4" href="/events/event/intro-app-dev/">
           <span class="rounded"> <img src="/wncc-website.github.io/assets/images/events/App_dev_ls.jpeg" alt="Introduction to App Development" class="img-fluid  w-100 d-block p-10" /></span>
           <div class="hover-overlay">
             <div class="hover-content p-1 m-1">
@@ -250,7 +143,7 @@
       </div>
       
       <div class="col-lg-4 col-6 mb-4 shuffle-item" data-groups="[]">
-        <div class="position-relative rounded hover-wrapper p-3" href="/events/event/python/">
+        <div class="position-relative rounded hover-wrapper p-4" href="/events/event/python/">
           <span class="rounded"> <img src="/wncc-website.github.io/assets/images/events/python_ls.jpeg" alt="Python and its Applications" class="img-fluid  w-100 d-block p-10" /></span>
           <div class="hover-overlay">
             <div class="hover-content p-1 m-1">
@@ -261,7 +154,7 @@
       </div>
       
       <div class="col-lg-4 col-6 mb-4 shuffle-item" data-groups="[&quot;2021&quot;]">
-        <div class="position-relative rounded hover-wrapper p-3" href="/events/event/mlOps/">
+        <div class="position-relative rounded hover-wrapper p-4" href="/events/event/mlOps/">
           <span class="rounded"> <img src="/wncc-website.github.io/assets/images/events/mlops_ls.jpeg" alt="Fundamentals of MLOps" class="img-fluid  w-100 d-block p-10" /></span>
           <div class="hover-overlay">
             <div class="hover-content p-1 m-1">
@@ -272,7 +165,7 @@
       </div>
       
       <div class="col-lg-4 col-6 mb-4 shuffle-item" data-groups="[&quot;2021&quot;]">
-        <div class="position-relative rounded hover-wrapper p-3" href="/events/event/intern_prep/">
+        <div class="position-relative rounded hover-wrapper p-4" href="/events/event/intern_prep/">
           <span class="rounded"> <img src="/wncc-website.github.io/assets/images/events/intern_prep.jpeg" alt="Internship Preparation Session" class="img-fluid  w-100 d-block p-10" /></span>
           <div class="hover-overlay">
             <div class="hover-content p-1 m-1">
@@ -283,7 +176,7 @@
       </div>
       
       <div class="col-lg-4 col-6 mb-4 shuffle-item" data-groups="[&quot;2021&quot;]">
-        <div class="position-relative rounded hover-wrapper p-3" href="/events/event/blockchain/">
+        <div class="position-relative rounded hover-wrapper p-4" href="/events/event/blockchain/">
           <span class="rounded"> <img src="/wncc-website.github.io/assets/images/events/finstreet.jpg" alt="Blockchain Developers Meet" class="img-fluid  w-100 d-block p-10" /></span>
           <div class="hover-overlay">
             <div class="hover-content p-1 m-1">
@@ -297,44 +190,4 @@
     
   </div>
 </section>
-
-
-  <!-- footer -->
-<footer class="bg-dark footer-section">
-  <div class="section">
-    <div class="container">
-      <div class="row justify-content-md-center">
-        <div class="col-md-5">
-          <h5 class="text-light">Email</h5>
-          <p class="text-white paragraph-lg font-secondary">wncc@iitb.ac.in</p>
-        </div>
-        <div class="col-md-5">
-          <h5 class="text-light">Address</h5>
-          <p class="text-white paragraph-lg font-secondary">IIT Bombay, Powai, Mumbai, Maharashtra</p>
-        </div>
-      </div>
-    </div>
-  </div>
-  <div class="border-top text-center border-dark py-2">
-    <p class="mb-0 text-light">Copyright Â©<script>
-        var CurrentYear = new Date().getFullYear()
-        document.write(CurrentYear)
-      </script> Web and Coding Club, IIT Bombay</p>
-  </div>
-</footer>
-<!-- /footer -->
-
-  <!-- jQuery -->
-  <script src="/wncc-website.github.io/assets/plugins/jQuery/jquery.min.js"></script>
-  <!-- Bootstrap JS -->
-  <script src="/wncc-website.github.io/assets/plugins/bootstrap/bootstrap.min.js"></script>
-  <!-- slick slider -->
-  <script src="/wncc-website.github.io/assets/plugins/slick/slick.min.js"></script>
-  <!-- filter -->
-  <script src="/wncc-website.github.io/assets/plugins/shuffle/shuffle.min.js"></script>
-
-  <!-- Main Script -->
-  <script src="/wncc-website.github.io/assets/js/script1.js"></script>
-</body>
-
-</html>
+:ET
