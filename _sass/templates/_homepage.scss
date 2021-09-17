@@ -173,7 +173,9 @@
   animation: text-shadow 1.5s ease-in-out infinite;
   font-weight: 900;
   line-height: 1;
-
+  @include mobile-xs{
+    font-size: 3em;
+  }
   &:hover {
     animation-play-state: paused;
 }

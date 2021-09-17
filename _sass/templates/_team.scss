@@ -1,6 +1,7 @@
 .team-title{
-  margin-left: 150px;
+  margin-left: 10vw;
   color: aliceblue;
+  font-size: 6vw;
   @include mobile-xs{
     margin:0;
     margin-top: -30px;
@@ -48,11 +49,11 @@
 .team-info {
   border-radius: 10%;
   background-color: rgb(33, 33, 33);
-    margin-top: -180px;
+    margin-top: -13vw;
     float: right;
-    font-size: 1.5em;
-    height:250px;
-    width:700px;
+    font-size: 1.5vw;
+    height:15vw;
+    width:50vw;
     display:block;
     color:gray;
     font-family: monospace;
@@ -88,13 +89,13 @@
   
 
 .team-section{
-    margin-top: 40px;
+    margin-top: 2vw;
     display: grid;
     grid-template-columns: repeat(14, 0.5fr);
     -ms-grid-rows: 1fr;
     grid-template-rows: repeat(3, 0.5fr);
     position: relative;
-    top: 220px;
+    top: 14vw;
     left: 10px;
     padding-bottom: 120px;
     padding-left: 10vw;
