@@ -79,7 +79,7 @@
         $("#console2").css({
             'visibility': 'visible'
         });
-        consoleText(["IIT Bombay", "Turning Caffeine to Code", "Coders Together Strong"], 'text2', ['#ffa500'],'console2');
+        consoleText(["IIT Bombay", "Coders Together Strong", "Turning Caffeine to Code"], 'text2', ['#ffa500'],'console2');
     }, 3500);
     let active = false;
     teamText(['<font color = "lightgreen">WnCC@itc:</font><font color = "blue">~</font>$ ./WnCC-team.sh <br> \

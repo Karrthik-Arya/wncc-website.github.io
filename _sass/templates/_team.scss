@@ -113,7 +113,10 @@
   margin-left: -20px;
   margin-right: -25px;
   margin-top: -9vw;
+  height:20vw;
+  width: 15vw;
   outline: 0 !important;
+  overflow:hidden;
 }
 
 .mobile-team{
@@ -128,4 +131,19 @@
 
 .bg-cover{
   background-color: rgb(33, 33, 33);
+}
+
+.team-member .img-wrap:before {
+  content: '';
+  background-image: linear-gradient(to top, rgba(33, 33, 33,255), rgba(20, 4, 4, 0));
+  position: absolute;
+  width:14.95vw;
+  height: 5vw;
+  right:0;
+  bottom: 0;
+}
+.team-member .img-wrap:after {
+  content: '';
+  display: block;
+  height: 100px;
 }
