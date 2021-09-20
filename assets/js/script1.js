@@ -97,7 +97,7 @@
              &emsp; <font color = "green">name</font>: Karrthik Arya;<br>\
              &emsp; <font color = "green">type</font>:Convener;<br>\
              &emsp; contact at:\
-             <a href="https://www.linkedin.com/in/karrthik-arya-30997320b/"><i class = "ti-linkedin"></i></a> \
+             <a href="https://www.linkedin.com/in/karrthik-arya-30997320b/"><i class = "ti-linkedin"></i> </a> \
               <a href="https://www.facebook.com/karrthik.arya/"> <i class = "ti-facebook"></i></a> \
               <a href="https://github.com/Karrthik-Arya"> <i class = "ti-github"></i> </a> ; <br>\
              };'], 'teamtext',['white'],);
@@ -228,7 +228,7 @@
             &emsp; contact at: \
               <a href="https://www.linkedin.com/in/ved-khandekar-29824612b/"><i class = "ti-linkedin"></i></a> \
               <a href="https://www.facebook.com/ved.khandekar.1/"><i class = "ti-facebook"></i></a> \
-              <a href="https://github.com/vedk"><i class = "ti-github"></i></a>; <br> \
+              <a href="https://github.com/vedk"><i class = "ti-github"></i></a> ; <br> \
             };'], 'teamtext',['white']);
         active = true;
     });
@@ -281,8 +281,7 @@ function teamText(words, id, colors) {
   var x = 1;
   var target = document.getElementById(id);
   target.setAttribute('style', 'color:' + colors[0]);
-  if(active === true){
-      clearInterval(timer);
+  if(active){
       target.innerHTML = '';
       active =false;
   }
@@ -298,13 +297,13 @@ function teamText(words, id, colors) {
         letterCount += 50;
       }else if (words[0].substring(letterCount, letterCount+2) === '</'){
         target.innerHTML = words[0].substring(0, letterCount)
-        letterCount += 5;
+        letterCount += 6;
       }else if (words[0].substring(letterCount, letterCount+2) === '<f'){
         target.innerHTML = words[0].substring(0, letterCount)
         letterCount += 30;
       }else if (words[0].substring(letterCount, letterCount+2) === '<i'){
         target.innerHTML = words[0].substring(0, letterCount)
-        letterCount += 25;
+        letterCount += 30;
       }else{
       target.innerHTML = words[0].substring(0, letterCount)
         letterCount += x;
