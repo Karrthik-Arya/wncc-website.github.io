@@ -1,6 +1,9 @@
 html{
   scroll-behavior: smooth;
   zoom: 0.75;
+  @include mobile-xs{
+    zoom:1;
+  }
 }
 
 body {

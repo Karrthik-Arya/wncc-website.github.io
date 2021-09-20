@@ -96,10 +96,10 @@
         teamText(['<font color = "blue">const</font> WnCC {<br>\
              &emsp; <font color = "green">name</font>: Karrthik Arya;<br>\
              &emsp; <font color = "green">type</font>:Convener;<br>\
-             &emsp; contact at:<br> \
-             &emsp; &emsp; <a href="https://www.linkedin.com/in/karrthik-arya-30997320b/"><i class = "ti-linkedin"></i> Karrthik Arya</a> \
-             &emsp; &emsp; <a href="https://www.facebook.com/karrthik.arya/"> <i class = "ti-facebook"></i> karrthik.arya</a> \
-             &emsp; &emsp; <a href="https://github.com/Karrthik-Arya"><i class = "ti-github"></i> Karrthik-Arya</a>\
+             &emsp; contact at:\
+             <a href="https://www.linkedin.com/in/karrthik-arya-30997320b/"><i class = "ti-linkedin"></i></a> \
+              <a href="https://www.facebook.com/karrthik.arya/"> <i class = "ti-facebook"></i></a> \
+              <a href="https://github.com/Karrthik-Arya"> <i class = "ti-github"></i> </a> ; <br>\
              };'], 'teamtext',['white'],);
         active =true;
     });
@@ -118,10 +118,10 @@
         teamText(['<font color = "blue">const</font> WnCC {<br>\
             &emsp; <font color = "green">name</font>: Jash Kabra;<br>\
             &emsp; <font color = "green">type</font>: Convener;<br>\
-            &emsp; contact at:<br> \
-            &emsp; &emsp; <a href="https://www.linkedin.com/in/jash-kabra-148a32207/"><i class = "ti-linkedin"></i> Jash Kabra</a>; <br> \
-            &emsp; &emsp; <a href="https://www.facebook.com/JashKabra/"><i class = "ti-facebook"></i> JashKabra</a>; <br> \
-            &emsp; &emsp; <a href="https://github.com/JashKabra"><i class = "ti-github"></i> JashKabra</a>; <br> \
+            &emsp; contact at: \
+             <a href="https://www.linkedin.com/in/jash-kabra-148a32207/"><i class = "ti-linkedin"></i></a> \
+             <a href="https://www.facebook.com/JashKabra/"><i class = "ti-facebook"></i></a> \
+             <a href="https://github.com/JashKabra"><i class = "ti-github"></i></a> ; <br> \
             };'], 'teamtext',['white']);
         active = true;
     });
@@ -129,10 +129,10 @@
         teamText(['<font color = "blue">const</font> WnCC {<br>\
             &emsp; <font color = "green">name</font>: Shruti Singh;<br>\
             &emsp; <font color = "green">type</font>: Manager;<br>\
-            &emsp; contact at:<br> \
-            &emsp; &emsp; <a href="https://www.linkedin.com/in/shruti-singh-a02714195/"><i class = "ti-linkedin"></i> Shruti Singh</a>; <br> \
-            &emsp; &emsp; <a href="https://www.facebook.com/shruti.s.50364592/"><i class = "ti-facebook"></i> shruti.s.50364592</a>; <br> \
-            &emsp; &emsp; <a href="https://github.com/shruhh"><i class = "ti-github"></i> shruhh</a>; <br> \
+            &emsp; contact at: \
+              <a href="https://www.linkedin.com/in/shruti-singh-a02714195/"><i class = "ti-linkedin"></i></a> \
+              <a href="https://www.facebook.com/shruti.s.50364592/"><i class = "ti-facebook"></i></a> \
+              <a href="https://github.com/shruhh"><i class = "ti-github"></i></a> ; <br> \
             };'], 'teamtext',['white']);
         active = true;
     });
@@ -141,10 +141,10 @@
         teamText(['<font color = "blue">const</font> WnCC {<br>\
             &emsp; <font color = "green">name</font>: Himanshu Choudhary;<br>\
             &emsp; <font color = "green">type</font>: Convener;<br>\
-            &emsp; contact at:<br> \
-            &emsp; &emsp; <a href="https://www.linkedin.com/in/himanshu-choudhary-26514813a/"><i class = "ti-linkedin"></i> Himanshu Choudhary</a>; <br> \
-            &emsp; &emsp; <a href="https://www.facebook.com/profile.php?id=100011777830160"><i class = "ti-facebook"></i> Himanshu-Choudhary</a>; <br> \
-            &emsp; &emsp; <a href="https://github.com/HimanshuC22"><i class = "ti-github"></i> HimanshuC22</a>; <br> \
+            &emsp; contact at: \
+              <a href="https://www.linkedin.com/in/himanshu-choudhary-26514813a/"><i class = "ti-linkedin"></i></a> \
+              <a href="https://www.facebook.com/profile.php?id=100011777830160"><i class = "ti-facebook"></i></a>\
+              <a href="https://github.com/HimanshuC22"><i class = "ti-github"></i></a> ; <br> \
             };'], 'teamtext',['white']);
         active = true;
     });
@@ -153,10 +153,10 @@
         teamText(['<font color = "blue">const</font> WnCC {<br>\
             &emsp; <font color = "green">name</font>: Subarno Nath Roy;<br>\
             &emsp; <font color = "green">type</font>: Convener;<br>\
-            &emsp; contact at:<br> \
-            &emsp; &emsp; <a href="https://www.linkedin.com/in/subarno-nath-roy-46b73ba/"><i class = "ti-linkedin"></i> Subarno Nath Roy</a>; <br> \
-            &emsp; &emsp; <a href="https://www.facebook.com/subarno.nathroy/"><i class = "ti-facebook"></i> subarno.nathroy</a>; <br> \
-            &emsp; &emsp; <a href="https://github.com/SubarnoNR"><i class = "ti-github"></i> SubarnoNR</a>; <br> \
+            &emsp; contact at: \
+              <a href="https://www.linkedin.com/in/subarno-nath-roy-46b73ba/"><i class = "ti-linkedin"></i> </a> \
+              <a href="https://www.facebook.com/subarno.nathroy/"><i class = "ti-facebook"></i> </a> \
+              <a href="https://github.com/SubarnoNR"><i class = "ti-github"></i> </a> ; <br> \
             };'], 'teamtext',['white']);
         active = true;
     });
@@ -165,10 +165,10 @@
         teamText(['<font color = "blue">const</font> WnCC {<br>\
             &emsp; <font color = "green">name</font>: Ishit Garg;<br>\
             &emsp; <font color = "green">type</font>: Convener;<br>\
-            &emsp; contact at:<br> \
-            &emsp; &emsp; <a href="https://www.linkedin.com/in/ishit-garg-a4120b201/"><i class = "ti-linkedin"></i> Ishit Garg</a>; <br> \
-            &emsp; &emsp; <a href="https://www.facebook.com/ishit.garg.18"><i class = "ti-facebook"></i> ishit.garg.18</a>; <br> \
-            &emsp; &emsp; <a href="https://github.com/ishit16"><i class = "ti-github"></i> ishit16</a>; <br> \
+            &emsp; contact at: \
+              <a href="https://www.linkedin.com/in/ishit-garg-a4120b201/"><i class = "ti-linkedin"></i> </a> \
+              <a href="https://www.facebook.com/ishit.garg.18"><i class = "ti-facebook"></i> </a> \
+              <a href="https://github.com/ishit16"><i class = "ti-github"></i> </a> ; <br> \
             };'], 'teamtext',['white']);
         active = true;
     });
@@ -177,10 +177,10 @@
         teamText(['<font color = "blue">const</font> WnCC {<br>\
             &emsp; <font color = "green">name</font>: Sarthak Mehrotra;<br>\
             &emsp; <font color = "green">type</font>: Convener;<br>\
-            &emsp; contact at:<br> \
-            &emsp; &emsp; <a href="https://www.linkedin.com/in/sarthak-mehrotra-a4a01120b/"><i class = "ti-linkedin"></i> Sarthak Mehrotra</a>; <br> \
-            &emsp; &emsp; <a href="https://www.facebook.com/sarthak.mehrotra.39750/"><i class = "ti-facebook"></i> sarthak.mehrotra.39750</a>; <br> \
-            &emsp; &emsp; <a href="https://github.com/SarthakM320"><i class = "ti-github"></i> SarthakM320</a>; <br> \
+            &emsp; contact at: \
+              <a href="https://www.linkedin.com/in/sarthak-mehrotra-a4a01120b/"><i class = "ti-linkedin"></i> </a> \
+              <a href="https://www.facebook.com/sarthak.mehrotra.39750/"><i class = "ti-facebook"></i> </a> \
+              <a href="https://github.com/SarthakM320"><i class = "ti-github"></i> </a> ; <br> \
             };'], 'teamtext',['white']);
         active = true;
     });
@@ -189,10 +189,10 @@
         teamText(['<font color = "blue">const</font> WnCC {<br>\
             &emsp; <font color = "green">name</font>: Vrinda Goel;<br>\
             &emsp; <font color = "green">type</font>: Convener;<br>\
-            &emsp; contact at:<br> \
-            &emsp; &emsp; <a href="https://www.linkedin.com/in/vrinda-goel-2956ab209/"><i class = "ti-linkedin"></i> Vrinda Goel</a>; <br> \
-            &emsp; &emsp; <a href="https://www.facebook.com/vrinda.goel.7967/"><i class = "ti-facebook"></i> vrinda.goel.7967</a>; <br> \
-            &emsp; &emsp; <a href="https://github.com/vrinda01go?tab=repositories"><i class = "ti-github"></i> vrinda01go</a>; <br> \
+            &emsp; contact at: \
+              <a href="https://www.linkedin.com/in/vrinda-goel-2956ab209/"><i class = "ti-linkedin"></i> </a> \
+              <a href="https://www.facebook.com/vrinda.goel.7967/"><i class = "ti-facebook"></i> </a> \
+              <a href="https://github.com/vrinda01go?tab=repositories"><i class = "ti-github"></i> </a>; <br> \
             };'], 'teamtext',['white']);
         active = true;
     });
@@ -201,10 +201,10 @@
         teamText(['<font color = "blue">const</font> WnCC {<br>\
             &emsp; <font color = "green">name</font>: Shubh Kumar;<br>\
             &emsp; <font color = "green">type</font>: Convener;<br>\
-            &emsp; contact at:<br> \
-            &emsp; &emsp; <a href="https://www.linkedin.com/in/shubh-kumar-526052b5/"><i class = "ti-linkedin"></i> Shubh Kumar</a>; <br> \
-            &emsp; &emsp; <a href="https://www.facebook.com/profile.php?id=100057361624828"><i class = "ti-facebook"></i> Shubh-Kumar</a>; <br> \
-            &emsp; &emsp; <a href="https://github.com/thevaliantthird"><i class = "ti-github"></i> thevaliantthird</a>; <br> \
+            &emsp; contact at: \
+              <a href="https://www.linkedin.com/in/shubh-kumar-526052b5/"><i class = "ti-linkedin"></i></a> \
+              <a href="https://www.facebook.com/profile.php?id=100057361624828"><i class = "ti-facebook"></i></a> \
+              <a href="https://github.com/thevaliantthird"><i class = "ti-github"></i></a>; <br> \
             };'], 'teamtext',['white']);
         active = true;
     });
@@ -213,10 +213,10 @@
         teamText(['<font color = "blue">const</font> WnCC {<br>\
             &emsp; <font color = "green">name</font>: Shreedhar Malpani;<br>\
             &emsp; <font color = "green">type</font>: Convener;<br>\
-            &emsp; contact at:<br> \
-            &emsp; &emsp; <a href="https://www.linkedin.com/in/shreedhar-malpani-23a139209/"><i class = "ti-linkedin"></i> Shreedhar Malpani</a>; <br> \
-            &emsp; &emsp; <a href="https://www.facebook.com/ShreedharMalpani28"><i class = "ti-facebook"></i> ShreedharMalpani28</a>; <br> \
-            &emsp; &emsp; <a href="https://github.com/shreedharmalpani"><i class = "ti-github"></i> shreedharmalpani</a>; <br> \
+            &emsp; contact at: \
+              <a href="https://www.linkedin.com/in/shreedhar-malpani-23a139209/"><i class = "ti-linkedin"></i> </a> \
+              <a href="https://www.facebook.com/ShreedharMalpani28"><i class = "ti-facebook"></i> </a> \
+              <a href="https://github.com/shreedharmalpani"><i class = "ti-github"></i> </a>; <br> \
             };'], 'teamtext',['white']);
         active = true;
     });
@@ -225,10 +225,10 @@
         teamText(['<font color = "blue">const</font> WnCC {<br>\
             &emsp; <font color = "green">name</font>: Ved Khandekar;<br>\
             &emsp; <font color = "green">type</font>: Convener;<br>\
-            &emsp; contact at:<br> \
-            &emsp; &emsp; <a href="https://www.linkedin.com/in/ved-khandekar-29824612b/"><i class = "ti-linkedin"></i> Ved Khandekar</a>; <br> \
-            &emsp; &emsp; <a href="https://www.facebook.com/ved.khandekar.1/"><i class = "ti-facebook"></i> ved.khandekar.1</a>; <br> \
-            &emsp; &emsp; <a href="https://github.com/vedk"><i class = "ti-github"></i> vedk</a>; <br> \
+            &emsp; contact at: \
+              <a href="https://www.linkedin.com/in/ved-khandekar-29824612b/"><i class = "ti-linkedin"></i></a> \
+              <a href="https://www.facebook.com/ved.khandekar.1/"><i class = "ti-facebook"></i></a> \
+              <a href="https://github.com/vedk"><i class = "ti-github"></i></a>; <br> \
             };'], 'teamtext',['white']);
         active = true;
     });
