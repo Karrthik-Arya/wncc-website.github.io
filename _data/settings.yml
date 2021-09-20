@@ -1178,7 +1178,45 @@ event-labels:
   }
   
 events-items:
-    # 2020 events
+  # 2021 events
+
+  - title : "Introduction to App Development"
+    image_small : "assets/images/events/App_dev_ls.jpeg"
+    image : "assets/images/events/App_dev_ls.jpeg"
+    url : "/events/event/intro-app-dev/"
+    event-type:
+      - type: "2021"
+
+  - title : "Python and its Applications"
+    image_small : "assets/images/events/python_ls.jpeg"
+    image : "assets/images/events/python_ls.jpeg"
+    url : "/events/event/python/"
+    event_type:
+      - type: "2021"
+    
+  - title : "Fundamentals of MLOps"
+    image_small : "assets/images/events/mlops_ls.jpeg"
+    image : "assets/images/events/mlops_ls.jpeg"
+    url : "/events/event/mlOps/"
+    event-type:
+      - type: "2021"
+
+  - title : "Internship Preparation Session"
+    image_small : "assets/images/events/intern_prep.jpeg"
+    image : "assets/images/events/intern_prep.jpeg"
+    url : "/events/event/intern_prep/"
+    event-type:
+      - type: "2021"
+
+  - title : "Blockchain Developers Meet"
+    image_small : "assets/images/events/finstreet.jpg"
+    image : "assets/images/events/finstreet.jpg"
+    url : "/events/event/blockchain/"
+    event-type:
+      - type: "2021"
+      
+      # 2020 events
+      
   - title : "Code Games"
     image_small: "assets/images/events/code_games.jpeg"
     image : "assets/images/events/code_games.jpeg"
@@ -1248,43 +1286,6 @@ events-items:
     url : "/events/event/soc_2020/"
     event-type:
       - type: "2020"
-
-  # 2021 events
-
-  - title : "Introduction to App Development"
-    image_small : "assets/images/events/App_dev_ls.jpeg"
-    image : "assets/images/events/App_dev_ls.jpeg"
-    url : "/events/event/intro-app-dev/"
-    event-type:
-      - type: "2021"
-
-  - title : "Python and its Applications"
-    image_small : "assets/images/events/python_ls.jpeg"
-    image : "assets/images/events/python_ls.jpeg"
-    url : "/events/event/python/"
-    event_type:
-      - type: "2021"
-    
-  - title : "Fundamentals of MLOps"
-    image_small : "assets/images/events/mlops_ls.jpeg"
-    image : "assets/images/events/mlops_ls.jpeg"
-    url : "/events/event/mlOps/"
-    event-type:
-      - type: "2021"
-
-  - title : "Internship Preparation Session"
-    image_small : "assets/images/events/intern_prep.jpeg"
-    image : "assets/images/events/intern_prep.jpeg"
-    url : "/events/event/intern_prep/"
-    event-type:
-      - type: "2021"
-
-  - title : "Blockchain Developers Meet"
-    image_small : "assets/images/events/finstreet.jpg"
-    image : "assets/images/events/finstreet.jpg"
-    url : "/events/event/blockchain/"
-    event-type:
-      - type: "2021"
     
 
 #-------------------------------
