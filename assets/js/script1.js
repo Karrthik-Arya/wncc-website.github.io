@@ -157,7 +157,9 @@
     });
 
     $("#Himanshu").click(function() {
-        clicked = true;
+        if(active){
+            clicked = true;
+            }
         teamText(['<font color = "blue">const</font> WnCC {<br>\
             &emsp; <font color = "green">name</font>: Himanshu Choudhary;<br>\
             &emsp; <font color = "green">type</font>: Convener;<br>\
@@ -170,7 +172,9 @@
     });
 
     $("#Subarno").click(function() {
-        clicked = true;
+        if(active){
+            clicked = true;
+            }
         teamText(['<font color = "blue">const</font> WnCC {<br>\
             &emsp; <font color = "green">name</font>: Subarno Nath Roy;<br>\
             &emsp; <font color = "green">type</font>: Convener;<br>\
@@ -183,7 +187,9 @@
     });
 
     $("#Ishit").click(function() {
-        clicked = true;
+        if(active){
+            clicked = true;
+            }
         teamText(['<font color = "blue">const</font> WnCC {<br>\
             &emsp; <font color = "green">name</font>: Ishit Garg;<br>\
             &emsp; <font color = "green">type</font>: Convener;<br>\
@@ -196,7 +202,9 @@
     });
 
     $("#Sarthak").click(function() {
-        clicked = true;
+        if(active){
+            clicked = true;
+            }
         teamText(['<font color = "blue">const</font> WnCC {<br>\
             &emsp; <font color = "green">name</font>: Sarthak Mehrotra;<br>\
             &emsp; <font color = "green">type</font>: Convener;<br>\
@@ -209,7 +217,9 @@
     });
 
     $("#Vrinda").click(function() {
-        clicked = true;
+        if(active){
+            clicked = true;
+            }
         teamText(['<font color = "blue">const</font> WnCC {<br>\
             &emsp; <font color = "green">name</font>: Vrinda Goel;<br>\
             &emsp; <font color = "green">type</font>: Convener;<br>\
@@ -222,7 +232,9 @@
     });
 
     $("#Shubh").click(function() {
-        clicked = true;
+        if(active){
+            clicked = true;
+            }
         teamText(['<font color = "blue">const</font> WnCC {<br>\
             &emsp; <font color = "green">name</font>: Shubh Kumar;<br>\
             &emsp; <font color = "green">type</font>: Convener;<br>\
@@ -235,7 +247,9 @@
     });
 
     $("#Shreedhar").click(function() {
-        clicked = true;
+        if(active){
+            clicked = true;
+            }
         teamText(['<font color = "blue">const</font> WnCC {<br>\
             &emsp; <font color = "green">name</font>: Shreedhar Malpani;<br>\
             &emsp; <font color = "green">type</font>: Convener;<br>\
@@ -248,7 +262,9 @@
     });
 
     $("#Ved").click(function() {
-        clicked = true;
+        if(active){
+            clicked = true;
+            }
         teamText(['<font color = "blue">const</font> WnCC {<br>\
             &emsp; <font color = "green">name</font>: Ved Khandekar;<br>\
             &emsp; <font color = "green">type</font>: Convener;<br>\
