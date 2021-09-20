@@ -933,6 +933,11 @@ testimonial-items:
     image: "assets/images/testimonial/SoC (1).png"
     designation: " "
     content: "Seasons of Code is a programme launched by the WnCC, along the lines of GSoC without much greenery though. The idea is that one can choose from the projects offered by mentors who are senior undergrads, doctorate students or professors, and in some exceptional cases, startups. The projects floated span several genres, including Development, Scientific Computation, Machine Learning and Open Source. With most of the projects running in summer, we’ve also had projects that have extended into the semester and some in winter."
+
+  - name: "Internship Preparation Session"
+    image: "assets/images/testimonial/intern_session.png"
+    designation: " "
+    content: "To help prepare for the gruesome intership season, WnCC along with Career Cell IITB organized this Internship Preparation Program. We regularly released DSA preparation booklets (comprising both theory and questions) from 13th to 27th June 2021. Moreover, for assistance with the doubts related to the bookletsc we had with us, Aakash Kapoor, an IITB electrical 2020 graduate, currently, a Machine Learning researcher at Samsung. He also held detailed DSA tech sessions to help people learn."
   
   - name: "WnCC Wiki- Grundy"
     image: "assets/images/testimonial/Grundy.png"
