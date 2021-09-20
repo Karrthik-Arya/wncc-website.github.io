@@ -1,8 +1,5 @@
 .side-bar{
-    position: fixed;
-    bottom: 400px; 
-    right:5px; 
-    z-index:30;
+    z-index:100;
     @include mobile{
         bottom: 200px;
     }
@@ -33,15 +30,16 @@ input[type="checkbox"]:checked {
 	}
 	
 	& + .box .box__item {
-		transform: translateX(0px);
+		transform: translate(80px, 160px);
     opacity: 1;
-		visibility: visible;
+		display: block;
     transition: all 0.7s ease-out;
 	}
 
     & +.box .ti-bell{
         &:before{
         content:"\e646";
+        color: red;
         font-size: 35px;
         transition: 0.3s;
         }
@@ -54,25 +52,22 @@ input[type="checkbox"]:checked {
 	position: relative;
 	
 	&:after {
-        text-align: center;
 		content: '';
 		width: 55px;
 		height: 60px;
 		position: absolute;
+        top:5px;
 		right: 0;
-		top: 50%;
-        padding:25px;
 		background:rgb(255, 230, 0);
         border-radius: 10%;
-		transform-origin: 100% 50%;
-		transform: translateY(-50%);
+		transform-origin: 80% -80%;
+		transform: translateY(-25%);
 		transition: transform 0.5s;
 		z-index: -1;
 	}
 	
 	&__item {
-		visibility: hidden;
-		transform: translateX(20px);
+		display: none;
 		opacity: 0;
 		transition: 
 			opacity 0.2s 0.8s 0;
@@ -92,7 +87,7 @@ input[type="checkbox"]:checked {
 }
 
 .ti-bell{
-    display:block;
+    display: block;
     transition: 0.3s;
     animation: ring 4s .7s ease-in-out infinite;
     &:hover{
@@ -135,9 +130,6 @@ input[type="checkbox"]:checked {
     text-align: left; 
     color: black;
     text-shadow: 2px 2px #5a5858;
-    &:hover {
-      animation-play-state: paused;
-  }
   @include mobile{
     font-size: 3em;
     }
