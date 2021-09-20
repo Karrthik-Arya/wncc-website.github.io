@@ -11,6 +11,7 @@ menu:
 - {name: Resources, link: '/resources/'}
 - {name: SoC, link: '/soc/'}
 - {name: Events, link: '/events/'}
+- {name: Team, link: '/#team'}
 - {name: Contact, link: '/#contact'}
 
 
