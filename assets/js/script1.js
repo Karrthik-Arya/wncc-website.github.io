@@ -10,8 +10,20 @@
         } else {
             $('.navigation').removeClass('nav-bg');
         }
+        
     });
 
+    $(window).scroll(function(){
+        console.log($(window).scrollTop());
+
+        var triggerHeight = 1800;
+
+    if ($(window).scrollTop() >= triggerHeight) {
+        $('.achievements').css('visibility', 'visible').hide().fadeIn("slow");
+        $(this).off('scroll');
+    }
+    });
+    
     // Background-images
     $('[data-background]').each(function () {
         $(this).css({

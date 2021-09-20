@@ -10,8 +10,20 @@
         } else {
             $('.navigation').removeClass('nav-bg');
         }
+        
     });
 
+    $(window).scroll(function(){
+        console.log($(window).scrollTop());
+
+        var triggerHeight = 1800;
+
+    if ($(window).scrollTop() >= triggerHeight) {
+        $('.achievements').css('visibility', 'visible').hide().fadeIn("slow");
+        $(this).off('scroll');
+    }
+    });
+    
     // Background-images
     $('[data-background]').each(function () {
         $(this).css({
@@ -87,7 +99,7 @@
      Setting up dependency tree <font color = "tomato">tty14</font> <br> \
      Fetched 260 kb in 1s(286 kb/s) <br> \
      Preparing to unpack     .          .           .  <font color = "lightgreen">/managers.gz</font> <br> \
-     Adding "Convenrs to <font color = "blue">/usr/bin/tty14/members</font>" <br>\
+     Adding "Conveners to <font color = "blue">/usr/bin/tty14/members</font>" <br>\
      Build Successful!<br>\
      <font color = "green">Click on the images to know about the members</font>'],
      ["teamtext"], ["aliceblue"]);
