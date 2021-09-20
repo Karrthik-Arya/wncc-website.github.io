@@ -10,10 +10,6 @@
         } else {
             $('.navigation').removeClass('nav-bg');
         }
-        
-    });
-
-    $(window).scroll(function(){
         console.log($(window).scrollTop());
 
         var triggerHeight = 1800;
@@ -23,7 +19,7 @@
         $(this).off('scroll');
     }
     });
-    
+
     // Background-images
     $('[data-background]').each(function () {
         $(this).css({
@@ -93,7 +89,7 @@
         });
         consoleText(["IIT Bombay", "Coders Together Strong", "Turning Caffeine to Code"], 'text2', ['#ffa500'],'console2');
     }, 3500);
-    let active = false;
+    let clicked = false;
     teamText(['<font color = "lightgreen">WnCC@itc:</font><font color = "blue">~</font>$ ./WnCC-team.sh <br> \
      Reading package lists.         .            .            .            Done <br> \
      Setting up dependency tree <font color = "tomato">tty14</font> <br> \
@@ -103,8 +99,8 @@
      Build Successful!<br>\
      <font color = "green">Click on the images to know about the members</font>'],
      ["teamtext"], ["aliceblue"]);
-     active = true;
     $("#Karrthik").click(function() {
+        clicked = true;
         teamText(['<font color = "blue">const</font> WnCC {<br>\
              &emsp; <font color = "green">name</font>: Karrthik Arya;<br>\
              &emsp; <font color = "green">type</font>:Convener;<br>\
@@ -116,6 +112,7 @@
         active =true;
     });
     $("#DK").click(function() {
+        clicked = true;
         teamText(['<font color = "blue">const</font> WnCC {<br>\
             &emsp; <font color = "green">name</font>: Divyanshi Kamra;<br>\
             &emsp; <font color = "green">type</font>:Manager;<br>\
@@ -124,9 +121,10 @@
              <a href="https://www.facebook.com/divyanshi.kamra.7/"><i class = "ti-facebook"></i></a>\
              <a href="https://github.com/divyanshikamra"><i class = "ti-github"></i></a>; <br> \
             };'], 'teamtext',['white']);
-        active = true;
+         
     });
     $("#Jash").click(function() {
+        clicked = true;
         teamText(['<font color = "blue">const</font> WnCC {<br>\
             &emsp; <font color = "green">name</font>: Jash Kabra;<br>\
             &emsp; <font color = "green">type</font>: Convener;<br>\
@@ -135,9 +133,10 @@
              <a href="https://www.facebook.com/JashKabra/"><i class = "ti-facebook"></i></a> \
              <a href="https://github.com/JashKabra"><i class = "ti-github"></i></a> ; <br> \
             };'], 'teamtext',['white']);
-        active = true;
+         
     });
     $("#Shruti").click(function() {
+        clicked = true;
         teamText(['<font color = "blue">const</font> WnCC {<br>\
             &emsp; <font color = "green">name</font>: Shruti Singh;<br>\
             &emsp; <font color = "green">type</font>: Manager;<br>\
@@ -146,10 +145,11 @@
               <a href="https://www.facebook.com/shruti.s.50364592/"><i class = "ti-facebook"></i></a> \
               <a href="https://github.com/shruhh"><i class = "ti-github"></i></a> ; <br> \
             };'], 'teamtext',['white']);
-        active = true;
+         
     });
 
     $("#Himanshu").click(function() {
+        clicked = true;
         teamText(['<font color = "blue">const</font> WnCC {<br>\
             &emsp; <font color = "green">name</font>: Himanshu Choudhary;<br>\
             &emsp; <font color = "green">type</font>: Convener;<br>\
@@ -158,10 +158,11 @@
               <a href="https://www.facebook.com/profile.php?id=100011777830160"><i class = "ti-facebook"></i></a>\
               <a href="https://github.com/HimanshuC22"><i class = "ti-github"></i></a> ; <br> \
             };'], 'teamtext',['white']);
-        active = true;
+         
     });
 
     $("#Subarno").click(function() {
+        clicked = true;
         teamText(['<font color = "blue">const</font> WnCC {<br>\
             &emsp; <font color = "green">name</font>: Subarno Nath Roy;<br>\
             &emsp; <font color = "green">type</font>: Convener;<br>\
@@ -170,10 +171,11 @@
               <a href="https://www.facebook.com/subarno.nathroy/"><i class = "ti-facebook"></i> </a> \
               <a href="https://github.com/SubarnoNR"><i class = "ti-github"></i> </a> ; <br> \
             };'], 'teamtext',['white']);
-        active = true;
+         
     });
 
     $("#Ishit").click(function() {
+        clicked = true;
         teamText(['<font color = "blue">const</font> WnCC {<br>\
             &emsp; <font color = "green">name</font>: Ishit Garg;<br>\
             &emsp; <font color = "green">type</font>: Convener;<br>\
@@ -182,10 +184,11 @@
               <a href="https://www.facebook.com/ishit.garg.18"><i class = "ti-facebook"></i> </a> \
               <a href="https://github.com/ishit16"><i class = "ti-github"></i> </a> ; <br> \
             };'], 'teamtext',['white']);
-        active = true;
+         
     });
 
     $("#Sarthak").click(function() {
+        clicked = true;
         teamText(['<font color = "blue">const</font> WnCC {<br>\
             &emsp; <font color = "green">name</font>: Sarthak Mehrotra;<br>\
             &emsp; <font color = "green">type</font>: Convener;<br>\
@@ -194,10 +197,11 @@
               <a href="https://www.facebook.com/sarthak.mehrotra.39750/"><i class = "ti-facebook"></i> </a> \
               <a href="https://github.com/SarthakM320"><i class = "ti-github"></i> </a> ; <br> \
             };'], 'teamtext',['white']);
-        active = true;
+         
     });
 
     $("#Vrinda").click(function() {
+        clicked = true;
         teamText(['<font color = "blue">const</font> WnCC {<br>\
             &emsp; <font color = "green">name</font>: Vrinda Goel;<br>\
             &emsp; <font color = "green">type</font>: Convener;<br>\
@@ -206,10 +210,11 @@
               <a href="https://www.facebook.com/vrinda.goel.7967/"><i class = "ti-facebook"></i> </a> \
               <a href="https://github.com/vrinda01go?tab=repositories"><i class = "ti-github"></i> </a>; <br> \
             };'], 'teamtext',['white']);
-        active = true;
+         
     });
 
     $("#Shubh").click(function() {
+        clicked = true;
         teamText(['<font color = "blue">const</font> WnCC {<br>\
             &emsp; <font color = "green">name</font>: Shubh Kumar;<br>\
             &emsp; <font color = "green">type</font>: Convener;<br>\
@@ -218,10 +223,11 @@
               <a href="https://www.facebook.com/profile.php?id=100057361624828"><i class = "ti-facebook"></i></a> \
               <a href="https://github.com/thevaliantthird"><i class = "ti-github"></i></a>; <br> \
             };'], 'teamtext',['white']);
-        active = true;
+         
     });
 
     $("#Shreedhar").click(function() {
+        clicked = true;
         teamText(['<font color = "blue">const</font> WnCC {<br>\
             &emsp; <font color = "green">name</font>: Shreedhar Malpani;<br>\
             &emsp; <font color = "green">type</font>: Convener;<br>\
@@ -230,10 +236,11 @@
               <a href="https://www.facebook.com/ShreedharMalpani28"><i class = "ti-facebook"></i> </a> \
               <a href="https://github.com/shreedharmalpani"><i class = "ti-github"></i> </a>; <br> \
             };'], 'teamtext',['white']);
-        active = true;
+         
     });
 
     $("#Ved").click(function() {
+        clicked = true;
         teamText(['<font color = "blue">const</font> WnCC {<br>\
             &emsp; <font color = "green">name</font>: Ved Khandekar;<br>\
             &emsp; <font color = "green">type</font>: Convener;<br>\
@@ -242,7 +249,7 @@
               <a href="https://www.facebook.com/ved.khandekar.1/"><i class = "ti-facebook"></i></a> \
               <a href="https://github.com/vedk"><i class = "ti-github"></i></a> ; <br> \
             };'], 'teamtext',['white']);
-        active = true;
+         
     });
 
 function consoleText(words, id, colors, console_id) {
@@ -293,10 +300,6 @@ function teamText(words, id, colors) {
   var x = 1;
   var target = document.getElementById(id);
   target.setAttribute('style', 'color:' + colors[0]);
-  if(active){
-      target.innerHTML = '';
-      active =false;
-  }
   let timer = setInterval(function() {
       if (words[0][letterCount] === '&'){
         letterCount += 6;
@@ -319,9 +322,10 @@ function teamText(words, id, colors) {
       }else{
       target.innerHTML = words[0].substring(0, letterCount)
         letterCount += x;
-        if (letterCount === words[0].length + 1) {
-        clearInterval(timer);
-        active =false;
+        if (clicked){
+            clearInterval(timer);
+            target.innerHTML = '';
+            clicked = false;
         }
     }
 
