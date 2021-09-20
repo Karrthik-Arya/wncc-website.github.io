@@ -97,9 +97,9 @@
              &emsp; <font color = "green">name</font>: Karrthik Arya;<br>\
              &emsp; <font color = "green">type</font>:Convener;<br>\
              &emsp; contact at:<br> \
-             &emsp; &emsp; <a href="https://www.linkedin.com/in/karrthik-arya-30997320b/"><i class = "ti-linkedin"></i> Karrthik Arya</a>; <br> \
-             &emsp; &emsp; <a href="https://www.facebook.com/karrthik.arya/"> <i class = "ti-facebook"></i> karrthik.arya</a>; <br> \
-             &emsp; &emsp; <a href="https://github.com/Karrthik-Arya"><i class = "ti-github"></i> Karrthik-Arya</a>; <br> \
+             &emsp; &emsp; <a href="https://www.linkedin.com/in/karrthik-arya-30997320b/"><i class = "ti-linkedin"></i> Karrthik Arya</a> \
+             &emsp; &emsp; <a href="https://www.facebook.com/karrthik.arya/"> <i class = "ti-facebook"></i> karrthik.arya</a> \
+             &emsp; &emsp; <a href="https://github.com/Karrthik-Arya"><i class = "ti-github"></i> Karrthik-Arya</a>\
              };'], 'teamtext',['white'],);
         active =true;
     });
@@ -107,10 +107,10 @@
         teamText(['<font color = "blue">const</font> WnCC {<br>\
             &emsp; <font color = "green">name</font>: Divyanshi Kamra;<br>\
             &emsp; <font color = "green">type</font>:Manager;<br>\
-            &emsp; contact at:<br> \
-            &emsp; &emsp; <a href="https://www.linkedin.com/in/divyanshi-kamra-36268b1b3/"><i class = "ti-linkedin"></i> Divyanshi Kamra</a>; <br> \
-            &emsp; &emsp; <a href="https://www.facebook.com/divyanshi.kamra.7/"><i class = "ti-facebook"></i> divyanshi.kamra.7</a>; <br> \
-            &emsp; &emsp; <a href="https://github.com/divyanshikamra"><i class = "ti-github"></i> divyanshikamra</a>; <br> \
+            &emsp; contact at: \
+            <a href="https://www.linkedin.com/in/divyanshi-kamra-36268b1b3/"><i class = "ti-linkedin"></i></a>\
+             <a href="https://www.facebook.com/divyanshi.kamra.7/"><i class = "ti-facebook"></i></a>\
+             <a href="https://github.com/divyanshikamra"><i class = "ti-github"></i></a>; <br> \
             };'], 'teamtext',['white']);
         active = true;
     });
