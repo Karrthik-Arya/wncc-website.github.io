@@ -3,7 +3,7 @@ layout: eventLayout
 title: Events
 project: Blockchain Developers Meet
     
-permalink: /events/event/block-chain/
+permalink: /events/event/blockchain/
 ---
 
 <h2 class="display1 m-3 p-3 text-center">{{page.project}}</h2>
