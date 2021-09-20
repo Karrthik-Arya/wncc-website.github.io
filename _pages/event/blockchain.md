@@ -16,14 +16,21 @@ permalink: /events/event/block-chain/
 
 <div>
     <p class="display3" style = "font-size:20px;" >
-        <br>
-        Hello all,
-<br><br>
-After a very successful event on Introduction to Competitive Programming, WnCC brings to all beginners an opportunity to compete in a programming contest created specifically for you. Enjoy the thrill of battling each other in this game of wits called CodeGames. All you need is logic, C++, problem solving skills and the power of Google. This is a beginner friendly contest created to help everyone get into the fun world of competitive programming.
+      <br>
+WnCC in collaboration with Polygon organised the Blockchain Developers
+Meet to help students become a blockchain developer. 
+Polygon is a made-in-India cryptocurrency protocol that crossed a market
+capitalization of $10 billion recently.
+<br> People who attended
+the meet were offered the below-given perks:
+<br>
+   - E-certificates to all the participants
+<br>
+   - Exclusive access to a private group with senior developers for
+<br>
+     blockchain tech discussions
 
-<br><br>
-    Not sure where to start? Check out the resources from Competitive Programming for beginners here: https://github.com/.../Competitive.../blob/main/README.md. If you missed the season that we hosted last week you can watch it on YouTube here:https://youtu.be/HwpUQLKPAhg
-    </p>
+</p>
 </div>
 {% endif %}
 {% endfor %}

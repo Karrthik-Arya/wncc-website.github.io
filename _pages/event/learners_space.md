@@ -22,7 +22,7 @@ permalink: /events/event/learners-space/
 Under this initiative, WnCC started three well-curated courses on the topics - Python, Machine Learning and Web Development.
 
 <br><br>
-    These are structured courses with weekly content and assignments for anyone to get started in any of the three fields and get a well rounded experience. 
+    These were structured courses with weekly content and assignments for anyone to get started in any of the three fields and get a well rounded experience. 
     </p>
 </div>
 {% endif %}

@@ -19,10 +19,10 @@ permalink: /events/event/game-development/
         <br>
         Hello coders,
 <br><br>
-Have you imagined what it would feel like to mould your reality as you see fit? Or perhaps create a whole new one that defies the laws of physics? Now, certainly it isn't possible in the real world; but you, as programmers, equipped with the right tools, can actually do so in the virtual world. To get you started with how you'd go about doing it, WnCC brings to you a workshop on Game Development!
+Many of you must have played classic hit games such as NFS, GTA, Angry Birds etc. Ever wondered how these games were created in the first place? Welcome to the fascinating world of Game Dev, a highly creative, competitive, and fun industry! WnCC conducted a session to give the students an exposure to this field.
 
 <br><br>
-    The sessions will be conducted by Mr Prabhat Singh, and will cover topics from Game Design, C# programming and Networking, using Unity, a leading Game Engine widely used by both novice and professional Game Developers. The workshop is intended to familiarize newbie enthusiasts with the basics of Game Development; and the best thing, there are <b>No Prerequisites</b> (other than CS101). We will also be organising a hackathon wherein you'll be building your own Android Game. The best entries will be published on Play Store for the world to see your creativity!
+    The session was conducted by Mr Prabhat Singh, and covered topics ranging from Game Design, C# programming and Networking, using Unity, a leading Game Engine widely used by both novice and professional Game Developers. The workshop intended to familiarize newbie enthusiasts with the basics of Game Development; and the best thing, there were No Prerequisites (other than CS101). We also organised a hackathon where participants built their own Android Game. The best entries were published on Play Store for the world to see!
     </p>
 </div>
 {% endif %}

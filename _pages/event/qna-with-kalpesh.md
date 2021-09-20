@@ -19,7 +19,7 @@ permalink: /events/event/qna-with-kalpesh/
         <br>
         Kalpesh Krishna is an EE undergraduate (2014-18) from IITB and is now pursuing MS/PhD in Computer Science from University of Massachusetts, Amherst. He has also done some remarkable internships under Google Brain, Google AI language, University of Chicago and has also contributed to Mozilla, under Google Summer Of Code.
 <br><br>
-He will share with us his journey and how he pursued his career in computer science. Join in to learn more about what goes behind a non-CS undergrad paving his way towards a career in CS, which activities he was involved in as an undergraduate and finally how he chose his career path. Along with talking about how to spend your years at the institute to build a career in CS, this session will cover his intern experiences and questions like why he preferred PhD over a job.
+He shared with us his journey and how he pursued his career in Computer Science. He discussed about how he paved his way towards a career in Computer Science despite being from a non CS background. He also talked about what all activities one should do in the Institute to build a solid career in Computer Science. He answered various questions including Why he preferred a PhD over a job in corporate sector and also discussed his past internship experiences.
 <br><br>
     </p>
 </div>

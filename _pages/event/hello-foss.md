@@ -17,12 +17,9 @@ permalink: /events/event/hello-foss/
 <div>
     <p class="display3" style = "font-size:20px;" >
         <br>
-        We hope you’re safe and sound at your places. The month of October has started, when people generally start preparing for Google Summer of Code (https://summerofcode.withgoogle.com) and also when Hacktoberfest (https://hacktoberfest.digitalocean.com) is celebrated worldwide.
+        The month of October is the time when people generally start preparing for Google Summer of Code (https://summerofcode.withgoogle.com) and also when Hacktoberfest (https://hacktoberfest.digitalocean.com) is celebrated worldwide.
 <br><br>
-So this being the best time to get started, we are here to your rescue.
-
-<br><br>
-    WnCC announces a festival Hello-FOSS to encourage and instill the culture of Open Source in our institute. We have launched various projects and will be adding more, from various diverse fields such as ML, Web and App Development and, DSA. To get everyone covered we have projects ranging with all complexities, to get started all you need to do is create a simple pull request on our repo. Contributing to these repos not only gets you started but also brings you participation in Hacktoberfest since all of these repos are under the hacktoberfest tag. All the projects have mentors allotted to help you out if you feel stuck or clueless at any point. Wishing you all the best for starting your journey towards Open Source.
+WnCC conducted a festival “Hello-FOSS” to encourage and instil the culture of Open Source in our institute. We launched various projects, from various diverse fields such as ML, Web and App Development and DSA. To get everyone covered, we had projects ranging across all complexities. To get started, participants were required to create a simple pull requests on our repo. Contributing to these brought about participation in Hacktoberfest since all of these repos were under the hacktoberfest tag. All the projects had mentors allotted to help out in case of difficulties.
     </p>
 </div>
 {% endif %}

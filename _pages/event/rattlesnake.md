@@ -20,17 +20,15 @@ permalink: /events/event/rattlesnake/
         Are you bored of doing the repetitive tasks like digitising your old lab
 notes, moving and manipulating your data around for better graphs or
 visualisations? Or do you just wish your computer could swipe right on all
-those profiles at once? In this first edition of the PG Tech Weekend, ITC
-and WnCC bring to you an intermediate level workshop on Python aimed at
+those profiles at once? To answer all these questions, ITC
+and WnCC organised an intermediate level workshop on Python aimed at
 helping the IITB junta to master the capabilities of those
 computers/laptops lying in front of you.
 
 <br><br>
-    Inspired by the book, Automate the
-boring stuff with Python, this workshop will introduce you to important
-libraries such as Selenium, SciPy, OpenCV and more. What's more, once you
-register at the link below, you'll get a chance to implement this new
-knowledge through activities arranged in the second half of the workshop.
+    Inspired by the book, 'Automate the
+boring stuff with Python', this workshop introduced all the important
+libraries such as Selenium, SciPy, OpenCV and more. In the second half of the workshop various tasks were given so that people could implement their knowledge of these libraries.
     </p>
 </div>
 {% endif %}

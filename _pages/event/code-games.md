@@ -19,11 +19,12 @@ permalink: /events/event/code-games/
         <br>
         Hello all,
 <br><br>
-After a very successful event on Introduction to Competitive Programming, WnCC brings to all beginners an opportunity to compete in a programming contest created specifically for you. Enjoy the thrill of battling each other in this game of wits called CodeGames. All you need is logic, C++, problem solving skills and the power of Google. This is a beginner friendly contest created to help everyone get into the fun world of competitive programming.
+After a very successful event on Introduction to Competitive Programming, WnCC brought to all beginners an opportunity to compete in a programming contest in an unconventional way. People enjoyed the thrill of battling each other in this game of wits called CodeGames. The only pre-requisites for this contest were logic, C++, problem solving skills and enthusiasm. It was a beginner friendly contest created to help everyone get into the fun world of competitive programming.
 
 <br><br>
-    Not sure where to start? Check out the resources from Competitive Programming for beginners here: https://github.com/.../Competitive.../blob/main/README.md. If you missed the season that we hosted last week you can watch it on YouTube here:https://youtu.be/HwpUQLKPAhg
-    </p>
+You can watch the introductory session for this contest on YouTube
+     <a href="https://youtu.be/HwpUQLKPAhg">here.</a>
+     </p>
 </div>
 {% endif %}
 {% endfor %}

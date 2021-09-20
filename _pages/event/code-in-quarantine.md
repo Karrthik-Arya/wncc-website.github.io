@@ -17,9 +17,9 @@ permalink: /events/event/code-in-quarantine/
 <div>
     <p class="display3" style = "font-size:20px;" >
         <br>
-        WnCC proudly presents Code in Quarantine - your first step towards getting started with programming. Starting this Monday, over a span of 8 weeks, we’ll provide resources for you to get started with 8 diverse topics.
+        During the COVID '19 pandemic, WnCC organised Code in Quarantine so that people could utilize their idle time during the lockdown learning programming.
 <br><br>
-Here’s the list of topics being covered 
+Here’s the list of topics that were covered 
 <br>
 Week 1 - Python
 <br>
@@ -38,7 +38,7 @@ Week 7 - Advanced FrontEnd Dev
 Week 8 - Blockchain
 
 <br><br>
-    Every Monday, a tutorial containing links to some beginner-friendly resources will be shared, along with a task to assess your learning. You can freely discuss your doubts while understanding the tutorial or solving the task on our Telegram group.
+    Every Monday, a tutorial containing links to some beginner-friendly resources was shared, along with a task to assess learning. People freely discussed their doubts while understanding the tutorial or solving the task on our Telegram group.
     </p>
 </div>
 {% endif %}

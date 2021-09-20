@@ -17,15 +17,13 @@ permalink: /events/event/covid_talks/
 <div>
     <p class="display3" style = "font-size:20px;" >
         <br>
-        WnCC announces a two-day webinar series where we would get to learn about the working of some innovative and impactful solutions proposed by the professors of our college and put to use in this fight against COVID-19. Given below are the details of the webinars.
+        WnCC conducted a two-day webinar series where participants got to learn about the working of some innovative and impactful solutions proposed by the professors at our college and used in the fight against COVID-19. Given below are the details of the webinars.
         <br><br>
         DAY 1
 <br>
-Speaker: Prof. Manoj Gopalkrishnan,
-Associate Professor, Department of Electrical Engineering,
-IIT Bombay
-Project: Tapestry
-Tapestry is a mathematical algorithm for smart pooling of samples for COVID testing. The algorithm describes a novel way to pool samples and test in a single step, thereby conserving resources and increasing testing capacity by increasing throughout.
+Speaker: Prof. Manoj Gopalkrishnan, Associate Professor, Department of Electrical Engineering, IIT Bombay. 
+<br>
+Project: Tapestry Tapestry is a mathematical algorithm for smart pooling of samples for COVID testing. The algorithm describes a novel way to pool samples and test in a single step, thereby conserving resources and increasing testing capacity by increasing throughput
 <br><br>
     DAY 2
 <br>
