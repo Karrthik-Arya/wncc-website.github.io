@@ -11,7 +11,6 @@ menu:
 - {name: Resources, link: '/resources/'}
 - {name: SoC, link: '/soc/'}
 - {name: Events, link: '/events/'}
-- {name: Team, link: '/#team'}
 - {name: Contact, link: '/#contact'}
 
 
@@ -1008,6 +1007,13 @@ client-slider-items:
 # Resources Section
 
 resources-items:
+  - title: "Learner's Space 2021"
+    fdis: "Undergraduate Acadamic Council(UGAC), IIT Bomabay launched a month long technical summer school with Web and Coding Club in summers 2021. In this, week wise tutorials for some of the most interesting and essential technical skills, were provided to students."
+    name: "ls21"
+    ldis: "These tutorials contain mixture of important articles, videos and assignments that can help understand these topics better and content is divided week-wise to manage time. If you are looking for learning one of these skills, then these resources can help you find easy and nice content."
+    btn-title: "Get Started"
+    btn-link: "https://github.com/wncc/TSS-2021"
+    
   - title: "WnCC Wiki- Grundy"
     fdis: "It is an educational wiki, meant to help beginners get started with programming. It’s got 100+ articles, on various programming topics. All tutorials are hand-tailored by students of IIT Bombay. However, unlike conventional programming tutorials, these take a slightly different approach. Rather than reinventing the wheel, Grundy aims at bringing together a number of online tutorials and resources along with a set of pre-requisites and motivation to learn a programming skill. Here are some top articles of Wiki."
     name: "wiki"
@@ -1029,13 +1035,6 @@ resources-items:
     btn-title: "Visit Algorithms Simplified"
     btn-link: "https://github.com/wncc/CodeInQuarantine"
     
-  - title: "Learner's Space 2021"
-    fdis: "Undergraduate Acadamic Council(UGAC), IIT Bomabay launched a month long technical summer school with Web and Coding Club in summers 2021. In this, week wise tutorials for some of the most interesting and essential technical skills, were provided to students."
-    name: "ls21"
-    ldis: "These tutorials contain mixture of important articles, videos and assignments that can help understand these topics better and content is divided week-wise to manage time. If you are looking for learning one of these skills, then these resources can help you find easy and nice content."
-    btn-title: "Get Started"
-    btn-link: "https://github.com/wncc/TSS-2021"
-
   - title: "Learner's Space 2020"
     fdis: "Undergraduate Acadamic Council(UGAC), IIT Bomabay launched a two months long technical summer school with Web and Coding Club in summers 2020. In this, week wise tutorials of python, machine learning and web development, three of the most hot-tech-skills, were provided to more then 600 students."
     name: "ls"
