@@ -90,6 +90,7 @@
         consoleText(["IIT Bombay", "Coders Together Strong", "Turning Caffeine to Code"], 'text2', ['#ffa500'],'console2');
     }, 3500);
     let clicked = false;
+    let active = false;
     teamText(['<font color = "lightgreen">WnCC@itc:</font><font color = "blue">~</font>$ ./WnCC-team.sh <br> \
      Reading package lists.         .            .            .            Done <br> \
      Setting up dependency tree <font color = "tomato">tty14</font> <br> \
@@ -100,7 +101,9 @@
      <font color = "green">Click on the images to know about the members</font>'],
      ["teamtext"], ["aliceblue"]);
     $("#Karrthik").click(function() {
+        if(active){
         clicked = true;
+        }
         teamText(['<font color = "blue">const</font> WnCC {<br>\
              &emsp; <font color = "green">name</font>: Karrthik Arya;<br>\
              &emsp; <font color = "green">type</font>:Convener;<br>\
@@ -109,10 +112,11 @@
               <a href="https://www.facebook.com/karrthik.arya/"> <i class = "ti-facebook"></i></a> \
               <a href="https://github.com/Karrthik-Arya"> <i class = "ti-github"></i> </a> ; <br>\
              };'], 'teamtext',['white'],);
-        active =true;
     });
     $("#DK").click(function() {
-        clicked = true;
+        if(active){
+            clicked = true;
+            }
         teamText(['<font color = "blue">const</font> WnCC {<br>\
             &emsp; <font color = "green">name</font>: Divyanshi Kamra;<br>\
             &emsp; <font color = "green">type</font>:Manager;<br>\
@@ -124,7 +128,9 @@
          
     });
     $("#Jash").click(function() {
-        clicked = true;
+        if(active){
+            clicked = true;
+            }
         teamText(['<font color = "blue">const</font> WnCC {<br>\
             &emsp; <font color = "green">name</font>: Jash Kabra;<br>\
             &emsp; <font color = "green">type</font>: Convener;<br>\
@@ -136,7 +142,9 @@
          
     });
     $("#Shruti").click(function() {
+        if(active){
         clicked = true;
+        }
         teamText(['<font color = "blue">const</font> WnCC {<br>\
             &emsp; <font color = "green">name</font>: Shruti Singh;<br>\
             &emsp; <font color = "green">type</font>: Manager;<br>\
@@ -301,6 +309,7 @@ function teamText(words, id, colors) {
   var target = document.getElementById(id);
   target.setAttribute('style', 'color:' + colors[0]);
   let timer = setInterval(function() {
+      active = true;
       if (words[0][letterCount] === '&'){
         letterCount += 6;
       }else if (words[0].substring(letterCount, letterCount+2) === '<b'){
@@ -322,6 +331,10 @@ function teamText(words, id, colors) {
       }else{
       target.innerHTML = words[0].substring(0, letterCount)
         letterCount += x;
+        if (letterCount === words[0].length + 1) {
+            clearInterval(timer);
+            active =false;
+            }
         if (clicked){
             clearInterval(timer);
             target.innerHTML = '';
