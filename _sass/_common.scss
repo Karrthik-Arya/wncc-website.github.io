@@ -1,6 +1,8 @@
 html{
   scroll-behavior: smooth;
-  zoom: 0.75;
+  @supports(zoom:0.75){
+    zoom:0.75;
+  }
   @include mobile-xs{
     zoom:1;
   }

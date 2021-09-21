@@ -97,7 +97,9 @@
     grid-template-rows: repeat(3, 0.5fr);
     position: relative;
     top: 14vw;
-    left: 17.5vw;
+    @supports(zoom:0.75){
+      left: 17.5vw;
+    }
     padding-bottom: 120px;
     padding-left: 10vw;
     padding-right: 10vw;
