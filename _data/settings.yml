@@ -474,7 +474,7 @@ soc-items:
     image : "assets/images/soc/2021/item-26.jpeg"
     url: "/soc/projects/2021/project-26"
     soc-type:
-     - type: "Machine Learning" 
+     - type: "Development" 
      - type: "2021"
 
 
@@ -483,7 +483,7 @@ soc-items:
     image : "assets/images/soc/2021/item-27.webp"
     url: "/soc/projects/2021/project-27"
     soc-type:
-     - type: "Machine Learning" 
+     - type: "Development" 
      - type: "2021"
 
   - title : "Competative Coding"
@@ -491,7 +491,7 @@ soc-items:
     image : "assets/images/soc/2021/item-28.png"
     url: "/soc/projects/2021/project-28"
     soc-type:
-     - type: "Development" 
+     - type: "Miscellaneous" 
      - type: "2021"
 
   - title : "Deep reinforcement learning - 2048 AI"
@@ -515,7 +515,8 @@ soc-items:
     image : "assets/images/soc/2021/item-31.jpeg"
     url: "/soc/projects/2021/project-31"
     soc-type:
-     - type: "Machine Learning" 
+     - type: "Graphics"
+     - type: "Miscellaneous" 
      - type: "2021"
 
   - title : "Image Colorization"
@@ -547,7 +548,7 @@ soc-items:
     image : "assets/images/soc/2021/item-35.jpeg"
     url: "/soc/projects/2021/project-35"
     soc-type:
-     - type: "Machine Learning" 
+     - type: "Development"
      - type: "2021"
 
   - title : "Language Detection"
@@ -563,7 +564,7 @@ soc-items:
     image : "assets/images/soc/2021/item-37.jpg"
     url: "/soc/projects/2021/project-37"
     soc-type:
-     - type: "Machine Learning" 
+     - type: "Development" 
      - type: "2021"
 
   - title : "ResoBin - Not the bin we deserve but the bin we need!"
@@ -571,7 +572,7 @@ soc-items:
     image : "assets/images/soc/2021/item-38.jpg"
     url: "/soc/projects/2021/project-38"
     soc-type:
-     - type: "Machine Learning" 
+     - type: "Development" 
      - type: "2021"
 
   - title : "Cribbit Cribbit (Open for PGs Only)"
@@ -579,7 +580,7 @@ soc-items:
     image : "assets/images/soc/2021/item-39.png"
     url: "/soc/projects/2021/project-39"
     soc-type:
-     - type: "Machine Learning" 
+     - type: "Developemnt" 
      - type: "2021"
   
   - title : "Moodify"
@@ -619,7 +620,7 @@ soc-items:
     image : "assets/images/soc/2021/item-44.jpg"
     url: "/soc/projects/2021/project-44"
     soc-type:
-     - type: "Machine Learning" 
+     - type: "Development" 
      - type: "2021"
        
   - title : "IITinder"
@@ -627,7 +628,7 @@ soc-items:
     image : "assets/images/soc/2021/item-45.jpeg"
     url: "/soc/projects/2021/project-45"
     soc-type:
-     - type: "Machine Learning" 
+     - type: "Development" 
      - type: "2021"
        
   - title : "BriefKing"
@@ -652,7 +653,7 @@ soc-items:
     image : "assets/images/soc/2021/item-48.jpeg"
     url: "/soc/projects/2021/project-48"
     soc-type:
-     - type: "Machine Learning" 
+     - type: "Miscellaneous" 
      - type: "2021"
         
   - title : "Procedurally Generated Infinite Open World"
@@ -660,7 +661,7 @@ soc-items:
     image : "assets/images/soc/2021/item-49.jpeg"
     url: "/soc/projects/2021/project-49"
     soc-type:
-     - type: "Machine Learning" 
+     - type: "Graphics" 
      - type: "2021"
         
   - title : "PAC MAN"
