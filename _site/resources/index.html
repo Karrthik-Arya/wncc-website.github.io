@@ -54,6 +54,13 @@
       <span class="navbar-toggler-icon"></span>
     </button>
 
+    <div class = "dark/mode">
+      <label class="switch">
+        <input type="checkbox" onclick="myFunction()">
+        <span class="slider round"></span>
+      </label>
+    </div>
+
     <div class="collapse navbar-collapse text-center" id="navigation">
       <ul class="navbar-nav ml-auto">
         <li class="nav-item active">
@@ -98,6 +105,13 @@
       </aside>
       </div>
   </nav>
+
+  <script>
+    function myFunction(){
+      var element  = document.body;
+      element.classList.toggle("dark-mode");
+    }
+  </script>
 </header>
 
 
