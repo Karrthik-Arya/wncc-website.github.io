@@ -383,4 +383,12 @@ textarea.form-control{
 .dark-mode {
   background-color:#212121;
   --text-color:#fff;
+  & .bg-cover{
+    background: url("/wncc-website.github.io/assets/images/backgrounds/dark-desc-bg2.jpg") !important;
+    background-size: cover !important;
+  }
+
+  & .bg-white{
+    background-color: rgb(51, 51, 51) !important;
+  }
 }
