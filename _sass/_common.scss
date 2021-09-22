@@ -381,7 +381,7 @@ textarea.form-control{
 /* /card */
 
 .dark-mode {
-  background-color:#212121;
+  background-color:#221635;
   --text-color:#fff;
   --primary-color: rgb(28, 20, 51);
   & .bg-cover{
@@ -390,6 +390,18 @@ textarea.form-control{
   }
 
   & .bg-white{
-    background-color: rgb(51, 51, 51) !important;
+    background-color: rgba(14, 3, 34, 0.705) !important;
+    box-shadow: none !important;
+    border-color: black !important;
+
+  & input{
+    background-color: rgba(14, 3, 34, 0.305);
+    color: honeydew;
+  }
+
+  & textarea{
+    background-color: rgba(14, 3, 34, 0.305);
+    color: honeydew;
+  }
   }
 }
