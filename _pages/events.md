@@ -22,7 +22,7 @@ permalink: /events/
     </div>
      <div class="row shuffle-wrapper">
       {% for item in site.data.settings.events-items %}
-      <div class="col-lg-4 col-6 mb-4 shuffle-item" data-groups="[{% for event in item.event-type %}{% if forloop.first == true %}{% else %},{% endif %}&quot;{{ event.type }}&quot;{% endfor %}]">
+      <div class="col-lg-4 col-6 mb-4 shuffle-item shadow" data-groups="[{% for event in item.event-type %}{% if forloop.first == true %}{% else %},{% endif %}&quot;{{ event.type }}&quot;{% endfor %}]">
         <div class="position-relative rounded hover-wrapper p-3" href="{{ item.url }}">
           <span class="rounded"> <img src="{{ site.baseurl }}/{{ item.image }}" alt="{{ item.title }}" class="img-fluid  w-100 d-block p-10"></span>
           <div class="hover-overlay">

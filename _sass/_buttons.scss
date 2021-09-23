@@ -180,3 +180,14 @@ input:checked + .slider:before {
 .slider.round:before {
   border-radius: 50%;
 }
+
+#resource-cards {
+  
+  width:350px; 
+  height: 200px ;
+  & :hover{
+  background-color: rgb(46, 24, 28)!important;
+  transform:scale(1.1);
+  transition: 1.5s;
+  }
+}

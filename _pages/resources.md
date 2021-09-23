@@ -4,7 +4,22 @@ title: Resources
 permalink: /resources/
 ---
 <!-- blog -->
-
+<section class="section">
+<div class="container">
+<h2 class = 'section-title'>Choose your poison:</h2>
+<div class = "d-flex flex-wrap">
+{% for item in site.data.settings.resources-items %}
+        <div class="col-lg-4 mb-3" style = 'width:400px; height: 220px; ' id = "resource-cards">
+        <a href = "{{ site.baseurl }}/resources/#{{ item.name }}">
+        <article class = " shadow rounded p-3 text-center pt-2" style = "background-color: rgb(30, 4, 47);" id = "resource-cards">
+            <h3 style = "text-center">{{ item.title }}</h3>
+        </article>
+        </a>
+        </div>
+{%endfor %}
+</div>
+</div>
+</section>
 {% for item in site.data.settings.resources-items %}
 <section class="section">
 <div class="container">
@@ -33,7 +48,7 @@ permalink: /resources/
             {% endfor %} -->
             {% if item.name == "wiki" %}         
             {% for label in site.data.settings.wiki %}
-            <div class="col-lg-4 col-sm-6 mb-4">
+            <div class="col-lg-4 col-sm-6 mb-4" id = "wiki">
                 <article class="card shadow">
                     <img class="rounded card-img-top" src="{{ site.baseurl }}/assets/images/resources/{{ label.image }}"
                         alt="{{ label.title }}">
@@ -48,9 +63,8 @@ permalink: /resources/
             </div>
             {% endfor %}  
             {% elsif item.name == "ciq" %}
-            
             {% for label in site.data.settings.ciq %}
-            <div class="col-lg-4 col-sm-6 mb-4">
+            <div class="col-lg-4 col-sm-6 mb-4" id = "ciq">
                 <article class="card shadow">
                     <img class="rounded card-img-top" src="{{ site.baseurl }}/assets/images/resources/{{ label.image }}"
                         alt="{{ label.title }}">
@@ -63,14 +77,10 @@ permalink: /resources/
                     </div>
                 </article>
             </div>
-            {% endfor %}
-            
-         
-            
+            {% endfor %}            
             {% elsif item.name == "as" %}
-            
             {% for label in site.data.settings.as %}
-            <div class="col-lg-4 col-sm-6 mb-4">
+            <div class="col-lg-4 col-sm-6 mb-4" id = "as">
                 <article class="card shadow">
                     <img class="rounded card-img-top" src="{{ site.baseurl }}/assets/images/resources/{{ label.image }}"
                         alt="{{ label.title }}">
@@ -84,12 +94,9 @@ permalink: /resources/
                 </article>
             </div>
             {% endfor %}
-            
-           
             {% elsif item.name == "ls21" %}
-            
             {% for label in site.data.settings.ls21 %}
-            <div class="col-lg-4 col-sm-6 mb-4">
+            <div class="col-lg-4 col-sm-6 mb-4" id = "ls21">
                 <article class="card shadow">
                     <img class="rounded card-img-top" src="{{ site.baseurl }}/assets/images/resources/{{ label.image }}"
                         alt="{{ label.title }}">
@@ -103,13 +110,9 @@ permalink: /resources/
                 </article>
             </div>
             {% endfor %}
-            
-            
-
             {% elsif item.name == "ls" %}
-            
             {% for label in site.data.settings.ls %}
-            <div class="col-lg-4 col-sm-6 mb-4">
+            <div class="col-lg-4 col-sm-6 mb-4" id = "ls">
                 <article class="card shadow">
                     <img class="rounded card-img-top" src="{{ site.baseurl }}/assets/images/resources/{{ label.image }}"
                         alt="{{ label.title }}">
@@ -123,7 +126,6 @@ permalink: /resources/
                 </article>
             </div>
             {% endfor %}
-            
             {% endif %}
 
 
