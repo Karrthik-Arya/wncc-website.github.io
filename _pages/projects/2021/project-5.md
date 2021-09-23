@@ -44,7 +44,7 @@ permalink: /soc/projects/2021/project-5
     </ul>
 </div>
 <div>
-    <p class="display3" style = "font-size:20px;" >
+    <p class="display3" style = "font-size:22px;" >
         <br>
         This project aims to develop a source code plagiarism detector using Python.
         <br><br>
@@ -56,15 +56,15 @@ permalink: /soc/projects/2021/project-5
     </p>
     <p class = "display2" style = "font-size:30px">References</p>
     <ol style = "list-style-type: decimal">
-    <li class="display3 mb-2" style = "font-size:20px;">Bag of words approach:</li>
+    <li class="display3 mb-2" style = "font-size:22px;">Bag of words approach:</li>
     <ul style = "list-style-type: disc">
     <li class="display3 mb-2" style = "font-size:17px;"><a href = "https://machinelearningmastery.com/gentle-introduction-bag-words-model/">https://machinelearningmastery.com/gentle-introduction-bag-words-model/</a></li>
     <li class="display3 mb-2" style = "font-size:17px;"><a href = "https://stackabuse.com/python-for-nlp-creating-bag-of-words-model-from-scratch/">https://stackabuse.com/python-for-nlp-creating-bag-of-words-model-from-scratch/</a></li>
     </ul>
-    <li class="display3 mb-2" style = "font-size:20px;">Basic Python tutorial: <a href= "https://www.w3schools.com/python/python_intro.asp">https://www.w3schools.com/python/python_intro.asp</a></li>
-    <li class="display3 mb-2" style = "font-size:20px;">File parsing using Python: <a href = "https://stackabuse.com/read-a-file-line-by-line-in-python/">https://stackabuse.com/read-a-file-line-by-line-in-python/</a></li>
-    <li class="display3 mb-2" style = "font-size:20px;">KNN: <a href = 'https://towardsdatascience.com/machine-learning-basics-with-the-k-nearest-neighbors-algorithm-6a6e71d01761'>https://towardsdatascience.com/machine-learning-basics-with-the-k-nearest-neighbors-algorithm-6a6e71d01761</a></li>
-    <li class="display3 mb-2" style = "font-size:20px;">A research paper on this approach: <a href = "http://ijmlc.org/papers/50-A243.pdf">http://ijmlc.org/papers/50-A243.pdf</a></li>
+    <li class="display3 mb-2" style = "font-size:22px;">Basic Python tutorial: <a href= "https://www.w3schools.com/python/python_intro.asp">https://www.w3schools.com/python/python_intro.asp</a></li>
+    <li class="display3 mb-2" style = "font-size:22px;">File parsing using Python: <a href = "https://stackabuse.com/read-a-file-line-by-line-in-python/">https://stackabuse.com/read-a-file-line-by-line-in-python/</a></li>
+    <li class="display3 mb-2" style = "font-size:22px;">KNN: <a href = 'https://towardsdatascience.com/machine-learning-basics-with-the-k-nearest-neighbors-algorithm-6a6e71d01761'>https://towardsdatascience.com/machine-learning-basics-with-the-k-nearest-neighbors-algorithm-6a6e71d01761</a></li>
+    <li class="display3 mb-2" style = "font-size:22px;">A research paper on this approach: <a href = "http://ijmlc.org/papers/50-A243.pdf">http://ijmlc.org/papers/50-A243.pdf</a></li>
     </ol>
 </div>
 <div>

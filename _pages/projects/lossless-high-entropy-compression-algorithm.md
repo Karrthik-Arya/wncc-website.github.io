@@ -46,7 +46,7 @@ permalink: /soc/projects/lossless-high-entropy-compression-algorithm/
     </ul>
 </div>
 <div>
-    <p class="display3" style = "font-size:20px;" >
+    <p class="display3" style = "font-size:22px;" >
         <br>
         Implement your own sequence neural net
         <br><br>

@@ -43,7 +43,7 @@ permalink: /soc/projects/2021/project-4
     </ul>
 </div>
 <div>
-    <p class="display3" style = "font-size:20px;" >
+    <p class="display3" style = "font-size:22px;" >
         <br>
         This is a continuation of the project “3D road network rendering” completed in the last SoC. The next aim is to build a traffic flow modelling tool and visualize the congestion at various parts of the road network.
         <br><br>

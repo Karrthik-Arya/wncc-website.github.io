@@ -15,7 +15,7 @@ permalink: /events/event/hello-foss/
 </div>
 
 <div>
-    <p class="display3" style = "font-size:20px;" >
+    <p class="display3" style = "font-size:22px;" >
         <br>
         The month of October is the time when people generally start preparing for Google Summer of Code (https://summerofcode.withgoogle.com) and also when Hacktoberfest (https://hacktoberfest.digitalocean.com) is celebrated worldwide.
 <br><br>

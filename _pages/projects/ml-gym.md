@@ -52,7 +52,7 @@ permalink: /soc/projects/ml-gym/
     </ul>
 </div>
 <div>
-    <p class="display3" style = "font-size:20px;" >
+    <p class="display3" style = "font-size:22px;" >
         <br>
         The project is about making a web platform where a user can upload the data, choose any model according to which they want their data to be trained and see the results. In the first phase, we will make a platform where every parameter is given by the user. After successfully completing this, we will add a feature to suggest the best method and parameters for the data. In the final stage, the platform will have features for uploading raw data and getting results after pre-processing. Pre req: Grip over linear algebra
         <br><br>

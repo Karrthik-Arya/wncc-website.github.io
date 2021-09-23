@@ -43,7 +43,7 @@ permalink: /soc/projects/2021/project-29
     </ul>
 </div>
 <div>
-    <p class="display3" style = "font-size:20px;" >
+    <p class="display3" style = "font-size:22px;" >
         <br>
             Have a look at CodeBullet YouTube channel There are many interesting games solved by RL or deep RL agents https://youtube.com/c/CodeBullet
 

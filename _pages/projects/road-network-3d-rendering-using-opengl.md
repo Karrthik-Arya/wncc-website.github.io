@@ -44,7 +44,7 @@ permalink: /soc/projects/road-network-3d-rendering-using-opengl/
     </ul>
 </div>
 <div>
-    <p class="display3" style = "font-size:20px;" >
+    <p class="display3" style = "font-size:22px;" >
         <br>
         This project focuses on the task of creating a UI for visualizing traffic flow in a city(a road network) using OpenGL. The problem of traffic congestion has seen different types of approaches from using simple heuristics to complex machine learning based approaches to predict correct traffic signals in a road network. This project does not aim to solve the traffic congestion problem! It will merely serve as a tool to help solving the aforementioned problem.
         <br><br>

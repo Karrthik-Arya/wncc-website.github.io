@@ -43,7 +43,7 @@ permalink: /soc/projects/2021/project-22
     </ul>
 </div>
 <div>
-    <p class="display3" style = "font-size:20px;" >
+    <p class="display3" style = "font-size:22px;" >
         <br>
         The perfect project for all the quantum physics enthusiasts. The code you will create for this project could one day break RSA/ revolutionise machine learning once the real hardware catches up.
         <br><br>

@@ -52,7 +52,7 @@ permalink: /soc/projects/graphic-intensive-music-app/
     </ul>
 </div>
 <div>
-    <p class="display3" style = "font-size:20px;" >
+    <p class="display3" style = "font-size:22px;" >
         <br>
         This project aims at introducing the student to the world of software development and graphic design. We will present several tools such as Android Studio, Google’s Firebase, Django, Adobe Xd, Adobe Photoshop and Adobe Premiere Pro. After completing the basics, we will apply the learned concepts to build and design an ergonomic music app.
         <br><br>

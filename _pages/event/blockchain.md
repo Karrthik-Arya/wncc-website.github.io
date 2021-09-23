@@ -15,7 +15,7 @@ permalink: /events/event/blockchain/
 </div>
 
 <div>
-    <p class="display3" style = "font-size:20px;" >
+    <p class="display3" style = "font-size:22px;" >
       <br>
 WnCC in collaboration with Polygon organised the Blockchain Developers
 Meet to help students become a blockchain developer. 

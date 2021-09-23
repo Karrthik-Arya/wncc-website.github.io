@@ -43,7 +43,7 @@ permalink: /soc/projects/2021/project-10
     </ul>
 </div>
 <div>
-    <p class="display3" style = "font-size:20px;" >
+    <p class="display3" style = "font-size:22px;" >
         They main idea behind this project is to understand and implement the algorithms used by FaceApp, especially the aging/de-aging filter. Developing an actual app that does this would be a plus point!
         <br><br>
         Description: This project will involve learning many machine learning algorithms leading to Generative Adversarial Networks (GANs), which are the basis of such filters.

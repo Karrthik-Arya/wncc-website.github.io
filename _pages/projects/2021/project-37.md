@@ -43,7 +43,7 @@ permalink: /soc/projects/2021/project-37
     </ul>
 </div>
 <div>
-    <p class="display3" style = "font-size:20px;" >
+    <p class="display3" style = "font-size:22px;" >
         <br>
         Prerequisite : Basic knowledge of website and app development, must be familiar with one or more coding languages. Should be familiar with the terms like frontend and backend. Knowledge of any of the tools mentioned below will be given priority. All you need is a lot of dedication and enthusiasm, need to be calm and patient while your code gives an error, and have a learning attitude.
 

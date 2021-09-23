@@ -62,7 +62,7 @@ permalink: /soc/projects/planet-atmosphere-renderer-using-opengl/
     </ul>
 </div>
 <div>
-    <p class="display3" style = "font-size:20px;" >
+    <p class="display3" style = "font-size:22px;" >
         <br>
         Build a real time planet renderer engine.
         <br><br>

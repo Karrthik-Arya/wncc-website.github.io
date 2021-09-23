@@ -7,7 +7,12 @@ html{
     zoom:1;
   }
 }
-
+p{
+  font-size: 22px;
+}
+.font-secondary{
+  font: size 22px, !important ;
+}
 body {
   background-color: $body-color;
   overflow-x: hidden;

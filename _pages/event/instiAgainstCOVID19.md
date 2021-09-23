@@ -15,7 +15,7 @@ permalink: /events/event/covid_talks/
 </div>
 
 <div>
-    <p class="display3" style = "font-size:20px;" >
+    <p class="display3" style = "font-size:22px;" >
         <br>
         WnCC conducted a two-day webinar series where participants got to learn about the working of some innovative and impactful solutions proposed by the professors at our college and used in the fight against COVID-19. Given below are the details of the webinars.
         <br><br>

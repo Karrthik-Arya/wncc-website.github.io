@@ -15,7 +15,7 @@ permalink: /events/event/rattlesnake/
 </div>
 
 <div>
-    <p class="display3" style = "font-size:20px;" >
+    <p class="display3" style = "font-size:22px;" >
         <br>
         Are you bored of doing the repetitive tasks like digitising your old lab
 notes, moving and manipulating your data around for better graphs or

@@ -44,7 +44,7 @@ permalink: /soc/projects/2021/project-7
     </ul>
 </div>
 <div>
-    <p class="display3" style = "font-size:20px;" >
+    <p class="display3" style = "font-size:22px;" >
         <br>
         The idea is to develop a spatial distribution model for Air Pollution for the city of Delhi using SVR (Support Vector Regression) and the model will be self enhancing using machine learning.
         <br><br>

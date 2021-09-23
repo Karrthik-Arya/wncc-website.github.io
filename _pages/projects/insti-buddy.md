@@ -46,7 +46,7 @@ permalink: /soc/projects/insti-buddy/
     </ul>
 </div>
 <div>
-    <p class="display3" style = "font-size:20px;" >
+    <p class="display3" style = "font-size:22px;" >
         <br>
         Insti buddy will be an assistant that helps you search telephone directory of IIT Bombay and keeps you updated with the Facebook feed of campus groups at IIT Bombay.
         <br><br>

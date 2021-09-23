@@ -50,7 +50,7 @@ permalink: /soc/projects/tools-for-web-dev/
     </ul>
 </div>
 <div>
-    <p class="display3" style = "font-size:20px;" >
+    <p class="display3" style = "font-size:22px;" >
         <br>
         Basic focus on learning coding related to different tools such as HTML, CSS, JavaScript, PHP, Angular and others required to develop a responsible Website.
         <br><br>

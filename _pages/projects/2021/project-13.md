@@ -45,7 +45,7 @@ permalink: /soc/projects/2021/project-13
     </ul>
 </div>
 <div>
-    <p class="display3" style = "font-size:20px;" >
+    <p class="display3" style = "font-size:22px;" >
         <br>
         Ready to make a simple app that can compete with Google Photos?
         <br><br>

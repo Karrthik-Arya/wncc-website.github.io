@@ -42,7 +42,7 @@ permalink: /soc/projects/2021/project-6
     </ul>
 </div>
 <div>
-    <p class="display3" style = "font-size:20px;" >
+    <p class="display3" style = "font-size:22px;" >
         <br>
         Have you ever wondered what data science is? Or how you should get started with it? This project answers those questions by helping one start off with data science.
         <br><br>

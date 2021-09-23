@@ -43,7 +43,7 @@ permalink: /soc/projects/2021/project-24
     </ul>
 </div>
 <div>
-    <p class="display3" style = "font-size:20px;" >
+    <p class="display3" style = "font-size:22px;" >
         <br>
         The selected students will work together to build the Anime Club IITB website from scratch using django
         <br><br>

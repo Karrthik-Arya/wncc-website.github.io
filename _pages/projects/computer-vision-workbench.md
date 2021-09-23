@@ -44,7 +44,7 @@ permalink: /soc/projects/computer-vision-workbench/
     </ul>
 </div>
 <div>
-    <p class="display3" style = "font-size:20px;" >
+    <p class="display3" style = "font-size:22px;" >
         <br>
         Extracting potentially useful information from videos, like presence of faces, humans, specific objects, motion, tracking etc. is an indispensable part of video analysis.
         <br><br>

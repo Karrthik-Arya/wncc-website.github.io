@@ -47,7 +47,7 @@ permalink: /soc/projects/kontakt-app/
     </ul>
 </div>
 <div>
-    <p class="display3" style = "font-size:20px;" >
+    <p class="display3" style = "font-size:22px;" >
         <br>
         The aim of the project is to build Kontakt app- a social media application which will provide an interface to anyone in Insti to ask doubts/questions or post anything anonymously(user dependent) subjected to some constraints/filters.
         <br><br>

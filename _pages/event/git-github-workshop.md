@@ -15,7 +15,7 @@ permalink: /events/event/git-github-workshop/
 </div>
 
 <div>
-    <p class="display3" style = "font-size:20px;" >
+    <p class="display3" style = "font-size:22px;" >
         <br>
         <b>“I can do things you cannot. You can do things I cannot. Together we can do great things.”</b>
 <br><br>

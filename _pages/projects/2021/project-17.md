@@ -42,7 +42,7 @@ permalink: /soc/projects/2021/project-17
     </ul>
 </div>
 <div>
-    <p class="display3" style = "font-size:20px;" >
+    <p class="display3" style = "font-size:22px;" >
         <br>
         The volatility of stock market is generally modeled by three techniques; namely Technical Analysis, Machine Learning algorithms & statistical analysis. These models help in developing optimal portfolio for best returns with minimum risk.
         <br><br>

@@ -15,7 +15,7 @@ permalink: /events/event/intern_prep/
 </div>
 
 <div>
-    <p class="display3" style = "font-size:20px;" >
+    <p class="display3" style = "font-size:22px;" >
         <br>
         To help prepare for the gruesome intership season, WnCC along with Career Cell IITB organized this INTERNSHIP PREPARATION PROGRAM.
         <br><br>

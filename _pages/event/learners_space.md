@@ -15,7 +15,7 @@ permalink: /events/event/learners-space/
 </div>
 
 <div>
-    <p class="display3" style = "font-size:20px;" >
+    <p class="display3" style = "font-size:22px;" >
         <br>
        The Institute Technical Council conducted the Technical Summer School under Learners' Space in collaboration with UGAC.
 <br><br>

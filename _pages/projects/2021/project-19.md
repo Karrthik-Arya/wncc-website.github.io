@@ -44,7 +44,7 @@ permalink: /soc/projects/2021/project-19
     </ul>
 </div>
 <div>
-    <p class="display3" style = "font-size:20px;" >
+    <p class="display3" style = "font-size:22px;" >
         <br>
         If you wish to get a flavour(yes more or less a flavour) of such techniques, find exoplanets that may support life, estimate galaxy redshifts, classify galaxies based on their visible shapes, do some image processing, then this project is meant for you.
         <br><br>

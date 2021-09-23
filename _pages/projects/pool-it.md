@@ -46,7 +46,7 @@ permalink: /soc/projects/pool-it/
     </ul>
 </div>
 <div>
-    <p class="display3" style = "font-size:20px;" >
+    <p class="display3" style = "font-size:22px;" >
         <br>
         The project aims at extending the web application built for the pooling of possible services that can be shared. This is an idea we are implementing as one of our course projects but want to take it further.
         <br><br>

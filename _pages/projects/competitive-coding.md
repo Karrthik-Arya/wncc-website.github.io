@@ -65,7 +65,7 @@ permalink: /soc/projects/competitive-coding/
     </ul>
 </div>
 <div>
-    <p class="display3" style = "font-size:20px;" >
+    <p class="display3" style = "font-size:22px;" >
         <br>
         Get started with competitive coding!
         <br><br>

@@ -46,7 +46,7 @@ permalink: /soc/projects/introduction-to-kaggle-and-machine-learning/
     </ul>
 </div>
 <div>
-    <p class="display3" style = "font-size:20px;" >
+    <p class="display3" style = "font-size:22px;" >
         <br>
         Get started with Machine Learning!
         <br><br>

@@ -43,7 +43,7 @@ permalink: /soc/projects/2021/project-31
     </ul>
 </div>
 <div>
-    <p class="display3" style = "font-size:20px;" >
+    <p class="display3" style = "font-size:22px;" >
         <br>
         Pre-requisites: Some understanding of Object Oriented Programming, and enthu!
         

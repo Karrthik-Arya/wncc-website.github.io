@@ -44,7 +44,7 @@ permalink: /soc/projects/2021/project-47
     </ul>
 </div>
 <div>
-    <p class="display3" style = "font-size:20px;" >
+    <p class="display3" style = "font-size:22px;" >
         <br>
         Meta Learning is a recent advancement in the field of machine learning where we increase a level of abstraction and start <strong>𝗟𝗲𝗮𝗿𝗻𝗶𝗻𝗴 𝘁𝗼 𝗟𝗲𝗮𝗿𝗻</strong>. This helps us train neural networks with almost no data. In this project you shall first learn about the principles and applications of machine learning. Thereafter you shall understand the fundamentals of meta learning, i.e learning to learn. You will finally build a Few Shot image recognition network.
 

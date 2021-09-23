@@ -44,7 +44,7 @@ permalink: /soc/projects/2021/project-25
     </ul>
 </div>
 <div>
-    <p class="display3" style = "font-size:20px;" >
+    <p class="display3" style = "font-size:22px;" >
         <br>
         Traditionally, machine learning models have required huge amounts of computation power and could only be run on specialized hardware (GPU etc). Thanks to the efforts to many researchers and developers, it is now possible to run these models right in your browser.
         <br><br>

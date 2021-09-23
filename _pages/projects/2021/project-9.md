@@ -44,7 +44,7 @@ permalink: /soc/projects/2021/project-9
     </ul>
 </div>
 <div>
-    <p class="display3" style = "font-size:20px;" >
+    <p class="display3" style = "font-size:22px;" >
         <br>
         The core idea behind this project is to familiarize with Deep NLP (one of the most sough-after domains of AI) & get hands-on experience with various deep network architectures while trying to accomplish 2 major tasks: Sentiment Analysis (Classification) & Automatic Lyrics Generation (Text Generation)
         <br><br>

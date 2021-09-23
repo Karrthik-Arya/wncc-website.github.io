@@ -42,7 +42,7 @@ permalink: /soc/projects/2021/project-12
     </ul>
 </div>
 <div>
-    <p class="display3" style = "font-size:20px;" >
+    <p class="display3" style = "font-size:22px;" >
         <br>
         In this project, we’ll build a snake game from scratch, and implement both basic Reinforcement Learning and Deep Reinforcement Learning techniques to help the snake master the game and get really high scores.
         <br><br>

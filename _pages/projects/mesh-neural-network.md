@@ -43,7 +43,7 @@ permalink: /soc/projects/mesh-neural-network/
     </ul>
 </div>
 <div>
-    <p class="display3" style = "font-size:20px;" >
+    <p class="display3" style = "font-size:22px;" >
         <br>
         Implementing mesh neural network for 3D shape representation.
         <br><br>

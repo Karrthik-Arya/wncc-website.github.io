@@ -50,7 +50,7 @@ permalink: /soc/projects/intrusion-detection-system/
     </ul>
 </div>
 <div>
-    <p class="display3" style = "font-size:20px;" >
+    <p class="display3" style = "font-size:22px;" >
         <br>
         To build intrusion detection system using statistical analysis and ml.
         <br><br>

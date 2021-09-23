@@ -43,7 +43,7 @@ permalink: /soc/projects/2021/project-18
     </ul>
 </div>
 <div>
-    <p class="display3" style = "font-size:20px;" >
+    <p class="display3" style = "font-size:22px;" >
         <br>
         Si-Phy is a short form for silicon physics. Physics simulated on a silicon chip.
         <br><br>
@@ -63,14 +63,14 @@ permalink: /soc/projects/2021/project-18
         <li class="display3 mb-2" style = "font-size:18px;">Torque</li>
         </ul>
         <br>
-        <p class="display3" style = "font-size:20px;">We’ll need the following features from the renderer.</p>
+        <p class="display3" style = "font-size:22px;">We’ll need the following features from the renderer.</p>
         <ul style = "list-style-type: disc">
         <li class="display3 mb-2" style = "font-size:18px;">Ability to display simple 3D shapes.</li>
         <li class="display3 mb-2" style = "font-size:18px;">Basic lighting</li>
         <li class="display3 mb-2" style = "font-size:18px;">races (To track movement of the objects)</li>
         </ul>
         <br>
-        <p class="display3" style = "font-size:20px;">
+        <p class="display3" style = "font-size:22px;">
         Depending on circumstances, we’ll also create some interesting simulations with our engine. What you wanna do with it is completely up to you, however just as a starting point I’m mentioning a few things that we can do.
         </p>
         <ul style = "list-style-type:disc">

@@ -46,7 +46,7 @@ permalink: /soc/projects/2021/project-21
     </ul>
 </div>
 <div>
-    <p class="display3" style = "font-size:20px;" >
+    <p class="display3" style = "font-size:22px;" >
         <br>
         This project aims to introduce use of Convolutional Neural Networks which is the state-of-the-art technique for various image-based machine learning problems.
         <br><br>

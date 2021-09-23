@@ -43,7 +43,7 @@ permalink: /soc/projects/2021/project-3
     </ul>
 </div>
 <div>
-    <p class="display3" style = "font-size:20px;" >
+    <p class="display3" style = "font-size:22px;" >
         <br>
         The aim of this project is to train students who aim to do well at ICPC regionals. We will be covering a wide variety of content in Competitive Programming, and we will be asking you to participate in certain competitions in which we will discuss individual performances to understand where you need to improve to take yourself to the next level.
         <br><br>

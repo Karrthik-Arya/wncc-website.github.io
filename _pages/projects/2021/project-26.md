@@ -44,7 +44,7 @@ permalink: /soc/projects/2021/project-26
     </ul>
 </div>
 <div>
-    <p class="display3" style = "font-size:20px;" >
+    <p class="display3" style = "font-size:22px;" >
         <br>
         A project that helps you create such a client based application for all document related operations in a single location, which includes reading handwritten notes!
 

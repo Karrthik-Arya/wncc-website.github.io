@@ -42,7 +42,7 @@ permalink: /soc/projects/2021/project-39
     </ul>
 </div>
 <div>
-    <p class="display3" style = "font-size:20px;" >
+    <p class="display3" style = "font-size:22px;" >
         <br>
         Design an online secure portal to file and redress exam cribs. Profs and TAs will have the roles of moderator, whereas students can file cribs.
 

@@ -42,7 +42,7 @@ permalink: /soc/projects/2021/project-30
     </ul>
 </div>
 <div>
-    <p class="display3" style = "font-size:20px;" >
+    <p class="display3" style = "font-size:22px;" >
         <br>
         The experiments would be carried using libraries: OpenAI Gym and FinRL. A strong inclination towards mathematics is required(this should reflect in the proposal). The project would include experiments on NASDAQ-100, DJIA, S&P 500, HSI datasets. The tasks would be different for freshies and sophies. The task for freshies would be more focussed on reinforcement learning algorithms with a few experiments on the datasets towards the end. The ones for sophies would be heavier on the implementation side. The project would include contribution to the Note that this would be more of a reinforcement learning project than a core finance project. The final aim of the project is to set baselines for RL algorithms using different datasets.
 

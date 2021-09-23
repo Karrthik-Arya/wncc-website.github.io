@@ -59,7 +59,7 @@ permalink: /soc/projects/gestures-for-3d-space/
     </ul>
 </div>
 <div>
-    <p class="display3" style = "font-size:20px;" >
+    <p class="display3" style = "font-size:22px;" >
         <br>
         Have you ever wondered what will be the future of interaction with computers or smart devices. Well here is a clue, its going to be touch less.This project will contain the research part as well as the development (front end and back end) part of the technology.
     </p>

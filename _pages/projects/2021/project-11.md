@@ -44,7 +44,7 @@ permalink: /soc/projects/2021/project-11
     </ul>
 </div>
 <div>
-    <p class="display3" style = "font-size:20px;" >
+    <p class="display3" style = "font-size:22px;" >
         <br>
         In this project, mentees will learn about the four of the famous Convolutional Neural Network (CNN) architectures - AlexNet, VGGNet, ResNet and GoogleNet.
         <br><br>

@@ -43,7 +43,7 @@ permalink: /soc/projects/krittika-website/
     </ul>
 </div>
 <div>
-    <p class="display3" style = "font-size:20px;" >
+    <p class="display3" style = "font-size:22px;" >
         <br>
         Develop a Django website for Krittika
         <br><br>

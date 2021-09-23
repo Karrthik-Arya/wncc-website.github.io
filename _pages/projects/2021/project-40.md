@@ -43,7 +43,7 @@ permalink: /soc/projects/2021/project-40
     </ul>
 </div>
 <div>
-    <p class="display3" style = "font-size:20px;" >
+    <p class="display3" style = "font-size:22px;" >
         <br>
         The project targets to build a music recommender system which takes in your picture and then predicts your mood and accordingly predicts a song for you.
         <br>

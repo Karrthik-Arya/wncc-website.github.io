@@ -15,7 +15,7 @@ permalink: /events/event/qna-with-kalpesh/
 </div>
 
 <div>
-    <p class="display3" style = "font-size:20px;" >
+    <p class="display3" style = "font-size:22px;" >
         <br>
         Kalpesh Krishna is an EE undergraduate (2014-18) from IITB and is now pursuing MS/PhD in Computer Science from University of Massachusetts, Amherst. He has also done some remarkable internships under Google Brain, Google AI language, University of Chicago and has also contributed to Mozilla, under Google Summer Of Code.
 <br><br>

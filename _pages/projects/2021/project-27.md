@@ -44,7 +44,7 @@ permalink: /soc/projects/2021/project-27
     </ul>
 </div>
 <div>
-    <p class="display3" style = "font-size:20px;" >
+    <p class="display3" style = "font-size:22px;" >
         <br>
         Building your resume with the template of your choice just made easier!
         Description: This project will make use of Django to generate a dynamic form website, which will collect all details required for making a resume like Scholastic Achievements, Key Projects, PORs etc. This will involve dealing with dynamic forms which can include headings, multiple sub-headings and sub-sub-headings. For, handling this, we will use Django Framework and other Python libraries. This form will, at the end, generate a LaTEX script which can be used to generate Resume. Will use Bootstrap for front-end design. Here, we will deal with all standard resume formats used at IITB(2-3 types of 2-page resume and 2-3 types of 1-page resume) to give user a choice of format

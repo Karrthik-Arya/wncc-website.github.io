@@ -42,7 +42,7 @@ permalink: /soc/projects/super-shenron/
     </ul>
 </div>
 <div>
-    <p class="display3" style = "font-size:20px;" >
+    <p class="display3" style = "font-size:22px;" >
         <br>
         Super Shenron is an android application that lists all the dragon ball characters in card form with details such as Name, Planet of Origin, Species etc. and these characters are sorted on the basis of no of likes.
         <br><br>

@@ -49,7 +49,7 @@ permalink: /soc/projects/intelligent-agents/
     </ul>
 </div>
 <div>
-    <p class="display3" style = "font-size:20px;" >
+    <p class="display3" style = "font-size:22px;" >
         <br>
         The project aims at creating agents which can figure patterns from huge datasets on its own even without any prior information on how or where to look for trends.
         <br><br>

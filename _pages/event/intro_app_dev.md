@@ -15,7 +15,7 @@ permalink: /events/event/intro-app-dev/
 </div>
 
 <div>
-    <p class="display3" style = "font-size:20px;" >
+    <p class="display3" style = "font-size:22px;" >
         <br>
        Have you ever wanted to build beautiful android/iOS applications? You can learn to craft user-friendly beautiful apps within a month! 
 <br>

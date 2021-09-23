@@ -43,7 +43,7 @@ permalink: /soc/projects/2021/project-23
     </ul>
 </div>
 <div>
-    <p class="display3" style = "font-size:20px;" >
+    <p class="display3" style = "font-size:22px;" >
         <br>
         This project is for the people interested in exploring front-end web development and learning Data Structures and Algorithms.
         <br><br>

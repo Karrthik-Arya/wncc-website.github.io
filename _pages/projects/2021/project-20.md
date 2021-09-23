@@ -44,7 +44,7 @@ permalink: /soc/projects/2021/project-20
     </ul>
 </div>
 <div>
-    <p class="display3" style = "font-size:20px;" >
+    <p class="display3" style = "font-size:22px;" >
         <br>
         Computer Vision. You might’ve heard of this extremely versatile domain and some of you might even be familiar with it. With applications ranging from self-driving cars to say, automated translation, this is a very handy and not to mention, cool thing to know and in this project, we aim to do just that.
         <br><br>

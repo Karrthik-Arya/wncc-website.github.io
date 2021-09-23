@@ -15,7 +15,7 @@ permalink: /events/event/game-development/
 </div>
 
 <div>
-    <p class="display3" style = "font-size:20px;" >
+    <p class="display3" style = "font-size:22px;" >
         <br>
         Hello coders,
 <br><br>

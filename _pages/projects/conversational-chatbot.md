@@ -53,7 +53,7 @@ permalink: /soc/projects/conversational-chatbot/
     </ul>
 </div>
 <div>
-    <p class="display3" style = "font-size:20px;" >
+    <p class="display3" style = "font-size:22px;" >
         <br>
         A conversational chatbot is a software that conducts conversation via auditory or textual methods. This project aims to build a closed-domain, generative-based conversational chatbot from scratch.
         <br><br>

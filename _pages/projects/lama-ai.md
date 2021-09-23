@@ -54,7 +54,7 @@ permalink: /soc/projects/lama-ai/
     </ul>
 </div>
 <div>
-    <p class="display3" style = "font-size:20px;" >
+    <p class="display3" style = "font-size:22px;" >
         <br>
         Implementation of an RL based AI for playing L.A.M.A.
         <br><br>
@@ -119,7 +119,7 @@ permalink: /soc/projects/lama-ai/
     </table>
 </div>
 <div>
-    <p class="display3" style = "font-size:20px;" >
+    <p class="display3" style = "font-size:22px;" >
         <br>
         <b>Secondary Learning Goals</b>
         <br>

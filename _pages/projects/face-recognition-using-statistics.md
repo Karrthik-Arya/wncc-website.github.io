@@ -44,7 +44,7 @@ permalink: /soc/projects/face-recognition-using-statistics/
     </ul>
 </div>
 <div>
-    <p class="display3" style = "font-size:20px;" >
+    <p class="display3" style = "font-size:22px;" >
         <br>
         This project aims at introducing the student to the use of statistics in machine learning. We will present several tools such as Principle Component Analysis giving them a theoretical and practical understanding of the same. After completing the basics we will apply the learned concepts and build a simple face recognition system and implement some parts of a paper on the same.
         <br><br>

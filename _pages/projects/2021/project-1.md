@@ -42,7 +42,7 @@ permalink: /soc/projects/2021/project-1
     </ul>
 </div>
 <div>
-    <p class="display3" style = "font-size:20px;" >
+    <p class="display3" style = "font-size:22px;" >
         <br>
         This will teach you to develop a website using various tools like HTML, CSS , JavaScript, PHP Angular and a few other tools. There are no prerequisites for this, however having basic idea of HTML will help.
         <br>

@@ -15,7 +15,7 @@ permalink: /events/event/code-in-quarantine/
 </div>
 
 <div>
-    <p class="display3" style = "font-size:20px;" >
+    <p class="display3" style = "font-size:22px;" >
         <br>
         During the COVID '19 pandemic, WnCC organised Code in Quarantine so that people could utilize their idle time during the lockdown learning programming.
 <br><br>

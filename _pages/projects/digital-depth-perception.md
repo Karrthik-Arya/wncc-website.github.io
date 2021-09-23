@@ -42,7 +42,7 @@ permalink: /soc/projects/digital-depth-perception/
     </ul>
 </div>
 <div>
-    <p class="display3" style = "font-size:20px;" >
+    <p class="display3" style = "font-size:22px;" >
         <br>
         Digital Image Perception is a simplified algorithm to have the perception of depth (or distance) based on the two different images taken at same time from different (but related) perspectives. This project is inspired by the perception of depth (or distances) by human visual system.
         <br><br>
