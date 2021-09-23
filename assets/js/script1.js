@@ -1,10 +1,6 @@
 
 (function ($) {
     'use strict';
-    var dark = window.localStorage.getItem("dark-mode");
-    if(dark === "true"){
-        document.getElementsByClassName("edu-bg-image")[0].src = "{{ site.baseurl }}/assets/images/backgrounds/edu-bg-dark.png";
-    }
     // Sticky Menu
     $(window).scroll(function () {
         if ($('.navigation').offset().top > 100) {
