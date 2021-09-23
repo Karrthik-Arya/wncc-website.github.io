@@ -114,7 +114,7 @@
         
       }else{
         window.localStorage.setItem("dark-mode", "false");
-        document.getElementsByClassName("edu-bg-image")[0].src = "/wncc-website.github.io/assets/images/backgrounds/education-bg.png";
+        window.location.reload();
       }
       window.location.reload();
     }
@@ -126,12 +126,12 @@
         var element  = document.body;
         element.classList.add("dark-mode");
       }else{
+        box.checked =false;
         var element  = document.body;
         element.classList.remove("dark-mode");
       }
     }
     theme();
-    document.getElementsByClassName("edu-bg-image")[0].src = "/wncc-website.github.io/assets/images/backgrounds/edu-bg-dark.png";
   </script>
 </header>
 
@@ -311,28 +311,15 @@
 
 <!-- experience -->
 <section class="section">
-  <div class="container">
+  <div class="container-fluid">
     <div class="row justify-content-around">
       <div class="col-lg-10 text-center">
-        <h2 class="section-title">Sub-Groups</h2>
+        <h3 class="section-title">Join our Discord Server to participate in fun and engaging coding convos</h3>
       </div>
       
       <div class="col-lg-3 col-md-4 text-center mb-4">
-        <img src="/wncc-website.github.io/assets/images/experience/icon-1.png" alt="Sub-Groups icon">
-        <h4>DevCom</h4>
-        <a href="https://devcom-iitb.org" class="btn btn-xs btn-primary">Know More</a>
-      </div>
-      
-      <div class="col-lg-3 col-md-4 text-center mb-4">
-        <img src="/wncc-website.github.io/assets/images/experience/gsoc.png" alt="Sub-Groups icon">
-        <h4>GSoC Incubation Cell</h4>
-        <a href="https://www.facebook.com/groups/172338573292734/" class="btn btn-xs btn-primary">Know More</a>
-      </div>
-      
-      <div class="col-lg-3 col-md-4 text-center mb-4">
-        <img src="/wncc-website.github.io/assets/images/experience/icon-2.jpg" alt="Sub-Groups icon">
-        <h4>BlockChain Circle</h4>
-        <a href=" https://www.facebook.com/groups/Blockchain.IITB/" class="btn btn-xs btn-primary">Know More</a>
+        <img class = "mb-3 col-md-auto" style = "border-radius: 25%; object-fit: none;"src="/wncc-website.github.io/assets/images/experience/discord.png" alt="Join our Discord Server to participate in fun and engaging coding convos icon">
+        <a href="https://www.facebook.com/groups/172338573292734/" class="btn btn-md btn-primary">Click here to Join</a>
       </div>
       
     </div>

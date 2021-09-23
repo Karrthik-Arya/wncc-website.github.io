@@ -114,7 +114,7 @@
         
       }else{
         window.localStorage.setItem("dark-mode", "false");
-        document.getElementsByClassName("edu-bg-image")[0].src = "/wncc-website.github.io/assets/images/backgrounds/education-bg.png";
+        window.location.reload();
       }
       window.location.reload();
     }
@@ -126,12 +126,12 @@
         var element  = document.body;
         element.classList.add("dark-mode");
       }else{
+        box.checked =false;
         var element  = document.body;
         element.classList.remove("dark-mode");
       }
     }
     theme();
-    document.getElementsByClassName("edu-bg-image")[0].src = "/wncc-website.github.io/assets/images/backgrounds/edu-bg-dark.png";
   </script>
 </header>
 
