@@ -1,8 +1,9 @@
 
 (function ($) {
     'use strict';
-
-    
+    if(dark === "true"){
+        document.getElementsByClassName("edu-bg-image")[0].src = "{{ site.baseurl }}/assets/images/backgrounds/edu-bg-dark.png";
+    }
     // Sticky Menu
     $(window).scroll(function () {
         if ($('.navigation').offset().top > 100) {
@@ -81,6 +82,8 @@
             mouseParallax('l8', c8left, c8top, x, y, 25);
             mouseParallax('l9', c9left, c9top, x, y, 40);
         };
+        
+        
 
         consoleText(["Web and Coding Club "], 'text',['white'], 'console');
     window.setTimeout(function(){

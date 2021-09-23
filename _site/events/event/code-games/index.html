@@ -55,7 +55,7 @@
 
     <div class = "dark/mode">
       <label class="switch">
-        <input type="checkbox" onclick="myFunction()">
+        <input type="checkbox" id = "theme-switch" onclick= "myFunction()">
         <span class="slider round"></span>
       </label>
     </div>
@@ -107,10 +107,30 @@
 
   <script>
     function myFunction(){
-      var element  = document.body;
-      element.classList.toggle("dark-mode");
-      document.getElementsByClassName("edu-bg-image")[0].src = "/wncc-website.github.io/assets/images/backgrounds/edu-bg-dark.png";
+      var box = document.getElementById("theme-switch");
+      if (box.checked){
+        window.localStorage.setItem("dark-mode", "true");
+        
+      }else{
+        window.localStorage.setItem("dark-mode", "false");
+        document.getElementsByClassName("edu-bg-image")[0].src = "/wncc-website.github.io/assets/images/backgrounds/education-bg.png";
+      }
+      window.location.reload();
     }
+    function theme(){
+      var dark = window.localStorage.getItem("dark-mode");
+      var box = document.getElementById("theme-switch");
+      if(dark === "true"){
+        box.checked =true;
+        var element  = document.body;
+        element.classList.add("dark-mode");
+      }else{
+        var element  = document.body;
+        element.classList.remove("dark-mode");
+      }
+    }
+    theme();
+    document.getElementsByClassName("edu-bg-image")[0].src = "/wncc-website.github.io/assets/images/backgrounds/edu-bg-dark.png";
   </script>
 </header>
 
@@ -386,7 +406,7 @@ You can watch the introductory session for this contest on YouTube
   <script src="/wncc-website.github.io/assets/plugins/shuffle/shuffle.min.js"></script>
 
   <!-- Main Script -->
-  <script src="/wncc-website.github.io/assets/js/script1.js"></script>
+  <script src="/wncc-website.github.io/assets/js/script2.js"></script>
 </body>
 
 </html>

@@ -56,7 +56,7 @@
 
     <div class = "dark/mode">
       <label class="switch">
-        <input type="checkbox" onclick="myFunction()">
+        <input type="checkbox" id = "theme-switch" onclick= "myFunction()">
         <span class="slider round"></span>
       </label>
     </div>
@@ -108,10 +108,30 @@
 
   <script>
     function myFunction(){
-      var element  = document.body;
-      element.classList.toggle("dark-mode");
-      document.getElementsByClassName("edu-bg-image")[0].src = "/wncc-website.github.io/assets/images/backgrounds/edu-bg-dark.png";
+      var box = document.getElementById("theme-switch");
+      if (box.checked){
+        window.localStorage.setItem("dark-mode", "true");
+        
+      }else{
+        window.localStorage.setItem("dark-mode", "false");
+        document.getElementsByClassName("edu-bg-image")[0].src = "/wncc-website.github.io/assets/images/backgrounds/education-bg.png";
+      }
+      window.location.reload();
     }
+    function theme(){
+      var dark = window.localStorage.getItem("dark-mode");
+      var box = document.getElementById("theme-switch");
+      if(dark === "true"){
+        box.checked =true;
+        var element  = document.body;
+        element.classList.add("dark-mode");
+      }else{
+        var element  = document.body;
+        element.classList.remove("dark-mode");
+      }
+    }
+    theme();
+    document.getElementsByClassName("edu-bg-image")[0].src = "/wncc-website.github.io/assets/images/backgrounds/edu-bg-dark.png";
   </script>
 </header>
 
@@ -382,7 +402,7 @@
     </div>
   </div>
   <!-- bg image -->
-  <img class="img-fluid edu-bg-image w-100" src="/wncc-website.github.io/assets/images/backgrounds/education-bg.png" alt="bg-image">
+  <img class="img-fluid edu-bg-image w-100" id = "edu-bg" src="/wncc-website.github.io/assets/images/backgrounds/education-bg.png" alt="bg-image">
 </section>
 <!-- /education -->
 
