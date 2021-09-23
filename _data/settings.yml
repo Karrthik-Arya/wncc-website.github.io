@@ -175,7 +175,7 @@ education:
 - {name: Number of Wiki Articles, organization: '110+'}
 - {name: Number of Github repos, organization: '45+'}
 - {name: Improving the Coding Culture, organization: 'since 15 years' }
-- {name: This over 300 people , organization: 'Participated in SoC'}
+- {name: This year over 300 people , organization: 'Participated in SoC'}
 
 #-------------------------------
 # Services Section
@@ -1292,7 +1292,235 @@ events-items:
     event-type:
       - type: "2020"
     
+# SOC-2021 Results
 
+soc-result-items:
+  - title : "Introduction to Web Development"
+    image_small: "assets/images/soc/2021/small_item-1.jpg"
+    image : "assets/images/soc/2021/item-1.jpg"
+    url: "/soc-results/project-1-result"
+    
+
+  - title : "(Un)Clear"
+    image_small: "assets/images/soc/2021/small_item-2.png"
+    image : "assets/images/soc/2021/item-2.png"
+    url: "/soc/projects/2021/project-2"
+    
+  - title : "Goal ICPC"
+    image_small: "assets/images/soc/2021/small_item-3.png"
+    image : "assets/images/soc/2021/item-3.png"
+    url: "/soc/projects/2021/project-3"
+   
+
+  - title : "PyRated"
+    image_small: "assets/images/soc/2021/small_item-5.png"
+    image : "assets/images/soc/2021/item-5.png"
+    url: "/soc/projects/2021/project-5"
+    
+
+  - title : "Tools for Data Science"
+    image_small: "assets/images/soc/2021/small_item-6.png"
+    image : "assets/images/soc/2021/item-6.png"
+    url: "/soc/projects/2021/project-6"
+    
+    
+
+  - title : "Audio Controlled Drone"
+    image_small: "assets/images/soc/2021/small_item-8.jpeg"
+    image : "assets/images/soc/2021/item-8.jpeg"
+    url: "/soc/projects/2021/project-8"
+    
+
+  - title : "NLPlay with Transformers"
+    image_small: "assets/images/soc/2021/small_item-9.png"
+    image : "assets/images/soc/2021/item-9.png"
+    url: "/soc/projects/2021/project-9"
+    
+
+  - title : "DIY FaceApp"
+    image_small: "assets/images/soc/2021/small_item-10.jpg"
+    image : "assets/images/soc/2021/item-10.jpg"
+    url: "/soc/projects/2021/project-10"
+    
+  
+  - title : "A Deep Dive into CNNs"
+    image_small: "assets/images/soc/2021/small_item-11.jpg"
+    image : "assets/images/soc/2021/item-11.jpg"
+    url: "/soc/projects/2021/project-11"
+    
+
+  - title : "Snake AI"
+    image_small: "assets/images/soc/2021/small_item-12.jpg"
+    image : "assets/images/soc/2021/item-12.jpg"
+    url: "/soc/projects/2021/project-12"
+    
+
+  - title : "Facial Recognition App"
+    image_small: "assets/images/soc/2021/small_item-13.jpg"
+    image : "assets/images/soc/2021/item-13.jpg"
+    url: "/soc/projects/2021/project-13"
+    
+
+  - title : "Gaming meets AI !!!"
+    image_small: "assets/images/soc/2021/small_item-14.jpg"
+    image : "assets/images/soc/2021/item-14.jpg"
+    url: "/soc/projects/2021/project-14"
+    
+  - title : "R(ea)L Trader"
+    image_small: "assets/images/soc/2021/small_item-15.jpeg"
+    image : "assets/images/soc/2021/item-15.jpeg"
+    url: "/soc/projects/2021/project-15"
+    
+    
+  - title : "Computational Geometry"
+    image_small: "assets/images/soc/2021/small_item-16.png"
+    image : "assets/images/soc/2021/item-16.png"
+    url: "/soc/projects/2021/project-16"
+    
+
+  - title : "Developing Hybrid ANN-Statistical Model for Robust Stock Market Prediction"
+    image_small: "assets/images/soc/2021/small_item-17.png"
+    image : "assets/images/soc/2021/item-17.png"
+    url: "/soc/projects/2021/project-17"
+   
+   
+
+  - title : "Astronomical Data-modelling and Interpretation"
+    image_small: "assets/images/soc/2021/small_item-19.png"
+    image : "assets/images/soc/2021/item-19.png"
+    url: "/soc/projects/2021/project-19"
+    
+
+  - title : "Visual Perception for Self Driving Cars"
+    image_small: "assets/images/soc/2021/small_item-20.png"
+    image : "assets/images/soc/2021/item-20.png"
+    url: "/soc/projects/2021/project-20"
+    
+
+  - title : "Convolutional Neural Networks and Applications"
+    image_small: "assets/images/soc/2021/small_item-21.png"
+    image : "assets/images/soc/2021/item-21.png"
+    url: "/soc/projects/2021/project-21"
+   
+
+  - title : "Quantum Computing Algorithms"
+    image_small: "assets/images/soc/2021/small_item-22.jpg"
+    image : "assets/images/soc/2021/item-22.jpg"
+    url: "/soc/projects/2021/project-22"
+    
+  
+  - title : "Algorithm Visualizer"
+    image_small: "assets/images/soc/2021/small_item-23.png"
+    image : "assets/images/soc/2021/item-23.png"
+    url: "/soc/projects/2021/project-23"
+    
+  
+  - title : "Anime Club IITB Website using Django"
+    image_small: "assets/images/soc/2021/small_item-24.png"
+    image : "assets/images/soc/2021/item-24.png"
+    url: "/soc/projects/2021/project-24"
+   
+
+
+  - title : "Competitive Coding"
+    image_small: "assets/images/soc/2021/small_item-28.png"
+    image : "assets/images/soc/2021/item-28.png"
+    url: "/soc/projects/2021/project-28"
+    
+
+  - title : "Deep reinforcement learning - 2048 AI"
+    image_small: "assets/images/soc/2021/small_item-29.jpg"
+    image : "assets/images/soc/2021/item-29.jpg"
+    url: "/soc/projects/2021/project-29"
+
+    
+
+  - title : "Physicc - A Simple Physics Engine"
+    image_small: "assets/images/soc/2021/small_item-31.jpeg"
+    image : "assets/images/soc/2021/item-31.jpeg"
+    url: "/soc/projects/2021/project-31"
+ 
+
+  - title : "Image Colorization"
+    image_small: "assets/images/soc/2021/small_item-32.png"
+    image : "assets/images/soc/2021/item-32.png"
+    url: "/soc/projects/2021/project-32"
+
+    
+
+  - title : "Computer vision based web app"
+    image_small: "assets/images/soc/2021/small_item-34.jpeg"
+    image : "assets/images/soc/2021/item-34.jpeg"
+    url: "/soc/projects/2021/project-34"
+    
+
+  - title : "Techster Texter"
+    image_small: "assets/images/soc/2021/small_item-35.jpeg"
+    image : "assets/images/soc/2021/item-35.jpeg"
+    url: "/soc/projects/2021/project-35"
+    
+
+  - title : "Language Detection"
+    image_small: "assets/images/soc/2021/small_item-36.jpg"
+    image : "assets/images/soc/2021/item-36.jpg"
+    url: "/soc/projects/2021/project-36"
+    
+    
+  - title : "ResoBin - Not the bin we deserve but the bin we need!"
+    image_small: "assets/images/soc/2021/small_item-38.jpg"
+    image : "assets/images/soc/2021/item-38.jpg"
+    url: "/soc/projects/2021/project-38"
+    
+   
+  
+  - title : "Moodify"
+    image_small: "assets/images/soc/2021/small_item-40.png"
+    image : "assets/images/soc/2021/item-40.png"
+    url: "/soc/projects/2021/project-40"
+    
+       
+  - title : "Agree to Disagree"
+    image_small: "assets/images/soc/2021/small_item-41.jpg"
+    image : "assets/images/soc/2021/item-41.jpg"
+    url: "/soc/projects/2021/project-41"
+    
+       
+  - title : "Unscripted"
+    image_small: "assets/images/soc/2021/small_item-42.png"
+    image : "assets/images/soc/2021/item-42.png"
+    url: "/soc/projects/2021/project-42"
+    
+    
+       
+  - title : "Introduction to App Development"
+    image_small: "assets/images/soc/2021/small_item-44.jpg"
+    image : "assets/images/soc/2021/item-44.jpg"
+    url: "/soc/projects/2021/project-44"
+    
+       
+  - title : "IITinder"
+    image_small: "assets/images/soc/2021/small_item-45.jpeg"
+    image : "assets/images/soc/2021/item-45.jpeg"
+    url: "/soc/projects/2021/project-45"
+    
+       
+  - title : "BriefKing"
+    image_small: "assets/images/soc/2021/small_item-46.jpeg"
+    image : "assets/images/soc/2021/item-46.jpeg"
+    url: "/soc/projects/2021/project-46"
+
+        
+  - title : "Break free of the matrix, by building one!"
+    image_small: "assets/images/soc/2021/small_item-48.jpeg"
+    image : "assets/images/soc/2021/item-48.jpeg"
+    url: "/soc/projects/2021/project-48"
+    
+ 
+        
+  - title : "PAC MAN"
+    image_small: "assets/images/soc/2021/small_item-50.png"
+    image : "assets/images/soc/2021/item-50.png"
+    url: "/soc/projects/2021/project-50"
 #-------------------------------
 # Contact Section
 
