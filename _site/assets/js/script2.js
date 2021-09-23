@@ -100,6 +100,26 @@
      Build Successful!<br>\
      <font color = "green">Click on the images to know about the members</font>'],
      ["teamtext"], ["aliceblue"]);
+     $("#team-title").click(function() {
+        if(active){
+            clicked = true;
+            }
+            teamText(['<font size = "5px"><font color = "blue">const</font> Managers {<br>\
+                 &emsp;  Shruti Singh;\
+                 &emsp;  Divyanshi Kamra;<br>};<br>\
+                 <font color = "green">const</font> Conveners {<br>\
+                 &emsp; Karrthik Arya;\
+                 &emsp; Shreedhar Malpani;\
+                 &emsp; Subarno Nath Roy; <br>\
+                 &emsp; Sarthak Mehrotra;\
+                 &emsp; Himanshu Choudhary;\
+                 &emsp; Jash Kabra; <br>\
+                 &emsp; Ved Khandekar;\
+                 &emsp; Vrinda Goel;\
+                 &emsp; Ishit Garg;\
+                 &emsp; Shubh Kumar; <br>\
+                 };</font>'], 'teamtext',['white'],);
+     });
     $("#Karrthik").click(function() {
         if(active){
         clicked = true;
