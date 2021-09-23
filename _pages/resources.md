@@ -6,11 +6,11 @@ permalink: /resources/
 <!-- blog -->
 
 {% for item in site.data.settings.resources-items %}
-<section class="section bg-light">
+<section class="section">
 <div class="container">
         <div class="col-12 text-center">
             <h2 class="section-title" style="margin-bottom: 40px;">{{ item.title }}</h2>
-            <p>{{ item.fdis }}</p>
+            <p class ="text-dark">{{ item.fdis }}</p>
         </div>
 
 <!-- Programming_101 -->
@@ -40,7 +40,7 @@ permalink: /resources/
                     <div class="card-body">
                         <h4 class="card-title"><a class="text-dark"
                                 href="{{ label.link }}" target="_blank">{{ label.title }}</a></h4>
-                        <p class="cars-text">{{ label.discription }}
+                        <p class="card-text text-dark">{{ label.discription }}
                         </p>
                         <a href="{{ label.link }}" class="btn btn-xs btn-primary" target="_blank">Read More</a>
                     </div>
@@ -57,7 +57,7 @@ permalink: /resources/
                     <div class="card-body">
                         <h4 class="card-title"><a class="text-dark"
                                 href="{{ label.link }}" target="_blank">{{ label.title }}</a></h4>
-                        <p class="cars-text">{{ label.discription }}
+                        <p class="card-text text-dark">{{ label.discription }}
                         </p>
                         <a href="{{ label.link }}" class="btn btn-xs btn-primary" target="_blank">Read More</a>
                     </div>
@@ -77,7 +77,7 @@ permalink: /resources/
                     <div class="card-body">
                         <h4 class="card-title"><a class="text-dark"
                                 href="{{ label.link }}" target="_blank">{{ label.title }}</a></h4>
-                        <p class="cars-text">{{ label.discription }}
+                        <p class="card-text text-dark">{{ label.discription }}
                         </p>
                         <a href="{{ label.link }}" class="btn btn-xs btn-primary" target="_blank">Read More</a>
                     </div>
@@ -96,7 +96,7 @@ permalink: /resources/
                     <div class="card-body">
                         <h4 class="card-title"><a class="text-dark"
                                 href="{{ label.link }}" target="_blank">{{ label.title }}</a></h4>
-                        <p class="cars-text">{{ label.discription }}
+                        <p class="card-text">{{ label.discription }}
                         </p>
                         <a href="{{ label.link }}" class="btn btn-xs btn-primary" target="_blank">Read More</a>
                     </div>
@@ -128,7 +128,7 @@ permalink: /resources/
 
 
 </div>
-<p class="text-center">{{ item.ldis }}</p>
+<p class="text-center text-dark">{{ item.ldis }}</p>
 <div style="display: flex; align-item: center; justify-content: center;">
 <a href="{{ item.btn-link }}" class="btn btn-xs btn-primary" target="_blank" style="
     padding: 15px 30px;

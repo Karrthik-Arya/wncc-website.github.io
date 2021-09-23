@@ -393,7 +393,10 @@ textarea.form-control{
     background-color: rgba(14, 3, 34, 0.705) !important;
     box-shadow: none !important;
     border-color: black !important;
-
+  }
+  & .edu-bg-image{
+    content:url("/wncc-website.github.io/assets/images/backgrounds/edu-bg-dark.png")!important;
+  }
   & input{
     background-color: rgba(14, 3, 34, 0.305);
     color: honeydew;
@@ -403,5 +406,20 @@ textarea.form-control{
     background-color: rgba(14, 3, 34, 0.305);
     color: honeydew;
   }
+
+  & .card{
+    background-color: rgba(14, 3, 34, 0.705) !important;
   }
+
+  & #team{
+    background-color: var(--primary-color);
+  }
+
+  & .bg-dark-footer{
+    background-color: rgb(6, 4, 12)!important;
+  }
+  & .team-member .img-wrap:before{
+    background-image: linear-gradient(to top, rgba(28, 20, 51,255), rgba(20, 4, 4, 0))!important;
+  }
+
 }
