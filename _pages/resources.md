@@ -7,11 +7,11 @@ permalink: /resources/
 <section class="section">
 <div class="container">
 <h2 class = 'section-title'>Choose your poison:</h2>
-<div class = "d-flex flex-wrap">
+<div class = "d-flex flex-wrap mx-auto">
 {% for item in site.data.settings.resources-items %}
         <div class="col-lg-4 mb-3" style = 'width:400px; height: 220px; ' id = "resource-cards">
         <a href = "{{ site.baseurl }}/resources/#{{ item.name }}">
-        <article class = " shadow rounded p-3 text-center pt-2" style = "background-color: rgb(30, 4, 47);" id = "resource-cards">
+        <article class = " shadow rounded p-3 text-center pt-2" style = "background-color: rgb(20, 20, 30);" id = "resource-cards">
             <h3 style = "text-center">{{ item.title }}</h3>
         </article>
         </a>
