@@ -31,9 +31,9 @@ permalink: /soc-results/project-2-result
     </div>
 
 <div class = "button-holder">
-    <div class="button-res"><a href="#" role="button">Documentation</a></div>
-    <div class="button-res"><a href="#" role="button">GitHub Repo</a></div>
-    <div class="button-res"><a href="#" role="button">Demo</a></div>
+    <div class="button-res"><a href="https://docs.google.com/document/d/1t9bxHXBFLaU6jyg0yZks6VyGD-dFGWZDA38KA3QOISk/edit" role="button">Documentation</a></div>
+    <div class="button-res"><a href="https://github.com/tkg31302/SoC_2021.git" role="button">GitHub Repo</a></div>
+    <div class="button-res"><a href="https://drive.google.com/file/d/1BIxlJ7_tPCQYbeZgSKbkB46jDBqwrNg_/view?usp=sharing" role="button">Demo</a></div>
 </div>
 
 {% endif %}
