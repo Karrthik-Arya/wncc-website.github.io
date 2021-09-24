@@ -13,13 +13,17 @@ mentees:
 permalink: /soc/projects/2021/project-49
 ---
 
-<h2 class="display1 m-3 p-3 text-center">{{page.project}}</h2>
+<h2 class="display1 m-3 p-3 text-center project-title">{{page.project}}</h2>
 
 {% for project in site.data.settings.soc-items %}
 {% if project.title == page.project %}
-<div>
-    <img src="{{ site.baseurl }}/{{ project.image }}"  width = "300" height="300" alt="{{ project.project}}" class="border rounded img-soc">
+<div class ="img-soc d-block"> 
+    <img src="{{ site.baseurl }}/{{ project.image }}" alt="{{ project.project}}" class="image-1">
+    <img src="{{ site.baseurl }}/{{ project.image }}" alt="{{ project.project}}" class="image-2">
+    <img src="{{ site.baseurl }}/{{ project.image }}" alt="{{ project.project}}" class="image-3">
+    <img src="{{ site.baseurl }}/{{ project.image }}" alt="{{ project.project}}" class="image-4">
 </div>
+
 <div>
     <br>
     <ul>
@@ -42,23 +46,35 @@ permalink: /soc/projects/2021/project-49
     </ul>
 </div>
 <div>
-    <p class="display3" style = "font-size:22px;" >
+    <p class="display3 project-desc" style = "font-size:22px;" >
         <br>
         Description:
         
         This project is for people interested in the field of Computer Graphics and Rendering and this project will give a very good idea of the rendering pipeline used in modern game engines. The implementation will be using the OpenGL framework in C++. The engine should be capable of the following -
+  <br><br>
+  </p>
+        <p class="display3" style = "font-size:22px;" >
 
         1.Procedural generation of landmass (https://en.wikipedia.org/wiki/Procedural_generation for more details) - It is upto you to make it voxel or continuous
+  <br>
         2.3D cave systems
+        <br>
+        
         3.Level of Detail implementation with real time access to change detail of terrain
-        Reading Material: Set up openGL: https://github.com/paragchaudhuri/cs475-tutorials/tree/master/Tutorial_00 https://www.youtube.com/watch?v=4zjCqjfjcPs&list=PLRtjMdoYXLf4yTkXgyRBy5LXTFhdU7LWq
-
+   <br></p>
+<p class= "lead" style = "font-size:30px;">
+        Reading Material: 
+        </p>
+        <p class="display3" style = "font-size:22px;" >
+Set up openGL: https://github.com/paragchaudhuri/cs475-tutorials/tree/master/Tutorial_00 https://www.youtube.com/watch?v=4zjCqjfjcPs&list=PLRtjMdoYXLf4yTkXgyRBy5LXTFhdU7LWq
+<br><br>
         Getting Started with openGL: https://learnopengl.com/ https://www.cse.iitb.ac.in/~paragc/teaching/2019/cs475/
-
+<br><br>
         Noise generation for terrain: https://en.wikipedia.org/wiki/Perlin_noise https://en.wikipedia.org/wiki/Worley_noise
   </p>
   <br>
 </div>
+<div class="d-flex">
 <div>
     <h4 class="display3" style="margin:40px 0px 40px 0px;">Tentative Timeline :</h4>
     <table class="table table-striped">
@@ -99,6 +115,7 @@ permalink: /soc/projects/2021/project-49
     </tr>
   </tbody>
 </table>
+</div>
 </div>
 {% endif %}
 {% endfor %}

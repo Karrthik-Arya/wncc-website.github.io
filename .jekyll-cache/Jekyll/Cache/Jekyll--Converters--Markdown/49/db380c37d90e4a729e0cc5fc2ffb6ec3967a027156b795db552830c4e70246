@@ -1,4 +1,4 @@
-I"Ñ<h2 class="display1 m-3 p-3 text-center">Visual Perception for Self Driving Cars</h2>
+I"Û<h2 class="display1 m-3 p-3 text-center customcol">Visual Perception for Self Driving Cars</h2>
 
 <div>
     <img src="/wncc-website.github.io/assets/images/soc/2021/item-20.png" width="75%" height="auto" alt="" class="border rounded" style="float: left; margin-top: 3%; margin-right: 3%" />
@@ -16,9 +16,9 @@
     </div>
 
 <div class="button-holder">
-    <div class="button-res"><a href="#" role="button">Documentation</a></div>
-    <div class="button-res"><a href="#" role="button">GitHub Repo</a></div>
-    <div class="button-res"><a href="#" role="button">Demo</a></div>
+    <div class="button-res"><a href="https://docs.google.com/document/d/1LwQMIm3brmxW9Ahbpu1njgioHkbI4OHsUQAoKjtaEB4/edit?usp=sharing" role="button">Documentation</a></div>
+    <div class="button-res"><a href="https://github.com/AshwinRamachandran2002/Visual-Perception-for-Self-Driving-Cars" role="button">GitHub Repo</a></div>
+    <div class="button-res"><a href="https://drive.google.com/file/d/1hltvF8U1nfJbfbXN1LiFWsnVdFcc5Dln/view?usp=sharing" role="button">Demo</a></div>
 </div>
 
 :ET

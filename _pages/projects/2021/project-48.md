@@ -13,13 +13,17 @@ mentees:
 permalink: /soc/projects/2021/project-48
 ---
 
-<h2 class="display1 m-3 p-3 text-center">{{page.project}}</h2>
+<h2 class="display1 m-3 p-3 text-center project-title">{{page.project}}</h2>
 
 {% for project in site.data.settings.soc-items %}
 {% if project.title == page.project %}
-<div>
-    <img src="{{ site.baseurl }}/{{ project.image }}"  width = "300" height="300" alt="{{ project.project}}" class="border rounded img-soc">
+<div class ="img-soc d-block"> 
+    <img src="{{ site.baseurl }}/{{ project.image }}" alt="{{ project.project}}" class="image-1">
+    <img src="{{ site.baseurl }}/{{ project.image }}" alt="{{ project.project}}" class="image-2">
+    <img src="{{ site.baseurl }}/{{ project.image }}" alt="{{ project.project}}" class="image-3">
+    <img src="{{ site.baseurl }}/{{ project.image }}" alt="{{ project.project}}" class="image-4">
 </div>
+
 <div>
     <br>
     <ul>
@@ -42,7 +46,7 @@ permalink: /soc/projects/2021/project-48
     </ul>
 </div>
 <div>
-    <p class="display3" style = "font-size:22px;" >
+    <p class="display3 project-desc" style = "font-size:22px;" >
         <br>
         Description:
         
@@ -54,8 +58,9 @@ permalink: /soc/projects/2021/project-48
   </p>
   <br>
 </div>
+<div class="d-flex">
 <div>
-    <h4 class="display3" style="margin:40px 0px 40px 0px;">Tentative Timeline :</h4>
+    <h4 class="display3 " style="margin:40px 0px 40px 0px;">Tentative Timeline :</h4>
     <table class="table table-striped">
   <thead>
     <tr>
@@ -90,6 +95,7 @@ permalink: /soc/projects/2021/project-48
     </tr>
   </tbody>
 </table>
+</div>
 </div>
 
 {% endif %}

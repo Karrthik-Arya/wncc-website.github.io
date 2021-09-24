@@ -14,13 +14,17 @@ mentees:
 permalink: /soc/projects/2021/project-44
 ---
 
-<h2 class="display1 m-3 p-3 text-center">{{page.project}}</h2>
+<h2 class="display1 m-3 p-3 text-center project-title">{{page.project}}</h2>
 
 {% for project in site.data.settings.soc-items %}
 {% if project.title == page.project %}
-<div>
-    <img src="{{ site.baseurl }}/{{ project.image }}"  width = "300" height="300" alt="{{ project.project}}" class="border rounded img-soc">
+<div class ="img-soc d-block"> 
+    <img src="{{ site.baseurl }}/{{ project.image }}" alt="{{ project.project}}" class="image-1">
+    <img src="{{ site.baseurl }}/{{ project.image }}" alt="{{ project.project}}" class="image-2">
+    <img src="{{ site.baseurl }}/{{ project.image }}" alt="{{ project.project}}" class="image-3">
+    <img src="{{ site.baseurl }}/{{ project.image }}" alt="{{ project.project}}" class="image-4">
 </div>
+
 <div>
     <br>
     <ul>
@@ -43,18 +47,20 @@ permalink: /soc/projects/2021/project-44
     </ul>
 </div>
 <div>
-    <p class="display3" style = "font-size:22px;" >
+    <p class="display3 project-desc" style = "font-size:22px;" >
         <br>
         Description:
 
         We will be using Flutter Framework to compose user interfaces and implement functionality. Flutter is an extremely trending framework for app development that gives you a rich set of pre-built and pre-styled wireframing widgets. It uses web technologies which are easy to understand. Alibaba recently made their app in Flutter. If it’s good enough for a 25-billion dollar company, it’s worth learning.
-        
+<br><br>
         Preferred Skills: 
         
         Some small amount of Coding knowledge would be beneficial along with a working computer onto which you can install Flutter.
   </p>
   <br>
 </div>
+
+<div class="d-flex">
 <div>
     <h4 class="display3" style="margin:40px 0px 40px 0px;">Tentative Timeline :</h4>
     <table class="table table-striped">
@@ -120,6 +126,7 @@ permalink: /soc/projects/2021/project-44
     </tr>
   </tbody>
 </table>
+</div>
 </div>
 {% endif %}
 {% endfor %}

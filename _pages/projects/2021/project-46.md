@@ -14,13 +14,17 @@ mentees:
 permalink: /soc/projects/2021/project-46
 ---
 
-<h2 class="display1 m-3 p-3 text-center">{{page.project}}</h2>
+<h2 class="display1 m-3 p-3 text-center project-title">{{page.project}}</h2>
 
 {% for project in site.data.settings.soc-items %}
 {% if project.title == page.project %}
-<div>
-    <img src="{{ site.baseurl }}/{{ project.image }}"  width = "300" height="300" alt="{{ project.project}}" class="border rounded img-soc">
+<div class ="img-soc d-block"> 
+    <img src="{{ site.baseurl }}/{{ project.image }}" alt="{{ project.project}}" class="image-1">
+    <img src="{{ site.baseurl }}/{{ project.image }}" alt="{{ project.project}}" class="image-2">
+    <img src="{{ site.baseurl }}/{{ project.image }}" alt="{{ project.project}}" class="image-3">
+    <img src="{{ site.baseurl }}/{{ project.image }}" alt="{{ project.project}}" class="image-4">
 </div>
+
 <div>
     <br>
     <ul>
@@ -43,15 +47,17 @@ permalink: /soc/projects/2021/project-46
     </ul>
 </div>
 <div>
-    <p class="display3" style = "font-size:22px;" >
+    <p class="display3 project-desc" style = "font-size:22px;" >
         <br>
         Description:
         
         Did you just sleep while watching a lecture and are too lazy to watch it again? Do you think a 1 hour lecture could be done away in like 10-20 mins? Or you really wanted to attend a webinar but do not have the patience to listen to the speaker for 2-3 hours?
+  <br><br>
 
         Don’t worry! BriefKing has got you covered! Briefking is an attempt to automate the day-to-day stuff that you do. The Input to this application will be “your daily class lectures” and the expected output is a brief but detailed summary of the entire lecture. This is more of a Research and Development Project. You can expect reading a lot of research papers and then implement a suitable model while keeping in mind the accuracy. We will not go deep into the topics rather it will be more of an implementation based project.
   </p><br>
 </div>
+<div class="d-flex">
 <div>
     <h4 class="display3" style="margin:40px 0px 40px 0px;">Tentative Timeline :</h4>
     <table  class="table table-striped">
@@ -88,6 +94,7 @@ permalink: /soc/projects/2021/project-46
     </tr>
   </tbody>
 </table>
+</div>
 </div>
 
 {% endif %}

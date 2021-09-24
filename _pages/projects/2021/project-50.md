@@ -14,13 +14,17 @@ mentees:
 permalink: /soc/projects/2021/project-50
 ---
 
-<h2 class="display1 m-3 p-3 text-center">{{page.project}}</h2>
+<h2 class="display1 m-3 p-3 text-center project-title">{{page.project}}</h2>
 
 {% for project in site.data.settings.soc-items %}
 {% if project.title == page.project %}
-<div>
-    <img src="{{ site.baseurl }}/{{ project.image }}"  width = "300" height="300" alt="{{ project.project}}" class="border rounded img-soc">
+<div class ="img-soc d-block"> 
+    <img src="{{ site.baseurl }}/{{ project.image }}" alt="{{ project.project}}" class="image-1">
+    <img src="{{ site.baseurl }}/{{ project.image }}" alt="{{ project.project}}" class="image-2">
+    <img src="{{ site.baseurl }}/{{ project.image }}" alt="{{ project.project}}" class="image-3">
+    <img src="{{ site.baseurl }}/{{ project.image }}" alt="{{ project.project}}" class="image-4">
 </div>
+
 <div>
     <br>
     <ul>
@@ -43,23 +47,36 @@ permalink: /soc/projects/2021/project-50
     </ul>
 </div>
 <div>
-    <p class="display3" style = "font-size:22px;" >
+    <p class="display3 project-desc" style = "font-size:22px;" >
         <br>
         Description:
         
-        Reinforcement Learning (RL) is a field of Artificial Intelligence where an agent learns by interacting with its environment and receiving a reward/penalty for its actions. RL has recently started receiving a lot more attention, owing to the famous victory by an RL agent over the world champion in the game of “Go”. This project aims to get people familiar with the field and get started with a hands-on project that will require them to understand and implement some of the popular RL algorithms. We will start with building a simple GUI, and will then try out algorithms like SARSA and Q-learning for training agents in basic environments. We will then move on to Deep RL techniques for handling Pac-Man which involve the use of neural networks for training the agents.
+        Reinforcement Learning (RL) is a field of Artificial Intelligence where an agent learns by interacting with its environment and receiving a reward/penalty for its actions. RL has recently started receiving a lot more attention, owing to the famous victory by an RL agent over the world champion in the game of “Go”. 
+        </p>
+        <p class="display3" style = "font-size:22px;" >
 
+        This project aims to get people familiar with the field and get started with a hands-on project that will require them to understand and implement some of the popular RL algorithms. We will start with building a simple GUI, and will then try out algorithms like SARSA and Q-learning for training agents in basic environments. We will then move on to Deep RL techniques for handling Pac-Man which involve the use of neural networks for training the agents.
+</p>
+<p class= "lead" style = "font-size:30px;">
         Reading:
+</p>
+        <p class="display3" style = "font-size:22px;" >
 
         Nothing as such right now. If you’re interested, you might want to read the first chapter of the book “Introduction to Reinforcement Learning” by Sutton and Barto to get a feel of RL. The book is available freely online and a simple google search should do :)
 
         Watching the video lectures of the Reinforcement Learning Specialisation on Coursera by The University of Alberta can be a good starting point for getting the hang of RL.
+</p>
+<p class= "lead" style = "font-size:30px;"> 
 
         Links:
+  </p>
+  <p class="display3" style = "font-size:22px;" >
+
 
         Sutton and Barto (http://incompleteideas.net/book/RLbook2018trimmed.pdf) Coursera (https://www.coursera.org/specializations/reinforcement-learning?) Enjoy watching this beautiful documentary about AlphaGo by DeepMind - (https://www.youtube.com/watch?v=WXuK6gekU1Y)
   </p>
 </div>
+<div class="d-flex">
 <div>
     <h4 class="display3" style="margin:40px 0px 40px 0px;">Tentative Timeline :</h4>
     <table class = "table table-striped">
@@ -125,6 +142,7 @@ permalink: /soc/projects/2021/project-50
     </tr>
   </tbody>
 </table>
+</div>
 </div>
 {% endif %}
 {% endfor %}

@@ -1,4 +1,4 @@
-I"×<h2 class="display1 m-3 p-3 text-center">Quantum Computing Algorithms</h2>
+I"£<h2 class="display1 m-3 p-3 text-center customcol">Quantum Computing Algorithms</h2>
 
 <div>
     <img src="/wncc-website.github.io/assets/images/soc/2021/item-22.jpg" width="75%" height="auto" alt="" class="border rounded" style="float: left; margin-top: 3%; margin-right: 3%" />
@@ -16,9 +16,9 @@
     </div>
 
 <div class="button-holder">
-    <div class="button-res"><a href="#" role="button">Documentation</a></div>
-    <div class="button-res"><a href="#" role="button">GitHub Repo</a></div>
-    <div class="button-res"><a href="#" role="button">Demo</a></div>
+    <div class="button-res"><a href="https://drive.google.com/file/d/11LWjD-P15u5z0KkYtX1gGMxUbCtyTfz7/view" role="button">Documentation</a></div>
+    <div class="button-res"><a href="https://github.com/midhasid21/Quantum-Algorithms---SoC-21" role="button">GitHub Repo</a></div>
+    <div class="button-res"><a href="https://drive.google.com/file/d/1-nhx4EaYqJtoAaSZh1keWIOHrZxY_Cgq/view" role="button">Demo</a></div>
 </div>
 
 :ET

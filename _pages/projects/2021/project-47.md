@@ -15,13 +15,17 @@ mentees:
 permalink: /soc/projects/2021/project-47
 ---
 
-<h2 class="display1 m-3 p-3 text-center">{{page.project}}</h2>
+<h2 class="display1 m-3 p-3 text-center project-title">{{page.project}}</h2>
 
 {% for project in site.data.settings.soc-items %}
 {% if project.title == page.project %}
-<div>
-    <img src="{{ site.baseurl }}/{{ project.image }}"  width = "300" height="300" alt="{{ project.project}}" class="border rounded img-soc">
+<div class ="img-soc d-block"> 
+    <img src="{{ site.baseurl }}/{{ project.image }}" alt="{{ project.project}}" class="image-1">
+    <img src="{{ site.baseurl }}/{{ project.image }}" alt="{{ project.project}}" class="image-2">
+    <img src="{{ site.baseurl }}/{{ project.image }}" alt="{{ project.project}}" class="image-3">
+    <img src="{{ site.baseurl }}/{{ project.image }}" alt="{{ project.project}}" class="image-4">
 </div>
+
 <div>
     <br>
     <ul>
@@ -44,15 +48,20 @@ permalink: /soc/projects/2021/project-47
     </ul>
 </div>
 <div>
-    <p class="display3" style = "font-size:22px;" >
+    <p class="display3 project-desc" style = "font-size:22px;" >
         <br>
-        Meta Learning is a recent advancement in the field of machine learning where we increase a level of abstraction and start <strong>𝗟𝗲𝗮𝗿𝗻𝗶𝗻𝗴 𝘁𝗼 𝗟𝗲𝗮𝗿𝗻</strong>. This helps us train neural networks with almost no data. In this project you shall first learn about the principles and applications of machine learning. Thereafter you shall understand the fundamentals of meta learning, i.e learning to learn. You will finally build a Few Shot image recognition network.
-
+        Meta Learning is a recent advancement in the field of machine learning where we increase a level of abstraction and start <strong>𝗟𝗲𝗮𝗿𝗻𝗶𝗻𝗴 𝘁𝗼 𝗟𝗲𝗮𝗿𝗻</strong>. 
+        </p>
+        <p class="display3" style = "font-size:22px;" >This helps us train neural networks with almost no data. In this project you shall first learn about the principles and applications of machine learning. Thereafter you shall understand the fundamentals of meta learning, i.e learning to learn. You will finally build a Few Shot image recognition network.
+<br><br>
         Preferred Skills : Inclination to Statistics, enthusiasm to learn The proposal must contain your skills and describe incidents which showcase your analytical skills.
+</p>
+        <p class="display3" style = "font-size:22px;" >
 
 References: <a href = "https://data-notes.co/meta-learning-is-all-you-need-3bd0bafdf289 https://towardsdatascience.com/machine-learning-basics-part-1-a36d38c7916?gi=bf37f27f36b2">https://data-notes.co/meta-learning-is-all-you-need-3bd0bafdf289</a> <a href = "https://towardsdatascience.com/machine-learning-basics-part-1-a36d38c7916?gi=bf37f27f36b2">https://towardsdatascience.com/machine-learning-basics-part-1-a36d38c7916?gi=bf37f27f36b2</a>
        </p> <br>
 </div>
+<div class="d-flex">
 <div>
     <h4 class="display3" style="margin:40px 0px 40px 0px;">Tentative Timeline :</h4>
     <table class="table table-striped">
@@ -85,6 +94,7 @@ References: <a href = "https://data-notes.co/meta-learning-is-all-you-need-3bd0b
     </tr>
   </tbody>
 </table>
+</div>
 </div>
 
 {% endif %}
