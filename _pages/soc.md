@@ -8,14 +8,24 @@ permalink: /soc/
 <section class="section">
   <div class="container-fluid">
     <div class="row">
-      <div class="col-lg-10 mx-auto text-center">
-        <h3> What is Seasons of Code? </h3>
+      <div class="col-lg-10 mx-auto text-center d-flex self-align-stretch">
+        <div style = "margin-right:50px">
+        <article class = "card p-3 shadow mb-4 soc-cards" style = "width:700px">
+        <h3 class ="card-title"> What is Seasons of Code? </h3>
         <br>
-        <p class="font-secondary paragraph-lg text-dark">{{ site.data.settings.about-soc-what-is-soc }}</p>
-        <br>
-        <br>
-        <h4>  Why should you participate? </h4>
-        <p class="font-secondary paragraph-lg text-dark">{{ site.data.settings.about-soc-why-participate }}</p>
+        <p class="font-secondary paragraph-lg text-dark">Seasons of Code is a programme launched by the WnCC, along the lines of GSoC without much greenery though. </p>
+        <p class="font-secondary paragraph-lg text-dark" id ="about">{{ site.data.settings.about-soc-what-is-soc }}</p>
+        <button class ="btn btn-primary mx-auto" id ="read-toggle">Read More</button>
+        </article>
+        </div>
+        <div>
+        <article class = "card p-3 shadow mb-4 soc-cards" style = "width:700px;">
+        <h3 class ="card-title">  Why should you participate? </h3>
+        <p class="font-secondary paragraph-lg text-dark">Seasons of Code gives you an amazing opportunity to learn and dive into coding under the mentorship of the best in our institute.</p>
+        <p class="font-secondary paragraph-lg text-dark" id ="why">{{ site.data.settings.about-soc-why-participate }}</p>
+        <button class ="btn btn-primary mx-auto" id ="why-toggle">Read More</button>
+        </article>
+        </div>
       </div>
     </div>
   </div>

@@ -5,235 +5,255 @@ permalink: /tss_2021/
 ---
 
 <style>
+    /* table{
+        padding-left: 5px;
+        padding-right: 5px;
+    } */
     .center {
         margin-left: auto;
         margin-right: auto;
     }
     .table-1 {
+        padding-left: 5px;
+        padding-right: 5px;
         border: 3px solid #00FFFF;
         border-collapse: collapse;
     }
     .table-2 {
+        padding-left: 5px;
+        padding-right: 5px;
         border: 3px solid #FFFF00;
         border-collapse: collapse;
     }
     .table-3 {
+        padding-left: 5px;
+        padding-right: 5px;
         border: 3px solid #FF0000;
         border-collapse: collapse;
     }
 </style>
-
 <h1 class="display1 m-3 p-3 text-center customcol" >List of Certified Students</h1>
 
+<div class="d-flex">
 
 
-<h2 class="display1 m-3 p-3 text-center customcol">Intro To App Development<h2>
-        <table class="table table-striped table-1 center">
-            <tr>
-                <th>Name</th>
-                <th>Roll Number</th>
-            </tr>
-            <tr>
-                <th>Abhinav Raghuvanshi</th>
-                <th>200040008</th>
-            </tr>
-            <tr>
-                <th>Abhishek Ghayre</th>
-                <th>200040055</th>
-            </tr>
-            <tr>
-                <th>Arvind Vadapalli</th>
-                <th>200070087</th>
-            </tr>
-            <tr>
-                <th>Hanan Basheer</th>
-                <th>20B030018</th>
-            </tr>
-            <tr>
-                <th>Hastyn Doshi</th>
-                <th>200070025</th>
-            </tr>
-            <tr>
-                <th>Kanishka Mittal</th>
-                <th>200050058</th>
-            </tr>
-            <tr>
-                <th>Manish Kumawat</th>
-                <th>200050071</th>
-            </tr>
-            <tr>
-                <th>Mohd Taha Abbas</th>
-                <th>200010045</th>
-            </tr>
-            <tr>
-                <th>Rishikesh Gunjal</th>
-                <th>200040123</th>
-            </tr>
-            <tr>
-                <th>Rohan Rajesh Kalbag</th>
-                <th>20D170033</th>
-            </tr>
-            <tr>
-                <th>Sachin Kumar</th>
-                <th>200100140</th>
-            </tr>
-            <tr>
-                <th>Sahil Garg</th>
-                <th>200070070</th>
-            </tr>
-            <tr>
-                <th>Sarthak Mittal</th>
-                <th>200050129</th>
-            </tr>
-            <tr>
-                <th>Vishruth N</th>
-                <th>200010088</th>
-            </tr>
+
+<table class="table table-striped table-1 center">
+    <tr>
+        <td colspan="2" style="font-size:1.5em" class = "display1 m-3 p-3 text-center customcol">Intro To App Development</td>
+    </tr>
+    <tr>
+        <td>Name</td>
+        <td>Roll Number</td>
+    </tr>
+    <tr>
+        <td>Abhinav Raghuvanshi</td>
+        <td>200040008</td>
+    </tr>
+    <tr>
+        <td>Abhishek Ghayre</td>
+        <td>200040055</td>
+    </tr>
+    <tr>
+        <td>Arvind Vadapalli</td>
+        <td>200070087</td>
+    </tr>
+    <tr>
+        <td>Hanan Basheer</td>
+        <td>20B030018</td>
+    </tr>
+    <tr>
+        <td>Hastyn Doshi</td>
+        <td>200070025</td>
+    </tr>
+    <tr>
+        <td>Kanishka Mittal</td>
+        <td>200050058</td>
+    </tr>
+    <tr>
+        <td>Manish Kumawat</td>
+        <td>200050071</td>
+    </tr>
+    <tr>
+        <td>Mohd Taha Abbas</td>
+        <td>200010045</td>
+    </tr>
+    <tr>
+        <td>Rishikesh Gunjal</td>
+        <td>200040123</td>
+    </tr>
+    <tr>
+        <td>Rohan Rajesh Kalbag</td>
+        <td>20D170033</td>
+    </tr>
+    <tr>
+        <td>Sachin Kumar</td>
+        <td>200100140</td>
+    </tr>
+    <tr>
+        <td>Sahil Garg</td>
+        <td>200070070</td>
+    </tr>
+    <tr>
+        <td>Sartdak Mittal</td>
+        <td>200050129</td>
+    </tr>
+    <tr>
+        <td>Vishrutd N</td>
+        <td>200010088</td>
+    </tr>
 
 </table>
 
-<h2 class="display1 m-3 p-3 text-center customcol">Python and it's Applications</h2>
+
 
 <table class="table table-striped table-2 center">
     <tr>
-        <th>Name</th>
-        <th>Roll Number</th>
+        <td colspan="2" style="font-size:1.5em" class = "display1 m-3 p-3 text-center customcol">Python and it's Applications</td>
     </tr>
     <tr>
-        <th>Ankith R</th>
-        <th>200070006</th>
+        <td>Name</td>
+        <td>Roll Number</td>
     </tr>
     <tr>
-        <th>Ayush Raj Tarway</th>
-        <th>200260012</th>
+        <td>Ankitd R</td>
+        <td>200070006</td>
     </tr>
     <tr>
-        <th>Darshan Manish Mali</th>
-        <th>200110030</th>
+        <td>Ayush Raj Tarway</td>
+        <td>200260012</td>
     </tr>
     <tr>
-        <th>Dhananjay Kejriwal</th>
-        <th>200050034</th>
+        <td>Darshan Manish Mali</td>
+        <td>200110030</td>
     </tr>
     <tr>
-        <th>Eshu</th>
-        <th>20b030016</th>
+        <td>Dhananjay Kejriwal</td>
+        <td>200050034</td>
     </tr>
     <tr>
-        <th>Himanshi Yadav</th>
-        <th>200040062</th>
+        <td>Eshu</td>
+        <td>20b030016</td>
     </tr>
     <tr>
-        <th>Manish Kumawat</th>
-        <th>200050071</th>
+        <td>Himanshi Yadav</td>
+        <td>200040062</td>
     </tr>
     <tr>
-        <th>Nagendra Singh</th>
-        <th>200050081</th>
+        <td>Manish Kumawat</td>
+        <td>200050071</td>
     </tr>
     <tr>
-        <th>Netra Parihar</th>
-        <th>200040087</th>
+        <td>Nagendra Singh</td>
+        <td>200050081</td>
     </tr>
     <tr>
-        <th>Ojasvi Kathuria</th>
-        <th>20d070058</th>
+        <td>Netra Parihar</td>
+        <td>200040087</td>
     </tr>
     <tr>
-        <th>Pinkesh Raghuvanshi</th>
-        <th>200050106</th>
+        <td>Ojasvi Katduria</td>
+        <td>20d070058</td>
     </tr>
     <tr>
-        <th>Sahil Khan</th>
-        <th>200020112</th>
+        <td>Pinkesh Raghuvanshi</td>
+        <td>200050106</td>
     </tr>
     <tr>
-        <th>Sainath Vavilapalli</th>
-        <th>200050125</th>
+        <td>Sahil Khan</td>
+        <td>200020112</td>
     </tr>
     <tr>
-        <th>Sankalp Bhamare</th>
-        <th>200110096</th>
+        <td>Sainatd Vavilapalli</td>
+        <td>200050125</td>
     </tr>
     <tr>
-        <th>Siddhant Midha</th>
-        <th>200070078</th>
+        <td>Sankalp Bhamare</td>
+        <td>200110096</td>
     </tr>
     <tr>
-        <th>Tanmay Joshi</th>
-        <th>200070027</th>
+        <td>Siddhant Midha</td>
+        <td>200070078</td>
     </tr>
     <tr>
-        <th>Vamsee Krishna</th>
-        <th>144350004</th>
+        <td>Tanmay Joshi</td>
+        <td>200070027</td>
+    </tr>
+    <tr>
+        <td>Vamsee Krishna</td>
+        <td>144350004</td>
     </tr>
 </table>
 
-<h2 class="display1 m-3 p-3 text-center customcol">Fundamentals of MLOps</h2>
 
 <table class="table table-striped table-3 center">
     <tr>
-        <th>Name</th>
-        <th>Roll Number</th>
+        <td colspan="2" style="font-size:1.5em" class = "display1 m-3 p-3 text-center customcol">Fundamentals of MLOps</td>
+    </tr>       
+    <tr>
+        <td>Name</td>
+        <td>Roll Number</td>
     </tr>
     <tr>
-        <th>Abhinav Raghuvanshi</th>
-        <th>200040008</th>
+        <td>Abhinav Raghuvanshi</td>
+        <td>200040008</td>
     </tr>
     <tr>
-        <th>Aditi Ganesh Joshi</th>
-        <th>180020010</th>
+        <td>Aditi Ganesh Joshi</td>
+        <td>180020010</td>
     </tr>
     <tr>
-        <th>Aniket Pokle</th>
-        <th>20D070011</th>
+        <td>Aniket Pokle</td>
+        <td>20D070011</td>
     </tr>
     <tr>
-        <th>Hitesh Kandala</th>
-        <th>180070023</th>
+        <td>Hitesh Kandala</td>
+        <td>180070023</td>
     </tr>
     <tr>
-        <th>Jaideep Singh Chawla</th>
-        <th>190110030</th>
+        <td>Jaideep Singh Chawla</td>
+        <td>190110030</td>
     </tr>
     <tr>
-        <th>K Adithya Krishna</th>
-        <th>200020065</th>
+        <td>K Aditdya Krishna</td>
+        <td>200020065</td>
     </tr>
     <tr>
-        <th>Neilabh Banzal</th>
-        <th>170010014</th>
+        <td>Neilabh Banzal</td>
+        <td>170010014</td>
     </tr>
     <tr>
-        <th>Raja Kumar</th>
-        <th>190110070</th>
+        <td>Raja Kumar</td>
+        <td>190110070</td>
     </tr>
     <tr>
-        <th>Rushikesh Jitendra Metkar</th>
-        <th>19D070034</th>
+        <td>Rushikesh Jitendra Metkar</td>
+        <td>19D070034</td>
     </tr>
     <tr>
-        <th>Sanidhya Anand</th>
-        <th>19d170027</th>
+        <td>Sanidhya Anand</td>
+        <td>19d170027</td>
     </tr>
     <tr>
-        <th>Sankalp Parashar</th>
-        <th>200050127</th>
+        <td>Sankalp Parashar</td>
+        <td>200050127</td>
     </tr>
     <tr>
-        <th>Sarthak Mehrotra</th>
-        <th>200010068</th>
+        <td>Sartdak Mehrotra</td>
+        <td>200010068</td>
     </tr>
     <tr>
-        <th>Shri Ishwaryaa S V</th>
-        <th>180100112</th>
+        <td>Shri Ishwaryaa S V</td>
+        <td>180100112</td>
     </tr>
     <tr>
-        <th>Vaibhav Raj</th>
-        <th>200050148</th>
+        <td>Vaibhav Raj</td>
+        <td>200050148</td>
     </tr>
     <tr>
-        <th>Vinit Doke</th>
-        <th>190260018</th>
+        <td>Vinit Doke</td>
+        <td>190260018</td>
     </tr>
 </table>    
+
+</div>

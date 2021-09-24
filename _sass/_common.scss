@@ -18,6 +18,9 @@ a :hover{
 }
 .font-secondary{
   font: size 22px, !important ;
+  @include mobile-xs{
+    font-size:20px;
+  }
 }
 body {
   background-color: $body-color;

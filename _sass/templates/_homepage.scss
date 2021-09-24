@@ -1,4 +1,25 @@
 /* skills */
+.desc{
+  @include mobile-xs{
+    font-size: 18px !important;
+  }
+}
+
+.desc-img{
+  width: 700px;
+  height: 300px;
+  @include mobile-xs{
+    width: 280px;
+    height: 120px;
+  }
+}
+
+#about{
+  display: none;
+  @include mobile-xs{
+    font-size: 18px;
+  }
+}
 .progress-wrapper {
   height: 130px;
   overflow: hidden;
@@ -106,6 +127,12 @@
   }
 }
 
+.test-font{
+  @include mobile-xs{
+    font-size: 16px !important;
+  }
+}
+
 .testimonial-bg-shapes {
   .container {
     position: relative;
@@ -151,7 +178,7 @@
 }
 .discord-logo {
   @include mobile-xs{
-    width:150px;
+    width:160px;
   }
   & :hover{
   transform: scale(1.1);
@@ -161,7 +188,14 @@
 
 .discord-title{
   @include mobile-xs{
-    font-size:4vw;
+    width:100%;
+    font-size:5vw;
+  }
+}
+
+.discord-desc{
+  @include mobile-xs{
+    width:100% !important;
   }
 }
 /* /testimonial */

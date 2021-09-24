@@ -39,7 +39,27 @@
         });
     });
 
-    
+    $("#read-toggle").click(function() {
+        var elem = $("#read-toggle").text();
+        if (elem == "Read More") {
+          $("#read-toggle").text("Read Less");
+          $("#about").slideDown();
+        }else {
+            $("#read-toggle").text("Read More");
+            $("#about").slideUp();
+          }
+    });
+
+    $("#why-toggle").click(function() {
+        var elem = $("#why-toggle").text();
+        if (elem == "Read More") {
+          $("#why-toggle").text("Read Less");
+          $("#why").slideDown();
+        }else {
+            $("#why-toggle").text("Read More");
+            $("#why").slideUp();
+          }
+    });
     
     /* ########################################### hero parallax ############################################## */
     window.onload = function () {

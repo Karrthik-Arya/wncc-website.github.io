@@ -1,12 +1,15 @@
 <!-- about -->
 <section class="section bg-cover">
-  <div class="container">
-    <div class="row">
-      <div class="col-lg-10 mx-auto text-center">
-        <p class="font-secondary text-dark" style = "font-size: 2vw;">{{ site.data.settings.blurb }}</p>
+    <div class="d-flex justify-content-around">
+      <div>
+      <article class ="card p-4" style = "background-color: transparent!important; margin-right: 10 px;">
+      <img class =" desc-img" src = "{{site.baseurl}}/assets/images/logo-large.png" />
+      </article>
       </div>
+      <article class ="card shadow p-4 align-items-center d-flex justify-content-center" style = "background-color: transparent!important; width:700px">
+        <span class="font-secondary text-dark desc" style = "font-size: 20px;">{{ site.data.settings.blurb }}</span>
+      </article>
     </div>
-  </div>
   <!-- bg image -->
   <!-- <img class="img-fluid edu-bg-image w-100" src="{{ site.baseurl }}/assets/images/backgrounds/bg-about.png" alt="bg-image"> -->
 </section>

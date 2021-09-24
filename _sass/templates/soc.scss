@@ -1,8 +1,17 @@
+.soc-cards{
+  @include mobile-xs{
+    width:300px!important;
+  }
+}
+
 .d-flex{
   justify-content: center;
   @include mobile-xs{
     flex-wrap: wrap;
   }
+}
+#why{
+  display:none;
 }
 
 .table{
