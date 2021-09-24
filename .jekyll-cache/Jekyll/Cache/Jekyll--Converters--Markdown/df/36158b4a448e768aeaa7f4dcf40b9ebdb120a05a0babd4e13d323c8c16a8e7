@@ -1,4 +1,4 @@
-I"ñ<h2 class="display1 m-3 p-3 text-center">IITinder</h2>
+I"z<h2 class="display1 m-3 p-3 text-center customcol">IITinder</h2>
 
 <div>
     <img src="/wncc-website.github.io/assets/images/soc/2021/item-45.jpeg" width="75%" height="auto" alt="" class="border rounded" style="float: left; margin-top: 3%; margin-right: 3%" />
@@ -16,8 +16,8 @@
     </div>
 
 <div class="button-holder">
-    <div class="button-res"><a href="#" role="button">Documentation</a></div>
-    <div class="button-res"><a href="#" role="button">GitHub Repo</a></div>
+    <div class="button-res"><a href="https://docs.google.com/document/d/1fEGiQglHfkDlR2NAn-Yrpl3CxYsDbYwijP-JY-IMZ0Q/edit" role="button">Documentation</a></div>
+    <div class="button-res"><a href="https://github.com/HimanshuC22/notion-painter" role="button">GitHub Repo</a></div>
     <div class="button-res"><a href="#" role="button">Demo</a></div>
 </div>
 

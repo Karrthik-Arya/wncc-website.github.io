@@ -104,6 +104,9 @@
     position: relative;
     font-size: 5rem;
     color: rgb(255, 53, 53);
+    @include mobile-xs{
+      font-size: 2em;
+    }
   }
 
 .mobile-img-soc{
