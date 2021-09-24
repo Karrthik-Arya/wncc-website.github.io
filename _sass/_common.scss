@@ -514,3 +514,7 @@ textarea.form-control{
     transform: translate(0,0);
   }
 }
+
+.form-control :focus{
+  background-color: rgba(14, 3, 34, 0.305) !important;
+}
