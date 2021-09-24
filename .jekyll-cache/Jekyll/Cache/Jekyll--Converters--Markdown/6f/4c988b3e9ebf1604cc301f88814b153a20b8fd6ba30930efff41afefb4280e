@@ -1,9 +1,9 @@
-I"1–<!-- blog -->
+I"y–<!-- blog -->
 <section class="section">
 <div class="container">
-<h2 class="section-title text-center">Choose your poison</h2>
 <div class="d-flex flex-wrap justify-content-center">
 
+        
         <div class="col-lg-4 mb-3" style="width:400px; height: 220px; " id="resource-cards">
         <a href="/wncc-website.github.io/resources/#ls21">
         <article class=" shadow rounded p-3 text-center pt-2" style="background-color: rgb(20, 20, 30);" id="resource-cards">
@@ -12,6 +12,7 @@
         </a>
         </div>
 
+        
         <div class="col-lg-4 mb-3" style="width:400px; height: 220px; " id="resource-cards">
         <a href="/wncc-website.github.io/resources/#wiki">
         <article class=" shadow rounded p-3 text-center pt-2" style="background-color: rgb(20, 20, 30);" id="resource-cards">
@@ -20,6 +21,7 @@
         </a>
         </div>
 
+        
         <div class="col-lg-4 mb-3" style="width:400px; height: 220px; " id="resource-cards">
         <a href="/wncc-website.github.io/resources/#ciq">
         <article class=" shadow rounded p-3 text-center pt-2" style="background-color: rgb(20, 20, 30);" id="resource-cards">
@@ -28,6 +30,7 @@
         </a>
         </div>
 
+         <h2 class="section-title text-center" style="margin-right:30px">Choose your poison</h2> 
         <div class="col-lg-4 mb-3" style="width:400px; height: 220px; " id="resource-cards">
         <a href="/wncc-website.github.io/resources/#as">
         <article class=" shadow rounded p-3 text-center pt-2" style="background-color: rgb(20, 20, 30);" id="resource-cards">
@@ -36,6 +39,7 @@
         </a>
         </div>
 
+        
         <div class="col-lg-4 mb-3" style="width:400px; height: 220px; " id="resource-cards">
         <a href="/wncc-website.github.io/resources/#ls">
         <article class=" shadow rounded p-3 text-center pt-2" style="background-color: rgb(20, 20, 30);" id="resource-cards">
