@@ -8,7 +8,7 @@ project: IITinder
 permalink: /soc-results/project-45-result
 ---
 
-<h2 class="display1 m-3 p-3 text-center">{{page.project}}</h2>
+<h2 class="display1 m-3 p-3 text-center customcol">{{page.project}}</h2>
 {% for project in site.data.settings.soc-items %}
 {% if project.title == page.project %}
 
@@ -31,8 +31,8 @@ permalink: /soc-results/project-45-result
     </div>
 
 <div class = "button-holder">
-    <div class="button-res"><a href="#" role="button">Documentation</a></div>
-    <div class="button-res"><a href="#" role="button">GitHub Repo</a></div>
+    <div class="button-res"><a href="https://docs.google.com/document/d/1fEGiQglHfkDlR2NAn-Yrpl3CxYsDbYwijP-JY-IMZ0Q/edit" role="button">Documentation</a></div>
+    <div class="button-res"><a href="https://github.com/HimanshuC22/notion-painter" role="button">GitHub Repo</a></div>
     <div class="button-res"><a href="#" role="button">Demo</a></div>
 </div>
 
