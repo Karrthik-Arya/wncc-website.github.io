@@ -23,11 +23,6 @@
   <link rel="icon" href="/wncc-website.github.io/assets/images/logo.png">
 
   <style>
-  .img-soc{
-    width: 100%;
-    height: auto;
-    aspect-ratio: attr(width) / attr(height);
-  }
   @media screen and (max-width: 767px) {
     .scroll{
       overflow-x: scroll;
@@ -51,13 +46,6 @@
       aria-controls="navigation" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
-
-    <div class = "theme-mode">
-      <label class="switch">
-        <input type="checkbox" id = "theme-switch" onclick= "myFunction()">
-        <span class="slider round"></span>
-      </label>
-    </div>
 
     <div class="collapse navbar-collapse text-center" id="navigation">
       <ul class="navbar-nav ml-auto">
@@ -88,7 +76,7 @@
       </ul>
     </div>
     <div class = "side-bar">
-      <input type="checkbox" id="toggle" class="toggle__checkbox" checked />
+      <input type="checkbox" id="toggle" class="toggle__checkbox" />
     
       <aside class="box">
       <label for="toggle" class="toggle checked"><a><i class="ti-bell" style="font-size: 50px;" ></i></a></label>
@@ -106,26 +94,12 @@
   </nav>
 
   <script>
-    function myFunction(){
-      var box = document.getElementById("theme-switch");
-      if (box.checked){
-        window.localStorage.setItem("dark-mode", "true");
-        
-      }else{
-        window.localStorage.setItem("dark-mode", "false");
-        window.location.reload();
-      }
-      window.location.reload();
-    }
     function theme(){
-      var dark = window.localStorage.getItem("dark-mode");
-      var box = document.getElementById("theme-switch");
+      var dark = "true";
       if(dark === "true"){
-        box.checked =true;
         var element  = document.body;
         element.classList.add("dark-mode");
       }else{
-        box.checked =false;
         var element  = document.body;
         element.classList.remove("dark-mode");
       }
@@ -223,14 +197,14 @@
         <li class="display3 mb-2" style="font-size:22px;">Get acquainted to various techniques in image processing</li>
         <li class="display3 mb-2" style="font-size:22px;">Last but not the least, apply your coding skills to build an entire Project from scratch</li>
         </ul>
-        <p class="lead" style="font-size:30px;">Resources</p>
-        <p class="display3" style="font-size:22px;">
+        <p class="lead wrap" style="font-size:30px;">Resources</p>
+        <p class="display3 text-wrap" style="font-size:22px;">
         Python Tutorial - <a href="https://www.youtube.com/playlist?list=PL-osiE80TeTskrapNbzXhwoFUiLCjGgY7">https://www.youtube.com/playlist?list=PL-osiE80TeTskrapNbzXhwoFUiLCjGgY7</a>
         <br />
         Image Super Resolution - <a href="https://medium.com/beyondminds/an-introduction-to-super-resolution-using-deep-learning-f60aff9a499d">https://medium.com/beyondminds/an-introduction-to-super-resolution-using-deep-learning-f60aff9a499d</a>
         </p>
 </div>
-<div class="d-flex flex-wrap">
+<div class="d-flex">
 <div>
     <h4 class="display3" style="margin:40px 0px 40px 0px;">Tentative Timeline :</h4>
     <table class="table table-striped">

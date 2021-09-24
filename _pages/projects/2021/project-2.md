@@ -84,14 +84,14 @@ permalink: /soc/projects/2021/project-2
         <li class="display3 mb-2" style = "font-size:22px;">Get acquainted to various techniques in image processing</li>
         <li class="display3 mb-2" style = "font-size:22px;">Last but not the least, apply your coding skills to build an entire Project from scratch</li>
         </ul>
-        <p class= "lead" style = "font-size:30px;">Resources</p>
-        <p class="display3" style = "font-size:22px;" >
+        <p class= "lead wrap" style = "font-size:30px;">Resources</p>
+        <p class="display3 text-wrap" style = "font-size:22px;" >
         Python Tutorial - <a  href ="https://www.youtube.com/playlist?list=PL-osiE80TeTskrapNbzXhwoFUiLCjGgY7">https://www.youtube.com/playlist?list=PL-osiE80TeTskrapNbzXhwoFUiLCjGgY7</a>
         <br>
         Image Super Resolution - <a href = "https://medium.com/beyondminds/an-introduction-to-super-resolution-using-deep-learning-f60aff9a499d">https://medium.com/beyondminds/an-introduction-to-super-resolution-using-deep-learning-f60aff9a499d</a>
         </p>
 </div>
-<div class = "d-flex flex-wrap">
+<div class = "d-flex">
 <div>
     <h4 class="display3" style="margin:40px 0px 40px 0px;">Tentative Timeline :</h4>
     <table class="table table-striped">

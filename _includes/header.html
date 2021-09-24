@@ -10,13 +10,6 @@
       <span class="navbar-toggler-icon"></span>
     </button>
 
-    <div class = "theme-mode">
-      <label class="switch">
-        <input type="checkbox" id = "theme-switch" onclick= "myFunction()">
-        <span class="slider round"></span>
-      </label>
-    </div>
-
     <div class="collapse navbar-collapse text-center" id="navigation">
       <ul class="navbar-nav ml-auto">
         <li class="nav-item active">
@@ -30,7 +23,7 @@
       </ul>
     </div>
     <div class = "side-bar">
-      <input type="checkbox" id="toggle" class="toggle__checkbox" checked />
+      <input type="checkbox" id="toggle" class="toggle__checkbox" />
     
       <aside class="box">
       <label for="toggle" class="toggle checked"><a><i class="ti-bell" style="font-size: 50px;" ></i></a></label>
@@ -48,26 +41,12 @@
   </nav>
 
   <script>
-    function myFunction(){
-      var box = document.getElementById("theme-switch");
-      if (box.checked){
-        window.localStorage.setItem("dark-mode", "true");
-        
-      }else{
-        window.localStorage.setItem("dark-mode", "false");
-        window.location.reload();
-      }
-      window.location.reload();
-    }
     function theme(){
-      var dark = window.localStorage.getItem("dark-mode");
-      var box = document.getElementById("theme-switch");
+      var dark = "true";
       if(dark === "true"){
-        box.checked =true;
         var element  = document.body;
         element.classList.add("dark-mode");
       }else{
-        box.checked =false;
         var element  = document.body;
         element.classList.remove("dark-mode");
       }

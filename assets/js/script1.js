@@ -40,6 +40,7 @@
     });
 
     
+    
     /* ########################################### hero parallax ############################################## */
     window.onload = function () {
 
@@ -80,7 +81,7 @@
             mouseParallax('l9', c9left, c9top, x, y, 40);
         };
         
-        
+        $('#toggle').prop("checked", "true")
 
         consoleText(["Web and Coding Club "], 'text',['white'], 'console');
     window.setTimeout(function(){
