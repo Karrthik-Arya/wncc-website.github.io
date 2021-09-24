@@ -8,7 +8,7 @@ project: Audio Controlled Drone
 permalink: /soc-results/project-8-result
 ---
 
-<h2 class="display1 m-3 p-3 text-center">{{page.project}}</h2>
+<h2 class="display1 m-3 p-3 text-center customcol">{{page.project}}</h2>
 {% for project in site.data.settings.soc-items %}
 {% if project.title == page.project %}
 
@@ -31,9 +31,9 @@ permalink: /soc-results/project-8-result
     </div>
 
 <div class = "button-holder">
-    <div class="button-res"><a href="#" role="button">Documentation</a></div>
-    <div class="button-res"><a href="#" role="button">GitHub Repo</a></div>
-    <div class="button-res"><a href="#" role="button">Demo</a></div>
+    <div class="button-res"><a href="https://docs.google.com/document/d/1Vb09Bc3jTzZLu4twsXZF65Q6z0IFIpKt_gYhy9wiWn0/edit?usp=sharing" role="button">Documentation</a></div>
+    <div class="button-res"><a href="https://github.com/PX4/PX4-Autopilot" role="button">GitHub Repo</a></div>
+    <div class="button-res"><a href="https://drive.google.com/file/d/1J9cDUqvBRO1KOl9IQ2bx-Cp0d2iExjCG/view?usp=sharing" role="button">Demo</a></div>
 </div>
 
 {% endif %}
