@@ -301,6 +301,8 @@
   }
 
   .footer-text{
+    @include mobile-xs{
     text-align: center!important;
     font-size: 15px;
+    }
   }
