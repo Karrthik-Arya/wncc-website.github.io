@@ -1,0 +1,378 @@
+I"h<section class="section">
+  <div class="container">
+    <div class="row row-eq-height shuffle-wrapper">
+        
+        <div class="col-lg-4 col-6 mb-4 shuffle-item" data-groups="[]">
+          <div class="shadow-sm rounded hover-wrapper pr-3 pl-3 pt-3 pb-3 bg-white border-top border-right" href="/soc-results/project-1-result" style="height:350px">
+            <a href="/wncc-website.github.io/soc-results/project-1-result">
+            <span class="rounded"> <p class="lead text-center font-weight-bold">Introduction to Web Development</p> <img src="/wncc-website.github.io/assets/images/soc/2021/small_item-1.jpg" alt="Introduction to Web Development" class="img-fluid  w-100 d-block mt-5 h-75 rounded" /></span>
+            <div class="hover-overlay rounded">
+            </div>
+            </a>
+          </div>
+        </div>
+        
+        <div class="col-lg-4 col-6 mb-4 shuffle-item" data-groups="[]">
+          <div class="shadow-sm rounded hover-wrapper pr-3 pl-3 pt-3 pb-3 bg-white border-top border-right" href="/soc/projects/2021/project-2" style="height:350px">
+            <a href="/wncc-website.github.io/soc/projects/2021/project-2">
+            <span class="rounded"> <p class="lead text-center font-weight-bold">(Un)Clear</p> <img src="/wncc-website.github.io/assets/images/soc/2021/small_item-2.png" alt="(Un)Clear" class="img-fluid  w-100 d-block mt-5 h-75 rounded" /></span>
+            <div class="hover-overlay rounded">
+            </div>
+            </a>
+          </div>
+        </div>
+        
+        <div class="col-lg-4 col-6 mb-4 shuffle-item" data-groups="[]">
+          <div class="shadow-sm rounded hover-wrapper pr-3 pl-3 pt-3 pb-3 bg-white border-top border-right" href="/soc/projects/2021/project-3" style="height:350px">
+            <a href="/wncc-website.github.io/soc/projects/2021/project-3">
+            <span class="rounded"> <p class="lead text-center font-weight-bold">Goal ICPC</p> <img src="/wncc-website.github.io/assets/images/soc/2021/small_item-3.png" alt="Goal ICPC" class="img-fluid  w-100 d-block mt-5 h-75 rounded" /></span>
+            <div class="hover-overlay rounded">
+            </div>
+            </a>
+          </div>
+        </div>
+        
+        <div class="col-lg-4 col-6 mb-4 shuffle-item" data-groups="[]">
+          <div class="shadow-sm rounded hover-wrapper pr-3 pl-3 pt-3 pb-3 bg-white border-top border-right" href="/soc/projects/2021/project-5" style="height:350px">
+            <a href="/wncc-website.github.io/soc/projects/2021/project-5">
+            <span class="rounded"> <p class="lead text-center font-weight-bold">PyRated</p> <img src="/wncc-website.github.io/assets/images/soc/2021/small_item-5.png" alt="PyRated" class="img-fluid  w-100 d-block mt-5 h-75 rounded" /></span>
+            <div class="hover-overlay rounded">
+            </div>
+            </a>
+          </div>
+        </div>
+        
+        <div class="col-lg-4 col-6 mb-4 shuffle-item" data-groups="[]">
+          <div class="shadow-sm rounded hover-wrapper pr-3 pl-3 pt-3 pb-3 bg-white border-top border-right" href="/soc/projects/2021/project-6" style="height:350px">
+            <a href="/wncc-website.github.io/soc/projects/2021/project-6">
+            <span class="rounded"> <p class="lead text-center font-weight-bold">Tools for Data Science</p> <img src="/wncc-website.github.io/assets/images/soc/2021/small_item-6.png" alt="Tools for Data Science" class="img-fluid  w-100 d-block mt-5 h-75 rounded" /></span>
+            <div class="hover-overlay rounded">
+            </div>
+            </a>
+          </div>
+        </div>
+        
+        <div class="col-lg-4 col-6 mb-4 shuffle-item" data-groups="[]">
+          <div class="shadow-sm rounded hover-wrapper pr-3 pl-3 pt-3 pb-3 bg-white border-top border-right" href="/soc/projects/2021/project-8" style="height:350px">
+            <a href="/wncc-website.github.io/soc/projects/2021/project-8">
+            <span class="rounded"> <p class="lead text-center font-weight-bold">Audio Controlled Drone</p> <img src="/wncc-website.github.io/assets/images/soc/2021/small_item-8.jpeg" alt="Audio Controlled Drone" class="img-fluid  w-100 d-block mt-5 h-75 rounded" /></span>
+            <div class="hover-overlay rounded">
+            </div>
+            </a>
+          </div>
+        </div>
+        
+        <div class="col-lg-4 col-6 mb-4 shuffle-item" data-groups="[]">
+          <div class="shadow-sm rounded hover-wrapper pr-3 pl-3 pt-3 pb-3 bg-white border-top border-right" href="/soc/projects/2021/project-9" style="height:350px">
+            <a href="/wncc-website.github.io/soc/projects/2021/project-9">
+            <span class="rounded"> <p class="lead text-center font-weight-bold">NLPlay with Transformers</p> <img src="/wncc-website.github.io/assets/images/soc/2021/small_item-9.png" alt="NLPlay with Transformers" class="img-fluid  w-100 d-block mt-5 h-75 rounded" /></span>
+            <div class="hover-overlay rounded">
+            </div>
+            </a>
+          </div>
+        </div>
+        
+        <div class="col-lg-4 col-6 mb-4 shuffle-item" data-groups="[]">
+          <div class="shadow-sm rounded hover-wrapper pr-3 pl-3 pt-3 pb-3 bg-white border-top border-right" href="/soc/projects/2021/project-10" style="height:350px">
+            <a href="/wncc-website.github.io/soc/projects/2021/project-10">
+            <span class="rounded"> <p class="lead text-center font-weight-bold">DIY FaceApp</p> <img src="/wncc-website.github.io/assets/images/soc/2021/small_item-10.jpg" alt="DIY FaceApp" class="img-fluid  w-100 d-block mt-5 h-75 rounded" /></span>
+            <div class="hover-overlay rounded">
+            </div>
+            </a>
+          </div>
+        </div>
+        
+        <div class="col-lg-4 col-6 mb-4 shuffle-item" data-groups="[]">
+          <div class="shadow-sm rounded hover-wrapper pr-3 pl-3 pt-3 pb-3 bg-white border-top border-right" href="/soc/projects/2021/project-11" style="height:350px">
+            <a href="/wncc-website.github.io/soc/projects/2021/project-11">
+            <span class="rounded"> <p class="lead text-center font-weight-bold">A Deep Dive into CNNs</p> <img src="/wncc-website.github.io/assets/images/soc/2021/small_item-11.jpg" alt="A Deep Dive into CNNs" class="img-fluid  w-100 d-block mt-5 h-75 rounded" /></span>
+            <div class="hover-overlay rounded">
+            </div>
+            </a>
+          </div>
+        </div>
+        
+        <div class="col-lg-4 col-6 mb-4 shuffle-item" data-groups="[]">
+          <div class="shadow-sm rounded hover-wrapper pr-3 pl-3 pt-3 pb-3 bg-white border-top border-right" href="/soc/projects/2021/project-12" style="height:350px">
+            <a href="/wncc-website.github.io/soc/projects/2021/project-12">
+            <span class="rounded"> <p class="lead text-center font-weight-bold">Snake AI</p> <img src="/wncc-website.github.io/assets/images/soc/2021/small_item-12.jpg" alt="Snake AI" class="img-fluid  w-100 d-block mt-5 h-75 rounded" /></span>
+            <div class="hover-overlay rounded">
+            </div>
+            </a>
+          </div>
+        </div>
+        
+        <div class="col-lg-4 col-6 mb-4 shuffle-item" data-groups="[]">
+          <div class="shadow-sm rounded hover-wrapper pr-3 pl-3 pt-3 pb-3 bg-white border-top border-right" href="/soc/projects/2021/project-13" style="height:350px">
+            <a href="/wncc-website.github.io/soc/projects/2021/project-13">
+            <span class="rounded"> <p class="lead text-center font-weight-bold">Facial Recognition App</p> <img src="/wncc-website.github.io/assets/images/soc/2021/small_item-13.jpg" alt="Facial Recognition App" class="img-fluid  w-100 d-block mt-5 h-75 rounded" /></span>
+            <div class="hover-overlay rounded">
+            </div>
+            </a>
+          </div>
+        </div>
+        
+        <div class="col-lg-4 col-6 mb-4 shuffle-item" data-groups="[]">
+          <div class="shadow-sm rounded hover-wrapper pr-3 pl-3 pt-3 pb-3 bg-white border-top border-right" href="/soc/projects/2021/project-14" style="height:350px">
+            <a href="/wncc-website.github.io/soc/projects/2021/project-14">
+            <span class="rounded"> <p class="lead text-center font-weight-bold">Gaming meets AI !!!</p> <img src="/wncc-website.github.io/assets/images/soc/2021/small_item-14.jpg" alt="Gaming meets AI !!!" class="img-fluid  w-100 d-block mt-5 h-75 rounded" /></span>
+            <div class="hover-overlay rounded">
+            </div>
+            </a>
+          </div>
+        </div>
+        
+        <div class="col-lg-4 col-6 mb-4 shuffle-item" data-groups="[]">
+          <div class="shadow-sm rounded hover-wrapper pr-3 pl-3 pt-3 pb-3 bg-white border-top border-right" href="/soc/projects/2021/project-15" style="height:350px">
+            <a href="/wncc-website.github.io/soc/projects/2021/project-15">
+            <span class="rounded"> <p class="lead text-center font-weight-bold">R(ea)L Trader</p> <img src="/wncc-website.github.io/assets/images/soc/2021/small_item-15.jpeg" alt="R(ea)L Trader" class="img-fluid  w-100 d-block mt-5 h-75 rounded" /></span>
+            <div class="hover-overlay rounded">
+            </div>
+            </a>
+          </div>
+        </div>
+        
+        <div class="col-lg-4 col-6 mb-4 shuffle-item" data-groups="[]">
+          <div class="shadow-sm rounded hover-wrapper pr-3 pl-3 pt-3 pb-3 bg-white border-top border-right" href="/soc/projects/2021/project-16" style="height:350px">
+            <a href="/wncc-website.github.io/soc/projects/2021/project-16">
+            <span class="rounded"> <p class="lead text-center font-weight-bold">Computational Geometry</p> <img src="/wncc-website.github.io/assets/images/soc/2021/small_item-16.png" alt="Computational Geometry" class="img-fluid  w-100 d-block mt-5 h-75 rounded" /></span>
+            <div class="hover-overlay rounded">
+            </div>
+            </a>
+          </div>
+        </div>
+        
+        <div class="col-lg-4 col-6 mb-4 shuffle-item" data-groups="[]">
+          <div class="shadow-sm rounded hover-wrapper pr-3 pl-3 pt-3 pb-3 bg-white border-top border-right" href="/soc/projects/2021/project-17" style="height:350px">
+            <a href="/wncc-website.github.io/soc/projects/2021/project-17">
+            <span class="rounded"> <p class="lead text-center font-weight-bold">Developing Hybrid ANN-Statistical Model for Robust Stock Market Prediction</p> <img src="/wncc-website.github.io/assets/images/soc/2021/small_item-17.png" alt="Developing Hybrid ANN-Statistical Model for Robust Stock Market Prediction" class="img-fluid  w-100 d-block mt-5 h-75 rounded" /></span>
+            <div class="hover-overlay rounded">
+            </div>
+            </a>
+          </div>
+        </div>
+        
+        <div class="col-lg-4 col-6 mb-4 shuffle-item" data-groups="[]">
+          <div class="shadow-sm rounded hover-wrapper pr-3 pl-3 pt-3 pb-3 bg-white border-top border-right" href="/soc/projects/2021/project-19" style="height:350px">
+            <a href="/wncc-website.github.io/soc/projects/2021/project-19">
+            <span class="rounded"> <p class="lead text-center font-weight-bold">Astronomical Data-modelling and Interpretation</p> <img src="/wncc-website.github.io/assets/images/soc/2021/small_item-19.png" alt="Astronomical Data-modelling and Interpretation" class="img-fluid  w-100 d-block mt-5 h-75 rounded" /></span>
+            <div class="hover-overlay rounded">
+            </div>
+            </a>
+          </div>
+        </div>
+        
+        <div class="col-lg-4 col-6 mb-4 shuffle-item" data-groups="[]">
+          <div class="shadow-sm rounded hover-wrapper pr-3 pl-3 pt-3 pb-3 bg-white border-top border-right" href="/soc/projects/2021/project-20" style="height:350px">
+            <a href="/wncc-website.github.io/soc/projects/2021/project-20">
+            <span class="rounded"> <p class="lead text-center font-weight-bold">Visual Perception for Self Driving Cars</p> <img src="/wncc-website.github.io/assets/images/soc/2021/small_item-20.png" alt="Visual Perception for Self Driving Cars" class="img-fluid  w-100 d-block mt-5 h-75 rounded" /></span>
+            <div class="hover-overlay rounded">
+            </div>
+            </a>
+          </div>
+        </div>
+        
+        <div class="col-lg-4 col-6 mb-4 shuffle-item" data-groups="[]">
+          <div class="shadow-sm rounded hover-wrapper pr-3 pl-3 pt-3 pb-3 bg-white border-top border-right" href="/soc/projects/2021/project-21" style="height:350px">
+            <a href="/wncc-website.github.io/soc/projects/2021/project-21">
+            <span class="rounded"> <p class="lead text-center font-weight-bold">Convolutional Neural Networks and Applications</p> <img src="/wncc-website.github.io/assets/images/soc/2021/small_item-21.png" alt="Convolutional Neural Networks and Applications" class="img-fluid  w-100 d-block mt-5 h-75 rounded" /></span>
+            <div class="hover-overlay rounded">
+            </div>
+            </a>
+          </div>
+        </div>
+        
+        <div class="col-lg-4 col-6 mb-4 shuffle-item" data-groups="[]">
+          <div class="shadow-sm rounded hover-wrapper pr-3 pl-3 pt-3 pb-3 bg-white border-top border-right" href="/soc/projects/2021/project-22" style="height:350px">
+            <a href="/wncc-website.github.io/soc/projects/2021/project-22">
+            <span class="rounded"> <p class="lead text-center font-weight-bold">Quantum Computing Algorithms</p> <img src="/wncc-website.github.io/assets/images/soc/2021/small_item-22.jpg" alt="Quantum Computing Algorithms" class="img-fluid  w-100 d-block mt-5 h-75 rounded" /></span>
+            <div class="hover-overlay rounded">
+            </div>
+            </a>
+          </div>
+        </div>
+        
+        <div class="col-lg-4 col-6 mb-4 shuffle-item" data-groups="[]">
+          <div class="shadow-sm rounded hover-wrapper pr-3 pl-3 pt-3 pb-3 bg-white border-top border-right" href="/soc/projects/2021/project-23" style="height:350px">
+            <a href="/wncc-website.github.io/soc/projects/2021/project-23">
+            <span class="rounded"> <p class="lead text-center font-weight-bold">Algorithm Visualizer</p> <img src="/wncc-website.github.io/assets/images/soc/2021/small_item-23.png" alt="Algorithm Visualizer" class="img-fluid  w-100 d-block mt-5 h-75 rounded" /></span>
+            <div class="hover-overlay rounded">
+            </div>
+            </a>
+          </div>
+        </div>
+        
+        <div class="col-lg-4 col-6 mb-4 shuffle-item" data-groups="[]">
+          <div class="shadow-sm rounded hover-wrapper pr-3 pl-3 pt-3 pb-3 bg-white border-top border-right" href="/soc/projects/2021/project-24" style="height:350px">
+            <a href="/wncc-website.github.io/soc/projects/2021/project-24">
+            <span class="rounded"> <p class="lead text-center font-weight-bold">Anime Club IITB Website using Django</p> <img src="/wncc-website.github.io/assets/images/soc/2021/small_item-24.png" alt="Anime Club IITB Website using Django" class="img-fluid  w-100 d-block mt-5 h-75 rounded" /></span>
+            <div class="hover-overlay rounded">
+            </div>
+            </a>
+          </div>
+        </div>
+        
+        <div class="col-lg-4 col-6 mb-4 shuffle-item" data-groups="[]">
+          <div class="shadow-sm rounded hover-wrapper pr-3 pl-3 pt-3 pb-3 bg-white border-top border-right" href="/soc/projects/2021/project-28" style="height:350px">
+            <a href="/wncc-website.github.io/soc/projects/2021/project-28">
+            <span class="rounded"> <p class="lead text-center font-weight-bold">Competitive Coding</p> <img src="/wncc-website.github.io/assets/images/soc/2021/small_item-28.png" alt="Competitive Coding" class="img-fluid  w-100 d-block mt-5 h-75 rounded" /></span>
+            <div class="hover-overlay rounded">
+            </div>
+            </a>
+          </div>
+        </div>
+        
+        <div class="col-lg-4 col-6 mb-4 shuffle-item" data-groups="[]">
+          <div class="shadow-sm rounded hover-wrapper pr-3 pl-3 pt-3 pb-3 bg-white border-top border-right" href="/soc/projects/2021/project-29" style="height:350px">
+            <a href="/wncc-website.github.io/soc/projects/2021/project-29">
+            <span class="rounded"> <p class="lead text-center font-weight-bold">Deep reinforcement learning - 2048 AI</p> <img src="/wncc-website.github.io/assets/images/soc/2021/small_item-29.jpg" alt="Deep reinforcement learning - 2048 AI" class="img-fluid  w-100 d-block mt-5 h-75 rounded" /></span>
+            <div class="hover-overlay rounded">
+            </div>
+            </a>
+          </div>
+        </div>
+        
+        <div class="col-lg-4 col-6 mb-4 shuffle-item" data-groups="[]">
+          <div class="shadow-sm rounded hover-wrapper pr-3 pl-3 pt-3 pb-3 bg-white border-top border-right" href="/soc/projects/2021/project-31" style="height:350px">
+            <a href="/wncc-website.github.io/soc/projects/2021/project-31">
+            <span class="rounded"> <p class="lead text-center font-weight-bold">Physicc - A Simple Physics Engine</p> <img src="/wncc-website.github.io/assets/images/soc/2021/small_item-31.jpeg" alt="Physicc - A Simple Physics Engine" class="img-fluid  w-100 d-block mt-5 h-75 rounded" /></span>
+            <div class="hover-overlay rounded">
+            </div>
+            </a>
+          </div>
+        </div>
+        
+        <div class="col-lg-4 col-6 mb-4 shuffle-item" data-groups="[]">
+          <div class="shadow-sm rounded hover-wrapper pr-3 pl-3 pt-3 pb-3 bg-white border-top border-right" href="/soc/projects/2021/project-32" style="height:350px">
+            <a href="/wncc-website.github.io/soc/projects/2021/project-32">
+            <span class="rounded"> <p class="lead text-center font-weight-bold">Image Colorization</p> <img src="/wncc-website.github.io/assets/images/soc/2021/small_item-32.png" alt="Image Colorization" class="img-fluid  w-100 d-block mt-5 h-75 rounded" /></span>
+            <div class="hover-overlay rounded">
+            </div>
+            </a>
+          </div>
+        </div>
+        
+        <div class="col-lg-4 col-6 mb-4 shuffle-item" data-groups="[]">
+          <div class="shadow-sm rounded hover-wrapper pr-3 pl-3 pt-3 pb-3 bg-white border-top border-right" href="/soc/projects/2021/project-34" style="height:350px">
+            <a href="/wncc-website.github.io/soc/projects/2021/project-34">
+            <span class="rounded"> <p class="lead text-center font-weight-bold">Computer vision based web app</p> <img src="/wncc-website.github.io/assets/images/soc/2021/small_item-34.jpeg" alt="Computer vision based web app" class="img-fluid  w-100 d-block mt-5 h-75 rounded" /></span>
+            <div class="hover-overlay rounded">
+            </div>
+            </a>
+          </div>
+        </div>
+        
+        <div class="col-lg-4 col-6 mb-4 shuffle-item" data-groups="[]">
+          <div class="shadow-sm rounded hover-wrapper pr-3 pl-3 pt-3 pb-3 bg-white border-top border-right" href="/soc/projects/2021/project-35" style="height:350px">
+            <a href="/wncc-website.github.io/soc/projects/2021/project-35">
+            <span class="rounded"> <p class="lead text-center font-weight-bold">Techster Texter</p> <img src="/wncc-website.github.io/assets/images/soc/2021/small_item-35.jpeg" alt="Techster Texter" class="img-fluid  w-100 d-block mt-5 h-75 rounded" /></span>
+            <div class="hover-overlay rounded">
+            </div>
+            </a>
+          </div>
+        </div>
+        
+        <div class="col-lg-4 col-6 mb-4 shuffle-item" data-groups="[]">
+          <div class="shadow-sm rounded hover-wrapper pr-3 pl-3 pt-3 pb-3 bg-white border-top border-right" href="/soc/projects/2021/project-36" style="height:350px">
+            <a href="/wncc-website.github.io/soc/projects/2021/project-36">
+            <span class="rounded"> <p class="lead text-center font-weight-bold">Language Detection</p> <img src="/wncc-website.github.io/assets/images/soc/2021/small_item-36.jpg" alt="Language Detection" class="img-fluid  w-100 d-block mt-5 h-75 rounded" /></span>
+            <div class="hover-overlay rounded">
+            </div>
+            </a>
+          </div>
+        </div>
+        
+        <div class="col-lg-4 col-6 mb-4 shuffle-item" data-groups="[]">
+          <div class="shadow-sm rounded hover-wrapper pr-3 pl-3 pt-3 pb-3 bg-white border-top border-right" href="/soc/projects/2021/project-38" style="height:350px">
+            <a href="/wncc-website.github.io/soc/projects/2021/project-38">
+            <span class="rounded"> <p class="lead text-center font-weight-bold">ResoBin - Not the bin we deserve but the bin we need!</p> <img src="/wncc-website.github.io/assets/images/soc/2021/small_item-38.jpg" alt="ResoBin - Not the bin we deserve but the bin we need!" class="img-fluid  w-100 d-block mt-5 h-75 rounded" /></span>
+            <div class="hover-overlay rounded">
+            </div>
+            </a>
+          </div>
+        </div>
+        
+        <div class="col-lg-4 col-6 mb-4 shuffle-item" data-groups="[]">
+          <div class="shadow-sm rounded hover-wrapper pr-3 pl-3 pt-3 pb-3 bg-white border-top border-right" href="/soc/projects/2021/project-40" style="height:350px">
+            <a href="/wncc-website.github.io/soc/projects/2021/project-40">
+            <span class="rounded"> <p class="lead text-center font-weight-bold">Moodify</p> <img src="/wncc-website.github.io/assets/images/soc/2021/small_item-40.png" alt="Moodify" class="img-fluid  w-100 d-block mt-5 h-75 rounded" /></span>
+            <div class="hover-overlay rounded">
+            </div>
+            </a>
+          </div>
+        </div>
+        
+        <div class="col-lg-4 col-6 mb-4 shuffle-item" data-groups="[]">
+          <div class="shadow-sm rounded hover-wrapper pr-3 pl-3 pt-3 pb-3 bg-white border-top border-right" href="/soc/projects/2021/project-41" style="height:350px">
+            <a href="/wncc-website.github.io/soc/projects/2021/project-41">
+            <span class="rounded"> <p class="lead text-center font-weight-bold">Agree to Disagree</p> <img src="/wncc-website.github.io/assets/images/soc/2021/small_item-41.jpg" alt="Agree to Disagree" class="img-fluid  w-100 d-block mt-5 h-75 rounded" /></span>
+            <div class="hover-overlay rounded">
+            </div>
+            </a>
+          </div>
+        </div>
+        
+        <div class="col-lg-4 col-6 mb-4 shuffle-item" data-groups="[]">
+          <div class="shadow-sm rounded hover-wrapper pr-3 pl-3 pt-3 pb-3 bg-white border-top border-right" href="/soc/projects/2021/project-42" style="height:350px">
+            <a href="/wncc-website.github.io/soc/projects/2021/project-42">
+            <span class="rounded"> <p class="lead text-center font-weight-bold">Unscripted</p> <img src="/wncc-website.github.io/assets/images/soc/2021/small_item-42.png" alt="Unscripted" class="img-fluid  w-100 d-block mt-5 h-75 rounded" /></span>
+            <div class="hover-overlay rounded">
+            </div>
+            </a>
+          </div>
+        </div>
+        
+        <div class="col-lg-4 col-6 mb-4 shuffle-item" data-groups="[]">
+          <div class="shadow-sm rounded hover-wrapper pr-3 pl-3 pt-3 pb-3 bg-white border-top border-right" href="/soc/projects/2021/project-44" style="height:350px">
+            <a href="/wncc-website.github.io/soc/projects/2021/project-44">
+            <span class="rounded"> <p class="lead text-center font-weight-bold">Introduction to App Development</p> <img src="/wncc-website.github.io/assets/images/soc/2021/small_item-44.jpg" alt="Introduction to App Development" class="img-fluid  w-100 d-block mt-5 h-75 rounded" /></span>
+            <div class="hover-overlay rounded">
+            </div>
+            </a>
+          </div>
+        </div>
+        
+        <div class="col-lg-4 col-6 mb-4 shuffle-item" data-groups="[]">
+          <div class="shadow-sm rounded hover-wrapper pr-3 pl-3 pt-3 pb-3 bg-white border-top border-right" href="/soc/projects/2021/project-45" style="height:350px">
+            <a href="/wncc-website.github.io/soc/projects/2021/project-45">
+            <span class="rounded"> <p class="lead text-center font-weight-bold">IITinder</p> <img src="/wncc-website.github.io/assets/images/soc/2021/small_item-45.jpeg" alt="IITinder" class="img-fluid  w-100 d-block mt-5 h-75 rounded" /></span>
+            <div class="hover-overlay rounded">
+            </div>
+            </a>
+          </div>
+        </div>
+        
+        <div class="col-lg-4 col-6 mb-4 shuffle-item" data-groups="[]">
+          <div class="shadow-sm rounded hover-wrapper pr-3 pl-3 pt-3 pb-3 bg-white border-top border-right" href="/soc/projects/2021/project-46" style="height:350px">
+            <a href="/wncc-website.github.io/soc/projects/2021/project-46">
+            <span class="rounded"> <p class="lead text-center font-weight-bold">BriefKing</p> <img src="/wncc-website.github.io/assets/images/soc/2021/small_item-46.jpeg" alt="BriefKing" class="img-fluid  w-100 d-block mt-5 h-75 rounded" /></span>
+            <div class="hover-overlay rounded">
+            </div>
+            </a>
+          </div>
+        </div>
+        
+        <div class="col-lg-4 col-6 mb-4 shuffle-item" data-groups="[]">
+          <div class="shadow-sm rounded hover-wrapper pr-3 pl-3 pt-3 pb-3 bg-white border-top border-right" href="/soc/projects/2021/project-48" style="height:350px">
+            <a href="/wncc-website.github.io/soc/projects/2021/project-48">
+            <span class="rounded"> <p class="lead text-center font-weight-bold">Break free of the matrix, by building one!</p> <img src="/wncc-website.github.io/assets/images/soc/2021/small_item-48.jpeg" alt="Break free of the matrix, by building one!" class="img-fluid  w-100 d-block mt-5 h-75 rounded" /></span>
+            <div class="hover-overlay rounded">
+            </div>
+            </a>
+          </div>
+        </div>
+        
+        <div class="col-lg-4 col-6 mb-4 shuffle-item" data-groups="[]">
+          <div class="shadow-sm rounded hover-wrapper pr-3 pl-3 pt-3 pb-3 bg-white border-top border-right" href="/soc/projects/2021/project-50" style="height:350px">
+            <a href="/wncc-website.github.io/soc/projects/2021/project-50">
+            <span class="rounded"> <p class="lead text-center font-weight-bold">PAC MAN</p> <img src="/wncc-website.github.io/assets/images/soc/2021/small_item-50.png" alt="PAC MAN" class="img-fluid  w-100 d-block mt-5 h-75 rounded" /></span>
+            <div class="hover-overlay rounded">
+            </div>
+            </a>
+          </div>
+        </div>
+        
+    </div>
+  </div>
+</section>
+:ET

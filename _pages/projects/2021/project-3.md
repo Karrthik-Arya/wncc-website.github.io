@@ -14,12 +14,15 @@ mentees:
 permalink: /soc/projects/2021/project-3
 ---
 
-<h2 class="display1 m-3 p-3 text-center">{{page.project}}</h2>
+<h2 class="display1 m-3 p-3 text-center project-title">{{page.project}}</h2>
 
 {% for project in site.data.settings.soc-items %}
 {% if project.title == page.project %}
-<div>
-    <img src="{{ site.baseurl }}/{{ project.image }}"  width = "300" height="300" alt="{{ project.project}}" class="border rounded img-soc">
+<div class ="img-soc d-block"> 
+    <img src="{{ site.baseurl }}/{{ project.image }}" alt="{{ project.project}}" class="image-1">
+    <img src="{{ site.baseurl }}/{{ project.image }}" alt="{{ project.project}}" class="image-2">
+    <img src="{{ site.baseurl }}/{{ project.image }}" alt="{{ project.project}}" class="image-3">
+    <img src="{{ site.baseurl }}/{{ project.image }}" alt="{{ project.project}}" class="image-4">
 </div>
 <div>
     <br>
@@ -43,7 +46,7 @@ permalink: /soc/projects/2021/project-3
     </ul>
 </div>
 <div>
-    <p class="display3" style = "font-size:22px;" >
+    <p class="display3 project-desc" style = "font-size:22px;" >
         <br>
         The aim of this project is to train students who aim to do well at ICPC regionals. We will be covering a wide variety of content in Competitive Programming, and we will be asking you to participate in certain competitions in which we will discuss individual performances to understand where you need to improve to take yourself to the next level.
         <br><br>
@@ -53,6 +56,7 @@ permalink: /soc/projects/2021/project-3
         To apply for this project, fill this form - <a href = "https://forms.gle/Rm61n5jLmNsw6Y7J9">https://forms.gle/Rm61n5jLmNsw6Y7J9</a> . Also fill the mentee form shared by WnCC.
     </p>
 </div>
+<div class ="d-flex">
 <div>
     <h4 class="display3" style="margin:40px 0px 40px 0px;">Tentative Timeline :</h4>
     <table class="table table-striped">
@@ -106,6 +110,7 @@ permalink: /soc/projects/2021/project-3
     </tr>
     </tbody>
     </table>
+</div>
 </div>
 {% endif %}
 {% endfor %}

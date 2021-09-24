@@ -15,12 +15,15 @@ mentees:
 permalink: /soc/projects/2021/project-5
 ---
 
-<h2 class="display1 m-3 p-3 text-center">{{page.project}}</h2>
+<h2 class="display1 m-3 p-3 text-center project-title">{{page.project}}</h2>
 
 {% for project in site.data.settings.soc-items %}
 {% if project.title == page.project %}
-<div>
-    <img src="{{ site.baseurl }}/{{ project.image }}"  width = "300" height="300" alt="{{ project.project}}" class="border rounded img-soc">
+<div class ="img-soc d-block"> 
+    <img src="{{ site.baseurl }}/{{ project.image }}" alt="{{ project.project}}" class="image-1">
+    <img src="{{ site.baseurl }}/{{ project.image }}" alt="{{ project.project}}" class="image-2">
+    <img src="{{ site.baseurl }}/{{ project.image }}" alt="{{ project.project}}" class="image-3">
+    <img src="{{ site.baseurl }}/{{ project.image }}" alt="{{ project.project}}" class="image-4">
 </div>
 <div>
     <br>
@@ -44,7 +47,7 @@ permalink: /soc/projects/2021/project-5
     </ul>
 </div>
 <div>
-    <p class="display3" style = "font-size:22px;" >
+    <p class="display3 project-desc" style = "font-size:22px;" >
         <br>
         This project aims to develop a source code plagiarism detector using Python.
         <br><br>
@@ -52,9 +55,11 @@ permalink: /soc/projects/2021/project-5
         <br><br>
         This project can also be extended to compare source codes with online available codes using Google Search API (for example) if time permits.
         <br><br>
+        </p>
+        <p class ="display3" style = "font-size:22px">
         We expect the students to go through some of the references mentioned and do some research of their own and include some of their ideas related to the project topic in their proposals. More importantly, we look for enthusiasm in students which will be judged by the effort they put in their proposals.
     </p>
-    <p class = "display2" style = "font-size:30px">References</p>
+    <p class = "display2 text-dark" style = "font-size:30px">References</p>
     <ol style = "list-style-type: decimal">
     <li class="display3 mb-2" style = "font-size:22px;">Bag of words approach:</li>
     <ul style = "list-style-type: disc">
@@ -67,6 +72,7 @@ permalink: /soc/projects/2021/project-5
     <li class="display3 mb-2" style = "font-size:22px;">A research paper on this approach: <a href = "http://ijmlc.org/papers/50-A243.pdf">http://ijmlc.org/papers/50-A243.pdf</a></li>
     </ol>
 </div>
+<div class = "d-flex">
 <div>
     <h4 class="display3" style="margin:40px 0px 40px 0px;">Tentative Timeline :</h4>
     <table class="table table-striped">
@@ -124,6 +130,7 @@ permalink: /soc/projects/2021/project-5
     </tr>
     </tbody>
     </table>
+</div>
 </div>
 {% endif %}
 {% endfor %}

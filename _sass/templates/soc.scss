@@ -1,0 +1,82 @@
+.table{
+    margin-right: 100px;
+    width: fit-content;
+}
+.project-desc{
+    width:600px; 
+}
+.img-soc{
+    float:right;
+    margin-top: 3%;
+    margin-left: 3%;
+    width:700px !important;
+    height: auto;
+}
+
+  
+  .img-soc img {
+    margin-top: 3%;
+    margin-left: 3%;
+    float:right;
+    position: absolute;
+    right:30px;
+    width:50% !important;
+    height: auto;
+  }
+  
+  .image-1 {
+    clip-path: polygon(0 0, 0 32%, 28% 0);
+    transform: translate(-10px, -10px);
+    transition: transform 300ms ease;
+    .img-soc:hover & {
+      transform: translate(0,0);
+    }
+  }
+  
+  .image-2 {
+    clip-path: polygon(28% 0, 0 32%, 0 100%, 17% 100%, 90% 0);
+    transform: translate(-30px, 5px);
+    transition: transform 300ms ease;
+    .img-soc:hover & {
+      transform: translate(0,0);
+    }
+  }
+  
+  .image-3 {
+    clip-path: polygon(100% 0, 100% 65%, 74% 100%, 17% 100%, 90% 0);
+    transform: translate(-15px, -10px);
+    transition: transform 300ms ease;
+    .img-soc:hover & {
+      transform: translate(0,0);
+    }
+  }
+  
+  .image-4 {
+    clip-path: polygon(100% 65%, 74% 100%, 100% 100%);
+    transform: translate(-32px, 5px);
+    transition: transform 300ms ease;
+    .img-soc:hover & {
+      transform: translate(0,0);
+    }
+  }
+
+  .project-title{
+    background: url(https://i.ibb.co/RDTnNrT/animated-text-fill.png) repeat-y;
+    -webkit-background-clip: text;
+    background-clip: text;
+
+/* Animate Background Image */
+
+    -webkit-text-fill-color: transparent;
+    -webkit-animation: aitf 80s linear infinite;
+
+/* Activate hardware acceleration for smoother animations */
+
+    -webkit-transform: translate3d(0,0,0);
+    -webkit-backface-visibility: hidden;
+  }
+
+  @-webkit-keyframes aitf {
+	0% { background-position: 0% 50%; }
+	100% { background-position: 100% 50%; }
+}

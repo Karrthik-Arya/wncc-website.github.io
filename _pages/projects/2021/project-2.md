@@ -15,12 +15,15 @@ mentees:
 permalink: /soc/projects/2021/project-2
 ---
 
-<h2 class="display1 m-3 p-3 text-center">{{page.project}}</h2>
+<h2 class="display1 m-3 p-3 text-center project-title">{{page.project}}</h2>
 
 {% for project in site.data.settings.soc-items %}
 {% if project.title == page.project %}
-<div>
-    <img src="{{ site.baseurl }}/{{ project.image }}"  width = "300" height="300" alt="{{ project.project}}" class="border rounded img-soc">
+<div class ="img-soc d-block"> 
+    <img src="{{ site.baseurl }}/{{ project.image }}" alt="{{ project.project}}" class="image-1">
+    <img src="{{ site.baseurl }}/{{ project.image }}" alt="{{ project.project}}" class="image-2">
+    <img src="{{ site.baseurl }}/{{ project.image }}" alt="{{ project.project}}" class="image-3">
+    <img src="{{ site.baseurl }}/{{ project.image }}" alt="{{ project.project}}" class="image-4">
 </div>
 <div>
     <br>
@@ -44,7 +47,7 @@ permalink: /soc/projects/2021/project-2
     </ul>
 </div>
 <div>
-    <p class="display3" style = "font-size:22px;" >
+    <p class="display3 project-desc" style = "font-size:22px;" >
         <br>
         This project would tackle the problem of Image Super Resolution. Image super-resolution (SR) techniques reconstruct a higher-resolution image or sequence from the observed lower-resolution images. Often a low-resolution image is taken as an input and the same image is upscaled to a higher resolution, which is the output. The details in the high-resolution output are filled in where the details are essentially unknown. Super resolution is essentially what you see in films and series like CSI where someone zooms into an image and it improves in quality and the details just appear.
         <br>
@@ -85,6 +88,7 @@ permalink: /soc/projects/2021/project-2
         Image Super Resolution - <a href = "https://medium.com/beyondminds/an-introduction-to-super-resolution-using-deep-learning-f60aff9a499d">https://medium.com/beyondminds/an-introduction-to-super-resolution-using-deep-learning-f60aff9a499d</a>
         </p>
 </div>
+<div class = "d-flex">
 <div>
     <h4 class="display3" style="margin:40px 0px 40px 0px;">Tentative Timeline :</h4>
     <table class="table table-striped">
@@ -154,6 +158,7 @@ permalink: /soc/projects/2021/project-2
     </tr>
     </tbody>
     </table>
+</div>
 </div>
 {% endif %}
 {% endfor %}

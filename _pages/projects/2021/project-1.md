@@ -13,18 +13,22 @@ mentees:
 permalink: /soc/projects/2021/project-1
 ---
 
-<h2 class="display1 m-3 p-3 text-center">{{page.project}}</h2>
+<h2 class="display1 m-3 p-3 text-center project-title">{{page.project}}</h2>
 
 {% for project in site.data.settings.soc-items %}
 {% if project.title == page.project %}
-<div>
-    <img src="{{ site.baseurl }}/{{ project.image }}"  width = "300" height="300" alt="{{ project.project}}" class="border rounded img-soc">
+
+<div class ="img-soc d-block"> 
+    <img src="{{ site.baseurl }}/{{ project.image }}" alt="{{ project.project}}" class="image-1">
+    <img src="{{ site.baseurl }}/{{ project.image }}" alt="{{ project.project}}" class="image-2">
+    <img src="{{ site.baseurl }}/{{ project.image }}" alt="{{ project.project}}" class="image-3">
+    <img src="{{ site.baseurl }}/{{ project.image }}" alt="{{ project.project}}" class="image-4">
 </div>
-<div>
+<div >
     <br>
     <ul>
         {% for topic in page.topics %}
-        <li><h4 class="text-primary text-center">{{topic}}</h4></li>
+        <li><h4 class="text-primary text-center topics">{{topic}}</h4></li>
         {% endfor %}
     </ul>
     <br>
@@ -41,13 +45,14 @@ permalink: /soc/projects/2021/project-1
         {% endfor %}
     </ul>
 </div>
-<div>
+<div class = "project-desc" style = "margin-bottom: 140px">
     <p class="display3" style = "font-size:22px;" >
         <br>
         This will teach you to develop a website using various tools like HTML, CSS , JavaScript, PHP Angular and a few other tools. There are no prerequisites for this, however having basic idea of HTML will help.
         <br>
     </p>
 </div>
+<div class = "d-flex">
 <div>
     <h4 class="display3" style="margin:40px 0px 40px 0px;">Tentative Timeline :</h4>
     <table class="table table-striped">
@@ -113,6 +118,7 @@ permalink: /soc/projects/2021/project-1
     </tr>
     </tbody>
     </table>
+</div>
 </div>
 {% endif %}
 {% endfor %}
