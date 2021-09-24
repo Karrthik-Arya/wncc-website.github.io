@@ -1419,8 +1419,12 @@ soc-result-items:
     image_small: "assets/images/soc/2021/small_item-24.png"
     image : "assets/images/soc/2021/item-24.png"
     url: "/soc-results/project-24-result"
-   
 
+  - title : "Browser Based PDF Manager"
+    image_small: "assets/images/soc/2021/small_item-26.jpeg"
+    image : "assets/images/soc/2021/item-26.jpeg"
+    url: "/soc-results/project-26-result"
+    
 
   - title : "Competitive Coding"
     image_small: "assets/images/soc/2021/small_item-28.png"
