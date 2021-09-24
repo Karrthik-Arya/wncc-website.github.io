@@ -6,9 +6,9 @@ permalink: /resources/
 <!-- blog -->
 <section class="section">
 <div class="container">
+<h2 class = 'section-title text-center'>Choose your poison</h2> 
 <div class = "d-flex flex-wrap justify-content-center">
 {% for item in site.data.settings.resources-items %}
-        {% if item.name == "as" %} <h2 class = 'section-title text-center' style = "width: 900px; margin-top: 20px">Choose your poison</h2> {% endif %}
         <div class="col-lg-4 mb-3" style = 'width:400px; height: 220px; ' id = "resource-cards">
         <a href = "{{ site.baseurl }}/resources/#{{ item.name }}">
         <article class = " shadow rounded p-3 text-center pt-2" style = "background-color: rgb(20, 20, 30);" id = "resource-cards">

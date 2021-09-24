@@ -174,8 +174,8 @@ education-title: Achievements
 education:
 - {name: Number of Wiki Articles, organization: '110+'}
 - {name: Number of Github repos, organization: '45+'}
-- {name: Improving the Coding Culture, organization: 'since 15 years' }
-- {name: This year over 300 people , organization: 'Participated in SoC'}
+- {name: Improving Coding Culture, organization: 'since 15 years' }
+- {name: This year 300+ people , organization: 'Participated in SoC'}
 
 #-------------------------------
 # Services Section
