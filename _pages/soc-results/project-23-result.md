@@ -8,7 +8,7 @@ project: Algorithm Visualizer
 permalink: /soc-results/project-23-result
 ---
 
-<h2 class="display1 m-3 p-3 text-center">{{page.project}}</h2>
+<h2 class="display1 m-3 p-3 text-center customcol">{{page.project}}</h2>
 {% for project in site.data.settings.soc-items %}
 {% if project.title == page.project %}
 
@@ -31,9 +31,9 @@ permalink: /soc-results/project-23-result
     </div>
 
 <div class = "button-holder">
-    <div class="button-res"><a href="#" role="button">Documentation</a></div>
-    <div class="button-res"><a href="#" role="button">GitHub Repo</a></div>
-    <div class="button-res"><a href="#" role="button">Demo</a></div>
+    <div class="button-res"><a href="https://docs.google.com/document/d/1xPhPSmAmjVSzVrsvoBeOB1aGNlA0u0qpGTtP_xkW3Wk/edit?usp=sharing" role="button">Documentation</a></div>
+    <div class="button-res"><a href="https://github.com/MananKGarg/Algorithm-Visualizer" role="button">GitHub Repo</a></div>
+    <div class="button-res"><a href="https://drive.google.com/file/d/1jr885-29TeG8MU1kPlkfHkRy4CZvuFr8/view?usp=sharing" role="button">Demo</a></div>
 </div>
 
 {% endif %}

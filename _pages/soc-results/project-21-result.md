@@ -7,7 +7,7 @@ project: Convolutional Neural Networks and Applications
 permalink: /soc-results/project-21-result
 ---
 
-<h2 class="display1 m-3 p-3 text-center">{{page.project}}</h2>
+<h2 class="display1 m-3 p-3 text-center customcol">{{page.project}}</h2>
 {% for project in site.data.settings.soc-items %}
 {% if project.title == page.project %}
 
@@ -30,9 +30,9 @@ permalink: /soc-results/project-21-result
     </div>
 
 <div class = "button-holder">
-    <div class="button-res"><a href="#" role="button">Documentation</a></div>
-    <div class="button-res"><a href="#" role="button">GitHub Repo</a></div>
-    <div class="button-res"><a href="#" role="button">Demo</a></div>
+    <div class="button-res"><a href="https://docs.google.com/document/d/1wGpghFXB_7-Pt9dX7GbiCka9eemuOdf51UGk7rEp8uQ/edit?usp=sharing" role="button">Documentation</a></div>
+    <div class="button-res"><a href="https://github.com/sankalppar/Genre_From_Poster_SoC" role="button">GitHub Repo</a></div>
+    <div class="button-res"><a href="https://drive.google.com/file/d/1CI0MykLuhA-mr0TI8D0xmHcn_UZmdbVK/view?usp=sharing" role="button">Demo</a></div>
 </div>
 
 {% endif %}
