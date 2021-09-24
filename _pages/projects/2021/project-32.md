@@ -13,12 +13,15 @@ mentees:
 permalink: /soc/projects/2021/project-32
 ---
 
-<h2 class="display1 m-3 p-3 text-center">{{page.project}}</h2>
+<h2 class="display1 m-3 p-3 text-center project-title">{{page.project}}</h2>
 
 {% for project in site.data.settings.soc-items %}
 {% if project.title == page.project %}
-<div>
-    <img src="{{ site.baseurl }}/{{ project.image }}"  width = "300" height="300" alt="{{ project.project}}" class="border rounded img-soc">
+<div class ="img-soc d-block"> 
+    <img src="{{ site.baseurl }}/{{ project.image }}" alt="{{ project.project}}" class="image-1">
+    <img src="{{ site.baseurl }}/{{ project.image }}" alt="{{ project.project}}" class="image-2">
+    <img src="{{ site.baseurl }}/{{ project.image }}" alt="{{ project.project}}" class="image-3">
+    <img src="{{ site.baseurl }}/{{ project.image }}" alt="{{ project.project}}" class="image-4">
 </div>
 <div>
     <br>
@@ -42,12 +45,15 @@ permalink: /soc/projects/2021/project-32
     </ul>
 </div>
 <div>
-    <p class="display3" style = "font-size:22px;" >
+    <p class="display3 project-desc" style = "font-size:22px;" >
         <br>
         Description:
         
         Colorizing black and white images is one of the most exciting applications of deep learning. Out of the many available techniques, Generative Adversarial Networks(GANs) based methods have shown excellent results on this task. Referring to GANs, Facebook’s AI research director Yann LeCun called adversarial training “the most interesting idea in the last 10 years in ML”. GANs are really the biggest breakthrough in the history of AI.
+</p>
+<br><br>
 
+<p class="display3 " style = "font-size:22px;" >
         Image-to-image translation involves translating an image from one domain to another. It includes synthesizing photos from label maps, reconstructing objects from edge maps, and colorizing images. Pix2Pix GAN is a conditional image-to-image translation architecture which has produced really great results. This project will involve the implementation of this paper for image colorization. We can also try the other translation tasks given in the paper(if time permits).
 
         The link to the paper : https://arxiv.org/pdf/1611.07004.pdf
@@ -56,6 +62,7 @@ permalink: /soc/projects/2021/project-32
 </p>
 <br>
 </div>
+<div class = "d-flex">
 <div>
     <h4 class="display3" style="margin:40px 0px 40px 0px;">Tentative Timeline :</h4>
     <table class="table table-stripped">
@@ -121,6 +128,7 @@ permalink: /soc/projects/2021/project-32
     </tr>
   </tbody>
 </table>
+</div>
 </div>
 {% endif %}
 {% endfor %}

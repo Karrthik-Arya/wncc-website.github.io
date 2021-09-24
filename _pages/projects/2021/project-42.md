@@ -15,13 +15,17 @@ mentees:
 permalink: /soc/projects/2021/project-42
 ---
 
-<h2 class="display1 m-3 p-3 text-center">{{page.project}}</h2>
+<h2 class="display1 m-3 p-3 text-center project-title">{{page.project}}</h2>
 
 {% for project in site.data.settings.soc-items %}
 {% if project.title == page.project %}
-<div>
-    <img src="{{ site.baseurl }}/{{ project.image }}"  width = "300" height="300" alt="{{ project.project}}" class="border rounded img-soc">
+<div class ="img-soc d-block"> 
+    <img src="{{ site.baseurl }}/{{ project.image }}" alt="{{ project.project}}" class="image-1">
+    <img src="{{ site.baseurl }}/{{ project.image }}" alt="{{ project.project}}" class="image-2">
+    <img src="{{ site.baseurl }}/{{ project.image }}" alt="{{ project.project}}" class="image-3">
+    <img src="{{ site.baseurl }}/{{ project.image }}" alt="{{ project.project}}" class="image-4">
 </div>
+
 <div>
     <br>
     <ul>
@@ -44,19 +48,25 @@ permalink: /soc/projects/2021/project-42
     </ul>
 </div>
 <div>
-    <p class="display3" style = "font-size:22px;" >
+    <p class="display3 project-desc" style = "font-size:22px;" >
         <br>
         Description:
 
         Journalists usually go out with their microphone to various places speaking into the recording device to note important events. They use these recordings later to prepare their article. We envision a system that can take a few minutes of audio from a recording device and use that information to write an article on that event. This fundamental concept can be extended to many other applications one of which can be automatic minutes-of-the-meet taker.
+  </p>
+  <p class="display3" style = "font-size:22px;" >
+
 
         We’re looking for team members who have experience with programming. Experience with ML, more specifically speech recognition and NLP will be a plus. Some articles to begin with:
 
         https://medium.com/@ageitgey/machine-learning-is-fun-80ea3ec3c471 
+  <br>
         https://medium.com/@sanchittanwar75/introduction-to-machine-learning-and-deep-learning-bd25b792e488 
+    <br>
         https://www.youtube.com/watch?v=aircAruvnKk
   </p><br>
 </div>
+<div class="d-flex">
 <div>
     <h4 class="display3" style="margin:40px 0px 40px 0px;">Tentative Timeline :</h4>
     <table class = "table table-striped">
@@ -126,6 +136,7 @@ permalink: /soc/projects/2021/project-42
     </tr>
   </tbody>
 </table>
+</div>
 </div>
 {% endif %}
 {% endfor %}

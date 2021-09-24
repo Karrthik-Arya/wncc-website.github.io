@@ -14,13 +14,17 @@ mentees:
 permalink: /soc/projects/2021/project-34
 ---
 
-<h2 class="display1 m-3 p-3 text-center">{{page.project}}</h2>
+<h2 class="display1 m-3 p-3 text-center project-title">{{page.project}}</h2>
 
 {% for project in site.data.settings.soc-items %}
 {% if project.title == page.project %}
-<div>
-    <img src="{{ site.baseurl }}/{{ project.image }}"  width = "300" height="300" alt="{{ project.project}}" class="border rounded img-soc">
+<div class ="img-soc d-block"> 
+    <img src="{{ site.baseurl }}/{{ project.image }}" alt="{{ project.project}}" class="image-1">
+    <img src="{{ site.baseurl }}/{{ project.image }}" alt="{{ project.project}}" class="image-2">
+    <img src="{{ site.baseurl }}/{{ project.image }}" alt="{{ project.project}}" class="image-3">
+    <img src="{{ site.baseurl }}/{{ project.image }}" alt="{{ project.project}}" class="image-4">
 </div>
+
 <div>
     <br>
     <ul>
@@ -43,23 +47,38 @@ permalink: /soc/projects/2021/project-34
     </ul>
 </div>
 <div>
-    <p class="display3" style = "font-size:22px;" >
+    <p class="display3 project-desc" style = "font-size:22px;" >
         <br>
         Description:
         
         In the early weeks, the mentee will be revising python programming, ML concepts focussing on computer vision and image processing. Next, the mentee will be implementing basic classification and recognition models and going through the state-of-the-art literature on detection models. Next, the mentee will work on implementing a transfer learning model of state-of-the-art object detection model and testing it on PC completely offline with live video input. The results from the detection model will be saved into a file and the mentee will work on building a web application and deploying the model to output results using flask with considerably good UI. Depending on the time available, further improvements can be made in the data analysis and UI part.
 
-        Resources:
+  <br><br>
+</p>
+<p class= "lead" style = "font-size:30px;"> 
 
+        Resources:
+</p>
+  <p class="display3" style = "font-size:22px;">
         https://machinelearningmastery.com/how-to-develop-a-convolutional-neural-network-to-classify-photos-of-dogs-and-cats/
         https://ai.googleblog.com/2020/04/efficientdet-towards-scalable-and.html
         https://towardsai.net/p/computer-vision/yolo-v5-object-detection-on-a-custom-dataset
+        </p>
+        <p class="display3" style = "font-size:22px;" >
+
+
+<br><br>
         Image processing: https://pythonprogramming.net/loading-images-python-opencv-tutorial/
+       <br><br>
+       </p>
+        <p class="display3" style = "font-size:22px;" >
+
         Basic web development: https://www.w3schools.com
         Flask: https://www.tutorialspoint.com/flask/
   </p>
   <br>
 </div>
+<div class="d-flex">
 <div>
     <h4 class="display3" style="margin:40px 0px 40px 0px;">Tentative Timeline :</h4>
     <table class="table table-stripped">
@@ -137,6 +156,7 @@ permalink: /soc/projects/2021/project-34
     </tr>
   </tbody>
 </table>
+</div>
 </div>
 {% endif %}
 {% endfor %}

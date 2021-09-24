@@ -13,13 +13,17 @@ mentees:
 permalink: /soc/projects/2021/project-35
 ---
 
-<h2 class="display1 m-3 p-3 text-center">{{page.project}}</h2>
+<h2 class="display1 m-3 p-3 text-center project-title">{{page.project}}</h2>
 
 {% for project in site.data.settings.soc-items %}
 {% if project.title == page.project %}
-<div>
-    <img src="{{ site.baseurl }}/{{ project.image }}"  width = "300" height="300" alt="{{ project.project}}" class="border rounded img-soc">
+<div class ="img-soc d-block"> 
+    <img src="{{ site.baseurl }}/{{ project.image }}" alt="{{ project.project}}" class="image-1">
+    <img src="{{ site.baseurl }}/{{ project.image }}" alt="{{ project.project}}" class="image-2">
+    <img src="{{ site.baseurl }}/{{ project.image }}" alt="{{ project.project}}" class="image-3">
+    <img src="{{ site.baseurl }}/{{ project.image }}" alt="{{ project.project}}" class="image-4">
 </div>
+
 <div>
     <br>
     <ul>
@@ -42,23 +46,30 @@ permalink: /soc/projects/2021/project-35
     </ul>
 </div>
 <div>
-    <p class="display3" style = "font-size:22px;" >
+    <p class="display3 project-desc" style = "font-size:22px;" >
         <br>
         Description: 
         
         Whats App is widely used for it’s simplicity. Every new project you begin, you have a new whats app group. Have you ever wondered what are the common types of messages that flow around(in a project group, because on family group its only GM and the college groups are dead.)? I have wondered. Also, with so many project management tools in the market, why don’t they become hit? Because they are too complex, heavy and difficult to master. How about we provide mankind with a golden mean of WhatsApp and Slack? Design a texting Android Application that is secure and provides additional features escpecially for team coordination.
+<br><br>
+</p>
+<p class= "lead" style = "font-size:30px;"> 
 
         Resources:
+</p>
+        <p class="display3" style = "font-size:22px;" >
+  <br><br>
 
         Streamlit - https://www.youtube.com/playlist?list=PLtqF5YXg7GLmCvTswG32NqQypOuYkPRUE
-
+<br><br>
         NLP- https://www.youtube.com/watch?v=fM4qTMfCoak&list=PLZoTAELRMXVMdJ5sqbCK2LiM0HhQVWNzm
-
+<br><br>
         OCR- https://www.youtube.com/watch?v=aELZtpOClWk&list=PLreVlKwe2Z0QKobecSxrheGzrgd4iXJje
-
+<br><br>
         Github- https://github.com/tejpal123456789/Natural-Language-Processing/blob/main/language_detection.ipynb
   </p> <br>
 </div>
+<div class="d-flex">
 <div>
     <h4 class="display3" style="margin:40px 0px 40px 0px;">Tentative Timeline :</h4>
     <table class = "table table-stripped">
@@ -87,6 +98,7 @@ permalink: /soc/projects/2021/project-35
     </tr>
   </tbody>
 </table>
+</div>
 </div>
 {% endif %}
 {% endfor %}

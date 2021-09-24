@@ -15,12 +15,15 @@ mentees:
 permalink: /soc/projects/2021/project-33
 ---
 
-<h2 class="display1 m-3 p-3 text-center">{{page.project}}</h2>
+<h2 class="display1 m-3 p-3 text-center project-title">{{page.project}}</h2>
 
 {% for project in site.data.settings.soc-items %}
 {% if project.title == page.project %}
-<div>
-    <img src="{{ site.baseurl }}/{{ project.image }}"  width = "300" height="300" alt="{{ project.project}}" class="border rounded img-soc">
+<div class ="img-soc d-block"> 
+    <img src="{{ site.baseurl }}/{{ project.image }}" alt="{{ project.project}}" class="image-1">
+    <img src="{{ site.baseurl }}/{{ project.image }}" alt="{{ project.project}}" class="image-2">
+    <img src="{{ site.baseurl }}/{{ project.image }}" alt="{{ project.project}}" class="image-3">
+    <img src="{{ site.baseurl }}/{{ project.image }}" alt="{{ project.project}}" class="image-4">
 </div>
 <div>
     <br>
@@ -44,26 +47,39 @@ permalink: /soc/projects/2021/project-33
     </ul>
 </div>
 <div>
-    <p class="display3" style = "font-size:22px;" >
+    <p class="display3 project-desc" style = "font-size:22px;" >
         <br>
         Description:
 
         “This project aims to build an open source code editor (like Sublime Text), that uses natural language processing to create a language model for code prediction. Natural Language Processing is used widely to build models of languages that can be used to predict the sentiment/future words/infer information from languages and the idea is to build such a model out of a codebase to create auto completions automatically. A lot of papers/projects have come up on this, we will attempt to integrate everything into a nice package. Initially we will create a simple model that learns from an existing corpus of code to create general auto completions, later on we will try to extend this to be more locally aware.
 
-        Some reading (NLP):
+  <br><br>
+</p>
+  
 
+  <p class= "lead" style = "font-size:30px;">Some reading (NLP):</p>
+  <p class="display3" style = "font-size:22px;" >
         https://towardsdatascience.com/building-a-next-word-predictor-in-tensorflow-e7e681d4f03f#:~:text=Next%20Word%20Prediction%20or%20what,or%20emails%20without%20realizing%20it.
+    <br>
         https://web.stanford.edu/~chshah/files/contextual-code-completion.pdf
-        https://www.tabnine.com/blog/local (what we want to achieve, although this is a professional product, if we get 20% of this it’ll be great)
+        https://www.tabnine.com/blog/locals
+ <br>
+        (what we want to achieve, although this is a professional product, if we get 20% of this it’ll be great)
         We will require two teams for this project, a team that will build the editor using software development framework (preferably Electron and Angular). This team will have to be proficient in software development (you can learn!). The goal is team to make a working (and good looking) code editor that is able to integrate with the code completion system easily and effectively.
+  </p>
 
-        Links:
+<p class= "lead" style = "font-size:30px;">  Links:</p>
+
+<p class="display3" style = "font-size:22px;" >
 
         https://www.sitepoint.com/build-a-desktop-application-with-electron-and-angular/
+  <br>
         https://www.electronjs.org/
+  <br>
         The Second team will work on the NLP model. The mentors will work with them to build a good model that works decently. The aim is to initially create a language model from the code corpus and then try to implement some recent papers that add in more local awareness. We may investigate using classical code completion methods (like the ones in used in Sublime Text) to augment the NLP based approach.
   </p> <br>
 </div>
+
 <div>
     <h4 class="display3" style="margin:40px 0px 40px 0px;">Tentative Timeline (ML) :</h4>
     <table class="table table-stripped">

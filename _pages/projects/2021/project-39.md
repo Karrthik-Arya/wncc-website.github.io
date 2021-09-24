@@ -13,13 +13,17 @@ mentees:
 permalink: /soc/projects/2021/project-39
 ---
 
-<h2 class="display1 m-3 p-3 text-center">{{page.project}}</h2>
+<h2 class="display1 m-3 p-3 text-center project-title">{{page.project}}</h2>
 
 {% for project in site.data.settings.soc-items %}
 {% if project.title == page.project %}
-<div>
-    <img src="{{ site.baseurl }}/{{ project.image }}"  width = "300" height="300" alt="{{ project.project}}" class="border rounded img-soc">
+<div class ="img-soc d-block" style = "width: 300px; height: 300px;"> 
+    <img src="{{ site.baseurl }}/{{ project.image }}" alt="{{ project.project}}" class="image-1">
+    <img src="{{ site.baseurl }}/{{ project.image }}" alt="{{ project.project}}" class="image-2">
+    <img src="{{ site.baseurl }}/{{ project.image }}" alt="{{ project.project}}" class="image-3">
+    <img src="{{ site.baseurl }}/{{ project.image }}" alt="{{ project.project}}" class="image-4">
 </div>
+
 <div>
     <br>
     <ul>
@@ -42,10 +46,10 @@ permalink: /soc/projects/2021/project-39
     </ul>
 </div>
 <div>
-    <p class="display3" style = "font-size:22px;" >
+    <p class="display3 project-desc" style = "font-size:22px;  margin-bottom: 10em;" >
         <br>
         Design an online secure portal to file and redress exam cribs. Profs and TAs will have the roles of moderator, whereas students can file cribs.
-
+<br>
 Goal: Design an online secure portal to file and redress exam cribs. Profs and TAs will have the roles of moderator, whereas students can file cribs.
       </p>  <br>
 </div>
@@ -61,11 +65,11 @@ Goal: Design an online secure portal to file and redress exam cribs. Profs and T
   <tbody>
     <tr>
       <td><strong>Week 1</strong></td>
-      <td>List the features of the portal, Set up the Environment and learn the basics of each platform, decide/ shortlist platforms for database, etc and design the architecture of the application.</td>
+      <td>List the features of the portal, Set up the Environment and learn the basics of each platform.</td>
     </tr>
     <tr>
       <td><strong>Week 2</strong></td>
-      <td>Survey of similar apps, teams of different components will start working seperately: Front end team, database team, security, network/ communication team.</td>
+      <td>Survey of similar apps, teams of different components will start working seperately</td>
     </tr>
     <tr>
       <td><strong>Week 3</strong></td>

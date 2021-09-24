@@ -14,12 +14,15 @@ mentees:
 permalink: /soc/projects/2021/project-31
 ---
 
-<h2 class="display1 m-3 p-3 text-center">{{page.project}}</h2>
+<h2 class="display1 m-3 p-3 text-center project-title">{{page.project}}</h2>
 
 {% for project in site.data.settings.soc-items %}
 {% if project.title == page.project %}
-<div>
-    <img src="{{ site.baseurl }}/{{ project.image }}"  width = "300" height="300" alt="{{ project.project}}" class="border rounded img-soc">
+<div class ="img-soc d-block"> 
+    <img src="{{ site.baseurl }}/{{ project.image }}" alt="{{ project.project}}" class="image-1">
+    <img src="{{ site.baseurl }}/{{ project.image }}" alt="{{ project.project}}" class="image-2">
+    <img src="{{ site.baseurl }}/{{ project.image }}" alt="{{ project.project}}" class="image-3">
+    <img src="{{ site.baseurl }}/{{ project.image }}" alt="{{ project.project}}" class="image-4">
 </div>
 <div>
     <br>
@@ -43,18 +46,26 @@ permalink: /soc/projects/2021/project-31
     </ul>
 </div>
 <div>
-    <p class="display3" style = "font-size:22px;" >
+    <p class="display3 project-desc" style = "font-size:22px;" >
         <br>
         Pre-requisites: Some understanding of Object Oriented Programming, and enthu!
         
-        With this project you will get a very good idea of how the Rendering and Physics pipeline of a modern day AAA game works! We will give you an in house Renderer which you will use to render your objects. You will be required to first build a basic physics engine capable of performing the following tasks:
-
+        With this project you will get a very good idea of how the Rendering and Physics pipeline of a modern day AAA game works! We will give you an in house Renderer which you will use to render your objects. 
+  <br><br>
+        You will be required to first build a basic physics engine capable of performing the following tasks: 
+        
+  <br>
+  </p>
+<p class="display3 " style = "font-size:22px;" >
         1. Integration of Newton’s Equations of motion (figuring out positions from forces)
         2. Collision Detection
         3. Rigid body dynamics (including forces and torques)
         4. Constrained rigid body motion With these functionalities in place you will already have in your hands a physics engine pretty close to production quality With this finished, if time is left, you will explore more complex and efficient algorithms. You can also explore learning in detail and modifying the implementation of Rendering and our in-house Rendering Engine.
-        Proposal:
-
+</p>
+  <br><br>
+        
+  <p class= "lead" style = "font-size:30px;">Proposal:</p>
+<p class="display3 " style = "font-size:22px;" >
         You need to submit a project proposal. Your proposal should include:
 
         Motivation to study rendering and physics
@@ -73,6 +84,7 @@ permalink: /soc/projects/2021/project-31
   </p>
   <br>
 </div>
+<div class = "d-flex flex-wrap">
 <div>
     <h4 class="display3" style="margin:40px 0px 40px 0px;">Tentative Timeline :</h4>
     <table class="table table-striped">
@@ -142,6 +154,7 @@ permalink: /soc/projects/2021/project-31
     </tr>
   </tbody>
 </table>
+</div>
 </div>
 {% endif %}
 {% endfor %}

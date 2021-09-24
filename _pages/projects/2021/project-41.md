@@ -15,13 +15,17 @@ mentees:
 permalink: /soc/projects/2021/project-41
 ---
 
-<h2 class="display1 m-3 p-3 text-center">{{page.project}}</h2>
+<h2 class="display1 m-3 p-3 text-center project-title">{{page.project}}</h2>
 
 {% for project in site.data.settings.soc-items %}
 {% if project.title == page.project %}
-<div>
-    <img src="{{ site.baseurl }}/{{ project.image }}"  width = "300" height="300" alt="{{ project.project}}" class="border rounded img-soc">
+<div class ="img-soc d-block"> 
+    <img src="{{ site.baseurl }}/{{ project.image }}" alt="{{ project.project}}" class="image-1">
+    <img src="{{ site.baseurl }}/{{ project.image }}" alt="{{ project.project}}" class="image-2">
+    <img src="{{ site.baseurl }}/{{ project.image }}" alt="{{ project.project}}" class="image-3">
+    <img src="{{ site.baseurl }}/{{ project.image }}" alt="{{ project.project}}" class="image-4">
 </div>
+
 <div>
     <br>
     <ul>
@@ -44,15 +48,20 @@ permalink: /soc/projects/2021/project-41
     </ul>
 </div>
 <div>
-    <p class="display3" style = "font-size:22px;" >
+    <p class="display3 project-desc" style = "font-size:22px;" >
         <br>
         Description:
 
-        How often do you read the terms and conditions before actually signing up for something, installing a software or entering a website? According to a study XX% of internet users don’t. The reason behind that shouldn’t be very hard to find. The Terms and conditions are usually many pages long filled with legal jargon and complex sentences. But can’t we now, with the advancement of technology, find a solution to fix this problem which started 20 years back with the internet in the early 2000s? we propose a Harvey-your own lawyer as a browser extension that will read the document for you and summarize the important points in simple language that actually matter to you and which you might want to consider before signing up.
+        How often do you read the terms and conditions before actually signing up for something, installing a software or entering a website? According to a study XX% of internet users don’t. The reason behind that shouldn’t be very hard to find. The Terms and conditions are usually many pages long filled with legal jargon and complex sentences. But can’t we now, with the advancement of technology, find a solution to fix this problem which started 20 years back with the internet in the early 2000s? 
+  </p>
+  <p class="display3" style = "font-size:22px;" >
+
+        We propose a Harvey-your own lawyer as a browser extension that will read the document for you and summarize the important points in simple language that actually matter to you and which you might want to consider before signing up.
 
         We’re looking for team members who have some experience with programming. You will have to learn how to collect data, clean it and train ML models on it. If you have any such relevant experience, do mention it in your proposal. Brownie points is you’re interested in law, contracts or policy making.
   </p><br>
 </div>
+<div class="d-flex">
 <div>
     <h4 class="display3" style="margin:40px 0px 40px 0px;">Tentative Timeline :</h4>
     <table class="table table-striped">
@@ -122,6 +131,7 @@ permalink: /soc/projects/2021/project-41
     </tr>
   </tbody>
 </table>
+</div>
 </div>
 {% endif %}
 {% endfor %}
