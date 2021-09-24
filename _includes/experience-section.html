@@ -2,16 +2,18 @@
 <!-- experience -->
 <section class="section">
   <div class="container-fluid">
-    <div class="row justify-content-around">
-      <div class="col-lg-10 text-center">
-        <h3 class="section-title">{{ site.data.settings.experience-title }}</h3>
-      </div>
+    <div class="d-flex justify-content-center">
       {% for experience in site.data.settings.experience %}
-      <div class="col-lg-3 col-md-4 text-center mb-4">
-        <img class = "mb-3 col-md-auto" style = "border-radius: 25%; object-fit: none;"src="{{ site.baseurl }}/assets/images/experience/{{ experience.icon }}" alt="{{ site.data.settings.experience-title }} icon">
-        <a href="{{ experience.link }}" class="btn btn-md btn-primary">Click here to Join</a>
+      <div class=" text-center mb-4 discord-logo">
+        <a href="{{ experience.link }}">
+        <img class = "mb-3 discord-logo" style = "border-radius: 25%; object-fit: none;"src="{{ site.baseurl }}/assets/images/experience/{{ experience.icon }}" alt="{{ site.data.settings.experience-title }} icon">
+        </a>
       </div>
       {% endfor %}
+      <div class=" text-center w-25" style = "margin-left:6vw">
+        <h3 class="section-title discord-title">{{ site.data.settings.experience-title }}</h3>
+      </div>
+      
     </div>
   </div>
 </section>

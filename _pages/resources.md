@@ -7,7 +7,7 @@ permalink: /resources/
 <section class="section">
 <div class="container">
 <h2 class = 'section-title'>Choose your poison:</h2>
-<div class = "d-flex flex-wrap mx-auto">
+<div class = "d-flex flex-wrap justify-content-center">
 {% for item in site.data.settings.resources-items %}
         <div class="col-lg-4 mb-3" style = 'width:400px; height: 220px; ' id = "resource-cards">
         <a href = "{{ site.baseurl }}/resources/#{{ item.name }}">
@@ -53,7 +53,7 @@ permalink: /resources/
                     <img class="rounded card-img-top" src="{{ site.baseurl }}/assets/images/resources/{{ label.image }}"
                         alt="{{ label.title }}">
                     <div class="card-body">
-                        <h4 class="card-title"><a class="text-dark"
+                        <h4 class="card-title"><a class="text-dark resource-card-title"
                                 href="{{ label.link }}" target="_blank">{{ label.title }}</a></h4>
                         <p class="card-text text-dark">{{ label.discription }}
                         </p>
@@ -69,7 +69,7 @@ permalink: /resources/
                     <img class="rounded card-img-top" src="{{ site.baseurl }}/assets/images/resources/{{ label.image }}"
                         alt="{{ label.title }}">
                     <div class="card-body">
-                        <h4 class="card-title"><a class="text-dark"
+                        <h4 class="card-title"><a class="text-dark resource-card-title"
                                 href="{{ label.link }}" target="_blank">{{ label.title }}</a></h4>
                         <p class="card-text text-dark">{{ label.discription }}
                         </p>
@@ -85,7 +85,7 @@ permalink: /resources/
                     <img class="rounded card-img-top" src="{{ site.baseurl }}/assets/images/resources/{{ label.image }}"
                         alt="{{ label.title }}">
                     <div class="card-body">
-                        <h4 class="card-title"><a class="text-dark"
+                        <h4 class="card-title"><a class="text-dark resource-card-title"
                                 href="{{ label.link }}" target="_blank">{{ label.title }}</a></h4>
                         <p class="card-text text-dark">{{ label.discription }}
                         </p>
@@ -101,7 +101,7 @@ permalink: /resources/
                     <img class="rounded card-img-top" src="{{ site.baseurl }}/assets/images/resources/{{ label.image }}"
                         alt="{{ label.title }}">
                     <div class="card-body">
-                        <h4 class="card-title"><a class="text-dark"
+                        <h4 class="card-title"><a class="text-dark resource-card-title"
                                 href="{{ label.link }}" target="_blank">{{ label.title }}</a></h4>
                         <p class="card-text">{{ label.discription }}
                         </p>
@@ -117,7 +117,7 @@ permalink: /resources/
                     <img class="rounded card-img-top" src="{{ site.baseurl }}/assets/images/resources/{{ label.image }}"
                         alt="{{ label.title }}">
                     <div class="card-body">
-                        <h4 class="card-title"><a class="text-dark"
+                        <h4 class="card-title"><a class="text-dark resource-card-title"
                                 href="{{ label.link }}" target="_blank">{{ label.title }}</a></h4>
                         <p class="cars-text">{{ label.discription }}
                         </p>

@@ -149,7 +149,21 @@
     bottom: -50px;
   }
 }
+.discord-logo {
+  @include mobile-xs{
+    width:75%;
+  }
+  & :hover{
+  transform: scale(1.1);
+  transition: 0.5s;
+  }
+}
 
+.discord-title{
+  @include mobile-xs{
+    font-size:5vw;
+  }
+}
 /* /testimonial */
 
 /* footer */

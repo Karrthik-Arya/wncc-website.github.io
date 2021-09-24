@@ -438,4 +438,8 @@ textarea.form-control{
     color: azure;
     font-size: 22.5px;
   }
+
+  & .resource-card-title:hover{
+    color: rgb(177, 214, 246)!important;
+  }
 }
