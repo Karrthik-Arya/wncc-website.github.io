@@ -8,7 +8,7 @@ project: Break free of the matrix, by building one!
 permalink: /soc-results/project-48-result
 ---
 
-<h2 class="display1 m-3 p-3 text-center">{{page.project}}</h2>
+<h2 class="display1 m-3 p-3 text-center customcol">{{page.project}}</h2>
 {% for project in site.data.settings.soc-items %}
 {% if project.title == page.project %}
 
@@ -31,9 +31,9 @@ permalink: /soc-results/project-48-result
     </div>
 
 <div class = "button-holder">
-    <div class="button-res"><a href="#" role="button">Documentation</a></div>
-    <div class="button-res"><a href="#" role="button">GitHub Repo</a></div>
-    <div class="button-res"><a href="#" role="button">Demo</a></div>
+    <div class="button-res"><a href="https://docs.google.com/document/d/1t6oM3h3w4NILBOEE9qj9ILv0u2tjn1jhGKQsnVeZZ8g/edit" role="button">Documentation</a></div>
+    <div class="button-res"><a href="https://github.com/ParthDwivedi1/CPPMatrixLib" role="button">GitHub Repo</a></div>
+    <div class="button-res"><a href="https://drive.google.com/file/d/1MQLUz5IxDMuVSVdxKMe_9gvbrJEhQ5g7/view?usp=sharing" role="button">Demo</a></div>
 </div>
 
 {% endif %}
