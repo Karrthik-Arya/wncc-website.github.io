@@ -1,11 +1,11 @@
 ---
 layout: result
 title: Seasons of Code
-project: Computer vision based web app
+project: Browser Based PDF Manager
 
 
     
-permalink: /soc-results/project-34-result
+permalink: /soc-results/project-26-result
 ---
 
 <h2 class="display1 m-3 p-3 text-center customcol">{{page.project}}</h2>
@@ -24,16 +24,16 @@ permalink: /soc-results/project-34-result
         {% endfor %}
     <br>
     <h4 class="mentor-title" style="display: block; fontWeight: 800">Mentors</h4>   
-    <h4 class="mentors" style="display: inline;">Senthil Vikram Vodapalli, Dharshan</h4>    
+    <h4 class="mentors" style="display: inline;">Danish Angural, Tanmay Hiremath </h4>    
     <br>  <br>
     <h4 class="mentor-title" style="display: block;">Mentees</h4> 
-    <h4 class="mentors" style="display: inline;">Sravan, Vanshil Gupta, Dheer Bhanushali, Ayush Trarway, Saksham Katiyar, Ankit Somani</h4>
+    <h4 class="mentors" style="display: inline;">Ashutosh Pankaj, Tanmay Joshi, Srishti Sharma</h4>
     </div>
 
 <div class = "button-holder">
-    <div class="button-res"><a href="https://docs.google.com/document/d/1xSnTkkJqVgP6xYy5SFr9sgAaMUTR-WbwNvmx0emZaEw/edit" role="button">Documentation</a></div>
-    <div class="button-res"><a href="https://github.com/Saksham-Katiyar/Computer-Vision-based-Web-App" role="button">GitHub Repo</a></div>
-    <div class="button-res"><a href="https://drive.google.com/drive/folders/1KrNk6ot3MXsPQ3MpVyeBznbTcL8E828p?usp=sharing" role="button">Demo</a></div>
+    <div class="button-res"><a href="https://docs.google.com/document/d/1XnTJ9hKJOfun1WZBEizsW_RAFV5SKRghNqu2YNZnTs8/edit" role="button">Documentation</a></div>
+    <div class="button-res"><a href="https://github.com/danish-angural/PDFManager" role="button">GitHub Repo</a></div>
+    <div class="button-res"><a href="https://drive.google.com/file/d/1AmbJnGuqodLDeOnULAtN1cN5b7LoUAgf/view?usp=sharing" role="button">Demo</a></div>
 </div>
 
 {% endif %}
