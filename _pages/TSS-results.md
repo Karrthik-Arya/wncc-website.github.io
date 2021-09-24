@@ -116,7 +116,7 @@ permalink: /tss_2021/
         <td>Roll Number</td>
     </tr>
     <tr>
-        <td>Ankitd R</td>
+        <td>Ankith R</td>
         <td>200070006</td>
     </tr>
     <tr>
