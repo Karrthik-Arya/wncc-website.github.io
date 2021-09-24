@@ -8,7 +8,7 @@ project: Introduction to Web Development
 permalink: /soc-results/project-1-result
 ---
 
-<h2 class="display1 m-3 p-3 text-center">{{page.project}}</h2>
+<h2 class="display1 m-3 p-3 text-center customcol">{{page.project}}</h2>
 {% for project in site.data.settings.soc-items %}
 {% if project.title == page.project %}
 
@@ -31,9 +31,9 @@ permalink: /soc-results/project-1-result
     </div>
 
 <div class = "button-holder">
-    <div class="button-res"><a href="#" role="button">Documentation</a></div>
-    <div class="button-res"><a href="#" role="button">GitHub Repo</a></div>
-    <div class="button-res"><a href="#" role="button">Demo</a></div>
+    <div class="button-res"><a href="https://docs.google.com/document/d/1wwFFVE_CoJk0RsP_Re3oUuJilr4lTCKlRGviqY1e2eA/edit?usp=sharing" role="button">Documentation</a></div>
+    <div class="button-res"><a href="https://github.com/Sainath-710/200050125_SoC.git" role="button">GitHub Repo</a></div>
+    <div class="button-res"><a href="https://drive.google.com/drive/u/2/folders/1yVJPGPGzd51t5fwLobFskgvo0qdHgfB-" role="button">Demo</a></div>
 </div>
 
 {% endif %}

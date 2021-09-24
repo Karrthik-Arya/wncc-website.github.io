@@ -8,7 +8,7 @@ project: PyRated
 permalink: /soc-results/project-5-result
 ---
 
-<h2 class="display1 m-3 p-3 text-center">{{page.project}}</h2>
+<h2 class="display1 m-3 p-3 text-center customcol">{{page.project}}</h2>
 {% for project in site.data.settings.soc-items %}
 {% if project.title == page.project %}
 
@@ -31,9 +31,9 @@ permalink: /soc-results/project-5-result
     </div>
 
 <div class = "button-holder">
-    <div class="button-res"><a href="#" role="button">Documentation</a></div>
-    <div class="button-res"><a href="#" role="button">GitHub Repo</a></div>
-    <div class="button-res"><a href="#" role="button">Demo</a></div>
+    <div class="button-res"><a href="https://docs.google.com/document/d/146Hrbl5qcjx6Rr3uuqSimjE3Emh22gu69EVHmhe9cE0/edit?usp=sharing" role="button">Documentation</a></div>
+    <div class="button-res"><a href="https://github.com/Team-PyRated/PyRated" role="button">GitHub Repo</a></div>
+    <div class="button-res"><a href="https://drive.google.com/drive/folders/1c-n3Ow6nX6MmvXKhw8w523Sz8yiPO59f?usp=sharing" role="button">Demo</a></div>
 </div>
 
 {% endif %}

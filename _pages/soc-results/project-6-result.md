@@ -8,7 +8,7 @@ project: Tools for Data Science
 permalink: /soc-results/project-6-result
 ---
 
-<h2 class="display1 m-3 p-3 text-center">{{page.project}}</h2>
+<h2 class="display1 m-3 p-3 text-center customcol">{{page.project}}</h2>
 {% for project in site.data.settings.soc-items %}
 {% if project.title == page.project %}
 
@@ -31,9 +31,9 @@ permalink: /soc-results/project-6-result
     </div>
 
 <div class = "button-holder">
-    <div class="button-res"><a href="#" role="button">Documentation</a></div>
-    <div class="button-res"><a href="#" role="button">GitHub Repo</a></div>
-    <div class="button-res"><a href="#" role="button">Demo</a></div>
+    <div class="button-res"><a href="https://docs.google.com/document/d/1TwaXT8BVsZYOLcZsNOpv-4mEFPw7h0_jQYTTFcQHl5U/edit">Documentation</a></div>
+    <div class="button-res"><a href="https://github.com/shreyamakkar/SoC-Tools-For-Data-Science" role="button">GitHub Repo</a></div>
+    <div class="button-res"><a href="https://drive.google.com/file/d/1fYoztcRHYtnO2vUX-xGOCM6d4WWaY3e8/view?usp=drivesdk" role="button">Demo</a></div>
 </div>
 
 {% endif %}
