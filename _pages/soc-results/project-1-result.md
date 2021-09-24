@@ -8,7 +8,7 @@ project: Introduction to Web Development
 permalink: /soc-results/project-1-result
 ---
 
-<h2 class="display1 m-3 p-3 text-center customcol">{{page.project}}</h2>
+<h2 class="display1 m-3 p-3 text-center">{{page.project}}</h2>
 {% for project in site.data.settings.soc-items %}
 {% if project.title == page.project %}
 
