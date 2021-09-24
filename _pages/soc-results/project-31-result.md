@@ -8,7 +8,7 @@ project: Physicc - A Simple Physics Engine
 permalink: /soc-results/project-31-result
 ---
 
-<h2 class="display1 m-3 p-3 text-center">{{page.project}}</h2>
+<h2 class="display1 m-3 p-3 text-center customcol">{{page.project}}</h2>
 {% for project in site.data.settings.soc-items %}
 {% if project.title == page.project %}
 
@@ -31,9 +31,9 @@ permalink: /soc-results/project-31-result
     </div>
 
 <div class = "button-holder">
-    <div class="button-res"><a href="#" role="button">Documentation</a></div>
-    <div class="button-res"><a href="#" role="button">GitHub Repo</a></div>
-    <div class="button-res"><a href="#" role="button">Demo</a></div>
+    <div class="button-res"><a href="https://docs.google.com/document/d/10m04gsOCnlQshQAheSXrg9RaM-Csi7VVVSpQ-O8PoDc/edit" role="button">Documentation</a></div>
+    <div class="button-res"><a href="https://github.com/Physicc/Light" role="button">GitHub Repo</a></div>
+    <div class="button-res"><a href="https://drive.google.com/drive/u/1/folders/1dwLivTimQ7QNMAVlpXtUsDEj4ddIDAEb" role="button">Demo</a></div>
 </div>
 
 {% endif %}
