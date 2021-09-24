@@ -8,7 +8,7 @@ project: Image Colorization
 permalink: /soc-results/project-32-result
 ---
 
-<h2 class="display1 m-3 p-3 text-center">{{page.project}}</h2>
+<h2 class="display1 m-3 p-3 text-center customcol">{{page.project}}</h2>
 {% for project in site.data.settings.soc-items %}
 {% if project.title == page.project %}
 
@@ -31,9 +31,9 @@ permalink: /soc-results/project-32-result
     </div>
 
 <div class = "button-holder">
-    <div class="button-res"><a href="#" role="button">Documentation</a></div>
-    <div class="button-res"><a href="#" role="button">GitHub Repo</a></div>
-    <div class="button-res"><a href="#" role="button">Demo</a></div>
+    <div class="button-res"><a href="https://drive.google.com/file/d/1j7kxToAtFc7ftEDuREdnEZeFlDTs2cVe/view" role="button">Documentation</a></div>
+    <div class="button-res"><a href="https://github.com/Vishruth-N/Image-Colorization" role="button">GitHub Repo</a></div>
+    <div class="button-res"><a href="https://drive.google.com/drive/folders/1OTGCFUFqStUGB7HPSEShEpAo0QLof76M?usp=sharing" role="button">Demo</a></div>
 </div>
 
 {% endif %}
