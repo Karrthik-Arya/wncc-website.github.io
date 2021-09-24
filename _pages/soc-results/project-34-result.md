@@ -27,7 +27,7 @@ permalink: /soc-results/project-34-result
     <h4 class="mentors" style="display: inline;">Senthil Vikram Vodapalli, Dharshan</h4>    
     <br>  <br>
     <h4 class="mentor-title" style="display: block;">Mentees</h4> 
-    <h4 class="mentors" style="display: inline;">Sravan, Vanshil Gupta , Dheer Bhanushali, Ayush Trarway, Saksham Katiyar</h4>
+    <h4 class="mentors" style="display: inline;">Sravan, Vanshil Gupta, Dheer Bhanushali, Ayush Trarway, Saksham Katiyar, Ankit Somani</h4>
     </div>
 
 <div class = "button-holder">
