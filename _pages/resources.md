@@ -6,7 +6,7 @@ permalink: /resources/
 <!-- blog -->
 <section class="section">
 <div class="container">
-<h2 class = 'section-title'>Choose your poison:</h2>
+<h2 class = 'section-title text-center'>Choose your poison</h2>
 <div class = "d-flex flex-wrap justify-content-center">
 {% for item in site.data.settings.resources-items %}
         <div class="col-lg-4 mb-3" style = 'width:400px; height: 220px; ' id = "resource-cards">

@@ -24,6 +24,9 @@ permalink: /soc/projects/2021/project-1
     <img src="{{ site.baseurl }}/{{ project.image }}" alt="{{ project.project}}" class="image-3">
     <img src="{{ site.baseurl }}/{{ project.image }}" alt="{{ project.project}}" class="image-4">
 </div>
+<div class = "mobile-img-soc">
+  <img src="{{ site.baseurl }}/{{ project.image }}"  width = "300" height="300" alt="{{ project.project}}" class="border rounded">
+  </div>
 <div >
     <br>
     <ul>
@@ -52,7 +55,7 @@ permalink: /soc/projects/2021/project-1
         <br>
     </p>
 </div>
-<div class = "d-flex">
+<div class = "d-flex flex-wrap">
 <div>
     <h4 class="display3" style="margin:40px 0px 40px 0px;">Tentative Timeline :</h4>
     <table class="table table-striped">

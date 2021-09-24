@@ -25,6 +25,9 @@ permalink: /soc/projects/2021/project-2
     <img src="{{ site.baseurl }}/{{ project.image }}" alt="{{ project.project}}" class="image-3">
     <img src="{{ site.baseurl }}/{{ project.image }}" alt="{{ project.project}}" class="image-4">
 </div>
+<div class = "mobile-img-soc">
+  <img src="{{ site.baseurl }}/{{ project.image }}"  width = "300" height="300" alt="{{ project.project}}" class="border rounded">
+  </div>
 <div>
     <br>
     <ul>
@@ -88,7 +91,7 @@ permalink: /soc/projects/2021/project-2
         Image Super Resolution - <a href = "https://medium.com/beyondminds/an-introduction-to-super-resolution-using-deep-learning-f60aff9a499d">https://medium.com/beyondminds/an-introduction-to-super-resolution-using-deep-learning-f60aff9a499d</a>
         </p>
 </div>
-<div class = "d-flex">
+<div class = "d-flex flex-wrap">
 <div>
     <h4 class="display3" style="margin:40px 0px 40px 0px;">Tentative Timeline :</h4>
     <table class="table table-striped">

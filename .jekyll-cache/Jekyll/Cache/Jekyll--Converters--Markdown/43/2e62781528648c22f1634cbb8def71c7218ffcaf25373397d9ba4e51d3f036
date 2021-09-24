@@ -1,4 +1,4 @@
-I"^<h2 class="display1 m-3 p-3 text-center project-title">(Un)Clear</h2>
+I"<h2 class="display1 m-3 p-3 text-center project-title">(Un)Clear</h2>
 
 <div class="img-soc d-block"> 
     <img src="/wncc-website.github.io/assets/images/soc/2021/item-2.png" alt="" class="image-1" />
@@ -6,6 +6,9 @@
     <img src="/wncc-website.github.io/assets/images/soc/2021/item-2.png" alt="" class="image-3" />
     <img src="/wncc-website.github.io/assets/images/soc/2021/item-2.png" alt="" class="image-4" />
 </div>
+<div class="mobile-img-soc">
+  <img src="/wncc-website.github.io/assets/images/soc/2021/item-2.png" width="300" height="300" alt="" class="border rounded" />
+  </div>
 <div>
     <br />
     <ul>
@@ -73,7 +76,7 @@
         Image Super Resolution - <a href="https://medium.com/beyondminds/an-introduction-to-super-resolution-using-deep-learning-f60aff9a499d">https://medium.com/beyondminds/an-introduction-to-super-resolution-using-deep-learning-f60aff9a499d</a>
         </p>
 </div>
-<div class="d-flex">
+<div class="d-flex flex-wrap">
 <div>
     <h4 class="display3" style="margin:40px 0px 40px 0px;">Tentative Timeline :</h4>
     <table class="table table-striped">
