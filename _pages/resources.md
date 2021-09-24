@@ -49,7 +49,7 @@ permalink: /resources/
             {% if item.name == "wiki" %}         
             {% for label in site.data.settings.wiki %}
             <div class="col-lg-4 col-sm-6 mb-4" id = "wiki">
-                <article class="card shadow">
+                <article class="card shadow h-100">
                     <img class="rounded card-img-top" src="{{ site.baseurl }}/assets/images/resources/{{ label.image }}"
                         alt="{{ label.title }}">
                     <div class="card-body">
@@ -65,7 +65,7 @@ permalink: /resources/
             {% elsif item.name == "ciq" %}
             {% for label in site.data.settings.ciq %}
             <div class="col-lg-4 col-sm-6 mb-4" id = "ciq">
-                <article class="card shadow">
+                <article class="card shadow h-100">
                     <img class="rounded card-img-top" src="{{ site.baseurl }}/assets/images/resources/{{ label.image }}"
                         alt="{{ label.title }}">
                     <div class="card-body">
@@ -81,7 +81,7 @@ permalink: /resources/
             {% elsif item.name == "as" %}
             {% for label in site.data.settings.as %}
             <div class="col-lg-4 col-sm-6 mb-4" id = "as">
-                <article class="card shadow">
+                <article class="card shadow h-100">
                     <img class="rounded card-img-top" src="{{ site.baseurl }}/assets/images/resources/{{ label.image }}"
                         alt="{{ label.title }}">
                     <div class="card-body">
@@ -97,7 +97,7 @@ permalink: /resources/
             {% elsif item.name == "ls21" %}
             {% for label in site.data.settings.ls21 %}
             <div class="col-lg-4 col-sm-6 mb-4" id = "ls21">
-                <article class="card shadow">
+                <article class="card shadow h-100">
                     <img class="rounded card-img-top" src="{{ site.baseurl }}/assets/images/resources/{{ label.image }}"
                         alt="{{ label.title }}">
                     <div class="card-body">
@@ -114,7 +114,7 @@ permalink: /resources/
             {% for label in site.data.settings.ls %}
             <div class="col-lg-4 col-sm-6 mb-4" id = "ls">
                 <article class="card shadow">
-                    <img class="rounded card-img-top" src="{{ site.baseurl }}/assets/images/resources/{{ label.image }}"
+                    <img class="rounded card-img-top h-100" src="{{ site.baseurl }}/assets/images/resources/{{ label.image }}"
                         alt="{{ label.title }}">
                     <div class="card-body">
                         <h4 class="card-title"><a class="text-dark resource-card-title"

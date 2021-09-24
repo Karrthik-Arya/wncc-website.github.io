@@ -1,4 +1,4 @@
-I"³•<!-- blog -->
+I"û•<!-- blog -->
 <section class="section">
 <div class="container">
 <h2 class="section-title text-center">Choose your poison</h2>
@@ -650,7 +650,7 @@
             
             
             <div class="col-lg-4 col-sm-6 mb-4" id="ls21">
-                <article class="card shadow">
+                <article class="card shadow h-100">
                     <img class="rounded card-img-top" src="/wncc-website.github.io/assets/images/resources/tss1.png" alt="Python and its Applications" />
                     <div class="card-body">
                         <h4 class="card-title"><a class="text-dark resource-card-title" href="https://github.com/wncc/TSS-2021/tree/main/Python%20%26%20its%20Applications" target="_blank">Python and its Applications</a></h4>
@@ -662,7 +662,7 @@
             </div>
             
             <div class="col-lg-4 col-sm-6 mb-4" id="ls21">
-                <article class="card shadow">
+                <article class="card shadow h-100">
                     <img class="rounded card-img-top" src="/wncc-website.github.io/assets/images/resources/tss2.png" alt="Intro to App Development" />
                     <div class="card-body">
                         <h4 class="card-title"><a class="text-dark resource-card-title" href="https://github.com/wncc/TSS-2021/tree/main/Intro%20to%20App%20Development" target="_blank">Intro to App Development</a></h4>
@@ -674,7 +674,7 @@
             </div>
             
             <div class="col-lg-4 col-sm-6 mb-4" id="ls21">
-                <article class="card shadow">
+                <article class="card shadow h-100">
                     <img class="rounded card-img-top" src="/wncc-website.github.io/assets/images/resources/tss3.png" alt="Fundamentals of MLOps" />
                     <div class="card-body">
                         <h4 class="card-title"><a class="text-dark resource-card-title" href="https://github.com/wncc/TSS-2021/tree/main/Fundamentals%20of%20MLOps" target="_blank">Fundamentals of MLOps</a></h4>
@@ -1301,7 +1301,7 @@
                      
             
             <div class="col-lg-4 col-sm-6 mb-4" id="wiki">
-                <article class="card shadow">
+                <article class="card shadow h-100">
                     <img class="rounded card-img-top" src="/wncc-website.github.io/assets/images/resources/wiki1.png" alt="Programming_101" />
                     <div class="card-body">
                         <h4 class="card-title"><a class="text-dark resource-card-title" href="https://www.wncc-iitb.org/wiki/index.php/Programming_101" target="_blank">Programming_101</a></h4>
@@ -1313,7 +1313,7 @@
             </div>
             
             <div class="col-lg-4 col-sm-6 mb-4" id="wiki">
-                <article class="card shadow">
+                <article class="card shadow h-100">
                     <img class="rounded card-img-top" src="/wncc-website.github.io/assets/images/resources/wiki2.png" alt="DC++ Setup" />
                     <div class="card-body">
                         <h4 class="card-title"><a class="text-dark resource-card-title" href="https://www.wncc-iitb.org/wiki/index.php/DC%2B%2B_Setup" target="_blank">DC++ Setup</a></h4>
@@ -1325,7 +1325,7 @@
             </div>
             
             <div class="col-lg-4 col-sm-6 mb-4" id="wiki">
-                <article class="card shadow">
+                <article class="card shadow h-100">
                     <img class="rounded card-img-top" src="/wncc-website.github.io/assets/images/resources/wiki3.png" alt="GSoC Project" />
                     <div class="card-body">
                         <h4 class="card-title"><a class="text-dark resource-card-title" href="https://www.wncc-iitb.org/wiki/index.php/GSoC_Projects" target="_blank">GSoC Project</a></h4>
@@ -1337,7 +1337,7 @@
             </div>
             
             <div class="col-lg-4 col-sm-6 mb-4" id="wiki">
-                <article class="card shadow">
+                <article class="card shadow h-100">
                     <img class="rounded card-img-top" src="/wncc-website.github.io/assets/images/resources/wiki4.png" alt="Software Engineering Without CS Major" />
                     <div class="card-body">
                         <h4 class="card-title"><a class="text-dark resource-card-title" href="https://www.wncc-iitb.org/wiki/index.php/Software_Engineering_Without_CS_Major" target="_blank">Software Engineering Without CS Major</a></h4>
@@ -1349,7 +1349,7 @@
             </div>
             
             <div class="col-lg-4 col-sm-6 mb-4" id="wiki">
-                <article class="card shadow">
+                <article class="card shadow h-100">
                     <img class="rounded card-img-top" src="/wncc-website.github.io/assets/images/resources/wiki5.png" alt="Introduction to Git/Github" />
                     <div class="card-body">
                         <h4 class="card-title"><a class="text-dark resource-card-title" href="https://www.wncc-iitb.org/wiki/index.php/Git" target="_blank">Introduction to Git/Github</a></h4>
@@ -1361,7 +1361,7 @@
             </div>
             
             <div class="col-lg-4 col-sm-6 mb-4" id="wiki">
-                <article class="card shadow">
+                <article class="card shadow h-100">
                     <img class="rounded card-img-top" src="/wncc-website.github.io/assets/images/resources/wiki6.png" alt="Community Resources" />
                     <div class="card-body">
                         <h4 class="card-title"><a class="text-dark resource-card-title" href="https://www.wncc-iitb.org/wiki/index.php/Community_Resources" target="_blank">Community Resources</a></h4>
@@ -2675,7 +2675,7 @@
             
             
             <div class="col-lg-4 col-sm-6 mb-4" id="as">
-                <article class="card shadow">
+                <article class="card shadow h-100">
                     <img class="rounded card-img-top" src="/wncc-website.github.io/assets/images/resources/as1.png" alt="Heuristic Search" />
                     <div class="card-body">
                         <h4 class="card-title"><a class="text-dark resource-card-title" href="https://github.com/wncc/algos-simplified/blob/master/Heuristic-Algorithms/README.md" target="_blank">Heuristic Search</a></h4>
@@ -2687,7 +2687,7 @@
             </div>
             
             <div class="col-lg-4 col-sm-6 mb-4" id="as">
-                <article class="card shadow">
+                <article class="card shadow h-100">
                     <img class="rounded card-img-top" src="/wncc-website.github.io/assets/images/resources/as2.png" alt="Encryption" />
                     <div class="card-body">
                         <h4 class="card-title"><a class="text-dark resource-card-title" href="https://github.com/wncc/algos-simplified/blob/master/Encryption_Algorithms/README.md" target="_blank">Encryption</a></h4>
@@ -2699,7 +2699,7 @@
             </div>
             
             <div class="col-lg-4 col-sm-6 mb-4" id="as">
-                <article class="card shadow">
+                <article class="card shadow h-100">
                     <img class="rounded card-img-top" src="/wncc-website.github.io/assets/images/resources/as3.png" alt="Object Detection" />
                     <div class="card-body">
                         <h4 class="card-title"><a class="text-dark resource-card-title" href="https://github.com/wncc/algos-simplified/blob/master/Encryption_Algorithms/README.md" target="_blank">Object Detection</a></h4>
