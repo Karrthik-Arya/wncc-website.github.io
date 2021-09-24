@@ -8,7 +8,7 @@ project: Agree to Disagree
 permalink: /soc-results/project-41-result
 ---
 
-<h2 class="display1 m-3 p-3 text-center">{{page.project}}</h2>
+<h2 class="display1 m-3 p-3 text-center customcol">{{page.project}}</h2>
 {% for project in site.data.settings.soc-items %}
 {% if project.title == page.project %}
 
@@ -31,9 +31,9 @@ permalink: /soc-results/project-41-result
     </div>
 
 <div class = "button-holder">
-    <div class="button-res"><a href="#" role="button">Documentation</a></div>
-    <div class="button-res"><a href="#" role="button">GitHub Repo</a></div>
-    <div class="button-res"><a href="#" role="button">Demo</a></div>
+    <div class="button-res"><a href="https://docs.google.com/document/d/17xrHD6YHUb2czcDyjWUYlZbntkvBSct7Y4jnnyFChk0/edit" role="button">Documentation</a></div>
+ 
+    <div class="button-res"><a href="https://drive.google.com/file/d/1TlNW_h8CWFl3RrZf-Q5OuI0x-rnbmMjj/view?usp=sharing" role="button">Demo</a></div>
 </div>
 
 {% endif %}
