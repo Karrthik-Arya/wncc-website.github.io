@@ -1,4 +1,4 @@
-I"í<h2 class="display1 m-3 p-3 text-center">Break free of the matrix, by building one!</h2>
+I"Ç<h2 class="display1 m-3 p-3 text-center customcol">Break free of the matrix, by building one!</h2>
 
 <div>
     <img src="/wncc-website.github.io/assets/images/soc/2021/item-48.jpeg" width="75%" height="auto" alt="" class="border rounded" style="float: left; margin-top: 3%; margin-right: 3%" />
@@ -16,9 +16,9 @@
     </div>
 
 <div class="button-holder">
-    <div class="button-res"><a href="#" role="button">Documentation</a></div>
-    <div class="button-res"><a href="#" role="button">GitHub Repo</a></div>
-    <div class="button-res"><a href="#" role="button">Demo</a></div>
+    <div class="button-res"><a href="https://docs.google.com/document/d/1t6oM3h3w4NILBOEE9qj9ILv0u2tjn1jhGKQsnVeZZ8g/edit" role="button">Documentation</a></div>
+    <div class="button-res"><a href="https://github.com/ParthDwivedi1/CPPMatrixLib" role="button">GitHub Repo</a></div>
+    <div class="button-res"><a href="https://drive.google.com/file/d/1MQLUz5IxDMuVSVdxKMe_9gvbrJEhQ5g7/view?usp=sharing" role="button">Demo</a></div>
 </div>
 
 :ET

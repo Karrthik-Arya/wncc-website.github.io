@@ -4,9 +4,13 @@
     flex-wrap: wrap;
   }
 }
+
 .table{
     margin-right: 100px;
-    width: fit-content;
+    width: 700px;
+    @include mobile-xs{
+      width: 300px;
+    }
 }
 .project-desc{
     width:600px; 

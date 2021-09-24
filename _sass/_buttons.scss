@@ -74,6 +74,9 @@ button{
   appearance: none;
 }
 .slide-arrow{
+  position: absolute;
+  top: 40%;
+  margin-top: -15px;
   @include mobile{
     display: none;
   }
@@ -81,12 +84,8 @@ button{
     display: none;
   }
   @include mobile-xs{
-    display: none;
+    display: none !important;
   }
-  position: absolute;
-  top: 40%;
-  margin-top: -15px;
-  
 }
 .prev-arrow{
   left: -50px;

@@ -1,8 +1,12 @@
-I"¦<h2 class="display1 m-3 p-3 text-center">Break free of the matrix, by building one!</h2>
+I"ÿ<h2 class="display1 m-3 p-3 text-center project-title">Break free of the matrix, by building one!</h2>
 
-<div>
-    <img src="/wncc-website.github.io/assets/images/soc/2021/item-48.jpeg" width="300" height="300" alt="" class="border rounded img-soc" />
+<div class="img-soc d-block"> 
+    <img src="/wncc-website.github.io/assets/images/soc/2021/item-48.jpeg" alt="" class="image-1" />
+    <img src="/wncc-website.github.io/assets/images/soc/2021/item-48.jpeg" alt="" class="image-2" />
+    <img src="/wncc-website.github.io/assets/images/soc/2021/item-48.jpeg" alt="" class="image-3" />
+    <img src="/wncc-website.github.io/assets/images/soc/2021/item-48.jpeg" alt="" class="image-4" />
 </div>
+
 <div>
     <br />
     <ul>
@@ -25,7 +29,7 @@
     </ul>
 </div>
 <div>
-    <p class="display3" style="font-size:22px;">
+    <p class="display3 project-desc" style="font-size:22px;">
         <br />
         Description:
         
@@ -37,8 +41,9 @@
   </p>
   <br />
 </div>
+<div class="d-flex">
 <div>
-    <h4 class="display3" style="margin:40px 0px 40px 0px;">Tentative Timeline :</h4>
+    <h4 class="display3 " style="margin:40px 0px 40px 0px;">Tentative Timeline :</h4>
     <table class="table table-striped">
   <thead>
     <tr>
@@ -73,6 +78,7 @@
     </tr>
   </tbody>
 </table>
+</div>
 </div>
 
 :ET
