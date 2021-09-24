@@ -15,13 +15,19 @@ mentees:
 permalink: /soc/projects/2021/project-9
 ---
 
-<h2 class="display1 m-3 p-3 text-center">{{page.project}}</h2>
+<h2 class="display1 m-3 p-3 text-center project-title">{{page.project}}</h2>
 
 {% for project in site.data.settings.soc-items %}
 {% if project.title == page.project %}
-<div>
-    <img src="{{ site.baseurl }}/{{ project.image }}"  width = "300" height="300" alt="{{ project.project}}" class="border rounded img-soc">
+<div class ="img-soc d-block"> 
+    <img src="{{ site.baseurl }}/{{ project.image }}" alt="{{ project.project}}" class="image-1">
+    <img src="{{ site.baseurl }}/{{ project.image }}" alt="{{ project.project}}" class="image-2">
+    <img src="{{ site.baseurl }}/{{ project.image }}" alt="{{ project.project}}" class="image-3">
+    <img src="{{ site.baseurl }}/{{ project.image }}" alt="{{ project.project}}" class="image-4">
 </div>
+<div class = "mobile-img-soc">
+  <img src="{{ site.baseurl }}/{{ project.image }}"  width = "300" height="300" alt="{{ project.project}}" class="border rounded">
+  </div>
 <div>
     <br>
     <ul>
@@ -44,10 +50,12 @@ permalink: /soc/projects/2021/project-9
     </ul>
 </div>
 <div>
-    <p class="display3" style = "font-size:22px;" >
+    <p class="display3 project-desc" style = "font-size:22px;" >
         <br>
         The core idea behind this project is to familiarize with Deep NLP (one of the most sough-after domains of AI) & get hands-on experience with various deep network architectures while trying to accomplish 2 major tasks: Sentiment Analysis (Classification) & Automatic Lyrics Generation (Text Generation)
         <br><br>
+        </p>
+        <p class ="display3" style="font-size:22px">
         Natural Language Processing (NLP) is a field of AI that gives the machines the ability to read, understand and derive meaning from human languages. Back in 2014, Sequence to Sequence (Seq2Seq) models revolutionized the field of NLP. Machine Learning is a quickly developing discipline, and it wasn’t too long since even more groundbreaking work built on the shoulders of giants came along. Today, we talk about the hype surrounding Transformer models such as BERT and, most recently, GPT-3.
         <br><br>
         This project involves learning NLP from the ground up. You will be introduced to the fundamental concepts and algorithms used for Natural Language Processing through an in-depth exploration of two different examples: sentiment classification and song lyrics generation. Starting the journey by understanding the basic theory behind Deep NLP, you will maneuver your way through RNNs, LSTMs and GRUs while simultaneously applying the gained knowledge to the sentiment classification task. In the second stage of the project, we will focus on transformers, beginning with using BERT, RoBERTa & XLM for the sentiment classification task, and concluding this project by employing models like GPT & T5 for the song lyrics generation task.
@@ -56,6 +64,7 @@ permalink: /soc/projects/2021/project-9
         <br>
     </p>
 </div>
+<div class ="d-flex">
 <div>
     <h4 class="display3" style="margin:40px 0px 40px 0px;">Tentative Timeline :</h4>
     <table class = "table table-striped">
@@ -137,6 +146,7 @@ permalink: /soc/projects/2021/project-9
     </tr>
   </tbody>
 </table>
+</div>
 </div>
 {% endif %}
 {% endfor %}

@@ -13,13 +13,19 @@ mentees:
 permalink: /soc/projects/2021/project-6
 ---
 
-<h2 class="display1 m-3 p-3 text-center">{{page.project}}</h2>
+<h2 class="display1 m-3 p-3 text-center project-title">{{page.project}}</h2>
 
 {% for project in site.data.settings.soc-items %}
 {% if project.title == page.project %}
-<div>
-    <img src="{{ site.baseurl }}/{{ project.image }}"  width = "300" height="300" alt="{{ project.project}}" class="border rounded img-soc">
+<div class ="img-soc d-block"> 
+    <img src="{{ site.baseurl }}/{{ project.image }}" alt="{{ project.project}}" class="image-1">
+    <img src="{{ site.baseurl }}/{{ project.image }}" alt="{{ project.project}}" class="image-2">
+    <img src="{{ site.baseurl }}/{{ project.image }}" alt="{{ project.project}}" class="image-3">
+    <img src="{{ site.baseurl }}/{{ project.image }}" alt="{{ project.project}}" class="image-4">
 </div>
+<div class = "mobile-img-soc">
+  <img src="{{ site.baseurl }}/{{ project.image }}"  width = "300" height="300" alt="{{ project.project}}" class="border rounded">
+  </div>
 <div>
     <br>
     <ul>
@@ -42,13 +48,14 @@ permalink: /soc/projects/2021/project-6
     </ul>
 </div>
 <div>
-    <p class="display3" style = "font-size:22px;" >
+    <p class="display3 project-desc" style = "font-size:22px;" >
         <br>
         Have you ever wondered what data science is? Or how you should get started with it? This project answers those questions by helping one start off with data science.
         <br><br>
         This project aims at learning basic data science approaches like data transformations and data mining. By the end of the project, you could expect to be comfortable with basic manipulations to data and perform a few data mining techniques. You would also gain basic knowledge of popular python libraries (including but not limited to pandas, numpy, matplotlib and scikit-learn). This project will involve application of these concepts to a project using Python (you are free to choose the project but definitely can get recommendations).
     </p>
 </div>
+<div class ="d-flex">
 <div>
     <h4 class="display3" style="margin:40px 0px 40px 0px;">Tentative Timeline :</h4>
     <table class="table table-striped">
@@ -126,6 +133,7 @@ permalink: /soc/projects/2021/project-6
     </tr>
     </tbody>
     </table>
+</div>
 </div>
 {% endif %}
 {% endfor %}

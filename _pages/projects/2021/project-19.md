@@ -15,13 +15,19 @@ mentees:
 permalink: /soc/projects/2021/project-19
 ---
 
-<h2 class="display1 m-3 p-3 text-center">{{page.project}}</h2>
+<h2 class="display1 m-3 p-3 text-center project-title">{{page.project}}</h2>
 
 {% for project in site.data.settings.soc-items %}
 {% if project.title == page.project %}
-<div>
-    <img src="{{ site.baseurl }}/{{ project.image }}"  width = "300" height="300" alt="{{ project.project}}" class="border rounded img-soc">
+<div class ="img-soc d-block"> 
+    <img src="{{ site.baseurl }}/{{ project.image }}" alt="{{ project.project}}" class="image-1">
+    <img src="{{ site.baseurl }}/{{ project.image }}" alt="{{ project.project}}" class="image-2">
+    <img src="{{ site.baseurl }}/{{ project.image }}" alt="{{ project.project}}" class="image-3">
+    <img src="{{ site.baseurl }}/{{ project.image }}" alt="{{ project.project}}" class="image-4">
 </div>
+<div class = "mobile-img-soc">
+  <img src="{{ site.baseurl }}/{{ project.image }}"  width = "300" height="300" alt="{{ project.project}}" class="border rounded">
+  </div>
 <div>
     <br>
     <ul>
@@ -44,14 +50,18 @@ permalink: /soc/projects/2021/project-19
     </ul>
 </div>
 <div>
-    <p class="display3" style = "font-size:22px;" >
+    <p class="display3 project-desc" style = "font-size:22px;" >
         <br>
         If you wish to get a flavour(yes more or less a flavour) of such techniques, find exoplanets that may support life, estimate galaxy redshifts, classify galaxies based on their visible shapes, do some image processing, then this project is meant for you.
         <br><br>
-        Gone are the days when astronomers kept details of the heavens in their palm-sized journals. The Very Large Array Radio Telescope of New Mexico produces observational data at the rate of 1Tb/s or 36000Tb per night. To tackle these numbers, we develop intricate algorithms. If you wish to get a flavour(yes more or less a flavour) of such techniques, find exoplanets that may support life, estimate galaxy redshifts, classify galaxies based on their visible shapes, do some image processing, then this project is meant for you. We follow methods that are way beyond conventional numerical techniques (that don’t work efficiently with modern data). The project involves learning for both astrophysics enthusiasts as well as lots of coding for programmers, and needless to mention it’s a mix of both for absolute beginners!
+        Gone are the days when astronomers kept details of the heavens in their palm-sized journals. The Very Large Array Radio Telescope of New Mexico produces observational data at the rate of 1Tb/s or 36000Tb per night. To tackle these numbers, we develop intricate algorithms. 
+        </p>
+        <p class="display3" style = "font-size:22px;" >
+        If you wish to get a flavour(yes more or less a flavour) of such techniques, find exoplanets that may support life, estimate galaxy redshifts, classify galaxies based on their visible shapes, do some image processing, then this project is meant for you. We follow methods that are way beyond conventional numerical techniques (that don’t work efficiently with modern data). The project involves learning for both astrophysics enthusiasts as well as lots of coding for programmers, and needless to mention it’s a mix of both for absolute beginners!
         <br>
     </p>
 </div>
+<div class = "d-flex">
 <div>
     <h4 class="display3" style="margin:40px 0px 40px 0px;">Tentative Timeline :</h4>
     <table class= "table table-striped">

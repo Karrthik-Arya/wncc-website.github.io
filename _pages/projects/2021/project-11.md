@@ -15,13 +15,19 @@ mentees:
 permalink: /soc/projects/2021/project-11
 ---
 
-<h2 class="display1 m-3 p-3 text-center">{{page.project}}</h2>
+<h2 class="display1 m-3 p-3 text-center project-title">{{page.project}}</h2>
 
 {% for project in site.data.settings.soc-items %}
 {% if project.title == page.project %}
-<div>
-    <img src="{{ site.baseurl }}/{{ project.image }}"  width = "300" height="300" alt="{{ project.project}}" class="border rounded img-soc">
+<div class ="img-soc d-block"> 
+    <img src="{{ site.baseurl }}/{{ project.image }}" alt="{{ project.project}}" class="image-1">
+    <img src="{{ site.baseurl }}/{{ project.image }}" alt="{{ project.project}}" class="image-2">
+    <img src="{{ site.baseurl }}/{{ project.image }}" alt="{{ project.project}}" class="image-3">
+    <img src="{{ site.baseurl }}/{{ project.image }}" alt="{{ project.project}}" class="image-4">
 </div>
+<div class = "mobile-img-soc">
+  <img src="{{ site.baseurl }}/{{ project.image }}"  width = "300" height="300" alt="{{ project.project}}" class="border rounded">
+  </div>
 <div>
     <br>
     <ul>
@@ -44,7 +50,7 @@ permalink: /soc/projects/2021/project-11
     </ul>
 </div>
 <div>
-    <p class="display3" style = "font-size:22px;" >
+    <p class="display3 project-desc" style = "font-size:22px;" >
         <br>
         In this project, mentees will learn about the four of the famous Convolutional Neural Network (CNN) architectures - AlexNet, VGGNet, ResNet and GoogleNet.
         <br><br>
@@ -52,6 +58,8 @@ permalink: /soc/projects/2021/project-11
         <br><br>
         The project will involve learning about fundamental concepts and algorithms used in machine learning to analyze the salient features of these different architectures and evaluate cases where these models outperform others. After a basic implementation of these architectures using PyTorch, students would move onto use transfer learning to train deeper models on bigger datasets for classification and localization.
         <br><br>
+        </p>
+        <p class="display3" style = "font-size:22px;" >
         Have a look at the case study presented in these slides - <a href = "http://cs231n.stanford.edu/slides/2019/cs231n_2019_lecture09.pdf">http://cs231n.stanford.edu/slides/2019/cs231n_2019_lecture09.pdf</a>
         <br><br>
         Bonus points for comparing performance in a more complex CV task such as face or gesture recognition!
@@ -60,6 +68,7 @@ permalink: /soc/projects/2021/project-11
         <br>
     </p>
 </div>
+<div class ="d-flex">
 <div>
     <table class="table table-striped">
   <thead>
@@ -91,6 +100,7 @@ permalink: /soc/projects/2021/project-11
     </tr>
   </tbody>
 </table>
+</div>
 </div>
 {% endif %}
 {% endfor %}

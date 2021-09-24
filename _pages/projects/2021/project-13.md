@@ -20,9 +20,15 @@ permalink: /soc/projects/2021/project-13
 
 {% for project in site.data.settings.soc-items %}
 {% if project.title == page.project %}
-<div>
-    <img src="{{ site.baseurl }}/{{ project.image }}"  width = "300" height="300" alt="{{ project.project}}" class="border rounded img-soc">
+<div class ="img-soc d-block"> 
+    <img src="{{ site.baseurl }}/{{ project.image }}" alt="{{ project.project}}" class="image-1">
+    <img src="{{ site.baseurl }}/{{ project.image }}" alt="{{ project.project}}" class="image-2">
+    <img src="{{ site.baseurl }}/{{ project.image }}" alt="{{ project.project}}" class="image-3">
+    <img src="{{ site.baseurl }}/{{ project.image }}" alt="{{ project.project}}" class="image-4">
 </div>
+<div class = "mobile-img-soc">
+  <img src="{{ site.baseurl }}/{{ project.image }}"  width = "300" height="300" alt="{{ project.project}}" class="border rounded">
+  </div>
 <div>
     <br>
     <ul>
@@ -45,12 +51,16 @@ permalink: /soc/projects/2021/project-13
     </ul>
 </div>
 <div>
-    <p class="display3" style = "font-size:22px;" >
+    <p class="display3 project-desc" style = "font-size:22px;" >
         <br>
         Ready to make a simple app that can compete with Google Photos?
         <br><br>
-        Description: You must be living under a rock if you are not familiar with Google photos and it’s capabilities. But say you wants you want to nice movie (not google photos’ simple slideshow video) of all your mother and father pictures for their anniversary, and want to scan through your personal dataset for all such pictures and cluster them, can Google photos do it for you? No. You have to upload and wait for clustering and then can’t even get an output back. That’s one of the many features we want our Facial Recognition App to do!
+        Description: You must be living under a rock if you are not familiar with Google photos and it’s capabilities. But say you wants you want to nice movie (not google photos’ simple 
+        </p>
+        <p class="display3" style = "font-size:22px;" >
+        slideshow video) of all your mother and father pictures for their anniversary, and want to scan through your personal dataset for all such pictures and cluster them, can Google photos do it for you? No. You have to upload and wait for clustering and then can’t even get an output back. That’s one of the many features we want our Facial Recognition App to do!
         <br><br>
+        
         We aim to develop a face recognition app capable of detecting all faces included in the image, cropping the faces and extracting their features, and comparing the faces for clustering pictures with same faces. We also plan to develop a GUI that can ask the user to label the unique people identified in the images and run a model that can learn the unique feature of each face to make future predictions on new images and videos. Our app will be able to output the cluster pictures with same faces and output them folder wise to a drive. We also aim to develop many additional features (as many as we can) in our app such as fancy one-click styling picture, image-captioning and cartooning videos that could be applied to whole dataset of user pictures.
         <br><br>
         Some open-source resources having similar ideas of project - <a href="https://www.pyimagesearch.com/2018/06/18/face-recognition-with-opencv-python-and-deep-learning/">https://www.pyimagesearch.com/2018/06/18/face-recognition-with-opencv-python-and-deep-learning/</a> 
@@ -59,6 +69,7 @@ permalink: /soc/projects/2021/project-13
         <br>
     </p>
 </div>
+<div class ="d-flex">
 <div>
     <h4 class="display3" style="margin:40px 0px 40px 0px;">Tentative Timeline :</h4>
     <table class="table table-striped">
@@ -124,6 +135,7 @@ permalink: /soc/projects/2021/project-13
     </tr>
   </tbody>
 </table>
+</div>
 </div>
 {% endif %}
 {% endfor %}

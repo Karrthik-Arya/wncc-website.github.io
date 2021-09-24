@@ -15,13 +15,19 @@ mentees:
 permalink: /soc/projects/2021/project-7
 ---
 
-<h2 class="display1 m-3 p-3 text-center">{{page.project}}</h2>
+<h2 class="display1 m-3 p-3 text-center project-title">{{page.project}}</h2>
 
 {% for project in site.data.settings.soc-items %}
 {% if project.title == page.project %}
-<div>
-    <img src="{{ site.baseurl }}/{{ project.image }}"  width = "300" height="300" alt="{{ project.project}}" class="border rounded img-soc">
+<div class ="img-soc d-block"> 
+    <img src="{{ site.baseurl }}/{{ project.image }}" alt="{{ project.project}}" class="image-1">
+    <img src="{{ site.baseurl }}/{{ project.image }}" alt="{{ project.project}}" class="image-2">
+    <img src="{{ site.baseurl }}/{{ project.image }}" alt="{{ project.project}}" class="image-3">
+    <img src="{{ site.baseurl }}/{{ project.image }}" alt="{{ project.project}}" class="image-4">
 </div>
+<div class = "mobile-img-soc">
+  <img src="{{ site.baseurl }}/{{ project.image }}"  width = "300" height="300" alt="{{ project.project}}" class="border rounded">
+  </div>
 <div>
     <br>
     <ul>
@@ -44,12 +50,13 @@ permalink: /soc/projects/2021/project-7
     </ul>
 </div>
 <div>
-    <p class="display3" style = "font-size:22px;" >
+    <p class="display3 project-desc" style = "font-size:22px;" >
         <br>
         The idea is to develop a spatial distribution model for Air Pollution for the city of Delhi using SVR (Support Vector Regression) and the model will be self enhancing using machine learning.
         <br><br>
         Description: The city of Delhi is chosen because of two reasons, first one being that it is one of the most polluted metropolitans in India and world, and secondly it is the city with more highest number of CAAQMS (Continuous Ambient Air Quality Monitoring Stations) in India. The data source for all the data will be website of CPCB (Central Pollution Control Board) and the model would be presented on a python based web interface.
-        <br><br>
+        <br><br></p>
+        <p class ="display3" style = "font-size:22px">
         The aim to develop this model is to provide a open source model for Research in this direction and my personal interest to work in the area of Ambient Air Quality Control.
         <br><br>
         This is not a entirely new idea and a lot of models have been made, but no open source model is available for Indian cities. Thus there are lot of research papers available on this topic on Google Scholar. A few of them which I suggest you to read are: <br><a href = "https://ieeexplore.ieee.org/abstract/document/7892954">https://ieeexplore.ieee.org/abstract/document/7892954</a><br> <a href = "https://www.x-mol.com/paper/1252735758843666432">https://www.x-mol.com/paper/1252735758843666432</a>
@@ -57,6 +64,7 @@ permalink: /soc/projects/2021/project-7
         I do not expect much from, your proposal, The only need is enthusiasm to work in Machine Learning or Air Quality and Pollution would suffice. And it would be a fun learning process, where we all can learn together. No prerequisites, but some knowledge of Machine Learning or Python will be icing on the cake!
     </p>
 </div>
+<div class ="d-flex">
 <div>
     <h4 class="display3" style="margin:40px 0px 40px 0px;">Tentative Timeline :</h4>
     <table class="table table-striped">
@@ -118,6 +126,7 @@ permalink: /soc/projects/2021/project-7
     </tr>
     </tbody>
     </table>
+</div>
 </div>
 {% endif %}
 {% endfor %}

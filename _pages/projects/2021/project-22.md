@@ -14,13 +14,19 @@ mentees:
 permalink: /soc/projects/2021/project-22
 ---
 
-<h2 class="display1 m-3 p-3 text-center">{{page.project}}</h2>
+<h2 class="display1 m-3 p-3 text-center project-title">{{page.project}}</h2>
 
 {% for project in site.data.settings.soc-items %}
 {% if project.title == page.project %}
-<div>
-    <img src="{{ site.baseurl }}/{{ project.image }}"  width = "300" height="300" alt="{{ project.project}}" class="border rounded img-soc">
+<div class ="img-soc d-block"> 
+    <img src="{{ site.baseurl }}/{{ project.image }}" alt="{{ project.project}}" class="image-1">
+    <img src="{{ site.baseurl }}/{{ project.image }}" alt="{{ project.project}}" class="image-2">
+    <img src="{{ site.baseurl }}/{{ project.image }}" alt="{{ project.project}}" class="image-3">
+    <img src="{{ site.baseurl }}/{{ project.image }}" alt="{{ project.project}}" class="image-4">
 </div>
+<div class = "mobile-img-soc">
+  <img src="{{ site.baseurl }}/{{ project.image }}"  width = "300" height="300" alt="{{ project.project}}" class="border rounded">
+  </div>
 <div>
     <br>
     <ul>
@@ -43,12 +49,14 @@ permalink: /soc/projects/2021/project-22
     </ul>
 </div>
 <div>
-    <p class="display3" style = "font-size:22px;" >
+    <p class="display3 project-desc" style = "font-size:22px;" >
         <br>
         The perfect project for all the quantum physics enthusiasts. The code you will create for this project could one day break RSA/ revolutionise machine learning once the real hardware catches up.
         <br><br>
         Quantum Computing is often lauded as one of the next big things that is going to change the computing landscape forever. Unfortunately it is still quite difficult to put it into practice because our physical technology has not quite caught up to it yet.
         <br><br>
+        </p>
+        <p class="display3" style = "font-size:22px;" >
         The theory of quantum computing is very rich, and in this project you will aim to study Quantum Computing (in detail), learn about quantum algorithms and attempt to create a simple centralised repository implementing difficult classical problems in a quantum programming language (Q#/Qiskit). The aim is to build a quantum random generator, break RSA (on small inputs: using Shor’s algorithm), run Grover’s Search and time permitting look at some Quantum Machine Learning.
         <br><br>
         Note that these are simulated quantum programming languages (they can run on real hardware, but we don’ t have that!) and the simulators don’t work on large inputs (can’t simulate too many qubits!). As such this is not the project that will break RSA (google it up!) and end encryption, but instead more of a proof of concept showing how (once the hardware catches up) QC will break everything. In principle, assuming Q#/Qiskit are backwards compatible, the code you will create for this project could one day break RSA/ revolutionise machine learning once the real hardware catches up.
@@ -63,6 +71,7 @@ permalink: /soc/projects/2021/project-22
         <br>
     </p>
 </div>
+<div class ="d-flex">
 <div>
     <h4 class="display3" style="margin:40px 0px 40px 0px;">Tentative Timeline :</h4>
     <table class="table table-striped">

@@ -15,13 +15,19 @@ mentees:
 permalink: /soc/projects/2021/project-26
 ---
 
-<h2 class="display1 m-3 p-3 text-center">{{page.project}}</h2>
+<h2 class="display1 m-3 p-3 text-center project-title">{{page.project}}</h2>
 
 {% for project in site.data.settings.soc-items %}
 {% if project.title == page.project %}
-<div>
-    <img src="{{ site.baseurl }}/{{ project.image }}"  width = "300" height="300" alt="{{ project.project}}" class="border rounded img-soc">
+<div class ="img-soc d-block"> 
+    <img src="{{ site.baseurl }}/{{ project.image }}" alt="{{ project.project}}" class="image-1">
+    <img src="{{ site.baseurl }}/{{ project.image }}" alt="{{ project.project}}" class="image-2">
+    <img src="{{ site.baseurl }}/{{ project.image }}" alt="{{ project.project}}" class="image-3">
+    <img src="{{ site.baseurl }}/{{ project.image }}" alt="{{ project.project}}" class="image-4">
 </div>
+<div class = "mobile-img-soc">
+  <img src="{{ site.baseurl }}/{{ project.image }}"  width = "300" height="300" alt="{{ project.project}}" class="border rounded">
+  </div>
 <div>
     <br>
     <ul>
@@ -44,14 +50,18 @@ permalink: /soc/projects/2021/project-26
     </ul>
 </div>
 <div>
-    <p class="display3" style = "font-size:22px;" >
+    <p class="display3 project-desc" style = "font-size:22px;" >
         <br>
         A project that helps you create such a client based application for all document related operations in a single location, which includes reading handwritten notes!
 
-        Description: How often have you wanted to combine the speed of handwritten notes to the neatness of latex printed document? Here is a project that helps you create such a client based application for all document related operations in a single location, which includes reading handwritten notes!!!. Here you will create a browser based PDF editor which will have various tools like organise pages, merges, split pdfs, rotate, etc, and scan handwritten notes. What you can expect to learn: Angular Javascript Some reading material to start you off: https://angular.io/ https://material.angular.io/components/categories https://pdf-lib.js.org/ https://tesseract.projectnaptha.com/ https://en.wikipedia.org/wiki/Optical_character_recognition
+        Description: How often have you wanted to combine the speed of handwritten notes to the neatness of latex printed document? 
+        </p>
+         <p class="display3" style = "font-size:22px;" >
+        Here is a project that helps you create such a client based application for all document related operations in a single location, which includes reading handwritten notes!!!. Here you will create a browser based PDF editor which will have various tools like organise pages, merges, split pdfs, rotate, etc, and scan handwritten notes. What you can expect to learn: Angular Javascript Some reading material to start you off: https://angular.io/ https://material.angular.io/components/categories https://pdf-lib.js.org/ https://tesseract.projectnaptha.com/ https://en.wikipedia.org/wiki/Optical_character_recognition
   </p>
   <br>
 </div>
+<div class ="d-flex">
 <div>
     <h4 class="display3" style="margin:40px 0px 40px 0px;">Tentative Timeline :</h4>
     <table class="table table-striped">

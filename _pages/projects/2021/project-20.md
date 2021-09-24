@@ -15,13 +15,19 @@ mentees:
 permalink: /soc/projects/2021/project-20
 ---
 
-<h2 class="display1 m-3 p-3 text-center">{{page.project}}</h2>
+<h2 class="display1 m-3 p-3 text-center project-title">{{page.project}}</h2>
 
 {% for project in site.data.settings.soc-items %}
 {% if project.title == page.project %}
-<div>
-    <img src="{{ site.baseurl }}/{{ project.image }}"  width = "300" height="300" alt="{{ project.project}}" class="border rounded img-soc">
+<div class ="img-soc d-block"> 
+    <img src="{{ site.baseurl }}/{{ project.image }}" alt="{{ project.project}}" class="image-1">
+    <img src="{{ site.baseurl }}/{{ project.image }}" alt="{{ project.project}}" class="image-2">
+    <img src="{{ site.baseurl }}/{{ project.image }}" alt="{{ project.project}}" class="image-3">
+    <img src="{{ site.baseurl }}/{{ project.image }}" alt="{{ project.project}}" class="image-4">
 </div>
+<div class = "mobile-img-soc">
+  <img src="{{ site.baseurl }}/{{ project.image }}"  width = "300" height="300" alt="{{ project.project}}" class="border rounded">
+  </div>
 <div>
     <br>
     <ul>
@@ -44,12 +50,14 @@ permalink: /soc/projects/2021/project-20
     </ul>
 </div>
 <div>
-    <p class="display3" style = "font-size:22px;" >
+    <p class="display3 project-desc" style = "font-size:22px;" >
         <br>
         Computer Vision. You might’ve heard of this extremely versatile domain and some of you might even be familiar with it. With applications ranging from self-driving cars to say, automated translation, this is a very handy and not to mention, cool thing to know and in this project, we aim to do just that.
         <br><br>
         Pre-requisites: Python programming, and some basic ML experience might be helpful
         <br><br>
+        </p>
+        <p class="display3" style = "font-size:22px;" >
         We would implement various vision-based algorithms using machine learning to drive a car autonomously using a single front camera.
         <br><br>
         We would explore both end to end models and Pipeline based models. The Pipeline could contain various smaller models like depth estimation, 3d object detection, lane detection, semantic segmentation, visual odometry etc. Many papers are available online. We can train and test our models on any freely available simulators. We can even self-drive in games like GTA V ;)
@@ -59,22 +67,23 @@ permalink: /soc/projects/2021/project-20
         Include the following in your proposal:-
         <br></p>
         <ul style = "list-style-type:disc">
-        <li class = "display3 mb-2" style = "font-size:18px">Your understanding of the project</li>
-        <li class = "display3 mb-2" style = "font-size:18px">Motivation</li>
-        <li class = "display3 mb-2" style = "font-size:18px">Background and experience</li>
-        <li class = "display3 mb-2" style = "font-size:18px">Weekly timeline based on your efficiency and background</li>
+        <li class = "display3 mb-2" style = "font-size:20px">Your understanding of the project</li>
+        <li class = "display3 mb-2" style = "font-size:20px">Motivation</li>
+        <li class = "display3 mb-2" style = "font-size:20px">Background and experience</li>
+        <li class = "display3 mb-2" style = "font-size:20px">Weekly timeline based on your efficiency and background</li>
         </ul><br>
         <p class = "display3" style = "font-size:20px">
         Some References:-
         </p>
         <br><ul style = "list-style-type:disc">
-         <li class = "display3 mb-2" style = "font-size:18px">End to End model by NVIDIA:- <a href = "https://arxiv.org/pdf/2010.08776.pdf">https://arxiv.org/pdf/2010.08776.pdf</a></li>
-         <li class = "display3 mb-2" style = "font-size:18px">Similar Project on GTA V:- <a href="https://github.com/Will-J-Gale/GTA5-Self-Driving-Car">https://github.com/Will-J-Gale/GTA5-Self-Driving-Car</a></li>
-         <li class = "display3 mb-2" style = "font-size:18px">Deep Learning Course:- <a href = "https://www.coursera.org/specializations/deep-learning">https://www.coursera.org/specializations/deep-learning</a></li>
-         <li class = "display3 mb-2" style = "font-size:18px">Pytorch:- <a href = "https://pytorch.org/tutorials/">https://pytorch.org/tutorials/</a></li>
+         <li class = "display3 mb-2" style = "font-size:20px">End to End model by NVIDIA:- <a href = "https://arxiv.org/pdf/2010.08776.pdf">https://arxiv.org/pdf/2010.08776.pdf</a></li>
+         <li class = "display3 mb-2" style = "font-size:20px">Similar Project on GTA V:- <a href="https://github.com/Will-J-Gale/GTA5-Self-Driving-Car">https://github.com/Will-J-Gale/GTA5-Self-Driving-Car</a></li>
+         <li class = "display3 mb-2" style = "font-size:20px">Deep Learning Course:- <a href = "https://www.coursera.org/specializations/deep-learning">https://www.coursera.org/specializations/deep-learning</a></li>
+         <li class = "display3 mb-2" style = "font-size:20px">Pytorch:- <a href = "https://pytorch.org/tutorials/">https://pytorch.org/tutorials/</a></li>
         </ul>
         <br>
 </div>
+<div class = 'd-flex'>
 <div>
     <h4 class="display3" style="margin:40px 0px 40px 0px;">Tentative Timeline :</h4>
     <table class="table table-striped">

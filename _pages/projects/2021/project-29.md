@@ -14,13 +14,19 @@ mentees:
 permalink: /soc/projects/2021/project-29
 ---
 
-<h2 class="display1 m-3 p-3 text-center">{{page.project}}</h2>
+<h2 class="display1 m-3 p-3 text-center project-title">{{page.project}}</h2>
 
 {% for project in site.data.settings.soc-items %}
 {% if project.title == page.project %}
-<div>
-    <img src="{{ site.baseurl }}/{{ project.image }}"  width = "300" height="300" alt="{{ project.project}}" class="border rounded img-soc">
+<div class ="img-soc d-block"> 
+    <img src="{{ site.baseurl }}/{{ project.image }}" alt="{{ project.project}}" class="image-1">
+    <img src="{{ site.baseurl }}/{{ project.image }}" alt="{{ project.project}}" class="image-2">
+    <img src="{{ site.baseurl }}/{{ project.image }}" alt="{{ project.project}}" class="image-3">
+    <img src="{{ site.baseurl }}/{{ project.image }}" alt="{{ project.project}}" class="image-4">
 </div>
+<div class = "mobile-img-soc">
+  <img src="{{ site.baseurl }}/{{ project.image }}"  width = "300" height="300" alt="{{ project.project}}" class="border rounded">
+  </div>
 <div>
     <br>
     <ul>
@@ -43,17 +49,18 @@ permalink: /soc/projects/2021/project-29
     </ul>
 </div>
 <div>
-    <p class="display3" style = "font-size:22px;" >
+    <p class="display3 project-desc" style = "font-size:22px; margin-bottom: 350px" >
         <br>
             Have a look at CodeBullet YouTube channel There are many interesting games solved by RL or deep RL agents https://youtube.com/c/CodeBullet
-
+            <br>
             Go through the documentation of gym environments.I have implemented a q-learning agent for the Mountain car environment have a look: https://github.com/Mithun691/mountainCar-Qlearning
-
+            <br>
             Reinforcement Learning: An Introduction Book by Andrew Barto and Richard S. Sutton is a great book for RL
-
+            <br>
             Prerequisites: Python programming Calculus, linear algebra and probability theory
 </p><br>
 </div>
+<div class ="d-flex">
 <div>
     <h4 class="display3" style="margin:40px 0px 40px 0px;">Tentative Timeline :</h4>
     <table class="table table-striped"> 

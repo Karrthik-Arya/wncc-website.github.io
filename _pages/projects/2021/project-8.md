@@ -15,13 +15,19 @@ mentees:
 permalink: /soc/projects/2021/project-8
 ---
 
-<h2 class="display1 m-3 p-3 text-center">{{page.project}}</h2>
+<h2 class="display1 m-3 p-3 text-center project-title">{{page.project}}</h2>
 
 {% for project in site.data.settings.soc-items %}
 {% if project.title == page.project %}
-<div>
-    <img src="{{ site.baseurl }}/{{ project.image }}"  width = "300" height="300" alt="{{ project.project}}" class="border rounded img-soc">
+<div class ="img-soc d-block"> 
+    <img src="{{ site.baseurl }}/{{ project.image }}" alt="{{ project.project}}" class="image-1">
+    <img src="{{ site.baseurl }}/{{ project.image }}" alt="{{ project.project}}" class="image-2">
+    <img src="{{ site.baseurl }}/{{ project.image }}" alt="{{ project.project}}" class="image-3">
+    <img src="{{ site.baseurl }}/{{ project.image }}" alt="{{ project.project}}" class="image-4">
 </div>
+<div class = "mobile-img-soc">
+  <img src="{{ site.baseurl }}/{{ project.image }}"  width = "300" height="300" alt="{{ project.project}}" class="border rounded">
+  </div>
 <div>
     <br>
     <ul>
@@ -44,16 +50,20 @@ permalink: /soc/projects/2021/project-8
     </ul>
 </div>
 <div>
-    <p class="display3" style = "font-size:22px;" >
+    <p class="display3 project-desc" style = "font-size:22px;" >
         <br>
         The project will aim more towards Machine learning on the Audio dataset, and the drone would only be used as an application.
         <br><br>
-        Work would start by getting familiar with Px4, Gazebo, and ROS. Students will prepare the audio dataset consisting of 10 most used commands for controlling the drone, such as “take-off,” “hover,” and “land.” The main task would be to implement the most common and effective CNN architectures for audio classification. The model would be continuously tested using a proper validation set. The project could be extended to one of the problems depending on the pace of the project, 1) Getting high accuracy on multiple Indian accents 2) Giving custom commands to drone ( Move up with Medium speed)
+        Work would start by getting familiar with Px4, Gazebo, and ROS. Students will prepare the audio dataset consisting of 10 most used commands for controlling the drone, such as “take-off,” “hover,” and “land.” The main task would be to implement the most common and effective CNN architectures for audio classification.
+        </p>
+        <p class = "display3" style = "font-size:22px">
+         The model would be continuously tested using a proper validation set. The project could be extended to one of the problems depending on the pace of the project, 1) Getting high accuracy on multiple Indian accents 2) Giving custom commands to drone ( Move up with Medium speed)
         <br><br>
         The mentees should have previous working experience on any deep learning project. The proposal should contain titles of all the machine learning courses or projects you have done before.
         <br>
     </p>
 </div>
+<div class = "d-flex">
 <div>
     <h4 class="display3" style="margin:40px 0px 40px 0px;">Tentative Timeline :</h4>
     <table class="table table-striped">
@@ -119,6 +129,7 @@ permalink: /soc/projects/2021/project-8
     </tr>
     </tbody>
     </table>
+</div>
 </div>
 {% endif %}
 {% endfor %}

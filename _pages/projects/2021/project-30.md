@@ -13,13 +13,19 @@ mentees:
 permalink: /soc/projects/2021/project-30
 ---
 
-<h2 class="display1 m-3 p-3 text-center">{{page.project}}</h2>
+<h2 class="display1 m-3 p-3 text-center project-title">{{page.project}}</h2>
 
 {% for project in site.data.settings.soc-items %}
 {% if project.title == page.project %}
-<div>
-    <img src="{{ site.baseurl }}/{{ project.image }}"  width = "300" height="300" alt="{{ project.project}}" class="border rounded img-soc">
+<div class ="img-soc d-block"> 
+    <img src="{{ site.baseurl }}/{{ project.image }}" alt="{{ project.project}}" class="image-1">
+    <img src="{{ site.baseurl }}/{{ project.image }}" alt="{{ project.project}}" class="image-2">
+    <img src="{{ site.baseurl }}/{{ project.image }}" alt="{{ project.project}}" class="image-3">
+    <img src="{{ site.baseurl }}/{{ project.image }}" alt="{{ project.project}}" class="image-4">
 </div>
+<div class = "mobile-img-soc">
+  <img src="{{ site.baseurl }}/{{ project.image }}"  width = "300" height="300" alt="{{ project.project}}" class="border rounded">
+  </div>
 <div>
     <br>
     <ul>
@@ -42,18 +48,19 @@ permalink: /soc/projects/2021/project-30
     </ul>
 </div>
 <div>
-    <p class="display3" style = "font-size:22px;" >
+    <p class="display3 project-desc" style = "font-size:22px;" >
         <br>
         The experiments would be carried using libraries: OpenAI Gym and FinRL. A strong inclination towards mathematics is required(this should reflect in the proposal). The project would include experiments on NASDAQ-100, DJIA, S&P 500, HSI datasets. The tasks would be different for freshies and sophies. The task for freshies would be more focussed on reinforcement learning algorithms with a few experiments on the datasets towards the end. The ones for sophies would be heavier on the implementation side. The project would include contribution to the Note that this would be more of a reinforcement learning project than a core finance project. The final aim of the project is to set baselines for RL algorithms using different datasets.
-
+        <br>
         It is mandatory to read the following blogs and summarize the content in the proposal:<a href = "https://medium.com/ai%C2%B3-theory-practice-business/reinforcement-learning-part-1-a-brief-introduction-a53a849771cf">https://medium.com/ai%C2%B3-theory-practice-business/reinforcement-learning-part-1-a-brief-introduction-a53a849771cf</a>
         <a href = "https://blog.floydhub.com/an-introduction-to-q-learning-reinforcement-learning/ https://deepsense.ai/what-is-reinforcement-learning-the-complete-guide/">https://blog.floydhub.com/an-introduction-to-q-learning-reinforcement-learning/ https://deepsense.ai/what-is-reinforcement-learning-the-complete-guide/</a> <a href = "https://analyticsindiamag.com/reinforcement-learning-in-finance-a-newbie-in-portfolio-selection-and-allocation/">https://analyticsindiamag.com/reinforcement-learning-in-finance-a-newbie-in-portfolio-selection-and-allocation/</a>
-
+        <br>
         Prerequisites:
         Freshies: Prior experience in python/C++.
         Sophies: A completed course in Machine learning and a basic course in probability. Prior exposure to convex optimization would be an add-on(but not necessary). Sophies should explicitly mention their other commitments during the summers in their proposal.
   </p><br>
 </div>
+<div class ="d-flex">
 <div>
     <h4 class="display3" style="margin:40px 0px 40px 0px;">Tentative Timeline :</h4>
     <table class="table table-striped">

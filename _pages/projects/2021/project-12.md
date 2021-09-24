@@ -13,13 +13,19 @@ mentees:
 permalink: /soc/projects/2021/project-12
 ---
 
-<h2 class="display1 m-3 p-3 text-center">{{page.project}}</h2>
+<h2 class="display1 m-3 p-3 text-center project-title">{{page.project}}</h2>
 
 {% for project in site.data.settings.soc-items %}
 {% if project.title == page.project %}
-<div>
-    <img src="{{ site.baseurl }}/{{ project.image }}"  width = "300" height="300" alt="{{ project.project}}" class="border rounded img-soc">
+<div class ="img-soc d-block"> 
+    <img src="{{ site.baseurl }}/{{ project.image }}" alt="{{ project.project}}" class="image-1">
+    <img src="{{ site.baseurl }}/{{ project.image }}" alt="{{ project.project}}" class="image-2">
+    <img src="{{ site.baseurl }}/{{ project.image }}" alt="{{ project.project}}" class="image-3">
+    <img src="{{ site.baseurl }}/{{ project.image }}" alt="{{ project.project}}" class="image-4">
 </div>
+<div class = "mobile-img-soc">
+  <img src="{{ site.baseurl }}/{{ project.image }}"  width = "300" height="300" alt="{{ project.project}}" class="border rounded">
+  </div>
 <div>
     <br>
     <ul>
@@ -42,10 +48,12 @@ permalink: /soc/projects/2021/project-12
     </ul>
 </div>
 <div>
-    <p class="display3" style = "font-size:22px;" >
+    <p class="display3 project-desc" style = "font-size:22px;" >
         <br>
         In this project, we’ll build a snake game from scratch, and implement both basic Reinforcement Learning and Deep Reinforcement Learning techniques to help the snake master the game and get really high scores.
         <br><br>
+        </p>
+        <p class="display3" style = "font-size:22px;" >
         Reinforcement learning (RL) is an area of machine learning concerned with how intelligent agents ought to take actions in an environment in order to maximize the notion of cumulative reward. A reinforcement learning agent is capable of learning on its own by exploring its environment to determine the best action to take in a certain situation.
         <br><br>
         In this project, we’ll build a snake game from scratch, and implement both basic Reinforcement Learning and Deep Reinforcement Learning techniques to help the snake master the game and get really high scores. Check out this gif to see how the agent will get better as it keeps playing: <a href = "https://drive.google.com/file/d/1MnOe8JvfhyjQLZEXpKmxDtKR1B8MJKY7/view?usp=sharing">https://drive.google.com/file/d/1MnOe8JvfhyjQLZEXpKmxDtKR1B8MJKY7/view?usp=sharing</a> If time permits, we’ll also create an agent that learns to play the Flappy Bird game amazingly well.
@@ -54,6 +62,7 @@ permalink: /soc/projects/2021/project-12
         <br>
     </p>
 </div>
+<div class ="d-flex">
 <div>
     <h4 class="display3" style="margin:40px 0px 40px 0px;">Tentative Timeline :</h4>
     <table class = "table table-striped">
@@ -115,6 +124,7 @@ permalink: /soc/projects/2021/project-12
     </tr>
   </tbody>
 </table>
+</div>
 </div>
 {% endif %}
 {% endfor %}

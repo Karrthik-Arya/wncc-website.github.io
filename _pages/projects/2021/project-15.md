@@ -16,13 +16,19 @@ mentees:
 permalink: /soc/projects/2021/project-15
 ---
 
-<h2 class="display1 m-3 p-3 text-center">{{page.project}}</h2>
+<h2 class="display1 m-3 p-3 text-center project-title">{{page.project}}</h2>
 
 {% for project in site.data.settings.soc-items %}
 {% if project.title == page.project %}
-<div>
-    <img src="{{ site.baseurl }}/{{ project.image }}"  width = "300" height="300" alt="{{ project.project}}" class="border rounded img-soc">
+<div class ="img-soc d-block"> 
+    <img src="{{ site.baseurl }}/{{ project.image }}" alt="{{ project.project}}" class="image-1">
+    <img src="{{ site.baseurl }}/{{ project.image }}" alt="{{ project.project}}" class="image-2">
+    <img src="{{ site.baseurl }}/{{ project.image }}" alt="{{ project.project}}" class="image-3">
+    <img src="{{ site.baseurl }}/{{ project.image }}" alt="{{ project.project}}" class="image-4">
 </div>
+<div class = "mobile-img-soc">
+  <img src="{{ site.baseurl }}/{{ project.image }}"  width = "300" height="300" alt="{{ project.project}}" class="border rounded">
+  </div>
 <div>
     <br>
     <ul>
@@ -45,12 +51,14 @@ permalink: /soc/projects/2021/project-15
     </ul>
 </div>
 <div>
-    <p class="display3" style = "font-size:22px;" >
+    <p class="display3 project-desc" style = "font-size:22px;" >
         <br>
         The end goal is to deploy a RL based agent for automated stock trading.
         <br><br>
         Reinforcement learning might sound exotic and advanced, but the underlying concept of this technique is quite simple. In fact, everyone knows about it since childhood!
         <br><br>
+        </p>
+        <p class="display3" style = "font-size:22px;" >
         As a kid, you were always given a reward for excelling in sports or studies. Also, you were reprimanded or scolded for doing something mischievous like breaking a vase. This was a way to change your behaviour. Suppose you would get a bicycle or PlayStation for coming first, you would practice a lot to come first. And since you knew that breaking a vase meant trouble, you would be careful around it. This is called reinforcement learning.
         <br><br>
         The reward served as positive reinforcement while the punishment served as negative reinforcement. In this manner, your elders shaped your learning. In a similar way, the RL algorithm can learn to trade in financial markets on its own by looking at the rewards or punishments received for the actions.
@@ -67,6 +75,7 @@ permalink: /soc/projects/2021/project-15
         <br>
     </p>
 </div>
+<div class = "d-flex">
 <div>
     <h4 class="display3" style="margin:40px 0px 40px 0px;">Tentative Timeline :</h4>
     <table class="table table-striped">
@@ -132,6 +141,7 @@ permalink: /soc/projects/2021/project-15
     </tr>
   </tbody>
 </table>
+</div>
 </div>
 {% endif %}
 {% endfor %}

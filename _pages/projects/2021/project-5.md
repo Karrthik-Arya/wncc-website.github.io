@@ -25,6 +25,9 @@ permalink: /soc/projects/2021/project-5
     <img src="{{ site.baseurl }}/{{ project.image }}" alt="{{ project.project}}" class="image-3">
     <img src="{{ site.baseurl }}/{{ project.image }}" alt="{{ project.project}}" class="image-4">
 </div>
+<div class = "mobile-img-soc">
+  <img src="{{ site.baseurl }}/{{ project.image }}"  width = "300" height="300" alt="{{ project.project}}" class="border rounded">
+  </div>
 <div>
     <br>
     <ul>
