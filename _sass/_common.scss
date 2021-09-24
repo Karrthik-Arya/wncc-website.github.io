@@ -10,6 +10,12 @@ html{
 p{
   font-size: 22px;
 }
+a :hover{
+  color: rgb(167, 255, 255)!important;
+}
+.display3 :hover{
+  color: rgb(167, 255, 255)!important;
+}
 .font-secondary{
   font: size 22px, !important ;
 }
@@ -441,6 +447,10 @@ textarea.form-control{
 
   & .resource-card-title:hover{
     color: rgb(177, 214, 246)!important;
+  }
+
+  & a :hover{
+    color: rgb(167, 255, 255)!important;
   }
 }
 
