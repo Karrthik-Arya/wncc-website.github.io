@@ -45,7 +45,9 @@
 }
 
 #facts{
+  @include mobile-xs{
   font-size: 40px;
+  }
 }
 
 /* /education */
