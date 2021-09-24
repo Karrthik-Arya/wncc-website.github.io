@@ -8,7 +8,7 @@ project: Unscripted
 permalink: /soc-results/project-42-result
 ---
 
-<h2 class="display1 m-3 p-3 text-center">{{page.project}}</h2>
+<h2 class="display1 m-3 p-3 text-center customcol">{{page.project}}</h2>
 {% for project in site.data.settings.soc-items %}
 {% if project.title == page.project %}
 
@@ -31,9 +31,9 @@ permalink: /soc-results/project-42-result
     </div>
 
 <div class = "button-holder">
-    <div class="button-res"><a href="#" role="button">Documentation</a></div>
-    <div class="button-res"><a href="#" role="button">GitHub Repo</a></div>
-    <div class="button-res"><a href="#" role="button">Demo</a></div>
+    <div class="button-res"><a href="https://docs.google.com/document/d/1MBdRzZEemJzRm6C01b96XsvpIL9YhqOl/edit" role="button">Documentation</a></div>
+    <div class="button-res"><a href="https://github.com/ayushgopal/Unscripted_Personal" role="button">GitHub Repo</a></div>
+    <div class="button-res"><a href="https://colab.research.google.com/drive/1y57cThbylx13lHpznOp4f6dz3P7kCl73" role="button">Demo</a></div>
 </div>
 
 {% endif %}
