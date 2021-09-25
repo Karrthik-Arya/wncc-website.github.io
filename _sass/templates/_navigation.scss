@@ -19,6 +19,12 @@
   @include mobile-xs{
     margin-right: 90px;
   }
+  @include mobile{
+    margin-right: 100px!important;
+  }
+  @include mobile{
+    margin-right: 100px!important;
+  }
   .nav-item{
     .nav-link{
       font-family: $tertiary-font;

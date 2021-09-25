@@ -100,7 +100,7 @@ permalink: /soc/projects/2021/project-1
     </thead>
     <tbody>
     <tr>
-      <td style='width: 120px'>1</td>
+      <td>1</td>
       <td>Learning simple concepts of HTML & CSS</td>
     </tr>
     <tr>

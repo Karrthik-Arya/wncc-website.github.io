@@ -7,18 +7,21 @@
 .d-flex{
   justify-content: center;
   @include mobile-xs{
+    justify-content: start;
     flex-wrap: wrap;
   }
 }
 #why{
   display:none;
 }
-
+p{
+  word-break: break-word;
+}
 .table{
     margin-right: 100px;
     width: 700px;
     @include mobile-xs{
-      width: 300px;
+      width: 250px!important;
     }
 }
 .project-desc{
