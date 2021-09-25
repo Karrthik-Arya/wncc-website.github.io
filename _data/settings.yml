@@ -1468,13 +1468,7 @@ soc-result-items:
     image_small: "assets/images/soc/2021/small_item-36.jpg"
     image : "assets/images/soc/2021/item-36.jpg"
     url: "/soc-results/project-36-result"
-    
-    
-  - title : "ResoBin - Not the bin we deserve but the bin we need!"
-    image_small: "assets/images/soc/2021/small_item-38.jpg"
-    image : "assets/images/soc/2021/item-38.jpg"
-    url: "/soc-results/project-38-result"
-    
+  
    
   
   - title : "Moodify"
