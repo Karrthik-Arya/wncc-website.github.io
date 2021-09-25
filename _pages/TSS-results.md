@@ -95,11 +95,11 @@ permalink: /tss_2021/
         <td>200070070</td>
     </tr>
     <tr>
-        <td>Sartdak Mittal</td>
+        <td>Sarthak Mittal</td>
         <td>200050129</td>
     </tr>
     <tr>
-        <td>Vishrutd N</td>
+        <td>Vishruth N</td>
         <td>200010088</td>
     </tr>
 
@@ -152,7 +152,7 @@ permalink: /tss_2021/
         <td>200040087</td>
     </tr>
     <tr>
-        <td>Ojasvi Katduria</td>
+        <td>Ojasvi Kathuria</td>
         <td>20d070058</td>
     </tr>
     <tr>
@@ -164,7 +164,7 @@ permalink: /tss_2021/
         <td>200020112</td>
     </tr>
     <tr>
-        <td>Sainatd Vavilapalli</td>
+        <td>Sainath Vavilapalli</td>
         <td>200050125</td>
     </tr>
     <tr>
@@ -215,7 +215,7 @@ permalink: /tss_2021/
         <td>190110030</td>
     </tr>
     <tr>
-        <td>K Aditdya Krishna</td>
+        <td>K Adithya Krishna</td>
         <td>200020065</td>
     </tr>
     <tr>
@@ -239,7 +239,7 @@ permalink: /tss_2021/
         <td>200050127</td>
     </tr>
     <tr>
-        <td>Sartdak Mehrotra</td>
+        <td>Sarthak Mehrotra</td>
         <td>200010068</td>
     </tr>
     <tr>
