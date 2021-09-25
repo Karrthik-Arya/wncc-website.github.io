@@ -62,19 +62,17 @@ permalink: /resources/
                 </article>
             </div>
             {% endfor %}  
-        
-            {% if item.name == "wiki" %}         
+            {% elsif item.name == "ds" %}         
             {% for label in site.data.settings.ds %}
             <div class="col-lg-4 col-sm-6 mb-4 mx-auto" id = "ds">
                 <article class="card shadow h-100">
-                    <img class="rounded card-img-top" src="{{ site.baseurl }}/assets/images/resources/{{ label.image }}"
+                    <img class="rounded card-img-top" style = "height:400px" src="{{ site.baseurl }}/assets/images/resources/{{ label.image }}"
                         alt="{{ label.title }}">
                     <div class="card-body">
                         <h4 class="card-title"><a class="text-dark resource-card-title"
                                 href="{{ label.link }}" target="_blank">{{ label.title }}</a></h4>
                         <p class="card-text text-dark">{{ label.discription }}
                         </p>
-                        <a href="{{ label.link }}" class="btn btn-xs btn-primary" target="_blank">Read More</a>
                     </div>
                 </article>
             </div>
