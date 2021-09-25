@@ -24,7 +24,7 @@ permalink: /soc-results/project-9-result
         {% endfor %}
     <br>
     <h4 class="mentor-title" style="display: block; fontWeight: 800">Mentors</h4>   
-    <h4 class="mentors" style="display: inline;">Tezan Sahu, Shrey Laddha </h4>    
+    <h4 class="mentors" style="display: inline;">Tezan Sahu, Shreya Laddha </h4>    
     <br>  <br>
     <h4 class="mentor-title" style="display: block;">Mentees</h4> 
     <h4 class="mentors" style="display: inline;">Akash Vivek Chodankar, Anish Satpati, Shreedhar malpani, Mrinal Sahu, Sanskar Jaiswal, Vinayak Goyal</h4>
