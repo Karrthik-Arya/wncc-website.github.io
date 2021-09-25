@@ -1,11 +1,17 @@
 .soc-cards{
-  @include mobile-xs{
-    width:300px!important;
-  }
-
   @media(max-width:800px){
     width:300px!important;
   } 
+
+  @include mobile{
+    width:450px!important;
+  }
+
+  @include mobile-xs{
+    width:300px!important;
+  }
+ 
+
 }
 .display3{
   @include mobile-xs{
@@ -16,6 +22,10 @@
 .d-flex{
   justify-content: center;
   @include mobile-xs{
+    justify-content: start;
+    flex-wrap: wrap;
+  }
+  @include mobile{
     justify-content: start;
     flex-wrap: wrap;
   }

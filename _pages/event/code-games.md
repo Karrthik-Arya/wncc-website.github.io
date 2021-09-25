@@ -21,7 +21,7 @@ permalink: /events/event/code-games/
   </div>
 
 <div>
-    <p class="display3 project-desc" style = "font-size:22px;" >
+    <p class="display3 project-desc" style = "font-size:22px; margin-bottom:450px" >
         <br>
         Hello all,
 <br><br>
