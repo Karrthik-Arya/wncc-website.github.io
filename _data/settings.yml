@@ -1023,7 +1023,7 @@ resources-items:
   - title: "WnCC Wiki- Grundy"
     fdis: "It is an educational wiki, meant to help beginners get started with programming. It’s got 100+ articles, on various programming topics. All tutorials are hand-tailored by students of IIT Bombay. However, unlike conventional programming tutorials, these take a slightly different approach. Rather than reinventing the wheel, Grundy aims at bringing together a number of online tutorials and resources along with a set of pre-requisites and motivation to learn a programming skill. Here are some top articles of Wiki."
     name: "wiki"
-    ldis: "We have articles covering tutorials covering most of basic Programming Languages, software and practices and we keep adding more and more so that everyone can use. Do visit to know more about it"
+    ldis: "We have articles and tutorials covering most of the basic Programming Languages and software. New articles and tutorials are added regularly to keep you updated with the latest stuff. Do visit to know more about it."
     btn-title: "Visit Grundy"
     btn-link: "https://www.wncc-iitb.org/wiki/index.php/The_Web_and_Coding_Club"
     
