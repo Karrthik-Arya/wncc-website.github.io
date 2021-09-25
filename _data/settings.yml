@@ -1110,7 +1110,7 @@ ciq:
 
   - title: "Advanced FrontEnd Development"
     discription: ""
-    link: "https://github.com/wncc/CodeInQuarantine/blob/master/Week_7_CC/README.md"
+    link: "https://github.com/wncc/CodeInQuarantine/tree/master/Week_7_AdvancedFrontEnd#readme"
     image: "ciq5.png"
 
   - title: "BlockChain"
