@@ -8,6 +8,7 @@
     font-size: 15px !important;
   }
 }
+
 .d-flex{
   justify-content: center;
   @include mobile-xs{
@@ -29,6 +30,7 @@ a{
     width: 700px;
     @include mobile-xs{
       width: 270px!important;
+      font-size: 18px !important;
     }
 }
 .project-desc{
