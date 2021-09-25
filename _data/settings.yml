@@ -1125,7 +1125,7 @@ as:
     image: "as1.png"  
   
   - title: "Encryption"
-    discription: "Looking forward to explore Cyber Security? Bringing to you Encryption Algorithms to lay some foundation about how things happen in CSec. Encryption algorithms are used in cryptography to transfer information between two people such that the thord person trying to steal information from you doesn't get the information."
+    discription: "Looking forward to explore Cyber Security? Bringing to you Encryption Algorithms to lay some foundation about how things happen in CSec. Encryption algorithms are used in cryptography to transfer information between two people such that the third person trying to steal information from you doesn't get the information."
     link: "https://github.com/wncc/algos-simplified/blob/master/Encryption_Algorithms/README.md"
     image: "as2.png"  
   
