@@ -1131,7 +1131,7 @@ as:
   
   - title: "Object Detection"
     discription: "Have you ever wondered how an automonous car detects other cars on the road, the traffic lights and pedestrians? Have you ever given a thought how does security surveillance systems work? Object detection is associated with Computer Vision and describes a system that can identify the presence and location of a desired object or body within an image."
-    link: "https://github.com/wncc/algos-simplified/blob/master/Encryption_Algorithms/README.md"
+    link: "https://github.com/wncc/algos-simplified/blob/master/Object%20Detection%20Algorithms/README.md"
     image: "as3.png"
     
 ls:
