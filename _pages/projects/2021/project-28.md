@@ -65,7 +65,7 @@ permalink: /soc/projects/2021/project-28
     </thead>
     <tbody>
     <tr>
-      <td style='width: 120px'>Week 1-2</td>
+      <td  >Week 1-2</td>
       <td>Learning simple concepts of HTML & CSS</td>
     </tr>
     <tr>

@@ -14,7 +14,7 @@ mentees:
     - Dhruv Sah
     - JULAKANTI MUKESH REDDY
     - Megha Baboria
-permalink: /soc/projects/pool-it/
+permalink: /soc/projects/pool-it
 ---
 
 <h2 class="display1 m-3 p-3 text-center">{{page.project}}</h2>
@@ -77,7 +77,7 @@ permalink: /soc/projects/pool-it/
     </thead>
     <tbody>
         <tr>
-        <td style='width: 120px'>Week 1</td>
+        <td  >Week 1</td>
       <td>Get familiarized with Git</td>
     </tr>
     <tr>

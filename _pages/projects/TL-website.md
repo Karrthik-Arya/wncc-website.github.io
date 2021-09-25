@@ -12,7 +12,7 @@ mentees:
     - Adit Akarsh
     - Tanmay Hiremath
     - Akshat Goel
-permalink: /soc/projects/TL-website/
+permalink: /soc/projects/TL-website
 ---
 
 <h2 class="display1 m-3 p-3 text-center">{{page.project}}</h2>
@@ -66,7 +66,7 @@ permalink: /soc/projects/TL-website/
     </thead>
     <tbody>
         <tr>
-        <td style='width: 120px'>Week 1</td>
+        <td  >Week 1</td>
       <td>Learn Python, HTML, and CSS</td>
     </tr>
     <tr>

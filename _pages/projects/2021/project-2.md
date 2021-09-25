@@ -103,7 +103,7 @@ permalink: /soc/projects/2021/project-2
     </thead>
     <tbody>
     <tr>
-      <td style='width: 120px'>Week 1</td>
+      <td  >Week 1</td>
       <td>Introduction to OpenCV and Learn Linear Regression and Logistic regression</td>
     </tr>
     <tr>

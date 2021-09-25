@@ -14,7 +14,7 @@ mentees:
     - Krushnakant Dilip Bhattad
     - Kartikey Gupta
 
-permalink: /soc/projects/introduction-to-kaggle-and-machine-learning/
+permalink: /soc/projects/introduction-to-kaggle-and-machine-learning
 ---
 
 <h2 class="display1 m-3 p-3 text-center">{{page.project}}</h2>
@@ -68,7 +68,7 @@ permalink: /soc/projects/introduction-to-kaggle-and-machine-learning/
     </thead>
     <tbody>
         <tr>
-        <td style='width: 120px'>Week 1</td>
+        <td  >Week 1</td>
       <td>Finish Linear Algebra, Vector Calculus, and Statistics refresher</td>
     </tr>
     <tr>

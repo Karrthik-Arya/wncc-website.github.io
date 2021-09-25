@@ -10,7 +10,7 @@ mentees:
 - Aditya Raj Singh Udawa
 - Shrey Gupta
 - Arjun Deshmukh
-permalink: /soc/projects/super-shenron/
+permalink: /soc/projects/super-shenron
 ---
 
 <h2 class="display1 m-3 p-3 text-center">{{page.project}}</h2>
@@ -64,7 +64,7 @@ permalink: /soc/projects/super-shenron/
     </thead>
     <tbody>
     <tr>
-      <td style='width: 120px'>Week 1-2</td>
+      <td  >Week 1-2</td>
       <td>Software installation and learning basics of React Native and Django.</td>
     </tr>
     <tr>

@@ -18,7 +18,7 @@ mentees:
     - Vanshika Gupta
     - Gudipaty Aniket
 
-permalink: /soc/projects/intrusion-detection-system/
+permalink: /soc/projects/intrusion-detection-system
 ---
 
 <h2 class="display1 m-3 p-3 text-center">{{page.project}}</h2>
@@ -74,7 +74,7 @@ permalink: /soc/projects/intrusion-detection-system/
     </thead>
     <tbody>
         <tr>
-        <td style='width: 120px'>Week 1,2,3</td>
+        <td  >Week 1,2,3</td>
       <td>Study networks, security, ML and related topics.</td>
     </tr>
     <tr>

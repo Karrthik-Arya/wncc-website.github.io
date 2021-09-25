@@ -73,7 +73,7 @@ permalink: /soc/projects/2021/project-26
     </thead>
     <tbody>
     <tr>
-      <td style='width: 120px'>Week 1</td>
+      <td  >Week 1</td>
       <td>	Learn basics of HTML, CSS, Angular, Material, javascript, Small Assignment of creating a homepage using Angular.</td>
     </tr>
     <tr>

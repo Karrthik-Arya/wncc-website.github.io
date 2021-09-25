@@ -21,7 +21,7 @@ mentees:
 - Soham Mistri
 - Vineet Gala  
     
-permalink: /soc/projects/conversational-chatbot/
+permalink: /soc/projects/conversational-chatbot
 ---
 
 <h2 class="display1 m-3 p-3 text-center">{{page.project}}</h2>
@@ -85,7 +85,7 @@ Write your motivation and understanding of the project briefly. Background in ML
     </thead>
     <tbody>
     <tr>
-      <td style='width: 120px'>Week 1</td>
+      <td  >Week 1</td>
       <td>Read the theory related to speech recognition &amp; synthesis. Brush up Python skills.</td>
     </tr>
     <tr>

@@ -3,7 +3,11 @@
     width:300px!important;
   }
 }
-
+.display3{
+  @include mobile-xs{
+    font-size: 15px !important;
+  }
+}
 .d-flex{
   justify-content: center;
   @include mobile-xs{
@@ -17,11 +21,14 @@
 p{
   word-break: break-word;
 }
+a{
+  word-break: break-word;
+}
 .table{
     margin-right: 100px;
     width: 700px;
     @include mobile-xs{
-      width: 250px!important;
+      width: 270px!important;
     }
 }
 .project-desc{

@@ -19,7 +19,7 @@ mentees:
 - Puranjay Dutta
 - Kriti Chaturvedi   
     
-permalink: /soc/projects/3d-reconstruction-using-2d-images/
+permalink: /soc/projects/3d-reconstruction-using-2d-images
 ---
 
 <h2 class="display1 m-3 p-3 text-center">{{page.project}}</h2>
@@ -81,7 +81,7 @@ Note: If you are new to deep learning, it is recommended that you should go thro
     </thead>
     <tbody>
     <tr>
-      <td style='width: 120px'>Week 1 and 2</td>
+      <td  >Week 1 and 2</td>
       <td>Reading of related material and learning relevant applications of the framework that would be used(mostly Keras and PyTorch)</td>
     </tr>
     <tr>

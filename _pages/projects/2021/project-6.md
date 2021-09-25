@@ -67,7 +67,7 @@ permalink: /soc/projects/2021/project-6
     </thead>
     <tbody>
     <tr>
-      <td style='width: 120px'>Phase-1</td>
+      <td  >Phase-1</td>
       <td>Basic set up and learning basic data transformations</td>
     </tr>
     <tr>
@@ -112,7 +112,7 @@ permalink: /soc/projects/2021/project-6
     </thead>
     <tbody>
     <tr>
-      <td style='width: 120px'>1</td>
+      <td  >1</td>
       <td>setup of python, libraries et al.</td>
     </tr>
     <tr>

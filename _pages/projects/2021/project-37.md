@@ -88,7 +88,7 @@ Proposal expectation: The proposal must not exceed 150 words. Your motivation. W
     </thead>
     <tbody>
     <tr>
-      <td style='width: 120px'>Week 1</td>
+      <td  >Week 1</td>
       <td>It is expected from all the mentees to go through all the resources provided and learn the basics of all the tools that are required for the project. Setting up firebase authentication»flutter»Api. Structure for app backend should be completed. Authentication system must be completed(backend + app screen), Testing should also be completed. </td>
     </tr>
     <tr>

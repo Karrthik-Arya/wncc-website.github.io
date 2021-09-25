@@ -80,7 +80,7 @@ permalink: /soc/projects/2021/project-27
     </thead>
     <tbody>
     <tr>
-      <td style='width: 120px'>Week 0</td>
+      <td  >Week 0</td>
       <td>Brush Up Python</td>
     </tr>
     <tr>

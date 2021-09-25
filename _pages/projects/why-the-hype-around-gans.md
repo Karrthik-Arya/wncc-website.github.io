@@ -18,7 +18,7 @@ mentees:
     - Thomas Jacob
     - Yash Gadhia
     - Yatharth Champaneria
-permalink: /soc/projects/why-the-hype-around-gans/
+permalink: /soc/projects/why-the-hype-around-gans
 ---
 
 <h2 class="display1 m-3 p-3 text-center">{{page.project}}</h2>
@@ -70,7 +70,7 @@ permalink: /soc/projects/why-the-hype-around-gans/
     </thead>
     <tbody>
         <tr>
-        <td style='width: 120px'>Week 1-2</td>
+        <td  >Week 1-2</td>
         <td>Learn/Brush-up Python, Torch, Jupyter, Numpy, Unix commands</td>
         </tr>
         <tr>

@@ -14,7 +14,7 @@ mentees:
     - Vaibhavi Agrawal
     - Adarsh Kumar
     - Kushal Choudhary
-permalink: /soc/projects/insti-buddy/
+permalink: /soc/projects/insti-buddy
 ---
 
 <h2 class="display1 m-3 p-3 text-center">{{page.project}}</h2>
@@ -68,7 +68,7 @@ permalink: /soc/projects/insti-buddy/
     </thead>
     <tbody>
         <tr>
-        <td style='width: 120px'>Week 1</td>
+        <td  >Week 1</td>
       <td>Set up necessary environment and learn some basics of GitHub and each platform</td>
     </tr>
     <tr>

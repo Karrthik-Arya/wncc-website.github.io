@@ -68,7 +68,7 @@ permalink: /soc/projects/2021/project-4
     </thead>
     <tbody>
     <tr>
-      <td style='width: 120px'>Week 1-2</td>
+      <td  >Week 1-2</td>
       <td>Get acquainted with the resources and existing code</td>
     </tr>
     <tr>

@@ -17,7 +17,7 @@ mentees:
 - Ritwik Kadu
 
     
-permalink: /soc/projects/unstructured/
+permalink: /soc/projects/unstructured
 ---
 
 <h2 class="display1 m-3 p-3 text-center">{{page.project}}</h2>
@@ -75,7 +75,7 @@ Resources:
     </thead>
     <tbody>
     <tr>
-      <td style='width: 120px'>Week 1</td>
+      <td  >Week 1</td>
       <td>Learn the basics of version control (GitHub). Brush up your Python programming skills.</td>
     </tr>
     <tr>

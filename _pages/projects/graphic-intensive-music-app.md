@@ -20,7 +20,7 @@ mentees:
     - Anchal yadav
     - Esha Kolte
 
-permalink: /soc/projects/graphic-intensive-music-app/
+permalink: /soc/projects/graphic-intensive-music-app
 ---
 
 <h2 class="display1 m-3 p-3 text-center">{{page.project}}</h2>
@@ -72,7 +72,7 @@ permalink: /soc/projects/graphic-intensive-music-app/
     </thead>
     <tbody>
         <tr>
-        <td style='width: 120px'>Week 1</td>
+        <td  >Week 1</td>
       <td>Setting up the Environment and learning the basics of each platform</td>
     </tr>
     <tr>

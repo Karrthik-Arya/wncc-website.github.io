@@ -11,7 +11,7 @@ mentees:
 - Aman Yadav 
 - Devansh Jain 
 
-permalink: /soc/projects/road-network-3d-rendering-using-opengl/
+permalink: /soc/projects/road-network-3d-rendering-using-opengl
 
 ---
 
@@ -79,7 +79,7 @@ Good level of experience with C++ , beginners level experience using OpenGL libr
     </thead>
     <tbody>
     <tr>
-      <td style='width: 120px'>Week 1</td>
+      <td  >Week 1</td>
       <td>Learn using OpenGL in C++ , i.e. start with view transformations, window creation, hierarchical modeling , GLSL Shading, camera positioning etc.</td>
     </tr>
     <tr>

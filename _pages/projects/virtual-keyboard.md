@@ -31,7 +31,7 @@ mentees:
   -  Tanisha Khandelwal
   -  Vishesh Agarwal
   -  Yash Sharda 
-permalink: /soc/projects/virtual-keyboard/
+permalink: /soc/projects/virtual-keyboard
 
 ---
 
@@ -81,7 +81,7 @@ permalink: /soc/projects/virtual-keyboard/
     </thead>
     <tbody>
     <tr>
-      <td style='width: 120px'>Week 1-2</td>
+      <td  >Week 1-2</td>
       <td>Learn basics of image processing and software like unity</td>
     </tr>
     <tr>

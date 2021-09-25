@@ -12,7 +12,7 @@ mentees:
     - Vibhav Aggarwal
     - Sanskar Jaiswal
 
-permalink: /soc/projects/face-recognition-using-statistics/
+permalink: /soc/projects/face-recognition-using-statistics
 ---
 
 <h2 class="display1 m-3 p-3 text-center">{{page.project}}</h2>
@@ -62,7 +62,7 @@ permalink: /soc/projects/face-recognition-using-statistics/
     </thead>
     <tbody>
         <tr>
-        <td style='width: 120px'>Week 1-2</td>
+        <td  >Week 1-2</td>
       <td>Learning about PCA from online course provided by us and get a basic understanding of coding in MATLAB</td>
     </tr>
     <tr>

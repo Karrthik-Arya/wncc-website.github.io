@@ -15,7 +15,7 @@ mentees:
     - Sibasis Nayak
     - Ritveek Mahajan
     - Gardas Chaitanya
-permalink: /soc/projects/kontakt-app/
+permalink: /soc/projects/kontakt-app
 ---
 
 <h2 class="display1 m-3 p-3 text-center">{{page.project}}</h2>
@@ -67,7 +67,7 @@ permalink: /soc/projects/kontakt-app/
     </thead>
     <tbody>
         <tr>
-        <td style='width: 120px'>Week 1</td>
+        <td  >Week 1</td>
       <td>Software installation/setup + Learning</td>
     </tr>
     <tr>

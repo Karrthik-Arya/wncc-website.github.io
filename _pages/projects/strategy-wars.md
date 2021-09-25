@@ -16,7 +16,7 @@ mentees:
 - Tejas Bhalla
 - Tejaswi Pagadala
 - Tanu Goyal
-permalink: /soc/projects/strategy-wars/
+permalink: /soc/projects/strategy-wars
 ---
 
 <h2 class="display1 m-3 p-3 text-center">{{page.project}}</h2>
@@ -66,7 +66,7 @@ permalink: /soc/projects/strategy-wars/
     </thead>
     <tbody>
         <tr>
-        <td style='width: 120px'>Week 1</td>
+        <td  >Week 1</td>
         <td>Creating a git account, install all the dependencies, start learning python</td>
     </tr>
     <tr>

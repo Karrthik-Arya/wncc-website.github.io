@@ -12,7 +12,7 @@ mentors:
 mentees:
     - Aniket Sadashiva
     
-permalink: /soc/projects/computer-vision-workbench/
+permalink: /soc/projects/computer-vision-workbench
 ---
 
 <h2 class="display1 m-3 p-3 text-center">{{page.project}}</h2>
@@ -68,7 +68,7 @@ permalink: /soc/projects/computer-vision-workbench/
     </thead>
     <tbody>
         <tr>
-        <td style='width: 120px'>Week 1</td>
+        <td  >Week 1</td>
         <td>Understanding the various computer vision tasks involved</td>
     </tr>
     <tr>

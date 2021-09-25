@@ -27,7 +27,7 @@ mentees:
 - Rohit Vartak
 - Shrey Singal 
     
-permalink: /soc/projects/gestures-for-3d-space/
+permalink: /soc/projects/gestures-for-3d-space
 ---
 
 <h2 class="display1 m-3 p-3 text-center">{{page.project}}</h2>
@@ -75,7 +75,7 @@ permalink: /soc/projects/gestures-for-3d-space/
     </thead>
     <tbody>
     <tr>
-      <td style='width: 120px'>Week 1</td>
+      <td  >Week 1</td>
       <td>Research on the type of hand gestures and the possible ways of doing them</td>
     </tr><tr>
       <td>Week 2</td>

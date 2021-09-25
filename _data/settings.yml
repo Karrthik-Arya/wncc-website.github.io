@@ -673,7 +673,7 @@ soc-items:
   - title : "Why The Hype Around GANs"
     image_small: "assets/images/soc/item-1_small.png"
     image : "assets/images/soc/item-1.png"
-    url: "/soc/projects/why-the-hype-around-gans/"
+    url: "/soc/projects/why-the-hype-around-gans"
     soc-type:
      - type: "Machine Learning"
      - type: "2020"
@@ -681,7 +681,7 @@ soc-items:
   - title : "3D reconstruction using 2D images"
     image_small: "assets/images/soc/item-2_small.png"
     image : "assets/images/soc/item-2.png"
-    url: "/soc/projects/3d-reconstruction-using-2d-images/"
+    url: "/soc/projects/3d-reconstruction-using-2d-images"
     soc-type:
      - type: "Development"
      - type: "Machine Learning"
@@ -690,7 +690,7 @@ soc-items:
   - title : "Computer Vision Workbench"
     image_small: "assets/images/soc/item-3_small.png"
     image : "assets/images/soc/item-3.png"
-    url: "/soc/projects/computer-vision-workbench/"
+    url: "/soc/projects/computer-vision-workbench"
     soc-type:
      - type: "Development"
      - type: "Machine Learning"
@@ -700,7 +700,7 @@ soc-items:
   - title : "3D Object Classification using Mesh Neural Network"
     image_small: "assets/images/soc/item-4_small.png"
     image : "assets/images/soc/item-4.png"
-    url: "/soc/projects/mesh-neural-network/"
+    url: "/soc/projects/mesh-neural-network"
     soc-type:
      - type: "Machine Learning"     
      - type: "2020"
@@ -716,7 +716,7 @@ soc-items:
   - title : "Tools for Web Development"
     image_small: "assets/images/soc/item-6_small.png"
     image : "assets/images/soc/item-6.png"
-    url: "/soc/projects/tools-for-web-dev/"
+    url: "/soc/projects/tools-for-web-dev"
     soc-type:
      - type: "Development"
      - type: "2020"
@@ -768,7 +768,7 @@ soc-items:
   - title : "Conversational Chatbot"
     image_small: "assets/images/soc/item-12_small.png"
     image : "assets/images/soc/item-12.png"
-    url: "/soc/projects/conversational-chatbot/"
+    url: "/soc/projects/conversational-chatbot"
     soc-type:
      - type: "Development"
      - type: "Machine Learning"
@@ -1188,35 +1188,35 @@ events-items:
   - title : "Introduction to App Development"
     image_small : "assets/images/events/App_dev_ls.jpeg"
     image : "assets/images/events/App_dev_ls.jpeg"
-    url : "/events/event/intro-app-dev/"
+    url : "/events/event/intro-app-dev"
     event-type:
       - type: "2021"
 
   - title : "Python and its Applications"
     image_small : "assets/images/events/python_ls.jpeg"
     image : "assets/images/events/python_ls.jpeg"
-    url : "/events/event/python/"
+    url : "/events/event/python"
     event_type:
       - type: "2021"
     
   - title : "Fundamentals of MLOps"
     image_small : "assets/images/events/mlops_ls.jpeg"
     image : "assets/images/events/mlops_ls.jpeg"
-    url : "/events/event/mlOps/"
+    url : "/events/event/mlOps"
     event-type:
       - type: "2021"
 
   - title : "Internship Preparation Session"
     image_small : "assets/images/events/intern_prep.jpeg"
     image : "assets/images/events/intern_prep.jpeg"
-    url : "/events/event/intern_prep/"
+    url : "/events/event/intern_prep"
     event-type:
       - type: "2021"
 
   - title : "Blockchain Developers Meet"
     image_small : "assets/images/events/finstreet.jpg"
     image : "assets/images/events/finstreet.jpg"
-    url : "/events/event/blockchain/"
+    url : "/events/event/blockchain"
     event-type:
       - type: "2021"
       
@@ -1225,70 +1225,70 @@ events-items:
   - title : "Code Games"
     image_small: "assets/images/events/code_games.jpeg"
     image : "assets/images/events/code_games.jpeg"
-    url: "/events/event/code-games/"
+    url: "/events/event/code-games"
     event-type:
      - type: "2020"
   
   - title : "Code in Quarantine"
     image_small: "assets/images/events/code_in_quarantine.jpeg"
     image : "assets/images/events/code_in_quarantine.jpeg"
-    url: "/events/event/code-in-quarantine/"
+    url: "/events/event/code-in-quarantine"
     event-type:
      - type: "2020"
 
   - title : "Game Development"
     image_small: "assets/images/events/game_development.jpeg"
     image : "assets/images/events/game_development.jpeg"
-    url: "/events/event/game-development/"
+    url: "/events/event/game-development"
     event-type:
      - type: "2020"
 
   - title : "Git/GitHub Workshop"
     image_small: "assets/images/events/git.jpeg"
     image : "assets/images/events/git.jpeg"
-    url: "/events/event/git-github-workshop/"
+    url: "/events/event/git-github-workshop"
     event-type:
      - type: "2020"
 
   - title : "COVID Talks"
     image_small: "assets/images/events/insti_against_covid.png"
     image : "assets/images/events/insti_against_covid.png"
-    url: "/events/event/covid_talks/"
+    url: "/events/event/covid_talks"
     event-type:
      - type: "2020"
 
   - title : "QnA with Kalpesh"
     image_small: "assets/images/events/qna_with_kalpesh.png"
     image : "assets/images/events/qna_with_kalpesh.png"
-    url: "/events/event/qna-with-kalpesh/"
+    url: "/events/event/qna-with-kalpesh"
     event-type:
      - type: "2020"
 
   - title : "RattleSnake"
     image_small: "assets/images/events/rattle_snake.jpeg"
     image : "assets/images/events/rattle_snake.jpeg"
-    url: "/events/event/rattlesnake/"
+    url: "/events/event/rattlesnake"
     event-type:
      - type: "2020"
   
   - title : "Learners' Space"
     image_small : "assets/images/events/learners_space.jpeg"
     image : "assets/images/events/learners_space.jpeg"
-    url : "/events/event/learners-space/"
+    url : "/events/event/learners-space"
     event-type:
       - type: "2020"
 
   - title : "Algorithms Simplified"
     image_small : "assets/images/events/algorithms_simplified.jpg"
     image : "assets/images/events/algorithms_simplified.jpg"
-    url : "/events/event/algorithms-simplified/"
+    url : "/events/event/algorithms-simplified"
     event-type:
       - type: "2020"
   
   - title : "Seasons of Code 2020"
     image_small : "assets/images/events/soc_2020.jpeg"
     image : "assets/images/events/soc_2020.jpeg"
-    url : "/events/event/soc_2020/"
+    url : "/events/event/soc_2020"
     event-type:
       - type: "2020"
     
@@ -1468,7 +1468,13 @@ soc-result-items:
     image_small: "assets/images/soc/2021/small_item-36.jpg"
     image : "assets/images/soc/2021/item-36.jpg"
     url: "/soc-results/project-36-result"
-  
+    
+    
+  - title : "ResoBin - Not the bin we deserve but the bin we need!"
+    image_small: "assets/images/soc/2021/small_item-38.jpg"
+    image : "assets/images/soc/2021/item-38.jpg"
+    url: "/soc-results/project-38-result"
+    
    
   
   - title : "Moodify"

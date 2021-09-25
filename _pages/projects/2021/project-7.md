@@ -76,7 +76,7 @@ permalink: /soc/projects/2021/project-7
     </thead>
     <tbody>
     <tr>
-      <td style='width: 120px'>Week 1</td>
+      <td  >Week 1</td>
       <td>Complete Courses for Python and Pandas</td>
     </tr>
     <tr>
@@ -105,7 +105,7 @@ permalink: /soc/projects/2021/project-7
     </thead>
     <tbody>
     <tr>
-      <td style='width: 120px'>1</td>
+      <td  >1</td>
       <td>Completing Python and Pandas</td>
     </tr>
     <tr>

@@ -20,7 +20,7 @@ mentees:
 - Prathmesh Jayaprakash
 - Sheel Shah
 - Sumeet Kumar Mishra
-permalink: /soc/projects/ml-gym/
+permalink: /soc/projects/ml-gym
 ---
 
 <h2 class="display1 m-3 p-3 text-center">{{page.project}}</h2>

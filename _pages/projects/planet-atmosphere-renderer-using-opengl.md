@@ -30,7 +30,7 @@ mentees:
     - Kaustubh Dighe
     - Shabnam Sahay
 
-permalink: /soc/projects/planet-atmosphere-renderer-using-opengl/
+permalink: /soc/projects/planet-atmosphere-renderer-using-opengl
 ---
 
 <h2 class="display1 m-3 p-3 text-center">{{page.project}}</h2>
@@ -96,7 +96,7 @@ permalink: /soc/projects/planet-atmosphere-renderer-using-opengl/
     </thead>
     <tbody>
         <tr>
-        <td style='width: 120px'>Week 0</td>
+        <td  >Week 0</td>
       <td>Read some basic slides on rasterization, clipping, 2D and 3D transformations</td>
     </tr>
     <tr>

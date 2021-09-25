@@ -87,7 +87,7 @@ permalink: /soc/projects/2021/project-5
     </thead>
     <tbody>
     <tr>
-      <td style='width: 120px'>Week 1</td>
+      <td  >Week 1</td>
       <td>Learn basics of Python and file parsing</td>
     </tr>
     <tr>
@@ -124,7 +124,7 @@ permalink: /soc/projects/2021/project-5
     </thead>
     <tbody>
     <tr>
-      <td style='width: 120px'>1</td>
+      <td  >1</td>
       <td>(4th April) - Implement bag of words with similarity percentage</td>
     </tr>
     <tr>

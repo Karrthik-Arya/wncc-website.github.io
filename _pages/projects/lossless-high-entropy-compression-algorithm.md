@@ -14,7 +14,7 @@ mentees:
 - Gaurav P
 - Tirthankar Adhikari
 - Ojas Gramopadhye
-permalink: /soc/projects/lossless-high-entropy-compression-algorithm/
+permalink: /soc/projects/lossless-high-entropy-compression-algorithm
 ---
 
 <h2 class="display1 m-3 p-3 text-center">{{page.project}}</h2>
@@ -64,7 +64,7 @@ permalink: /soc/projects/lossless-high-entropy-compression-algorithm/
     </thead>
     <tbody>
         <tr>
-        <td style='width: 120px'>Week 1,2,3</td>
+        <td  >Week 1,2,3</td>
         <td>Developing fundamentals in python,machine learning and neural networks through popular sources like coursera, udacity.</td>
     </tr>
     <tr>

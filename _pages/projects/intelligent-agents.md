@@ -17,7 +17,7 @@ mentees:
     - Tanay Sharma
     - Tushar Nandy
     - Naman Agarwal
-permalink: /soc/projects/intelligent-agents/
+permalink: /soc/projects/intelligent-agents
 ---
 
 <h2 class="display1 m-3 p-3 text-center">{{page.project}}</h2>
@@ -74,7 +74,7 @@ permalink: /soc/projects/intelligent-agents/
     </thead>
     <tbody>
         <tr>
-        <td style='width: 120px'>Week 1</td>
+        <td  >Week 1</td>
       <td>Reading relevant material from the resources</td>
     </tr>
     <tr>

@@ -18,7 +18,7 @@ mentees:
     - Sahil Suman
     - Shivani Bagri
     - Danish Angural
-permalink: /soc/projects/tools-for-web-dev/
+permalink: /soc/projects/tools-for-web-dev
 ---
 
 <h2 class="display1 m-3 p-3 text-center">{{page.project}}</h2>
@@ -73,7 +73,7 @@ permalink: /soc/projects/tools-for-web-dev/
     </thead>
     <tbody>
         <tr>
-        <td style='width: 120px'>Week 1-2</td>
+        <td  >Week 1-2</td>
         <td>Learning HTML and CSS and implementing it in webpages</td>
     </tr>
     <tr>

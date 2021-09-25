@@ -33,7 +33,7 @@ mentees:
     - Vrinda Jindal
     - Manan Agarwal
 
-permalink: /soc/projects/competitive-coding/
+permalink: /soc/projects/competitive-coding
 ---
 
 <h2 class="display1 m-3 p-3 text-center">{{page.project}}</h2>
@@ -88,7 +88,7 @@ permalink: /soc/projects/competitive-coding/
     </thead>
     <tbody>
         <tr>
-        <td style='width: 120px'>Week 1</td>
+        <td  >Week 1</td>
       <td>C++ revision and STL</td>
     </tr>
     <tr>

@@ -16,14 +16,11 @@
 }
 
 .navbar{
+  @media(max-width:800px){
+    margin-right: 500px;
+  }
   @include mobile-xs{
     margin-right: 90px;
-  }
-  @include mobile{
-    margin-right: 100px!important;
-  }
-  @include mobile{
-    margin-right: 100px!important;
   }
   .nav-item{
     .nav-link{
@@ -40,3 +37,4 @@
 .navbar-dark .navbar-nav .nav-link{
   color: $white;
 }
+

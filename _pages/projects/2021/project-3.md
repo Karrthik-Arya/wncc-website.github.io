@@ -71,7 +71,7 @@ permalink: /soc/projects/2021/project-3
     </thead>
     <tbody>
     <tr>
-      <td style='width: 120px'>Week 1</td>
+      <td  >Week 1</td>
       <td>Discussion on strong and weak topics, what needs to be done for ICPC, setting of individual timelines and projects for each of the mentees.</td>
     </tr>
     <tr>
@@ -96,7 +96,7 @@ permalink: /soc/projects/2021/project-3
     </thead>
     <tbody>
     <tr>
-      <td style='width: 120px'>1</td>
+      <td  >1</td>
       <td>Solving ~20 problems on assigned topics from the instructor. Maintaining a notebook of topics that need to be worked on.</td>
     </tr>
     <tr>

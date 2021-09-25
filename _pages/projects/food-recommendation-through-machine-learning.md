@@ -26,7 +26,7 @@ mentees:
 - Aayush Shahid
 - Rhythm Shah  
     
-permalink: /soc/projects/food-recommendation-through-machine-learning/
+permalink: /soc/projects/food-recommendation-through-machine-learning
 ---
 
 <h2 class="display1 m-3 p-3 text-center">{{page.project}}</h2>
@@ -74,7 +74,7 @@ permalink: /soc/projects/food-recommendation-through-machine-learning/
     </thead>
     <tbody>
     <tr>
-      <td style='width: 120px'>Week 1</td>
+      <td  >Week 1</td>
       <td>Setting up the Environment and learning the basics of each platform</td>
     </tr>
     <tr>

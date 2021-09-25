@@ -16,7 +16,7 @@ mentees:
 stipend:
     - INR 5000
 
-permalink: /soc/projects/lama-ai/
+permalink: /soc/projects/lama-ai
 ---
 
 <h2 class="display1 m-3 p-3 text-center">{{page.project}}</h2>
@@ -80,7 +80,7 @@ permalink: /soc/projects/lama-ai/
     </thead>
     <tbody>
         <tr>
-        <td style='width: 120px'>Week 1</td>
+        <td  >Week 1</td>
       <td>Play L.A.M.A. with us, and with your project group, and with friends to familiarise yourself with it. Then, enable logging for all state changes in the web game. As of now, no information is stored.</td>
     </tr>
     <tr>

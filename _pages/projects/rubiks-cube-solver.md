@@ -13,7 +13,7 @@ mentees:
     - Manas Jain
     - Rohinee Joshi
 
-permalink: /soc/projects/rubiks-cube-solver/
+permalink: /soc/projects/rubiks-cube-solver
 ---
 
 <h2 class="display1 m-3 p-3 text-center">{{page.project}}</h2>
@@ -75,7 +75,7 @@ permalink: /soc/projects/rubiks-cube-solver/
     </thead>
     <tbody>
         <tr>
-        <td style='width: 120px'>Week 1</td>
+        <td  >Week 1</td>
       <td>Learn python and python-on-android, play with Rubik’s cubes to get a clear grasp about the problem. Try pycuber, a python package for dealing with Rubik’s cubes, which helps in creating graphical user interface.</td>
     </tr>
     <tr>

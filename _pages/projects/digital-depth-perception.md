@@ -10,7 +10,7 @@ mentees:
     - Rishabh Jain
     - Sanyam Singhal
     - Hitesh Kumar
-permalink: /soc/projects/digital-depth-perception/
+permalink: /soc/projects/digital-depth-perception
 ---
 
 <h2 class="display1 m-3 p-3 text-center">{{page.project}}</h2>
@@ -76,7 +76,7 @@ permalink: /soc/projects/digital-depth-perception/
     </thead>
     <tbody>
         <tr>
-        <td style='width: 120px'>Week 1</td>
+        <td  >Week 1</td>
       <td>Introduction to Python, Jupyter notebook and some basic python libraries like Matplotlib and Numpy on Google Colab and algorithm analysis. Also some basic image processing based functionalities of MATLAB.</td>
     </tr>
     <tr>

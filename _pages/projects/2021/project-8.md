@@ -75,7 +75,7 @@ permalink: /soc/projects/2021/project-8
     </thead>
     <tbody>
     <tr>
-      <td style='width: 120px'>Week 1</td>
+      <td  >Week 1</td>
       <td>Basic of gazebo, dataset preparation</td>
     </tr>
     <tr>
@@ -108,7 +108,7 @@ permalink: /soc/projects/2021/project-8
     </thead>
     <tbody>
     <tr>
-      <td style='width: 120px'>1</td>
+      <td  >1</td>
       <td>Running Gazebo</td>
     </tr>
     <tr>
