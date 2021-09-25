@@ -16,7 +16,7 @@
 }
 
 .navbar{
-  @media(max-width:800px){
+  @media(max-width:991px){
     margin-right: 500px;
   }
   @include mobile{
