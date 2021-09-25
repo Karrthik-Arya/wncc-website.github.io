@@ -1,6 +1,6 @@
 ---
 layout: page
-title: TSS 2021 Results
+title: Results&#58; TSS 2021
 permalink: /tss_2021/
 ---
 
