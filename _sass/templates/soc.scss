@@ -2,6 +2,10 @@
   @include mobile-xs{
     width:300px!important;
   }
+
+  @media(max-width:800px){
+    width:300px!important;
+  } 
 }
 .display3{
   @include mobile-xs{
