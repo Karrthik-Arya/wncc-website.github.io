@@ -1,1 +1,1 @@
-Sitemap: /https://wncc-iitb.org/sitemap.xml
+Sitemap: /sitemap.xml
