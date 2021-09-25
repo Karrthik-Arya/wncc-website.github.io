@@ -1,1 +1,1 @@
-Sitemap: /wncc-website.github.io/sitemap.xml
+Sitemap: /sitemap.xml
