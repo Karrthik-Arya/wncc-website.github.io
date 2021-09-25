@@ -23,11 +23,13 @@ input[type="checkbox"]:checked {
         @include mobile{
             transform: scale3d(7, 4, 1);
         }
-        @include mobile-xs{
-            transform: scale3d(6, 4, 1);
-        }
     opacity: 0.8;
     background: rgb(255, 230, 0);
+    @include mobile-xs{
+        transform: scale3d(6, 4, 1);
+        background: rgb(221, 199, 0);
+        opacity: 1;
+    }
     border-radius: 2px;
     transition: 0.3s;
 	}
