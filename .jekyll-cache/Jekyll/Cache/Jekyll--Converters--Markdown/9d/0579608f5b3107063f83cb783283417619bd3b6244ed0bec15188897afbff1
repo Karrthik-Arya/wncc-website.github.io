@@ -1,0 +1,24 @@
+I"¸<h2 class="display1 m-3 p-3 text-center customcol">Snake AI</h2>
+
+<div>
+    <img src="https://wncc-iitb.org//assets/images/soc/2021/item-12.jpg" width="75%" height="auto" alt="" class="border rounded" style="float: left; margin-top: 3%; margin-right: 3%" />
+</div>
+
+<div class="mentor-mentee-section">
+    <br />
+        
+    <br />
+    <h4 class="mentor-title" style="display: block; fontWeight: 800">Mentors</h4>   
+    <h4 class="mentors" style="display: inline;">Shubham Lohiya </h4>    
+    <br />  <br />
+    <h4 class="mentor-title" style="display: block;">Mentees</h4> 
+    <h4 class="mentors" style="display: inline;">Aditya Sriram, Pranava Singhal, Kaivaly Daga, Kartik Gokhale, Swapnoneel Kayal, Ronit Chitre</h4>
+    </div>
+
+<div class="button-holder">
+    <div class="button-res"><a href="https://docs.google.com/document/d/1Ag3vqKQuxdlag5GJXAlxkm29l8n-Nq1tn9VOgQApgT8/edit?usp=sharing" role="button">Documentation</a></div>
+    <div class="button-res"><a href="https://github.com/aweditya/SnakeAI" role="button">GitHub Repo</a></div>
+    <div class="button-res"><a href="https://drive.google.com/drive/folders/19-3-A1wifK4ZMC-MSwAVU_VMiymg109L?usp=sharing" role="button">Demo</a></div>
+</div>
+
+:ET

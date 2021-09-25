@@ -1,0 +1,25 @@
+I"°<h2 class="display1 m-3 p-3 text-center customcol">Goal ICPC</h2>
+
+<div>
+    <img src="https://wncc-iitb.org//assets/images/soc/2021/item-3.png" width="60%" height="auto" alt="" class="border rounded" style="float: left; margin-top: 3%; margin-right: 3%" />
+</div>
+
+<div class="mentor-mentee-section">
+    <br />
+        
+    <br />
+    <h4 class="mentor-title" style="display: block; fontWeight: 800">Mentors</h4>   
+    <h4 class="mentors" style="display: inline;">Shubham Anand Jain, Shubham Atri </h4>    
+    <br />  <br /> 
+    <h4 class="mentor-title" style="display: block;">Mentees</h4> 
+    <h4 class="mentors" style="display: inline;"> Harshvardhan Agarwal, Pulkit Agarwal, Vaibhav Raj</h4>
+    </div>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>&lt;br&gt;
+</code></pre></div></div>
+<div class="button-holder">
+    <div class="button-res"><a href="https://docs.google.com/document/d/1xY2SrGLuZLF31NRH0daQgPy3I9jp_tCJU6LXBHmLgFw/edit" role="button">Documentation</a></div>
+
+    <div class="button-res"><a href="https://drive.google.com/file/d/1lnZH1gC8D-2eKPP2imOrKF4xB_d-axwL/view?usp=sharing" role="button">Demo</a></div>
+</div>
+
+:ET
