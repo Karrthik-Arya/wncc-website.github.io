@@ -20,11 +20,14 @@
 input[type="checkbox"]:checked {
 	& + .box:after {
 		transform: scale3d(8.5, 4, 1);
-        @include mobile{
-            transform: scale3d(7, 4, 1);
-        }
     opacity: 0.8;
     background: rgb(255, 230, 0);
+
+    @include mobile{
+        transform: scale3d(8, 4, 1);
+        background: rgb(221, 199, 0);
+        opacity: 1;
+    }
     @include mobile-xs{
         transform: scale3d(6, 4, 1);
         background: rgb(221, 199, 0);
@@ -36,6 +39,9 @@ input[type="checkbox"]:checked {
 	
 	& + .box .box__item {
 		transform: translate(30px, 90px);
+        @include mobile{
+            transform: translate(30px, 90px);
+        }
         @include mobile-xs{
             transform: translate(20px, 90px);
         }
@@ -142,7 +148,7 @@ input[type="checkbox"]:checked {
     color: black;
     text-shadow: 2px 2px #5a5858;
   @include mobile{
-    font-size: 3em;
+    font-size: 2.5em;
     }
   @include mobile-xs{
         font-size: 2.5em;

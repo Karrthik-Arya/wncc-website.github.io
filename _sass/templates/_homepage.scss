@@ -1,5 +1,8 @@
 /* skills */
 .desc{
+  @include mobile{
+    font-size: 19px !important;
+  }
   @include mobile-xs{
     font-size: 18px !important;
   }
@@ -8,6 +11,10 @@
 .desc-img{
   width: 700px;
   height: 300px;
+  @include mobile{
+    width: 280px;
+    height: 120px;
+  }
   @include mobile-xs{
     width: 280px;
     height: 120px;
@@ -187,6 +194,9 @@
   }
 }
 .discord-logo {
+  @include mobile{
+    width:250px;
+  }
   @include mobile-xs{
     width:160px;
   }
@@ -197,6 +207,10 @@
 }
 
 .discord-title{
+  @include mobile{
+    width:100%;
+    font-size:6vw;
+  }
   @include mobile-xs{
     width:100%;
     font-size:5vw;
@@ -204,6 +218,9 @@
 }
 
 .discord-desc{
+  @include mobile{
+    width:100% !important;
+  }
   @include mobile-xs{
     width:100% !important;
   }

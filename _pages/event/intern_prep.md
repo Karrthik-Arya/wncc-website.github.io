@@ -26,7 +26,7 @@ permalink: /events/event/intern_prep/
         To help prepare for the gruesome intership season, WnCC along with Career Cell IITB organized this INTERNSHIP PREPARATION PROGRAM.
         <br><br>
         
- WnCC regularly released DSA preparation booklets (comprising both theory and questions) from 13th to 27th June 2021. Moreover, for assistance with the doubts related to the bookletsc we had with us, Aakash Kapoor, an IITB electrical 2020 graduate, currently, a Machine Learning researcher at Samsung. He also held detailed DSA tech sessions to help people learn. These sessions were held a day after the release of the booklet and were specifically focused on the material covered in that booklet.
+ WnCC regularly released DSA preparation booklets (comprising both theory and questions) from 13th to 27th June 2021. Moreover, for assistance with the doubts related to the booklets we had with us, Aakash Kapoor, an IITB electrical 2020 graduate, currently, a Machine Learning researcher at Samsung. He also held detailed DSA tech sessions to help people learn. These sessions were held a day after the release of the booklet and were specifically focused on the material covered in that booklet.
 <br><br>
  
 <br><br>

@@ -104,7 +104,13 @@
   bottom:0;
   left:0;
   right:0;
+  @include mobile {
+    margin-top: -100px;
+    font-size: 4em; 
+    width: 400px;   
+  }
   @include mobile-xs {
+    margin-top: 0px;
     font-size: 4em; 
     width: 300px;   
   }
@@ -137,6 +143,9 @@
   font-size: 3.2em;
   margin-top: 200px;
   width:fit-content;
+  @include mobile {
+    margin-top:60px;
+  }
   @include mobile-xs{
     margin-top:220px;
   }

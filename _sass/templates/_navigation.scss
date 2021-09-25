@@ -19,6 +19,9 @@
   @media(max-width:800px){
     margin-right: 500px;
   }
+  @include mobile{
+    margin-right:100px;
+  }
   @include mobile-xs{
     margin-right: 90px;
   }
