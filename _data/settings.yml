@@ -484,7 +484,7 @@ soc-items:
      - type: "Development" 
      - type: "2021"
 
-  - title : "Competative Coding"
+  - title : "Competitve Coding"
     image_small: "assets/images/soc/2021/small_item-28.png"
     image : "assets/images/soc/2021/item-28.png"
     url: "/soc/projects/2021/project-28"

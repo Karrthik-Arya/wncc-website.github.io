@@ -1,9 +1,9 @@
 ---
 layout: project
 title: Seasons of Code
-project: Competative Coding
+project: Competitve Coding
 topics:
-    - Competative Coding
+    - Competitve Coding
 mentors:
     - Tarush Goyal     
     
