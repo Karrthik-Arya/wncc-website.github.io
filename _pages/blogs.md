@@ -31,8 +31,8 @@ permalink: /blogs/
       </div>
     </div>
   </div>
-  <div class="container">
-    <div class="card border-success mb-1" style="max-width: 20rem;">
+  <div class="container mx-auto">
+    <div class="card border-success mb-1 mx-auto" style="max-width: 20rem;">
         {% for item in site.data.settings.blog-items %}
         <div class="card-body text-success" data-groups="[{% for soc in item.blog-type %}{% if forloop.first == true %}{% else %},{% endif %}&quot;{{ soc.type }}&quot;{% endfor %}]">
           <div class="shadow-sm rounded hover-wrapper pr-3 pl-3 pt-3 pb-3 bg-white border-top border-right" href="{{site.baseurl}}{{ item.url }}.html" style = "height:350px">
