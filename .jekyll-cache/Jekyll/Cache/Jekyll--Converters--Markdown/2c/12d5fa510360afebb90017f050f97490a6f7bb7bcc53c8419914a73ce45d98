@@ -1,12 +1,12 @@
-I"
+I"9
 <p>
-<div class="d-flex justify-content-around">
-<img src="/assets/images/blog-author/bhaskar_gupta.jpeg" alt="" id="circular-author" style="border-radius: 50%;" />
-<div class="author-details m-5">- Bhaskar Gupta
+<div class="d-flex justify-content-around flex-wrap">
+<img class="order-sm-2" src="/assets/images/blog-author/bhaskar_gupta.jpeg" alt="" id="circular-author" style="border-radius: 50%;" />
+<div class="author-details m-5 order-3">- Bhaskar Gupta
  IIT Bombay(CSE)
  4th Year, B.Tech
  </div>
-<h2 class="display1 m-3 p-3 text-center blog-col flex-fill">My Experience at ICPC World Finals, Moscow, October 2021</h2>
+<h2 class="display1 m-3 p-3 text-center blog-col flex-fill order-1">My Experience at ICPC World Finals, Moscow, October 2021</h2>
 </div>
 </p>
 <div>

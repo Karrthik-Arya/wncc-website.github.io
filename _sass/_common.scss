@@ -536,3 +536,16 @@ input:focus{
 #circular-author{
   border-radius: 50%;
 }
+
+.blog-info{
+  flex-wrap: nowrap;
+  @include tablet{
+    flex-direction: wrap-reverse!important;
+  }
+  @include mobile{
+    flex-wrap: wrap-reverse!important;
+  }
+  @include mobile-xs{
+    flex-wrap:wrap-reverse!important;
+  }
+}
