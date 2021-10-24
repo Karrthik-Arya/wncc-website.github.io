@@ -52,6 +52,9 @@
 <loc>/soc/projects/3d-reconstruction-using-2d-images</loc>
 </url>
 <url>
+<loc>/blogs/icpc</loc>
+</url>
+<url>
 <loc>/soc/projects/TL-website</loc>
 </url>
 <url>
@@ -74,6 +77,9 @@
 </url>
 <url>
 <loc>/blog/</loc>
+</url>
+<url>
+<loc>/blogs/</loc>
 </url>
 <url>
 <loc>/events/event/code-games/</loc>
@@ -181,7 +187,7 @@
 <loc>/portfolio/</loc>
 </url>
 <url>
-<loc>/soc-results/project-1-result</loc>
+<loc>/socresults/project-1-result</loc>
 </url>
 <url>
 <loc>/soc/projects/2021/project-1</loc>

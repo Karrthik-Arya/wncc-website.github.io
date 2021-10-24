@@ -11,6 +11,7 @@ menu:
 - {name: Resources, link: '/resources/'}
 - {name: SoC, link: '/soc/'}
 - {name: Events, link: '/events/'}
+- {name: Code::Blogs, link: '/blogs/'}
 - {name: Team, link: '/#team'}
 - {name: Contact, link: '/#contact'}
 
@@ -1316,7 +1317,7 @@ soc-result-items:
   - title : "Introduction to Web Development"
     image_small: "assets/images/soc/2021/small_item-1.jpg"
     image : "assets/images/soc/2021/item-1.jpg"
-    url: "/soc-results/project-1-result"
+    url: "/socresults/project-1-result"
     
 
   - title : "(Un)Clear"
@@ -1544,6 +1545,13 @@ soc-result-items:
     image : "assets/images/soc/2021/item-50.png"
     url: "/soc-results/project-50-result"
 #-------------------------------
+
+blog-items:
+  - title : "ICPC Experience"
+    author_image: "assets/images/blog-author/bhaskar_gupta.jpeg"
+    image : "assets/images/blog/icpc.jpeg"
+    url: "/blogs/icpc"
+    
 # Contact Section
 
 contact-title: Contact Info

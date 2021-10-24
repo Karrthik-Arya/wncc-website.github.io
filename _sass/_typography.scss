@@ -31,6 +31,18 @@ body {
   user-select: none; 
 }
 
+.blog-col
+{
+  color: #fd7e14;
+}
+.author-details
+{
+  font-weight: 800;
+  color: #fd7e14; 
+  font-size: 2.5vw;
+  float: right;
+}
+
 p, .paragraph {
   font-weight: 400;
   color: $text-color;

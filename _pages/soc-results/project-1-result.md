@@ -5,7 +5,7 @@ project: Introduction to Web Development
 
 
     
-permalink: /soc-results/project-1-result
+permalink: /socresults/project-1-result
 ---
 
 <h2 class="display1 m-3 p-3 text-center customcol">{{page.project}}</h2>
