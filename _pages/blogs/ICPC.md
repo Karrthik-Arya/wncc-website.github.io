@@ -10,8 +10,8 @@ permalink: /blogs/icpc
 {% for project in site.data.settings.blog-items %}
 {% if project.title == page.project %}
 <p>
-<div class = "d-flex justify-content-around flex-nowrap">
-<img src="{{ site.baseurl }}/{{ project.author_image }}"  width = "25%" height="auto"  alt="{{ project.project}}" id = "circular-author" style = "border-radius: 50%;">
+<div class = "d-flex justify-content-around">
+<img src="{{ site.baseurl }}/{{ project.author_image }}" alt="{{ project.project}}" id = "circular-author" style = "border-radius: 50%;">
 <div class = "author-details m-5">- Bhaskar Gupta
  IIT Bombay(CSE)
  4th Year, B.Tech
