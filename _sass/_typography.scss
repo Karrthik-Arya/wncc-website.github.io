@@ -33,16 +33,22 @@ body {
 
 .blog-col
 {
-  color: #ff4f00;
+  color: #55cfff;
   font-family: $primary-font;
+  @include mobile-xs{
+    font-size: 2.3em;
+  }
 }
 .author-details
 {
   font-weight: 800;
-  color: #72706e; 
+  color: #e6ba8e; 
   font-size: 2em;
   float: right;
   white-space: pre;
+  @include mobile-xs{
+    font-size: 1.3em;
+  }
 }
 
 p, .paragraph {

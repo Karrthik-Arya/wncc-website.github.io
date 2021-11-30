@@ -31,3 +31,38 @@ blockquote > p {
     line-height: 1.5;
   }
 }
+
+.bg-blog{
+  background-color:rgba(112, 89, 141, 0.246);
+}
+
+.blog-content{
+  align-content: center;
+  color: #dad8d8;
+  font-size: 1.8em;
+  @include mobile-xs{
+    font-size: 1.2em !important;
+  }
+}
+
+.blog-img{
+    transition: transform 0.8s;
+  &:hover{
+      transform: scale(1.05);
+    }
+}
+
+.blog-title{
+  @include mobile-xs{
+    overflow: hidden ;
+  }
+  @include mobile{
+    overflow: hidden;
+  }
+}
+
+.blog-card{
+  @include mobile-xs{
+    width: 250px;
+  }
+}

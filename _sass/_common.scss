@@ -529,23 +529,4 @@ input:focus{
   background-color: rgba(14, 3, 34, 0.305) !important;
 }
 
-.blog-content{
-  color: #ffffff;
-}
 
-#circular-author{
-  border-radius: 50%;
-}
-
-.blog-info{
-  flex-wrap: nowrap;
-  @include tablet{
-    flex-direction: wrap-reverse!important;
-  }
-  @include mobile{
-    flex-wrap: wrap-reverse!important;
-  }
-  @include mobile-xs{
-    flex-wrap:wrap-reverse!important;
-  }
-}
