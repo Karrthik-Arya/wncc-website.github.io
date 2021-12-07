@@ -38,8 +38,9 @@ blockquote > p {
 
 .blog-content{
   align-content: center;
-  color: #dad8d8;
+  color: #e9e9e9;
   font-size: 1.8em;
+  font-family: 'Poppins'!important;
   @include mobile-xs{
     font-size: 1.2em !important;
   }
