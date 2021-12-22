@@ -1548,9 +1548,16 @@ soc-result-items:
 
 blog-items:
   - title : "ICPC Experience"
+    author: "Bhaskar Gupta"
     author_image: "assets/images/blog-author/bhaskar_gupta.jpeg"
     image : "assets/images/blog/icpc.jpeg"
     url: "/blogs/icpc"
+
+  - title : "Microsoft Engage"
+    author: "Vikram Atreya"
+    author_image: "assets/images/blog-author/vikram_atreya.JPG"
+    image : "assets/images/blog/microsoft.jpeg"
+    url: "/blogs/ms-engage"
     
 # Contact Section
 

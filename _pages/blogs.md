@@ -31,21 +31,24 @@ permalink: /blogs/
       </div>
     </div>
   </div>
-  <div class="container mx-auto">
-    <div class="card border-success mb-1 mx-auto" style="max-width: 20rem;">
-        {% for item in site.data.settings.blog-items %}
-        <div class="card-body text-success" data-groups="[{% for soc in item.blog-type %}{% if forloop.first == true %}{% else %},{% endif %}&quot;{{ soc.type }}&quot;{% endfor %}]">
-          <div class="shadow-sm rounded hover-wrapper pr-3 pl-3 pt-3 pb-3 bg-white border-top border-right" href="{{site.baseurl}}{{ item.url }}.html" style = "height:350px">
-            <a href = "{{ site.baseurl }}{{item.url}}.html">
-            <span class="rounded"> <p class="lead text-center font-weight-bold" >{{ item.title }}</p> <img src="{{ site.baseurl }}/{{ item.image }}" alt="{{ item.title }}" class="img-fluid  w-100 d-block mt-5 h-75 rounded"></span>
-            <div class="hover-overlay rounded">
-            </div>
-            </a>
+<div class="container mx-auto">
+    <br>
+    <div class="row row-eq-height shuffle-wrapper">
+      {% for item in site.data.settings.blog-items %}
+      <div class="col-md-4 col-6 mb-4 shuffle-item" data-groups="[{% for soc in item.blog-type %}{% if forloop.first == true %}{% else %},{% endif %}&quot;{{ soc.type }}&quot;{% endfor %}]">
+        <div class="rounded hover-wrapper pr-3 pl-3 pt-3 pb-3 shadow-sm bg-white border-top border-right mx-auto" href="{{site.baseurl}}{{ item.url }}.html" style = "height:400px;">
+          <a href = "{{ site.baseurl }}{{item.url}}.html">
+          <span class="rounded"> <h4 class = "text-center">{{ item.title }}</h4> <img src="{{ site.baseurl }}/{{ item.image}}" alt="{{ item.title }}" class="img-fluid rounded  w-100 d-block mt-5" style= "height: 65%">
+          <br>
+          <h5 class = "text-center">- {{item.author}}</h5>
+          </span>
+          <div class="hover-overlay rounded">
           </div>
-          <div class="card-footer bg-transparent border-success"> <p class="lead text-center font-weight-bold card-author" >- Bhaskar Gupta </p> </div>
+          </a>
         </div>
-        {% endfor %}
-    </div>
+      </div>
+      {% endfor %}
+  </div>
   </div>
 
  </section> 

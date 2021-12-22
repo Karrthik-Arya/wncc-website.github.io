@@ -41,7 +41,7 @@
     <div class="row row-eq-height shuffle-wrapper">
       {% for item in site.data.settings.blog-items %}
       <div class="col-md-4 col-6 mb-4 shuffle-item mx-auto" data-groups="[{% for soc in item.blog-type %}{% if forloop.first == true %}{% else %},{% endif %}&quot;{{ soc.type }}&quot;{% endfor %}]">
-        <div class="rounded hover-wrapper pr-3 pl-3 pt-3 pb-3 shadow-sm bg-white border-top border-right mx-auto blog-card" href="{{site.baseurl}}{{ item.url }}.html" style = "height:400px;">
+        <div class="rounded hover-wrapper pr-3 pl-3 pt-3 pb-3 shadow-sm bg-white border-top border-right mx-auto" href="{{site.baseurl}}{{ item.url }}.html" style = "height:400px;">
           <a href = "{{ site.baseurl }}{{item.url}}.html">
           <span class="rounded"> <h4 class = "text-center">{{ item.title }}</h4> <img src="{{ site.baseurl }}/{{ item.image}}" alt="{{ item.title }}" class="img-fluid rounded  w-100 d-block mt-5 h-75"></span>
           <div class="hover-overlay rounded">
