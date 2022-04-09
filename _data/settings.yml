@@ -260,6 +260,10 @@ soc-year-label:
     title : "2021",
     type : "2021"
   }
+-  {
+    title: "2022",
+    type: "2022"
+  }
 
 soc-items:
   - title : "Introduction to Web Development"
@@ -925,6 +929,335 @@ soc-items:
     soc-type:
      - type: "Machine Learning" 
      - type: "2020"
+  
+  - title: "BuzzWord"
+    image_small: "assets/images/soc/2022/item221.jpg"
+    image: "assets/images/soc/2022/item221.jpg"
+    url: "/soc/projects/2022/project221"
+    soc-type:
+    -type: "Development"
+    -type: "2022"
+
+  - title: "Object detection using Machine Learning"
+    image_small: "assets/images/soc/2022/item222.jpg"
+    image: "assets/images/soc/2022/item222.jpg"
+    url: "/soc/projects/2022/project222"
+    soc-type:
+    -type: "Machine Learning"
+    -type: "2022"
+
+  - title: "Intro to Competitive Programming"
+    image_small: "assets/images/soc/2022/item223.png"
+    image: "assets/images/soc/2022/item223.png"
+    url: "/soc/projects/2022/project223"
+    soc-type:
+    -type: "Miscellaneous"
+    -type: "2022"
+
+  - title: "Text Summarization"
+    image_small: "assets/images/soc/2022/item224.jpg"
+    image: "assets/images/soc/2022/item224.jpg"
+    url: "soc/projects/text-summarization"
+    soc-type:
+    -type: "Machine Learning"
+    -type: "2022"
+
+  - title: "Road Accident Prevention (RAP)"
+    image_small: "assets/images/soc/2022/item225.jpg"
+    image: "assets/images/soc/2022/item225.jpg"
+    url: "soc/projects/rap"
+    soc-type:
+    -type: "Machine Learning"
+    -type: "2022"
+
+  - title: "Moodify"
+    image_small: "assets/images/soc/2022/item226.png"
+    image: "assets/images/soc/2022/item226.png"
+    url: "soc/projects/moodify"
+    soc-type:
+    -type: "Machine Learning"
+    -type: "2022"
+
+  - title: "Deoldify Videos"
+    image_small: "assets/images/soc/2022/item227.jpg"
+    image: "assets/images/soc/2022/item227.jpg"
+    url: "soc/projects/deoldify-videos"
+    soc-type:
+    -type: "Machine Learning"
+    -type: "2022"
+
+  - title: "Developing E-commerce Website Using Django"
+    image_small: "assets/images/soc/2022/item228.png"
+    image: "assets/images/soc/2022/item228.png"
+    url: "soc/projects/e-commerce-website"
+    soc-type:
+    -type: "Machine Learning"
+    -type: "2022"
+
+  - title: "An Introduction to QC, ML, and QML"
+    image_small: "assets/images/soc/2022/item229.png"
+    image: "assets/images/soc/2022/item229.png"
+    url: "soc/projects/intro-to-qc"
+    soc-type:
+    -type: "Machine Learning"
+    -type: "2022"
+
+  - title: "Resume Script Generator"
+    image_small: "assets/images/soc/2022/item230.png"
+    image: "assets/images/soc/2022/item230.png"
+    url: "soc/projects/resume-script"
+    soc-type:
+    -type: "Machine Learning"
+    -type: "2022"
+
+  - title: "Project Hash"
+    image_small: "assets/images/soc/2022/item231.jpg"
+    image: "assets/images/soc/2022/item231.jpg"
+    url: "soc/projects/project-hash"
+    soc-type:
+    -type: "Miscellaneous"
+    -type: "2022"
+  
+  - title: "Competitive Coding"
+    image_small: "assets/images/soc/2022/item232.png"
+    image: "assets/images/soc/2022/item232.png"
+    url: "/soc/projects/2022/project232"
+    soc-type:
+    -type: "Miscellaneous"
+    -type: "2022"
+
+  - title: "Child Face Generator"
+    image_small: "assets/images/soc/2022/item233.png"
+    image: "assets/images/soc/2022/item233.png"
+    url: "/soc/projects/2022/project233"
+    soc-type:
+    -type: "Machine Learning"
+    -type: "2022"
+  
+  - title: "Deep Reinforcement Learning for Equity Trading"
+    image_small: "assets/images/soc/2022/item234.png"
+    image: "assets/images/soc/2022/item234.png"
+    url: "/soc/projects/2022/project234"
+    soc-type:
+    -type: "Machine Learning"
+    -type: "2022"
+  
+  - title: "Numer.AI"
+    image_small: "assets/images/soc/2022/item235.jpeg"
+    image: "assets/images/soc/2022/item235.jpeg"
+    url: "/soc/projects/2022/project235"
+    soc-type:
+    -type: "Machine Learning"
+    -type: "2022"
+  
+  - title: "Stock Market Trend Predictor using Deep Learning"
+    image_small: "assets/images/soc/2022/item236.png"
+    image: "assets/images/soc/2022/item236.png"
+    url: "/soc/projects/2022/project236"
+    soc-type:
+    -type: "Machine Learning"
+    -type: "2022"
+
+  - title: "Advances in Nuclear Fusion"
+    image_small: "assets/images/soc/2022/item237.png"
+    image: "assets/images/soc/2022/item237.png"
+    url: "/soc/projects/2022/project237"
+    soc-type:
+    -type: "Miscellaneous"
+    -type: "2022"
+
+  - title: "Custom Wordle"
+    image_small: "assets/images/soc/2022/item238.jpeg"
+    image: "assets/images/soc/2022/item238.jpeg"
+    url: "/soc/projects/2022/project238"
+    soc-type:
+    -type: "Development"
+    -type: "2022"
+
+  - title: "Introduction to Machine Intelligence"
+    image_small: "assets/images/soc/2022/item239.png"
+    image: "assets/images/soc/2022/item239.png"
+    url: "/soc/projects/2022/project239"
+    soc-type:
+    -type: "Machine Learning"
+    -type: "2022"
+
+  - title: "Blogified"
+    image_small: "assets/images/soc/2022/item240.png"
+    image: "assets/images/soc/2022/item240.png"
+    url: "/soc/projects/2022/project240"
+    soc-type:
+    -type: "Miscellaneous"
+    -type: "2022"
+
+  - title: "Style It !!"
+    image_small: "assets/images/soc/2022/item241.jpeg"
+    image: "assets/images/soc/2022/item241.jpeg"
+    url: "/soc/projects/2022/project241"
+    soc-type:
+    -type: "Miscellaneous"
+    -type: "2022"
+
+  - title: "Mini Motorways Solver"
+    image_small: "assets/images/soc/2022/item242.jpg"
+    image: "assets/images/soc/2022/item242.jpg"
+    url: "/soc/projects/2022/project242"
+    soc-type:
+    -type: "Miscellaneous"
+    -type: "2022"
+
+  - title: "(De)Noise"
+    image_small: "assets/images/soc/2022/item243.jpg"
+    image: "assets/images/soc/2022/item243.jpg"
+    url: "/soc/projects/2022/project243"
+    soc-type:
+    -type: "Miscellaneous"
+    -type: "2022"
+
+  - title: "CryptoCreate"
+    image_small: "assets/images/soc/2022/item244.png"
+    image: "assets/images/soc/2022/item244.png"
+    url: "/soc/projects/2022/project244"
+    soc-type:
+    -type: "Miscellaneous"
+    -type: "2022"
+
+  - title: "Applications of Machine Learning in Astronomy"
+    image_small: "assets/images/soc/2022/item245.jpg"
+    image: "assets/images/soc/2022/item245.jpg"
+    url: "/soc/projects/2022/project245"
+    soc-type:
+    -type: "Miscellaneous"
+    -type: "2022"
+
+  - title: "RELIV(Learning and social platform for elderly)"
+    image_small: "assets/images/soc/2022/item246.jpeg"
+    image: "assets/images/soc/2022/item246.jpeg"
+    url: "/soc/projects/2022/project246"
+    soc-type:
+    -type: "Miscellaneous"
+    -type: "2022"
+  
+  - title: "Stock Market Prediction using ARIMA Model"
+    image_small: "assets/images/soc/2022/item247.jpg"
+    image: "assets/images/soc/2022/item247.jpg"
+    url: "/soc/projects/2022/project247"
+    soc-type:
+    -type: "Miscellaneous"
+    -type: "2022"
+
+  - title: "AI Race Cars"
+    image_small: "assets/images/soc/2022/item248.jpg"
+    image: "assets/images/soc/2022/item248.jpg"
+    url: "/soc/projects/2022/project248"
+    soc-type:
+    -type: "Miscellaneous"
+    -type: "2022"
+
+  - title: "Data Encryption program in python"
+    image_small: "assets/images/soc/2022/item249.jpg"
+    image: "assets/images/soc/2022/item249.jpg"
+    url: "/soc/projects/2022/project249"
+    soc-type:
+    -type: "Miscellaneous"
+    -type: "2022"
+
+  - title: "Explore the world of Web 3.0"
+    image_small: "assets/images/soc/2022/item250.webp"
+    image: "assets/images/soc/2022/item250.webp"
+    url: "/soc/projects/2022/project250"
+    soc-type:
+    -type: "Miscellaneous"
+    -type: "2022"
+
+  - title: "Learn to Cartoonize"
+    image_small: "assets/images/soc/2022/item251.jpg"
+    image: "assets/images/soc/2022/item251.jpg"
+    url: "/soc/projects/2022/project251"
+    soc-type:
+    -type: "Miscellaneous"
+    -type: "2022"
+
+  - title: "Image Editing"
+    image_small: "assets/images/soc/2022/item252.png"
+    image: "assets/images/soc/2022/item252.png"
+    url: "/soc/projects/2022/project252"
+    soc-type:
+    -type: "Miscellaneous"
+    -type: "2022"
+
+  - title: "Federated Learning for Traffic Prediction and Route Planning"
+    image_small: "assets/images/soc/2022/item253.PNG"
+    image: "assets/images/soc/2022/item253.PNG"
+    url: "/soc/projects/2022/project253"
+    soc-type:
+    -type: "Miscellaneous"
+    -type: "2022"
+
+  - title: "CNN-lytical"
+    image_small: "assets/images/soc/2022/item254.jpg"
+    image: "assets/images/soc/2022/item254.jpg"
+    url: "/soc/projects/2022/project254"
+    soc-type:
+    -type: "Miscellaneous"
+    -type: "2022"
+
+  - title: "Website for tracking stock market "
+    image_small: "assets/images/soc/2022/item255.jpg"
+    image: "assets/images/soc/2022/item255.jpg"
+    url: "/soc/projects/2022/project255"
+    soc-type:
+    -type: "Miscellaneous"
+    -type: "2022"
+
+  - title: "Intro to Web Development: News Café (A News Aggregator Web-App) "
+    image_small: "assets/images/soc/2022/item256.jpg"
+    image: "assets/images/soc/2022/item256.jpg"
+    url: "/soc/projects/2022/project256"
+    soc-type:
+    -type: "Miscellaneous"
+    -type: "2022"
+
+  - title: "CNN Based Stock Market Prediction"
+    image_small: "assets/images/soc/2022/item257.jpeg"
+    image: "assets/images/soc/2022/item257.jpeg"
+    url: "/soc/projects/2022/project257"
+    soc-type:
+    -type: "Miscellaneous"
+    -type: "2022"
+
+  - title: "Light (Rendering) Engine"
+    image_small: "assets/images/soc/2022/item258.png"
+    image: "assets/images/soc/2022/item258.png"
+    url: "/soc/projects/2022/project258"
+    soc-type:
+    -type: "Miscellaneous"
+    -type: "2022"
+
+  - title: "threeD (Novel Scripting Language)"
+    image_small: "assets/images/soc/2022/item259.png"
+    image: "assets/images/soc/2022/item259.png"
+    url: "/soc/projects/2022/project259"
+    soc-type:
+    -type: "Miscellaneous"
+    -type: "2022"
+
+  - title: "Canteen food rating system "
+    image_small: "assets/images/soc/2022/item260.jpg"
+    image: "assets/images/soc/2022/item260.jpg"
+    url: "/soc/projects/2022/project260"
+    soc-type:
+    -type: "Miscellaneous"
+    -type: "2022"
+
+  - title: "Tbd/ (its on Menstrual health/ hygiene/ awareness)"
+    image_small: "assets/images/soc/2022/item261.png"
+    image: "assets/images/soc/2022/item261.png"
+    url: "/soc/projects/2022/project261"
+    soc-type:
+    -type: "Miscellaneous"
+    -type: "2022"
+          
 
 #-------------------------------
 # Testimonials Section
