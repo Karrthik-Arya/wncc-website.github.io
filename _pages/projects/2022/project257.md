@@ -48,22 +48,27 @@ permalink: /soc/projects/2022/project257
         {% endfor %}
     </ul>
 </div>
-<div class = "project-desc" style = "margin-bottom: 140px">
-    <p class="display3" style = "font-size:22px;" >
+<div >
+    <p class="display3 project-desc" style = "font-size:22px;" >
         <br>
         The goal of this project is to implement 3D Convolutional Neural Network models for predicting the directional movement of stock markets using data from various sources.
-Main Paper: https://www.sciencedirect.com/science/article/pii/S0957417419301915
-Other Articles: https://www.analyticsvidhya.com/blog/2021/08/hands-on-stock-price-time-series-forecasting-using-deep-convolutional-networks/, https://machinelearningmastery.com/using-cnn-for-financial-time-series-prediction/, will be sharing resources for learning the foundations, mentees can also find more articles on the internet, and look up papers & data on the Indian market as well and try working on them.			
+        
+Main Paper: <a href='https://www.sciencedirect.com/science/article/pii/S0957417419301915'>https://www.sciencedirect.com/science/article/pii/S0957417419301915</a><br>
+</p>
+        <p class="display3" style = "font-size:22px;" >
+Other Articles:<a href='https://www.analyticsvidhya.com/blog/2021/08/hands-on-stock-price-time-series-forecasting-using-deep-convolutional-networks/'>https://www.analyticsvidhya.com/blog/2021/08/hands-on-stock-price-time-series-forecasting-using-deep-convolutional-networks/</a><br>
+<a href='https://www.analyticsvidhya.com/blog/2021/08/hands-on-stock-price-time-series-forecasting-using-deep-convolutional-networks/'>https://www.analyticsvidhya.com/blog/2021/08/hands-on-stock-price-time-series-forecasting-using-deep-convolutional-networks/</a><br> <a href='https://machinelearningmastery.com/using-cnn-for-financial-time-series-prediction/'>https://machinelearningmastery.com/using-cnn-for-financial-time-series-prediction/</a><br>
+will be sharing resources for learning the foundations, mentees can also find more articles on the internet, and look up papers & data on the Indian market as well and try working on them.			
         <br>
 Prerequisite:
 Should be familiar with python and exposure to data analysis is preferable
-<br>
-    </p>
+</p>
 </div>
+<br>
 <div class = "d-flex flex-wrap">
 <div>
     <h4 class="display3" style="margin:40px 0px 40px 0px;">Tentative Timeline :</h4>
-    <table class="table table-striped">
+    <table class="table table-striped w-100">
     <thead>
         <tr>
         <th>Week</th>
@@ -73,44 +78,36 @@ Should be familiar with python and exposure to data analysis is preferable
     <tbody>
     <tr>
       <td>Week 1</td>
-      <td>"April:
-Week 1: Intro to Time Series Data & Problems
-Week 2: Basic modeling & forecasting Methods
-May:
-Week 3: Basic Machine Learning & Deep Learning
-Week 4: Building Neural Networks in Google Colab
-Week 5: Understanding and Implementing CNNs
-Week 6: Reading and Understanding the Paper
-Possibly reviewing similar papers/articles
-June:
-Week 7: Understanding & Working with the Data 
-Week 8: Working on Model Building & Evaluation
-Week 9: Possible Iterations & Optimisations
-Week 10: Document & Suggest Improvements
-Possibly implementing similar papers/articles
-July:
-Week 11: Buffer or Review/Analysis
-Week 12: Preparing a Presentation"
-  </td>
+      <td>Intro to Time Series Data & Problems  </td>
     </tr>
     <tr>
       <td>Week 2</td>
-      <td>	Learning javascript and Bootstrap</td>
+      <td>Basic modeling & forecasting Methods</td>
     </tr>
     <tr>
       <td>Week 3</td>
-      <td>Introduction to react js framework</td>
+      <td>Basic Machine Learning & Deep Learning</td>
     </tr>
     <tr>
-      <td>Week 4-5</td>
-      <td>Introduction to PHP, MySQL.</td>
-    </tr>
-    <td>Week 6</td>
-      <td>Introduction to Git/Github And APIs</td>
+      <td>Week 4</td>
+      <td>Building Neural Networks in Google Colab</td>
     </tr>
     <tr>
-      <td>Final Week</td>
-      <td>Full stack Development of stock market tracking website.</td>
+    <td>Week 5</td>
+      <td>Understanding and Implementing CNNs</td>
+    </tr>
+    <tr>
+      <td>Week 6</td>
+      <td>Reading and Understanding the Paper
+Possibly reviewing similar papers/articles</td>
+    </tr>
+    <tr>
+      <td>Week 7</td>
+      <td>Understanding & Working with the Data, Model Building & Evaluation</td>
+    </tr>
+    <tr>
+      <td>Week 8-9</td>
+      <td>Possible Iterations, Optimisations, suggest improvements & Documention</td>
     </tr>
     </tbody>
     </table>

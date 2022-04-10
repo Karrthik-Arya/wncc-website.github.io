@@ -48,12 +48,12 @@ permalink: /soc/projects/2022/project251
         {% endfor %}
     </ul>
 </div>
-<div class = "project-desc" style = "margin-bottom: 140px">
+<div class = "project-desc">
     <p class="display3" style = "font-size:22px;" >
         <br>
         This project aims to introduce you to Deep Learning with the amazing and fun application of Generative Adversarial Networks that is image cartoonization. You will learn how to navigate your way further in the arena of Machine Learning and Artificial Intelligence.
-
-        Link to the CartoonGan paper - https://ieeexplore.ieee.org/document/8579084 
+        <br>
+        Link to the CartoonGan paper - <a href='https://ieeexplore.ieee.org/document/8579084'>https://ieeexplore.ieee.org/document/8579084</a> 
 <br>
 Prerequisites:
 N/A
@@ -62,7 +62,7 @@ N/A
 <div class = "d-flex flex-wrap">
 <div>
     <h4 class="display3" style="margin:40px 0px 40px 0px;">Tentative Timeline :</h4>
-    <table class="table table-striped">
+    <table class="table table-striped w-100">
     <thead>
         <tr>
         <th>Week</th>

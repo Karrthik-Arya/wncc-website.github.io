@@ -48,13 +48,14 @@ permalink: /soc/projects/2022/project252
         {% endfor %}
     </ul>
 </div>
-<div class = "project-desc" style = "margin-bottom: 140px">
-    <p class="display3" style = "font-size:22px;" >
+<div >
+    <p class="display3 project-desc" style = "font-size:22px;" >
         <br>
-        "Were there situations when you felt that you would have looked better in a pic if you had smiled? Or if you had bangs? Well, I guess you faced such situations. In this project, we aim to develop a model which can do this editing for you i.e. make you smile or add bangs. Sounds interesting, right?
+        "Were there situations when you felt that you would have looked better in a pic if you had smiled? Or if you had bangs? Well, I guess you faced such situations. In this project, we aim to develop a model which can do this editing for you i.e. make you smile or add bangs. Sounds interesting, right?<br>
 
-Image Editing is one of the most exciting applications of deep learning. Out of the many available techniques, Generative Adversarial Networks(GANs) based methods have shown excellent results on this task. Referring to GANs, Facebook’s AI research director Yann LeCun called adversarial training “the most interesting idea in the last 10 years in ML”. GANs are really the biggest breakthrough in the history of AI.
-
+Image Editing is one of the most exciting applications of deep learning. Out of the many available techniques, Generative Adversarial Networks(GANs) based methods have shown excellent results on this task. Referring to GANs, Facebook’s AI research director Yann LeCun called adversarial training “the most interesting idea in the last 10 years in ML”. GANs are really the biggest breakthrough in the history of AI.<br>
+</p>
+<p class="display3" style = "font-size:22px;" >
 Semantic image editing is the task of transforming a source image to a target image while modifying desired semantic attributes, e.g., to make an image taken during summer look like it was captured in winter. It also includes facial attribute editing which aims to manipulate single or multiple attributes(e.g., hair color, expression, mustache and age) of a face image, i.e., to generate a new face with desired attributes while preserving other details. The paper titled “Enjoy Your Editing: Controllable GANs for Image Editing via Latent Space Navigation” develops an approach to change multiple attributes simultaneously. This project would involve the implementation of this paper for editing the facial images. "				
         <br>
     </p>
@@ -62,7 +63,7 @@ Semantic image editing is the task of transforming a source image to a target im
 <div class = "d-flex flex-wrap">
 <div>
     <h4 class="display3" style="margin:40px 0px 40px 0px;">Tentative Timeline :</h4>
-    <table class="table table-striped">
+    <table class="table table-striped w-100">
     <thead>
         <tr>
         <th>Week</th>

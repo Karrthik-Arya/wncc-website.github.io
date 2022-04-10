@@ -49,17 +49,18 @@ permalink: /soc/projects/2022/project253
         {% endfor %}
     </ul>
 </div>
-<div class = "project-desc" style = "margin-bottom: 140px">
-    <p class="display3" style = "font-size:22px;" >
+<div>
+    <p class="display3 project-desc" style = "font-size:22px;" >
         <br>
         "The goal of the project is to determine the optimum paths for various users in real-time using the live traffic information from the traffic stations.
-
+</p>
+<p class="display3" style = "font-size:22px;" >
 Standard machine learning approaches require centralizing the training data on one machine or in a data center. Federated Learning enables mobile phones to collaboratively learn a shared prediction model while keeping all the training data on the device, decoupling the ability to do machine learning from the need to store the data in the cloud. The topic is a hot area of research both in academia and industry. Google is currently testing Federated Learning in Gboard on Android, the Google Keyboard. When Gboard shows a suggested query, your phone locally stores information about the current context and whether you clicked the suggestion. Federated Learning processes that history on-device to suggest improvements to the next iteration of Gboard’s query suggestion mode
-
+<br> <br>
 To facilitate the development of intelligent transport systems, particularly those involving most of the vehicles being autonomous, it is imperative to have an accurate prediction of the traffic conditions, such as traffic flow and speed. This knowledge can help make effective travel decisions, increase fuel efficiency, and alleviate air pollution. To reap all the aforementioned benefits, the traffic prediction must process the real-time and historical traffic data collected by traffic stations and mobile devices.
-
+<br><br>
 So In this project, we would be first building up some basics for the work involved like reading up about machine learning, federated learning, and graph algorithm. Then we would start working on some real-time traffic data from Sources like google Maps to train our model. We would work with hypothetical traffic stations for a particular map. This model would help us provide real time-optimal path for the drivers."				
-        <br>
+        <br><br>
 Prerequisite:
 It would be good if the mentee has basic knowledge of python and/or graph algorithms. 
 <br>
@@ -68,7 +69,7 @@ It would be good if the mentee has basic knowledge of python and/or graph algori
 <div class = "d-flex flex-wrap">
 <div>
     <h4 class="display3" style="margin:40px 0px 40px 0px;">Tentative Timeline :</h4>
-    <table class="table table-striped">
+    <table class="table table-striped w-100">
     <thead>
         <tr>
         <th>Week</th>

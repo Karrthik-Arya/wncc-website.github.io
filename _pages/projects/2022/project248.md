@@ -47,14 +47,16 @@ permalink: /soc/projects/2022/project248
         {% endfor %}
     </ul>
 </div>
-<div class = "project-desc" style = "margin-bottom: 140px">
-    <p class="display3" style = "font-size:22px;" >
+<div>
+    <p class="display3 project-desc" style = "font-size:22px;" >
         <br>
         In this project, we’ll build an AI Race Car bot from scratch, and implement both basic Reinforcement Learning and Deep Reinforcement Learning techniques to achieve high scores.
-
+        </p>
+        <br>
+        <p class="display3" style = "font-size:22px;" >
         Reinforcement learning (RL) is an area of machine learning concerned with how intelligent agents ought to take actions in an environment in order to maximize the notion of cumulative reward. A reinforcement learning agent is capable of learning on its own by exploring its environment to determine the best action to take in a certain situation.
-
-        For some cool stuff - https://www.youtube.com/watch?v=Zeyv1bN9v4A&ab_channel=UZHRoboticsandPerceptionGroup
+        <br>
+        For some cool stuff - <a href='https://www.youtube.com/watch?v=Zeyv1bN9v4A&ab_channel=UZHRoboticsandPerceptionGroup'>https://www.youtube.com/watch?v=Zeyv1bN9v4A&ab_channel=UZHRoboticsandPerceptionGroup</a>
 
 <br>
 Prerequisites:
@@ -65,7 +67,7 @@ For sophies: Intermediate knowledge of python and ML
 <div class = "d-flex flex-wrap">
 <div>
     <h4 class="display3" style="margin:40px 0px 40px 0px;">Tentative Timeline :</h4>
-    <table class="table table-striped">
+    <table class="table table-striped w-100">
     <thead>
         <tr>
         <th>Week</th>

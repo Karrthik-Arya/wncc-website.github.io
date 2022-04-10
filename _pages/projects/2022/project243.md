@@ -1,7 +1,7 @@
 ---
 layout: project
 title: Seasons of Code
-project: De(Noise)
+project: (De)Noise
 mentors:
     - Omkar Ghugarkar
     - Bhuvan Aggarwal   
@@ -47,38 +47,40 @@ permalink: /soc/projects/2022/project243
         {% endfor %}
     </ul>
 </div>
-<div class = "project-desc" style = "margin-bottom: 140px">
-    <p class="display3" style = "font-size:22px;" >
+<div>
+    <p class="display3 project-desc" style = "font-size:22px;" >
         <br>
         Imagine waiting for your flight at the airport. Suddenly, an important call lights up your phone. Tons of background noise clutters up the soundscape around you — background chatter, airplanes taking off, maybe a flight announcement. You have to take the call and you want to sound clear. We all have been in this awkward, non-ideal situation. It’s just part of modern business. Background noise is everywhere. And it’s annoying. 
-
+        <br>
+        </p>
+        <p class="display3" style = "font-size:22px;" >
         In this project, we would do Speech Enhancement. Speech enhancement is the task of taking a noisy speech input and producing an enhanced speech output. 
-
+        <br>
         How are we going to do?
-
+        <br>
         We would be using focusing on deep learning techniques. Initially we will use autoencoders then move onto implement SEGAN (1703.09452)
-
+        <br>
         Selection Procedure
-
+        <br>
         Your selection would be based on your SOP and a small coding test in Python (If you are good with CS101 and have an intro to python, it should be a cake-walk)
-
+        <br>
         Caution
-
+        <br>
         This project would require good amount of commitment. But believe me, you would enjoy the journey and learn lots of Cool stuff.
-
+        <br>
         Perks
-
+        <br>
         Introduction to the whole new world of machine Learning and Deep learning
         Master the Deep learning packages like Tensor Flow, keras
         Apply the hottest technique in Deep Learning – GANs
         Get acquainted to various techniques in speech processing
         Last but not the least, apply your coding skills to build an entire Project from scratch
-
+        <br>
         Resources
-
-        Python Tutorial - https://www.youtube.com/playlist?list=PL-osiE80TeTskrapNbzXhwoFUiLCjGgY7
-
-        Speech Enhancement - https://medium.com/analytics-vidhya/noise-suppression-using-deep-learning-6ead8c8a1839 
+        <br>
+        Python Tutorial - <a href='https://www.youtube.com/playlist?list=PL-osiE80TeTskrapNbzXhwoFUiLCjGgY7'>https://www.youtube.com/playlist?list=PL-osiE80TeTskrapNbzXhwoFUiLCjGgY7</a>
+        <br>
+        Speech Enhancement - <a href='https://medium.com/analytics-vidhya/noise-suppression-using-deep-learning-6ead8c8a1839'> https://medium.com/analytics-vidhya/noise-suppression-using-deep-learning-6ead8c8a1839</a>
 <br>
 Prerequisites:
 A good understanding of concepts of CS – 101 is always good. It would be preferable if you have an introduction to Python. Don’t worry if you are not very comfortable with Python. Please go through the small Python tutorial attached in the resources section. Along with this, interest to learn new things and enthusiasm is must.
@@ -87,7 +89,7 @@ A good understanding of concepts of CS – 101 is always good. It would be prefe
 <div class = "d-flex flex-wrap">
 <div>
     <h4 class="display3" style="margin:40px 0px 40px 0px;">Tentative Timeline :</h4>
-    <table class="table table-striped">
+    <table class="table table-striped w-100">
     <thead>
         <tr>
         <th>Week</th>
@@ -117,7 +119,7 @@ A good understanding of concepts of CS – 101 is always good. It would be prefe
     </tr>
     <tr>
       <td>Week 7</td>
-      <td>Buffer<td>
+      <td>Buffer</td>
     </tr>
     </tbody>
     </table>

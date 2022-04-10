@@ -47,7 +47,7 @@ permalink: /soc/projects/2022/project249
         {% endfor %}
     </ul>
 </div>
-<div class = "project-desc" style = "margin-bottom: 140px">
+<div class = "project-desc">
     <p class="display3" style = "font-size:22px;" >
         <br>
         Humans need to predict the future trends of various sequences in the best possible manner. By the end of this project, we will be able to exchange coded messages using our encrypted program. We will focus on symmetric-key encryption. That is, the same key will be used to encrypt and decrypt the message.
@@ -68,7 +68,7 @@ No prerequisites. But having knowledge of basics of web development will be pref
     </thead>
     <tbody>
     <tr>
-      <td>Week 1/td>
+      <td>Week 1</td>
       <td>Basics of python</td>     
     </tr>
     <tr>

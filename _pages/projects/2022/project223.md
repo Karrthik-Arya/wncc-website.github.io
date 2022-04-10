@@ -49,19 +49,21 @@ permalink: /soc/projects/2022/project223
         {% endfor %}
     </ul>
 </div>
-<div class = "project-desc" style = "margin-bottom: 140px">
-    <p class="display3" style = "font-size:22px;" >
+<div style = "margin-bottom: 140px">
+    <p class="display3 project-desc" style = "font-size:22px;" >
         <br>
-            This is meant to be a basic competitive programming project. Participants are required to participate in as many contests as possible on websites like codeforces, codechef, atcoder etc and then discuss it after the contest ends. As a part of theory, I plan to cover basic STL and some data structures/Algorithms from my library. Later parts can cover some intermediate topics like square root decomposition, matchings etc.
-            <br>
+            This is meant to be a basic competitive programming project. Participants are required to participate in as many contests as possible on websites like codeforces, codechef, atcoder etc and then discuss it after the contest ends. 
+            </p>
+             <p class="display3" style = "font-size:22px;" >
+            As a part of theory, I plan to cover basic STL and some data structures/Algorithms from my library. Later parts can cover some intermediate topics like square root decomposition, matchings etc.
+            <br><br>
             Prerequisites: Basic knowledge of C++ (CS 101) 
-        <br>
     </p>
 </div>
 <div class = "d-flex flex-wrap">
 <div>
-    <h4 class="display3" style="margin:40px 0px 40px 0px;">Tentative Timeline :</h4>
-    <table class="table table-striped">
+    <h4 class="display3" style="margin:0px 0px 40px 0px;">Tentative Timeline :</h4>
+    <table class="table table-striped w-100">
     <thead>
         <tr>
         <th>Week</th>
@@ -70,7 +72,7 @@ permalink: /soc/projects/2022/project223
     </thead>
     <tbody>
     <tr>
-      <td  >Week 1</td>
+      <td >Week 1</td>
       <td>Basics of machine learning</td>
     </tr>
     <tr>

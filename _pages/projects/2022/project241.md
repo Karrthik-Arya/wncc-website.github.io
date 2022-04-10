@@ -47,10 +47,13 @@ permalink: /soc/projects/2022/project241
         {% endfor %}
     </ul>
 </div>
-<div class = "project-desc" style = "margin-bottom: 140px">
-    <p class="display3" style = "font-size:22px;" >
+<div>
+    <p class="display3 project-desc" style = "font-size:22px;" >
         <br>
-        Ever wish you could polish your writings to better fit the purpose, for example, make them more professional, polite or humorous? Ever wondered if you could paint like Picasso or Van Gogh? In this project, we focus on Style Transfer, which involves the adoption of a different style and change of attributes while preserving the content that you start with. The core idea behind this project is to familiarize with Deep NLP (one of the most sought-after domains of AI) & get hands-on experience with various deep network architectures while trying to accomplish 2 major tasks: Text Style Transfer & Image Style Transfer.
+        Ever wish you could polish your writings to better fit the purpose, for example, make them more professional, polite or humorous? Ever wondered if you could paint like Picasso or Van Gogh? In this project, we focus on Style Transfer, which involves the adoption of a different style and change of attributes while preserving the content that you start with. 
+        </p>
+         <p class="display3" style = "font-size:22px;" >
+        The core idea behind this project is to familiarize with Deep NLP (one of the most sought-after domains of AI) & get hands-on experience with various deep network architectures while trying to accomplish 2 major tasks: Text Style Transfer & Image Style Transfer.
 <br>
 Prerequisites:
 Enthu !!
@@ -59,12 +62,16 @@ Enthu !!
 </div>
 <div class = "d-flex flex-wrap">
 <div>
-    <h4 class="display3" style="margin:40px 0px 40px 0px;">Tentative Timeline :</h4>
-    <table class="table table-striped">
+    <h4 class="display3" style="margin:0px 0px 40px 0px;">Tentative Timeline :</h4>
+    <table class="table table-striped w-100">
     <thead>
         <tr>
         <th>Week</th>
-        <th>Work</th>
+        <th></th>
+         <th>Work</th>
+          <th></th> 
+          <th></th>
+
         </tr>
     </thead>
     <tbody>
@@ -79,33 +86,50 @@ Enthu !!
       <td>Week 1</td>
       <td>Getting familiar with FFNN, RNN, LSTM, GRUs, Seq2Seq model</td>
       <td>Execution of a simple sentiment analysis task to get acquainted with the models</td>
+      <td></td>
+      <td></td>
     </tr>
     <tr>
       <td>Week 2</td>
       <td>Getting acquainted with Encoder-decoder architecture, Transformers, Hugging Face, Pre-trained models like BERT, GPT</td>
       <td>Extending the previously done sentiment analysis task for accommodating transformer models.</td>
+      <td></td>
+      <td></td>
     </tr>
     <tr>
       <td>Week 3</td>
       <td>Implementing the learned models for sentiment transfer task (converting the sentiment of sentence, e.g. from positive to negative)</td>
+      <td></td>
+      <td></td>
+      <td></td>
     </tr>
     <tr>
       <td>Week 4</td>
       <td>Implementing the learned models for formality transfer task (converting informal to formal sentences) and politeness transfer task ( converting from impolite to polite tone). These two tasks are used heavily in chatbots.</td>
+      <td></td>
+      <td></td>
+      <td></td>
     </tr>
     <tr>
       <td>Week 5</td>
       <td>Implementing Generative Style Transformer (GST) for Gender transfer (from masculine to feminine) and Politics transfer task (from republic to democrats)</td>
+      <td></td>
+      <td></td>
+      <td></td>
     </tr>
     <tr>
       <td>Week 6</td>
       <td>Buffer week for concluding Text Style Transfer tasks (to account for overspills or dive deeper into the tasks)</td>
+      <td></td>
+      <td></td>
+      <td></td>
     </tr>
     <tr>
       <td>Week 7</td>
       <td>Learn about CNNs, VGG16, Resnet etc.</td>
       <td>Implement basic image classification tasks using these models to get familiarized with them</td>
       <td>Design the architecture from scratch!</td>
+      <td></td>
     </tr>
     <tr>
        <td>Week 8</td>

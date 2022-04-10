@@ -47,34 +47,39 @@ permalink: /soc/projects/2022/project250
         {% endfor %}
     </ul>
 </div>
-<div class = "project-desc" style = "margin-bottom: 140px">
-    <p class="display3" style = "font-size:22px;" >
+<div>
+    <p class="display3 project-desc" style = "font-size:22px;" >
         <br>
         "Web 3 is an internet owned by users and builders orchestrated with tokens." - Chris Dixon
-
-        As the craze for the blockchain, web3 and NFTs is increasing exponentially, the aim of this project is to introduce the amazing new world of web 3.0 in a completely hands-on manner. In this project the mentees will be able to appreciate the amount of ease, freedom and transparency blockchain and decentralization is bringing in the world right now. You will get the hands-on experience of coding web3 applications aka dApps from scratch.
+        <br><br>
+        As the craze for the blockchain, web3 and NFTs is increasing exponentially, the aim of this project is to introduce the amazing new world of web 3.0 in a completely hands-on manner. 
+        </p>
+        <p class="display3" style = "font-size:22px;" >
+        In this project the mentees will be able to appreciate the amount of ease, freedom and transparency blockchain and decentralization is bringing in the world right now. You will get the hands-on experience of coding web3 applications aka dApps from scratch.
         Some of the projects you will be building along the way...
-        1. Crypto based crowdfunding app
-        2. Make your own NFT
-        3. NFT minting 
-        4. DeFi apps
-
-        suggested reading material:
-
-        What is web3? 
-        -> https://ethereum.org/en/web3/
-
-        DeFi
-        -> https://www.coinbase.com/learn/crypto-basics/what-is-defi
+        </p>
+        <ul style = "list-style-type: disc">
+        <li class="display3 mb-2" style = "font-size:20px;">Crypto based crowdfunding app</li>
+        <li class="display3 mb-2" style = "font-size:20px;"> Make your own NFT</li>
+        <li class="display3 mb-2" style = "font-size:20px;"> NFT minting </li>
+        <li class="display3 mb-2" style = "font-size:20px;"> DeFi apps</li>
+        </ul>
+        <p class="display3" style = "font-size:22px;" >
+        Suggested reading material:
+        <br>
+        What is web3? <br>
+        -> <a href='https://ethereum.org/en/web3/'>https://ethereum.org/en/web3/</a><br>
+        DeFi <br>
+        -> <a href="https://www.coinbase.com/learn/crypto-basics/what-is-defi">https://www.coinbase.com/learn/crypto-basics/what-is-defi</a>
 <br>
-Prerequisites:
+Prerequisites:<br>
 This project doesn't require any pre-requisite apart from whatever you have learnt in CS101. Familiarity with the JavaScript will be a plus point but not a formal pre-requisite. But the very fundamental prerequisite we expect is enthusiasm to learn and explore :)
 </p>
 </div>
 <div class = "d-flex flex-wrap">
 <div>
     <h4 class="display3" style="margin:40px 0px 40px 0px;">Tentative Timeline :</h4>
-    <table class="table table-striped">
+    <table class="table table-striped w-100">
     <thead>
         <tr>
         <th>Week</th>

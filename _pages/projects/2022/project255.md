@@ -49,18 +49,18 @@ permalink: /soc/projects/2022/project255
         {% endfor %}
     </ul>
 </div>
-<div class = "project-desc" style = "margin-bottom: 140px">
+<div class = "project-desc" >
     <p class="display3" style = "font-size:22px;" >
         <br>
-        "This project will help the mentees to gain the basic knowledge of web development. Towards the end of the project mentees have to develop their own stock market static website for completing the project.
-Technical skills/ languages: 
-1)HTML
-2)CSS
-3)JavaScript
-4)Bootstrap (if they get proficient in above three).
-5)Git/GitHub
-6) Introduction to React.js 
-7) PHP"				
+        "This project will help the mentees to gain the basic knowledge of web development. Towards the end of the project mentees have to develop their own stock market static website for completing the project.<br>
+Technical skills/ languages: <br>
+1)HTML<br>
+2)CSS<br>
+3)JavaScript<br>
+4)Bootstrap (if they get proficient in above three).<br>
+5)Git/GitHub<br>
+1) Introduction to React.js <br>
+2) PHP<br>
         <br>
 Prerequisite:
 N/A 
@@ -70,7 +70,7 @@ N/A
 <div class = "d-flex flex-wrap">
 <div>
     <h4 class="display3" style="margin:40px 0px 40px 0px;">Tentative Timeline :</h4>
-    <table class="table table-striped">
+    <table class="table table-striped w-100">
     <thead>
         <tr>
         <th>Week</th>
@@ -95,6 +95,7 @@ N/A
       <td>Week 4-5</td>
       <td>Introduction to PHP, MySQL.</td>
     </tr>
+    <tr>
     <td>Week 6</td>
       <td>Introduction to Git/Github And APIs</td>
     </tr>

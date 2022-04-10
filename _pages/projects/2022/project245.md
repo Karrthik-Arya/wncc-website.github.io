@@ -47,7 +47,7 @@ permalink: /soc/projects/2022/project245
         {% endfor %}
     </ul>
 </div>
-<div class = "project-desc" style = "margin-bottom: 140px">
+<div class = "project-desc">
     <p class="display3" style = "font-size:22px;" >
         <br>
         In this project, the mentees will apply machine learning in the field of radio astronomy. A specific dataset will be provided upon which analysis will be performed and insights will be extracted. The starting weeks will be focussed on familiarising the mentees with the basics of machine learning algorithms and python tools after which the dataset will be provided. We are looking for mentees who are enthusiastic and are ready to devote time for this project (reason for taking only 4 mentees). In this project, the mentees will apply machine learning in the field of radio astronomy. A specific dataset will be provided upon which analysis will be performed and insights will be extracted. The starting weeks will be focussed on familiarising the mentees with the basics of machine learning algorithms and python tools after which the dataset will be provided. We are looking for mentees who are enthusiastic and are ready to devote time for this project (reason for taking only 4 mentees). 

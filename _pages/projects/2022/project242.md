@@ -47,21 +47,23 @@ permalink: /soc/projects/2022/project242
         {% endfor %}
     </ul>
 </div>
-<div class = "project-desc" style = "margin-bottom: 140px">
-    <p class="display3" style = "font-size:22px;" >
+<div style = "margin-bottom: 140px">
+    <p class="display3 project-desc" style = "font-size:22px;" >
         <br>
-        Have you ever played the strategy simulation game "Mini Motorways"? If no, then go ahead and checkout it's gameplay. We are here to build the perfect ML based model to ace this game.
+        Have you ever played the strategy simulation game "Mini Motorways"? If no, then go ahead and checkout it's gameplay. We are here to build the perfect ML based model to ace this game.</p>
+        <p class="display3" style = "font-size:22px;" >
         Learn Python from scratch. Go through concepts of Graph Theory and Machine Learning. Code and test a solver on a simulation of the actual game. Innovate ways to extend this to real world traffic congestion problems by working with real world data-sets.
 <br>
 Prerequisites:
+<br>
 A good grasp of programming concepts from CS-101 is enough apart from great enthusiasm.
         <br>
     </p>
 </div>
 <div class = "d-flex flex-wrap">
 <div>
-    <h4 class="display3" style="margin:40px 0px 40px 0px;">Tentative Timeline :</h4>
-    <table class="table table-striped">
+    <h4 class="display3" style="margin:0px 0px 40px 0px;">Tentative Timeline :</h4>
+    <table class="table table-striped w-100">
     <thead>
         <tr>
         <th>Week</th>
@@ -91,7 +93,7 @@ A good grasp of programming concepts from CS-101 is enough apart from great enth
     </tr>
     <tr>
       <td>Week 7-8</td>
-      <td>Applying on a real world data-set<td>
+      <td>Applying on a real world data-set</td>
     </tr>
     </tbody>
     </table>

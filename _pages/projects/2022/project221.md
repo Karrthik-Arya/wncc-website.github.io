@@ -48,26 +48,33 @@ permalink: /soc/projects/2022/project221
         {% endfor %}
     </ul>
 </div>
-<div class = "project-desc" style = "margin-bottom: 140px">
-    <p class="display3" style = "font-size:22px;" >
+<div>
+    <p class="display3 project-desc" style = "font-size:22px;" >
         <br>
-        Buzzword is an app to learn new words. These words can be either for your GRE/Toefl preparation, technical jargon that one might to learn etc. Structure of the app would be tinder like where you 
-1) swipe right to the new word that learned
-2) swipe left to the word you already knew
-3) save the word you want to refer later
-
+        Buzzword is an app to learn new words. These words can be either for your GRE/Toefl preparation, technical jargon that one might to learn etc. Structure of the app would be tinder like where you:
+</p>
+<ul style = "list-style-type: disc">
+<li class="display3 mb-2" style = "font-size:20px;"> swipe right to the new word that learned</li>
+<li class="display3 mb-2" style = "font-size:20px;"> swipe left to the word you already knew</li>
+<li class="display3 mb-2" style = "font-size:20px;"> save the word you want to refer later</li>
+</ul>
+<p class="display3" style = "font-size:22px;" >
 We would use Flutter for frontend, Django or NodeJS for backend (a/c to preference of mentees).
 We would need 2 mentees working on Flutter and 2 mentees working on backend. 
 <br>
 Prerequisites:
-1) Familiarity of some programming language and OOPs concepts
-2) Enthusiasm and eagerness to explore
-
-Note for Mentees
-1) Mention whether you want to work on frontend or backend. If you are not clear or want to work on both, mention that.
-2) If you are good at UI design, write it in proposal
-        <br>
-    </p>
+</p>
+<ul style = "list-style-type: disc">
+<li class="display3 mb-2" style = "font-size:20px;">Familiarity of some programming language and OOPs concepts</li>
+<li class="display3 mb-2" style = "font-size:20px;">Enthusiasm and eagerness to explore</li>
+</ul>
+<p class="display3" style = "font-size:22px;" >
+Note for Mentees:
+</p>
+<ul style = "list-style-type: disc">
+<li class="display3 mb-2" style = "font-size:20px;"> Mention whether you want to work on frontend or backend. If you are not clear or want to work on both, mention that.</li>
+<li class="display3 mb-2" style = "font-size:20px;">  If you are good at UI design, write it in proposal </li>
+</ul>
 </div>
 <div class = "d-flex flex-wrap">
 <div>

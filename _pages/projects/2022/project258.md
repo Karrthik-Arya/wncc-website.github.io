@@ -49,20 +49,20 @@ permalink: /soc/projects/2022/project258
         {% endfor %}
     </ul>
 </div>
-<div class = "project-desc" style = "margin-bottom: 140px">
+<div class = "project-desc">
     <p class="display3" style = "font-size:22px;" >
         <br>
-        "https://github.com/Physicc/Light
+        <a href='https://github.com/Physicc/Light'>https://github.com/Physicc/Light</a>
 
 Light is a lightweight game engine written in C++17. It is currently in development and is not yet ready for use
 
-You will be working in developing and designing rendering algorithms, and implement the rendering subsystem of the game engine. Some of the systems you will be working on:
-1) Material System
-2) Blinn-Phong Shading System
-3) PBR Shading System
-4) Shadows"				
-        <br>
-Prerequisite:
+You will be working in developing and designing rendering algorithms, and implement the rendering subsystem of the game engine. Some of the systems you will be working on:<br>
+1) Material System<br>
+2) Blinn-Phong Shading System<br>
+3) PBR Shading System<br>
+4) Shadows				
+        <br><br>
+Prerequisites:
 OOP knowledge, basic C++ syntax knowledge, basic Game Dev knowledge and enthu!!
 <br>
     </p>
@@ -70,7 +70,7 @@ OOP knowledge, basic C++ syntax knowledge, basic Game Dev knowledge and enthu!!
 <div class = "d-flex flex-wrap">
 <div>
     <h4 class="display3" style="margin:40px 0px 40px 0px;">Tentative Timeline :</h4>
-    <table class="table table-striped">
+    <table class="table table-striped w-100">
     <thead>
         <tr>
         <th>Week</th>

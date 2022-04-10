@@ -50,7 +50,7 @@ permalink: /soc/projects/2022/project254
         {% endfor %}
     </ul>
 </div>
-<div class = "project-desc" style = "margin-bottom: 140px">
+<div class = "project-desc">
     <p class="display3" style = "font-size:22px;" >
         <br>
         The goal of this project is to make you well-versed with CNNs, enough that you can write an entire network in PyTorch from scratch. It will kickstart your journey into Deep Learning.				
@@ -63,7 +63,7 @@ Well-versed with Python and Selection Assignment.
 <div class = "d-flex flex-wrap">
 <div>
     <h4 class="display3" style="margin:40px 0px 40px 0px;">Tentative Timeline :</h4>
-    <table class="table table-striped">
+    <table class="table table-striped w-100">
     <thead>
         <tr>
         <th>Week</th>

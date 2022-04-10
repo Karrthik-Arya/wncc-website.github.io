@@ -3,7 +3,7 @@ layout: project
 title: Seasons of Code
 project: Stock Market Prediction using ARIMA Model
 mentors:
-    - kishan kumar
+    - Kishan Kumar
     - Aniruddh Baranwal   
     
 mentees:
@@ -47,24 +47,31 @@ permalink: /soc/projects/2022/project247
         {% endfor %}
     </ul>
 </div>
-<div class = "project-desc" style = "margin-bottom: 140px">
-    <p class="display3" style = "font-size:22px;" >
+<div>
+    <p class="display3 project-desc" style = "font-size:22px;" >
         <br>
-        Humans need to predict the future trends of various sequences in the best possible manner. These sequences may be stock prices, performance parameters of start ups, life history of Li-ion batteries, etc. This helps us to make better decisions, which is of great importance for businesses and research groups alike. Sequence model prediction helps investment banks to find out the best assets to invest in, helps electric car manufacturers to keep track of the health of batteries and even helps biologists to predict the growth of animal populations. This project is about predicting stock market trends using the specialized ARIMA model. The ARIMA model is a state of the art model which can be used to predict time series using less amount of data and gives superior performance compared to LSTMs for short term analysis. It will help you get an introduction to the basics of this field and equip you with the necessary background so that you can explore it further.I do not expect much from, your proposal, The only need is enthusiasm to work in Machine Learning . And it would be a fun learning process, where we all can learn together. No prerequisites, but some knowledge of Machine Learning or Python will be icing on the cake!
+        Humans need to predict the future trends of various sequences in the best possible manner. These sequences may be stock prices, performance parameters of start ups, life history of Li-ion batteries, etc. This helps us to make better decisions, which is of great importance for businesses and research groups alike. Sequence model prediction helps investment banks to find out the best assets to invest in, helps electric car manufacturers to keep track of the health of batteries and even helps biologists to predict the growth of animal populations. 
+        </p>
+        <p class="display3" style = "font-size:22px;" >
+        This project is about predicting stock market trends using the specialized ARIMA model. The ARIMA model is a state of the art model which can be used to predict time series using less amount of data and gives superior performance compared to LSTMs for short term analysis. It will help you get an introduction to the basics of this field and equip you with the necessary background so that you can explore it further.I do not expect much from, your proposal, The only need is enthusiasm to work in Machine Learning . And it would be a fun learning process, where we all can learn together. No prerequisites, but some knowledge of Machine Learning or Python will be icing on the cake!
+        <br>
+        
         Some resources on the ARIMA model:
-        https://medium.com/@derejeabera/stock-price-prediction-using-arima-model-251ddb4ee52a
-        https://www.analyticsvidhya.com/blog/2021/07/stock-market-forecasting-using-time-series-analysis-with-arima-model/
-        https://en.wikipedia.org/wiki/Autoregressive_integrated_moving_average 
+
+        <a href='https://medium.com/@derejeabera/stock-price-prediction-using-arima-model-251ddb4ee52a'>https://medium.com/@derejeabera/stock-price-prediction-using-arima-model-251ddb4ee52a</a>
+        <a href='https://www.analyticsvidhya.com/blog/2021/07/stock-market-forecasting-using-time-series-analysis-with-arima-model/'>https://www.analyticsvidhya.com/blog/2021/07/stock-market-forecasting-using-time-series-analysis-with-arima-model/</a>
+        <a href = 'https://en.wikipedia.org/wiki/Autoregressive_integrated_moving_average '>
+        https://en.wikipedia.org/wiki/Autoregressive_integrated_moving_average </a>
 <br>
 Prerequisites:
 - Basics of python (But not necessarily required we will teach you)
 - Enthusiastic in Data science and AI
 </p>
 </div>
-<div class = "d-flex flex-wrap">
+<div class = "d-flex flex-wrap ">
 <div>
     <h4 class="display3" style="margin:40px 0px 40px 0px;">Tentative Timeline :</h4>
-    <table class="table table-striped">
+    <table class="table table-striped w-100">
     <thead>
         <tr>
         <th>Week</th>
@@ -73,7 +80,7 @@ Prerequisites:
     </thead>
     <tbody>
     <tr>
-      <td>Week 1/td>
+      <td>Week 1</td>
       <td>Basic Python</td>     
     </tr>
     <tr>

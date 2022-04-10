@@ -48,18 +48,19 @@ permalink: /soc/projects/2022/project259
         {% endfor %}
     </ul>
 </div>
-<div class = "project-desc" style = "margin-bottom: 140px">
-    <p class="display3" style = "font-size:22px;" >
+<div>
+    <p class="display3 project-desc" style = "font-size:22px;" >
         <br>
-        "We will be working on implemented a brand new programming language, specifically purposed to be integrated into the scripting engine of the game engine Light
+        We will be working on implemented a brand new programming language, specifically purposed to be integrated into the scripting engine of the game engine Light
 
 Working on this project will teach you the basics of compiler theory, as well as working in a large scale project
+</p>
+<p class="display3" style = "font-size:22px;" >
+To get an idea of how to implement a programming language: <a href='https://llvm.org/docs/tutorial/MyFirstLanguageFrontend/index.html'>https://llvm.org/docs/tutorial/MyFirstLanguageFrontend/index.html</a><br><br>
 
-To get an idea of how to implement a programming language: https://llvm.org/docs/tutorial/MyFirstLanguageFrontend/index.html
-
-To learn compiler theory in depth, read the Dragon Book"			
+To learn compiler theory in depth, read the Dragon Book			
         <br>
-Prerequisite:
+Prerequisites:<br>
 Basics of C++ and OOP, basics of Game Dev and enthu!!
 <br>
     </p>

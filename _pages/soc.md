@@ -65,7 +65,7 @@ permalink: /soc/
 <!-- soc -->
 <section class="section">
   <div class="container">
-  <h2 class = "text-center mt-0 mb-4">Endeavours of the Jedi Order</h2>
+  <h2 class = "text-center mt-0 mb-4">Upcoming Missions for the Jedi Order</h2>
     <div class="row mb-5">
       <div class="col-12">
         <div class="btn-group btn-group-toggle justify-content-center d-flex flex-wrap"  data-toggle="buttons">
@@ -82,6 +82,7 @@ permalink: /soc/
           {% endfor %}
         </div>
         <br>
+        <!--
         <div class="btn-group btn-group-toggle justify-content-center d-flex"  data-toggle="buttons">
           <label class="btn btn-sm btn-primary disabled" style = "pointer-events:none">
           Year:
@@ -95,6 +96,7 @@ permalink: /soc/
           </label>
           {% endfor %}
         </div>
+        -->
       </div>
     </div>
     <div class="row row-eq-height shuffle-wrapper">
