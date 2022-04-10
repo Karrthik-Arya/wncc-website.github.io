@@ -48,7 +48,7 @@ permalink: /soc/projects/2022/project227
         {% endfor %}
     </ul>
 </div>
-<div class = "project-desc" style = "margin-bottom: 140px">
+<div class = "project-desc">
     <p class="display3" style = "font-size:22px;" >
         <br>
             Train a GAN to convert black and white videos to SOTA coloured videos
@@ -60,7 +60,7 @@ permalink: /soc/projects/2022/project227
 <div class = "d-flex flex-wrap">
 <div>
     <h4 class="display3" style="margin:40px 0px 40px 0px;">Tentative Timeline :</h4>
-    <table class="table table-striped">
+    <table class="table table-striped w-100">
     <thead>
         <tr>
         <th>Week</th>

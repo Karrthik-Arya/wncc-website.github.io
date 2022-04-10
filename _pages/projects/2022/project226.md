@@ -48,7 +48,7 @@ permalink: /soc/projects/2022/project226
         {% endfor %}
     </ul>
 </div>
-<div class = "project-desc" style = "margin-bottom: 140px">
+<div class = "project-desc">
     <p class="display3" style = "font-size:22px;" >
         <br>
             Have you ever experienced that the instagram posts visible to you are completely unrelated to what you wanted to see ? Well, not anymore.
@@ -57,7 +57,7 @@ Moodify will classify your insta feed according to your current mood, which will
 Initially we will learn a CNN based model for the image part and a RNN based model for the textual part. Then we will combine their outputs to predict a common metric and classify the outputs in "happy", "funny", "motivational" etc. <br>
 We will only be working on those posts with a single image (in case of multiple images we will select the first one). Later, if time permits, we may also build a mobile application for the same. 
 <br>
-Prerequisites: Basic knowledge of python is mandatory, additional knowledge of ML will be appreciated. 
+Prerequisites: <br>Basic knowledge of python is mandatory, <br> additional knowledge of ML will be appreciated. 
         <br>
     </p>
 </div>
