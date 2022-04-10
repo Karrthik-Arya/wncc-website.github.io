@@ -788,8 +788,8 @@ soc-items:
       - type: "2022"
    
   - title: "Advances in Nuclear Fusion"
-    image_small: "assets/images/soc/2022/item296.jpg"
-    image: "assets/images/soc/2022/item296.jpg"
+    image_small: "assets/images/soc/2022/item296.png"
+    image: "assets/images/soc/2022/item296.png"
     url: "/soc/projects/2022/project296"
     soc-type:
       - type: "Miscellaneous"
