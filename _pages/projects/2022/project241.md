@@ -71,7 +71,6 @@ Enthu !!
          <th>Work</th>
           <th></th> 
           <th></th>
-
         </tr>
     </thead>
     <tbody>

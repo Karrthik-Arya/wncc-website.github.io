@@ -53,12 +53,11 @@ permalink: /soc/projects/2022/project224
 <div>
     <p class="display3 project-desc" style = "font-size:22px;" >
         <br>
-            This is meant to be a basic competitive programming project. Participants are required to participate in as many contests as possible on websites like codeforces, codechef, atcoder etc and then discuss it after the contest ends. 
-            </p>
-            <p class="display3" style = "font-size:22px;" >
-            As a part of theory, I plan to cover basic STL and some data structures/Algorithms from my library. Later parts can cover some intermediate topics like square root decomposition, matchings etc.
-            <br>
-            Prerequisites: Basic knowledge of C++ (CS 101) 
+            Condensing a piece of text into a shorter version, lowering the size of the original text while keeping vital information and the meaning of the material, is known as text summarisation. Because manual text synthesis is a time-consuming and labor-intensive activity, task automation is becoming more common and hence a major motivator for academic study. In this project, I'll walk you through the process of using Natural Language Processing and Machine Learning to summarise text.
+<br>
+Some Resources =
+https://thecleverprogrammer.com/2020/08/24/summarize-text-with-machine-learning/
+https://medium.com/luisfredgs/automatic-text-summarization-with-machine-learning-an-overview-68ded5717a25 
         <br>
     </p>
 </div>

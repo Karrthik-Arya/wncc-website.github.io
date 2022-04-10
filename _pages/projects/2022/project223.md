@@ -9,7 +9,7 @@ mentors:
     - Vipul Singh     
     
 mentees:
-- 4-5   
+- 5-6   
     
 permalink: /soc/projects/2022/project223
 ---
@@ -73,60 +73,31 @@ permalink: /soc/projects/2022/project223
     <tbody>
     <tr>
       <td >Week 1</td>
-      <td>Basics of machine learning</td>
+      <td>Basic syntax revision, C++ refreshing</td>
     </tr>
     <tr>
       <td>Week 2</td>
-      <td>Implementation of ML on python </td>
+      <td>Introduction to STL</td>
     </tr>
     <tr>
       <td>Week 3</td>
-      <td>Image classification and object detection</td>
+      <td>Some important data structures not in STL(union find, RMQ etc)</td>
     </tr>
     <tr>
       <td>Week 4</td>
-      <td>Various object detection algorithm</td>
+      <td>First 10 problems of Introductory Problems/CSES</td>
     </tr>
     <tr>
       <td>Week 5</td>
-      <td>Implementation of some basic image classification and object detection algorithm</td>
+      <td>First 10 problems of Sorting and Searching/CSES</td>
     </tr>
     <tr>
       <td>Week 6</td>
-      <td>Final implementation and debugging</td>
-    </tr>
-    </tbody>
-    </table>
-</div>
-<div>
-    <h4 class="display3" style="margin:40px 0px 40px 0px;">Checkpoints :</h4>
-    <table class="table table-striped">
-    <thead>
-        <tr>
-        <th>Checkpoint Number</th>
-        <th>Progress</th>
-        </tr>
-    </thead>
-    <tbody>
-    <tr>
-      <td>1</td>
-      <td>Learning simple concepts of HTML & CSS</td>
+      <td>Theory on dynamic programming + First 10 problems of Dynamic Programming/CSES</td>
     </tr>
     <tr>
-      <td>2</td>
-      <td>Learning how to use JavaScript & jQuery</td>
-    </tr>
-    <tr>
-      <td>3</td>
-      <td>Intro to php</td>
-    </tr>
-    <tr>
-      <td>4</td>
-      <td>Learning Angular and use it design webpages</td>
-    </tr>
-    <tr>
-      <td>5</td>
-      <td>Developing a final website with all the concepts learned</td>
+      <td>Week 7</td>
+      <td>Theory on graphs + First 5 problems of Graph Algorithms/CSES</td>
     </tr>
     </tbody>
     </table>

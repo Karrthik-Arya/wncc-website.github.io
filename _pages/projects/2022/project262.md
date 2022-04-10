@@ -11,7 +11,7 @@ mentors:
     - Ishit Garg
     
 mentees:
-- 10
+- 8-10
     
 permalink: /soc/projects/2022/project262
 ---
@@ -80,27 +80,28 @@ References:<br>
   <tbody>
     <tr>
       <td><strong>Week 1</strong></td>
-      <td>Learning Python Basics </td>
+      <td>HTML, CSS, JavaScript(Brush Up) + Theoretical videos on blockchain and p2p system</td>
     </tr>
     <tr>
       <td><strong>Week 2 </strong></td>
-      <td>Complete Walkthrough of Numpy and Pandas </td>
+      <td>Solidity + Web3 </td>
     </tr>
     <tr>
-      <td><strong>Week 3  </strong></td>
-      <td>Explore Neural Networks and Deep Learning </td>
-    </tr>
-    <tr>
-      <td><strong>Week 4 </strong></td>
-      <td> Making Basic Models using TensorFlow</td>
+      <td><strong>Week 3-4  </strong></td>
+      <td>Learning ReactJS, React hooks, Redux</td>
     </tr>
     <tr>
       <td><strong>Week 5 </strong></td>
+      <td> Building a p2p system</td>
+    </tr>
+    <tr>
+      <td><strong>Week 6 </strong></td>
       <td> Development of Deep Learning model using LSTM </td>
     </tr>
     <tr>
-      <td><strong>Week 6  </strong></td>
-      <td>Model Implementation and Testing </td>
+      <td><strong>Week 7-8 </strong></td>
+      <td>Build complete UI in react js,Smart Contract implementation, connection with a wallet, add information to blockchain,2nd part of Smart Contract: check who has the access and who does not, accordingly retrieve the files,P2P system: Break a file into pieces and allocating appropriate hashes to the smart contract
+</td>
     </tr>
     </tbody>
     </table>

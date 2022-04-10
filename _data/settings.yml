@@ -779,6 +779,15 @@ soc-items:
       - type: "Development"
       - type: "2022"
 
+  - title: "Stock Market Analysis using basic Machine Learning"
+    image_small: "assets/images/soc/2022/item294.jpg"
+    image: "assets/images/soc/2022/item294.jpg"
+    url: "/soc/projects/2022/project294"
+    soc-type:
+      - type: "Machine Learning"
+      - type: "2022"    
+  
+
   
 Done:
     
