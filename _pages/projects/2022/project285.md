@@ -71,23 +71,31 @@ A good background in DSA
     <tbody>
     <tr>
       <td  >Week 1</td>
-      <td> Introduction to Hash Code, looking at few Past year problems.</td>
+      <td> Intro to hash code, discussing few past year problems</td>
     </tr>
     <tr>
       <td>Week 2</td>
-      <td> Brush up DSA concepts</td>
+      <td>Brush up advanced DSA concepts</td>
     </tr>
     <tr>
       <td>Week 3</td>
-      <td>Work on and provide original solution to at least 2 Hash Code qualification round problems</td>
+      <td>Tackle some interesting CP problems</td>
     </tr>
     <tr>
       <td>Week 4</td>
-      <td> Work on some final round problems</td>
+      <td>  Solve and provide original solution first Hash Code qualification round problem as a team</td>
     </tr>
     <tr>
       <td>Week 5</td>
-      <td>Solve even more problems, document the solutions and create a git repo with all the solutions </td>
+      <td>Solve some more qualification round problems </td>
+    </tr>
+    <tr>
+      <td>Week 6</td>
+      <td>Move on to Final round problems</td>
+    </tr>
+    <tr>
+      <td>Week 7</td>
+      <td>Solve more problems and document the solutions </td>
     </tr>
     </tbody>
     </table>
