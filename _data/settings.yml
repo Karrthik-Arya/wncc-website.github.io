@@ -748,8 +748,8 @@ soc-items:
       - type: "2022"
   
   - title: "Stock Market Trend Predictor using Deep Learning"
-    image_small: "assets/images/soc/2022/item236.png"
-    image: "assets/images/soc/2022/item236.png"
+    image_small: "assets/images/soc/2022/item236.jpeg"
+    image: "assets/images/soc/2022/item236.jpeg"
     url: "/soc/projects/2022/project288"
     soc-type:
       - type: "Machine Learning"

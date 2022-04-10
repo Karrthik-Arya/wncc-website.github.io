@@ -1,6 +1,8 @@
-I"B¼<!-- about-soc -->
+I"¿¼<!-- about-soc -->
 <section class="section">
   <div class="container-fluid">
+    <h3 class="display2 m-3 p-3 text-center project-title">Checkout the 2022 projects below!!!</h3>
+    <br />
     <div class="row">
       <div class="col-lg-10 mx-auto text-center d-flex self-align-stretch">
         <div style="margin-right:50px">
@@ -200,8 +202,8 @@
       </div>
       
       <div class="col-lg-4 col-6 mb-4 shuffle-item " data-groups="[&quot;Machine Learning&quot;,&quot;2022&quot;]">
-        <div class=" rounded hover-wrapper pr-3 pl-3 pt-3 pb-3 bg-white" href="/soc/projects/2022/229.html" style="height:350px">
-          <a href="/soc/projects/2022/229.html">
+        <div class=" rounded hover-wrapper pr-3 pl-3 pt-3 pb-3 bg-white" href="/soc/projects/2022/project229.html" style="height:350px">
+          <a href="/soc/projects/2022/project229.html">
           <span class="rounded"> <p class="lead text-center font-weight-bold text-dark">An Introduction to QC, ML, and QML</p> <img src="/assets/images/soc/2022/item229.png" alt="An Introduction to QC, ML, and QML" class="img-fluid  w-100 d-block mt-5 h-75 rounded" /></span>
           <div class="hover-overlay rounded">
           </div>

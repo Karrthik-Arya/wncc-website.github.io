@@ -1,4 +1,4 @@
-I"KÀ<!-- about-soc -->
+I"UÀ<!-- about-soc -->
 <section class="section">
   <div class="container-fluid">
     <div class="row">
@@ -138,7 +138,7 @@
         </div>
       </div>
       
-      <div class="col-lg-4 col-6 mb-4 shuffle-item" data-groups="[&quot;Machine Learning&quot;,&quot;2022&quot;]">
+      <div class="col-lg-4 col-6 mb-4 shuffle-item" data-groups="[&quot;Development&quot;,&quot;2022&quot;]">
         <div class="position-relative rounded hover-wrapper" href="/soc/projects/2022/project228">
           <span class="rounded"> <img src="/assets/images/soc/2022/item228.png" alt="Developing E-commerce Website Using Django" class="img-fluid  w-100 d-block" /></span>
           <div class="hover-overlay">
@@ -150,11 +150,11 @@
       </div>
       
       <div class="col-lg-4 col-6 mb-4 shuffle-item" data-groups="[&quot;Machine Learning&quot;,&quot;2022&quot;]">
-        <div class="position-relative rounded hover-wrapper" href="/soc/projects/2022/229">
+        <div class="position-relative rounded hover-wrapper" href="/soc/projects/2022/project229">
           <span class="rounded"> <img src="/assets/images/soc/2022/item229.png" alt="An Introduction to QC, ML, and QML" class="img-fluid  w-100 d-block" /></span>
           <div class="hover-overlay">
             <div class="hover-content p-1 m-1">
-              <a class="btn btn-xs btn-primary btn-block" style="white-space:normal; word-wrap:break-word;overflow: hidden;text-overflow: ellipsis;" href="/soc/projects/2022/229">An Introduction to QC, ML, and QML</a>
+              <a class="btn btn-xs btn-primary btn-block" style="white-space:normal; word-wrap:break-word;overflow: hidden;text-overflow: ellipsis;" href="/soc/projects/2022/project229">An Introduction to QC, ML, and QML</a>
             </div>
           </div>
         </div>
@@ -701,7 +701,7 @@
       
       <div class="col-lg-4 col-6 mb-4 shuffle-item" data-groups="[&quot;Machine Learning&quot;,&quot;2022&quot;]">
         <div class="position-relative rounded hover-wrapper" href="/soc/projects/2022/project288">
-          <span class="rounded"> <img src="/assets/images/soc/2022/item236.png" alt="Stock Market Trend Predictor using Deep Learning" class="img-fluid  w-100 d-block" /></span>
+          <span class="rounded"> <img src="/assets/images/soc/2022/item236.jpeg" alt="Stock Market Trend Predictor using Deep Learning" class="img-fluid  w-100 d-block" /></span>
           <div class="hover-overlay">
             <div class="hover-content p-1 m-1">
               <a class="btn btn-xs btn-primary btn-block" style="white-space:normal; word-wrap:break-word;overflow: hidden;text-overflow: ellipsis;" href="/soc/projects/2022/project288">Stock Market Trend Predictor using Deep Learning</a>
