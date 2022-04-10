@@ -105,39 +105,6 @@ Note: We recommend you to apply for this if you are first interested in the idea
     </tbody>
     </table>
 </div>
-<div>
-    <h4 class="display3" style="margin:40px 0px 40px 0px;">Checkpoints :</h4>
-    <table class="table table-striped w-75">
-    <thead>
-        <tr>
-        <th>Checkpoint Number</th>
-        <th>Progress</th>
-        </tr>
-    </thead>
-    <tbody>
-    <tr>
-      <td>1</td>
-      <td>Creating a very dummy web-app and adding some front-end elements connected with backend and also collecting data</td>
-    </tr>
-    <tr>
-      <td>2</td>
-      <td>Adding more complex features in front-end</td>
-    </tr>
-    <tr>
-      <td>3</td>
-      <td>Finishing a basic version of the web-app</td>
-    </tr>
-    <tr>
-      <td>4</td>
-      <td>Adding bonus features and testing various features and if possible optimizing the website</td>
-    </tr>
-    <tr>
-      <td>5</td>
-      <td>Summarizing the work, if needed hosting the website and planning for further developements in the future</td>
-    </tr>
-    </tbody>
-    </table>
-</div>
 </div>
 {% endif %}
 {% endfor %}
