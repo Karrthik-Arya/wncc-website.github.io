@@ -70,7 +70,7 @@ References:<br>
 <div class ="d-flex">
 <div>
     <h4 class="display3" style="margin:40px 0px 40px 0px;">Tentative Timeline :</h4>
-    <table class = "table table-striped">
+    <table class = "table table-striped w-100">
   <thead>
     <tr>
       <th>Week Number</th>
@@ -80,27 +80,27 @@ References:<br>
   <tbody>
     <tr>
       <td><strong>Week 1</strong></td>
-      <td>HTML, CSS, JavaScript(Brush Up) + Theoretical videos on blockchain and p2p system</td>
+      <td>HTML, CSS, JavaScript(Brush Up) + Theoretical learning on blockchain and p2p system</td>
     </tr>
     <tr>
       <td><strong>Week 2 </strong></td>
-      <td>Solidity + Web3 </td>
+      <td>Start learning Solidity and exploring Web3 </td>
     </tr>
     <tr>
       <td><strong>Week 3-4  </strong></td>
-      <td>Learning ReactJS, React hooks, Redux</td>
+      <td>Learning frontend development ReactJS, React hooks, Redux</td>
     </tr>
     <tr>
       <td><strong>Week 5 </strong></td>
-      <td> Building a p2p system</td>
+      <td> Learning to setup a p2p network</td>
     </tr>
     <tr>
       <td><strong>Week 6 </strong></td>
-      <td> Development of Deep Learning model using LSTM </td>
+      <td>Building the UI on React along with implementing  the Smart Contract to connect with a wallet and store appropriate file info</td>
     </tr>
     <tr>
       <td><strong>Week 7-8 </strong></td>
-      <td>Build complete UI in react js,Smart Contract implementation, connection with a wallet, add information to blockchain,2nd part of Smart Contract: check who has the access and who does not, accordingly retrieve the files,P2P system: Break a file into pieces and allocating appropriate hashes to the smart contract
+      <td>Complete Smart Contract to check who has the access and accordingly retrieve the files. Then setup the p2p system to break and encrypt the files to store on the network
 </td>
     </tr>
     </tbody>

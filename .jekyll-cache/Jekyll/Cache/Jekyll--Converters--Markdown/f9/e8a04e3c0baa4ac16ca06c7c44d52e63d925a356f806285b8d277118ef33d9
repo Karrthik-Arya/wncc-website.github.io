@@ -1,0 +1,22 @@
+I"Ê<h2 class="display1 m-3 p-3 text-center project-title">Algorithms Simplified</h2>
+
+<div class="img-event d-block"> 
+    <img src="/wncc-website.github.io/assets/images/events/algorithms_simplified.jpg" alt="" class="img-1" />
+    <img src="/wncc-website.github.io/assets/images/events/algorithms_simplified.jpg" alt="" class="img-2" />
+    <img src="/wncc-website.github.io/assets/images/events/algorithms_simplified.jpg" alt="" class="img-3" />
+    <img src="/wncc-website.github.io/assets/images/events/algorithms_simplified.jpg" alt="" class="img-4" />
+</div>
+<div class="mobile-img-soc">
+  <img src="/wncc-website.github.io/assets/images/events/algorithms_simplified.jpg" width="300" height="300" alt="" class="border rounded" />
+  </div>
+
+<div>
+    <p class="display3 project-desc" style="font-size:22px; margin-bottom:580px">
+        <br />
+        Hello all,
+<br /><br />
+WnCC organised Algorithms Simplified which was a series where actual coding was not required. Several short videos were released every friday, where something cool was trivially explained in just 15 minutes! Some optional tasks were also released in the Dive Deep section where people could actually implement what they learned. 
+    </p>
+</div>
+
+:ET

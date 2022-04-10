@@ -1,0 +1,78 @@
+I"�	<h2 class="display1 m-3 p-3 text-center project-title">RELIV(Learning and social platform for elderly)</h2>
+
+<div class="img-soc d-block"> 
+    <img src="/wncc-website.github.io/assets/images/soc/2022/item246.jpeg" alt="" class="image-1" />
+    <img src="/wncc-website.github.io/assets/images/soc/2022/item246.jpeg" alt="" class="image-2" />
+    <img src="/wncc-website.github.io/assets/images/soc/2022/item246.jpeg" alt="" class="image-3" />
+    <img src="/wncc-website.github.io/assets/images/soc/2022/item246.jpeg" alt="" class="image-4" />
+</div>
+<div class="mobile-img-soc">
+  <img src="/wncc-website.github.io/assets/images/soc/2022/item246.jpeg" width="300" height="300" alt="" class="border rounded" />
+  </div>
+<div>
+    <br />
+    <ul>
+        
+    </ul>
+    <br />
+    <h4 class="display3  ">Mentors :</h4> 
+    <ul>
+        
+        <li><p class="lead">Akshat Agarwal</p></li>
+        
+        <li><p class="lead">Dr. Anoop Shaji</p></li>
+        
+    </ul>
+    <h4 class="display3  ">Mentees :</h4> 
+    <ul>
+        
+        <li><p class="lead">5</p></li>
+        
+    </ul>
+</div>
+<div>
+    <p class="display3 project-desc" style="font-size:22px;">
+        <br />
+        Relive will be a simple, engaging, user-friendly web and app-based platform offering affordable premium service where people above the age of 50 years can physically and ‘e-meet’ with like-minded people and socialize with them over similar interests. 
+        </p>
+        <p class="display3" style="font-size:22px;">
+        They can participate in group activities like Antakshari, Open Mic, Karaoke, etc. as well as do learning-based expert sessions like Musical instruments, Gardening, Yoga, Meditation, Dance therapy, Crafts, Foreign languages &amp; so on which can be fun and a fresh enjoyable experience for them.  
+<br />
+Prerequisites:
+Some knowledge of web development (html, css) or app development
+    </p>
+</div>
+<div class="d-flex flex-wrap">
+<div>
+    <h4 class="display3" style="margin:40px 0px 40px 0px;">Tentative Timeline :</h4>
+    <table class="table table-striped w-100">
+    <thead>
+        <tr>
+        <th>Week</th>
+        <th>Work</th>
+        </tr>
+    </thead>
+    <tbody>
+    <tr>
+      <td>Week 1</td>
+      <td>UX/UI design</td>     
+    </tr>
+    <tr>
+      <td>Week 2-4</td>
+      <td>Frontend web development</td>
+    </tr>
+    <tr>
+      <td>Week 5-7</td>
+      <td>Backend web developer</td>
+    </tr>
+    <tr>
+      <td>Week 8</td>
+      <td>QA Testing</td>
+    </tr>
+    </tbody>
+    </table>
+</div>
+
+</div>
+
+:ET

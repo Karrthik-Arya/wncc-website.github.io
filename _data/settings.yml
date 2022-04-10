@@ -513,12 +513,12 @@ soc-items:
       - type: "Development"
       - type: "2022"
 
-  - title: "Mentrual Tracker"
-    image_small: "assets/images/soc/2022/item261.png"
-    image: "assets/images/soc/2022/item261.png"
+  - title: "Menstrual Tracker"
+    image_small: "assets/images/soc/2022/item295.jpg"
+    image: "assets/images/soc/2022/item295.jpg"
     url: "/soc/projects/2022/project295"
     soc-type:
-      - type: "Miscellaneous"
+      - type: "Development"
       - type: "2022"
 
   - title: "InstiCloud"

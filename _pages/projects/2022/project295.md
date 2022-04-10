@@ -53,6 +53,8 @@ permalink: /soc/projects/2022/project295
     <p class="display3 project-desc" style = "font-size:22px;" >
         <br>
         A one-stop app that provides menstrual hygiene education about PCOS and other related problems along with their solutions to women and girls.
+        <br><br>
+        No prerequistes
 </p>
 </div>
 <div class ="d-flex">
