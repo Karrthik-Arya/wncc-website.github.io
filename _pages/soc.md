@@ -47,7 +47,7 @@ permalink: /soc/
           <img class="icon major_soc " src="{{ site.baseurl }}/svg/light-siber-one.svg" />
           <h3 class="text-white">Padawan</h3>
           <p class="text-white">The Force is strong with you. <br> Train yourself to let go of everything you fear to lose. <br> The Force will be with you always.<br> Ready are you?</p><br />
-          <a target="_blank" type="button" href="https://forms.gle/6hSaLUSB8Gfeogw7A" class="btn btn-info ">Become a Padawan</a>
+          <a target="_blank" type="button" href="https://forms.gle/YJdu5oop2fEuQ8Es5" class="btn btn-info ">Become a Padawan</a>
         </section>  
       </div>
       <div class="col-md-6 col-sm-12 text-center p-3">
