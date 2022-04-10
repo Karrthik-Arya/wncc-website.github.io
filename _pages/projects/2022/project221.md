@@ -88,57 +88,20 @@ Note for Mentees:
     </thead>
     <tbody>
     <tr>
-      <td  >Week 1-2</td>
-      <td>Learning simple concepts of HTML & CSS</td>
+      <td  >Week 1</td>
+      <td>Get Familiar with flutter and django/nodejs (whatever we decide to use)</td>
     </tr>
     <tr>
-      <td>Week 2-3</td>
-      <td>Learning how to use JavaScript & jQuery</td>
+      <td>Week 2</td>
+      <td>UI design on paper and backed structure</td>
     </tr>
     <tr>
-      <td>Week 3-4</td>
-      <td>Intro to php</td>
+      <td>Week 3-6</td>
+      <td>Code - Test - Debug - Code (app and backend separately)</td>
     </tr>
     <tr>
-      <td>Week 4-5</td>
-      <td>Learning Angular and use it design webpages</td>
-    </tr>
-    <tr>
-      <td>Final Week</td>
-      <td>Developing a final website with all the concepts learned</td>
-    </tr>
-    </tbody>
-    </table>
-</div>
-<div>
-    <h4 class="display3" style="margin:40px 0px 40px 0px;">Checkpoints :</h4>
-    <table class="table table-striped">
-    <thead>
-        <tr>
-        <th>Checkpoint Number</th>
-        <th>Progress</th>
-        </tr>
-    </thead>
-    <tbody>
-    <tr>
-      <td>1</td>
-      <td>Learning simple concepts of HTML & CSS</td>
-    </tr>
-    <tr>
-      <td>2</td>
-      <td>Learning how to use JavaScript & jQuery</td>
-    </tr>
-    <tr>
-      <td>3</td>
-      <td>Intro to php</td>
-    </tr>
-    <tr>
-      <td>4</td>
-      <td>Learning Angular and use it design webpages</td>
-    </tr>
-    <tr>
-      <td>5</td>
-      <td>Developing a final website with all the concepts learned</td>
+      <td>Week 7</td>
+      <td>Integrate App with Backend</td>
     </tr>
     </tbody>
     </table>

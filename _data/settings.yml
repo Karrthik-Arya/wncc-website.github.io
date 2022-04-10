@@ -513,13 +513,13 @@ soc-items:
       - type: "Development"
       - type: "2022"
 
-  # - title: "Tbd/ (its on Menstrual health/ hygiene/ awareness)"
-  #   image_small: "assets/images/soc/2022/item261.png"
-  #   image: "assets/images/soc/2022/item261.png"
-  #   url: "/soc/projects/2022/project261"
-  #   soc-type:
-  #     - type: "Miscellaneous"
-  #     - type: "2022"
+  - title: "Mentrual Tracker"
+    image_small: "assets/images/soc/2022/item261.png"
+    image: "assets/images/soc/2022/item261.png"
+    url: "/soc/projects/2022/project295"
+    soc-type:
+      - type: "Miscellaneous"
+      - type: "2022"
 
   - title: "InstiCloud"
     image_small: "assets/images/soc/2022/item262.gif"
@@ -778,6 +778,15 @@ soc-items:
     soc-type:
       - type: "Development"
       - type: "2022"
+
+  - title: "Stock Market Analysis using basic Machine Learning"
+    image_small: "assets/images/soc/2022/item294.jpg"
+    image: "assets/images/soc/2022/item294.jpg"
+    url: "/soc/projects/2022/project294"
+    soc-type:
+      - type: "Machine Learning"
+      - type: "2022"    
+  
 
   
 Done:

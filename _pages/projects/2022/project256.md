@@ -1,7 +1,7 @@
 ---
 layout: project
 title: Seasons of Code
-project: 'Intro to Web Development: News Café (A News Aggregator Web-App)'
+project: Intro to Web Development, News Café (A News Aggregator Web-App)
 topics:
     - Web Development
 mentors:
@@ -54,7 +54,8 @@ permalink: /soc/projects/2022/project256
     <p class="display3" style = "font-size:22px;" >
         <br>
         "The first half of this project will involve extensive use of the python Django framework in developing a news aggregator web application. Mentees will have to learn how to use Django for basic web development. Learning how to access APIs in Python will be required for obtaining news articles. <br><br>
-The second half will focus on frontend development, particularly React js or Angular, this is flexible and mentees can choose which software they wish to learn and use for developing the frontend. Learning how to integrate this with the Django backend is the major task.
+The second half will focus on frontend development, particularly in React js or Angular, this is flexible and mentees can choose which software they wish to learn and use for developing the frontend. Learning how to integrate this with the Django backend is the major task.
+<br>
 Extra: Mentees can attempt hosting the final app (possibly via Heroku) depending on their progress and interest. This will require learning how to handle a cloud-based PostgreSQL database.<br><br>
 
 Some resources-<br>

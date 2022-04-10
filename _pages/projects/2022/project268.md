@@ -71,19 +71,19 @@ Basic C/C++/python
     <tbody>
     <tr>
       <td  >Week 1</td>
-      <td>Study filesystems; </td>
+      <td>Study filesystems</td>
     </tr>
     <tr>
       <td>Week 2</td>
-      <td>study ml models; </td>
+      <td>study ml models</td>
     </tr>
     <tr>
       <td>Week 3-4</td>
-      <td>start building filesystem based part of the malware detection system; </td>
+      <td>Start building filesystem based part of the malware detection system</td>
     </tr>
     <tr>
       <td>Week 5-6</td>
-      <td>start building model and integrate with filesystem</td>
+      <td>Start building model and integrate with filesystem</td>
     </tr>
     </tbody>
     </table>
