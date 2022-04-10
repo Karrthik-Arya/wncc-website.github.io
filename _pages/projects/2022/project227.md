@@ -1,13 +1,14 @@
 ---
 layout: project
 title: Seasons of Code
-project: Developing E-commerce Website Using Django
+project: Deoldify Videos
 topics:
     - Web Development
 mentors:
-    - Balbir Yadav   
+    - Preet Shah 
+    - Yash Shah   
 mentees:
-    - 4 
+    - Upto 5 
     
 permalink: /soc/projects/2022/project227
 ---
@@ -50,14 +51,10 @@ permalink: /soc/projects/2022/project227
 <div class = "project-desc" style = "margin-bottom: 140px">
     <p class="display3" style = "font-size:22px;" >
         <br>
-        In this project, We are going to build E-commerce website using python web framework Django. 
-Reading Material are as follows: 
- https://www.djangoproject.com/start/
-https://www.w3schools.com/python/
-https://www.w3schools.com/html/default.asp
-https://www.w3schools.com/css/default.asp
-<br>
-It would be good if mentees go through above reading materials. But this is not the pre-requisite 
+            Train a GAN to convert black and white videos to SOTA coloured videos
+        <br>
+        <br>
+        Prequisites: Basic knowledge of statistics and code
     </p>
 </div>
 <div class = "d-flex flex-wrap">
@@ -72,33 +69,29 @@ It would be good if mentees go through above reading materials. But this is not 
     </thead>
     <tbody>
     <tr>
-      <td  >Week 1</td>
-      <td>HTML Basics + CSS Basics + Python Basics
+      <td  >Week 1-2</td>
+      <td>Learning about GANs and how computer vision techniques work
 </td>
     </tr>
     <tr>
-      <td>Week 2</td>
-      <td>Git & Github + Django Intro
+      <td>Week 3</td>
+      <td>Finding the best open source dataset for the project, aggregation and cleaning dataset
  </td>
     </tr>
     <tr>
-      <td>Week 3</td>
-      <td>Project Setup, Basic Structure and Git Setup
+      <td>Week 4</td>
+      <td>Training the chosen model for the purpose and optimize.
 
 </td>
     </tr>
     <tr>
-      <td>Week 4</td>
-      <td>Populate Homepage & Store Page
+      <td>Week 5</td>
+      <td>Create a web page for the project with the model in backend to serve the need of an average user.
 </td>
     </tr>
     <tr>
       <td>Week 5</td>
-      <td>Single Product view Page + small features</td>
-    </tr>
-    <tr>
-        <td>Week 6
-        <td>Cart Functionality, Additional Features
+      <td>Working on the final model</td>
     </tr>
     </tbody>
     </table>

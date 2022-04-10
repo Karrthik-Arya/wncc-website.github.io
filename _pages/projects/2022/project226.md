@@ -1,15 +1,16 @@
 ---
 layout: project
 title: Seasons of Code
-project: Developing E-commerce Website Using Django
+project: Moodify
 topics:
     - Web Development
 mentors:
-    - Balbir Yadav   
+    - Deepanshu Bagotia 
+    - Aadish Jain   
 mentees:
-    - 4 
+- 4-5   
     
-permalink: /soc/projects/2022/project227
+permalink: /soc/projects/2022/project226
 ---
 
 <h2 class="display1 m-3 p-3 text-center project-title">{{page.project}}</h2>
@@ -50,14 +51,14 @@ permalink: /soc/projects/2022/project227
 <div class = "project-desc" style = "margin-bottom: 140px">
     <p class="display3" style = "font-size:22px;" >
         <br>
-        In this project, We are going to build E-commerce website using python web framework Django. 
-Reading Material are as follows: 
- https://www.djangoproject.com/start/
-https://www.w3schools.com/python/
-https://www.w3schools.com/html/default.asp
-https://www.w3schools.com/css/default.asp
+            Have you ever experienced that the instagram posts visible to you are completely unrelated to what you wanted to see ? Well, not anymore.
+            <br>
+Moodify will classify your insta feed according to your current mood, which will make your feed more engrossing and relatable. We will use Instagram API for gathering the feed and apply our model to select relevant posts. We plan to build a ML model which will classify the posts based on their picture, caption, and top few comments to predict which mood is more likely to relate with this post. <br>
+Initially we will learn a CNN based model for the image part and a RNN based model for the textual part. Then we will combine their outputs to predict a common metric and classify the outputs in "happy", "funny", "motivational" etc. <br>
+We will only be working on those posts with a single image (in case of multiple images we will select the first one). Later, if time permits, we may also build a mobile application for the same. 
 <br>
-It would be good if mentees go through above reading materials. But this is not the pre-requisite 
+Prerequisites: Basic knowledge of python is mandatory, additional knowledge of ML will be appreciated. 
+        <br>
     </p>
 </div>
 <div class = "d-flex flex-wrap">
@@ -72,33 +73,25 @@ It would be good if mentees go through above reading materials. But this is not 
     </thead>
     <tbody>
     <tr>
-      <td  >Week 1</td>
-      <td>HTML Basics + CSS Basics + Python Basics
+      <td  >Week 1-2</td>
+      <td>Learning basics of CNN and RNN
 </td>
     </tr>
     <tr>
-      <td>Week 2</td>
-      <td>Git & Github + Django Intro
+      <td>Week 3</td>
+      <td>Understanding MetaForDevelopers API offered by instagram
  </td>
     </tr>
     <tr>
-      <td>Week 3</td>
-      <td>Project Setup, Basic Structure and Git Setup
+      <td>Week 4-5</td>
+      <td>Building the CNN model for image classification
 
 </td>
     </tr>
     <tr>
-      <td>Week 4</td>
-      <td>Populate Homepage & Store Page
+      <td>Week 6-7</td>
+      <td>Implementing RNN model for textual data
 </td>
-    </tr>
-    <tr>
-      <td>Week 5</td>
-      <td>Single Product view Page + small features</td>
-    </tr>
-    <tr>
-        <td>Week 6
-        <td>Cart Functionality, Additional Features
     </tr>
     </tbody>
     </table>
