@@ -48,35 +48,36 @@ permalink: /soc/projects/2022/project284
         {% endfor %}
     </ul>
 </div>
-<div class = "project-desc" style = "margin-bottom: 140px">
-    <p class="display3" style = "font-size:22px;" >
+<div >
+    <p class="display3 project-desc" style = "font-size:22px;" >
         <br>
         This project aims to develop a blockchain based electronic voting system in Python.
-
-Why Blockchain?
+<br>
+Why Blockchain?<br>
 Blockchains are being used to cut out the middleman and create a secure, decentralized way for service providers and customers to connect and transact safely and directly.
-
+<br></p>
+<p class="display3" style = "font-size:22px;" >
 Where is it important to cut the middleman? You guessed it right : It is indeed in elections
-
-What can we do?
+<br>
+What can we do?<br>
 With the knowledge of Blockchain, we can create a secured, tamper-proof Electronic Voting System to avoid any adultery during elections.
-
+<br>
 Project Details:
-
+<br>
 We will start with understanding the basics of blockchain, how blockchain works, and the
 implementation of BitCoin which will include some understanding of cryptography. We will then start building upon the simulated prototype of the blockchain to understand its each building block in detail. We will simulate a blockchain while implementing vote casting, block generation, block mining, proof of work, and cryptographic signatures. It will contain basic functions for the users like view contesting candidates, cast vote which will be registered securely and anonymously, and display the result at the end.
-
+<br>
 All of this will be done in the form of a simulation, later this project can also be extended to creating our own blockchain (on Ganache for example) and deploying it for users if time permits.
-
+<br>
 It is important to note that this project might be a bit heavy on the learning side, so applicants should be well prepared for the same.
-
-
+<br>
+<br>
 Resources:
-- <a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=8978295">https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=8978295</a>
-- <a href="https://bitcoin.org/bitcoin.pdf">https://bitcoin.org/bitcoin.pdf</a>
+- <a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=8978295">https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=8978295</a><br>
+- <a href="https://bitcoin.org/bitcoin.pdf">https://bitcoin.org/bitcoin.pdf</a><br>
 - <a href="https://www.tutorialspoint.com/blockchain/blockchain_proof_of_work.htm">https://www.tutorialspoint.com/blockchain/blockchain_proof_of_work.htm</a>
 <br>
-Prerequisites:
+Prerequisites:<br>
 We are majorly looking for enthusiasm in students for understanding blockchain which will be judged by the amount of effort put in their proposals, though basic knowledge of python and git may help
 
 <br>

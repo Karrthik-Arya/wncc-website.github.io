@@ -79,11 +79,11 @@ None(Brownie points for basic HTML and CSS )
     </tr>
     <tr>
       <td>Week 4,5</td>
-      <td>Working with a basic angular app, clarify frontend and typescript working of the app</td>
+      <td>Working with a basic angular/react app, clarify frontend and typescript working of the app</td>
     </tr>
     <tr>
       <td>Week 6,7</td>
-      <td>Learning basic backend development with Django and how to connect it with frontend</td>
+      <td>Learning basic backend development with Django/node and how to connect it with frontend</td>
     </tr>
     <tr>
       <td>Week 8,9 + Post SOC</td>

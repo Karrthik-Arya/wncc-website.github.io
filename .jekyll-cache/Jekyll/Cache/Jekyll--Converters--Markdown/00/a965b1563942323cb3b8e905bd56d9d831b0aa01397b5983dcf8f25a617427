@@ -1,0 +1,79 @@
+I"ð	<h2 class="display1 m-3 p-3 text-center project-title">Loan Approval Prediction</h2>
+
+<div class="img-soc d-block"> 
+    <img src="/assets/images/soc/2022/item279.png" alt="" class="image-1" />
+    <img src="/assets/images/soc/2022/item279.png" alt="" class="image-2" />
+    <img src="/assets/images/soc/2022/item279.png" alt="" class="image-3" />
+    <img src="/assets/images/soc/2022/item279.png" alt="" class="image-4" />
+</div>
+<div class="mobile-img-soc">
+  <img src="/assets/images/soc/2022/item279.png" width="300" height="300" alt="" class="border rounded" />
+  </div>
+<div>
+    <br />
+    <ul>
+        
+        <li><h4 class="text-primary text-center topics">Machine Learning</h4></li>
+        
+    </ul>
+    <br />
+    <h4 class="display3  ">Mentors :</h4> 
+    <ul>
+        
+        <li><p class="lead">Utkarsha Patil, Yash Saraogi &amp; Krishna Sirra</p></li>
+        
+    </ul>
+    <h4 class="display3  ">Mentees :</h4> 
+    <ul>
+        
+        <li><p class="lead">15</p></li>
+        
+    </ul>
+</div>
+<div class="project-desc">
+    <p class="display3" style="font-size:22px;">
+        <br />
+        This project will use Machine learning algorithms on real-time data to predict loan approval. Students will get introduced to Data science and ML. The project involves learning useful python libraries(NumPy, Pandas, Matplotlib, Seaborn), Data Preprocessing, Exploratory Data Analysis, Variable Sector. It uses different ML models (logistic regression, linear regression, SVM, etc.)
+<br />
+Prerequisites:
+No Prerequisite. Only Enthusiasm for learning!
+        <br />
+    </p>
+</div>
+<div class="d-flex flex-wrap">
+<div>
+    <h4 class="display3" style="margin:0px 0px 40px 0px;">Tentative Timeline :</h4>
+    <table class="table table-striped w-100">
+    <thead>
+        <tr>
+        <th>Week</th>
+        <th>Work</th>
+        </tr>
+    </thead>
+    <tbody>
+    <tr>
+      <td>Week 1-2</td>
+      <td>Basics of python and Getting familiar with python Libraries (NumPy ,Pandas, Matplotlib, Seaborn)</td>
+    </tr>
+    <tr>
+      <td>Week 3-4</td>
+      <td> Mathematics for Data Science and Data Preprocessing , EDA &amp; variable selector</td>
+    </tr>
+    <tr>
+      <td>Week 5-6</td>
+      <td>Different models(logistic regression , linear regression, SVM etc)</td>
+    </tr>
+    <tr>
+      <td>Week 7</td>
+      <td>Model Selection and Recap </td>
+    </tr>
+    <tr>
+      <td>Week 8-9</td>
+      <td> Working on Real time data, building model for the loan prediction</td>
+    </tr>
+    </tbody>
+    </table>
+</div>
+</div>
+
+:ET

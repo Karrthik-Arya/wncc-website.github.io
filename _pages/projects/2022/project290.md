@@ -10,7 +10,7 @@ mentors:
 mentees:
 - 2-10
     
-permalink: /soc/projects/2022/project270
+permalink: /soc/projects/2022/project290
 ---
 
 <h2 class="display1 m-3 p-3 text-center project-title">{{page.project}}</h2>
@@ -48,15 +48,16 @@ permalink: /soc/projects/2022/project270
         {% endfor %}
     </ul>
 </div>
-<div class = "project-desc" style = "margin-bottom: 140px">
-    <p class="display3" style = "font-size:22px;" >
+<div >
+    <p class="display3 project-desc" style = "font-size:22px;" >
         <br>
         Numer.AI is a large and Decentralised Data Science Contest supported by many big names in the field, including Co-founders of Rennaisance Technologies. Proclaimed as the last hedge fund on Earth. Numer.AI is about building generalised Data Science Strategies for the actual market, which the people at the firm use to actually trade in the markets, and pay you back in their own Cryptocurrency.
-
+</p>
+ <p class="display3" style = "font-size:22px;" >
 This is not a machine learning project, in the sense that we won't actually be using any heavy training requiring models. Instead we'll try to use the advanced versions of basic techniques in Bayesian Analysis for our purposes.
-
+<br>
 The Goal of this SoC Project would be to design a model which we could collectively submit, and henceforth participate in the contest.
-
+<br>
 We would also be ourselves designing models to participate in the contest and the mentees' models would be complementing ours using the ensemble learning strategies we learn about.
 <br>
 Prerequisites:
@@ -67,7 +68,7 @@ Python, A strong hold on Probability, Having done any course equivalent to CS 21
 <div class = "d-flex flex-wrap">
 <div>
     <h4 class="display3" style="margin:40px 0px 40px 0px;">Tentative Timeline :</h4>
-    <table class="table table-striped">
+    <table class="table table-striped w-100">
     <thead>
         <tr>
         <th>Week</th>
