@@ -1,7 +1,7 @@
 ---
 layout: project
 title: Seasons of Code
-project: An Introduction to QC, ML and QML
+project: An Introduction to QC, ML, and QML
 topics:
     - Web Development
 mentors:
@@ -10,7 +10,7 @@ mentors:
 mentees:
     - 4-5 
     
-permalink: /soc/projects/2022/project227
+permalink: /soc/projects/2022/project229
 ---
 
 <h2 class="display1 m-3 p-3 text-center project-title">{{page.project}}</h2>
@@ -48,24 +48,24 @@ permalink: /soc/projects/2022/project227
         {% endfor %}
     </ul>
 </div>
-<div class = "project-desc" style = "margin-bottom: 140px">
+<div>
     <p class="display3" style = "font-size:22px;" >
         <br>
         Why does one do machine learning? You can write a program for a lot of complex things - from some sorting algorithm to the fast fourier transform. What if one asks you to write a program which when given a picture, tells you whether your friend is in it or not. Difficult. There are some things we do which we do not know how we do - enter ML.
-<br>
+<br><br>
 Information is physical, and so is computation. You know very well how bits are used for computations. These are classical entities, manipulated using classical logic gates (AND, NOT, NAND and so on). These form a basis for computing things. We can also do the with quantum mechanics as the underlying physical theory. That is, instead of "bits", we use "quantum-bits". Interest arose in this area with the development of quantum mechanics, and lead to the field of quantum computation and information. Then questions such as "are quantum computers better than classical ones" arose. 
-<br>
+<br><br>
 Now, quantum computing can be used as a way to do ML. As a simple example, you may be aware of how parallel computing is done via vectorized-computation. Quantum mechanics possesses the property of superposition, which leads to the power of "quantum-parallelism". Many papers have exploited this principle to produce quantum versions of ML algorithms. 
-<br>
+<br><br>
 In this project, we shall first learn the basics of Quantum Computing and implement algorithms like QFT and Grover search using libraries such as IBM's Qiskit. We shall then move on to machine learning and implement a few toy models in python using numpy and sklearn. Finally, we move on to Quantum Machine Learning using libraries such as Pennylane and Tensorflow quantum. After learning the basics, we will aim to implement a paper such as clustering or SVMs using quantum computing. 
-<br>
+<br><br>
 Prerequisite: While there are no strict prerequisites, you need to be aware that the project will be mathematically involved and will need implementation skills too. So, have a good handle on that. Being thorough with linear algebra and basic QM helps. Familiarity with Python is encouraged. 
     </p>
 </div>
 <div class = "d-flex flex-wrap">
 <div>
-    <h4 class="display3" style="margin:40px 0px 40px 0px;">Tentative Timeline :</h4>
-    <table class="table table-striped">
+    <h4 class="display3 mx-auto" style="margin:40px 0px 40px 0px;">Tentative Timeline :</h4>
+    <table class="table table-striped w-75 mx-auto">
     <thead>
         <tr>
         <th>Week</th>
@@ -74,7 +74,7 @@ Prerequisite: While there are no strict prerequisites, you need to be aware that
     </thead>
     <tbody>
     <tr>
-      <td  >Week 1-Week 3</td>
+      <td  >Week 1- 3</td>
       <td>Learn ML. Spend time learning the theory of artificial neural networks, SVM, Clustering Algorithms. Implement some of these from scratch using numpy. References include Ng's Intro to ML, and if time permits some theoretical reading.
 
 </td>

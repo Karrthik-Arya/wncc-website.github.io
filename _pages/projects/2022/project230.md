@@ -10,7 +10,7 @@ mentors:
 mentees:
     - 6 
     
-permalink: /soc/projects/2022/project227
+permalink: /soc/projects/2022/project230
 ---
 
 <h2 class="display1 m-3 p-3 text-center project-title">{{page.project}}</h2>
@@ -48,7 +48,7 @@ permalink: /soc/projects/2022/project227
         {% endfor %}
     </ul>
 </div>
-<div class = "project-desc" style = "margin-bottom: 140px">
+<div class = "project-desc">
     <p class="display3" style = "font-size:22px;" >
         <br>
         We will be building a one-of-a-kind Resume Script Generator. It will be a web-based platform that will take input as users’ resume points and will generate your resume in a specified format. This way, you will get rid of lengthy LaTeX codes and be able to obtain a hassle free design. We will be using Angular for front end development. The extension of this project will enable user to customize their resume. 
@@ -59,7 +59,7 @@ Prerequisite: Basics of HTML, CSS and python
 <div class = "d-flex flex-wrap">
 <div>
     <h4 class="display3" style="margin:40px 0px 40px 0px;">Tentative Timeline :</h4>
-    <table class="table table-striped">
+    <table class="table table-striped w-100">
     <thead>
         <tr>
         <th>Week</th>

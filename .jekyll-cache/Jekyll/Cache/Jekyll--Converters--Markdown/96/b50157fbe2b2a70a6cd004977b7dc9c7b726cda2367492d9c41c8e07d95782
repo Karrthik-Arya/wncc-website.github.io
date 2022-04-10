@@ -1,0 +1,85 @@
+I"‘	<h2 class="display1 m-3 p-3 text-center project-title">Resume Script Generator</h2>
+
+<div class="img-soc d-block"> 
+    <img src="/assets/images/soc/2022/item230.png" alt="" class="image-1" />
+    <img src="/assets/images/soc/2022/item230.png" alt="" class="image-2" />
+    <img src="/assets/images/soc/2022/item230.png" alt="" class="image-3" />
+    <img src="/assets/images/soc/2022/item230.png" alt="" class="image-4" />
+</div>
+<div class="mobile-img-soc">
+  <img src="/assets/images/soc/2022/item230.png" width="300" height="300" alt="" class="border rounded" />
+  </div>
+<div>
+    <br />
+    <ul>
+        
+        <li><h4 class="text-primary text-center topics">Web Development</h4></li>
+        
+    </ul>
+    <br />
+    <h4 class="display3  ">Mentors :</h4> 
+    <ul>
+        
+        <li><p class="lead">Vinayak</p></li>
+        
+        <li><p class="lead">Gaurav Sodhani</p></li>
+        
+    </ul>
+    <h4 class="display3  ">Mentees :</h4> 
+    <ul>
+        
+        <li><p class="lead">6</p></li>
+        
+    </ul>
+</div>
+<div class="project-desc" style="margin-bottom: 140px">
+    <p class="display3" style="font-size:22px;">
+        <br />
+        We will be building a one-of-a-kind Resume Script Generator. It will be a web-based platform that will take input as usersâ€™ resume points and will generate your resume in a specified format. This way, you will get rid of lengthy LaTeX codes and be able to obtain a hassle free design. We will be using Angular for front end development. The extension of this project will enable user to customize their resume. 
+<br />
+Prerequisite: Basics of HTML, CSS and python
+    </p>
+</div>
+<div class="d-flex flex-wrap">
+<div>
+    <h4 class="display3" style="margin:40px 0px 40px 0px;">Tentative Timeline :</h4>
+    <table class="table table-striped">
+    <thead>
+        <tr>
+        <th>Week</th>
+        <th>Work</th>
+        </tr>
+    </thead>
+    <tbody>
+    <tr>
+      <td>Week 1</td>
+      <td>Introduction to web development
+Covering HTML, CSS, JavaScript
+
+
+</td>
+    </tr>
+    <tr>
+      <td>Week 2-3</td>
+      <td>Introduction to Angular JS
+Exploring LaTeX templates and building a database of multiple resumes
+
+ </td>
+    </tr>
+    <tr>
+      <td>Week 4</td>
+      <td>Development of frontend webpages using Angular
+
+
+ </td>
+    </tr>
+    <tr>
+      <td>Week 5-6</td>
+      <td>Development of frontend webpages using Angular </td>
+    </tr>
+    </tbody>
+    </table>
+</div>
+</div>
+
+:ET

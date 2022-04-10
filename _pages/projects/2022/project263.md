@@ -1,7 +1,7 @@
 ---
 layout: project
 title: Seasons of Code
-project: parkIn
+project: ParkIn
 topics:
     - App Development
 mentors:

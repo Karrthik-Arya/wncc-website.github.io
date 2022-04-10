@@ -330,13 +330,13 @@ soc-items:
     image: "assets/images/soc/2022/item228.png"
     url: "/soc/projects/2022/project228"
     soc-type:
-      - type: "Machine Learning"
+      - type: "Development"
       - type: "2022"
 
   - title: "An Introduction to QC, ML, and QML"
     image_small: "assets/images/soc/2022/item229.png"
     image: "assets/images/soc/2022/item229.png"
-    url: "/soc/projects/2022/229"
+    url: "/soc/projects/2022/project229"
     soc-type:
       - type: "Machine Learning"
       - type: "2022"
@@ -529,7 +529,7 @@ soc-items:
       - type: "Blockchain"
       - type: "2022"
 
-  - title: "parkIn"
+  - title: "ParkIn"
     image_small: "assets/images/soc/2022/item263.gif"
     image: "assets/images/soc/2022/item263.gif"
     url: "/soc/projects/2022/project263"

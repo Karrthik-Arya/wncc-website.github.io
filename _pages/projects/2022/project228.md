@@ -9,7 +9,7 @@ mentors:
 mentees:
     - 4 
     
-permalink: /soc/projects/2022/project227
+permalink: /soc/projects/2022/project228
 ---
 
 <h2 class="display1 m-3 p-3 text-center project-title">{{page.project}}</h2>
@@ -63,7 +63,7 @@ It would be good if mentees go through above reading materials. But this is not 
 <div class = "d-flex flex-wrap">
 <div>
     <h4 class="display3" style="margin:40px 0px 40px 0px;">Tentative Timeline :</h4>
-    <table class="table table-striped">
+    <table class="table table-striped w-100">
     <thead>
         <tr>
         <th>Week</th>
@@ -97,8 +97,8 @@ It would be good if mentees go through above reading materials. But this is not 
       <td>Single Product view Page + small features</td>
     </tr>
     <tr>
-        <td>Week 6
-        <td>Cart Functionality, Additional Features
+        <td>Week 6</td>
+        <td>Cart Functionality, Additional Features</td>
     </tr>
     </tbody>
     </table>
