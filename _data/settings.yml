@@ -513,7 +513,7 @@ soc-items:
       - type: "Development"
       - type: "2022"
 
-  - title: "Mentrual Tracker"
+  - title: "Menstrual Tracker"
     image_small: "assets/images/soc/2022/item261.png"
     image: "assets/images/soc/2022/item261.png"
     url: "/soc/projects/2022/project295"
