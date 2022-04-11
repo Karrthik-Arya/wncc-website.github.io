@@ -1,7 +1,7 @@
 ---
 layout: project
 title: Seasons of Code
-project: Intro to Web Development, News Café (A News Aggregator Web-App)
+project: "Intro to Web Development, News Café (A News Aggregator Web-App)"
 topics:
     - Web Development
 mentors:
