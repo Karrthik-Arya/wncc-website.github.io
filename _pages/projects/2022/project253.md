@@ -6,7 +6,8 @@ topics:
     - Web Development
 mentors:
     - Utkarsh Ranjan
-    - Prashant Arora    
+    - Prashant Arora 
+    - Vidit Goel   
     
 mentees:
 - 4 (may increase based on sop) 

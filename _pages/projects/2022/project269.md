@@ -57,9 +57,10 @@ You will be required to first build a simple raytracing engine which will be abl
 <li class="display3 mb-2 w-50" style = "font-size:20px;"> Accurately simulate different types of materials like metals and dielectrics.</li>
 <li class="display3 mb-2" style = "font-size:20px;"> Mimic a real life camera and its features.(For example, depth of field).</li>
 </ul>
-<p class="display3" style = "font-size:22px;" >
+ <p class="display3 project-desc" style = "font-size:22px;" >
 If time permits, we can explore more complex features such as multi-threading, adding support for custom lighting, and loading in predefined meshes (.obj files). 
-<br>
+</p>
+<p class="display3" style = "font-size:22px;" >
 Reference materials:<br>
 1) <a href="https://www.scratchapixel.com/lessons/3d-basic-rendering/introduction-to-ray-tracing">https://www.scratchapixel.com/lessons/3d-basic-rendering/introduction-to-ray-tracing</a><br>
 

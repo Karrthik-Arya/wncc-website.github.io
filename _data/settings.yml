@@ -277,6 +277,15 @@ soc-items:
     url: "/soc/projects/2022/project221"
     soc-type:
       - type: "Development"
+      - type: "2022"
+
+  - title: "Rendera"
+    image_small: "assets/images/soc/2022/item269.png"
+    image: "assets/images/soc/2022/item269.png"
+    url: "/soc/projects/2022/project269"
+    soc-type:
+      - type: "Miscellaneous"
+      - type: "2022"
 
   - title: "Object detection using Machine Learning"
     image_small: "assets/images/soc/2022/item222.jpg"
@@ -284,6 +293,7 @@ soc-items:
     url: "/soc/projects/2022/project222"
     soc-type:
       - type: "Machine Learning"
+      - type: "2022"
 
   - title: "Intro to Competitive Programming"
     image_small: "assets/images/soc/2022/item223.png"
@@ -414,6 +424,14 @@ soc-items:
       - type: "Machine Learning"
       - type: "2022"
 
+  - title: "CNN-lytical"
+    image_small: "assets/images/soc/2022/item254.PNG"
+    image: "assets/images/soc/2022/item254.PNG"
+    url: "/soc/projects/2022/project254"
+    soc-type:
+      - type: "Machine Learning"
+      - type: "2022"
+
   - title: "Data Encryption program in python"
     image_small: "assets/images/soc/2022/item249.jpg"
     image: "assets/images/soc/2022/item249.jpg"
@@ -456,13 +474,7 @@ soc-items:
       - type: "Machine Learning"
       - type: "2022"
 
-  - title: "CNN-lytical"
-    image_small: "assets/images/soc/2022/item254.PNG"
-    image: "assets/images/soc/2022/item254.PNG"
-    url: "/soc/projects/2022/project254"
-    soc-type:
-      - type: "Machine Learning"
-      - type: "2022"
+ 
 
   - title: "Website for tracking stock market"
     image_small: "assets/images/soc/2022/item255.jpg"
@@ -578,13 +590,7 @@ soc-items:
       - type: "Miscellaneous"
       - type: "2022"
   
-  - title: "Rendera"
-    image_small: "assets/images/soc/2022/item269.png"
-    image: "assets/images/soc/2022/item269.png"
-    url: "/soc/projects/2022/project269"
-    soc-type:
-      - type: "Miscellaneous"
-      - type: "2022"
+  
   
   - title: "YARE YARE"
     image_small: "assets/images/soc/2022/item270.png"

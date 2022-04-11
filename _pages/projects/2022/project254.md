@@ -56,7 +56,7 @@ permalink: /soc/projects/2022/project254
         The goal of this project is to make you well-versed with CNNs, enough that you can write an entire network in PyTorch from scratch. It will kickstart your journey into Deep Learning.				
         <br>
 Prerequisite:
-Well-versed with Python and Selection Assignment. 
+Well-versed with Python and Selection Assignment: <a href='https://docs.google.com/document/d/13QSgl5aUxiG2sLNOjez2j3q8GR0gzEoppl17ORRSSWQ/edit?usp=sharing' target="_blank">https://docs.google.com/document/d/13QSgl5aUxiG2sLNOjez2j3q8GR0gzEoppl17ORRSSWQ/edit?usp=sharing</a>
 <br>
     </p>
 </div>

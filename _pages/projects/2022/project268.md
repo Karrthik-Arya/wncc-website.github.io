@@ -6,6 +6,10 @@ topics:
     - Network and Cyber Security
 mentors:
     - Rahul Bukte 
+    - Taufeeque Mohammad 
+    - Hitesh Kandala 
+    - Anuj Srivastava 
+    - Utkarsh Agarwal 
     
 mentees:
 - 8
