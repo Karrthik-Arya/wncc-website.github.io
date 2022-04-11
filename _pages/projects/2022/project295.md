@@ -10,7 +10,7 @@ mentors:
     - Aditi Gupta
     
 mentees:
-- 4
+- 4-6
     
 permalink: /soc/projects/2022/project295
 ---
