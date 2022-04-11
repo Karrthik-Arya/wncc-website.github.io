@@ -52,8 +52,7 @@ permalink: /soc/projects/2022/project260
 <div class = "project-desc" style = "margin-bottom: 140px">
     <p class="display3" style = "font-size:22px;" >
         <br>
-        "Create an app to list the food menus of various IITB Canteens, rate the food items and give food reviews, a working model for fun. 
-Have talked about it with GSHA, so might work on integrating it with LDAPs as well later on."			
+        "Create an app to list the food menus of various IITB Canteens, rate the food items and give food reviews, a working model for fun."			
         <br>
 Prerequisite:
 N/A
