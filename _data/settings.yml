@@ -472,7 +472,7 @@ soc-items:
       - type: "Development"
       - type: "2022"
 
-  - title: "Intro to Web Development: News Café (A News Aggregator Web-App)"
+  - title: "Intro to Web Development, News Café (A News Aggregator Web-App)"
     image_small: "assets/images/soc/2022/item256.jpeg"
     image: "assets/images/soc/2022/item256.jpeg"
     url: "/soc/projects/2022/project256"
