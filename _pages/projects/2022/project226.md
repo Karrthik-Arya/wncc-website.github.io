@@ -93,6 +93,10 @@ Prerequisites: <br>Basic knowledge of python is mandatory, <br> additional knowl
       <td>Implementing RNN model for textual data
 </td>
     </tr>
+    <tr>
+        <td> Week 8-9 </td>
+        <td> Combining both the models to get the final output, and hyper parameter tuning for achieving better results  </td>
+    </tr>    
     </tbody>
     </table>
 </div>
