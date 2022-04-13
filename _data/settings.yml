@@ -800,6 +800,15 @@ soc-items:
     soc-type:
       - type: "Miscellaneous"
       - type: "2022"
+        
+  - title: "How to Sell ***** Online (Fast)"
+    image_small: "assets/images/soc/2022/item297.jpeg"
+    image: "assets/images/soc/2022/item297.jpeg"
+    url: "/soc/projects/2022/project297"
+    soc-type:
+      - type: "Miscellaneous"
+      - type: "2022"      
+  
   
 
   
