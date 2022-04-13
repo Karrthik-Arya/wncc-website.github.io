@@ -63,7 +63,7 @@ There would be mainly 3 aspects to the project, the first would be to build the 
 So overall the concept is pretty simple, whenever you upload a file it would be broken into various parts which would be encrypted and then distributed amongst the peers connected along with making an appropriate entry in the blockchain. When you would try to access the file again the smart contract would return back the method to accessing the various segments if you are allowed access to that file. 
 Prereqs: Enthusiasm to learn( though some experience in web development might be beneficial)<br>
 References:<br>
-<a href='https://ieeexplore.ieee.org/document/8726493/'>https://ieeexplore.ieee.org/document/8726493/</a> (This is what we would try to implement)<br>
+<a href='https://drive.google.com/file/d/1DvE7DSjGQ33WtH-ZVlWgEUn80b06sbec/view?usp=sharing'>https://ieeexplore.ieee.org/document/8726493/</a> (This is what we would try to implement)<br>
 <a href='https://javascript.plainenglish.io/build-a-p2p-image-sharing-app-with-webrtc-and-react-fe6b3d1976d5'>https://javascript.plainenglish.io/build-a-p2p-image-sharing-app-with-webrtc-and-react-fe6b3d1976d5</a> ( a good resource for a p2p file sharing system) <br>
 </p>
 </div>
