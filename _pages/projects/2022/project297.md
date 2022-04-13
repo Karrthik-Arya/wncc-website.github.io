@@ -57,7 +57,7 @@ Well look no further, this project plans to create an anonymous market place, li
 </div>
 <div class = "d-flex flex-wrap">
 <div>
-    <h4 class="display3" style="margin:40px 0px 40px 0px;">Tentative Timeline :</h4>
+    <h4 class="display3" style="margin:200px 0px 40px 0px;">Tentative Timeline :</h4>
     <table class="table table-striped">
     <thead>
         <tr>
