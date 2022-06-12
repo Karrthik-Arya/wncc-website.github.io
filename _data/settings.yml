@@ -2113,7 +2113,13 @@ blog-items:
     author_image: "assets/images/blog-author/vikram_atreya.JPG"
     image : "assets/images/blog/microsoft.jpeg"
     url: "/blogs/ms-engage"
-    
+
+  - title : "Roadmap-1"
+    author: "Laxman Desai"
+    author_image: "assets/images/blog-author/laxmanDesai.jpg"
+    image : "assets/images/blog/sprinklr.jpg"
+    url: "/blogs/sprinklr"
+
 # Contact Section
 
 contact-title: Contact Info
