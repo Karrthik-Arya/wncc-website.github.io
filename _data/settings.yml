@@ -2120,6 +2120,11 @@ blog-items:
     image : "assets/images/blog/sprinklr.jpg"
     url: "/blogs/sprinklr"
 
+  - title : "Roadmap-2"
+    author: "Kunind Sahu"
+    author_image: "assets/images/blog-author/kunindSahu.jpeg"
+    image : "assets/images/blog/amex.png"
+    url: "/blogs/amex"
 # Contact Section
 
 contact-title: Contact Info

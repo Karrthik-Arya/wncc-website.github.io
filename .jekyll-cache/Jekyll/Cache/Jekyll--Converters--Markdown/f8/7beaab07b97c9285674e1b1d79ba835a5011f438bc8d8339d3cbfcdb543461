@@ -1,4 +1,4 @@
-I"K<style>
+I"æ<style>
   .yellow{
     background-color: #FFFF00;
   }
@@ -61,6 +61,19 @@
           <span class="rounded"> <h4 class="text-center">Roadmap-1</h4> <img src="/assets/images/blog/sprinklr.jpg" alt="Roadmap-1" class="img-fluid rounded  w-100 d-block mt-5" style="height: 65%" />
           <br />
           <h5 class="text-center">- Laxman Desai</h5>
+          </span>
+          <div class="hover-overlay rounded">
+          </div>
+          </a>
+        </div>
+      </div>
+      
+      <div class="col-md-4 col-6 mb-4 shuffle-item" data-groups="[]">
+        <div class="rounded hover-wrapper pr-3 pl-3 pt-3 pb-3 shadow-sm bg-white border-top border-right mx-auto" href="/blogs/amex.html" style="height:400px;">
+          <a href="/blogs/amex.html">
+          <span class="rounded"> <h4 class="text-center">Roadmap-2</h4> <img src="/assets/images/blog/amex.jpg" alt="Roadmap-2" class="img-fluid rounded  w-100 d-block mt-5" style="height: 65%" />
+          <br />
+          <h5 class="text-center">- Kunind Sahu</h5>
           </span>
           <div class="hover-overlay rounded">
           </div>
