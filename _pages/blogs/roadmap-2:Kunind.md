@@ -82,7 +82,24 @@ Used my own <a href = "https://drive.google.com/drive/folders/1NV_YhegefJNgV845W
 Course on Options Pricing (understanding the math, basic hedging strategies etc and coding the Black Scholes model in Python) through FinSearch by Finance Club and also did an <a href = "https://www.udacity.com/course/sql-for-data-analysis--ud198">SQL course on Udacity</a> to brush up on what I had learnt during DS203.
 <br>
 <br>
-<span style = "font-weight: 900; color: #55cfff; font-size: 45px">Interview Rounds</span>
+<span style = "font-weight: 900; color: #55cfff; font-size: 45px">Interview Shortlisting</span>
+<br>
+AmEx released a preliminary shortlist of people eligible for the first round. Although, I'm not entirely sure on what basis they shortlisted the applicants.
+<br>
+What did I feel helped me in getting the shortlists:
+<br>
+1) My projects (especially the credit card fraud detection) and my ML experience
+<br>
+2) CPI
+<br>
+AmEx, thankfully, did NOT have a DSA round. Instead of a DSA round, they had an MCQ test on ML concepts, which was pretty easy to answer if you knew the basics of ML.
+<br>
+In addition to ML, there was another business decision related MCQ question - a situation was given and answers to many situation related questions were given. You could only choose to view answers to some of the questions about the situation. On the basis of the answers you've chosen to view, you had to choose the most appropriate action to improve the situation - which was also pretty easy to answer.
+<br>
+Those who did well in the above test were shortlisted for the interview rounds.
+<br>
+<br>
+<span style = "font-weight: 900; color: #55cfff; font-size: 45px">Interview Experience</span>
 <br>
 There were two rounds, I was asked both (technical + HR) kinds of questions in both the rounds of the interviews.
 <br>
