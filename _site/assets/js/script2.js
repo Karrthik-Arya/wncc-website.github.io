@@ -114,10 +114,10 @@
     let active = false;
     teamText(['<font color = "lightgreen">WnCC@itc:</font><font color = "blue">~</font>$ ./WnCC-team.sh <br> \
      Reading package lists.         .            .            .            Done <br> \
-     Setting up dependency tree <font color = "tomato">tty14</font> <br> \
+     Setting up dependency tree <font color = "tomato">tty15</font> <br> \
      Fetched 260 kb in 1s(286 kb/s) <br> \
      Preparing to unpack     .          .           .  <font color = "lightgreen">/managers.gz</font> <br> \
-     Adding "Conveners to <font color = "lightblue">/usr/bin/tty14/members</font>" <br>\
+     Adding "Conveners to <font color = "lightblue">/usr/bin/tty15/members</font>" <br>\
      Build Successful!<br>\
      <font color = "green">Click on the images to know about the members</font>'],
      ["teamtext"], ["aliceblue"]);
@@ -126,103 +126,100 @@
             clicked = true;
             }
             teamText(['<font size = "5px"><font color = "blue">const</font> Managers {<br>\
-                 &emsp;  Shruti Singh;\
-                 &emsp;  Divyanshi Kamra;<br>};<br>\
-                 <font color = "green">const</font> Conveners {<br>\
-                 &emsp; Karrthik Arya;\
-                 &emsp; Shreedhar Malpani;\
-                 &emsp; Subarno Nath Roy; <br>\
-                 &emsp; Sarthak Mehrotra;\
-                 &emsp; Himanshu Choudhary;\
-                 &emsp; Jash Kabra; <br>\
-                 &emsp; Ved Khandekar;\
-                 &emsp; Vrinda Goel;\
                  &emsp; Ishit Garg;\
-                 &emsp; Shubh Kumar; <br>\
+                 &emsp; Shreedhar Malpani;<br>};<br>\
+                 <font color = "green">const</font> Conveners {<br>\
+                 &emsp; Aryan Bhosale;\
+                 &emsp; Aryan Goyal;\
+                 &emsp; Chaitanya Aggarwal; <br>\
+                 &emsp; Navyansh Mahla;\
+                 &emsp; Parth Pujari;\
+                 &emsp; Shrey Aggarwal; <br>\
+                 &emsp; Soutrik Sarangi;<br>\
                  };</font>'], 'teamtext',['white'],);
      });
-    $("#Karrthik").click(function() {
+    $("#Parth").click(function() {
         if(active){
         clicked = true;
         }
         teamText(['<font color = "blue">const</font> WnCC {<br>\
-             &emsp; <font color = "green">name</font>: Karrthik Arya;<br>\
+             &emsp; <font color = "green">name</font>: Parth Pujari;<br>\
              &emsp; <font color = "green">type</font>:Convener;<br>\
              &emsp; contact at:\
-             <a href="https://www.linkedin.com/in/karrthik-arya-30997320b/"><i class = "ti-linkedin"></i> </a> \
-              <a href="https://www.facebook.com/karrthik.arya/"> <i class = "ti-facebook"></i></a> \
-              <a href="https://github.com/Karrthik-Arya"> <i class = "ti-github"></i> </a> ; <br>\
+             <a href="https://www.linkedin.com/in/parth-pujari-12723323a"><i class = "ti-linkedin"></i> </a> \
+              <a href="https://www.facebook.com/profile.php?id=100075941285086"> <i class = "ti-facebook"></i></a> \
+              <a href="http://github.com/ParthP3"> <i class = "ti-github"></i> </a> ; <br>\
              };'], 'teamtext',['white'],);
     });
-    $("#DK").click(function() {
+    $("#Shrey").click(function() {
         if(active){
             clicked = true;
             }
         teamText(['<font color = "blue">const</font> WnCC {<br>\
-            &emsp; <font color = "green">name</font>: Divyanshi Kamra;<br>\
-            &emsp; <font color = "green">type</font>:Manager;<br>\
+            &emsp; <font color = "green">name</font>: Shrey Aggarwal;<br>\
+            &emsp; <font color = "green">type</font>:Convener;<br>\
             &emsp; contact at: \
-            <a href="https://www.linkedin.com/in/divyanshi-kamra-36268b1b3/"><i class = "ti-linkedin"></i></a>\
-             <a href="https://www.facebook.com/divyanshi.kamra.7/"><i class = "ti-facebook"></i></a>\
-             <a href="https://github.com/divyanshikamra"><i class = "ti-github"></i></a>; <br> \
+            <a href="https://www.linkedin.com/in/shrey-aggarwal-5606a8223/"><i class = "ti-linkedin"></i></a>\
+             <a href="http://facebook.com/profile.php?id=100075168486456"><i class = "ti-facebook"></i></a>\
+             <a href="https://github.com/Shrey312003"><i class = "ti-github"></i></a>; <br> \
             };'], 'teamtext',['white']);
          
     });
-    $("#Jash").click(function() {
+    $("#Aryan_Bhosale").click(function() {
         if(active){
             clicked = true;
             }
         teamText(['<font color = "blue">const</font> WnCC {<br>\
-            &emsp; <font color = "green">name</font>: Jash Kabra;<br>\
+            &emsp; <font color = "green">name</font>: Aryan Bhosale;<br>\
             &emsp; <font color = "green">type</font>: Convener;<br>\
             &emsp; contact at: \
-             <a href="https://www.linkedin.com/in/jash-kabra-148a32207/"><i class = "ti-linkedin"></i></a> \
-             <a href="https://www.facebook.com/JashKabra/"><i class = "ti-facebook"></i></a> \
-             <a href="https://github.com/JashKabra"><i class = "ti-github"></i></a> ; <br> \
+             <a href="https://www.linkedin.com/in/aryan-bhosale-345497226"><i class = "ti-linkedin"></i></a> \
+             <a href="https://www.facebook.com/profile.php?id=100075084139651"><i class = "ti-facebook"></i></a> \
+             <a href="https://github.com/Hyperion0209"><i class = "ti-github"></i></a> ; <br> \
             };'], 'teamtext',['white']);
          
     });
-    $("#Shruti").click(function() {
+    $("#Navyansh").click(function() {
         if(active){
         clicked = true;
         }
         teamText(['<font color = "blue">const</font> WnCC {<br>\
-            &emsp; <font color = "green">name</font>: Shruti Singh;<br>\
-            &emsp; <font color = "green">type</font>: Manager;<br>\
+            &emsp; <font color = "green">name</font>: Navyansh Mahla;<br>\
+            &emsp; <font color = "green">type</font>: Convener;<br>\
             &emsp; contact at: \
-              <a href="https://www.linkedin.com/in/shruti-singh-a02714195/"><i class = "ti-linkedin"></i></a> \
-              <a href="https://www.facebook.com/shruti.s.50364592/"><i class = "ti-facebook"></i></a> \
-              <a href="https://github.com/shruhh"><i class = "ti-github"></i></a> ; <br> \
+              <a href="https://www.linkedin.com/in/navyansh-mahla-519817223/"><i class = "ti-linkedin"></i></a> \
+              <a href="https://www.facebook.com/navyansh.mahla"><i class = "ti-facebook"></i></a> \
+              <a href="https://github.com/navyanshmahla"><i class = "ti-github"></i></a> ; <br> \
             };'], 'teamtext',['white']);
          
     });
 
-    $("#Himanshu").click(function() {
+    $("#Chaitanya").click(function() {
         if(active){
             clicked = true;
             }
         teamText(['<font color = "blue">const</font> WnCC {<br>\
-            &emsp; <font color = "green">name</font>: Himanshu Choudhary;<br>\
+            &emsp; <font color = "green">name</font>: Chaitanya Aggarwal;<br>\
             &emsp; <font color = "green">type</font>: Convener;<br>\
             &emsp; contact at: \
-              <a href="https://www.linkedin.com/in/himanshu-choudhary-26514813a/"><i class = "ti-linkedin"></i></a> \
-              <a href="https://www.facebook.com/profile.php?id=100011777830160"><i class = "ti-facebook"></i></a>\
-              <a href="https://github.com/HimanshuC22"><i class = "ti-github"></i></a> ; <br> \
+              <a href="https://www.linkedin.com/in/chaitanya-aggarwal-991b82224/"><i class = "ti-linkedin"></i></a> \
+              <a href="https://www.facebook.com/chaitanya.aggarwal.940"><i class = "ti-facebook"></i></a>\
+              <a href="https://github.com/Chaitanya-Aggarwal"><i class = "ti-github"></i></a> ; <br> \
             };'], 'teamtext',['white']);
          
     });
 
-    $("#Subarno").click(function() {
+    $("#Soutrik").click(function() {
         if(active){
             clicked = true;
             }
         teamText(['<font color = "blue">const</font> WnCC {<br>\
-            &emsp; <font color = "green">name</font>: Subarno Nath Roy;<br>\
+            &emsp; <font color = "green">name</font>: Soutrik Sarangi;<br>\
             &emsp; <font color = "green">type</font>: Convener;<br>\
             &emsp; contact at: \
-              <a href="https://www.linkedin.com/in/subarno-nath-roy-46b73ba/"><i class = "ti-linkedin"></i> </a> \
-              <a href="https://www.facebook.com/subarno.nathroy/"><i class = "ti-facebook"></i> </a> \
-              <a href="https://github.com/SubarnoNR"><i class = "ti-github"></i> </a> ; <br> \
+              <a href="https://www.linkedin.com/in/soutrik-sarangi-01745718b"><i class = "ti-linkedin"></i> </a> \
+              <a href="https://www.facebook.com/soutrik.sarangi.1/"><i class = "ti-facebook"></i> </a> \
+              <a href="http://github.com/soutrik-01"><i class = "ti-github"></i> </a> ; <br> \
             };'], 'teamtext',['white']);
          
     });
@@ -233,7 +230,7 @@
             }
         teamText(['<font color = "blue">const</font> WnCC {<br>\
             &emsp; <font color = "green">name</font>: Ishit Garg;<br>\
-            &emsp; <font color = "green">type</font>: Convener;<br>\
+            &emsp; <font color = "green">type</font>: Manager;<br>\
             &emsp; contact at: \
               <a href="https://www.linkedin.com/in/ishit-garg-a4120b201/"><i class = "ti-linkedin"></i> </a> \
               <a href="https://www.facebook.com/ishit.garg.18"><i class = "ti-facebook"></i> </a> \
@@ -242,50 +239,37 @@
          
     });
 
-    $("#Sarthak").click(function() {
+    $("#Atishay").click(function() {
         if(active){
             clicked = true;
             }
         teamText(['<font color = "blue">const</font> WnCC {<br>\
-            &emsp; <font color = "green">name</font>: Sarthak Mehrotra;<br>\
+            &emsp; <font color = "green">name</font>: Atishay Jain;<br>\
             &emsp; <font color = "green">type</font>: Convener;<br>\
             &emsp; contact at: \
-              <a href="https://www.linkedin.com/in/sarthak-mehrotra-a4a01120b/"><i class = "ti-linkedin"></i> </a> \
-              <a href="https://www.facebook.com/sarthak.mehrotra.39750/"><i class = "ti-facebook"></i> </a> \
-              <a href="https://github.com/SarthakM320"><i class = "ti-github"></i> </a> ; <br> \
+              <a href="https://www.linkedin.com/in/atishay-jain-b04565228"><i class = "ti-linkedin"></i> </a> \
+              <a href="https://www.facebook.com/atishayj25"><i class = "ti-facebook"></i> </a> \
+              <a href="https://github.com/Atishay25"><i class = "ti-github"></i> </a> ; <br> \
             };'], 'teamtext',['white']);
          
     });
 
-    $("#Vrinda").click(function() {
+    $("#Aryan").click(function() {
         if(active){
             clicked = true;
             }
         teamText(['<font color = "blue">const</font> WnCC {<br>\
-            &emsp; <font color = "green">name</font>: Vrinda Goel;<br>\
+            &emsp; <font color = "green">name</font>: Aryan Goyal;<br>\
             &emsp; <font color = "green">type</font>: Convener;<br>\
             &emsp; contact at: \
-              <a href="https://www.linkedin.com/in/vrinda-goel-2956ab209/"><i class = "ti-linkedin"></i> </a> \
-              <a href="https://www.facebook.com/vrinda.goel.7967/"><i class = "ti-facebook"></i> </a> \
-              <a href="https://github.com/vrinda01go?tab=repositories"><i class = "ti-github"></i> </a>; <br> \
+              <a href="https://www.linkedin.com/in/aryan-goyal-8429611a7/"><i class = "ti-linkedin"></i> </a> \
+              <a href="https://www.facebook.com/aryanx07/"><i class = "ti-facebook"></i> </a> \
+              <a href="https://github.com/aryangoyal7"><i class = "ti-github"></i> </a>; <br> \
             };'], 'teamtext',['white']);
          
     });
 
-    $("#Shubh").click(function() {
-        if(active){
-            clicked = true;
-            }
-        teamText(['<font color = "blue">const</font> WnCC {<br>\
-            &emsp; <font color = "green">name</font>: Shubh Kumar;<br>\
-            &emsp; <font color = "green">type</font>: Convener;<br>\
-            &emsp; contact at: \
-              <a href="https://www.linkedin.com/in/shubh-kumar-526052b5/"><i class = "ti-linkedin"></i></a> \
-              <a href="https://www.facebook.com/profile.php?id=100057361624828"><i class = "ti-facebook"></i></a> \
-              <a href="https://github.com/thevaliantthird"><i class = "ti-github"></i></a>; <br> \
-            };'], 'teamtext',['white']);
-         
-    });
+    
 
     $("#Shreedhar").click(function() {
         if(active){
@@ -293,7 +277,7 @@
             }
         teamText(['<font color = "blue">const</font> WnCC {<br>\
             &emsp; <font color = "green">name</font>: Shreedhar Malpani;<br>\
-            &emsp; <font color = "green">type</font>: Convener;<br>\
+            &emsp; <font color = "green">type</font>: Manager;<br>\
             &emsp; contact at: \
               <a href="https://www.linkedin.com/in/shreedhar-malpani-23a139209/"><i class = "ti-linkedin"></i> </a> \
               <a href="https://www.facebook.com/ShreedharMalpani28"><i class = "ti-facebook"></i> </a> \
@@ -302,20 +286,7 @@
          
     });
 
-    $("#Ved").click(function() {
-        if(active){
-            clicked = true;
-            }
-        teamText(['<font color = "blue">const</font> WnCC {<br>\
-            &emsp; <font color = "green">name</font>: Ved Khandekar;<br>\
-            &emsp; <font color = "green">type</font>: Convener;<br>\
-            &emsp; contact at: \
-              <a href="https://www.linkedin.com/in/ved-khandekar-29824612b/"><i class = "ti-linkedin"></i></a> \
-              <a href="https://www.facebook.com/ved.khandekar.1/"><i class = "ti-facebook"></i></a> \
-              <a href="https://github.com/vedk"><i class = "ti-github"></i></a> ; <br> \
-            };'], 'teamtext',['white']);
-         
-    });
+    
 
 function consoleText(words, id, colors, console_id) {
   if (colors === undefined) colors = ['#fff'];
