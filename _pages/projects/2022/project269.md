@@ -52,9 +52,11 @@ permalink: /soc/projects/2023/project269
 <div >
     <p class="display3 project-desc" style = "font-size:22px;" >
 Our project is all about converting Regular Expressions to Deterministic Finite Automatas. Regular Expressions let you define complex patterns that can find, replace, or match any text you need. With just a few characters, you can unlock a world of possibilities. Automatas are powerful tools in computer science and mathematics, used to model and analyze processes that follow a strict sequence of steps. Ever heard of Turing Machine?! Most general and powerful automata is the Turing Machine :): We will be looking at a specific class of automatas called Deterministic Finite Automatas(DFAs). Some popular uses of DFAs are in compiler design and formal verification. To know more about RegEx and Automata: https://www.javatpoint.com/automata-regular-expression</p>
-
-Prerequisites:<br>
-Familiarity with C++<br>
+</p>
+<br>
+<p>
+Prerequisites:
+Familiarity with C++
         <br>
     </p>
 </div>

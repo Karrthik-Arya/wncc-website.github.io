@@ -1,9 +1,9 @@
 ---
 layout: project
 title: Seasons of Code
-project: Intro to Competitive Programming
+project: Write yourself a Git!
 topics:
-    - Web Development
+    - Dev Tooling
 mentors:
     - Shivang Tiwari
     - Vipul Singh     

@@ -257,7 +257,7 @@ soc-year-label:
 soc-items:
   #2023 projects
   - title: "TEXT SUMMARIZATION WEB APP "
-    image_small: "assets/images/soc/2022/item221.jpg"
+    image_small: "assets/images/soc/2023/item221.jpg"
     image: "assets/images/soc/2023/item221.jpg"
     url: "/soc/projects/2023/project221"
     soc-type:
@@ -280,13 +280,13 @@ soc-items:
       - type: "Machine Learning"
       - type: "2023"
 
-  - title: "Intro to Competitive Programming"
-    image_small: "assets/images/soc/2022/item223.png"
-    image: "assets/images/soc/2022/item223.png"
+  - title: "Write yourself a Git!"
+    image_small: "assets/images/soc/2023/item223.png"
+    image: "assets/images/soc/2023/item223.png"
     url: "/soc/projects/2023/project223"
     soc-type:
-      - type: "CP"
-      - type: "2022"
+      - type: "Miscellaneous"
+      - type: "2023"
 
   - title: "Text Summarization"
     image_small: "assets/images/soc/2022/item224.jpg"
