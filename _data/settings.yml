@@ -296,13 +296,13 @@ soc-items:
       - type: "Miscellaneous"
       - type: "2023"
 
-  - title: "Road Accident Prevention (RAP)"
-    image_small: "assets/images/soc/2022/item225.jpg"
-    image: "assets/images/soc/2022/item225.jpg"
+  - title: "FAST-G"
+    image_small: "assets/images/soc/2023/item225.jpg"
+    image: "assets/images/soc/2023/item225.jpg"
     url: "/soc/projects/2023/project225"
     soc-type:
-      - type: "Machine Learning"
-      - type: "2022"
+      - type: "CP"
+      - type: "2023"
 
   - title: "Moodify"
     image_small: "assets/images/soc/2022/item226.png"
@@ -377,21 +377,21 @@ soc-items:
       - type: "Blockchain"
       - type: "2022"
 
-  - title: "ArgueAI"
+  - title: "Applications of Machine Learning in Astronomy"
     image_small: "assets/images/soc/2022/item245.jpg"
     image: "assets/images/soc/2022/item245.jpg"
     url: "/soc/projects/2023/project245"
     soc-type:
       - type: "Machine Learning"
-      - type: "2023"
+      - type: "2022"
 
-  - title: "InstiExchange: A web marketplace for IITB"
+  - title: "RELIV(Learning and social platform for elderly)"
     image_small: "assets/images/soc/2022/item246.jpeg"
     image: "assets/images/soc/2022/item246.jpeg"
     url: "/soc/projects/2023/project246"
     soc-type:
       - type: "Development"
-      - type: "2023"
+      - type: "2022"
   
   - title: "Stock Market Prediction using ARIMA Model"
     image_small: "assets/images/soc/2022/item247.jpg"
