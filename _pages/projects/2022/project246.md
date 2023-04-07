@@ -1,10 +1,12 @@
 ---
 layout: project
 title: Seasons of Code
-project: RELIV(Learning and social platform for elderly)
+project: InstiExchange - A web marketplace for IITB
+topic:
+    - Web Development
 mentors:
-    - Akshat Agarwal
-    - Dr. Anoop Shaji   
+    - Tanmay Hiremath
+    - Adit Akarsh   
     
 mentees:
 - 5 
@@ -50,13 +52,15 @@ permalink: /soc/projects/2022/project246
 <div>
     <p class="display3 project-desc" style = "font-size:22px;" >
         <br>
-        Relive will be a simple, engaging, user-friendly web and app-based platform offering affordable premium service where people above the age of 50 years can physically and ‘e-meet’ with like-minded people and socialize with them over similar interests. 
+        Description: We will be creating a website that allows students to buy and sell second-hand items like bicycles, electronics, mattresses etc. at IITB. The users will be able to message each other and discuss the details. There will be various categories of items and people will be able to search for items. If time permits, we can implement some more advanced features such as recommendations, payment options.<br>
         </p>
         <p class="display3" style = "font-size:22px;" >
-        They can participate in group activities like Antakshari, Open Mic, Karaoke, etc. as well as do learning-based expert sessions like Musical instruments, Gardening, Yoga, Meditation, Dance therapy, Crafts, Foreign languages & so on which can be fun and a fresh enjoyable experience for them.  
+        
+Work: Building the web app involves front-end development, back-end development, and database management. For front-end development, mentees will be learning HTML, CSS, and JavaScript and finally a library based on JavaScript, React.
+For back-end development, they will learn the Python-based web framework Django along with MySQL database. 
 <br>
-Prerequisites:
-Some knowledge of web development (html, css) or app development
+Prerequisites:<br>
+N/A. Good-to-have skills are HTML, CSS & Enthusiasm 
     </p>
 </div>
 <div class = "d-flex flex-wrap">
@@ -72,19 +76,31 @@ Some knowledge of web development (html, css) or app development
     <tbody>
     <tr>
       <td>Week 1</td>
-      <td>UX/UI design</td>     
+      <td>Basics of HTML, CSS & Javascript</td>     
     </tr>
     <tr>
-      <td>Week 2-4</td>
-      <td>Frontend web development</td>
+      <td>Week 2</td>
+      <td>Basics of React</td>
     </tr>
     <tr>
-      <td>Week 5-7</td>
-      <td>Backend web developer</td>
+      <td>Week 3</td>
+      <td>Basics of Django</td>
+    </tr>
+    <tr>
+      <td>Week 4-5</td>
+      <td>Building backend APIs in Django with database schema design along with User account & login management</td>
+    </tr>
+    <tr>
+      <td>Week 6</td>
+      <td>Website design(basic) and react implementation for the same</td>
+    </tr>
+    <tr>
+      <td>Week 7</td>
+      <td>API integration between react & django</td>
     </tr>
     <tr>
       <td>Week 8</td>
-      <td>QA Testing</td>
+      <td>Buffer for finishing touches and advanced features</td>
     </tr>
     </tbody>
     </table>

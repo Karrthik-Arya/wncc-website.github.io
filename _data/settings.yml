@@ -377,21 +377,21 @@ soc-items:
       - type: "Blockchain"
       - type: "2022"
 
-  - title: "Applications of Machine Learning in Astronomy"
+  - title: "ArgueAI"
     image_small: "assets/images/soc/2022/item245.jpg"
     image: "assets/images/soc/2022/item245.jpg"
     url: "/soc/projects/2022/project245"
     soc-type:
       - type: "Machine Learning"
-      - type: "2022"
+      - type: "2023"
 
-  - title: "RELIV(Learning and social platform for elderly)"
+  - title: "InstiExchange: A web marketplace for IITB"
     image_small: "assets/images/soc/2022/item246.jpeg"
     image: "assets/images/soc/2022/item246.jpeg"
     url: "/soc/projects/2022/project246"
     soc-type:
       - type: "Development"
-      - type: "2022"
+      - type: "2023"
   
   - title: "Stock Market Prediction using ARIMA Model"
     image_small: "assets/images/soc/2022/item247.jpg"
