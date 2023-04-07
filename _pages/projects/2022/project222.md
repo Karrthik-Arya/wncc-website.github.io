@@ -1,16 +1,17 @@
 ---
 layout: project
 title: Seasons of Code
-project: Object detection using Machine Learning
+project: Competitive Programming
 topics:
-    - Web Development
+    - Competitive Programming
 mentors:
-    - Aman Bharti     
+    - Virendra Kabra
+  
     
 mentees:
-- 4-5   
+- 6  
     
-permalink: /soc/projects/2022/project222
+permalink: /soc/projects/2023/project222
 ---
 
 <h2 class="display1 m-3 p-3 text-center project-title">{{page.project}}</h2>
@@ -50,22 +51,18 @@ permalink: /soc/projects/2022/project222
 </div>
 <div>
     <p class="display3 project-desc" style = "font-size:22px;" >
-        <br>
-       1) Using Machine learning to detect objects present in an image with the location of the 
-     object represented with a boundary on the image<br>
-2) Studying the difference between image classification and object detection and 
-     implementation of both<br>
-3)Exploring various object detection algorithms <br>
-4)Training models on predefined datasets for various images
-</p>
+        The main goal is to get comfortable with commonly used algorithms and data structures for CP.
+
+Specifics of Week 5, 6, 7, 8 are subject to change. These weeks will coincide with vacations, and thus we will plan to take up working on the more complex features towards the end.
 <p class="display3" style = "font-size:22px;" >
-Resources:</p>
- <ul style = "list-style-type: disc">
-<li class="display3 mb-2" style = "font-size:22px;"> Course on ML by Andrew Ng </li>
-<li class="display3 mb-2" style = "font-size:22px;"> Deep learning specialization (CNN Course) by Andrew Ng</li>
-</ul>
+Resources:
+ Online resources include cp-algorithms, CSES and GFG, among others.
         <br>
+Prerequisites : CS101
 </div>
+<br>
+
+<br>
 <div class = "d-flex flex-wrap">
 <div>
     <h4 class="display3" style="margin:40px 0px 40px 0px;">Tentative Timeline :</h4>
@@ -79,28 +76,35 @@ Resources:</p>
     <tbody>
     <tr>
       <td  >Week 1</td>
-      <td>Basics of machine learning</td>
+      <td>C++ STL Basics</td>
     </tr>
     <tr>
       <td>Week 2</td>
-      <td>Implementation of ML on python </td>
+      <td>Sorting and Searching </td>
     </tr>
     <tr>
       <td>Week 3</td>
-      <td>Image classification and object detection</td>
+      <td>Graph Algorithms</td>
     </tr>
     <tr>
       <td>Week 4</td>
-      <td>Various object detection algorithm</td>
+      <td>Divide-Conquer and Greedy Paradigms</td>
     </tr>
     <tr>
       <td>Week 5</td>
-      <td>Implementation of some basic image classification and object detection algorithm</td>
+      <td>Dynamic Programming</td>
     </tr>
     <tr>
       <td>Week 6</td>
-      <td>Final implementation and debugging</td>
+      <td>Range Queries</td>
     </tr>
+    <tr>
+      <td>Week 7</td>
+      <td>Flows</td>
+    </tr>
+    <tr>
+      <td>Week 8</td>
+      <td>Problems</td>
     </tbody>
     </table>
 </div>
