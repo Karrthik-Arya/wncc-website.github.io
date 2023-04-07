@@ -283,7 +283,7 @@ soc-items:
   - title: "Write yourself a Git!"
     image_small: "assets/images/soc/2023/item223.png"
     image: "assets/images/soc/2023/item223.png"
-    url: "/soc/projects/2023/project223"
+    url: "/soc/projects/2022/project223"
     soc-type:
       - type: "Miscellaneous"
       - type: "2023"

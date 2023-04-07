@@ -1,0 +1,14 @@
+current directory: /Users/navyanshmahla/Desktop/WnCC-website/wncc-website.github.io/vendor/bundle/ruby/3.1.0/gems/wdm-0.1.1/ext/wdm
+/Users/navyanshmahla/.rbenv/versions/3.1.0/bin/ruby -I /Users/navyanshmahla/.rbenv/versions/3.1.0/lib/ruby/site_ruby/3.1.0 extconf.rb
+
+current directory: /Users/navyanshmahla/Desktop/WnCC-website/wncc-website.github.io/vendor/bundle/ruby/3.1.0/gems/wdm-0.1.1/ext/wdm
+make DESTDIR\= sitearchdir\=./.gem.20230407-41199-oewymk sitelibdir\=./.gem.20230407-41199-oewymk clean
+
+current directory: /Users/navyanshmahla/Desktop/WnCC-website/wncc-website.github.io/vendor/bundle/ruby/3.1.0/gems/wdm-0.1.1/ext/wdm
+make DESTDIR\= sitearchdir\=./.gem.20230407-41199-oewymk sitelibdir\=./.gem.20230407-41199-oewymk
+
+current directory: /Users/navyanshmahla/Desktop/WnCC-website/wncc-website.github.io/vendor/bundle/ruby/3.1.0/gems/wdm-0.1.1/ext/wdm
+make DESTDIR\= sitearchdir\=./.gem.20230407-41199-oewymk sitelibdir\=./.gem.20230407-41199-oewymk install
+
+current directory: /Users/navyanshmahla/Desktop/WnCC-website/wncc-website.github.io/vendor/bundle/ruby/3.1.0/gems/wdm-0.1.1/ext/wdm
+make DESTDIR\= sitearchdir\=./.gem.20230407-41199-oewymk sitelibdir\=./.gem.20230407-41199-oewymk clean

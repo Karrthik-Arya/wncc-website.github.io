@@ -6,7 +6,7 @@ topics:
     - Competitive Programming
 mentors:
     - Virendra Kabra
-    - 
+  
     
 mentees:
 - 6  
@@ -53,14 +53,15 @@ permalink: /soc/projects/2023/project222
     <p class="display3 project-desc" style = "font-size:22px;" >
         The main goal is to get comfortable with commonly used algorithms and data structures for CP.
 
+Specifics of Week 5, 6, 7, 8 are subject to change. These weeks will coincide with vacations, and thus we will plan to take up working on the more complex features towards the end.
 <p class="display3" style = "font-size:22px;" >
-Resources:</p><p>
+Resources:
  Online resources include cp-algorithms, CSES and GFG, among others.
-        <br></p>
+        <br>
+Prerequisites : CS101
 </div>
-<br><p>
-Prerequisites:
-CS101</p>
+<br>
+
 <br>
 <div class = "d-flex flex-wrap">
 <div>

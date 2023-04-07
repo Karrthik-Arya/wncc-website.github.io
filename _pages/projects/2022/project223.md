@@ -10,7 +10,7 @@ mentors:
 mentees:
 - 2-5  
     
-permalink: /soc/projects/2022/project223
+permalink: /soc/projects/2023/project223
 ---
 
 <h2 class="display1 m-3 p-3 text-center project-title">{{page.project}}</h2>
@@ -112,34 +112,45 @@ Foot notes:
     <tbody>
     <tr>
       <td >Week 1</td>
-      <td>Basic syntax revision, C++ refreshing</td>
+      <td>Install a GNU/Linux distribution or WSL.
+Learn basic CLI tools (cd, ls, cat, nano etc)</td>
     </tr>
     <tr>
       <td>Week 2</td>
-      <td>Introduction to STL</td>
+      <td>Learn regexes (and grep, sed).
+Other common CLI tools.
+Learn about Git and how to use Git. Get your hands dirty on a dummy repository.</td>
     </tr>
     <tr>
       <td>Week 3</td>
-      <td>Some important data structures not in STL(union find, RMQ etc)</td>
+      <td>Learn Vim. Spend some time golfing!
+Install Python, and learn the basics of the Python language.</td>
     </tr>
     <tr>
       <td>Week 4</td>
-      <td>First 10 problems of Introductory Problems/CSES</td>
+      <td>Go through https://wyag.thb.lt/ and implement some of the basic commands, after which, we will start implementing feature not yet present in WYAG.</td>
     </tr>
     <tr>
       <td>Week 5</td>
-      <td>First 10 problems of Sorting and Searching/CSES</td>
+      <td>Implement git-stash
+</td>
     </tr>
     <tr>
       <td>Week 6</td>
-      <td>Theory on dynamic programming + First 10 problems of Dynamic Programming/CSES</td>
+      <td>Implement a (non-interactive) rebase (handling merge conflicts correctly)</td>
     </tr>
     <tr>
       <td>Week 7</td>
-      <td>Theory on graphs + First 5 problems of Graph Algorithms/CSES</td>
+      <td>Implement interactive rebase!</td>
+    </tr>
+    <tr>
+      <td>Week 8</td>
+      <td>Implement push/pull from/to a remote repository</td>
     </tr>
     </tbody>
     </table>
+    <p>
+Specifics of Week 5, 6, 7, 8 are subject to change. These weeks will coincide with vacations, and thus we will plan to take up working on the more complex features towards the end.</p>
 </div>
 </div>
 {% endif %}
