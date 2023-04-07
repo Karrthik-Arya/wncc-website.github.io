@@ -326,23 +326,23 @@ soc-items:
     url: "/soc/projects/2023/project228"
     soc-type:
       - type: "Development"
-      - type: "2022"
+      - type: "2023"
 
-  - title: "An Introduction to QC, ML, and QML"
-    image_small: "assets/images/soc/2022/item229.png"
-    image: "assets/images/soc/2022/item229.png"
+  - title: "Speech to Speech Translation"
+    image_small: "assets/images/soc/2023/item229.png"
+    image: "assets/images/soc/2023/item229.png"
     url: "/soc/projects/2023/project229"
     soc-type:
       - type: "Machine Learning"
-      - type: "2022"
+      - type: "2023"
 
-  - title: "Resume Script Generator"
-    image_small: "assets/images/soc/2022/item230.png"
-    image: "assets/images/soc/2022/item230.png"
+  - title: "Competitive Programming - Newbie to Master"
+    image_small: "assets/images/soc/2023/item230.png"
+    image: "assets/images/soc/2023/item230.png"
     url: "/soc/projects/2023/project230"
     soc-type:
-      - type: "Machine Learning"
-      - type: "2022"
+      - type: "CP"
+      - type: "2023"
 
 
   - title: "Style It !!"
