@@ -258,7 +258,7 @@ soc-items:
   #2023 projects
   - title: "TEXT SUMMARIZATION WEB APP "
     image_small: "assets/images/soc/2022/item221.jpg"
-    image: "assets/images/soc/2022/item221.jpg"
+    image: "assets/images/soc/2023/item221.jpg"
     url: "/soc/projects/2023/project221"
     soc-type:
       - type: "Development"
@@ -269,16 +269,16 @@ soc-items:
     image: "assets/images/soc/2023/item269.png"
     url: "/soc/projects/2023/project269"
     soc-type:
-      - type: "Miscellaneous"
+      - type: "CP"
       - type: "2023"
 
-  - title: "Object detection using Machine Learning"
-    image_small: "assets/images/soc/2022/item222.jpg"
-    image: "assets/images/soc/2022/item222.jpg"
+  - title: "Competitive Programming"
+    image_small: "assets/images/soc/2023/item222.jpg"
+    image: "assets/images/soc/2023/item222.jpg"
     url: "/soc/projects/2023/project222"
     soc-type:
       - type: "Machine Learning"
-      - type: "2022"
+      - type: "2023"
 
   - title: "Intro to Competitive Programming"
     image_small: "assets/images/soc/2022/item223.png"

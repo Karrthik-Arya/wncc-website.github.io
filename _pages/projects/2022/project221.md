@@ -73,10 +73,12 @@ Some useful links :-
 <p class="display3" style = "font-size:22px;" >
 We would use Flutter for frontend, Django or NodeJS for backend (a/c to preference of mentees).
 We would need 2 mentees working on Flutter and 2 mentees working on backend. 
-<br>
-Prerequisites:
 </p>
-BASIC PYTHON , (HTML OR STREAMLIT) , BASIC KNOWLEDGE OF NEURAL NETWORK, RNN
+<br>
+<p>
+Prerequisites:
+BASIC PYTHON , (HTML OR STREAMLIT) , BASIC KNOWLEDGE OF NEURAL NETWORK, RNN</p>
+<br>
 <p class="display3" style = "font-size:22px;" >
 Note for Mentees:
 </p>
