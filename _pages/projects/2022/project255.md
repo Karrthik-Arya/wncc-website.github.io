@@ -1,17 +1,18 @@
 ---
 layout: project
 title: Seasons of Code
-project: Website for tracking stock market 
+project: Navigating the Waters of AI
 topics:
-    - Web Development
+    - Machine Learning
 mentors:
-    - Pratik Nimje 
-    - Wankhayday Harsshh Promoad  
+    - Atharv Kshirsagar 
+    - Kushal Gajbe
+    - Omkar Nitsure 
     
 mentees:
-- 6-8 
+- 7-8 
     
-permalink: /soc/projects/2022/project255
+permalink: /soc/projects/2023/project255
 ---
 
 <h2 class="display1 m-3 p-3 text-center project-title">{{page.project}}</h2>
@@ -51,19 +52,27 @@ permalink: /soc/projects/2022/project255
 </div>
 <div class = "project-desc" >
     <p class="display3" style = "font-size:22px;" >
-        <br>
-        "This project will help the mentees to gain the basic knowledge of web development. Towards the end of the project mentees have to develop their own stock market static website for completing the project.<br>
-Technical skills/ languages: <br>
-1)HTML<br>
-2)CSS<br>
-3)JavaScript<br>
-4)Bootstrap (if they get proficient in above three).<br>
-5)Git/GitHub<br>
-1) Introduction to React.js <br>
-2) PHP<br>
-        <br>
-Prerequisite:
-N/A 
+        "The learning involved would include understanding the fundamentals of machine learning, such as supervised learning, unsupervised learning, and reinforcement learning. Mentees would also need to learn about specific machine learning algorithms, such as neural networks, decision trees, and support vector machines, and their applications.<br>
+
+Suggested reading materials and resources for mentees to gain context and spark their interest could include:<br>
+
+    1.""Hands-On Machine Learning with Scikit-Learn and TensorFlow"" by Aurélien Géron <br>
+
+    2.""Deep Learning"" by Ian Goodfellow, Yoshua Bengio, and Aaron Courville <br>
+
+    3.""Python Machine Learning"" by Sebastian Raschka and Vahid Mirjalili <br>
+
+    4.TensorFlow and Keras documentation and tutorials <br>
+
+    5.PyTorch documentation and tutorials" <br>
+
+    "CS101
+Statement of Purpose:<br>
+In your proposal, mention the following:<br>
+1. Previous experience in programming, apart from CS 101 (in any language, preferably).<br>
+2. Motivation for studying  AI.<br>
+3. Previous experience in working on python based project (if any, not mandatory).<br>
+4. Anything else you feel is worth mentioning."
 <br>
     </p>
 </div>
@@ -79,29 +88,21 @@ N/A
     </thead>
     <tbody>
     <tr>
-      <td>Week 1</td>
-      <td>Introduction to HTML and CSS
+      <td>Week 1-2</td>
+      <td>Fundamentals of Python programming
   </td>
     </tr>
     <tr>
-      <td>Week 2</td>
-      <td>	Learning javascript and Bootstrap</td>
+      <td>Week 2-4</td>
+      <td> Finding best route using graph search</td>
     </tr>
     <tr>
-      <td>Week 3</td>
-      <td>Introduction to react js framework</td>
+      <td>Week 4-6</td>
+      <td>Training ML models + Linear Regressions</td>
     </tr>
     <tr>
-      <td>Week 4-5</td>
-      <td>Introduction to PHP, MySQL.</td>
-    </tr>
-    <tr>
-    <td>Week 6</td>
-      <td>Introduction to Git/Github And APIs</td>
-    </tr>
-    <tr>
-      <td>Final Week</td>
-      <td>Full stack Development of stock market tracking website.</td>
+      <td>Week 7-8</td>
+      <td>Onward:Projects/Final Assignment.</td>
     </tr>
     </tbody>
     </table>

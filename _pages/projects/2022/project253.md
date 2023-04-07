@@ -1,18 +1,18 @@
 ---
 layout: project
 title: Seasons of Code
-project: Federated Learning for Traffic Prediction and Route Planning
+project: Combinatorial Computing
 topics:
-    - Web Development
+    - CP
 mentors:
-    - Utkarsh Ranjan
-    - Prashant Arora 
-    - Vidit Goel   
+    - Soham Joshi
+    - Ameya Vikrama Singh 
+    - Adarsh Reddy   
     
 mentees:
-- 4 (may increase based on sop) 
+- 4-6 
     
-permalink: /soc/projects/2022/project253
+permalink: /soc/projects/2023/project253
 ---
 
 <h2 class="display1 m-3 p-3 text-center project-title">{{page.project}}</h2>
@@ -52,19 +52,12 @@ permalink: /soc/projects/2022/project253
 </div>
 <div>
     <p class="display3 project-desc" style = "font-size:22px;" >
-        <br>
-        "The goal of the project is to determine the optimum paths for various users in real-time using the live traffic information from the traffic stations.
 </p>
 <p class="display3" style = "font-size:22px;" >
-Standard machine learning approaches require centralizing the training data on one machine or in a data center. Federated Learning enables mobile phones to collaboratively learn a shared prediction model while keeping all the training data on the device, decoupling the ability to do machine learning from the need to store the data in the cloud. The topic is a hot area of research both in academia and industry. Google is currently testing Federated Learning in Gboard on Android, the Google Keyboard. When Gboard shows a suggested query, your phone locally stores information about the current context and whether you clicked the suggestion. Federated Learning processes that history on-device to suggest improvements to the next iteration of Gboard’s query suggestion mode
-<br> <br>
-To facilitate the development of intelligent transport systems, particularly those involving most of the vehicles being autonomous, it is imperative to have an accurate prediction of the traffic conditions, such as traffic flow and speed. This knowledge can help make effective travel decisions, increase fuel efficiency, and alleviate air pollution. To reap all the aforementioned benefits, the traffic prediction must process the real-time and historical traffic data collected by traffic stations and mobile devices.
-<br><br>
-So In this project, we would be first building up some basics for the work involved like reading up about machine learning, federated learning, and graph algorithm. Then we would start working on some real-time traffic data from Sources like google Maps to train our model. We would work with hypothetical traffic stations for a particular map. This model would help us provide real time-optimal path for the drivers."				
-        <br><br>
-Prerequisite:
-It would be good if the mentee has basic knowledge of python and/or graph algorithms. 
+The project will introduce some interesting mathematical, computational structures and structure generation tricks, often used in competitive coding. Moreover, this will be interlaced with combinatorial ideas, and clever ways to solve combinatorial problems including boolean algebra, SAT solvers, graph algorithms, number theoretic results and much more. We will also cover recent advances in combinatorics brought about by computers. The project will impart a sound theoretic understanding of these problems and will also involve hands-on implementation for solutions to some of these problems.
 <br>
+Prerequisites:<br>
+Basics of C++ Programming, Enthusiasm towards puzzles :)
     </p>
 </div>
 <div class = "d-flex flex-wrap">
@@ -80,24 +73,36 @@ It would be good if the mentee has basic knowledge of python and/or graph algori
     <tbody>
     <tr>
       <td>Week 1</td>
-      <td>Start learning the Basics of python(if not familiar with it). Read up about basic data structures like priority queue, adjacency matrix, etc, and graph algorithms.
+      <td>Computer Representation of Mathematical Objects
   </td>
     </tr>
     <tr>
       <td>Week 2</td>
-      <td>	Develop an understanding of machine learning and optimization basics, finish some modules of the Deep Learning Specialization course (by AndrewNG) and read some papers on federated learning.</td>
+      <td>Backtrack Programming, enumeration by exhaustive search</td>
     </tr>
     <tr>
       <td>Week 3</td>
-      <td>Learn ML libraries in python and start building some basic federated learning setup with simpler graphs topology, play around with different algorithms to analyze their performance.</td>
+      <td>Satisfiability and SAT Solvers</td>
     </tr>
     <tr>
       <td>Week 4</td>
-      <td>Start working on the FL framework for traffic speed prediction. Implement the route planning using the predicted traffic data for the road network.</td>
+      <td>Generation of Elementary Configurations, permutations, partitions and sets</td>
     </tr>
     <tr>
-      <td>Final Week</td>
-      <td>Integrate the two mechanisms of traffic speed prediction and route planning. Explore the possibility of simulation of the results/ development of some GUI</td>
+      <td>Week 5</td>
+      <td>Miscellaneous algorithmic techniques, Graph algorithms </td>
+    </tr>
+    <tr>
+      <td>Week 6</td>
+      <td> Elementary Number Theoretic Algorithms </td>
+    </tr>
+    <tr>
+      <td>Week 7</td>
+      <td>Latin squares, four color problem, and other advanced combinatorial problems</td>
+    </tr>
+    <tr>
+      <td>Week 8</td>
+      <td>Parker Square Generation, Final Presentation </td>
     </tr>
     </tbody>
     </table>

@@ -1,15 +1,15 @@
 ---
 layout: project
 title: Seasons of Code
-project: Stock Market Prediction using ARIMA Model
+project: Homomorphic Encryption for k-NN on the Cloud
 mentors:
-    - Kishan Kumar
-    - Aniruddh Baranwal   
+    - Nilabha Saha
+    - Maithri Suresh  
     
 mentees:
 - 5 
     
-permalink: /soc/projects/2022/project247
+permalink: /soc/projects/2023/project247
 ---
 
 <h2 class="display1 m-3 p-3 text-center project-title">{{page.project}}</h2>
@@ -53,19 +53,21 @@ permalink: /soc/projects/2022/project247
         Humans need to predict the future trends of various sequences in the best possible manner. These sequences may be stock prices, performance parameters of start ups, life history of Li-ion batteries, etc. This helps us to make better decisions, which is of great importance for businesses and research groups alike. Sequence model prediction helps investment banks to find out the best assets to invest in, helps electric car manufacturers to keep track of the health of batteries and even helps biologists to predict the growth of animal populations. 
         </p>
         <p class="display3" style = "font-size:22px;" >
-        This project is about predicting stock market trends using the specialized ARIMA model. The ARIMA model is a state of the art model which can be used to predict time series using less amount of data and gives superior performance compared to LSTMs for short term analysis. It will help you get an introduction to the basics of this field and equip you with the necessary background so that you can explore it further.I do not expect much from, your proposal, The only need is enthusiasm to work in Machine Learning . And it would be a fun learning process, where we all can learn together. No prerequisites, but some knowledge of Machine Learning or Python will be icing on the cake!
+        "The project would involve implementing a paper on application-specific homomorphic encryption, the application being computing the k nearest neighbours to a supplied query point on an encrypted database stored on the cloud.
+The mentees would learn (in reference to the paper):<br>
+- how to implement socket programming for communication between the various entities involved<br>
+- how to set up, create, and interact with a Docker container externally to simulate the cloud server<br>
+- SageMath and how to implement basic cryptographic schemes<br>
+- how to implement an asymmetric scalar product preserving homomorphic encryption scheme<br>
+- how to connect everything they've built together<br><br>
+
+<a href="https://www.sciencedirect.com/science/article/pii/S0743731515002105">Link to the paper: <a>
         <br>
         
-        Some resources on the ARIMA model:
-
-        <a href='https://medium.com/@derejeabera/stock-price-prediction-using-arima-model-251ddb4ee52a'>https://medium.com/@derejeabera/stock-price-prediction-using-arima-model-251ddb4ee52a</a>
-        <a href='https://www.analyticsvidhya.com/blog/2021/07/stock-market-forecasting-using-time-series-analysis-with-arima-model/'>https://www.analyticsvidhya.com/blog/2021/07/stock-market-forecasting-using-time-series-analysis-with-arima-model/</a>
-        <a href = 'https://en.wikipedia.org/wiki/Autoregressive_integrated_moving_average '>
-        https://en.wikipedia.org/wiki/Autoregressive_integrated_moving_average </a>
 <br>
-Prerequisites:
-- Basics of python (But not necessarily required we will teach you)
-- Enthusiastic in Data science and AI
+Prerequisites:<br>
+- Python<br>
+Expectations: This project entails going through a paper and implementing it. Hence, a respectable amount of serious effort is expected from the mentees, including an investment of 3 - 4 hours per week.
 </p>
 </div>
 <div class = "d-flex flex-wrap ">
@@ -81,35 +83,31 @@ Prerequisites:
     <tbody>
     <tr>
       <td>Week 1</td>
-      <td>Basic Python</td>     
+      <td> Implementing socket programming to establish connection between three entities</td>     
     </tr>
     <tr>
       <td>Week 2</td>
-      <td>Basic Python and Numpy</td>
+      <td>Learning SageMath and the Number Theory required for the paper</td>
     </tr>
     <tr>
       <td>Week 3</td>
-      <td>Pandas</td>
+      <td> Implementing RSA, ElGamal, and Paillier cryptosystems using SageMath</td>
     </tr>
     <tr>
       <td>Week 4</td>
-      <td>Matplotlib and Seaborn</td>
+      <td>Paper Reading and Cloud Architecture Theory</td>
     </tr>
     <tr>
       <td>Week 5</td>
-      <td>Data Cleaning and Exploratory Data Analysis</td>
+      <td> Learn how to set up, create, and connect to a Docker container externally</td>
     </tr>
     <tr>
-      <td>Week 6</td>
-      <td>Basics of Time Series Analysis</td>
-    </tr>
-    <tr>
-      <td>Week 7</td>
-      <td>ARIMA Model Reading and Implementation</td>
+      <td>Week 6-7</td>
+      <td>Implementation of the paper</td>
     </tr>
     <tr>
       <td>Week 8</td>
-      <td>ARIMA Model Reading and Implementation</td>
+      <td>Tying up loose ends; Final documentation</td>
     </tr>
     </tbody>
     </table>

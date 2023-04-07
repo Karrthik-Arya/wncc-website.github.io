@@ -1,17 +1,18 @@
 ---
 layout: project
 title: Seasons of Code
-project: Light (Rendering) Engine
+project: Breakout Genius - Using RL to Build an AI Game Master
 topics:
-    - Web Development
+    - Machine Learning
 mentors:
-    - Rwitaban Goswami
-    - Neilabh Banzal   
+    - Omm Agrawal
+    - Ayan Minham Khan
+    - Sabyasachi Samantaray   
     
 mentees:
-- 4 
+- 5
     
-permalink: /soc/projects/2022/project258
+permalink: /soc/projects/2023/project258
 ---
 
 <h2 class="display1 m-3 p-3 text-center project-title">{{page.project}}</h2>
@@ -51,20 +52,15 @@ permalink: /soc/projects/2022/project258
 </div>
 <div class = "project-desc">
     <p class="display3" style = "font-size:22px;" >
-        <br>
-        <a href='https://github.com/Physicc/Light'>https://github.com/Physicc/Light</a>
+Are you interested in using the latest techniques in machine learning and deep learning to build a model that can play Atari's Breakout game? If so, this project is for you!<br>
 
-Light is a lightweight game engine written in C++17. It is currently in development and is not yet ready for use
+In this project, we will Learn the basics of ML and DL, implement CNN and RL on simple environment, develop a deep RL model to play Breakout game, experiment with hyperparameters and architectures.<br>
 
-You will be working in developing and designing rendering algorithms, and implement the rendering subsystem of the game engine. Some of the systems you will be working on:<br>
-1) Material System<br>
-2) Blinn-Phong Shading System<br>
-3) PBR Shading System<br>
-4) Shadows				
-        <br><br>
-Prerequisites:
-OOP knowledge, basic C++ syntax knowledge, basic Game Dev knowledge and enthu!!
-<br>
+By the end of this project, you will have gained a strong understanding of machine learning and deep learning, as well as the exciting field of RL. You will have developed a deep RL model that can play a classic Atari game, which you can showcase to your peers and potential employers. So, come join us on this exciting journey and learn how to build intelligent machines that can learn to play games on their own!<br>
+Prerequisites:<br>
+Basic python is mandatory
+Knowledge of machine learning is preferable
+Interest in Machine learning and Enthusiasm are expected.
     </p>
 </div>
 <div class = "d-flex flex-wrap">
@@ -79,33 +75,21 @@ OOP knowledge, basic C++ syntax knowledge, basic Game Dev knowledge and enthu!!
     </thead>
     <tbody>
     <tr>
-      <td>Week 1</td>
-      <td> Learn basics of rendering from learnopengl.com
+      <td>Week 1-2</td>
+      <td> Installing dependencies and Jupyter notebook, and learning basics of ML, Deep Learning.
   </td>
     </tr>
     <tr>
-      <td>Week 2</td>
-      <td>Implement basic rendering system using core opengl</td>
+      <td>Week 3-4</td>
+      <td> Learning CNN and implementing it with Pytorch.</td>
     </tr>
     <tr>
-      <td>Week 3</td>
-      <td>Setup and walkthrough the Light codebase on system</td>
+      <td>Week 5-6</td>
+      <td>Learning concepts of Reinforcement learning</td>
     </tr>
     <tr>
-      <td>Week 4</td>
-      <td>Directional Lights, Spot Lights</td>
-    </tr>
-    <tr>
-      <td>Week 5</td>
-      <td>Directional Light, Spot Light Shadow Maps</td>
-    </tr>
-    <tr>
-      <td>Week 6-7</td>
-      <td>Material System</td>
-    </tr>
-    <tr>
-      <td>Week 8</td>
-      <td>Physically Based Rendering System</td>
+      <td>Week 7-8</td>
+      <td>Implementation and training of deep RL model.</td>
     </tr>
     </tbody>
     </table>

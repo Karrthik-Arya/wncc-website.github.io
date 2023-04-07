@@ -1,16 +1,14 @@
 ---
 layout: project
 title: Seasons of Code
-project: CNN-lytical
+project: Social media website with MERN
 topics:
     - Web Development
 mentors:
-    - Akshat Kumar
-    - Vaibhav Raj 
-    - Ashwin Ramachandran    
+    - Shivam kumar   
     
 mentees:
-- 15
+- 10
     
 permalink: /soc/projects/2022/project254
 ---
@@ -55,8 +53,8 @@ permalink: /soc/projects/2022/project254
         <br>
         The goal of this project is to make you well-versed with CNNs, enough that you can write an entire network in PyTorch from scratch. It will kickstart your journey into Deep Learning.				
         <br>
-Prerequisite:
-Well-versed with Python and Selection Assignment: <a href='https://docs.google.com/document/d/13QSgl5aUxiG2sLNOjez2j3q8GR0gzEoppl17ORRSSWQ/edit?usp=sharing' target="_blank">https://docs.google.com/document/d/13QSgl5aUxiG2sLNOjez2j3q8GR0gzEoppl17ORRSSWQ/edit?usp=sharing</a>
+Prerequisite:<br>
+Only Enthusiasm required <a href='https://github.com/Ccivam/Social-Media-Website' target="_blank">Refer Here for GitHub of Projects</a>
 <br>
     </p>
 </div>
@@ -72,31 +70,34 @@ Well-versed with Python and Selection Assignment: <a href='https://docs.google.c
     </thead>
     <tbody>
     <tr>
-      <td>Week 1-2</td>
-      <td>Introduction to Neural Nets, code up Multi-Layer Perceptron from scratch in Numpy (in a modular fashion) - Lectures 4, 5, 6
+      <td>Week 1</td>
+      <td>HTML,CSS
   </td>
     </tr>
     <tr>
+      <td>Week 2</td>
+      <td>	Javascript</td>
+    </tr>
+    <tr>
       <td>Week 3</td>
-      <td>	Introduction to PyTorch, training NN for MNIST classifier.</td>
+      <td>Rest Api in nodejs</td>
     </tr>
     <tr>
       <td>Week 4</td>
-      <td>Convolutional Neural Networks in PyTorch - Watch lecture (CS231n Lecture 7) and learn PyTorch implementation.</td>
+      <td>MongoDB</td>
     </tr>
     <tr>
       <td>Week 5</td>
-      <td>YOLO (YOLO paper) implementation.</td>
+      <td>Building Home page of the social media website</td>
     </tr>
     <tr>
       <td>Week 6</td>
-      <td>UNet for Segmentation - Watch implementation at U-Net from scratch using PyTorch, read the paper at U-Net paper</td>
+      <td>Building the database and connecting it to the website</td>
     </tr>
     <tr>
-      <td>Week 7-12</td>
-      <td>(i) GradCAM
-        (ii) Self-Driving Cars Simulation
-        and more....</td>
+      <td>Week 7</td>
+      <td>Building profile page of the social media website
+</td>
     </tr>
     </tbody>
     </table>

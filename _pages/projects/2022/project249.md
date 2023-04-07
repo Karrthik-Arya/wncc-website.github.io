@@ -1,15 +1,15 @@
 ---
 layout: project
 title: Seasons of Code
-project: Data Encryption program in python
+project: Dive into Digital Image Processing 
 mentors:
-    - Sachin Kumar
-    - Prabhash Kumar   
+    - Vipul Patil
+    - Hariprakash Reddy   
     
 mentees:
-- 6 
+- 8-10
     
-permalink: /soc/projects/2022/project249
+permalink: /soc/projects/2023/project249
 ---
 
 <h2 class="display1 m-3 p-3 text-center project-title">{{page.project}}</h2>
@@ -50,7 +50,17 @@ permalink: /soc/projects/2022/project249
 <div class = "project-desc">
     <p class="display3" style = "font-size:22px;" >
         <br>
-        Humans need to predict the future trends of various sequences in the best possible manner. By the end of this project, we will be able to exchange coded messages using our encrypted program. We will focus on symmetric-key encryption. That is, the same key will be used to encrypt and decrypt the message.
+        Introduction to image processing: 
+        <br>
+- https://pyimagesearch.com/2021/04/17/image-classification-basics/<br>
+- https://www.javatpoint.com/concept-of-pixel<br>
+Image Classification algorithms(Object Oriented
+Segmentation)<br>
+Linear Discriminant Functions ,Principal component analysis and K-means clustering
+- https://towardsdatascience.com/k-means-clustering-algorithm-applications-evaluation-methods-and-drawbacks-aa03e644b48a<Br>
+- https://www.javatpoint.com/linear-discriminant-analysis-in-machine-learning<br>
+Edge detection:<br>
+- https://www.javatpoint.com/opencv-canny-edge-detection
 <br>
 Prerequisites:
 No prerequisites. But having knowledge of basics of web development will be preferred.
@@ -69,23 +79,23 @@ No prerequisites. But having knowledge of basics of web development will be pref
     <tbody>
     <tr>
       <td>Week 1</td>
-      <td>Basics of python</td>     
+      <td>Python installation and basics of image processing</td>     
     </tr>
     <tr>
       <td>Week 2</td>
-      <td>Data security and cryptography</td>
+      <td> Introduction to Image classification and Playing with pixels (assignment)</td>
     </tr>
     <tr>
-      <td>Week 3-4</td>
-      <td>Web development and Networking</td>
+      <td>Week 3-5</td>
+      <td>few Image classification algorithms(Linear Discriminant Functions ,Principal component analysis and K-means clustering)</td>
     </tr>
     <tr>
-      <td>Week 4</td>
-      <td>Matplotlib and Seaborn</td>
+      <td>Week 6-7</td>
+      <td>Implementation of one of the classification algorithm (assignment)</td>
     </tr>
     <tr>
-      <td>Remaining weeks</td>
-      <td>Combining everything for project completion.</td>
+      <td>Week 8</td>
+      <td>Edge detection (If gets more time can implement canny edge detector(assignment))</td>
     </tr>
     </tbody>
     </table>

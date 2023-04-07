@@ -1,16 +1,16 @@
 ---
 layout: project
 title: Seasons of Code
-project: CNN Based Stock Market Prediction
+project: Author Identification through Stylometric Analysis
 topics:
-    - Web Development
+    - Machine Learning
 mentors:
-    - Shivprasad Kathane 
+    - Mani Praneeth Chilukuri 
     
 mentees:
-- 5-10 (would yield variety of prediction results!)
+- 5
     
-permalink: /soc/projects/2022/project257
+permalink: /soc/projects/2023/project257
 ---
 
 <h2 class="display1 m-3 p-3 text-center project-title">{{page.project}}</h2>
@@ -51,17 +51,10 @@ permalink: /soc/projects/2022/project257
 <div >
     <p class="display3 project-desc" style = "font-size:22px;" >
         <br>
-        The goal of this project is to implement 3D Convolutional Neural Network models for predicting the directional movement of stock markets using data from various sources.
-        
-Main Paper: <a href='https://www.sciencedirect.com/science/article/pii/S0957417419301915'>https://www.sciencedirect.com/science/article/pii/S0957417419301915</a><br>
-</p>
-        <p class="display3" style = "font-size:22px;" >
-Other Articles:<a href='https://www.analyticsvidhya.com/blog/2021/08/hands-on-stock-price-time-series-forecasting-using-deep-convolutional-networks/'>https://www.analyticsvidhya.com/blog/2021/08/hands-on-stock-price-time-series-forecasting-using-deep-convolutional-networks/</a><br>
-<a href='https://www.analyticsvidhya.com/blog/2021/08/hands-on-stock-price-time-series-forecasting-using-deep-convolutional-networks/'>https://www.analyticsvidhya.com/blog/2021/08/hands-on-stock-price-time-series-forecasting-using-deep-convolutional-networks/</a><br> <a href='https://machinelearningmastery.com/using-cnn-for-financial-time-series-prediction/'>https://machinelearningmastery.com/using-cnn-for-financial-time-series-prediction/</a><br>
-will be sharing resources for learning the foundations, mentees can also find more articles on the internet, and look up papers & data on the Indian market as well and try working on them.			
-        <br>
-Prerequisite:
-Should be familiar with python and exposure to data analysis is preferable
+   Every author (and for that matter, any person who writes) has his own unique writing style, and this unique style can majorly be observed in the way they use small function words, such as articles, prepositions and conjunctions (I guess my writing style majorly has long sentences containing comma-separated smaller sentences :P ). In a survey of historical and current stylometric methods, it has been pointed out that function words are “used in a largely unconscious manner by the authors, and they are topic-independent.” In simple words, the writing style is to some extent irrelevant with the topics and can be recognised by human readers. We intend to make a program recognise it too. The proposed solution is to look at few works of different authors, analyse them for some metric, and then test our program on other works to determine their author.<br>
+
+A little more information (which you can very well ignore if I grabbed your attention from the above paragraph alone):
+We will start the project using three well-known approaches viz., Mendenhall's Characteristic Curves of Composition, Kilgariff's Chi-Squared Method and John Burrow's Delta Method. Then, we shall move on to build a machine learning model, experimenting and evaluating accuracies of different models, to come to the best model that does our job.<br>
 </p>
 </div>
 <br>
@@ -78,36 +71,27 @@ Should be familiar with python and exposure to data analysis is preferable
     <tbody>
     <tr>
       <td>Week 1</td>
-      <td>Intro to Time Series Data & Problems  </td>
+      <td>Get used to python, and nltk module. </td>
     </tr>
     <tr>
       <td>Week 2</td>
-      <td>Basic modeling & forecasting Methods</td>
+      <td>Collecting data: Collecting written texts to analyze.
+Pre-processing this data
+Study about different tests of stylometric analysis</td>
     </tr>
     <tr>
-      <td>Week 3</td>
-      <td>Basic Machine Learning & Deep Learning</td>
+      <td>Week 3-4</td>
+      <td>Implementing these stylometric tests for the data we collected and pre-processed.</td>
     </tr>
     <tr>
-      <td>Week 4</td>
-      <td>Building Neural Networks in Google Colab</td>
+      <td>Week 5-6</td>
+      <td>Learn "Logistic Regression", "Feature Extraction", "Bag-of-Words", "RNN"s, and "Transformers".
+Building a model to classify the authorship of the texts.</td>
     </tr>
     <tr>
-    <td>Week 5</td>
-      <td>Understanding and Implementing CNNs</td>
-    </tr>
-    <tr>
-      <td>Week 6</td>
-      <td>Reading and Understanding the Paper
-Possibly reviewing similar papers/articles</td>
-    </tr>
-    <tr>
-      <td>Week 7</td>
-      <td>Understanding & Working with the Data, Model Building & Evaluation</td>
-    </tr>
-    <tr>
-      <td>Week 8-9</td>
-      <td>Possible Iterations, Optimisations, suggest improvements & Documention</td>
+    <td>Week 7</td>
+      <td>Evaluating our model using metrics such as F-scores.
+Analyse the results of our model, interpret them and draw conclusions similar to what we did in week 4.</td>
     </tr>
     </tbody>
     </table>

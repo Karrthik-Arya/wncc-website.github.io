@@ -1,14 +1,15 @@
 ---
 layout: project
 title: Seasons of Code
-project: Image Editing
+project: Street Fighter II - Reinforcement Learning
 topics:
-    - Web Development
+    - Machine Learning
+    - Deep Learning
 mentors:
-    - Valay Mahesh Bundele    
+    - Vijay Balsubramaniam    
     
 mentees:
-- 5   
+- 5-10
     
 permalink: /soc/projects/2022/project252
 ---
@@ -51,14 +52,43 @@ permalink: /soc/projects/2022/project252
 <div >
     <p class="display3 project-desc" style = "font-size:22px;" >
         <br>
-        "Were there situations when you felt that you would have looked better in a pic if you had smiled? Or if you had bangs? Well, I guess you faced such situations. In this project, we aim to develop a model which can do this editing for you i.e. make you smile or add bangs. Sounds interesting, right?<br>
+       Machine Learning is the buzzword! New to the world of ML? Here's a perfect place to begin!
 
-Image Editing is one of the most exciting applications of deep learning. Out of the many available techniques, Generative Adversarial Networks(GANs) based methods have shown excellent results on this task. Referring to GANs, Facebook’s AI research director Yann LeCun called adversarial training “the most interesting idea in the last 10 years in ML”. GANs are really the biggest breakthrough in the history of AI.<br>
+Reinforcement learning (RL) is a powerful machine learning technique that has gained significant attention in recent years due to its ability to solve complex decision-making problems. In RL, the goal is to build Intelligent Autonomous Agents (with no prior knowledge of their environment except the possible set of actions they could take) which interact with their environment to figure out the best way to gain rewards from the environment, much like humans!<br>
+
+The theoretical concepts we will cover will more or less follow: 
+https://www.deepmind.com/learning-resources/introduction-to-reinforcement-learning-with-david-silver
+I'd recommend watching the first lecture to get an idea; and yes, the endeavor is to focus on theory + programming.
+<br>
+In theory we will explore:
+Markov Decision Processes, The (holy) Bellman Equation, Simple Q-Learning and its improvisations, Monte Carlo Methods and Temporal Difference Learning.
+<br>
+Here's a python tutorial reference (must read before applying!):
+https://www.w3schools.com/python/default.asp
+<br>
+
+In coding we will explore:
+Python libraries which facilitate Reinforcement Learning: Open AI Gym, retro-gym, numpy, tensorflow and pytorch and of course, Street Fighter.
+<br>
+A similar project:
+https://pytorch.org/tutorials/intermediate/mario_rl_tutorial.html
+<br>
+The central goal of this SoC project is to teach an autonomous agent to play Street Fighter! 
+ <br>
 </p>
-<p class="display3" style = "font-size:22px;" >
-Semantic image editing is the task of transforming a source image to a target image while modifying desired semantic attributes, e.g., to make an image taken during summer look like it was captured in winter. It also includes facial attribute editing which aims to manipulate single or multiple attributes(e.g., hair color, expression, mustache and age) of a face image, i.e., to generate a new face with desired attributes while preserving other details. The paper titled “Enjoy Your Editing: Controllable GANs for Image Editing via Latent Space Navigation” develops an approach to change multiple attributes simultaneously. This project would involve the implementation of this paper for editing the facial images. "				
-        <br>
-    </p>
+
+<p class="display3 project-desc" style = "font-size:22px;" >
+ Who should TAKE this project?<br>
+-- Someone who has a background in python. You just need to be familiar with classes, functions and conditionals. Refer to the link in the general description of the project. If you are new to python, get yourself comfortable with python before we start the actual project.
+-- Someone who isn't afraid of math, matrices and all that magic!
+-- Someone who is willing to devote time to appreciate the beauty of Machine Learning algorithms and the power of python.
+-- Someone who is determined to finish what they start (Yes, at times you might feel fed up, but the sheer of joy of an agent that trained for 10 straight hours acing the game is the epitome of satisfaction!)
+<br>
+Who should NOT TAKE this project?
+-- Someone who is not familiar with python and has never coded before at all.
+-- Someone who has no enthu for ML and no energy for hours of debugging the merciless errors thrown by their programs.
+-- Someone who has no interest in going through texts and reading published papers.
+</p>
 </div>
 <div class = "d-flex flex-wrap">
 <div>
@@ -72,25 +102,25 @@ Semantic image editing is the task of transforming a source image to a target im
     </thead>
     <tbody>
     <tr>
-      <td  >Week 1-2</td>
-      <td>Read about the basic ML techniques like linear/logistic regression and neural networks, learn python
+      <td  >Week 0</td>
+      <td>Introduction to RL and review of Python background
   </td>
     </tr>
     <tr>
-      <td>Week 3</td>
-      <td>	Learn about Convolutional Neural Networks(CNNs), various deep learning architectures and PyTorch/TensorFlow</td>
+      <td>Week 1</td>
+      <td>	Review of MDPs and introducing Q-Learning Theory, playing with OpenAIGym</td>
+    </tr>
+    <tr>
+      <td>Week 2-3</td>
+      <td> Review of RL MC and TD Methods. More OpenAIGym</td>
     </tr>
     <tr>
       <td>Week 4-5</td>
-      <td>Understand the working of GANs and the main paper</td>
+      <td> Implementing a published paper from scratch. You can choose the paper from a set of papers I will share.(This will give you a glimpse of research spaces in RL)</td>
     </tr>
     <tr>
       <td>Week 6-7</td>
-      <td>Work on the implementation of the paper</td>
-    </tr>
-    <tr>
-      <td>Final Week</td>
-      <td>Project documentation + Buffer</td>
+      <td> Street Fighter II (This will give you a glimpse of the applied spaces in RL)</td>
     </tr>
     </tbody>
     </table>

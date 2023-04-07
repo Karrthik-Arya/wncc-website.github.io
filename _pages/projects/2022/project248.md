@@ -1,10 +1,10 @@
 ---
 layout: project
 title: Seasons of Code
-project: AI Race Cars
+project: TRayCer
 mentors:
-    - Kritin Agarwal
-    - Yash Shah  
+    - Arnav Aditya Singh
+    - Sankalan Baidya  
     
 mentees:
 - 6(freshies) + 4(sophies and above) 
@@ -49,19 +49,20 @@ permalink: /soc/projects/2022/project248
 </div>
 <div>
     <p class="display3 project-desc" style = "font-size:22px;" >
-        <br>
-        In this project, we’ll build an AI Race Car bot from scratch, and implement both basic Reinforcement Learning and Deep Reinforcement Learning techniques to achieve high scores.
-        </p>
-        <br>
-        <p class="display3" style = "font-size:22px;" >
-        Reinforcement learning (RL) is an area of machine learning concerned with how intelligent agents ought to take actions in an environment in order to maximize the notion of cumulative reward. A reinforcement learning agent is capable of learning on its own by exploring its environment to determine the best action to take in a certain situation.
-        <br>
-        For some cool stuff - <a href='https://www.youtube.com/watch?v=Zeyv1bN9v4A&ab_channel=UZHRoboticsandPerceptionGroup'>https://www.youtube.com/watch?v=Zeyv1bN9v4A&ab_channel=UZHRoboticsandPerceptionGroup</a>
+       "Implement a moderately useful ray tracing engine, learning the theory of ray tracing along the way. Implement model loading and model rendering for stunning visuals.<br>
+
+Along the way learn critical software development skills, from design decisions to version control and collaboration. Gain important experience in working on a large self-made C++ project.<br>
+
+Most importantly, an incredibly rewarding hands-on programming experience with concrete results.<br>
+
+For a taste, see<br>
+raytracing.github.io<br>
+<a href="www.learnopengl.com"> learnopengl<a>
+
 
 <br>
-Prerequisites:
-For freshies: Basic knowledge of python and lots of enthusiasm
-For sophies: Intermediate knowledge of python and ML 
+Prerequisites:<br>
+Very comfortable with C++
 </p>
 </div>
 <div class = "d-flex flex-wrap">
@@ -77,23 +78,27 @@ For sophies: Intermediate knowledge of python and ML
     <tbody>
     <tr>
       <td>Week 1</td>
-      <td>Introduction to basic Reinforcement learning, MDP, and Dynamic Programming</td>     
+      <td>Ray Tracing In A Weekend</td>     
     </tr>
     <tr>
-      <td>Week 2-3</td>
-      <td>Getting familiarized with Open AI gym environments</td>
+      <td>Week 2</td>
+      <td>Ray Tracing, The Next Week</td>
     </tr>
     <tr>
-      <td>Week 4-5</td>
-      <td>Learning various RL algorithms like DQN, PPO, A3C</td>
+      <td>Week 3</td>
+      <td>Monte Carlo Ray Tracing</td>
     </tr>
     <tr>
-      <td>Week 6-7</td>
-      <td>Deploying algorithms on simpler problems and car racing</td>
+      <td>Week 4</td>
+      <td>Model Loading and Rendering</td>
     </tr>
     <tr>
-      <td>Week 8-9</td>
-      <td>Further advancements by tuning hyperparameters, improving scores </td>
+      <td>Week 5</td>
+      <td>Ray Marching</td>
+    </tr>
+    <tr>
+      <td>Week 6-8</td>
+      <td>OpenGL (if rest completed), buffer time, report writing</td>
     </tr>
     </tbody>
     </table>

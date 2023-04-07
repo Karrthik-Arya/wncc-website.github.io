@@ -1,14 +1,14 @@
 ---
 layout: project
 title: Seasons of Code
-project: Learn to Cartoonize
+project: To the Quantum Future
 mentors:
-    - Bhavesh Patil
-    - Valay Bundele
-    - Vrinda Goyal   
+    - Anand Narasimhan
+    - Krishna N Agaram
+    - Ameya Deshmukh   
     
 mentees:
-- 8-10 
+- 9
     
 permalink: /soc/projects/2022/project251
 ---
@@ -50,13 +50,12 @@ permalink: /soc/projects/2022/project251
 </div>
 <div class = "project-desc">
     <p class="display3" style = "font-size:22px;" >
-        <br>
-        This project aims to introduce you to Deep Learning with the amazing and fun application of Generative Adversarial Networks that is image cartoonization. You will learn how to navigate your way further in the arena of Machine Learning and Artificial Intelligence.
-        <br>
-        Link to the CartoonGan paper - <a href='https://ieeexplore.ieee.org/document/8579084'>https://ieeexplore.ieee.org/document/8579084</a> 
+     This project will begin with a foray into the topics of Quantum Computing, with the primary reference for this part being Quantum Computing and Quantum Information by Nielsen and Chuang. Along the way, we will see algorithms such as Quantum Teleportation, Simon's Algorithm, Period-Finding and Shor's Algorithm, and Grover Search. They will also be implementing these in IBM Qiskit.<br>
+
+Subsequently, the mentees can choose one of three topics, based on their interest : Quantum Information Theory and Error Correction, Quantum Machine Learning and Quantum Cryptography. These topics will start with an introduction to their classical counterparts and the depth covered will be dependent on the mentee's progress. <br>
 <br>
-Prerequisites:
-N/A
+Prerequisites: <br>
+Enjoyed MA106 :)
 </p>
 </div>
 <div class = "d-flex flex-wrap">
@@ -71,24 +70,41 @@ N/A
     </thead>
     <tbody>
     <tr>
-      <td>Week 1-2</td>
-      <td>Read about the basic ML techniques like linear/logistic regression and neural networks, learn python</td>     
+      <td>Week 1</td>
+      <td>Chapter 2 of QCQI (Till Section 2.5)</td>     
+    </tr>
+    <tr>
+      <td>Week 2</td>
+      <td>Chapter 4 (Till Section 4.5.2)</td>
     </tr>
     <tr>
       <td>Week 3</td>
-      <td>Learn about Convolutional Neural Networks(CNNs), various deep learning architectures and PyTorch/TensorFlow</td>
+      <td>Chapter 5 (Till Section 5.3) and Section 6.1</td>
     </tr>
     <tr>
       <td>Week 4</td>
-      <td>Understand the working of GANs and the main paper</td>
+      <td>Basics of Classical ECC | Classical ML : Weeks 4,5 of CS50 AI</td>
     </tr>
     <tr>
-      <td>Week 5-6</td>
-      <td>Work on the implementation of the paper</td>
+      <td>Week 5</td>
+      <td>Chapter 8 (Till Section 8.3.3) | Read the master paper on QML</td>
+    </tr>
+    <tr>
+      <td>Week 6</td>
+      <td>Chapters 9 and 10 (Till Section 10.4) | Implement a QML paper of your choice in PennyLane.
+</td>
     </tr>
     <tr>
       <td>Week 7</td>
-      <td>Project documentation + Buffer</td>
+      <td>Symmetric Key Encryption (Katz-Lindell)</td>
+    </tr>
+    <tr>
+      <td>Week 8</td>
+      <td>Quantum Key Distribution (The BB84 protocol)</td>
+    </tr>
+    <tr>
+      <td>Week 9</td>
+      <td>An introduction to Post-Quantum Cryptography</td>
     </tr>
     </tbody>
     </table>
