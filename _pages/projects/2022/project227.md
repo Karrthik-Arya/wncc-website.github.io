@@ -1,16 +1,17 @@
 ---
 layout: project
 title: Seasons of Code
-project: Deoldify Videos
+project: Real time Driver Drowsiness detection System
 topics:
-    - Web Development
+    - Machine Learning
+    - Deep Learning
 mentors:
-    - Preet Shah 
-    - Yash Shah   
+    - Vedang Bale
+     
 mentees:
-    - Upto 5 
+    - 8-10
     
-permalink: /soc/projects/2022/project227
+permalink: /soc/projects/2023/project227
 ---
 
 <h2 class="display1 m-3 p-3 text-center project-title">{{page.project}}</h2>
@@ -51,10 +52,11 @@ permalink: /soc/projects/2022/project227
 <div class = "project-desc">
     <p class="display3" style = "font-size:22px;" >
         <br>
-            Train a GAN to convert black and white videos to SOTA coloured videos
+            This is a real time drowsiness detection system, which detects if the person is sleepy or awake by taking input from the webcam. We use image processing and Deep Learning(computer vision) in this project, which will be the major learnings of this project.
+Github repo link: https://github.com/vedangbale/Driver-drowsiness-detection
         <br>
         <br>
-        Prequisites: Basic knowledge of statistics and code
+        Prequisites: Preferrable to know basic Python programming
     </p>
 </div>
 <div class = "d-flex flex-wrap">
@@ -69,29 +71,29 @@ permalink: /soc/projects/2022/project227
     </thead>
     <tbody>
     <tr>
-      <td  >Week 1-2</td>
-      <td>Learning about GANs and how computer vision techniques work
+      <td  >Week 1</td>
+      <td>Python Programming revision
 </td>
     </tr>
     <tr>
-      <td>Week 3</td>
-      <td>Finding the best open source dataset for the project, aggregation and cleaning dataset
+      <td>Week 2</td>
+      <td>Basics of image processing and OpenCV
  </td>
     </tr>
     <tr>
-      <td>Week 4</td>
-      <td>Training the chosen model for the purpose and optimize.
+      <td>Week 3</td>
+      <td>Deep Learning Basics & Computer vision Basic concepts
 
 </td>
     </tr>
     <tr>
-      <td>Week 5</td>
-      <td>Create a web page for the project with the model in backend to serve the need of an average user.
+      <td>Week 4-5</td>
+      <td>Starting with the project- Understanding the data and processing the data
 </td>
     </tr>
     <tr>
-      <td>Week 5</td>
-      <td>Working on the final model</td>
+      <td>Week 6-7</td>
+      <td>Building and Training the model.</td>
     </tr>
     </tbody>
     </table>

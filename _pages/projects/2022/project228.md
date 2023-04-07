@@ -1,15 +1,18 @@
 ---
 layout: project
 title: Seasons of Code
-project: Developing E-commerce Website Using Django
+project: The Image Cartoonifier
 topics:
     - Web Development
+    - Machine Learning
 mentors:
-    - Balbir Yadav   
+    - Jaideep Chandra
+    - Sridhar
+    - Bhavani Sankar   
 mentees:
-    - 4 
+    - 10-15
     
-permalink: /soc/projects/2022/project228
+permalink: /soc/projects/2023/project228
 ---
 
 <h2 class="display1 m-3 p-3 text-center project-title">{{page.project}}</h2>
@@ -50,14 +53,12 @@ permalink: /soc/projects/2022/project228
 <div class = "project-desc" style = "margin-bottom: 140px">
     <p class="display3" style = "font-size:22px;" >
         <br>
-        In this project, We are going to build E-commerce website using python web framework Django. 
-Reading Material are as follows: 
- https://www.djangoproject.com/start/
-https://www.w3schools.com/python/
-https://www.w3schools.com/html/default.asp
-https://www.w3schools.com/css/default.asp
+        Have you ever wished to transform your ordinary photos into stunning cartoons with just a few clicks? Look no further than our image cartoonifier project! With the power of Python and machine learning, we have developed an innovative tool that can turn any photo into a cartoonized masterpiece. From family portraits to pet snapshots, our software can transform them all into whimsical works of art.
+
+The project will employ advanced image processing techniques, including feature extraction and post-processing, to create stunning cartoon-style renderings of your favorite photos. In addition, we will integrate our model into a web application where you can easily upload your photos and receive the cartoonized version as output. Our user-friendly interface and seamless integration of machine learning algorithms will make our web application perfect for hobbyists and professionals alike.
 <br>
-It would be good if mentees go through above reading materials. But this is not the pre-requisite 
+It would be good if mentees go through above reading materials. But this is not the pre-requisite.
+Prerequisites: Enthusiasm!
     </p>
 </div>
 <div class = "d-flex flex-wrap">
@@ -73,32 +74,28 @@ It would be good if mentees go through above reading materials. But this is not 
     <tbody>
     <tr>
       <td  >Week 1</td>
-      <td>HTML Basics + CSS Basics + Python Basics
+      <td>Introduction to Python and Setting up a Python development environment
 </td>
     </tr>
     <tr>
-      <td>Week 2</td>
-      <td>Git & Github + Django Intro
+      <td>Week 2-3</td>
+      <td>Introduction to machine learning concepts, such as supervised and unsupervised learning, and training vs. testing data
  </td>
     </tr>
     <tr>
-      <td>Week 3</td>
-      <td>Project Setup, Basic Structure and Git Setup
+      <td>Week 4-5</td>
+      <td>Introduction to deep learning concepts, such as neural networks and deep learning frameworks, such as TensorFlow and Keras
 
 </td>
     </tr>
     <tr>
-      <td>Week 4</td>
-      <td>Populate Homepage & Store Page
+      <td>Week 6</td>
+      <td>Implementing machine learning algorithms for image processing with Python libraries, such as OpenCV and GIMP
 </td>
     </tr>
     <tr>
-      <td>Week 5</td>
-      <td>Single Product view Page + small features</td>
-    </tr>
-    <tr>
-        <td>Week 6</td>
-        <td>Cart Functionality, Additional Features</td>
+      <td>Week 7-8</td>
+      <td>Final Project Completion and Documentation</td>
     </tr>
     </tbody>
     </table>

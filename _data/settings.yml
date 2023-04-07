@@ -312,17 +312,17 @@ soc-items:
       - type: "Miscellaneous"
       - type: "2023"
 
-  - title: "Deoldify Videos"
-    image_small: "assets/images/soc/2022/item227.jpg"
-    image: "assets/images/soc/2022/item227.jpg"
+  - title: "Real time Driver Drowsiness detection System"
+    image_small: "assets/images/soc/2023/item227.jpg"
+    image: "assets/images/soc/2023/item227.jpg"
     url: "/soc/projects/2023/project227"
     soc-type:
       - type: "Machine Learning"
-      - type: "2022"
+      - type: "2023"
 
-  - title: "Developing E-commerce Website Using Django"
-    image_small: "assets/images/soc/2022/item228.png"
-    image: "assets/images/soc/2022/item228.png"
+  - title: "The Image Cartoonifier"
+    image_small: "assets/images/soc/2023/item228.png"
+    image: "assets/images/soc/2023/item228.png"
     url: "/soc/projects/2023/project228"
     soc-type:
       - type: "Development"
