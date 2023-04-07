@@ -10,9 +10,9 @@ mentors:
     - Prerak Contractor
     -  Anish Yogesh Kulkarni    
 mentees:
-    - Preferably 6 to 7 (might take more depending upon the proposal) 
+    - 9
     
-permalink: /soc/projects/2022/project225
+permalink: /soc/projects/2023/project225
 ---
 
 <h2 class="display1 m-3 p-3 text-center project-title">{{page.project}}</h2>

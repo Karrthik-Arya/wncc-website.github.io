@@ -1,16 +1,16 @@
 ---
 layout: project
 title: Seasons of Code
-project: Moodify
+project: Developing Trading Strategy with Pine Script
 topics:
-    - Web Development
+    - Algorithmic Trading
 mentors:
-    - Deepanshu Bagotia 
-    - Aadish Jain   
+    - Vivek Kumar
+    - Rajik Kumar   
 mentees:
-- 4-5   
+- 6-8
     
-permalink: /soc/projects/2022/project226
+permalink: /soc/projects/2023/project226
 ---
 
 <h2 class="display1 m-3 p-3 text-center project-title">{{page.project}}</h2>
@@ -51,13 +51,8 @@ permalink: /soc/projects/2022/project226
 <div class = "project-desc">
     <p class="display3" style = "font-size:22px;" >
         <br>
-            Have you ever experienced that the instagram posts visible to you are completely unrelated to what you wanted to see ? Well, not anymore.
-            <br>
-Moodify will classify your insta feed according to your current mood, which will make your feed more engrossing and relatable. We will use Instagram API for gathering the feed and apply our model to select relevant posts. We plan to build a ML model which will classify the posts based on their picture, caption, and top few comments to predict which mood is more likely to relate with this post. <br>
-Initially we will learn a CNN based model for the image part and a RNN based model for the textual part. Then we will combine their outputs to predict a common metric and classify the outputs in "happy", "funny", "motivational" etc. <br>
-We will only be working on those posts with a single image (in case of multiple images we will select the first one). Later, if time permits, we may also build a mobile application for the same. 
-<br>
-Prerequisites: <br>Basic knowledge of python is mandatory, <br> additional knowledge of ML will be appreciated. 
+            The project provide hands-on experience in developing custom trading strategies using Pine Script language on TradingView. Pine Script is a programming language that allows traders to create custom indicators and strategies on the TradingView platform.<br>
+Prerequisites: enthusiastic for trading
         <br>
     </p>
 </div>
@@ -73,29 +68,25 @@ Prerequisites: <br>Basic knowledge of python is mandatory, <br> additional knowl
     </thead>
     <tbody>
     <tr>
-      <td  >Week 1-2</td>
-      <td>Learning basics of CNN and RNN
+      <td  >Week 1-3</td>
+      <td>Introduction to TradingView and Pine Script. Learn the basics of the language and syntax. How to use it to create custom indicators and strategies.
 </td>
     </tr>
     <tr>
-      <td>Week 3</td>
-      <td>Understanding MetaForDevelopers API offered by instagram
+      <td>Week 4-6</td>
+      <td>Strategy Design. Study different types of trading ideas & strategies. Implementation strategy into code. Backtest strategies and improvements.
  </td>
     </tr>
     <tr>
-      <td>Week 4-5</td>
-      <td>Building the CNN model for image classification
+      <td>Week 7-8</td>
+      <td>Finalising the Trading Strategy. Finalise the strategy. Code and Backtesting on different parameters.
 
 </td>
     </tr>
     <tr>
-      <td>Week 6-7</td>
-      <td>Implementing RNN model for textual data
+      <td>Week 9</td>
+      <td> Strategy Evaluation and Presentation. 
 </td>
-    </tr>
-    <tr>
-        <td> Week 8-9 </td>
-        <td> Combining both the models to get the final output, and hyper parameter tuning for achieving better results  </td>
     </tr>    
     </tbody>
     </table>

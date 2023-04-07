@@ -1,7 +1,7 @@
 ---
 layout: project
 title: Seasons of Code
-project: Text Summarization
+project: File Compression System
 topics:
     - Algorithms
 mentors:

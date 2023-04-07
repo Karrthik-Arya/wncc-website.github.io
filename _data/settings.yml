@@ -304,13 +304,13 @@ soc-items:
       - type: "CP"
       - type: "2023"
 
-  - title: "Moodify"
-    image_small: "assets/images/soc/2022/item226.png"
-    image: "assets/images/soc/2022/item226.png"
+  - title: " Developing Trading Strategy with Pine Script"
+    image_small: "assets/images/soc/2023/item226.png"
+    image: "assets/images/soc/2023/item226.png"
     url: "/soc/projects/2023/project226"
     soc-type:
-      - type: "Machine Learning"
-      - type: "2022"
+      - type: "Miscellaneous"
+      - type: "2023"
 
   - title: "Deoldify Videos"
     image_small: "assets/images/soc/2022/item227.jpg"
