@@ -3,14 +3,12 @@ layout: project
 title: Seasons of Code
 project: Text Summarization
 topics:
-    - Web Development
+    - Algorithms
 mentors:
-    - Pulkit Jindal
-    - Yash Chaudhary
-    - Divyansh Agarwal 
+    - Amritaansh Narain
     
 mentees:
-- 5-6   
+- 4  
     
 permalink: /soc/projects/2022/project224
 ---
@@ -53,13 +51,20 @@ permalink: /soc/projects/2022/project224
 <div>
     <p class="display3 project-desc" style = "font-size:22px;" >
         <br>
-            Condensing a piece of text into a shorter version, lowering the size of the original text while keeping vital information and the meaning of the material, is known as text summarisation. Because manual text synthesis is a time-consuming and labor-intensive activity, task automation is becoming more common and hence a major motivator for academic study. In this project, I'll walk you through the process of using Natural Language Processing and Machine Learning to summarise text.
+            Ever thought about how does gZip and all these online file compression services reduce your file size from 50 MB to 10 MB or even lower while keeping everything intact. Intuitively you might ask that how even is this possible, wouldn't this lead to data loss. Well, what these softwares use are known as lossless compression algorithms i.e. they compress data in a manner such that all original data can be retrieved in it's complete format. This project would serve as an intro to the same, by the end of the project, you would have implemented algorithms which would allow you to compress & decompress files on the level of gZip. gZip uses DEFLATE scheme which is a combination of LZ77 & Huffman encoding, both of which we will be implementing in this project.
+
+We would be doing our coding in C++ & you would be using pointers, adresses, data structures extensively and would be a level up your CS101 course, so I expect coding skills you get from your CS101 course. You would get to develop an actual application which you can use for your own purpose. This would serve as a great avenue for improving your coding skills and learning something on the way.  
+
+We will work only on lossless compression algorithms. However, as you might see, we can design algorithms which let's say preserve 95% of the data while giving massive compression ratios. This 5% data loss wouldn't be visible at in visual, audio data however the file size decrease would make it immensely easier to transmit across networks. These algorithms would fall into research domain and this project would serve as a basic groundwork for compression systems.
+
+Intro to compression - https://www.youtube.com/watch?v=Lto-ajuqW3w 
+Why LZ77 is cool - https://youtu.be/goOa3DGezUA?list=PLch3To-m3L-PQoaFTYMdVZkHFD9W6URi4 
+
+<p>Prerequisites: Assume you have basic understanding of C++ and are pretty comfortable at it. Make sure you are taking up the project under a complete consciousness cause the project might get heavy to handle. Consider me as a mentor to guide you along the way but not spoonfeed you for the same so you will be on your own for the most part. Feel free to contact me to clear up anything you want to know about the project before applying for it.</p>
 <br>
-Some Resources =
-https://thecleverprogrammer.com/2020/08/24/summarize-text-with-machine-learning/
-https://medium.com/luisfredgs/automatic-text-summarization-with-machine-learning-an-overview-68ded5717a25 
-        <br>
-    </p>
+
+        
+    
 </div>
 <div class = "d-flex flex-wrap">
 <div>
@@ -73,24 +78,34 @@ https://medium.com/luisfredgs/automatic-text-summarization-with-machine-learning
     </thead>
     <tbody>
     <tr>
-      <td  >Week 1</td>
-      <td>Learn Basic Python + Setup VS code </td>
-    </tr>
-    <tr>
-      <td>Week 2</td>
-      <td>Introduction of Machine Learning and Deep Learning </td>
+      <td  >Week 1&2</td>
+      <td>Basic overview of c++ with maps, pointers, strings, study about various compression algorithms and get a thorough understanding of the same </td>
     </tr>
     <tr>
       <td>Week 3</td>
-      <td>SkLearn </td>
+      <td>Implement general RLE, Huffman Encoding for compression & decompression </td>
     </tr>
     <tr>
       <td>Week 4</td>
-      <td>Problem Statement + Possible Solutions Explained</td>
+      <td>Implement general LZ77 Algorithm for compression & decompression
+ </td>
+    </tr>
+    <tr>
+      <td>Week 5</td>
+      <td>Implement general LZ78 Algorithm for compression & decompressio</td>
     </tr>
     <tr>
       <td>Week 6</td>
-      <td>Code + Final Testing and Further Possibilities</td>
+      <td>Implement general LZW Algorithm for compression & decompression
+</td>
+    </tr>
+    <tr>
+      <td>Week 7</td>
+      <td>Catch Up on incomplete work</td>
+    </tr>
+    <tr>
+      <td>Week 8</td>
+      <td>Report of results with different compression algorithms when used alone or when compounded among each other. </td>
     </tr>
     </tbody>
     </table>

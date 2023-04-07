@@ -288,13 +288,13 @@ soc-items:
       - type: "Miscellaneous"
       - type: "2023"
 
-  - title: "Text Summarization"
-    image_small: "assets/images/soc/2022/item224.jpg"
-    image: "assets/images/soc/2022/item224.jpg"
+  - title: "File Compression System"
+    image_small: "assets/images/soc/2023/item224.jpg"
+    image: "assets/images/soc/2023/item224.jpg"
     url: "/soc/projects/2023/project224"
     soc-type:
-      - type: "Machine Learning"
-      - type: "2022"
+      - type: "Miscellaneous"
+      - type: "2023"
 
   - title: "Road Accident Prevention (RAP)"
     image_small: "assets/images/soc/2022/item225.jpg"
