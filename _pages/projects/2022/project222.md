@@ -54,13 +54,13 @@ permalink: /soc/projects/2023/project222
         The main goal is to get comfortable with commonly used algorithms and data structures for CP.
 
 <p class="display3" style = "font-size:22px;" >
-Resources:</p>
+Resources:</p><p>
  Online resources include cp-algorithms, CSES and GFG, among others.
-        <br>
+        <br></p>
 </div>
-<br>
+<br><p>
 Prerequisites:
-CS101
+CS101</p>
 <br>
 <div class = "d-flex flex-wrap">
 <div>
