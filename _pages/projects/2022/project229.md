@@ -1,16 +1,16 @@
 ---
 layout: project
 title: Seasons of Code
-project: An Introduction to QC, ML, and QML
+project: Speech to Speech Translation
 topics:
-    - Web Development
+    - Natural Language Processing
 mentors:
     - Siddhant Midha
     - Vedang Asgaonkar   
 mentees:
-    - 4-5 
+    - 3-4 
     
-permalink: /soc/projects/2022/project229
+permalink: /soc/projects/2023/project229
 ---
 
 <h2 class="display1 m-3 p-3 text-center project-title">{{page.project}}</h2>
@@ -51,15 +51,24 @@ permalink: /soc/projects/2022/project229
 <div>
     <p class="display3" style = "font-size:22px;" >
         <br>
-        Why does one do machine learning? You can write a program for a lot of complex things - from some sorting algorithm to the fast fourier transform. What if one asks you to write a program which when given a picture, tells you whether your friend is in it or not. Difficult. There are some things we do which we do not know how we do - enter ML.
+        Speech to Speech Translation involves translating the speech from one language to speech in some other language. The most naive way to go about this would be to use a combination of automatic speech recognition, text-to-text machine translation followed by text-to-speech synthesis models. However, the intention of this project would be to come up with a model that does not rely on intermediate text representation since this offers advantages like improved inference speed, which in turn avoids compounding errors between recognition and translation.
+
+Here is a blog about Translatotron →
+https://ai.googleblog.com/2019/05/introducing-translatotron-end-to-end.html
+
+Here is a reading material for you to gain some context →
+https://arxiv.org/pdf/2107.05604.pdf](https://arxiv.org/pdf/2107.05604.pdf
 <br><br>
-Information is physical, and so is computation. You know very well how bits are used for computations. These are classical entities, manipulated using classical logic gates (AND, NOT, NAND and so on). These form a basis for computing things. We can also do the with quantum mechanics as the underlying physical theory. That is, instead of "bits", we use "quantum-bits". Interest arose in this area with the development of quantum mechanics, and lead to the field of quantum computation and information. Then questions such as "are quantum computers better than classical ones" arose. 
-<br><br>
-Now, quantum computing can be used as a way to do ML. As a simple example, you may be aware of how parallel computing is done via vectorized-computation. Quantum mechanics possesses the property of superposition, which leads to the power of "quantum-parallelism". Many papers have exploited this principle to produce quantum versions of ML algorithms. 
-<br><br>
-In this project, we shall first learn the basics of Quantum Computing and implement algorithms like QFT and Grover search using libraries such as IBM's Qiskit. We shall then move on to machine learning and implement a few toy models in python using numpy and sklearn. Finally, we move on to Quantum Machine Learning using libraries such as Pennylane and Tensorflow quantum. After learning the basics, we will aim to implement a paper such as clustering or SVMs using quantum computing. 
-<br><br>
-Prerequisite: While there are no strict prerequisites, you need to be aware that the project will be mathematically involved and will need implementation skills too. So, have a good handle on that. Being thorough with linear algebra and basic QM helps. Familiarity with Python is encouraged. 
+Prerequisite:Hard prerequisites for the Mentees : 
+
+- CS101 Fundamentals
+- Python Programming Proficiency (Beginner to Intermediate)
+- Must know how to work around Terminal (or Command Prompt) and Github
+
+Soft prerequisites for the Mentees : 
+
+- Having worked with PyTorch, Keras, TensorFlow or any other equivalent ML library
+- Patience to go through multiple research papers
     </p>
 </div>
 <div class = "d-flex flex-wrap">
@@ -74,16 +83,39 @@ Prerequisite: While there are no strict prerequisites, you need to be aware that
     </thead>
     <tbody>
     <tr>
-      <td  >Week 1- 3</td>
-      <td>Learn ML. Spend time learning the theory of artificial neural networks, SVM, Clustering Algorithms. Implement some of these from scratch using numpy. References include Ng's Intro to ML, and if time permits some theoretical reading.
+      <td  >Week 1</td>
+      <td>Brush up on / Python, basic terminal commands as well as go through an interactive gitimmersion tutorial / git crash course video.
 
 </td>
     </tr>
     <tr>
-      <td>Week 3-7</td>
-      <td>Learn QC. Read some traditional QC texts such as Nielson and Chuang, Preskil Notes etc. Will Implement some algorithms in Qiskit (more libraries to be explored if needed).
-Learning about the existing libraries, basic principles and conclude with implementing some papers on application of QC to ML like for clustering, SVM etc.
+      <td>Week 2</td>
+      <td>Perform extensive literature review as well as go through some YT videos for a better understanding of the problem in hand.
  </td>
+    </tr>
+    <tr>
+    <td>Week 3</td>
+    <td>Acquisition of data → Play around with the LibriSpeech corpus and think about ways of generating dataset for languages for which a corpus is unavailable.</td>
+    </tr>
+    <tr>
+    <td>Week 4</td>
+    <td>Coding → Implementation of the naive Speech to Speech Translation engine.</td>
+    </tr>
+    <tr>
+    <td>Week 5</td>
+    <td>Coding → Implementation of a direct Speech to Speech Translation engine.</td>
+    </tr>
+    <tr>
+    <td>Week 6</td>
+    <td>Buffer Week</td>
+    </tr>
+    <tr>
+    <td>Week 7</td>
+    <td>Comparison and analysis of the 2 models/engines devised. If time permits, we would also be experimenting with the engines in order to better an efficient real-time translation pipeline.</td>
+    </tr>
+    <tr>
+    <td>Week 8</td>
+    <td>Wrapping up → This also includes making a good report and (video) presentation since it helps me and other people value your hard work even more</td>
     </tr>
     </tbody>
     </table>
