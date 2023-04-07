@@ -1,15 +1,16 @@
 ---
 layout: project
 title: Seasons of Code
-project: Style It !!
+project: Path-Planning of Swarm Robotics in 2/3D space
 mentors:
-    - Akash Vivek Chodankar
-    - Shreya Laddha     
+    - Archit Gupta
+    - Sameer Mannava
+    - Aaryan Dangi
     
 mentees:
-- 6-8   
+- 10-15   
     
-permalink: /soc/projects/2022/project241
+permalink: /soc/projects/2023/project241
 ---
 
 <h2 class="display1 m-3 p-3 text-center project-title">{{page.project}}</h2>
@@ -50,13 +51,18 @@ permalink: /soc/projects/2022/project241
 <div>
     <p class="display3 project-desc" style = "font-size:22px;" >
         <br>
-        Ever wish you could polish your writings to better fit the purpose, for example, make them more professional, polite or humorous? Ever wondered if you could paint like Picasso or Van Gogh? In this project, we focus on Style Transfer, which involves the adoption of a different style and change of attributes while preserving the content that you start with. 
+        
+
+A general idea of Swarm robotics can be learned from-https://en.wikipedia.org/wiki/Swarm_robotics  
+The purpose of this is to learn path planning required in the swarm robotics that is an emerging field. The algorithms to be developed for such is the only thing that is a bottleneck in this as of now. There is ample research in this domain and in this we will be doing a rudimentary algorithm to kickstart this journey
+
         </p>
-         <p class="display3" style = "font-size:22px;" >
-        The core idea behind this project is to familiarize with Deep NLP (one of the most sought-after domains of AI) & get hands-on experience with various deep network architectures while trying to accomplish 2 major tasks: Text Style Transfer & Image Style Transfer.
+        
 <br>
 Prerequisites:
-Enthu !!
+Enthusiasm
+Well versed in any programming language to pick up faster.
+Time commitment of approx 12-15 hours a week,might be more 
         <br>
     </p>
 </div>
@@ -75,67 +81,24 @@ Enthu !!
     </thead>
     <tbody>
     <tr>
-      <td>Week 0</td>
-      <td>Understand basics of Neural Networks and Deep Learning</td>
-      <td>Explore the fundamentals of Traditional NLP techniques</td>
-      <td>Know about Loss functions and data pre-processing techniques</td>
-      <td>Familiarize with Pytorch and TensorFlow</td>
-    </tr>
-    <tr>
       <td>Week 1</td>
-      <td>Getting familiar with FFNN, RNN, LSTM, GRUs, Seq2Seq model</td>
-      <td>Execution of a simple sentiment analysis task to get acquainted with the models</td>
-      <td></td>
-      <td></td>
+      <td>linux+python</td>
     </tr>
     <tr>
-      <td>Week 2</td>
-      <td>Getting acquainted with Encoder-decoder architecture, Transformers, Hugging Face, Pre-trained models like BERT, GPT</td>
-      <td>Extending the previously done sentiment analysis task for accommodating transformer models.</td>
-      <td></td>
-      <td></td>
-    </tr>
-    <tr>
-      <td>Week 3</td>
-      <td>Implementing the learned models for sentiment transfer task (converting the sentiment of sentence, e.g. from positive to negative)</td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <td>Week 2-3</td>
+      <td>ROS+Gazebo basics</td>
     </tr>
     <tr>
       <td>Week 4</td>
-      <td>Implementing the learned models for formality transfer task (converting informal to formal sentences) and politeness transfer task ( converting from impolite to polite tone). These two tasks are used heavily in chatbots.</td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <td>Automated Control of single bot</td>
     </tr>
     <tr>
-      <td>Week 5</td>
-      <td>Implementing Generative Style Transformer (GST) for Gender transfer (from masculine to feminine) and Politics transfer task (from republic to democrats)</td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <td>Week 6-7</td>
+      <td>Proper inter communication between bots and testing with parallel running</td>
     </tr>
     <tr>
-      <td>Week 6</td>
-      <td>Buffer week for concluding Text Style Transfer tasks (to account for overspills or dive deeper into the tasks)</td>
-      <td></td>
-      <td></td>
-      <td></td>
-    </tr>
-    <tr>
-      <td>Week 7</td>
-      <td>Learn about CNNs, VGG16, Resnet etc.</td>
-      <td>Implement basic image classification tasks using these models to get familiarized with them</td>
-      <td>Design the architecture from scratch!</td>
-      <td></td>
-    </tr>
-    <tr>
-       <td>Week 8</td>
-       <td>Get familiarized with the idea and working of Neural Style Transfer</td>
-       <td>Implement it from scratch using a pretrained VGG16 model</td>
-       <td>Explore Tensorflow’s module for Fast Style Transfer and implement it</td>
-       <td>Create a web application for the same</td>
+      <td>Week 8</td>
+      <td>Achieving automation of config from one config to another config</td>
     </tr>
     </tbody>
     </table>

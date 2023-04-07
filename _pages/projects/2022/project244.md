@@ -1,14 +1,12 @@
 ---
 layout: project
 title: Seasons of Code
-project: CryptoCreate
+project: MyBox
 mentors:
-    - Vishruth N
-    - Eknoor Singh
-    - Yash Patil   
+    - Samarth Bansal
     
 mentees:
-- 3 
+- 4
     
 permalink: /soc/projects/2022/project244
 ---
@@ -51,17 +49,14 @@ permalink: /soc/projects/2022/project244
 <div>
     <p class="display3 project-desc" style = "font-size:22px;" >
         <br>
-        Decentralized finance, or DeFi for short, is a system in which users can access financial products directly on a decentralized blockchain network, without the need for middlemen such as banks and brokerages. 
+        We will try to understand and replicate how audio streaming works in mobile apps. This project is about to form small group on our app, and when we play music in jamming or late night, it's only one person who control what to play or others have to tell them. So in this project whenever we detect audio device is connected to any of the user's Device,the media it will play can be controlled by anyone in the small group that we formed.
         </p>
-         <p class="display3" style = "font-size:22px;" >
-        Democratizing finance by replacing centralized institutions such as banks with direct, peer-to-peer relationships is the way to go. Every financial service we use today -- savings, loans, insurance and much more -- could one day exist on a blockchain, not in a bank. 
-        </p>
-        <p class="display3" style = "font-size:22px;" >
-        This project is focused on Launching a Token on a chain of your choice with a fixed supply and a notional value. A coin has its own blockchain, while a token is built on a pre-existing network. Cryptocurrencies rely on blockchains for their security and decentralized nature.<br>
-        The project would involve learning blockchain native languages such as Solidity to develop smart contracts. It would also involve designing the Tokenomics of the currency that we would create. Tokenomics are the economics that govern your crypto, like total supply, distribution method, and initial pricing.  
+        
 <br>
 Prerequisites:
-N/A
+Basic knowledge about Flutter
+Any database basics
+UI/UX basics
     </p>
 </div>
 <div class = "d-flex flex-wrap">
@@ -76,22 +71,33 @@ N/A
     </thead>
     <tbody>
     <tr>
-      <td>Week 1-3</td>
-      <td>Read and study about different Blockchain architectures and their usecases</td>     
+      <td>Week 1</td>
+      <td>Finalizing database, platform and roles for the project including features and wireframe </td>     
+    </tr>
+    <tr>
+      <td>Week 2</td>
+      <td>Getting started with flutter app and basic database and APIs</td>
+    </tr>
+    <tr>
+      <td>Week 3</td>
+      <td>Complete setup of rooms and how to join them, start to understand audio streaming in Android. </td>
     </tr>
     <tr>
       <td>Week 4</td>
-      <td>Learn solidity/rust (will be decided later)</td>
+      <td>Audio device detection and notification and final UI, how to play media on desired device.
+    </td>
     </tr>
     <tr>
       <td>Week 5</td>
-      <td>Work on the tokenomics and deciding the parameters.</td>
+      <td>how others can change media that is playing</td>
     </tr>
     <tr>
-      <td>Week 6-7</td>
-      <td>Work on the implementation to launch the token on Ethereum/Binance smart chain/Solana
-    </td>
+      <td>Week 6</td>
+      <td>Final checking of features and debugging 
     </tr>
+    <tr>
+      <td>Week 7</td>
+      <td>add login and submission </td> 
     </tbody>
     </table>
 </div>

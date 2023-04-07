@@ -1,22 +1,19 @@
 ---
 layout: project
 title: Seasons of Code
-project: ArgueAI
+project: Deep Carlsen
 topics:
     - Machine Learning 
     - Deep Learning
-    - Natural Language Processing
     - Reinforcement Learning
-    - Reinforcement Learning using Human Feedback
 mentors:
-    - Abhinav Raghuvanshi
-    - Pranav Malpure
-    - Rohan Kalbag
+    - Navyansh Mahla
+    - Atishay Jain
     
 mentees:
-- 4-6  
+- 8-10 
     
-permalink: /soc/projects/2022/project245
+permalink: /soc/projects/2023/project245
 ---
 
 <h2 class="display1 m-3 p-3 text-center project-title">{{page.project}}</h2>
@@ -57,21 +54,23 @@ permalink: /soc/projects/2022/project245
 <div>
     <p class="display3 project-desc" style = "font-size:22px;" >
         <br>
-        Are you ready to dive into the cutting-edge world of Reinforcement Learning (RL)? We have an exciting project that's sure to captivate anyone interested in this fascinating field!
-Our goal is to create an RL agent that can argue with humans based on a given set of laws, finding loopholes and twists that give the best arguments to win any debate. With this project, you'll be on the forefront of developing groundbreaking technology that has the potential to revolutionize the way we approach legal arguments.
-Imagine being able to build an RL agent to analyze complex legal frameworks, identify loopholes that might go unnoticed by a human lawyer, and craft compelling arguments that are sure to win over any judge or jury. This project will give you the opportunity to do just that, all while honing your skills in programming and machine learning.
-Whether you're an aspiring computer scientist, excited by how do lawyers use loopholes to their advantage, or just someone who loves to explore new technologies, our project would be the  perfect opportunity to expand your horizons and be a part of something truly groundbreaking. Don't miss out on this exciting chance to explore the world of RL and revolutionize the way we approach legal arguments!
+        The project is about building a chess engine AI but with a different approach. The most commonly used chess engines like StockFish depend heavily on hard-coded chess AI algorithms. Our approach would be very similar to advanced chess engines like AlphaZero, Leela Chess Zero, etc. These chess engines rely on neural networks having different architectures. (deciding the architecture is one of the brainstorming checkpoints of this project ;) ) We will explore various deep learning techniques like convolutional neural networks, reinforcement learning, and more to build an AI that can play chess at an expert level. For more insight, have a look at this video: https://www.youtube.com/watch?v=P0jd8AHwjXw&list=WL&index=11&t=2566s
+
+The below is the assignment that all the applicants must do to be considered for this project: https://docs.google.com/document/d/10M-J3ShndU_H5Ul0CHjPIGRGfMA1V7xcGfKJvWQ3Fjs/edit?usp=sharing 
+
+You also need to submit a project proposal where you state your motivation for the project and past coding experiences in the field of Python, AI/ML and working with large codebases. 
 
 </p>
-Prerequisites:
+Prerequisites: The following are the projects:
+1. Strong programming skills in language like C/C++/Python. 
+2. Beginner-intermediate level of understanding of reinforcement leaning, machine learning and basic neural networks.
+3. Enthusiastic to learn new topics quickly.
+4. A passion for chess and a desire to improve the game through AI
 </p>
 <ul style = "list-style-type: disc">
 <li class="display3 mb-2" style = "font-size:20px;">We expect huge enthusiasm, a good hold over python</li>
 <li class="display3 mb-2" style = "font-size:20px;">Knowledge of Machine learning is definitely a bonus! e</li>
 </ul>
-<p class="display3" style = "font-size:22px;" >
-Please note that these are not hard prerequisites, we will consider your application based on your overall skills. 
-</p>
 <ul style = "list-style-type: disc">
 </ul>
 </div>
@@ -88,31 +87,27 @@ Please note that these are not hard prerequisites, we will consider your applica
     <tbody>
     <tr>
       <td  >Week 1</td>
-      <td>Problem description and getting everyone on the same page</td>
+      <td>Building up mathematical background (learning about mathematical concepts which would be extremely crucial for this project)</td>
     </tr>
     <tr>
       <td>Week 2</td>
-      <td> Looking for resources and collecting data for the corpus</td>
+      <td> Catching up with AI (Learning more on neural networks, deep learning, reinforcement learning)</td>
     </tr>
     <tr>
       <td>Week 3</td>
-      <td>Pre-processing data and building the agent</td>
+      <td>Learning python framework PyTorch, concurrency and parallelism.</td>
     </tr>
      <tr>
       <td>Week 4</td>
-      <td>Building training pipeline for RLHF </td>
+      <td> Modelling follow-up strategies for the AI and programming them.</td>
     </tr>
      <tr>
       <td>Week 5</td>
-      <td>Training and experimenting </td>
+      <td>Documentation </td>
     </tr>
      <tr>
       <td>Week 6</td>
       <td>Result analysis and parallelly building the front end</td>
-    </tr>
-    <tr>
-      <td>Week 7-8</td>
-      <td>Buffer Week</td>
     </tr>
     </tbody>
     </table>

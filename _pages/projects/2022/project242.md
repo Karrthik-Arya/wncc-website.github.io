@@ -1,15 +1,16 @@
 ---
 layout: project
 title: Seasons of Code
-project: Mini Motorways Solver
+project: Image Super Resolution using Deep Neural Networks
 mentors:
-    - Aditya Kadoo
-    - Prerak Meshram    
+    - Tanay Tayal
+    - Shantanu Welling
+    - Param Shah    
     
 mentees:
-- 2-4   
+- 8-10   
     
-permalink: /soc/projects/2022/project242
+permalink: /soc/projects/2023/project242
 ---
 
 <h2 class="display1 m-3 p-3 text-center project-title">{{page.project}}</h2>
@@ -50,14 +51,10 @@ permalink: /soc/projects/2022/project242
 <div style = "margin-bottom: 140px">
     <p class="display3 project-desc" style = "font-size:22px;" >
         <br>
-        Have you ever played the strategy simulation game "Mini Motorways"? If no, then go ahead and checkout it's gameplay. We are here to build the perfect ML based model to ace this game.</p>
-        <p class="display3" style = "font-size:22px;" >
-        Learn Python from scratch. Go through concepts of Graph Theory and Machine Learning. Code and test a solver on a simulation of the actual game. Innovate ways to extend this to real world traffic congestion problems by working with real world data-sets.
+        We propose a deep learning method for single image super-resolution. They will start by learning the basics of python and then proceed onto deep learning. Following which they learn about deep neural network architecture for image super resolution and implement a model that takes a low-resolution image as the input and outputs the high-resolution one. Further readings: https://medium.com/analytics-vidhya/super-resolution-and-its-recent-advances-in-deep-learning-part-1-c6d927914d32 
 <br>
-Prerequisites:
-<br>
-A good grasp of programming concepts from CS-101 is enough apart from great enthusiasm.
-        <br>
+Prerequisites: None. Interest in image processing is appreciated. Basic knowledge about python and deep learning is a bonus but not necessary.
+<br>        <br>
     </p>
 </div>
 <div class = "d-flex flex-wrap">
@@ -73,27 +70,27 @@ A good grasp of programming concepts from CS-101 is enough apart from great enth
     <tbody>
     <tr>
       <td>Week 1</td>
-      <td>Introduction to Python and git basics</td>     
+      <td>Brushing up Python Basics</td>     
     </tr>
     <tr>
       <td>Week 2</td>
-      <td>Learn about Graph and Heap data structures and implement various Path Finding algorithms.</td>
+      <td>Introduction to Deep Learning</td>
     </tr>
     <tr>
-      <td>Week 3-4</td>
-      <td>Get acquainted with frameworks such as numpy, pandas, sklearn, etc. and build up Machine Learning concepts like different kinds of optimisation problems, regression algorithms, neural networks, etc.</td>
+      <td>Week 3</td>
+      <td>Convolutional Neural Networks using numpy</td>
     </tr>
     <tr>
-      <td>Week 5</td>
-      <td>Creating a model for solving the game in Python</td>
+      <td>Week 4-5</td>
+      <td>Building basic Deep Neural Networks</td>
     </tr>
     <tr>
       <td>Week 6</td>
-      <td>Parameter tuning and testing</td>
+      <td>Understanding Image Super Resolution and proposing suitable architectures</td>
     </tr>
     <tr>
       <td>Week 7-8</td>
-      <td>Applying on a real world data-set</td>
+      <td>Implementation of the model</td>
     </tr>
     </tbody>
     </table>
