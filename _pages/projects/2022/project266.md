@@ -1,16 +1,16 @@
 ---
 layout: project
 title: Seasons of Code
-project: Introduction to Web Development(Project Portal)
+project: Learning the Latent structure in LLMs
 topics:
     - Web Development
 mentors:
-    - Goransh Gattani, Mohit Sharma & Yash Saraogi  
+    - Darshan Makwana  
     
 mentees:
-- 10-12
+- 10
     
-permalink: /soc/projects/2022/project266
+permalink: /soc/projects/2023/project266
 ---
 
 <h2 class="display1 m-3 p-3 text-center project-title">{{page.project}}</h2>
@@ -51,10 +51,14 @@ permalink: /soc/projects/2022/project266
 <div class = "project-desc" style = "margin-bottom: 140px">
     <p class="display3" style = "font-size:22px;" >
         <br>
-        Getting mentees a hand on experience of web development and collaborate to form the institute project portal.
+        "We will be learning what are large language models and how they can be used as knowledge bases. At the end we will be building and training a BERT and a miniGPT entirely from scratch though our miniGPT won't be as powerful as the GPT models out there, we will learn how we can improve our model and some of the techniques that can be used to align them towards instructions at the very end of the project, if time permits :(. The aim of the project is to make you so well versed in LLMs that you can build and train one from scratch on the go.
+<br>
+python is a very hard pre requisite for this project as we will be putting our intuitive thoughts about natural language understanding into logical structures of rules that the computer will perform via python language
+Details about the project and the assignment can be found here:
+https://github.com/darshanmakwana412/LLM-SOC"
 <br>
 Prerequisites:<br>
-None(Brownie points for basic HTML and CSS )
+Enthusiasm is the most fundamental prerequisite apart from basics of probability theory, statistical machine learning. Python is a very hard prerequisite
         <br>
     </p>
 </div>
@@ -71,23 +75,23 @@ None(Brownie points for basic HTML and CSS )
     <tbody>
     <tr>
       <td  >Week 1</td>
-      <td> Basic HTML, CSS, Git</td>
+      <td> Gentle Introduction to NLP with word2vec, word embeddings, Distributional sementics</td>
     </tr>
     <tr>
       <td>Week 2,3</td>
-      <td>Javascript to be learnt and practiced by the mentees </td>
+      <td>Introduction to pytorch and neural networks, convolutional layers and pooling, building cnns and training them on dummy datasets, Text classification, building generative and discriminative models</td>
     </tr>
     <tr>
       <td>Week 4,5</td>
-      <td>Working with a basic angular/react app, clarify frontend and typescript working of the app</td>
+      <td>Language Modeling, N gram LMs, Neural LMs, evaluating LMs, Building encoder-decoder models, autoencoder and inferencing </td>
     </tr>
     <tr>
       <td>Week 6,7</td>
-      <td>Learning basic backend development with Django/node and how to connect it with frontend</td>
+      <td>Introducing attention(Transformer: Attention is All You Need) in encoder-decoders, building a transformer from scratch, Seq2Seq, Transfer learning, replacing pre trained word embeddings in GPT and BERT</td>
     </tr>
     <tr>
-      <td>Week 8,9 + Post SOC</td>
-      <td>Mentees who have cleared the first three checkpoints will collaborate to form the institute project portal. </td>
+      <td>Week 8</td>
+      <td>Building and training BERT and miniGPT in pytorch from scratch</td>
     </tr>
     </tbody>
     </table>

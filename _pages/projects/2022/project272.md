@@ -1,18 +1,16 @@
 ---
 layout: project
 title: Seasons of Code
-project: Musify - Music Composition using AI
+project: Unreal IITB
 topics:
     - Machine Learning
 mentors:
-    - Abhijit Kumar
-    - Amit Joshi
-    - Soumya Sharma
+    - Harshit Morj
     
 mentees:
 - 10
     
-permalink: /soc/projects/2022/project272
+permalink: /soc/projects/2023/project272
 ---
 
 <h2 class="display1 m-3 p-3 text-center project-title">{{page.project}}</h2>
@@ -52,45 +50,14 @@ permalink: /soc/projects/2022/project272
 <div>
     <p class="display3 project-desc" style = "font-size:22px;" >
         <br>
-        "“Where words fail, music speaks.”  
-<br><br>
-In the revolutionary age of Artificial Intelligence and Machine Learning, let us compose our own original music using Deep Learning without really knowing any music theory. 
+        The objective of this project is to have fun and play with Unreal Engine 5. The final objective is to Generate a 3D model of our campus using Unreal Engine. We will be mostly following a beginner's tutorial from youtube to get familiar with UE5 and in the later days, try to build  a realistic model of your surroundings in parts. This will be mostly a team project and the final project will be a sum of all your work.
 <br>
-The project is aimed to combine the area of music and Deep Learning to create an automatic music generation model. A variant of Recurrent Neural Networks i.e. LSTM is used to capture the long term dependencies in the input sequence.   
+https://www.unrealengine.com/en-US/unreal-engine-5
+https://docs.unrealengine.com/5.0/en-US/
 <br>
-Who this project is for: 
-</p>
-<ul style = "list-style-type: disc">
-<li class="display3 mb-2" style = "font-size:20px;">One who is keen to dive in the interesting world of Machine Learning and Artificial Intelligence and want to learn it from scratch. </li>
-<li class="display3 mb-2" style = "font-size:20px;">The project is ideal for beginners, as it starts from the fundamentals and gradually builds up your skills in Python, Machine Learning. </li>
-</ul>
+It's not that hard!! This guy made an open world game in 24 hours.
+https://www.youtube.com/watch?v=3DjY1T42b_M
 <br>
-<p class="display3 project-desc" style = "font-size:22px;" >
-Project Outcomes: 
-</p>
-<ul style = "list-style-type: disc">
-<li class="display3 mb-2" style = "font-size:20px;">
-Introduction to the whole new world of machine Learning and Deep learning </li>
-<li class="display3 mb-2" style = "font-size:20px;">Application of Deep Learning in Music Composition </li>
-<li class="display3 mb-2" style = "font-size:20px;">Master the Deep Learning package: TensorFlow </li>
-<li class="display3 mb-2" style = "font-size:20px;">Last but not the least, apply your coding skills to build an entire Project from scratch </li>
-</ul>
- <p class="display3 project-desc" style = "font-size:22px;" >
-Resources:<br>
-Python Tutorial: <a href='https://www.youtube.com/playlist?list=PL-osiE80TeTskrapNbzXhwoFUiLCjGgY7'>https://www.youtube.com/playlist?list=PL-osiE80TeTskrapNbzXhwoFUiLCjGgY7</a>
-</p>
-<p class="display3 project-desc" style = "font-size:22px;" >
-       Selection Procedure: </p>
-<ul style = "list-style-type: disc">
-<li class="display3 mb-2" style = "font-size:20px;">Selection would be based on your SOP. Your SOP should include the motivation behind selection of this project or any particular inclination towards this topic.</li>
-<li class="display3 mb-2" style = "font-size:20px;">You are advised to include any previous works done in Python, Machine Learning etc in your SOP, if any (not mandatory).</li>
-</ul>
-<p class="display3 project-desc" style = "font-size:22px;" >
-Pre-requisites: </p>
-<ul style = "list-style-type: disc"> 
-<li class="display3 mb-2" style = "font-size:20px;">Basic Knowledge of any programming language will be appreciated, but no prior experience is required. We will start from scratch.</li>
-<li class="display3 mb-2" style = "font-size:20px;">Your enthusiasm, involvement and interest to learn new things are required. </li>
-</ul>
 </div>
 <div class ="d-flex">
 <div>
@@ -104,30 +71,18 @@ Pre-requisites: </p>
   </thead>
   <tbody>
     <tr>
-      <td><strong>Week 1</strong></td>
-      <td>Learning Python Basics </td>
+      <td><strong>Week 1-3</strong></td>
+      <td>Learn the basics (Follow a YouTube tutorial), (How to) Modelling and Play with UE5</td>
     </tr>
     <tr>
-      <td><strong>Week 2 </strong></td>
-      <td>Complete Walkthrough of Numpy and Pandas </td>
+      <td><strong>Week 4-5 </strong></td>
+      <td>Make a model (most prolly a hostel room) and submit as project, Progress Review</td>
     </tr>
     <tr>
-      <td><strong>Week 3  </strong></td>
-      <td>Explore Neural Networks and Deep Learning </td>
+      <td><strong>Week 6-8  </strong></td>
+      <td>Start and Make a model of campus as much as you can in three weeks </td>
     </tr>
-    <tr>
-      <td><strong>Week 4 </strong></td>
-      <td> Making Basic Models using TensorFlow</td>
-    </tr>
-    <tr>
-      <td><strong>Week 5 </strong></td>
-      <td> Development of Deep Learning model using LSTM </td>
-    </tr>
-    <tr>
-      <td><strong>Week 6  </strong></td>
-      <td>Model Implementation and Testing </td>
-    </tr>
-    </tbody>
+        </tbody>
     </table>
 </div>
 </div>

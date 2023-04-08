@@ -1,17 +1,17 @@
 ---
 layout: project
 title: Seasons of Code
-project: Canteen food rating system 
+project: Cricbuzz
 topics:
     - Web Development
 mentors:
-    - Aditi Gupta
-    - Ishita Gupta
+    - Jaswanth Naidu
+    - Kajal(200050056)
     
 mentees:
-- 4-6
+- 6
     
-permalink: /soc/projects/2022/project260
+permalink: /soc/projects/2023/project260
 ---
 
 <h2 class="display1 m-3 p-3 text-center project-title">{{page.project}}</h2>
@@ -52,11 +52,30 @@ permalink: /soc/projects/2022/project260
 <div class = "project-desc" style = "margin-bottom: 140px">
     <p class="display3" style = "font-size:22px;" >
         <br>
-        "Create an app to list the food menus of various IITB Canteens, rate the food items and give food reviews, a working model for fun."			
+        Through this project, you will learn about Full Stack Web Development, right from the basics (HTML, CSS, Bootstrap, JavaScript) to the PERN stack (PostgreSQL, ExpressJS, ReactJS, NodeJS and React ChartJS frameworks). Initially you will be working on some mini projects and then start our major project. In our project we will create a website for cricket, where we can see all the information about the cricket matches, match summary, player information statistics, venue statistics etc. If time permits you can add features such as adding new venues, start a  new match, add score ball by ball etc.Mentees can attempt hosting the final app (possibly via Heroku) depending on their progress and interest.
+<br>
+Resources:-
+<br>
+NodeJS  :-
+https://www.tutorialspoint.com/nodejs/nodejs_introduction.htm
+https://youtube.com/playlist?list=PLC3y8-rFHvwh8shCMHFA5kWxD9PaPwxaY 
+<br>
+Express Framework  :-
+https://www.tutorialspoint.com/nodejs/nodejs_express_framework.htm
+<br>
+PostgreSQL  :- 
+https://youtube.com/playlist?list=PLk1kxccoEnNEtwGZW-3KAcAlhI_Guwh8x
+https://node-postgres.com/
+<br>
+ReactJS :-
+https://reactjs.org/
+https://youtube.com/playlist?list=PLC3y8-rFHvwgg3vaYJgHGnModB54rxOk3
+<br>
+React ChartJS  :-
+https://coreui.io/react/docs/components/chart/"		
         <br>
 Prerequisite:
-N/A
-<br>
+Basic programming techniques (CS101 will be sufficient) Experience in JavaScript or in general Web Development would be an advantage(Soft Prerequisite). 
     </p>
 </div>
 <div class = "d-flex flex-wrap">
@@ -71,29 +90,29 @@ N/A
     </thead>
     <tbody>
     <tr>
-      <td>Week 1-2</td>
-      <td> Reading up on content/ following tutorials (flutter as well)
-Next two weeks- continuation of the first two weeks and starting with our project code
-Week 5/6- working on aesthetics and continuing the coding part
-Week 7/8- coding/ understanding 
-Week 9,10- cleaning, refining dealing with bugs "
+      <td>Week 1</td>
+      <td> Learn HTML, CSS, Bootstrap, Javascript
   </td>
     </tr>
     <tr>
-      <td>Week 3-4</td>
-      <td>continuation of the first two weeks and starting with our project code</td>
+      <td>Week 2</td>
+      <td>Working on Mini Projects like To-Do list</td>
+    </tr>
+    <tr>
+      <td>Week 3</td>
+      <td>Start learning NodeJS, ExpressJS, ReactJS, Redux</td>
+    </tr>
+    <tr>
+      <td>Week 4</td>
+      <td>Starting our major project Cricbuzz app and connecting it to the PostgreSQL database</td>
     </tr>
     <tr>
       <td>Week 5-6</td>
-      <td>working on aesthetics and continuing the coding part</td>
+      <td>Adding features like Match info, score comparisions, Match Summary, Player info statictics etc, Implement react and redux in the frontend and design all the pages interactively using react-bootstrap and chartjs</td>
     </tr>
     <tr>
-      <td>Week 7-8</td>
-      <td>coding/ understanding </td>
-    </tr>
-    <tr>
-      <td>Week 9-10</td>
-      <td>cleaning, refining dealing with bugs</td>
+    <td>Week 7-8</td>
+    <td>Adding additional features and Debugging</td>
     </tr>
     </tbody>
     </table>

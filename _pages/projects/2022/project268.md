@@ -1,20 +1,17 @@
 ---
 layout: project
 title: Seasons of Code
-project: File Malware Detection System
+project: NFTs Where Art and Tech Converge
 topics:
     - Network and Cyber Security
 mentors:
-    - Rahul Bukte 
-    - Taufeeque Mohammad 
-    - Hitesh Kandala 
-    - Anuj Srivastava 
-    - Utkarsh Agarwal 
+    - Amit Kumar
+    - Divyam Gupta 
     
 mentees:
 - 8
     
-permalink: /soc/projects/2022/project268
+permalink: /soc/projects/2023/project268
 ---
 
 <h2 class="display1 m-3 p-3 text-center project-title">{{page.project}}</h2>
@@ -55,11 +52,36 @@ permalink: /soc/projects/2022/project268
 <div class = "project-desc" style = "margin-bottom: 140px">
     <p class="display3" style = "font-size:22px;" >
         <br>
-We plan to develop a daemon to detect malware on local files.We will be covering the concept from file systems to machine learning models to detect if the file is malware. If time permits we will also make a Linux kernel module that will check for new files automatically.<br>
-
+1 NFTs have gained a lot of popularity in recent years. We will develop an NFT
+a marketplace that allows users to buy, sell, and trade unique digital assets like art, music,
+and collectibles. 
+<br>
+2 By learning about blockchain development, you will have the opportunity to create smart contracts for our website and app, and as a result, gain exposure to web and app development as a complementary skill set.
+<br>
+3 The resources for the learning are as follows:- 
+    (i) https://anders.com/blockchain/
+    (ii) https://www.udemy.com/course/solidity-smart-contract-development/
+    (iii) https://www.codewithharry.com/videos/react-tutorials-in-hindi-1/
+    (iv) Full Stack Ethereum Dapp Tutorial: https://www.dappuniversity.com/articles/full-stack-ethereum-dapp-tutorial-part-1
+    (v) Blockchain Developer Roadmap: https://github.com/web3coach/Blockchain-Developer-Roadmap
+<br>
 Prerequisites:
-Basic C/C++/python
-        <br>
+As a mentor, here are some pre-requisites that I would expect from the mentees:
+
+1 Basic Programming Skills: It is helpful if my mentees have a basic understanding of programming concepts, such as variables, data types, control structures, and functions.
+
+2 Familiarity with JavaScript: JavaScript is a popular programming language that is commonly used in blockchain development, so having some experience with JavaScript would be beneficial.
+
+3 Understanding of Web Development: Since blockchain applications often require a front-end interface, my mentees should have a basic understanding of HTML, CSS, and web development concepts.
+
+4  Knowledge of Blockchain Basics: My mentees should have a basic understanding of blockchain technology and how it works, including the concepts of distributed ledgers, consensus algorithms, and smart contracts. Just the roadmap OfCourse
+
+5 Familiarity with Solidity: Solidity is the primary programming language used for writing smart contracts on the Ethereum blockchain.
+
+6 Understanding of Cryptography: Cryptography is an essential aspect of blockchain technology, so your mentees should have a basic understanding of cryptographic concepts, such as public and private keys, hashing, and digital signatures.
+
+
+Don't worry if you don't know some of these, I and my co-mentor will make you learn all of these and help you at all the points        <br>
     </p>
 </div>
 <div class = "d-flex flex-wrap">
@@ -74,20 +96,17 @@ Basic C/C++/python
     </thead>
     <tbody>
     <tr>
-      <td  >Week 1</td>
-      <td>Study filesystems</td>
-    </tr>
-    <tr>
-      <td>Week 2</td>
-      <td>study ml models</td>
+      <td  >Week 1-2</td>
+      <td>Research and ideation: Research existing NFT projects and brainstorm ideas for a unique NFT project. Develop a project plan: Define project goals, objectives, and deliverables. Create a detailed project plan with timelines and milestones. Determine technical requirements: Identify the tools, software, and platforms required to develop and deploy the NFT project. Design NFTs: Create designs for the NFTs, including the artwork and any other visual elements.
+</td>
     </tr>
     <tr>
       <td>Week 3-4</td>
-      <td>Start building filesystem based part of the malware detection system</td>
+      <td>Develop smart contracts: Write and deploy smart contracts using a suitable blockchain platform like Ethereum. You can use Solidity to write smart contracts Implement smart contract tests: Test the smart contracts using different testing frameworks like Truffle or Remix. Integrate NFTs with the website or app: Integrate the NFTs with the website or app where they will be sold or used. Develop a wallet: Create a wallet for users to store and manage their NFTs.</td>
     </tr>
     <tr>
       <td>Week 5-6</td>
-      <td>Start building model and integrate with filesystem</td>
+      <td>Implement a payment gateway: Set up a payment gateway to facilitate the purchase of NFTs.Test the website or app: Test the website or app to ensure that it is functional and user-friendly. Launch the NFT project: Publish the NFT project and promote it to potential buyers. Monitor and maintain the project: Monitor the performance of the NFT project and make any necessary updates or improvements.</td>
     </tr>
     </tbody>
     </table>

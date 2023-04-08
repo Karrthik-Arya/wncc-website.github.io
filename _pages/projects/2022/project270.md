@@ -1,16 +1,16 @@
 ---
 layout: project
 title: Seasons of Code
-project: YARE YARE
+project: COLLIDE
 topics:
     - Regular Expression Engine
 mentors:
-    - Shashank Balaji & Tirthankar Mazumder
+    - Parth Pujari, Anish Kulkarni
     
 mentees:
-- 5-6
+- 8
     
-permalink: /soc/projects/2022/project270
+permalink: /soc/projects/2023/project270
 ---
 
 <h2 class="display1 m-3 p-3 text-center project-title">{{page.project}}</h2>
@@ -51,26 +51,10 @@ permalink: /soc/projects/2022/project270
 <div >
     <p class="display3" style = "font-size:22px;" >
         <br>
-        We will be writing a blazing fast 🚀 regular expression engine in C++20. We will implement the Thompson NFA algorithm to achieve speeds hitherto undreamt of.<br><br>
-
-If there is time, we can look into benchmarking our engine against the standard library regex engine, and look into implementing ECMAScript compatible regular expressions.<br><br>
-
-Resources:<br>
-- <a href="https://swtch.com/~rsc/regexp/regexp1.html">https://swtch.com/~rsc/regexp/regexp1.html</a><br>
-- <a href="https://kean.blog/post/lets-build-regex">https://kean.blog/post/lets-build-regex</a><br>
-- <a href="https://262.ecma-international.org/12.0/#sec-regexp-regular-expression-objects">https://262.ecma-international.org/12.0/#sec-regexp-regular-expression-objects</a>
-<br>
-Prerequisites:<br>
-Being enthusiastic about C++.
-
-In your proposal, mention the following:<br>
-1. Previous experience in programming, apart from CS 101 (in any language, preferably C++).<br>
-2. Motivation for studying basic automata theory and parsing.<br>
-3. Previous experience in working with medium-sized codebases (if any, not mandatory).<br>
-4. Some basic knowledge of regular expressions.<br>
-5. Anything else you feel is worth mentioning.<br>
-        <br>
-    </p>
+        The Project involves the development of a game engine linked with a graphics interface. We develop a sophisticated graphics system for the game using OpenGL and encase in it a physics framework including a broadphase collision detection and resolution system. Following that is a randomization algorithm that generates random levels and worlds consistent with certain laws.
+        <br> 
+OpenGL: https://learnopengl.com/
+<br>    </p>
 </div>
 <div class = "d-flex flex-wrap">
 <div>
@@ -85,32 +69,25 @@ In your proposal, mention the following:<br>
     <tbody>
     <tr>
       <td  >Week 1</td>
-      <td>Read up on the relevant theory (basic parsing, basic automata theory, etc.)</td>
+      <td>Understanding the base code provided by us. </td>
     </tr>
     <tr>
       <td>Week 2</td>
-      <td> Implement the parser and AST.</td>
+      <td> Implementing basic collision detection and resolution.</td>
     </tr>
     <tr>
       <td>Week 3-4</td>
-      <td>Implement the "lego blocks" for the NFA.</td>
+      <td>Learning OpenGL and creating a mini game</td>
     </tr>
     <tr>
-      <td>Week 5</td>
-      <td> Construct the NFA from the AST using the "lego blocks".</td>
+      <td>Week 5-6</td>
+      <td> Choosing a game to make and building it upon the framework created until now</td>
     </tr>
     <tr>
-      <td>Week 6</td>
-      <td>Brainstorm the Runner API and implement it.</td>
+      <td>Week 7-8</td>
+      <td>Introducing randomised generation in their game</td>
     </tr>
-    <tr>
-      <td>Week 7</td>
-      <td>Integrate the NFA class with the Runner class.</td>
-    </tr>
-    <tr>
-      <td>Week 8</td>
-      <td>Integrate the Google Test framework into the project, write tests for the engine and make them pass.</td>
-    </tr>
+    
     </tbody>
     </table>
 </div>

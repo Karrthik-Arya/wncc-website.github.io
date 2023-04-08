@@ -1,15 +1,15 @@
 ---
 layout: project
 title: Seasons of Code
-project: RegExamaton
+project: Dive into the World of Quant
 topics:
     - Automata Theory 
 mentors:
-    - Hrishikesh Jedhe Deshmukh
-    - Ayush Agarwal
+    - Prajwal Raut
+    - Sahil Khan (200020112)
     
 mentees:
-- 5-6
+- 10
     
 permalink: /soc/projects/2023/project269
 ---
@@ -51,9 +51,9 @@ permalink: /soc/projects/2023/project269
 </div>
 <div >
     <p class="display3 project-desc" style = "font-size:22px;" >
-Our project is all about converting Regular Expressions to Deterministic Finite Automatas. Regular Expressions let you define complex patterns that can find, replace, or match any text you need. With just a few characters, you can unlock a world of possibilities. Automatas are powerful tools in computer science and mathematics, used to model and analyze processes that follow a strict sequence of steps. Ever heard of Turing Machine?! Most general and powerful automata is the Turing Machine :): We will be looking at a specific class of automatas called Deterministic Finite Automatas(DFAs). Some popular uses of DFAs are in compiler design and formal verification. To know more about RegEx and Automata: https://www.javatpoint.com/automata-regular-expression</p><br>
+The project majorly focuses on developing quant models from basics which would automate the trading system. Models would be tested on various parameters and performance. Minimum number of models with required performance would have to be completed for completing the project, participation in different quant competitions to enhance learning.</p><br>
 <p>Prerequisites:
-Familiarity with C++</p>
+A bit of technical analysis(can learn along the project), and ofcourse enthu :)</p>
 
 <br>
 
@@ -74,32 +74,25 @@ Familiarity with C++</p>
     <tbody>
     <tr>
       <td  >Week 1</td>
-      <td>Getting up to pace with C++, Graph Structures, String Parsing
+      <td>Brushing up of technical and fundamental analysis
+               Setup Project Workspace
+
 </td>
     </tr>
     <tr>
       <td>Week 2-3</td>
-      <td>Basics of Automata Theory and Regular Expressions </td>
+      <td> Understanding of models in quant, Developing own models and participating in quant competition 
+</td>
     </tr>
     <tr>
-      <td>Week 4</td>
-      <td>Implementing simple Deterministic Finite Automatas</td>
+      <td>Week 4-5</td>
+      <td>Different methods for improving the performance of models, Using complex operators for developing and testing models.
+</td>
     </tr>
     <tr>
-      <td>Week 4</td>
-      <td>Implementing a simple camera class and obtaining a primitive image.</td>
-    </tr>
-    <tr>
-      <td>Week 5-6</td>
-      <td>Moving on to complex regular expressions, Combining simple automatas</td>
-    </tr>
-     <tr>
-      <td>Week 7</td>
-      <td>Union, Intersection and Complementation of Languages</td>
-    </tr>
-     <tr>
-      <td>Week 8</td>
-      <td>Documenting the project</td>
+      <td>Week 6-7</td>
+      <td>Buffer, Wrap up with completing a given minimum number of models,and reducing correlations.
+</td>
     </tr>
     </tbody>
     </table>

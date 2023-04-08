@@ -1,16 +1,17 @@
 ---
 layout: project
 title: Seasons of Code
-project: threeD (Novel Scripting Language)
+project: Image Captioning
 topics:
     - Web Development
 mentors:
-    - Rwitaban Goswami 
+    - Sabyasachi Samantaray
+    - Nikhil Biradar
     
 mentees:
-- 4 
+- 7-9
     
-permalink: /soc/projects/2022/project259
+permalink: /soc/projects/2023/project259
 ---
 
 <h2 class="display1 m-3 p-3 text-center project-title">{{page.project}}</h2>
@@ -48,27 +49,28 @@ permalink: /soc/projects/2022/project259
         {% endfor %}
     </ul>
 </div>
-<div>
-    <p class="display3 project-desc" style = "font-size:22px;" >
+<div class = "project-desc" style = "margin-bottom: 140px">
+    <p class="display3" style = "font-size:22px;" >
         <br>
-        We will be working on implemented a brand new programming language, specifically purposed to be integrated into the scripting engine of the game engine Light
-
-Working on this project will teach you the basics of compiler theory, as well as working in a large scale project
-</p>
-<p class="display3" style = "font-size:22px;" >
-To get an idea of how to implement a programming language: <a href='https://llvm.org/docs/tutorial/MyFirstLanguageFrontend/index.html'>https://llvm.org/docs/tutorial/MyFirstLanguageFrontend/index.html</a><br><br>
-
-To learn compiler theory in depth, read the Dragon Book			
+        "Want to immerse yourself in the exciting world of comprehensive ML, Image Processing and NLP? Join us for an unforgettable summer, where we will explore the fascinating topic of image captioning!
+<br>
+Starting from the basics of regression and classification algorithms, and progress to neural networks. Discover the powerful capabilities of CNN's and RNN's, and apply this knowledge to build and train your own models for the final project of Image Captioning. We will start with a simple architecture, and gradually improve upon it using cutting-edge techniques.
+<br>
+So, are you ready to take your skills to the next level and join us for an unforgettable summer? Let's embark on this exciting journey together!"		
         <br>
-Prerequisites:<br>
-Basics of C++ and OOP, basics of Game Dev and enthu!!
+Prerequisite:
+"Basic knowledge of python and libraries
+<br>
+Lots of enthusiasm
+<br>
+Basic ML knowledge would be helpful"
 <br>
     </p>
 </div>
 <div class = "d-flex flex-wrap">
 <div>
-    <h4 class="display3" style="margin:40px 0px 40px 0px;">Tentative Timeline :</h4>
-    <table class="table table-striped">
+    <h4 class="display3" style="margin:110px 0px 40px 0px;">Tentative Timeline :</h4>
+    <table class="table table-striped w-100">
     <thead>
         <tr>
         <th>Week</th>
@@ -78,32 +80,28 @@ Basics of C++ and OOP, basics of Game Dev and enthu!!
     <tbody>
     <tr>
       <td>Week 1</td>
-      <td> Learn basics of Lexing, Parsing
+      <td> Anaconda installation, setting up Jupyter Notebook and supporting dependencies
   </td>
     </tr>
     <tr>
       <td>Week 2</td>
-      <td>Design the basic syntax and rules of threeD</td>
+      <td>Basics of ML, regression and classification algorithms using sklearn</td>
     </tr>
     <tr>
       <td>Week 3</td>
-      <td>Implement lexing in LLVM</td>
+      <td>CNN Image Classification using Pytorch/Keras</td>
     </tr>
     <tr>
       <td>Week 4</td>
-      <td>Implement parsing in LLVM to form AST</td>
+      <td>RNN and basics of NLP using Keras and Scapy</td>
     </tr>
     <tr>
-      <td>Week 5</td>
-      <td>Convert AST to LLVM IR</td>
+      <td>Week 5-6</td>
+      <td>Using all that learnt so far to implement primitive architecture of Image Captioning</td>
     </tr>
     <tr>
-      <td>Week 6</td>
-      <td>Add loops and conditionals</td>
-    </tr>
-    <tr>
-      <td>Week 7-8</td>
-      <td>Buffer (add more language features)</td>
+    <td>Week 7-8</td>
+    <td>Improving the model, Paper implementation depending on progress</td>
     </tr>
     </tbody>
     </table>

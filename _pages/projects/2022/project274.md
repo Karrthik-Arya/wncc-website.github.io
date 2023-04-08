@@ -1,17 +1,18 @@
 ---
 layout: project
 title: Seasons of Code
-project: Autonomous moving robot
+project: Find me out
 topics:
     - Machine Learning
     - Image Processing
 mentors:
-    - Harsh Kumar
+    - Omkar Nitsure
+    - Dhruvi Ganatra
     
 mentees:
 - 10
     
-permalink: /soc/projects/2022/project274
+permalink: /soc/projects/2023/project274
 ---
 
 <h2 class="display1 m-3 p-3 text-center project-title">{{page.project}}</h2>
@@ -51,7 +52,7 @@ permalink: /soc/projects/2022/project274
 <div>
     <p class="display3 project-desc" style = "font-size:22px;" >
         <br>
-        The software domain of a autonomous moving robot. The project will involve real life simulation of the robot using ROS and gazebo. This project will be an amalgamation of robotics and computer vision and has great future possibilities. If time permits we will also intergrate an NLP based chatbot in the robot.
+        Have you ever wondered how Snapchat and Facebook enhances the beauty of your pictures amazingly well? How do humanoids identify people and behave with the world as humans? How do security systems identify the thief from a crowd so as to prevent thefts? Well, one of the most important tools to your rescue is face recognition. Identifying facial features has got widely varying applications in many autonomous systems in use today. In this project, we aim to give you a glimpse of implementation of the algorithms used for face recognition. We intend to cover the basics of machine learning and give you a flavour of the highly intriguing and exciting mathematics involved behind these algorithms. We then dive into the world of deep learning and CNNs, which have become the buzz of the world today. After having the grasp over the working of the algorithms,  you wouldn’t want to wait any longer to see yourself implementing them on your own, would you? In the later weeks, this is what we have in store. We shall take a sneak peek into the various libraries which could be used to implement face recognition algorithms using standard datasets and introduce you to Tensorflow. We shall conclude the project by completing the final implementation and leave a lot of points for the mentees to explore and come up with any new ideas of their own.
 </p>
 </div>
 <div class ="d-flex">
@@ -67,21 +68,21 @@ permalink: /soc/projects/2022/project274
   <tbody>
     <tr>
       <td><strong>Week 1-2</strong></td>
-      <td>Basic familiarity with python and a bit of machine learning </td>
+      <td>Introduction to the course and mathematics for ML, Introduction to python for ML </td>
     </tr>
     <tr>
       <td><strong>Week 3-4 </strong></td>
-      <td>Basics of Computer Vision, Gazebo and ROS
+      <td>Supervised Machine Learning, Unsupervised Machine Learning
 
  </td>
     </tr>
     <tr>
       <td><strong>Week 5-6  </strong></td>
-      <td>Basic implementation trial</td>
+      <td>Deep Learning and Convolutional Neural Networks, Using CNNs for Face recognition</td>
     </tr>
     <tr>
-      <td><strong>Week 6-7  </strong></td>
-      <td> Final implementation</td>
+      <td><strong>Week 7-8  </strong></td>
+      <td>Introduction to TensorFlow, Implementing the model and final Remarks</td>
     </tr>
     </tbody>
     </table>

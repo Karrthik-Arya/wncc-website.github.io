@@ -1,16 +1,16 @@
 ---
 layout: project
 title: Seasons of Code
-project: Mini-Bloomberg Terminal
+project: Image Processing and Object Detection
 topics:
     - Web Development, Fin-Tech
 mentors:
-    - Tanmay Choudhary & Shaan Shah
+    - Suyash Waghmare & Prajyot Pandit Chakre (21b080022) 
     
 mentees:
-- 4
+- 5
     
-permalink: /soc/projects/2022/project271
+permalink: /soc/projects/2023/project271
 ---
 
 <h2 class="display1 m-3 p-3 text-center project-title">{{page.project}}</h2>
@@ -51,12 +51,17 @@ permalink: /soc/projects/2022/project271
 <div class = "project-desc" >
     <p class="display3" style = "font-size:22px;" >
         <br>
-       The Bloomberg Terminal - it's iconic. The Bloomberg terminal as a whole has got to be the most bloated PoS ever and in this project we will aim to build a mini- Bloomberg terminal.
-       Do check out this awesome video to get the feel of what we are aiming for!
-       Link- <a href="https://www.youtube.com/watch?v=_juj1MIRJVE">https://www.youtube.com/watch?v=_juj1MIRJVEl</a>
+       Description :
+In this project we develop a Image processing model to predict the features of any image/object provided. This project will begin from basics of Python, learn libraries like numpy, OpenCV and matplotlib. We will work on two model to explore the field. We will also deploy the model on a platform: 
 <br>
-Prerequisites:
-Either of Frontend, Backend development or Data processing/ML
+1 Detection of number of objects in an image
+2 Determining the porosity of a metal 
+<br>
+Resources:
+<br>
+https://docs.google.com/document/d/1u7mV3QSv3KSqTp5quA21YPPvuZne9pn9wGn1KSxymTI/edit?usp=sharing</a>
+<br>
+Prerequisites: N/A
     </p>
 </div>
 <div class = "d-flex flex-wrap">
@@ -72,26 +77,20 @@ Either of Frontend, Backend development or Data processing/ML
     <tbody>
     <tr>
       <td  >Week 1-2</td>
-      <td>Finalizing on features to be included in the terminal
-Dividing the mentees into teams
-Discussion and finalizing the design doc for backend server and data calling functions
-Discussion and finalizing the design doc for frontend server and interface with backend server
-</td>
+      <td>Basics of Machine learning</td>
     </tr>
     <tr>
       <td>Week 3-4</td>
-      <td> Backend - Technical Indicators
-Backend - Make a skeleton backend - microservice based architecture 
-Frontend - Make a rough wireframe design 
+      <td> Study convolutional neural networks and basics of image processing, First checkpoint: simple machine learning task based on convolution neural networks 
 </td>
     </tr>
     <tr>
       <td>Week 5-6</td>
-      <td>Fundamentals (using scrapers, need to process data) Technicals</td>
+      <td>First major checkpoint task begins - implement the SRCNN network, towards the end of week 6</td>
     </tr>
     <tr>
-      <td>Week 7-10</td>
-      <td> Trading bot and Viz tools + Finishing, Debugging and Testing</td>
+      <td>Week 7-8</td>
+      <td> Study Dual Attention Networks. Begin implementation of the paper: https://arxiv.org/pdf/2110.12114.pdf, Work on the implementation of the paper. It is likely that the full implementation wouldn't be done by the time the project is finished, in that case we'll call off the project possibly in it's training stages itself rather than waiting for full optimization of the model</td>
     </tr>
     </tbody>
     </table>

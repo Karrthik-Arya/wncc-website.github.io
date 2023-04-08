@@ -1,18 +1,18 @@
 ---
 layout: project
 title: Seasons of Code
-project: Remote Sensing and Image Visualization Using Deep Learning( AERIAL IMAGERY SEMANTIC SEGMENTATION)
+project: Human Pose Estimation
 topics:
     - Machine Learning
     - Image Processing
 mentors:
-    - Abhishek Mahajan 
-    - Isha Mukherjee
+    - Om Godage 
+    - Shubham Hazra
     
 mentees:
 - 7
     
-permalink: /soc/projects/2022/project273
+permalink: /soc/projects/2023/project273
 ---
 
 <h2 class="display1 m-3 p-3 text-center project-title">{{page.project}}</h2>
@@ -52,9 +52,15 @@ permalink: /soc/projects/2022/project273
 <div>
     <p class="display3 project-desc" style = "font-size:22px;" >
         <br>
-        In this Project We will be Studying the concept of resolutions in remote sensing, preliminaries for mathematical representation of the digital image, image enhancement, filters and transforms, feature evaluation, image classification, accuracy assessment.</p> 
-        <p class="display3" style = "font-size:22px;" >
-We will be Working on Aerial Imagery Data obtained by MBRSC Satellite and Segmenting it  Pixel-Wise into various classes/Regions by Researching and studying various Deep Learning Architectures and Algorithms involving Multi-Scale Context information. <br>
+        Pose estimation is a fascinating field that deals with the accurate and reliable detection of human body movements and positions. It is widely used in various applications such as robotics, gaming, and virtual reality. The problem involves analyzing a given video or image to determine the position and orientation of the human body in real-time.
+<br>
+To implement this, one can use computer vision techniques such as deep learning and convolutional neural networks. By training these networks on large datasets of human poses, they can accurately identify the positions and movements of the human body in various scenarios. The result is a highly accurate and efficient system that can be integrated into a wide range of applications, from sports coaching to medical rehabilitation.
+<br>
+With the increasing demand for accurate and real-time human pose estimation, this project offers a unique opportunity to explore the latest techniques and tools in computer vision and machine learning. The implementation of a robust and efficient pose estimation system can have a significant impact on various industries, from gaming to healthcare, and can pave the way for exciting future developments in the field.
+<br>
+Here is a link for some general information: https://www.v7labs.com/blog/human-pose-estimation-guide
+<br>
+We are going to select mentees based on the assignment given below. Give it your best shot!: https://github.com/0-JackFrost-0/Human-Pose-Estimation-SoC-2023
 Pre-requistes:
 </p>
 <ul style = "list-style-type: disc">
@@ -74,24 +80,16 @@ Pre-requistes:
   </thead>
   <tbody>
     <tr>
-      <td><strong>Week 1</strong></td>
-      <td>COMPLETION OF BASIC PYTHON TUTORIALS </td>
+      <td><strong>Week 1-3</strong></td>
+      <td>Basics of Regression & Classical ML, Intro to Deep learning & frameworks (Tensorflow, PyTorch), Image Processing using OpenCV & classical methods</td>
     </tr>
     <tr>
-      <td><strong>Week 2-3 </strong></td>
-      <td>UNDERSTANDING some Machine learning model related to the Project  </td>
+      <td><strong>Week 4-6 </strong></td>
+      <td>Dive into CNNs & transfer learning, Intro to transformer and attention models & pose estimation, Getting Started with Pose Estimation</td>
     </tr>
     <tr>
-      <td><strong>Week 4  </strong></td>
-      <td>EVERYONE IS Required to do some TensorFlow / Pytorch coding Tutorials </td>
-    </tr>
-    <tr>
-      <td><strong>Week 5-7 </strong></td>
-      <td> Development of remote sensing, characteristics of remote sensors and platforms: optical, infrared and microwave sensor systems, recent trends in active remote sensing techniques: lasers and radars, Concept of resolutions in remote sensing, preliminaries for mathematical representation of the digital image, geo-referencing, image enhancement, filters and transforms, indices and color models, feature evaluation, image classification, accuracy assessment, change detection using ML. </td>
-    </tr>
-    <tr>
-      <td><strong>Week 8-10 </strong></td>
-      <td> Will train the Mentees to get familiar with the Dataset and learn to code the Data-loading and Data training part </td>
+      <td><strong>Week 7-9 </strong></td>
+      <td> Implementing Pose Estimation using State-Of-The-Art Models, Finishing up with the motion detection pipeline and applying on new data, Finishing up with documentation and submission</td>
     </tr>
     </tbody>
     </table>

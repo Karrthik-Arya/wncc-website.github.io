@@ -1,16 +1,17 @@
 ---
 layout: project
 title: Seasons of Code
-project: Personality detection using data from social media
+project: EdConnect
 topics:
-    - Machine Learning
+    - Web Development
 mentors:
-    - Sohom Mandal
+    - Gyana Prakash Beria
+    - Shlok Nemani (19D070054), Hiren Bavaskar (190050049)
     
 mentees:
-- 8-12
+- 4
     
-permalink: /soc/projects/2022/project267
+permalink: /soc/projects/2023/project267
 ---
 
 <h2 class="display1 m-3 p-3 text-center project-title">{{page.project}}</h2>
@@ -51,10 +52,10 @@ permalink: /soc/projects/2022/project267
 <div class = "project-desc">
     <p class="display3" style = "font-size:22px;" >
         <br>
-The project is based on the simple ML techniques such as KNN,CNN, logistic regression. It basically classifies the personality into 5 major kinds of personalities. This concept can be used in many social media sites and then usen it to filter their choices and indeed filter their recommedation.<br>
-
-Prerequisites:
-N/A, little knowledge about ML is a plus point :)
+"Work:- Creation of a web portal for TAs and students. The TAs will be able to take attendance of students, create quizzes, grade and analyse marks. The students will be able to provide attendance, take quizzes, and view their performance.
+<br>
+Learning:- Full Stack development. Gain knowledge of creating beautiful interfaces and how the connection between frontend and backend works with secure authentication protocols.
+Skills after learning the project: Django, ReactJS, Database Management "<br>
         <br>
     </p>
 </div>
@@ -71,23 +72,33 @@ N/A, little knowledge about ML is a plus point :)
     <tbody>
     <tr>
       <td  >Week 1</td>
-      <td>Intro to ML with linear regression</td>
+      <td>Learning HTML5, CSS3, JS fundamentals</td>
     </tr>
     <tr>
       <td>Week 2</td>
-      <td>Moving onto bayesian naive  method and logistic regression </td>
+      <td>Learning the JS front-end Library React JS</td>
     </tr>
     <tr>
       <td>Week 3</td>
-      <td>Classification, CNN and KNN introduction</td>
+      <td>Learning Python + Django fundamentals (will be provided with
+to-the-point resources)</td>
     </tr>
     <tr>
       <td>Week 4</td>
-      <td>Learn more about the tensorflow library</td>
+      <td>Understanding Frontend + Backend integration and implementation with
+database (PostgreSQL db will be hosted)</td>
     </tr>
     <tr>
       <td>Week 5,6</td>
-      <td>Learn more about the CNN and KNN algorithm using examples and applying the above learnt techniques in a proper project</td>
+      <td>Front-end guys work on the client side (UI design, client interactions [H5,
+C3, React]) In parallel, the backend peeps will be handling the database, user
+authentication, and basic dashboard functionality [Django+Postgre]. We expect it to be
+just functional.</td>
+    </tr>
+    <tr>
+      <td>Week 7-8</td>
+      <td>Completing the Web app by adding all the specifications as required.
+Expecting fully functional along the lines of specifications.</td>
     </tr>
     </tbody>
     </table>

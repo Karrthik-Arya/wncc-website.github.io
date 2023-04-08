@@ -1,19 +1,19 @@
 ---
 layout: project
 title: Seasons of Code
-project: InstiCloud
+project: Economics meets Machine Learning
 topics:
     - Web Development
     - Networks
     - Blockchain
 mentors:
-    - Karrthik Arya
-    - Ishit Garg
+    - Tejas Sanjaykumar Pagare
+    - Param Rathour (190070049)
     
 mentees:
-- 8-10
+- 4-6
     
-permalink: /soc/projects/2022/project262
+permalink: /soc/projects/2023/project262
 ---
 
 <h2 class="display1 m-3 p-3 text-center project-title">{{page.project}}</h2>
@@ -51,20 +51,24 @@ permalink: /soc/projects/2022/project262
     </ul>
 </div>
 <div>
-    <p class="display3 project-desc" style = "font-size:22px;" >
-        <br>
-        How much data is generated every minute across the world? You must have definitely come across the fact that 90% of world's data has been generated in the past 2 years!(From whichever year this fact is 😜) 
-        </p>
 <p class="display3" style = "font-size:22px;" >
-Such a rapid rate of data generation along with issues such as data privacy coming up, often makes people wonder are centralized data storage platforms like google drive or iCloud really the way to go?<br><br>
-
-This project aims to create a p2p data storage platform with blockchain based access control. Seems complicated? Not really…
-There would be mainly 3 aspects to the project, the first would be to build the p2p data storage platform which we would be making with Node.js  using libraries such as webRTC. Next would be to build the system for access control and this is where blockchain comes in. We would be using a smart contract to keep track of who owns the file and who has access to it. <br><br>
-So overall the concept is pretty simple, whenever you upload a file it would be broken into various parts which would be encrypted and then distributed amongst the peers connected along with making an appropriate entry in the blockchain. When you would try to access the file again the smart contract would return back the method to accessing the various segments if you are allowed access to that file. 
-Prereqs: Enthusiasm to learn( though some experience in web development might be beneficial)<br>
-References:<br>
-<a href='https://drive.google.com/file/d/1DvE7DSjGQ33WtH-ZVlWgEUn80b06sbec/view?usp=sharing'>https://ieeexplore.ieee.org/document/8726493/</a> (This is what we would try to implement)<br>
-<a href='https://javascript.plainenglish.io/build-a-p2p-image-sharing-app-with-webrtc-and-react-fe6b3d1976d5'>https://javascript.plainenglish.io/build-a-p2p-image-sharing-app-with-webrtc-and-react-fe6b3d1976d5</a> ( a good resource for a p2p file sharing system) <br>
+Such a rapid rate of data generation along with issues such as data privacy coming up, often "The project will involve implementing various Economics problems as a Markov Decision Process in a compact way as Gym (https://arxiv.org/abs/1606.01540). Later we will implement Bandit and Reinforcement Learning algorithms to solve these problems. Some economic problems that we will deal with include Matching Markets, Auctions, and allocation problems. Matching Markets has applications in ridesharing, online dating, job matching, kidney exchange, and university applications. Auctions are everywhere, from IPL team selection to online advertising, spectrum allocation to art auctions, government procurement, and online marketplaces. 
+<br>
+This project if successful can result in a research paper.
+<br>
+Resources
+Markov Decision Processes: https://youtu.be/2iF9PRriA7w
+<br>
+Auctions: https://youtu.be/4kWuxfVbIaU
+<br>
+Matching Markets: https://youtu.be/ELC7rCBL7I0, https://youtu.be/80QZ0IrQVbQ
+<br>
+Economics of Matchmaking: https://youtu.be/kj2fpM57Z7A
+<br>
+Advanced Resources
+Michael Jordan Talk: https://youtu.be/fwOZbhQpbNg" 
+<br>
+Prereqs: Familiarity with Python. Knowledge of Probability, Statistics. Prior knowledge of Machine Learning and Economics will be helpful. <br>
 </p>
 </div>
 <div class ="d-flex">
@@ -79,28 +83,28 @@ References:<br>
   </thead>
   <tbody>
     <tr>
-      <td><strong>Week 1</strong></td>
-      <td>HTML, CSS, JavaScript(Brush Up) + Theoretical learning on blockchain and p2p system</td>
+      <td><strong>Week 1-2</strong></td>
+      <td>Learn about different types of MDPs, Bandit Algorithms, and some RL algorithms</td>
     </tr>
     <tr>
-      <td><strong>Week 2 </strong></td>
-      <td>Start learning Solidity and exploring Web3 </td>
+      <td><strong>Week 3 </strong></td>
+      <td>Basic familiarity with Gym implementation and GitHub setup.</td>
     </tr>
     <tr>
-      <td><strong>Week 3-4  </strong></td>
-      <td>Learning frontend development ReactJS, React hooks, Redux</td>
+      <td><strong>Week 4  </strong></td>
+      <td>Introduction to different Economics Problems and their mathematical models</td>
     </tr>
     <tr>
       <td><strong>Week 5 </strong></td>
-      <td> Learning to setup a p2p network</td>
+      <td> Implementating Econ problem as a Gym Environment</td>
     </tr>
     <tr>
-      <td><strong>Week 6 </strong></td>
-      <td>Building the UI on React along with implementing  the Smart Contract to connect with a wallet and store appropriate file info</td>
+      <td><strong>Week 6-7 </strong></td>
+      <td>Integrating Bandit or RL Algorithms</td>
     </tr>
     <tr>
-      <td><strong>Week 7-8 </strong></td>
-      <td>Complete Smart Contract to check who has the access and accordingly retrieve the files. Then setup the p2p system to break and encrypt the files to store on the network
+      <td><strong>Week 8 </strong></td>
+      <td> Benchmarking against Heuristic Approaches
 </td>
     </tr>
     </tbody>

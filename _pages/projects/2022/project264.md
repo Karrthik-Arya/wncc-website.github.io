@@ -1,16 +1,17 @@
 ---
 layout: project
 title: Seasons of Code
-project: "Data Structures, Algorithms & CP"
+project: Computer vision for driverless vehicles
 topics:
     - Competitive Coding
 mentors:
-    - Divyansh Srivastava  
+    - Yash Rampuria
+    - Aryan Bhosale  
     
 mentees:
-- 10 
+- 5
     
-permalink: /soc/projects/2022/project264
+permalink: /soc/projects/2023/project264
 ---
 
 <h2 class="display1 m-3 p-3 text-center project-title">{{page.project}}</h2>
@@ -50,14 +51,10 @@ permalink: /soc/projects/2022/project264
 </div>
 <div>
     <p class="display3 project-desc" style = "font-size:22px;" >
-        <br>
-        We will be starting right from the basics of a programming language and dive into different concepts of data structures. We will be thoroughly studying different algorithms that work with data structures and are used to solve real world problems. 
-        </p>
-        <p class="display3" style = "font-size:22px;" >
-        Then we will be heading towards some competitve coding websites to prepare for applications of learnt data structures and algorithms in real world problems. The motive of this project is to make a candidate comfortable with different DSA concepts and prepare them for different DSA competitions/tests.
+        Building a object detection python code for lane and other road user detection and classification for implementation in driverless vehicles using opencv and YOLOv5
 <br>
 Prerequisites:
-Basic level knowledge of atleast one programming language (usually if you have done CS 101,  you are good to go).
+Mentees will be given exposure to coding in python and hence prior coding experience is a bonus but definitely not a must as they will be taught the same
         <br>
     </p>
 </div>
@@ -74,27 +71,23 @@ Basic level knowledge of atleast one programming language (usually if you have d
     <tbody>
     <tr>
       <td  >Week 1</td>
-      <td>Basics of programming (Learning libraries and functions in c/c++, python)</td>
+      <td>Python basics</td>
     </tr>
     <tr>
       <td>Week 2</td>
-      <td>data structures & linked algorithms (variables, arrays, sorting)</td>
+      <td>Machine learning basics</td>
     </tr>
     <tr>
       <td>Week 3</td>
-      <td>data structures & linked algorithms (searching, linked lists, hashing)</td>
+      <td>Deep learning basics</td>
     </tr>
     <tr>
-      <td>Week 4</td>
-      <td>data structures & linked algorithms (trees, tree traversals, graphs)</td>
+      <td>Week 4-5</td>
+      <td>Lane detection code</td>
     </tr>
     <tr>
-      <td>Week 5</td>
-      <td>data structures & linked algorithms (graphs searches, graph traversal)</td>
-    </tr>
-     <tr>
-      <td>Week 6</td>
-      <td>advanced algorithms & Competitive programming (dynamic programming, greedy techniques + solving coding questions/contests on websites)</td>
+      <td>Week 6-7</td>
+      <td> Object detection using Yolov5</td>
     </tr>
     </tbody>
     </table>
