@@ -1,16 +1,16 @@
 ---
 layout: project
 title: Seasons of Code
-project: Tech-Points Portal
+project: Image Caption Generator
 topics:
     - Web Development
 mentors:
-    - Payal Choudhary & Aniket Agrawal     
+    - Satwik Murarka     
     
 mentees:
-- 6  
+- 4  
     
-permalink: /soc/projects/2022/project277
+permalink: /soc/projects/2023/project277
 ---
 
 <h2 class="display1 m-3 p-3 text-center project-title">{{page.project}}</h2>
@@ -51,10 +51,10 @@ permalink: /soc/projects/2022/project277
 <div class = "project-desc" style = "margin-bottom: 100px">
     <p class="display3" style = "font-size:22px;" >
         <br>
-        Tech Points is a concept to streamline the process of prizes distribution.
-Each club will, in place of tech vouchers, give certain tech points to the winners. These winners can redem these points at any time of the year to get any prize from the list of prizes we provide mapped to tech points. Our task is to create a portal where students can check their tech points along with appropriate history, give them a redemming option as well as show the stage their current redemmed prize are in, maintain a backend whose access will be restricted to club managers, nominees and GS to allot tech points and provide prizes when redemmed by users.
+        Image caption generator combines both computer vision and natural language processing (NLP) techniques to automatically generate a textual description of an image, making it useful for tasks such as image indexing, retrieval, and accessibility for visually impaired individuals. The task of generating accurate and descriptive captions requires an understanding of both the visual content of the image and the language used to describe it. This typically involves building a convolutional neural network (CNN) for image feature extraction and a recurrent neural network (RNN) for language generation.The aim of the project is to introduce the mentees with deep learning and subsequently build upon the knowledge to build the caption generator.
 <br>
-Prerequisites:<br>
+Prerequisites:Basic proficiency in Python
+Basics of ML<br>
 
 Basic Web Development Skills (react, node js)
         <br>
@@ -73,27 +73,27 @@ Basic Web Development Skills (react, node js)
     <tbody>
     <tr>
       <td  >Week 1</td>
-      <td>Learn basics of react framework and creating API in the node js backend</td>
+      <td>Study about Deep Neural Networks and learn PyTorch</td>
     </tr>
     <tr>
       <td>Week 2</td>
-      <td>Create an authentication option with access only to IITB students along with an interface in the frontend</td>
+      <td>Understand and implement CNNs for a classification task</td>
     </tr>
     <tr>
       <td>Week 3</td>
-      <td>Develop a dashboard to show user data and integrate it by creating APIs in the backend</td>
+      <td>Study various sequence models like RNNs</td>
     </tr>
     <tr>
       <td>Week 4</td>
-      <td>Create a page to show the transaction history and integrate it by creating APIs in the backend</td>
+      <td>Buffer week</td>
     </tr>
     <tr>
       <td>Week 5</td>
-      <td>Provide the option to redeem the points to get the listed prize, and check its current status</td>
+      <td>Learn about NLP fundamentals and Word Embeddings</td>
     </tr>
      <tr>
-      <td>Week 6</td>
-      <td>Make an admin side interface for club  managers to allot tech points after any event</td>
+      <td>Week 6-9</td>
+      <td>Study different Image Captioning architectures, Implement the Image Captioning Model</td>
     </tr>
     </tbody>
     </table>

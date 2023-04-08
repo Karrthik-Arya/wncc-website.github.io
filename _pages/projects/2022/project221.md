@@ -64,7 +64,7 @@ permalink: /soc/projects/2023/project221
 <li class="display3 mb-2" style = "font-size:20px;"> Enable to read more articles as the time for reading each article will be reduced thus gather more information from different articles without losing much time.</li>
 <li class="display3 mb-2" style = "font-size:20px;"> Selecting articles allows one to process more information when reading because only the most significant aspects of the content are captured.</li>
 </ul>
-Some useful links :-
+<p class="display3 project-desc">Some useful links :-</p>
 <ul style = "list-style-type: disc">
 <li class="display3 mb-2" style = "font-size:20px;"> https://github.com/tkmanabat/Text-Summarization.</li>
 <li class="display3 mb-2" style = "font-size:20px;"> https://github.com/dmmiller612/bert-extractive-summarizer.</li>
@@ -86,7 +86,6 @@ Note for Mentees:
 <li class="display3 mb-2" style = "font-size:20px;"> Mention whether you want to work on frontend or backend. If you are not clear or want to work on both, mention that.</li>
 <li class="display3 mb-2" style = "font-size:20px;">  If you are good at UI design, write it in proposal </li>
 </ul>
-</div>
 <div class = "d-flex flex-wrap">
 <div>
     <h4 class="display3" style="margin:40px 0px 40px 0px;">Tentative Timeline :</h4>
@@ -116,7 +115,6 @@ Note for Mentees:
     </tr>
     </tbody>
     </table>
-</div>
 </div>
 {% endif %}
 {% endfor %}

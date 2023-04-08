@@ -54,17 +54,16 @@ permalink: /soc/projects/2023/project241
         
 
 A general idea of Swarm robotics can be learned from-https://en.wikipedia.org/wiki/Swarm_robotics  
-The purpose of this is to learn path planning required in the swarm robotics that is an emerging field. The algorithms to be developed for such is the only thing that is a bottleneck in this as of now. There is ample research in this domain and in this we will be doing a rudimentary algorithm to kickstart this journey
-
-        </p>
-        
+The purpose of this is to learn path planning required in the swarm robotics that is an emerging field. The algorithms to be developed for such is the only thing that is a bottleneck in this as of now. There is ample research in this domain and in this we will be doing a rudimentary algorithm to kickstart this journey        
+<br>
 <br>
 Prerequisites:
+<br>
 Enthusiasm
 Well versed in any programming language to pick up faster.
 Time commitment of approx 12-15 hours a week,might be more 
-        <br>
-    </p>
+<br>
+</p>
 </div>
 <div class = "d-flex flex-wrap">
 <div>

@@ -1,16 +1,16 @@
 ---
 layout: project
 title: Seasons of Code
-project: CodeWars v3 Development
+project: E-Commerce Website for VibSpecLab, IIT Bombay
 topics:
     - App Development, Web Development, Game Development
 mentors:
-    - Shubh Kumar & Karrthik Arya     
+    - Ojas Jain     
     
 mentees:
 - 4-6   
     
-permalink: /soc/projects/2022/project276
+permalink: /soc/projects/2023/project276
 ---
 
 <h2 class="display1 m-3 p-3 text-center project-title">{{page.project}}</h2>
@@ -51,18 +51,30 @@ permalink: /soc/projects/2022/project276
 <div >
     <p class="display3 project-desc" style = "font-size:22px;" >
         <br>
-        After the tremendous Successes of the first two iterations of CodeWars. You get the chance to develop the next iteration of the game engine (besides deciding what it should be about!). The next iteration of the event would be for the Freshies of Batch '22.
-<br>
-The Goal would not just be to postulate a fair game and develop it, but also to package into (hopefully!) an executeable which could be used on all platforms, thereby eliminating the future participants' doubts regarding installation of Python.
-<br><br>
-</p>
-<p class="display3" style = "font-size:22px;" >
-Depending on What game you come up with, the learning outcomes of this project may be a subset of : Python Development Libraries (PyGame, Tkinter), Socket Programming, Server Programming, Graphics and Game Development using Unity, Software Packaging, Git, Github
-<br>
-Successfully completing this may also carry brownie points if you plan to be a WnCC Convener ;) 
-<br>
+        The project requires us to build an e-commerce website listing for various scientific instrumentation being built inside the vibrational spectroscopy lab at IIT Bombay. The website will have the options to place orders for the products, videos to set them up and interface to use them by deployment of software packages dependent upon the type of product. It is like buying a printer from the HP website, you order the device and then download the appropriate drivers and software to use it.
+        <br>
 Prerequisites:
-Python, C++, Enthusiasm
+HTML, CSS, JS, Angular (Not very important)
+<br>
+Data Analysis of consumer influx, automated analysis of customer preferences and impact of design (Not very important)
+<br>
+Python/ MATLAB/ C++ (Not very important)
+<br>
+Github (Not very important)
+<br>
+Docker (Not very important)
+<br>
+Enthusiasm
+<br>
+Should follow deadlines and respect time commitment
+<br>
+Basic design skills (Canva/ Photoshop)
+<br>
+Eagerness to learn
+<br>
+No technical skills are required but they would be preferred.
+<br>
+Selected mentees will be creating a Github Pages personal website for their own resume as an incentive!
         <br>
     </p>
 </div>
@@ -79,19 +91,23 @@ Python, C++, Enthusiasm
     <tbody>
     <tr>
       <td  >Week 1</td>
-      <td> Posulating a game, alongwith the framework of development : Accounting for ease in installation </td>
+      <td> Understanding Github, work distribution, constant meetings, bonding time  </td>
     </tr>
     <tr>
-      <td>Week 2-4</td>
-      <td>Developing the Game Engine</td>
+      <td>Week 2-3</td>
+      <td>Basics of Website Deployment - introduction to HTML, CSS, JS. Will introduce the mentee to how e commerce websites are built, integration of payment and download interfaces</td>
     </tr>
     <tr>
-      <td>Week 5</td>
-      <td>Testing and Debugging</td>
+      <td>Week 4-5</td>
+      <td>Basics of Python and Software Package Deployment. Will introduce the mentee to deployment of drivers and software interfaces accompanying the listed products on the website</td>
     </tr>
     <tr>
       <td>Week 6</td>
-      <td>Packaging</td>
+      <td>Basics of Industrial Deployment using Docker. Will introduce the mentee to the current industry standard of building, testing and deploying applications - Docker.</td>
+    </tr>
+    <tr>
+    <td>Week 7-8</td>
+    <td>Design aspects. This is the more relaxing bit, the website will be given facelifts and then be prepared for actual deployment on the web with a robust backend interface,  Final deployment and a treat from the mentor upon successful completion</td>
     </tr>
     </tbody>
     </table>

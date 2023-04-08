@@ -9,7 +9,7 @@ mentors:
 mentees:
 - 6(freshies) + 4(sophies and above) 
     
-permalink: /soc/projects/2022/project248
+permalink: /soc/projects/2023/project248
 ---
 
 <h2 class="display1 m-3 p-3 text-center project-title">{{page.project}}</h2>

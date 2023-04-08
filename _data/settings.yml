@@ -255,7 +255,7 @@ soc-year-label:
 
 soc-items:
   #2023 projects
-  - title: "TEXT SUMMARIZATION WEB APP "
+  - title: "TEXT SUMMARIZATION WEB APP"
     image_small: "assets/images/soc/2023/item221.jpg"
     image: "assets/images/soc/2023/item221.jpg"
     url: "/soc/projects/2023/project221"
@@ -282,7 +282,7 @@ soc-items:
   - title: "Write yourself a Git!"
     image_small: "assets/images/soc/2023/item223.png"
     image: "assets/images/soc/2023/item223.png"
-    url: "/soc/projects/2022/project223"
+    url: "/soc/projects/2023/item223"
     soc-type:
       - type: "Miscellaneous"
       - type: "2023"
@@ -303,7 +303,7 @@ soc-items:
       - type: "CP"
       - type: "2023"
 
-  - title: " Developing Trading Strategy with Pine Script"
+  - title: "Developing Trading Strategy with Pine Script"
     image_small: "assets/images/soc/2023/item226.png"
     image: "assets/images/soc/2023/item226.png"
     url: "/soc/projects/2023/project226"
@@ -384,7 +384,7 @@ soc-items:
       - type: "Machine Learning"
       - type: "2023"
 
-  - title: "InstiExchange: A web marketplace for IITB"
+  - title: "InstiExchange - A web marketplace for IITB"
     image_small: "assets/images/soc/2023/item246.png"
     image: "assets/images/soc/2023/item246.png"
     url: "/soc/projects/2023/project246"
@@ -416,7 +416,7 @@ soc-items:
       - type: "Developement"
       - type: "2023"
 
-  - title: "Dive into Digital Image Processing "
+  - title: "Dive into Digital Image Processing"
     image_small: "assets/images/soc/2023/item249.png"
     image: "assets/images/soc/2023/item249.png"
     url: "/soc/projects/2023/project249"
@@ -617,6 +617,38 @@ soc-items:
     image_small: "assets/images/soc/2023/item274.jpeg"
     image: "assets/images/soc/2023/item274.jpeg"
     url: "/soc/projects/2023/project274"
+    soc-type:
+      - type: "Machine Learning"
+      - type: "2023"
+  
+  - title: "Find me out"
+    image_small: "assets/images/soc/2023/item274.jpeg"
+    image: "assets/images/soc/2023/item274.jpeg"
+    url: "/soc/projects/2023/project274"
+    soc-type:
+      - type: "Machine Learning"
+      - type: "2023"
+
+  - title: "Sign Language Recogniser"
+    image_small: "assets/images/soc/2023/item275.jpg"
+    image: "assets/images/soc/2023/item275.jpg"
+    url: "/soc/projects/2023/project275"
+    soc-type:
+      - type: "Machine Learning"
+      - type: "2023"
+
+  - title: "E-Commerce Website for VibSpecLab, IIT Bombay"
+    image_small: "assets/images/soc/2023/item276.png"
+    image: "assets/images/soc/2023/item276.png"
+    url: "/soc/projects/2023/project276"
+    soc-type:
+      - type: "Machine Learning"
+      - type: "2023"
+
+  - title: "Image Caption Generator"
+    image_small: "assets/images/soc/2023/item277.png"
+    image: "assets/images/soc/2023/item277.png"
+    url: "/soc/projects/2023/project277"
     soc-type:
       - type: "Machine Learning"
       - type: "2023"

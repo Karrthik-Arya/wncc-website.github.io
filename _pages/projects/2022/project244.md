@@ -8,7 +8,7 @@ mentors:
 mentees:
 - 4
     
-permalink: /soc/projects/2022/project244
+permalink: /soc/projects/2023/project244
 ---
 
 <h2 class="display1 m-3 p-3 text-center project-title">{{page.project}}</h2>
@@ -50,7 +50,6 @@ permalink: /soc/projects/2022/project244
     <p class="display3 project-desc" style = "font-size:22px;" >
         <br>
         We will try to understand and replicate how audio streaming works in mobile apps. This project is about to form small group on our app, and when we play music in jamming or late night, it's only one person who control what to play or others have to tell them. So in this project whenever we detect audio device is connected to any of the user's Device,the media it will play can be controlled by anyone in the small group that we formed.
-        </p>
         
 <br>
 Prerequisites:
@@ -98,10 +97,10 @@ UI/UX basics
     <tr>
       <td>Week 7</td>
       <td>add login and submission </td> 
+    </tr>
     </tbody>
     </table>
 </div>
-
 </div>
 {% endif %}
 {% endfor %}

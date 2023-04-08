@@ -66,8 +66,6 @@ There is no requirement for prior Deep Learning experience, however it would be 
 Prequisites: No prereqs, except basic C++ programming, and enthusiasm of course! Knowing C++ OOP (Classes, Friends, Inheritance) will be good-to-have, though can be picked up easily.
 <br>
 
-    
-</div>
 <div class = "d-flex flex-wrap">
 <div>
     <h4 class="display3" style="margin:40px 0px 40px 0px;">Tentative Timeline :</h4>

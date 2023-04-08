@@ -104,10 +104,6 @@ Intermediate Python Skills and a lot of Enthusiasm to learn about Deep Learning 
       <td>Week 8</td>
       <td>Build a Basic Website to deploy the project .</td>
     </tr>
-    <tr>
-      <td>Week 9</td>
-      </td>Buffer Week</td>
-    </tr>
     </tbody>
     </table>
 </div>

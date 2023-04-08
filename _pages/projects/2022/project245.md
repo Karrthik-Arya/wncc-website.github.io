@@ -60,7 +60,7 @@ The below is the assignment that all the applicants must do to be considered for
 
 You also need to submit a project proposal where you state your motivation for the project and past coding experiences in the field of Python, AI/ML and working with large codebases. 
 
-</p>
+<br>
 Prerequisites: The following are the projects:
 1. Strong programming skills in language like C/C++/Python. 
 2. Beginner-intermediate level of understanding of reinforcement leaning, machine learning and basic neural networks.

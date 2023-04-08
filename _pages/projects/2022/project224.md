@@ -65,7 +65,6 @@ Why LZ77 is cool - https://youtu.be/goOa3DGezUA?list=PLch3To-m3L-PQoaFTYMdVZkHFD
 
         
     
-</div>
 <div class = "d-flex flex-wrap">
 <div>
     <h4 class="display3" style="margin:40px 0px 40px 0px;">Tentative Timeline :</h4>
