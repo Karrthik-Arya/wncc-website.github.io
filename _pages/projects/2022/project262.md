@@ -1,17 +1,31 @@
 ---
 layout: project
 title: Seasons of Code
+<<<<<<< HEAD
 project: Economics meets Machine Learning
+=======
+project: The Watchdogs- Solving a murder mystery using Computer Vision and Data Science
+>>>>>>> b3b0deb0a670244701c12a5953b725a657d6f08b
 topics:
-    - Web Development
-    - Networks
-    - Blockchain
+    - Machine Learning
+    - Deep Learning
+    - Computer Vision
 mentors:
+<<<<<<< HEAD
     - Tejas Sanjaykumar Pagare
     - Param Rathour (190070049)
     
 mentees:
 - 4-6
+=======
+    - Agamjot Singh
+    - Aastha Sancheti
+    - Suyash Waghmare
+    
+    
+mentees:
+- 6-10
+>>>>>>> b3b0deb0a670244701c12a5953b725a657d6f08b
     
 permalink: /soc/projects/2023/project262
 ---
@@ -51,6 +65,7 @@ permalink: /soc/projects/2023/project262
     </ul>
 </div>
 <div>
+<<<<<<< HEAD
 <p class="display3" style = "font-size:22px;" >
 Such a rapid rate of data generation along with issues such as data privacy coming up, often "The project will involve implementing various Economics problems as a Markov Decision Process in a compact way as Gym (https://arxiv.org/abs/1606.01540). Later we will implement Bandit and Reinforcement Learning algorithms to solve these problems. Some economic problems that we will deal with include Matching Markets, Auctions, and allocation problems. Matching Markets has applications in ridesharing, online dating, job matching, kidney exchange, and university applications. Auctions are everywhere, from IPL team selection to online advertising, spectrum allocation to art auctions, government procurement, and online marketplaces. 
 <br>
@@ -69,6 +84,14 @@ Advanced Resources
 Michael Jordan Talk: https://youtu.be/fwOZbhQpbNg" 
 <br>
 Prereqs: Familiarity with Python. Knowledge of Probability, Statistics. Prior knowledge of Machine Learning and Economics will be helpful. <br>
+=======
+    <p class="display3 project-desc" style = "font-size:22px;" >
+        <br>
+        The scientific world is in shock after the murder of a famous scientist in the streets of Mumbai. Detective Jane has been called to investigate this high profile murder case. Looking at the tampered evidence and remnants of recordings, detective Jane thinks only the students of IIT Bombay can solve this mystery using computer vision techniques. Jane and her team are working hard on collecting evidence which the plan to release every week by collecting surveillance videos or other sources of videos, investigating hotels and nearby shops etc. We, the mentors of the project have been assigned the task to build a team which we’ve decided to call, “The Watchdogs”. We need very enthusiastic and passionate mentees to bring the scientific world to justice.
+Prereqs: Python, maybe some prev computer vision knowledge and a lot of enthusiasm 💪<br>
+References:<br>
+
+>>>>>>> b3b0deb0a670244701c12a5953b725a657d6f08b
 </p>
 </div>
 <div class ="d-flex">
@@ -83,6 +106,7 @@ Prereqs: Familiarity with Python. Knowledge of Probability, Statistics. Prior kn
   </thead>
   <tbody>
     <tr>
+<<<<<<< HEAD
       <td><strong>Week 1-2</strong></td>
       <td>Learn about different types of MDPs, Bandit Algorithms, and some RL algorithms</td>
     </tr>
@@ -106,6 +130,18 @@ Prereqs: Familiarity with Python. Knowledge of Probability, Statistics. Prior kn
       <td><strong>Week 8 </strong></td>
       <td> Benchmarking against Heuristic Approaches
 </td>
+=======
+      <td><strong>Week 0</strong></td>
+      <td>Appointing Mentees, welcoming the team, bringing everyone to the same page by briefing everyone about the high stakes in place and the need of their dedication. + Team bonding</td>
+    </tr>
+    <tr>
+      <td><strong>Week 1 onwards </strong></td>
+      <td>Detective Jane will release new clues and evidences every week and the mentees will be trained for the the first few days of the week about how to analyse the clue and then will have to implement the cv / ds techniques on their own. </td>
+    </tr>
+    <tr>
+      <td><strong>Finally  </strong></td>
+      <td>Executing the criminal + team treat(maybe)</td>
+>>>>>>> b3b0deb0a670244701c12a5953b725a657d6f08b
     </tr>
     </tbody>
     </table>
