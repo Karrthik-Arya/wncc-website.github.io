@@ -1,17 +1,19 @@
 ---
 layout: project
 title: Seasons of Code
-project: InstiCloud
+project: The Watchdogs- Solving a murder mystery using Computer Vision and Data Science
 topics:
-    - Web Development
-    - Networks
-    - Blockchain
+    - Machine Learning
+    - Deep Learning
+    - Computer Vision
 mentors:
-    - Karrthik Arya
-    - Ishit Garg
+    - Agamjot Singh
+    - Aastha Sancheti
+    - Suyash Waghmare
+    
     
 mentees:
-- 8-10
+- 6-10
     
 permalink: /soc/projects/2022/project262
 ---
@@ -53,18 +55,10 @@ permalink: /soc/projects/2022/project262
 <div>
     <p class="display3 project-desc" style = "font-size:22px;" >
         <br>
-        How much data is generated every minute across the world? You must have definitely come across the fact that 90% of world's data has been generated in the past 2 years!(From whichever year this fact is 😜) 
-        </p>
-<p class="display3" style = "font-size:22px;" >
-Such a rapid rate of data generation along with issues such as data privacy coming up, often makes people wonder are centralized data storage platforms like google drive or iCloud really the way to go?<br><br>
-
-This project aims to create a p2p data storage platform with blockchain based access control. Seems complicated? Not really…
-There would be mainly 3 aspects to the project, the first would be to build the p2p data storage platform which we would be making with Node.js  using libraries such as webRTC. Next would be to build the system for access control and this is where blockchain comes in. We would be using a smart contract to keep track of who owns the file and who has access to it. <br><br>
-So overall the concept is pretty simple, whenever you upload a file it would be broken into various parts which would be encrypted and then distributed amongst the peers connected along with making an appropriate entry in the blockchain. When you would try to access the file again the smart contract would return back the method to accessing the various segments if you are allowed access to that file. 
-Prereqs: Enthusiasm to learn( though some experience in web development might be beneficial)<br>
+        The scientific world is in shock after the murder of a famous scientist in the streets of Mumbai. Detective Jane has been called to investigate this high profile murder case. Looking at the tampered evidence and remnants of recordings, detective Jane thinks only the students of IIT Bombay can solve this mystery using computer vision techniques. Jane and her team are working hard on collecting evidence which the plan to release every week by collecting surveillance videos or other sources of videos, investigating hotels and nearby shops etc. We, the mentors of the project have been assigned the task to build a team which we’ve decided to call, “The Watchdogs”. We need very enthusiastic and passionate mentees to bring the scientific world to justice.
+Prereqs: Python, maybe some prev computer vision knowledge and a lot of enthusiasm 💪<br>
 References:<br>
-<a href='https://drive.google.com/file/d/1DvE7DSjGQ33WtH-ZVlWgEUn80b06sbec/view?usp=sharing'>https://ieeexplore.ieee.org/document/8726493/</a> (This is what we would try to implement)<br>
-<a href='https://javascript.plainenglish.io/build-a-p2p-image-sharing-app-with-webrtc-and-react-fe6b3d1976d5'>https://javascript.plainenglish.io/build-a-p2p-image-sharing-app-with-webrtc-and-react-fe6b3d1976d5</a> ( a good resource for a p2p file sharing system) <br>
+
 </p>
 </div>
 <div class ="d-flex">
@@ -79,29 +73,16 @@ References:<br>
   </thead>
   <tbody>
     <tr>
-      <td><strong>Week 1</strong></td>
-      <td>HTML, CSS, JavaScript(Brush Up) + Theoretical learning on blockchain and p2p system</td>
+      <td><strong>Week 0</strong></td>
+      <td>Appointing Mentees, welcoming the team, bringing everyone to the same page by briefing everyone about the high stakes in place and the need of their dedication. + Team bonding</td>
     </tr>
     <tr>
-      <td><strong>Week 2 </strong></td>
-      <td>Start learning Solidity and exploring Web3 </td>
+      <td><strong>Week 1 onwards </strong></td>
+      <td>Detective Jane will release new clues and evidences every week and the mentees will be trained for the the first few days of the week about how to analyse the clue and then will have to implement the cv / ds techniques on their own. </td>
     </tr>
     <tr>
-      <td><strong>Week 3-4  </strong></td>
-      <td>Learning frontend development ReactJS, React hooks, Redux</td>
-    </tr>
-    <tr>
-      <td><strong>Week 5 </strong></td>
-      <td> Learning to setup a p2p network</td>
-    </tr>
-    <tr>
-      <td><strong>Week 6 </strong></td>
-      <td>Building the UI on React along with implementing  the Smart Contract to connect with a wallet and store appropriate file info</td>
-    </tr>
-    <tr>
-      <td><strong>Week 7-8 </strong></td>
-      <td>Complete Smart Contract to check who has the access and accordingly retrieve the files. Then setup the p2p system to break and encrypt the files to store on the network
-</td>
+      <td><strong>Finally  </strong></td>
+      <td>Executing the criminal + team treat(maybe)</td>
     </tr>
     </tbody>
     </table>

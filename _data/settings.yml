@@ -518,13 +518,13 @@ soc-items:
       - type: "Development"
       - type: "2022"
 
-  - title: "InstiCloud"
-    image_small: "assets/images/soc/2022/item262.gif"
-    image: "assets/images/soc/2022/item262.gif"
+  - title: "“The Watchdogs”: Solving a murder mystery using Computer Vision and Data Science"
+    image_small: "assets/images/soc/2022/item262.png"
+    image: "assets/images/soc/2022/item262.png"
     url: "/soc/projects/2023/project262"
     soc-type:
-      - type: "Blockchain"
-      - type: "2022"
+      - type: "Machine Learning"
+      - type: "2023"
 
   - title: "ParkIn"
     image_small: "assets/images/soc/2022/item263.gif"
