@@ -1,16 +1,19 @@
 ---
 layout: project
 title: Seasons of Code
-project: Project Hash
+project: “The Watchdogs” - Solving a murder mystery using Computer Vision and Data Science
 topics:
-    - Competitive Coding
+    - Computer Vision
 mentors:
-    - Ashish Patel
+    - Agamjot Singh
+    - Aastha Sancheti
+    - Suyash Waghmare
+    - Samarjeet Singh
     
 mentees:
-- 5
+- 6-10
     
-permalink: /soc/projects/2022/project285
+permalink: /soc/projects/2023/project285
 ---
 
 <h2 class="display1 m-3 p-3 text-center project-title">{{page.project}}</h2>
@@ -51,10 +54,10 @@ permalink: /soc/projects/2022/project285
 <div>
     <p class="display3" style = "font-size:22px;" >
         <br>
-       Hash Code is a team programming competition, organized by Google, for students and professionals around the world. Among the three competitive programming competitions organized by google, namely Kickstart, Code JAM and Hash Code, he difficulty level of Hash Code is the highest. In the duration of this project we will aim at solving as many past year Hash Code problems as possible.
+     The scientific world is in shock after the murder of a famous scientist in the streets of Mumbai. Detective Jane has been called to investigate this high profile murder case. Looking at the tampered evidence and remnants of recordings, detective Jane thinks only the students of IIT Bombay can solve this mystery using computer vision techniques. Jane and her team are working hard on collecting evidence which the plan to release every week by collecting surveillance videos or other sources of videos, investigating hotels and nearby shops etc. We, the mentors of the project have been assigned the task to build a team which we’ve decided to call, “The Watchdogs”. We need very enthusiastic and passionate mentees to bring the scientific world to justice.
 <br>
 Prerequisites:
-A good background in DSA  
+Python, maybe some prev computer vision knowledge and a lot of enthusiasm 💪
         <br>
     </p>
 </div>
@@ -70,32 +73,16 @@ A good background in DSA
     </thead>
     <tbody>
     <tr>
-      <td  >Week 1</td>
-      <td> Intro to hash code, discussing few past year problems</td>
+      <td  >Week 0</td>
+      <td> Appointing Mentees, welcoming the team, bringing everyone to the same page by briefing everyone about the high stakes in place and the need of their dedication. + Team bonding</td>
     </tr>
     <tr>
-      <td>Week 2</td>
-      <td>Brush up advanced DSA concepts</td>
+      <td>Week 1-8</td>
+      <td> Detective Jane will release new clues and evidences every week and the mentees will be trained for the the first few days of the week about how to analyse the clue and then will have to implement the cv / ds techniques on their own.</td>
     </tr>
     <tr>
-      <td>Week 3</td>
-      <td>Tackle some interesting CP problems</td>
-    </tr>
-    <tr>
-      <td>Week 4</td>
-      <td>  Solve and provide original solution first Hash Code qualification round problem as a team</td>
-    </tr>
-    <tr>
-      <td>Week 5</td>
-      <td>Solve some more qualification round problems </td>
-    </tr>
-    <tr>
-      <td>Week 6</td>
-      <td>Move on to Final round problems</td>
-    </tr>
-    <tr>
-      <td>Week 7</td>
-      <td>Solve more problems and document the solutions </td>
+      <td>Week 8</td>
+      <td>Finally: Executing the criminal + team treat(maybe)</td>
     </tr>
     </tbody>
     </table>

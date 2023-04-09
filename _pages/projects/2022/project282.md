@@ -1,16 +1,16 @@
 ---
 layout: project
 title: Seasons of Code
-project: Video Super Resolution
+project: Physically Based Rendering
 topics:
-    - Machine Learning, Image Processing
+    - Game Development
 mentors:
-    - Kartik Gokhale & Hastyn Doshi
+    - Ishan Chaudhari
     
 mentees:
-- 4
+- 3
     
-permalink: /soc/projects/2022/project282
+permalink: /soc/projects/2023/project282
 ---
 
 <h2 class="display1 m-3 p-3 text-center project-title">{{page.project}}</h2>
@@ -53,20 +53,13 @@ permalink: /soc/projects/2022/project282
         <br>
         Want to watch a movie in 4k ultra HD when it was available only up to 720p? Welcome to Video Super Resolution! Here, we are going to delve into the field of super resolution using deep learning algorithms where we try to create higher resolution videos from lower resolution data. Yes, this seems baffling. You might be confused as to how is this even possible. </p>
  <p class="display3" style = "font-size:22px;" >
-Existing video super-resolution (SR) algorithms usually assume that the blur kernels in the degradation process are known and do not model the blur kernels in the restoration. However, this assumption does not hold for blind video Super Resolution and usually leads to over-smoothed super-resolved frames. We will be creating models and developing algorithms which assume an unknown blur kernel and motion fields. 
-<br>
-Through the course of this project, you will explore Machine Learning and Deep Learning techniques. You will also pick up image processing and implement some state-of-the-art techniques in this field. 
-<br>
-Needless to say, this project will be rather loaded and requires a lot of time commitment. However, the results you will obtain will be quite satisfying and the skills you will learn will be invaluable.
+"A rendering project is a creative endeavor that involves the production of realistic, high-quality visual representations of 3D objects or environments using computer software.  We will create specialized software to create a digital model of the object or environment, which is then enhanced with lighting, textures, and other visual elements to produce a nearly photorealistic scene rendered in real time.
+Starting of OpenGL and Simple Lighting Algorithms, we will build a 3D Renderer with Physically Based Rendering system as dive deep into the project. We might even end up adding some Physics and then Build Some Simple and Fun Interactive 3D Games to Showcase the Power of the Renderer and finally take a glimpse at Advanced APIs such as DirectX11 and Vulkan as a step towards industry standard Rendering techniques."
 
 <br>
 Prerequisites:
-Desire to see the project to completion and be involved in implementing state-of-the-art techniques.
-Loads of Enthusiasm :) (Goes without saying)
-Prior coding experience is recommended but not necessary.
-
-The proposal will be in the form of an assignment. Instructions are within the assignment document. Note that this project will have a steep learning curve and will be time-intensive.
-Assignment Link: <a target ='_blank' href="https://docs.google.com/document/d/1Ezg29iZ366F7_mTPoBCRQsbg8UTmSezcBiElHYm2SEw/edit?usp=sharing">https://docs.google.com/document/d/1Ezg29iZ366F7_mTPoBCRQsbg8UTmSezcBiElHYm2SEw/edit?usp=sharing</a> 
+Desire to see the project to completion and be involved in implementing "Medium C++ and Object Oriented Programming Skills Required.
+3D Modeling skills are Optional."
 
 <br>
     </p>
@@ -84,31 +77,37 @@ Assignment Link: <a target ='_blank' href="https://docs.google.com/document/d/1E
     <tbody>
     <tr>
       <td  >Week 1</td>
-      <td>Python basics + Data Analysis, Get familiar with version control (Git and Github)</td>
+      <td> Setting Up Dev Environment and Learn Basics</td>
     </tr>
     <tr>
       <td>Week 2</td>
-      <td>Introduction to Machine Learning and Associated Libraries</td>
+      <td>Rendering Meshes and Abstracting API into Classes</td>
     </tr>
     <tr>
       <td>Week 3</td>
-      <td>Deep Learning  + Some Image Processing</td>
+      <td>Working with Shaders</td>
     </tr>
     <tr>
       <td>Week 4</td>
-      <td>Implementing Convolutional Neural Networks </td>
+      <td>Implementing Materials and Texturing</td>
     </tr>
     <tr>
       <td>Week 5</td>
-      <td>Catch Up + Super Resolution with Known Blur Kernels</td>
+      <td> Making a Physically Based Shader and Optimizing It</td>
     </tr>
     <tr>
-      <td>Week 6-7</td>
-      <td>Video Super Resolution with Unknown Blur Kernels and Motion Fields</td>
+      <td>Week 6</td>
+      <td>Implementing Scene Rendering</td>
+    </tr>
+    <tr>
+      <td>Week 7</td>
+      <td>Adding Some Physics Components
+</td>
     </tr>
     <tr>
       <td>Week 8</td>
-      <td>Documenting Results + Finishing Up</td>
+      <td>Make a simple game with the Rendering
+</td>
     </tr>
     </tbody>
     </table>

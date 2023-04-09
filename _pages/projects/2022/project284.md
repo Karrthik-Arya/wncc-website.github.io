@@ -1,14 +1,15 @@
 ---
 layout: project
 title: Seasons of Code
-project: VoteChain
+project: Graph Machine Learning
 topics:
-    - Blockchain Development
+    - Machine Learning
+    - Deep Learning
 mentors:
-    - Aadish Jain & Gaurang Dev 
+    - Shlesh Gholap
     
 mentees:
-- 4 (but can take more based on SoP)
+- 5-6
     
 permalink: /soc/projects/2022/project284
 ---
@@ -50,35 +51,14 @@ permalink: /soc/projects/2022/project284
 </div>
 <div >
     <p class="display3 project-desc" style = "font-size:22px;" >
-        <br>
-        This project aims to develop a blockchain based electronic voting system in Python.
-<br>
-Why Blockchain?<br>
-Blockchains are being used to cut out the middleman and create a secure, decentralized way for service providers and customers to connect and transact safely and directly.
-<br></p>
-<p class="display3" style = "font-size:22px;" >
-Where is it important to cut the middleman? You guessed it right : It is indeed in elections
-<br>
-What can we do?<br>
-With the knowledge of Blockchain, we can create a secured, tamper-proof Electronic Voting System to avoid any adultery during elections.
-<br>
-Project Details:
-<br>
-We will start with understanding the basics of blockchain, how blockchain works, and the
-implementation of BitCoin which will include some understanding of cryptography. We will then start building upon the simulated prototype of the blockchain to understand its each building block in detail. We will simulate a blockchain while implementing vote casting, block generation, block mining, proof of work, and cryptographic signatures. It will contain basic functions for the users like view contesting candidates, cast vote which will be registered securely and anonymously, and display the result at the end.
-<br>
-All of this will be done in the form of a simulation, later this project can also be extended to creating our own blockchain (on Ganache for example) and deploying it for users if time permits.
-<br>
-It is important to note that this project might be a bit heavy on the learning side, so applicants should be well prepared for the same.
-<br>
-<br>
-Resources:
-- <a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=8978295">https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=8978295</a><br>
-- <a href="https://bitcoin.org/bitcoin.pdf">https://bitcoin.org/bitcoin.pdf</a><br>
-- <a href="https://www.tutorialspoint.com/blockchain/blockchain_proof_of_work.htm">https://www.tutorialspoint.com/blockchain/blockchain_proof_of_work.htm</a>
+        "Graph machine learning is a subfield of machine learning that involves using graph structures to represent data and learn from it. It is a type of deep learning that focuses on modeling complex relationships and dependencies between entities in a graph.
+The project starts with covering theoretical aspects of algorithms like Graph Kernals, DeepWalk, and node2vec and moves on to more sophisticated techniques like Graph Neural Networks and Graph Convolutional Networks. The later part of the project focuses on implementing research papers using Python libraries like NetworkX and PyG. 
+To look at applications of GNNs to impactful real-world use cases, visit https://medium.com/stanford-cs224w
+
+"
 <br>
 Prerequisites:<br>
-We are majorly looking for enthusiasm in students for understanding blockchain which will be judged by the amount of effort put in their proposals, though basic knowledge of python and git may help
+A fundamental grasp of deep learning and linear algebra is essential. If you have experience with PyTorch, that's even better. Prior knowledge of graph theory isn't required. 
 
 <br>
     </p>
@@ -96,27 +76,15 @@ We are majorly looking for enthusiasm in students for understanding blockchain w
     <tbody>
     <tr>
       <td  >Week 1-2</td>
-      <td>Kickstarting with Bitcoin White paper , Understanding Cryptography, Basics of Python and git</td>
+      <td>Brush up fundamentals of Deep learning and get well-equipped with PyTorch. </td>
     </tr>
     <tr>
-      <td>Week 3-4</td>
-      <td>Reading Recent Paper(s) based on E voting System and Implementation Plan for Backend</td>
+      <td>Week 3-5</td>
+      <td>Discuss the necessary theory for the project, including GNNs, while also studying the NetworkX and PyG libraries.  </td>
     </tr>
     <tr>
-      <td>Week 5-6</td>
-      <td>Implementation of important classes and identifying the required internal functions</td>
-    </tr>
-    <tr>
-      <td>Week 7</td>
-      <td>Wrapping up backend implementation</td>
-    </tr>
-    <tr>
-      <td>Week 8</td>
-      <td>Adding mentioned APIs for users</td>
-    </tr>
-    <tr>
-      <td>Bonus</td>
-      <td>UI Development and Creation of Real Blockchain on Ganache</td>
+      <td>Week 6-8</td>
+      <td>Complete the project by implementing a research paper.</td>
     </tr>
     </tbody>
     </table>

@@ -1,16 +1,15 @@
 ---
 layout: project
 title: Seasons of Code
-project: Loan Approval Prediction 
+project: App for Credit rating of Retailers in Clothing Industry  
 topics:
-    - Machine Learning
+    - App Development
 mentors:
-    - Utkarsha Patil, Yash Saraogi & Krishna Sirra
-    
+    - Onkar Borade   
 mentees:
-- 15
+- 10-12
     
-permalink: /soc/projects/2022/project279
+permalink: /soc/projects/2023/project279
 ---
 
 <h2 class="display1 m-3 p-3 text-center project-title">{{page.project}}</h2>
@@ -51,10 +50,11 @@ permalink: /soc/projects/2022/project279
 <div class = "project-desc">
     <p class="display3" style = "font-size:22px;" >
         <br>
-        This project will use Machine learning algorithms on real-time data to predict loan approval. Students will get introduced to Data science and ML. The project involves learning useful python libraries(NumPy, Pandas, Matplotlib, Seaborn), Data Preprocessing, Exploratory Data Analysis, Variable Sector. It uses different ML models (logistic regression, linear regression, SVM, etc.)
+        2 type of users: Retailers and Manufacturers. Develop a different ui for both of them. For manufacturer side he should see retailers info most importantly their credit history. Retailers should see the manufacturers data.
 <br>
-Prerequisites:
-No Prerequisite. Only Enthusiasm for learning!
+Prerequisites:<br>
+"High Enthu!
+[Having done atleast 1 coding language till now is a soft prerequisite.]"
         <br>
     </p>
 </div>
@@ -70,24 +70,28 @@ No Prerequisite. Only Enthusiasm for learning!
     </thead>
     <tbody>
     <tr>
-      <td  >Week 1-2</td>
-      <td>Basics of python and Getting familiar with python Libraries (NumPy ,Pandas, Matplotlib, Seaborn)</td>
+      <td  >Week 1</td>
+      <td>Learn basics of Github and a programming language if not done at all.</td>
     </tr>
     <tr>
-      <td>Week 3-4</td>
-      <td> Mathematics for Data Science and Data Preprocessing , EDA & variable selector</td>
+      <td>Week 2</td>
+      <td> Follow and learn basics of App-dev.</td>
     </tr>
     <tr>
-      <td>Week 5-6</td>
-      <td>Different models(logistic regression , linear regression, SVM etc)</td>
+      <td>Week 3</td>
+      <td>Build a basic application. For eg.- A weather app</td>
     </tr>
     <tr>
-      <td>Week 7</td>
-      <td>Model Selection and Recap </td>
+      <td>Week 4</td>
+      <td>Finalize UI and layout design </td>
     </tr>
     <tr>
-      <td>Week 8-9</td>
-      <td> Working on Real time data, building model for the loan prediction</td>
+      <td>Week 4-7</td>
+      <td> Code and Deploy it fully.</td>
+    </tr>
+    <tr>
+      <td>Week 8</td>
+      <td>Report making + Final bug resolving</td>
     </tr>
     </tbody>
     </table>

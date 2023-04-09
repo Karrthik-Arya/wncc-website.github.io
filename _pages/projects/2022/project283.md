@@ -1,16 +1,15 @@
 ---
 layout: project
 title: Seasons of Code
-project: Neural Style Transfer for Text and Chats
-topics:
-    - Machine Learning, NLP 
+project: A Secure Erasure Code-Based Cloud Storage System with Secure Data Forwarding
 mentors:
-    - Abhinav Raghuvanshi & Siddhesh Pawar
+    - Khushang Singla
+    - Nilabha Saha
     
 mentees:
-- 6-8
+- 4-5
     
-permalink: /soc/projects/2022/project283
+permalink: /soc/projects/2023/project283
 ---
 
 <h2 class="display1 m-3 p-3 text-center project-title">{{page.project}}</h2>
@@ -54,17 +53,16 @@ permalink: /soc/projects/2022/project283
         Text Style Transfer (TST) is an important task in natural language generation, which aims to control certain attributes in the generated text, such as politeness, emotion, humor, and many others while preserving the context. As a use case for the TST algorithms, we would be making a simple Shakespearean paraphraser (See here, it's fine if you don't get the technical terms at the start, that’s what the mentors are here for !)</p>
 
 <p class="display3" style = "font-size:22px;" >
-Stage 1<br>
-We aim to build a Machine Learning Model (a model is nothing more than a program that is backed by complex mathematical algos) that could manipulate the way you feel after reading a chunk of text. In simpler words you would be working on and learning how to make a program that could change the sentiment carried by that text without changing the content carried by the text.
-<br><br>
-Stage 2<br>
-In this project, we would be working on neural networks as well as the recently introduced transformer models for text style transfer (starting with classical methods).
-Towards the end, we would also be looking for application of style transfer algorithms to chatbots (this depends on individual progress at the end). <br>
+
+We will be implementing the following paper:
+
+https://drive.google.com/file/d/1Cu4oIsm8dE6pa63pDw5DCtOHQLxFg2H9/view?usp=drivesdk  <br>
+In this project, we will create a secure and robust distributed storage system that can be employed on the cloud. We shall ensure robustness in the sense that even if a few servers fail, there is sufficient redundancy in the data stored to successfully retrieve the data, while also ensuring that said redundancy does not occupy excessive space. We shall ensure so using a decentralised encoding scheme. Furthermore, we shall ensure that the data is kept confidential by suitable cryptographic mechanisms. We offload the hassle of key management from the users to the cloud keyservers in such a way to ensure that even the full compromise or failure of a few keyservers does not leak the encryption keys to a malicious adversary. Moreover, we also implement a proxy re-encryption scheme which allows the cloud servers, upon and only after taking permission from a user, to re-encrypt their data into an encryption of a different user's data in such a way that the cloud servers learn no information about the underlying data throughout the process.
+Our system would be developed in a way so as to put little computational load on the users and little communication overhead between the users and the cloud.
 
 <br>
-Soft Prerequisites (Desired but not necessary):<br>
-This project can be a great fit for you if you enjoy reading various genres of literature along with creative writing (Of Course enthusiasm for programming is a must ). We would also be considering a use case of author style transfer using neural networks. You should have working knowledge or some basic experience in python/C++ before applying (this needs to be mentioned in the SoP).
-It is advised to send your SoP ASAP with commenting access so that we can add feedback and also get an idea if you're fit for the project.
+ Prerequisites (Desired but not necessary):<br>
+Python is a must. You should have interest in cybersecurity. 
 
  <br>
     </p>
@@ -81,24 +79,24 @@ It is advised to send your SoP ASAP with commenting access so that we can add fe
     </thead>
     <tbody>
     <tr>
-      <td  >Week 1-2</td>
-      <td>Revisiting Python and Introduction to the transformer library and pytorch</td>
-    </tr>
-    <tr>
-      <td>Week 3</td>
-      <td>Implementing RNNs and LSTMs in pytorch </td>
+      <td  >Week 1-3</td>
+      <td>Socket programming with multiple simulta</td>
     </tr>
     <tr>
       <td>Week 4</td>
-      <td>Basics of Neural Style transfer and implementing a RNN based TST model</td>
+      <td>Complete Paper-Reading </td>
     </tr>
     <tr>
-      <td>Week 5-6</td>
-      <td> Implementing transformer based NST models</td>
+      <td>Week 5</td>
+      <td>Implement pairings over elliptic curves and the System Setupl</td>
     </tr>
     <tr>
-      <td>Week 7</td>
-      <td>Use case: Style transfer on Chats</td>
+      <td>Week 6-7.5</td>
+      <td> Set up database, Implement Data Storage, Data Forwarding, and Data Retrieval</td>
+    </tr>
+    <tr>
+      <td>Week 7.5 - 8</td>
+      <td>Final touches</td>
     </tr>
     </tbody>
     </table>

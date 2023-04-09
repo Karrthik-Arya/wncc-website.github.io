@@ -1,16 +1,18 @@
 ---
 layout: project
 title: Seasons of Code
-project: GANdualf
+project: Ray Tracing
 topics:
-    - Machine Learning, Astrophysics
+    - App Development
+    - Web Development
+    - 
 mentors:
-    - Ojaswi Jain & Sandeepan Naskar 
+    - Anand Bhaskar 
     
 mentees:
-- 6
+- 4
     
-permalink: /soc/projects/2022/project280
+permalink: /soc/projects/2023/project280
 ---
 
 <h2 class="display1 m-3 p-3 text-center project-title">{{page.project}}</h2>
@@ -51,21 +53,21 @@ permalink: /soc/projects/2022/project280
 <div>
     <p class="display3 project-desc" style = "font-size:22px;" >
         <br>
-        Goal: The development of a modified generative adversarial network (GAN) architecture to emulate the process of photometric observations of galaxies. 
-This is an area of active research, this paper might help you understand what this is all about: <a href="https://arxiv.org/abs/2012.12825">https://arxiv.org/abs/2012.12825</a>.
-</p>
-<p class="display3" style = "font-size:22px;">
-Naively, we have to develop and train a model to emulate catalogs of deep field and wide field surveys, and thus establish something that we call the transfer function.
-Here, either just a single noisy observation is or a noisy observation, and in addition a much more accurate observation is available.
-No worries if this seems cumbersome, we will start with small steps :)<br>
-Feel free to reach out in case you need relevant clarifications.<br>
+        "Path tracing is a type of ray tracing, which means we are going to shoot a ray into the world out of every pixel. For each individual ray, we are going to see what it hits and use that information to give a color to our pixel. Doing that for every pixel independently gives us our final image.
+You will be required to first build a simple raytracing engine which will be able to:
 
+Generate a PNG image of a raytraced sphere.
+Apply anti-aliasing.
+Accurately simulate different types of materials like metals and dielectrics.
+Mimic a real life camera and its features.
+
+I would be following these links:
+https://blog.demofox.org/2020/05/25/casual-shadertoy-path-tracing-1-basic-camera-diffuse-emissive/
+https://www.youtube.com/watch?v=Qz0KTGYJtUk&t=2s
+https://itc.gymkhana.iitb.ac.in/wncc/soc/projects/2022/project269.html"
 <br>
-Prerequisites:
-Familiarity with Python is a hard pre-requisite.
-If you have an idea of how machine learning algorithms work, and if you have worked with PyTorch before, awesome! 
-Some intuition of basic astrophysics, though not necessary, would be good.
-The project might be a bit fast-paced, so do evaluate your proficiency in all of these first.
+Prerequisites:<br>
+No prerequisites as such. A lot of enthusiasm and curiosity.
 <br>
     </p>
 </div>
@@ -81,20 +83,32 @@ The project might be a bit fast-paced, so do evaluate your proficiency in all of
     </thead>
     <tbody>
     <tr>
-      <td  >Week 1-3</td>
-      <td>Introduction to GANs and some Machine Learning Algorithms</td>
+      <td  >Week 1</td>
+      <td> Learn about how raytracing works and the functionalities you would be implementing.</td>
     </tr>
     <tr>
-      <td>Week 4-6</td>
-      <td> Design individual components of GANdualf, while working in teams of 2.</td>
+      <td>Week 2</td>
+      <td> 3D vector class.</td>
     </tr>
     <tr>
-      <td>Week 7-8</td>
-      <td> Integrate all components, and look for possible bugs as a single team.</td>
+      <td>Week 3</td>
+      <td>   Implementing stb_image for generating PNGs and a basic ray class.</td>
     </tr>
     <tr>
-      <td>Beyong week 8 </td>
-      <td> Fine-tune the model on various original and doctored datasets, and compile results. </td>
+      <td>Week 4 </td>
+      <td>  Implementing a simple camera class and obtaining a primitive image. </td>
+    </tr>
+    <tr>
+      <td>Week 5 </td>
+      <td> Sphere class and surface normals. </td>
+    </tr>
+    <tr>
+      <td>Week 6-7 </td>
+      <td>  Implement an interface for hittable objects and add support for multiple objects in a scene.</td>
+    </tr>
+    <tr>
+      <td>Week 8</td>
+      <td>  Antialiasing and materials and implement an advanced camera class. </td>
     </tr>
     </tbody>
     </table>
