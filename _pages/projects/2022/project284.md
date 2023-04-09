@@ -11,7 +11,7 @@ mentors:
 mentees:
 - 5-6
     
-permalink: /soc/projects/2022/project284
+permalink: /soc/projects/2023/project284
 ---
 
 <h2 class="display1 m-3 p-3 text-center project-title">{{page.project}}</h2>

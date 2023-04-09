@@ -652,11 +652,8 @@ soc-items:
     soc-type:
       - type: "Machine Learning"
       - type: "2023"
-  
-Done:
-    
-  # 2021 and earlier projects
-  - title : "Intro Full stack web development : Restaurant website "
+
+  - title : "Intro Full stack web development:Restaurant website"
     image_small: "assets/images/soc/2023/item-1.png"
     image : "assets/images/soc/2023/item-1.png"
     url: "/soc/projects/2023/project278"
@@ -664,7 +661,7 @@ Done:
      - type: "Development" 
      - type: "2023"
 
-  - title : "App for Credit rating of Retailers in Clothing Industry "
+  - title : "App for Credit rating of Retailers in Clothing Industry"
     image_small: "assets/images/soc/2023/item-2.png"
     image : "assets/images/soc/2023/item-2.png"
     url: "/soc/projects/2023/project279"
@@ -681,7 +678,7 @@ Done:
      - type: "Development"
      - type: "2023"
 
-  - title : "YOLO-Cam: Object Detection based Analytics"
+  - title : "YOLO-Cam-Object Detection based Analytics"
     image_small: "assets/images/soc/2023/item-4.png"
     image : "assets/images/soc/2023/item-4.png"
     url: "/soc/projects/2023/project281"
@@ -706,20 +703,24 @@ Done:
      - type: "2023"
 
   - title : "Graph Machine Learning"
-    image_small: "assets/images/soc/2023/item-7.jpeg"
-    image : "assets/images/soc/2023/item-7.jpeg"
+    image_small: "assets/images/soc/2023/item-7.jpg"
+    image : "assets/images/soc/2023/item-7.jpg"
     url: "/soc/projects/2023/project284"
     soc-type:
      - type: "Machine Learning"
      - type: "2023"
 
-  - title : "“The Watchdogs”: Solving a murder mystery using Computer Vision and Data Science"
-    image_small: "assets/images/soc/2023/item-8.jpeg"
-    image : "assets/images/soc/2023/item-8.jpeg"
+  - title : "“The Watchdogs” - Solving a murder mystery using Computer Vision and Data Science"
+    image_small: "assets/images/soc/2023/item-8.jpg"
+    image : "assets/images/soc/2023/item-8.jpg"
     url: "/soc/projects/2023/project285"
     soc-type:
      - type: "Machine Learning" 
      - type: "2023"
+  
+Done:
+    
+  # 2021 and earlier projects
 
   - title : "NLPlay with Transformers"
     image_small: "assets/images/soc/2021/small_item-9.png"

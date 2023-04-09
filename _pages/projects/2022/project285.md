@@ -7,8 +7,6 @@ topics:
 mentors:
     - Agamjot Singh
     - Aastha Sancheti
-    - Suyash Waghmare
-    - Samarjeet Singh
     
 mentees:
 - 6-10

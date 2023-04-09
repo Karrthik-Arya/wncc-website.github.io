@@ -1,7 +1,7 @@
 ---
 layout: project
 title: Seasons of Code
-project: YOLO-Cam - Object Detection based Analytics
+project: YOLO-Cam-Object Detection based Analytics
 topics:
     - Machine Learning
 mentors:
