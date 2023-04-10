@@ -1,16 +1,17 @@
 ---
 layout: project
 title: Seasons of Code
-project: Deep Reinforcement Learning for Equity Trading
+project: InstiNav
 topics:
-    - Machine Learning
+    - Development
 mentors:
-    - Sanyam Singhal
+    - Rishi Tunuguntla	
+    - Rishikesh Gunjal
     
 mentees:
 - 4
     
-permalink: /soc/projects/2022/project289
+permalink: /soc/projects/2023/project289
 ---
 
 <h2 class="display1 m-3 p-3 text-center project-title">{{page.project}}</h2>
@@ -51,12 +52,26 @@ permalink: /soc/projects/2022/project289
 <div class = "project-desc" style = "margin-bottom: 140px">
     <p class="display3" style = "font-size:22px;" >
         <br>
-    We will learn how does deep reinforcement learning works. We will then use it to find best trading strategies to maximize returns. Let us see if we can do better than pro-traders's strategies (aka technical analysis) :) . Some math and python programming background is all that you would need to get started with the project. 
+    The goal of this project is to develop software for identifying the road/path images for an electric shuttle on a university campus. The project involves building an image segmentation algorithm that can identify the road/path in an image captured by the shuttle's cameras. The image segmentation algorithm will be integrated into the overall system, which will guide the shuttle to its destination.
+<br>
+The project involves several steps, including data collection, pre-processing, and training the image segmentation model. The image segmentation algorithm will be evaluated and refined based on its accuracy and efficiency. The final product will be tested using a set of new images and deployed on the university campus.
+<br>
+The project involves learning several key concepts, including image processing, computer vision, and machine learning. The mentees will also learn about software development best practices and version control tools such as Git.
+<br>
+Here are some articles you can look at, for more insight:
+Qusay Sellat, SukantKishoro Bisoy, Rojalina Priyadarshini, Ankit Vidyarthi, Sandeep Kautish, Rabindra K. Barik, "Intelligent Semantic Segmentation for Self-Driving Vehicles Using Deep Learning", Computational Intelligence and Neuroscience, vol. 2022, Article ID 6390260, 10 pages, 2022. https://doi.org/10.1155/2022/6390260
+<br>
+<br>
+Here are some additional resources for mentees:
+<br>
+GitHub Repo for Image Segmentation in Python: https://github.com/ageitgey/face_recognition
+GitHub Repo for Autonomous Driving: https://github.com/udacity/self-driving-car
+YouTube Tutorial for Semantic Segmentation with TensorFlow: https://www.youtube.com/watch?v=KtYhJzr8rIU
+These resources can help mentees get started with the project and develop a deeper understanding of the concepts involved. 
 <br>
 Prerequisites:
-1. Python Programming: Prior exposure to Python is required as we would be using NumPy heavily. You should at least be comfortable with writing functions, loops, and classes.
-2. Probability: Over and above the probability knowledge from pre-JEE days, understanding of concepts like expectation, understanding of common distributions like Gaussian, Poisson would be desirable.
-3. Vector Calculus: MA109/111 recap is sufficient (mainly understand how gradient works).
+<br>
+MATLAB and Python are the preferred programming languages for this project, and experience with image processing libraries such as OpenCV, PyTorch, or TensorFlow is definitely a plus. However, if you are not confident in these areas, we encourage you to apply still!
         <br>
     </p>
 </div>
@@ -72,38 +87,28 @@ Prerequisites:
     </thead>
     <tbody>
     <tr>
-      <td  >Week 1</td>
-      <td>: RL Basics: MDP Formulation, some basic algorithms (theory). Stock market basics.</td>
+      <td  >Week 1-2</td>
+      <td>: Play around with Python/MATLAB with the necessary Image processing libraries</td>
     </tr>
     <tr>
-      <td>Week 2</td>
-      <td> Implementing the studied algorithms in Python on some toy problem from OpenAI Gym.</td>
+      <td>Week 2-3</td>
+      <td>Collect and pre-process the data
+</td>
     </tr>
     <tr>
-      <td>Week 3</td>
-      <td>Project Problem's MDP formulation+Data Scraping</td>
+      <td>Week 4-5</td>
+      <td>Feature Extraction
+</td>
     </tr>
     <tr>
-      <td>Week 4</td>
-      <td> Implementing studied algorithms for this problem and comparing the performance</td>
+      <td>Week 5-6-7</td>
+      <td> Training the model, testing and Feedback</td>
     </tr>
     <tr>
-      <td>Week 5</td>
-      <td>Going Deep: Basics of Deep Learning (theory+python)</td>
+      <td>Week 8</td>
+      <td>Buffer</td>
     </tr>
-    <tr>
-      <td>Week 6</td>
-      <td>Understanding how to use Deep Learning in RL (theory+python)</td>
-    </tr>
-    <tr>
-      <td>Week 7-8</td>
-      <td>Implementing Deep RL in our project problem</td>
-    </tr>
-    <tr>
-      <td>Week 9</td>
-      <td>Benchmarking against rule based methods for trading.</td>
-    </tr>
-    </tbody>
+       </tbody>
     </table>
 </div>
 </div>

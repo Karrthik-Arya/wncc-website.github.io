@@ -1,16 +1,16 @@
 ---
 layout: project
 title: Seasons of Code
-project: Stock Market Trend Predictor using Deep Learning
+project: Comic GPT
 topics:
     - Machine Learning, Fintech, Stock Market
 mentors:
-    - Naman Singh Rana, Dhairya Parekh & Shikhar Mundra
+    - Lakshay Gupta
     
 mentees:
-- 6
+- 4
     
-permalink: /soc/projects/2022/project288
+permalink: /soc/projects/2023/project288
 ---
 
 <h2 class="display1 m-3 p-3 text-center project-title">{{page.project}}</h2>
@@ -51,10 +51,31 @@ permalink: /soc/projects/2022/project288
 <div class = "project-desc">
     <p class="display3" style = "font-size:22px;" >
         <br>
-        This project allows the mentees to explore their interests in the complex and intriguing aspects of equity trading. This project introduces the mentees to the domain of intersection between stock market and usage of deep learning in this field. Mentees will get a chance to imlpement a paper on short term stock market price trend prediction using comprehensive deep learning system. The solution involves pre-processing of the stock market dataset, utilization of various engineering techniques and a deep learning model for the prediction. 
+        Use Large Image and Language models to create a comic generator app. Fine tune the models on your favorite styles and make a fun app you can share with your friends. 
 <br>
+We can also explore creating videos out of the comics we generate (basically text to anime😋) if time permits. 
+<br>
+We'll be making use of cutting edge diffusion models for image and video generation (think stable diffusion, modelscope, etc) and large language models like GPT3.5 and LLAMA to generate the storyline. 
+<br>
+If you think you'll just be stringing together APIs, you're mistaken. We will go into the depths of transformers and diffusers from whitepapers to their implementations so that you don't feel like you're juggling black boxes. 
+<br>
+Here's a basic version of the app you're going to make - https://sparkler.club/
+Needless to say, we'll be adding many more features. 
+<br>
+Diffusers - https://github.com/huggingface/diffusers, https://huggingface.co/docs/diffusers/index
+<br>
+https://ai.facebook.com/blog/large-language-model-llama-meta-ai/
+<br>
+https://platform.openai.com/docs/guides/completion
+        <br>
 Prerequisites:
-Enthusiasm to learn about stock market and machine learning
+No huge prereqs
+<br>
+- knowledge of python or any other programming language
+<br>
+- willingness to dirty your hands by squashing new bugs
+<br>
+- enthu
         <br>
     </p>
 </div>
@@ -70,24 +91,27 @@ Enthusiasm to learn about stock market and machine learning
     </thead>
     <tbody>
     <tr>
-      <td  >Week 1</td>
-      <td>Basics of Python + Basics of Stock Market</td>
+      <td  >Week 1-2</td>
+      <td>Playing around with Image Generation models and building mini projects like finetuning stable diffusion on your face and generating your own custom ai avatars
+</td>
     </tr>
     <tr>
-      <td>Week 2</td>
-      <td>Basics of Trading + Python Library(numpy,matplotlib)</td>
+      <td>Week 3-4</td>
+      <td>Playing around with Language Models, exploring the best prompts for our use case and also toying around with tools like Langchain
+</td>
     </tr>
     <tr>
-      <td>Week 3</td>
-      <td>Reading Research Paper + Understanding the algorithm</td>
+      <td>Week 5-6</td>
+      <td>Build a basic version of the app. Armed with the knowledge so far, you can also work on your own ideas instead of a comic generator</td>
     </tr>
     <tr>
-      <td>Week 4-5</td>
-      <td> Implementing the code </td>
+      <td>Week 7-8</td>
+      <td> Add fun features to your app like an image editor, chatbot, social sharing etc or explore the use of generative audio and video in your app. 
+Share your apps on social media and get real users. Launch your app on product hunt.  </td>
     </tr>
     <tr>
-      <td>Week 6</td>
-      <td>Debugging + Simulation</td>
+      <td>Week 9</td>
+      <td>Talk to users and make improvements in the app. </td>
     </tr>
     </tbody>
     </table>

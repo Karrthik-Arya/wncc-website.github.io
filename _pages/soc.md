@@ -7,7 +7,7 @@ permalink: /soc/
 <!-- about-soc -->
 <section class="section">
   <div class="container-fluid">
-    <h3 class="display2 p-3 text-center project-title">Checkout the 2022 projects below!!!</h3>
+    <h3 class="display2 p-3 text-center project-title">Checkout the 2023 projects below!!!</h3>
     <br>
     <div class="row">
       <div class="col-lg-10 mx-auto text-center d-flex self-align-stretch">

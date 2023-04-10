@@ -717,7 +717,48 @@ soc-items:
     soc-type:
      - type: "Machine Learning" 
      - type: "2023"
+
+  - title : "ArgueAI"
+    image_small: "assets/images/soc/2023/item-9.jpg"
+    image : "assets/images/soc/2023/item-9.jpg"
+    url: "/soc/projects/2023/project286"
+    soc-type:
+     - type: "Machine Learning" 
+     - type: "2023"
+
+  - title : "Comic GPT"
+    image_small: "assets/images/soc/2023/item-10.png"
+    image : "assets/images/soc/2023/item-10.png"
+    url: "/soc/projects/2023/project288"
+    soc-type:
+     - type: "Machine Learning" 
+     - type: "2023"
   
+  - title : "InstiNav"
+    image_small: "assets/images/soc/2023/item-11.png"
+    image : "assets/images/soc/2023/item-11.png"
+    url: "/soc/projects/2023/project289"
+    soc-type:
+     - type: "Development" 
+     - type: "2023"
+
+  
+  - title : "Face detection for attendance using AI"
+    image_small: "assets/images/soc/2023/item-12.png"
+    image : "assets/images/soc/2023/item-12.png"
+    url: "/soc/projects/2023/project290"
+    soc-type:
+     - type: "Machine Learning" 
+     - type: "2023"
+
+  - title : "Hands on Reinforcement"
+    image_small: "assets/images/soc/2023/item-13.png"
+    image : "assets/images/soc/2023/item-13.png"
+    url: "/soc/projects/2023/project291"
+    soc-type:
+     - type: "Machine Learning" 
+     - type: "2023"
+
 Done:
     
   # 2021 and earlier projects
