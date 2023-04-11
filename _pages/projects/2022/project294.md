@@ -1,17 +1,19 @@
 ---
 layout: project
 title: Seasons of Code
-project: RegExamaton
+project: Institute OnChain Voting System with ZKPs
 topics:
-    - Dev Tooling
+    - Competitive Programming
 mentors:
-    - Hrishikesh Jedhe Deshmukh
-    -	Ayush Agarwal (210050029)
+    - Nikhil Tiwari	
+    - Ananya Khandelwal
+    - Ishit Garg
+  
     
 mentees:
-- 5-6  
+- 5 
     
-permalink: /soc/projects/2023/project222
+permalink: /soc/projects/2023/project294
 ---
 
 <h2 class="display1 m-3 p-3 text-center project-title">{{page.project}}</h2>
@@ -49,19 +51,16 @@ permalink: /soc/projects/2023/project222
         {% endfor %}
     </ul>
 </div>
-<div style = "margin-bottom: 140px">
+<div>
     <p class="display3 project-desc" style = "font-size:22px;" >
-        <br>
-            "Our project is all about converting Regular Expressions to Deterministic Finite Automatas. Regular Expressions let you define complex patterns that can find, replace, or match any text you need. With just a few characters, you can unlock a world of possibilities. Automatas are powerful tools in computer science and mathematics, used to model and analyze processes that follow a strict sequence of steps. Ever heard of Turing Machine?! Most general and powerful automata is the Turing Machine: We will be looking at a specific class of automatas called Deterministic Finite Automatas(DFAs). Some popular uses of DFAs are in compiler design and formal verification. 
-
-To know more about RegEx and Automata: https://www.javatpoint.com/automata-regular-expression"
-            <br><br>
-            Pre-reqs: Familiarity with C++
-    </p>
-</div>
+        The plan is to build a transparent onchain election portal where students can vote in a specified time and their votes are encrypted on chain but verifiable using ZKPs. The number of votes won by a contestant will only be revealed once the election is over with the privacy of voter being maintained. ZKP ensures that each voter only votes once anonymously. Circom can be used to write ZK circuits. We plan to use SnarkJS to generate proofs for verification. Smart contract wallet (Account abstraction) can be used for storing votes and other information which can be made recoverable. 
+<p class="display3" style = "font-size:22px;" >
+Prerequisites : Enthusiasm and development knowledge 
+<br>
+<br>
 <div class = "d-flex flex-wrap">
 <div>
-    <h4 class="display3" style="margin:0px 0px 40px 0px;">Tentative Timeline :</h4>
+    <h4 class="display3" style="margin:40px 0px 40px 0px;">Tentative Timeline :</h4>
     <table class="table table-striped w-100">
     <thead>
         <tr>
@@ -71,37 +70,31 @@ To know more about RegEx and Automata: https://www.javatpoint.com/automata-regul
     </thead>
     <tbody>
     <tr>
-      <td >Week 1</td>
-      <td>Getting up to pace with C++, Graph Structures, String Parsing</td>
+      <td  >Week 1</td>
+      <td>Gain basic knowledge of blockchain and cryptography (ZKPs)</td>
     </tr>
     <tr>
-      <td>Week 2-3</td>
-      <td>Basics of Automata Theory and Regular Expressions</td>
+      <td>Week 2</td>
+      <td>Start building a basic smart contract capable to handle simple voting</td>
+    </tr>
+    <tr>
+      <td>Week 3</td>
+      <td>Build smart contract wallet and look for its recovery</td>
     </tr>
     <tr>
       <td>Week 4</td>
-      <td>Implementing simple Deterministic Finite Automatas</td>
-    </tr>
-    <tr>
-      <td>Week 4</td>
-      <td>Go through https://wyag.thb.lt/ and implement some of the basic commands, after which, we will start implementing feature not yet present in WYAG.</td>
+      <td>Use circom to write ZKP circuits</td>
     </tr>
     <tr>
       <td>Week 5-6</td>
-      <td>Moving on to complex regular expressions, Combining simple automatas
-</td>
+      <td>Use ZKP for verification ie.,for  post voting results, Do audit of smart contracts</td>
     </tr>
     <tr>
       <td>Week 7</td>
-      <td>Union, Intersection and Complementation of Languages</td>
-    </tr>
-    <tr>
-      <td>Week 8</td>
-      <td>Documenting the project </td>
+      <td>Build an UI and deploy</td>
     </tr>
     </tbody>
     </table>
-    
 </div>
 </div>
 {% endif %}

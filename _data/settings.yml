@@ -263,15 +263,6 @@ soc-items:
       - type: "Development"
       - type: "2023"
 
-  
-  - title: "Reg"
-    image_small: "assets/images/soc/2023/item0.png"
-    image: "assets/images/soc/2023/item0.png"
-    url: "/soc/projects/2023/project222"
-    soc-type:
-      - type: "Development"
-      - type: "2023"
-
   - title: "Competitive Programming"
     image_small: "assets/images/soc/2023/item222.jpg"
     image: "assets/images/soc/2023/item222.jpg"
@@ -748,6 +739,32 @@ soc-items:
     image_small: "assets/images/soc/2023/item-13.png"
     image : "assets/images/soc/2023/item-13.png"
     url: "/soc/projects/2023/project291"
+    soc-type:
+     - type: "Machine Learning" 
+     - type: "2023"
+
+  - title : "RegExamaton"
+    image_small: "assets/images/soc/2023/item0.png"
+    image : "assets/images/soc/2023/item0.png"
+    url: "/soc/projects/2023/project293"
+    soc-type:
+     - type: "Miscellaneous" 
+     - type: "2023"
+
+  
+  - title : "Institute OnChain Voting System with ZKPs"
+    image_small: "assets/images/soc/2023/blockchian.jpeg"
+    image : "assets/images/soc/2023/blockchian.jpeg"
+    url: "/soc/projects/2023/project294"
+    soc-type:
+     - type: "Blockchain" 
+     - type: "2023"
+
+  
+  - title : "Using Deep RL and NLP to allocate stocks in portfolio"
+    image_small: "assets/images/soc/2023/stock.jpeg"
+    image : "assets/images/soc/2023/stock.jpeg"
+    url: "/soc/projects/2023/project295"
     soc-type:
      - type: "Machine Learning" 
      - type: "2023"
