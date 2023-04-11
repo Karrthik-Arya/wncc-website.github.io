@@ -8,7 +8,7 @@ mentors:
     - Harshit Morj
     
 mentees:
-- 10
+- 5-6
     
 permalink: /soc/projects/2023/project272
 ---
@@ -58,6 +58,9 @@ https://docs.unrealengine.com/5.0/en-US/
 It's not that hard!! This guy made an open world game in 24 hours.
 https://www.youtube.com/watch?v=3DjY1T42b_M
 <br>
+PreReqs:
+<br>
+No prereqs per se but an interest in game development, 3D modeling, and a passion for creating interactive experiences.
 </div>
 <div class ="d-flex">
 <div>

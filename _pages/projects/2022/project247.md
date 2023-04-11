@@ -48,10 +48,10 @@ permalink: /soc/projects/2023/project247
     </ul>
 </div>
 <div>
-    <p class="display3 project-desc" style = "font-size:22px;" >
-        <br>
-        Humans need to predict the future trends of various sequences in the best possible manner. These sequences may be stock prices, performance parameters of start ups, life history of Li-ion batteries, etc. This helps us to make better decisions, which is of great importance for businesses and research groups alike. Sequence model prediction helps investment banks to find out the best assets to invest in, helps electric car manufacturers to keep track of the health of batteries and even helps biologists to predict the growth of animal populations. 
-        </p>
+<br>
+<br>
+<br>
+<br>
         <p class="display3" style = "font-size:22px;" >
         "The project would involve implementing a paper on application-specific homomorphic encryption, the application being computing the k nearest neighbours to a supplied query point on an encrypted database stored on the cloud.
 The mentees would learn (in reference to the paper):<br>
@@ -68,8 +68,6 @@ The mentees would learn (in reference to the paper):<br>
 Prerequisites:<br>
 - Python<br>
 Expectations: This project entails going through a paper and implementing it. Hence, a respectable amount of serious effort is expected from the mentees, including an investment of 3 - 4 hours per week.
-</p>
-</div>
 <div class = "d-flex flex-wrap ">
 <div>
     <h4 class="display3" style="margin:40px 0px 40px 0px;">Tentative Timeline :</h4>

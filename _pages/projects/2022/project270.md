@@ -54,6 +54,10 @@ permalink: /soc/projects/2023/project270
         The Project involves the development of a game engine linked with a graphics interface. We develop a sophisticated graphics system for the game using OpenGL and encase in it a physics framework including a broadphase collision detection and resolution system. Following that is a randomization algorithm that generates random levels and worlds consistent with certain laws.
         <br> 
 OpenGL: https://learnopengl.com/
+<br>
+Pre-requisites:
+<br>
+C++ at the level of CS101
 <br>    </p>
 </div>
 <div class = "d-flex flex-wrap">

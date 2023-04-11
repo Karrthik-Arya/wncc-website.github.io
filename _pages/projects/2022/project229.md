@@ -5,8 +5,7 @@ project: Speech to Speech Translation
 topics:
     - Natural Language Processing
 mentors:
-    - Siddhant Midha
-    - Vedang Asgaonkar   
+    - Swapnoneel Kayal  
 mentees:
     - 3-4 
     
@@ -64,7 +63,7 @@ Prerequisite:Hard prerequisites for the Mentees :
 - CS101 Fundamentals
 - Python Programming Proficiency (Beginner to Intermediate)
 - Must know how to work around Terminal (or Command Prompt) and Github
-
+<br>
 Soft prerequisites for the Mentees : 
 
 - Having worked with PyTorch, Keras, TensorFlow or any other equivalent ML library

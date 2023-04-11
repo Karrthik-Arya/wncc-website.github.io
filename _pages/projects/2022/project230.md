@@ -73,9 +73,10 @@ An interest in puzzles/problem - solving would also be preferred.
 Experience with the Terminal, an IDE/text editor of your choice (VSCode works) and a debugger (eg. GDB for C++) is preferred but not a strict pre-requisite.
 Of course, any previous Competitive Programming experience is more than welcome.
 
-Finally, and most importantly, we need a lot of enthusiasm from you guys! Results can be slow to show at times, but we need you all to stick with it! 
+Finally, and most importantly, we need a lot of enthusiasm from you guys! Results can be slow to show at times, but we need you all to stick with it!
 
-    </p>
+In addition to this, mentees will be expected to take part in Competitive Programming contests on various websites (2 in a week) according to their own schedule, and upsolve the problems.
+</p>
 </div>
 <div class = "d-flex flex-wrap">
 <div>
@@ -127,11 +128,12 @@ Introduce the concept of Greedy and DP algorithms and basic heuristics on how to
     </tr>
     <tr>
     <td>Week 8</td>
-    <td>Work on the weaknesses of the mentees, where they find things to be challenging and encourage them to read up on editorials and look at other people's code to improve their own.</td>
-    </tr>
-    In addition to this, mentees will be expected to take part in Competitive Programming contests on various websites (2 in a week) according to their own schedule, and upsolve the problems.
+    <td>Work on the weaknesses of the mentees, where they find things to be challenging and encourage them to read up on editorials and look at other people's code to improve their own.
 
 At the end of 8 weeks, we shall expect to solve around 100 problems from various platforms, with a good sitribution of easy, medium and hard problems.
+    </td>
+    </tr>
+
     </tbody>
     </table>
 </div>

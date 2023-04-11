@@ -238,7 +238,7 @@
 <loc>http://localhost:4000/wncc/soc/projects/2023/project221</loc>
 </url>
 <url>
-<loc>http://localhost:4000/wncc/soc/projects/2023/project222</loc>
+<loc>http://localhost:4000/wncc/project222.html</loc>
 </url>
 <url>
 <loc>http://localhost:4000/wncc/soc/projects/2023/item223</loc>
@@ -298,7 +298,7 @@
 <loc>http://localhost:4000/wncc/soc/projects/2023/project251</loc>
 </url>
 <url>
-<loc>http://localhost:4000/wncc/soc/projects/2022/project252</loc>
+<loc>http://localhost:4000/wncc/soc/projects/2023/project252</loc>
 </url>
 <url>
 <loc>http://localhost:4000/wncc/soc/projects/2023/project253</loc>
@@ -328,7 +328,7 @@
 <loc>http://localhost:4000/wncc/soc/projects/2023/project261</loc>
 </url>
 <url>
-<loc>http://localhost:4000/wncc/project262.html</loc>
+<loc>http://localhost:4000/wncc/soc/projects/2023/project262</loc>
 </url>
 <url>
 <loc>http://localhost:4000/wncc/soc/projects/2023/project263</loc>
@@ -413,6 +413,9 @@
 </url>
 <url>
 <loc>http://localhost:4000/wncc/soc/projects/2023/project291</loc>
+</url>
+<url>
+<loc>http://localhost:4000/wncc/soc/projects/2023/project292</loc>
 </url>
 <url>
 <loc>http://localhost:4000/wncc/events/event/qna-with-kalpesh/</loc>

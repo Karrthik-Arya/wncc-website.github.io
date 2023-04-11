@@ -1,17 +1,17 @@
 ---
 layout: project
 title: Seasons of Code
-project: Competitive Programming
+project: Reg
 topics:
-    - Competitive Programming
+    - Dev Tooling
 mentors:
-    - Virendra Kabra
-  
+    - Hrishikesh Jedhe Deshmukh
+    -	Ayush Agarwal (210050029)
     
 mentees:
-- 6  
+- 5-6  
     
-permalink: /soc/projects/2023/project222
+permalink: /soc/projects/2022/project222
 ---
 
 <h2 class="display1 m-3 p-3 text-center project-title">{{page.project}}</h2>
@@ -49,23 +49,19 @@ permalink: /soc/projects/2023/project222
         {% endfor %}
     </ul>
 </div>
-<div>
+<div style = "margin-bottom: 140px">
     <p class="display3 project-desc" style = "font-size:22px;" >
-        The main goal is to get comfortable with commonly used algorithms and data structures for CP.
-
-Specifics of Week 5, 6, 7, 8 are subject to change. These weeks will coincide with vacations, and thus we will plan to take up working on the more complex features towards the end.
-<p class="display3" style = "font-size:22px;" >
-Resources:
- Online resources include cp-algorithms, CSES and GFG, among others.
         <br>
-Prerequisites : CS101
-</div>
-<br>
+            "Our project is all about converting Regular Expressions to Deterministic Finite Automatas. Regular Expressions let you define complex patterns that can find, replace, or match any text you need. With just a few characters, you can unlock a world of possibilities. Automatas are powerful tools in computer science and mathematics, used to model and analyze processes that follow a strict sequence of steps. Ever heard of Turing Machine?! Most general and powerful automata is the Turing Machine: We will be looking at a specific class of automatas called Deterministic Finite Automatas(DFAs). Some popular uses of DFAs are in compiler design and formal verification. 
 
-<br>
+To know more about RegEx and Automata: https://www.javatpoint.com/automata-regular-expression"
+            <br><br>
+            Pre-reqs: Familiarity with C++
+    </p>
+</div>
 <div class = "d-flex flex-wrap">
 <div>
-    <h4 class="display3" style="margin:40px 0px 40px 0px;">Tentative Timeline :</h4>
+    <h4 class="display3" style="margin:0px 0px 40px 0px;">Tentative Timeline :</h4>
     <table class="table table-striped w-100">
     <thead>
         <tr>
@@ -75,38 +71,37 @@ Prerequisites : CS101
     </thead>
     <tbody>
     <tr>
-      <td  >Week 1</td>
-      <td>C++ STL Basics</td>
+      <td >Week 1</td>
+      <td>Getting up to pace with C++, Graph Structures, String Parsing</td>
     </tr>
     <tr>
-      <td>Week 2</td>
-      <td>Sorting and Searching </td>
-    </tr>
-    <tr>
-      <td>Week 3</td>
-      <td>Graph Algorithms</td>
+      <td>Week 2-3</td>
+      <td>Basics of Automata Theory and Regular Expressions</td>
     </tr>
     <tr>
       <td>Week 4</td>
-      <td>Divide-Conquer and Greedy Paradigms</td>
+      <td>Implementing simple Deterministic Finite Automatas</td>
     </tr>
     <tr>
-      <td>Week 5</td>
-      <td>Dynamic Programming</td>
+      <td>Week 4</td>
+      <td>Go through https://wyag.thb.lt/ and implement some of the basic commands, after which, we will start implementing feature not yet present in WYAG.</td>
     </tr>
     <tr>
-      <td>Week 6</td>
-      <td>Range Queries</td>
+      <td>Week 5-6</td>
+      <td>Moving on to complex regular expressions, Combining simple automatas
+</td>
     </tr>
     <tr>
       <td>Week 7</td>
-      <td>Flows</td>
+      <td>Union, Intersection and Complementation of Languages</td>
     </tr>
     <tr>
       <td>Week 8</td>
-      <td>Problems</td>
+      <td>Documenting the project </td>
+    </tr>
     </tbody>
     </table>
+    
 </div>
 </div>
 {% endif %}

@@ -49,9 +49,6 @@ permalink: /soc/projects/2023/project282
     </ul>
 </div>
 <div>
-    <p class="display3 project-desc" style = "font-size:22px;" >
-        <br>
-        Want to watch a movie in 4k ultra HD when it was available only up to 720p? Welcome to Video Super Resolution! Here, we are going to delve into the field of super resolution using deep learning algorithms where we try to create higher resolution videos from lower resolution data. Yes, this seems baffling. You might be confused as to how is this even possible. </p>
  <p class="display3" style = "font-size:22px;" >
 "A rendering project is a creative endeavor that involves the production of realistic, high-quality visual representations of 3D objects or environments using computer software.  We will create specialized software to create a digital model of the object or environment, which is then enhanced with lighting, textures, and other visual elements to produce a nearly photorealistic scene rendered in real time.
 Starting of OpenGL and Simple Lighting Algorithms, we will build a 3D Renderer with Physically Based Rendering system as dive deep into the project. We might even end up adding some Physics and then Build Some Simple and Fun Interactive 3D Games to Showcase the Power of the Renderer and finally take a glimpse at Advanced APIs such as DirectX11 and Vulkan as a step towards industry standard Rendering techniques."

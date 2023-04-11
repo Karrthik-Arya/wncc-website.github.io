@@ -55,8 +55,6 @@ permalink: /soc/projects/2023/project277
 <br>
 Prerequisites:Basic proficiency in Python
 Basics of ML<br>
-
-Basic Web Development Skills (react, node js)
         <br>
     </p>
 </div>

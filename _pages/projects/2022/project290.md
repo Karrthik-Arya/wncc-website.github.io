@@ -6,6 +6,7 @@ topics:
     - Quantitative Modelling, Data Science
 mentors:
     - Akash Prasad
+    - Tushaar Jhamtani
     
 mentees:
 - 3

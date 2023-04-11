@@ -64,8 +64,10 @@ Suggested reading materials and resources for mentees to gain context and spark 
 
     4.TensorFlow and Keras documentation and tutorials <br>
 
-    5.PyTorch documentation and tutorials" <br>
-
+    5.PyTorch documentation and tutorials"<br>
+<br>
+Pre-resuisites:
+<br>
     "CS101
 Statement of Purpose:<br>
 In your proposal, mention the following:<br>

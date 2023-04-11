@@ -55,6 +55,9 @@ permalink: /soc/projects/2023/project257
 
 A little more information (which you can very well ignore if I grabbed your attention from the above paragraph alone):
 We will start the project using three well-known approaches viz., Mendenhall's Characteristic Curves of Composition, Kilgariff's Chi-Squared Method and John Burrow's Delta Method. Then, we shall move on to build a machine learning model, experimenting and evaluating accuracies of different models, to come to the best model that does our job.<br>
+Pre-requsites: <br>
+Any experience in python will be appreciated but not necessary.
+Enthusiasm to explore machine learning (doesn't matter if it is your first time).
 </p>
 </div>
 <br>

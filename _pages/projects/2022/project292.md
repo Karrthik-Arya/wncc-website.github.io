@@ -1,17 +1,17 @@
 ---
 layout: project
 title: Seasons of Code
-project: Dive into the World of Quant
+project: Competitive Programming
 topics:
-    - Automata Theory 
+    - Competitive Programming
 mentors:
-    - Prajwal Raut
-    - Sahil Khan (200020112)
+    - Virendra Kabra
+  
     
 mentees:
-- 10
+- 6  
     
-permalink: /soc/projects/2023/project269
+permalink: /soc/projects/2023/project292
 ---
 
 <h2 class="display1 m-3 p-3 text-center project-title">{{page.project}}</h2>
@@ -49,18 +49,19 @@ permalink: /soc/projects/2023/project269
         {% endfor %}
     </ul>
 </div>
-<div >
+<div>
     <p class="display3 project-desc" style = "font-size:22px;" >
-The project majorly focuses on developing quant models from basics which would automate the trading system. Models would be tested on various parameters and performance. Minimum number of models with required performance would have to be completed for completing the project, participation in different quant competitions to enhance learning.<br>
-Prerequisites:
-A bit of technical analysis(can learn along the project), and ofcourse enthu :)</p>
+        The main goal is to get comfortable with commonly used algorithms and data structures for CP.
 
+Specifics of Week 5, 6, 7, 8 are subject to change. These weeks will coincide with vacations, and thus we will plan to take up working on the more complex features towards the end.
+<p class="display3" style = "font-size:22px;" >
+Resources:
+Online resources include cp-algorithms,
+<br> CSES and GFG, among others.
 <br>
-
-
-        
-    
-</div>
+Prerequisites : CS101
+<br>
+<br>
 <div class = "d-flex flex-wrap">
 <div>
     <h4 class="display3" style="margin:40px 0px 40px 0px;">Tentative Timeline :</h4>
@@ -74,26 +75,36 @@ A bit of technical analysis(can learn along the project), and ofcourse enthu :)<
     <tbody>
     <tr>
       <td  >Week 1</td>
-      <td>Brushing up of technical and fundamental analysis
-               Setup Project Workspace
-
-</td>
+      <td>C++ STL Basics</td>
     </tr>
     <tr>
-      <td>Week 2-3</td>
-      <td> Understanding of models in quant, Developing own models and participating in quant competition 
-</td>
+      <td>Week 2</td>
+      <td>Sorting and Searching </td>
     </tr>
     <tr>
-      <td>Week 4-5</td>
-      <td>Different methods for improving the performance of models, Using complex operators for developing and testing models.
-</td>
+      <td>Week 3</td>
+      <td>Graph Algorithms</td>
     </tr>
     <tr>
-      <td>Week 6-7</td>
-      <td>Buffer, Wrap up with completing a given minimum number of models,and reducing correlations.
-</td>
+      <td>Week 4</td>
+      <td>Divide-Conquer and Greedy Paradigms</td>
     </tr>
+    <tr>
+      <td>Week 5</td>
+      <td>Dynamic Programming</td>
+    </tr>
+    <tr>
+      <td>Week 6</td>
+      <td>Range Queries</td>
+    </tr>
+    <tr>
+      <td>Week 7</td>
+      <td>Flows</td>
+    </tr>
+    <tr>
+      <td>Week 8</td>
+      <td>Problems</td>
+      </tr>
     </tbody>
     </table>
 </div>

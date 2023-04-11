@@ -263,20 +263,21 @@ soc-items:
       - type: "Development"
       - type: "2023"
 
-  - title: "RegExamaton"
-    image_small: "assets/images/soc/2023/item269.png"
-    image: "assets/images/soc/2023/item269.png"
-    url: "/soc/projects/2023/project269"
+  
+  - title: "Reg"
+    image_small: "assets/images/soc/2023/item0.png"
+    image: "assets/images/soc/2023/item0.png"
+    url: "/soc/projects/2023/project222"
     soc-type:
-      - type: "CP"
+      - type: "Development"
       - type: "2023"
 
   - title: "Competitive Programming"
     image_small: "assets/images/soc/2023/item222.jpg"
     image: "assets/images/soc/2023/item222.jpg"
-    url: "/soc/projects/2023/project222"
+    url: "/soc/projects/2023/project292"
     soc-type:
-      - type: "Machine Learning"
+      - type: "CP"
       - type: "2023"
 
   - title: "Write yourself a Git!"
@@ -300,7 +301,7 @@ soc-items:
     image: "assets/images/soc/2023/item225.jpg"
     url: "/soc/projects/2023/project225"
     soc-type:
-      - type: "CP"
+      - type: "Miscellaneous"
       - type: "2023"
 
   - title: "Developing Trading Strategy with Pine Script"
@@ -324,7 +325,7 @@ soc-items:
     image: "assets/images/soc/2023/item228.png"
     url: "/soc/projects/2023/project228"
     soc-type:
-      - type: "Development"
+      - type: "Machine Learning"
       - type: "2023"
 
   - title: "Speech to Speech Translation"
@@ -453,7 +454,7 @@ soc-items:
     image: "assets/images/soc/2023/item253.png"
     url: "/soc/projects/2023/project253"
     soc-type:
-      - type: "CP"
+      - type: "Miscellaneous"
       - type: "2023"
 
  
@@ -482,7 +483,7 @@ soc-items:
       - type: "Machine Learning"
       - type: "2023"
 
-  - title: "Breakout Genius: Using RL to Build an AI Game Master"
+  - title: "Breakout Genius - Using RL to Build an AI Game Master"
     image_small: "assets/images/soc/2023/item258.jpg"
     image: "assets/images/soc/2023/item258.jpg"
     url: "/soc/projects/2023/project258"
@@ -505,7 +506,7 @@ soc-items:
     image: "assets/images/soc/2023/item260.jpeg"
     url: "/soc/projects/2023/project260"
     soc-type:
-      - type: "Machine Learning"
+      - type: "Development"
       - type: "2023"
 
 
@@ -514,7 +515,7 @@ soc-items:
     image: "assets/images/soc/2023/item261.jpg"
     url: "/soc/projects/2023/project261"
     soc-type:
-      - type: "CP"
+      - type: "Miscellaneous"
       - type: "2023"
 
   - title: "Economics meets Machine Learning"
@@ -530,20 +531,20 @@ soc-items:
     image: "assets/images/soc/2023/item263.jpg"
     url: "/soc/projects/2023/project263"
     soc-type:
-      - type: "Machine Learning"
+      - type: "Development"
       - type: "2023"
 
   - title: "Computer vision for driverless vehicles"
-    image_small: "assets/images/soc/2023/item264.png"
-    image: "assets/images/soc/2023/item264.png"
+    image_small: "assets/images/soc/2023/itemss.jpg"
+    image: "assets/images/soc/2023/itemss.jpg"
     url: "/soc/projects/2023/project264"
     soc-type:
       - type: "Machine Learning"
       - type: "2023"
 
-  - title: "AudioHive : A Social Audio App"
-    image_small: "assets/images/soc/2023/item265.jpg"
-    image: "assets/images/soc/2023/item265.jpg"
+  - title: "AudioHive A Social Audio App"
+    image_small: "assets/images/soc/2023/audio_hive.png"
+    image: "assets/images/soc/2023/audio_hive.png"
     url: "/soc/projects/2023/project265"
     soc-type:
       - type: "Machine Learning"
@@ -562,7 +563,7 @@ soc-items:
     image: "assets/images/soc/2023/item267.jpeg"
     url: "/soc/projects/2023/project267"
     soc-type:
-      - type: "Machine Learning"
+      - type: "Development"
       - type: "2023"
 
   - title: "NFTs Where Art and Tech Converge"
@@ -570,7 +571,7 @@ soc-items:
     image: "assets/images/soc/2023/item268.jpeg"
     url: "/soc/projects/2023/project268"
     soc-type:
-      - type: "Machine Learning"
+      - type: "Blockchain"
       - type: "2023"
 
   - title: "Dive into the World of Quant"
@@ -578,7 +579,7 @@ soc-items:
     image: "assets/images/soc/2023/item269.png"
     url: "/soc/projects/2023/project269"
     soc-type:
-      - type: "Machine Learning"
+      - type: "Miscellaneous"
       - type: "2023"
 
   - title: "COLLIDE"
@@ -586,7 +587,7 @@ soc-items:
     image: "assets/images/soc/2023/item270.png"
     url: "/soc/projects/2023/project270"
     soc-type:
-      - type: "Machine Learning"
+      - type: "Development"
       - type: "2023"
   
   - title: "Image Processing and Object Detection"
@@ -602,21 +603,13 @@ soc-items:
     image: "assets/images/soc/2023/item272.jpg"
     url: "/soc/projects/2023/project272"
     soc-type:
-      - type: "Machine Learning"
+      - type: "Development"
       - type: "2023"
 
   - title: "Human Pose Estimation"
     image_small: "assets/images/soc/2023/item273.png"
     image: "assets/images/soc/2023/item273.png"
     url: "/soc/projects/2023/project273"
-    soc-type:
-      - type: "Machine Learning"
-      - type: "2023"
-
-  - title: "Find me out"
-    image_small: "assets/images/soc/2023/item274.jpeg"
-    image: "assets/images/soc/2023/item274.jpeg"
-    url: "/soc/projects/2023/project274"
     soc-type:
       - type: "Machine Learning"
       - type: "2023"
@@ -642,7 +635,7 @@ soc-items:
     image: "assets/images/soc/2023/item276.png"
     url: "/soc/projects/2023/project276"
     soc-type:
-      - type: "Machine Learning"
+      - type: "Development"
       - type: "2023"
 
   - title: "Image Caption Generator"
@@ -666,7 +659,7 @@ soc-items:
     image : "assets/images/soc/2023/item-2.png"
     url: "/soc/projects/2023/project279"
     soc-type:
-     - type: "Developement" 
+     - type: "Development" 
      - type: "2023"
 
   - title : "Ray Tracing"
@@ -691,7 +684,7 @@ soc-items:
     image : "assets/images/soc/2023/item-5.jpg"
     url: "/soc/projects/2023/project282"
     soc-type:
-     - type: "Development" 
+     - type: "Miscellaneous" 
      - type: "2023"
 
   - title : "A Secure Erasure Code-Based Cloud Storage System with Secure Data Forwarding"

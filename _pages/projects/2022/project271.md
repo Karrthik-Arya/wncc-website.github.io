@@ -77,22 +77,18 @@ Prerequisites: N/A
     <tbody>
     <tr>
       <td  >Week 1-2</td>
-      <td>Basics of Machine learning</td>
+      <td>Basics of Python, Understanding various  modules/libraries</td>
     </tr>
     <tr>
       <td>Week 3-4</td>
-      <td> Study convolutional neural networks and basics of image processing, First checkpoint: simple machine learning task based on convolution neural networks 
+      <td>Understanding  edge detection algorithms, Implementation of model and final projects 
 </td>
     </tr>
     <tr>
-      <td>Week 5-6</td>
-      <td>First major checkpoint task begins - implement the SRCNN network, towards the end of week 6</td>
+      <td>Week 5</td>
+      <td>Final implementation, debugging and deployment on web</td>
     </tr>
-    <tr>
-      <td>Week 7-8</td>
-      <td> Study Dual Attention Networks. Begin implementation of the paper: https://arxiv.org/pdf/2110.12114.pdf, Work on the implementation of the paper. It is likely that the full implementation wouldn't be done by the time the project is finished, in that case we'll call off the project possibly in it's training stages itself rather than waiting for full optimization of the model</td>
-    </tr>
-    </tbody>
+       </tbody>
     </table>
 </div>
 </div>

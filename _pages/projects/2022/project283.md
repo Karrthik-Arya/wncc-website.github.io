@@ -48,9 +48,6 @@ permalink: /soc/projects/2023/project283
     </ul>
 </div>
 <div>
-    <p class="display3 project-desc" style = "font-size:22px;" >
-        <br>
-        Text Style Transfer (TST) is an important task in natural language generation, which aims to control certain attributes in the generated text, such as politeness, emotion, humor, and many others while preserving the context. As a use case for the TST algorithms, we would be making a simple Shakespearean paraphraser (See here, it's fine if you don't get the technical terms at the start, that’s what the mentors are here for !)</p>
 
 <p class="display3" style = "font-size:22px;" >
 
@@ -104,4 +101,6 @@ Python is a must. You should have interest in cybersecurity.
 </div>
 {% endif %}
 {% endfor %}
+ 
+
  

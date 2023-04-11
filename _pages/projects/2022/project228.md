@@ -57,7 +57,6 @@ permalink: /soc/projects/2023/project228
 
 The project will employ advanced image processing techniques, including feature extraction and post-processing, to create stunning cartoon-style renderings of your favorite photos. In addition, we will integrate our model into a web application where you can easily upload your photos and receive the cartoonized version as output. Our user-friendly interface and seamless integration of machine learning algorithms will make our web application perfect for hobbyists and professionals alike.
 <br>
-It would be good if mentees go through above reading materials. But this is not the pre-requisite.
 Prerequisites: Enthusiasm!
     </p>
 </div>
