@@ -1,12 +1,13 @@
-current directory: /home/ishit_garg/Desktop/wncc-wesbite/wncc-website.github.io/vendor/bundle/ruby/3.0.0/gems/sassc-2.3.0/ext
-/home/ishit_garg/.rbenv/versions/3.0.1/bin/ruby -I /home/ishit_garg/.rbenv/versions/3.0.1/lib/ruby/3.0.0 -r ./siteconf20230407-8298-2luf3r.rb extconf.rb
+current directory: /home/shivesh/Documents/Github/wncc-website.github.io/vendor/bundle/ruby/3.0.0/gems/sassc-2.3.0/ext
+/usr/bin/ruby3.0 -I /usr/lib/ruby/vendor_ruby -r ./siteconf20230412-10534-4iplfj.rb extconf.rb
 creating Makefile
 
-current directory: /home/ishit_garg/Desktop/wncc-wesbite/wncc-website.github.io/vendor/bundle/ruby/3.0.0/gems/sassc-2.3.0/ext
+current directory: /home/shivesh/Documents/Github/wncc-website.github.io/vendor/bundle/ruby/3.0.0/gems/sassc-2.3.0/ext
 make DESTDIR\= clean
 
-current directory: /home/ishit_garg/Desktop/wncc-wesbite/wncc-website.github.io/vendor/bundle/ruby/3.0.0/gems/sassc-2.3.0/ext
+current directory: /home/shivesh/Documents/Github/wncc-website.github.io/vendor/bundle/ruby/3.0.0/gems/sassc-2.3.0/ext
 make DESTDIR\=
+compiling ./libsass/src/memory/SharedPtr.cpp
 compiling ./libsass/src/ast.cpp
 compiling ./libsass/src/ast2c.cpp
 compiling ./libsass/src/ast_fwd_decl.cpp
@@ -49,7 +50,6 @@ compiling ./libsass/src/inspect.cpp
 compiling ./libsass/src/json.cpp
 compiling ./libsass/src/lexer.cpp
 compiling ./libsass/src/listize.cpp
-compiling ./libsass/src/memory/SharedPtr.cpp
 compiling ./libsass/src/operators.cpp
 compiling ./libsass/src/output.cpp
 compiling ./libsass/src/parser.cpp
@@ -73,6 +73,6 @@ compiling ./libsass/src/util_string.cpp
 compiling ./libsass/src/values.cpp
 linking shared-object sassc/libsass.so
 
-current directory: /home/ishit_garg/Desktop/wncc-wesbite/wncc-website.github.io/vendor/bundle/ruby/3.0.0/gems/sassc-2.3.0/ext
+current directory: /home/shivesh/Documents/Github/wncc-website.github.io/vendor/bundle/ruby/3.0.0/gems/sassc-2.3.0/ext
 make DESTDIR\= install
-/usr/bin/install -c -m 0755 libsass.so ./.gem.20230407-8298-mj2mp3/sassc
+/usr/bin/install -c -m 0755 libsass.so ./.gem.20230412-10534-jfxzm9/sassc

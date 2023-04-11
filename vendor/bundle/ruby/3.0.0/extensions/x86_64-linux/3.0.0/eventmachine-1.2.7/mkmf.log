@@ -1,7 +1,7 @@
 "pkg-config --exists openssl"
 | pkg-config --libs openssl
 => "-lssl -lcrypto\n"
-"gcc -o conftest -I/home/ishit_garg/.rbenv/versions/3.0.1/include/ruby-3.0.0/x86_64-linux -I/home/ishit_garg/.rbenv/versions/3.0.1/include/ruby-3.0.0/ruby/backward -I/home/ishit_garg/.rbenv/versions/3.0.1/include/ruby-3.0.0 -I. -I/home/ishit_garg/.rbenv/versions/3.0.1/include    -O3 -ggdb3 -Wall -Wextra -Wdeprecated-declarations -Wduplicated-cond -Wimplicit-function-declaration -Wimplicit-int -Wmisleading-indentation -Wpointer-arith -Wwrite-strings -Wimplicit-fallthrough=0 -Wmissing-noreturn -Wno-cast-function-type -Wno-constant-logical-operand -Wno-long-long -Wno-missing-field-initializers -Wno-overlength-strings -Wno-packed-bitfield-compat -Wno-parentheses-equality -Wno-self-assign -Wno-tautological-compare -Wno-unused-parameter -Wno-unused-value -Wsuggest-attribute=format -Wsuggest-attribute=noreturn -Wunused-variable  -fPIC conftest.c  -L. -L/home/ishit_garg/.rbenv/versions/3.0.1/lib -Wl,-rpath,/home/ishit_garg/.rbenv/versions/3.0.1/lib -L. -L/home/ishit_garg/.rbenv/versions/3.0.1/lib  -fstack-protector-strong -rdynamic -Wl,-export-dynamic     -Wl,-rpath,/home/ishit_garg/.rbenv/versions/3.0.1/lib -L/home/ishit_garg/.rbenv/versions/3.0.1/lib -lruby  -lm   -lc"
+"x86_64-linux-gnu-gcc -o conftest -I/usr/include/x86_64-linux-gnu/ruby-3.0.0 -I/usr/include/ruby-3.0.0/ruby/backward -I/usr/include/ruby-3.0.0 -I. -Wdate-time -D_FORTIFY_SOURCE=2   -g -O2 -ffile-prefix-map=/build/ruby3.0-p8XSIY/ruby3.0-3.0.2=. -fstack-protector-strong -Wformat -Werror=format-security -fPIC conftest.c  -L. -L/usr/lib/x86_64-linux-gnu -L. -Wl,-Bsymbolic-functions -Wl,-z,relro -Wl,-z,now -fstack-protector-strong -rdynamic -Wl,-export-dynamic     -lruby-3.0  -lm   -lc"
 checked program was:
 /* begin */
 1: #include "ruby.h"
@@ -12,7 +12,7 @@ checked program was:
 6: }
 /* end */
 
-"gcc -o conftest -I/home/ishit_garg/.rbenv/versions/3.0.1/include/ruby-3.0.0/x86_64-linux -I/home/ishit_garg/.rbenv/versions/3.0.1/include/ruby-3.0.0/ruby/backward -I/home/ishit_garg/.rbenv/versions/3.0.1/include/ruby-3.0.0 -I. -I/home/ishit_garg/.rbenv/versions/3.0.1/include    -O3 -ggdb3 -Wall -Wextra -Wdeprecated-declarations -Wduplicated-cond -Wimplicit-function-declaration -Wimplicit-int -Wmisleading-indentation -Wpointer-arith -Wwrite-strings -Wimplicit-fallthrough=0 -Wmissing-noreturn -Wno-cast-function-type -Wno-constant-logical-operand -Wno-long-long -Wno-missing-field-initializers -Wno-overlength-strings -Wno-packed-bitfield-compat -Wno-parentheses-equality -Wno-self-assign -Wno-tautological-compare -Wno-unused-parameter -Wno-unused-value -Wsuggest-attribute=format -Wsuggest-attribute=noreturn -Wunused-variable  -fPIC conftest.c  -L. -L/home/ishit_garg/.rbenv/versions/3.0.1/lib -Wl,-rpath,/home/ishit_garg/.rbenv/versions/3.0.1/lib -L. -L/home/ishit_garg/.rbenv/versions/3.0.1/lib  -fstack-protector-strong -rdynamic -Wl,-export-dynamic     -Wl,-rpath,/home/ishit_garg/.rbenv/versions/3.0.1/lib -L/home/ishit_garg/.rbenv/versions/3.0.1/lib -lruby -lssl -lcrypto -lm   -lc"
+"x86_64-linux-gnu-gcc -o conftest -I/usr/include/x86_64-linux-gnu/ruby-3.0.0 -I/usr/include/ruby-3.0.0/ruby/backward -I/usr/include/ruby-3.0.0 -I. -Wdate-time -D_FORTIFY_SOURCE=2   -g -O2 -ffile-prefix-map=/build/ruby3.0-p8XSIY/ruby3.0-3.0.2=. -fstack-protector-strong -Wformat -Werror=format-security -fPIC conftest.c  -L. -L/usr/lib/x86_64-linux-gnu -L. -Wl,-Bsymbolic-functions -Wl,-z,relro -Wl,-z,now -fstack-protector-strong -rdynamic -Wl,-export-dynamic     -lruby-3.0 -lssl -lcrypto -lm   -lc"
 checked program was:
 /* begin */
 1: #include "ruby.h"
@@ -37,7 +37,7 @@ libs: -lssl -lcrypto
 
 have_library: checking for -lcrypto... -------------------- yes
 
-"gcc -o conftest -I/home/ishit_garg/.rbenv/versions/3.0.1/include/ruby-3.0.0/x86_64-linux -I/home/ishit_garg/.rbenv/versions/3.0.1/include/ruby-3.0.0/ruby/backward -I/home/ishit_garg/.rbenv/versions/3.0.1/include/ruby-3.0.0 -I.  -I/home/ishit_garg/.rbenv/versions/3.0.1/include    -O3 -ggdb3 -Wall -Wextra -Wdeprecated-declarations -Wduplicated-cond -Wimplicit-function-declaration -Wimplicit-int -Wmisleading-indentation -Wpointer-arith -Wwrite-strings -Wimplicit-fallthrough=0 -Wmissing-noreturn -Wno-cast-function-type -Wno-constant-logical-operand -Wno-long-long -Wno-missing-field-initializers -Wno-overlength-strings -Wno-packed-bitfield-compat -Wno-parentheses-equality -Wno-self-assign -Wno-tautological-compare -Wno-unused-parameter -Wno-unused-value -Wsuggest-attribute=format -Wsuggest-attribute=noreturn -Wunused-variable  -fPIC  conftest.c  -L. -L/home/ishit_garg/.rbenv/versions/3.0.1/lib -Wl,-rpath,/home/ishit_garg/.rbenv/versions/3.0.1/lib -L. -L/home/ishit_garg/.rbenv/versions/3.0.1/lib  -fstack-protector-strong -rdynamic -Wl,-export-dynamic      -lssl -lcrypto -Wl,-rpath,/home/ishit_garg/.rbenv/versions/3.0.1/lib -L/home/ishit_garg/.rbenv/versions/3.0.1/lib -lruby  -lssl -lcrypto -lcrypto -lm   -lc"
+"x86_64-linux-gnu-gcc -o conftest -I/usr/include/x86_64-linux-gnu/ruby-3.0.0 -I/usr/include/ruby-3.0.0/ruby/backward -I/usr/include/ruby-3.0.0 -I.  -Wdate-time -D_FORTIFY_SOURCE=2   -g -O2 -ffile-prefix-map=/build/ruby3.0-p8XSIY/ruby3.0-3.0.2=. -fstack-protector-strong -Wformat -Werror=format-security -fPIC  conftest.c  -L. -L/usr/lib/x86_64-linux-gnu -L. -Wl,-Bsymbolic-functions -Wl,-z,relro -Wl,-z,now -fstack-protector-strong -rdynamic -Wl,-export-dynamic      -lssl -lcrypto -lruby-3.0  -lssl -lcrypto -lcrypto -lm   -lc"
 checked program was:
 /* begin */
  1: #include "ruby.h"
@@ -61,7 +61,7 @@ checked program was:
 
 have_library: checking for -lssl... -------------------- yes
 
-"gcc -o conftest -I/home/ishit_garg/.rbenv/versions/3.0.1/include/ruby-3.0.0/x86_64-linux -I/home/ishit_garg/.rbenv/versions/3.0.1/include/ruby-3.0.0/ruby/backward -I/home/ishit_garg/.rbenv/versions/3.0.1/include/ruby-3.0.0 -I.  -I/home/ishit_garg/.rbenv/versions/3.0.1/include    -O3 -ggdb3 -Wall -Wextra -Wdeprecated-declarations -Wduplicated-cond -Wimplicit-function-declaration -Wimplicit-int -Wmisleading-indentation -Wpointer-arith -Wwrite-strings -Wimplicit-fallthrough=0 -Wmissing-noreturn -Wno-cast-function-type -Wno-constant-logical-operand -Wno-long-long -Wno-missing-field-initializers -Wno-overlength-strings -Wno-packed-bitfield-compat -Wno-parentheses-equality -Wno-self-assign -Wno-tautological-compare -Wno-unused-parameter -Wno-unused-value -Wsuggest-attribute=format -Wsuggest-attribute=noreturn -Wunused-variable  -fPIC  conftest.c  -L. -L/home/ishit_garg/.rbenv/versions/3.0.1/lib -Wl,-rpath,/home/ishit_garg/.rbenv/versions/3.0.1/lib -L. -L/home/ishit_garg/.rbenv/versions/3.0.1/lib  -fstack-protector-strong -rdynamic -Wl,-export-dynamic      -lssl -lcrypto -lcrypto -Wl,-rpath,/home/ishit_garg/.rbenv/versions/3.0.1/lib -L/home/ishit_garg/.rbenv/versions/3.0.1/lib -lruby  -lssl -lcrypto -lcrypto -lssl -lm   -lc"
+"x86_64-linux-gnu-gcc -o conftest -I/usr/include/x86_64-linux-gnu/ruby-3.0.0 -I/usr/include/ruby-3.0.0/ruby/backward -I/usr/include/ruby-3.0.0 -I.  -Wdate-time -D_FORTIFY_SOURCE=2   -g -O2 -ffile-prefix-map=/build/ruby3.0-p8XSIY/ruby3.0-3.0.2=. -fstack-protector-strong -Wformat -Werror=format-security -fPIC  conftest.c  -L. -L/usr/lib/x86_64-linux-gnu -L. -Wl,-Bsymbolic-functions -Wl,-z,relro -Wl,-z,now -fstack-protector-strong -rdynamic -Wl,-export-dynamic      -lssl -lcrypto -lcrypto -lruby-3.0  -lssl -lcrypto -lcrypto -lssl -lm   -lc"
 checked program was:
 /* begin */
  1: #include "ruby.h"
@@ -85,7 +85,7 @@ checked program was:
 
 have_header: checking for openssl/ssl.h... -------------------- yes
 
-"gcc -E -I/home/ishit_garg/.rbenv/versions/3.0.1/include/ruby-3.0.0/x86_64-linux -I/home/ishit_garg/.rbenv/versions/3.0.1/include/ruby-3.0.0/ruby/backward -I/home/ishit_garg/.rbenv/versions/3.0.1/include/ruby-3.0.0 -I.  -I/home/ishit_garg/.rbenv/versions/3.0.1/include    -O3 -ggdb3 -Wall -Wextra -Wdeprecated-declarations -Wduplicated-cond -Wimplicit-function-declaration -Wimplicit-int -Wmisleading-indentation -Wpointer-arith -Wwrite-strings -Wimplicit-fallthrough=0 -Wmissing-noreturn -Wno-cast-function-type -Wno-constant-logical-operand -Wno-long-long -Wno-missing-field-initializers -Wno-overlength-strings -Wno-packed-bitfield-compat -Wno-parentheses-equality -Wno-self-assign -Wno-tautological-compare -Wno-unused-parameter -Wno-unused-value -Wsuggest-attribute=format -Wsuggest-attribute=noreturn -Wunused-variable  -fPIC   conftest.c -o conftest.i"
+"x86_64-linux-gnu-gcc -E -I/usr/include/x86_64-linux-gnu/ruby-3.0.0 -I/usr/include/ruby-3.0.0/ruby/backward -I/usr/include/ruby-3.0.0 -I.  -Wdate-time -D_FORTIFY_SOURCE=2   -g -O2 -ffile-prefix-map=/build/ruby3.0-p8XSIY/ruby3.0-3.0.2=. -fstack-protector-strong -Wformat -Werror=format-security -fPIC   conftest.c -o conftest.i"
 checked program was:
 /* begin */
 1: #include "ruby.h"
@@ -97,7 +97,7 @@ checked program was:
 
 have_header: checking for openssl/err.h... -------------------- yes
 
-"gcc -E -I/home/ishit_garg/.rbenv/versions/3.0.1/include/ruby-3.0.0/x86_64-linux -I/home/ishit_garg/.rbenv/versions/3.0.1/include/ruby-3.0.0/ruby/backward -I/home/ishit_garg/.rbenv/versions/3.0.1/include/ruby-3.0.0 -I.  -I/home/ishit_garg/.rbenv/versions/3.0.1/include    -O3 -ggdb3 -Wall -Wextra -Wdeprecated-declarations -Wduplicated-cond -Wimplicit-function-declaration -Wimplicit-int -Wmisleading-indentation -Wpointer-arith -Wwrite-strings -Wimplicit-fallthrough=0 -Wmissing-noreturn -Wno-cast-function-type -Wno-constant-logical-operand -Wno-long-long -Wno-missing-field-initializers -Wno-overlength-strings -Wno-packed-bitfield-compat -Wno-parentheses-equality -Wno-self-assign -Wno-tautological-compare -Wno-unused-parameter -Wno-unused-value -Wsuggest-attribute=format -Wsuggest-attribute=noreturn -Wunused-variable  -fPIC   conftest.c -o conftest.i"
+"x86_64-linux-gnu-gcc -E -I/usr/include/x86_64-linux-gnu/ruby-3.0.0 -I/usr/include/ruby-3.0.0/ruby/backward -I/usr/include/ruby-3.0.0 -I.  -Wdate-time -D_FORTIFY_SOURCE=2   -g -O2 -ffile-prefix-map=/build/ruby3.0-p8XSIY/ruby3.0-3.0.2=. -fstack-protector-strong -Wformat -Werror=format-security -fPIC   conftest.c -o conftest.i"
 checked program was:
 /* begin */
 1: #include "ruby.h"
@@ -109,7 +109,7 @@ checked program was:
 
 have_var: checking for rb_trap_immediate in ruby.h,rubysig.h... -------------------- no
 
-"gcc -I/home/ishit_garg/.rbenv/versions/3.0.1/include/ruby-3.0.0/x86_64-linux -I/home/ishit_garg/.rbenv/versions/3.0.1/include/ruby-3.0.0/ruby/backward -I/home/ishit_garg/.rbenv/versions/3.0.1/include/ruby-3.0.0 -I.  -I/home/ishit_garg/.rbenv/versions/3.0.1/include    -O3 -ggdb3 -Wall -Wextra -Wdeprecated-declarations -Wduplicated-cond -Wimplicit-function-declaration -Wimplicit-int -Wmisleading-indentation -Wpointer-arith -Wwrite-strings -Wimplicit-fallthrough=0 -Wmissing-noreturn -Wno-cast-function-type -Wno-constant-logical-operand -Wno-long-long -Wno-missing-field-initializers -Wno-overlength-strings -Wno-packed-bitfield-compat -Wno-parentheses-equality -Wno-self-assign -Wno-tautological-compare -Wno-unused-parameter -Wno-unused-value -Wsuggest-attribute=format -Wsuggest-attribute=noreturn -Wunused-variable  -fPIC    -c conftest.c"
+"x86_64-linux-gnu-gcc -I/usr/include/x86_64-linux-gnu/ruby-3.0.0 -I/usr/include/ruby-3.0.0/ruby/backward -I/usr/include/ruby-3.0.0 -I.  -Wdate-time -D_FORTIFY_SOURCE=2   -g -O2 -ffile-prefix-map=/build/ruby3.0-p8XSIY/ruby3.0-3.0.2=. -fstack-protector-strong -Wformat -Werror=format-security -fPIC    -c conftest.c"
 conftest.c:4:10: fatal error: rubysig.h: No such file or directory
     4 | #include <rubysig.h>
       |          ^~~~~~~~~~~
@@ -139,16 +139,12 @@ checked program was:
 
 have_func: checking for rb_thread_blocking_region()... -------------------- no
 
-"gcc -o conftest -I/home/ishit_garg/.rbenv/versions/3.0.1/include/ruby-3.0.0/x86_64-linux -I/home/ishit_garg/.rbenv/versions/3.0.1/include/ruby-3.0.0/ruby/backward -I/home/ishit_garg/.rbenv/versions/3.0.1/include/ruby-3.0.0 -I.  -I/home/ishit_garg/.rbenv/versions/3.0.1/include    -O3 -ggdb3 -Wall -Wextra -Wdeprecated-declarations -Wduplicated-cond -Wimplicit-function-declaration -Wimplicit-int -Wmisleading-indentation -Wpointer-arith -Wwrite-strings -Wimplicit-fallthrough=0 -Wmissing-noreturn -Wno-cast-function-type -Wno-constant-logical-operand -Wno-long-long -Wno-missing-field-initializers -Wno-overlength-strings -Wno-packed-bitfield-compat -Wno-parentheses-equality -Wno-self-assign -Wno-tautological-compare -Wno-unused-parameter -Wno-unused-value -Wsuggest-attribute=format -Wsuggest-attribute=noreturn -Wunused-variable  -fPIC  conftest.c  -L. -L/home/ishit_garg/.rbenv/versions/3.0.1/lib -Wl,-rpath,/home/ishit_garg/.rbenv/versions/3.0.1/lib -L. -L/home/ishit_garg/.rbenv/versions/3.0.1/lib  -fstack-protector-strong -rdynamic -Wl,-export-dynamic      -lssl -lcrypto -lcrypto -lssl -Wl,-rpath,/home/ishit_garg/.rbenv/versions/3.0.1/lib -L/home/ishit_garg/.rbenv/versions/3.0.1/lib -lruby  -lssl -lcrypto -lcrypto -lssl -lm   -lc"
+"x86_64-linux-gnu-gcc -o conftest -I/usr/include/x86_64-linux-gnu/ruby-3.0.0 -I/usr/include/ruby-3.0.0/ruby/backward -I/usr/include/ruby-3.0.0 -I.  -Wdate-time -D_FORTIFY_SOURCE=2   -g -O2 -ffile-prefix-map=/build/ruby3.0-p8XSIY/ruby3.0-3.0.2=. -fstack-protector-strong -Wformat -Werror=format-security -fPIC  conftest.c  -L. -L/usr/lib/x86_64-linux-gnu -L. -Wl,-Bsymbolic-functions -Wl,-z,relro -Wl,-z,now -fstack-protector-strong -rdynamic -Wl,-export-dynamic      -lssl -lcrypto -lcrypto -lssl -lruby-3.0  -lssl -lcrypto -lcrypto -lssl -lm   -lc"
 conftest.c: In function ‘t’:
 conftest.c:14:57: error: ‘rb_thread_blocking_region’ undeclared (first use in this function)
    14 | int t(void) { void ((*volatile p)()); p = (void ((*)()))rb_thread_blocking_region; return !p; }
       |                                                         ^~~~~~~~~~~~~~~~~~~~~~~~~
 conftest.c:14:57: note: each undeclared identifier is reported only once for each function it appears in
-conftest.c: At top level:
-cc1: warning: unrecognized command line option ‘-Wno-self-assign’
-cc1: warning: unrecognized command line option ‘-Wno-parentheses-equality’
-cc1: warning: unrecognized command line option ‘-Wno-constant-logical-operand’
 checked program was:
 /* begin */
  1: #include "ruby.h"
@@ -167,9 +163,9 @@ checked program was:
 14: int t(void) { void ((*volatile p)()); p = (void ((*)()))rb_thread_blocking_region; return !p; }
 /* end */
 
-"gcc -o conftest -I/home/ishit_garg/.rbenv/versions/3.0.1/include/ruby-3.0.0/x86_64-linux -I/home/ishit_garg/.rbenv/versions/3.0.1/include/ruby-3.0.0/ruby/backward -I/home/ishit_garg/.rbenv/versions/3.0.1/include/ruby-3.0.0 -I.  -I/home/ishit_garg/.rbenv/versions/3.0.1/include    -O3 -ggdb3 -Wall -Wextra -Wdeprecated-declarations -Wduplicated-cond -Wimplicit-function-declaration -Wimplicit-int -Wmisleading-indentation -Wpointer-arith -Wwrite-strings -Wimplicit-fallthrough=0 -Wmissing-noreturn -Wno-cast-function-type -Wno-constant-logical-operand -Wno-long-long -Wno-missing-field-initializers -Wno-overlength-strings -Wno-packed-bitfield-compat -Wno-parentheses-equality -Wno-self-assign -Wno-tautological-compare -Wno-unused-parameter -Wno-unused-value -Wsuggest-attribute=format -Wsuggest-attribute=noreturn -Wunused-variable  -fPIC  conftest.c  -L. -L/home/ishit_garg/.rbenv/versions/3.0.1/lib -Wl,-rpath,/home/ishit_garg/.rbenv/versions/3.0.1/lib -L. -L/home/ishit_garg/.rbenv/versions/3.0.1/lib  -fstack-protector-strong -rdynamic -Wl,-export-dynamic      -lssl -lcrypto -lcrypto -lssl -Wl,-rpath,/home/ishit_garg/.rbenv/versions/3.0.1/lib -L/home/ishit_garg/.rbenv/versions/3.0.1/lib -lruby  -lssl -lcrypto -lcrypto -lssl -lm   -lc"
-/usr/bin/ld: /tmp/ccsHrD3U.o: in function `t':
-/home/ishit_garg/Desktop/wncc-website.github.io/vendor/bundle/ruby/3.0.0/gems/eventmachine-1.2.7/ext/conftest.c:15: undefined reference to `rb_thread_blocking_region'
+"x86_64-linux-gnu-gcc -o conftest -I/usr/include/x86_64-linux-gnu/ruby-3.0.0 -I/usr/include/ruby-3.0.0/ruby/backward -I/usr/include/ruby-3.0.0 -I.  -Wdate-time -D_FORTIFY_SOURCE=2   -g -O2 -ffile-prefix-map=/build/ruby3.0-p8XSIY/ruby3.0-3.0.2=. -fstack-protector-strong -Wformat -Werror=format-security -fPIC  conftest.c  -L. -L/usr/lib/x86_64-linux-gnu -L. -Wl,-Bsymbolic-functions -Wl,-z,relro -Wl,-z,now -fstack-protector-strong -rdynamic -Wl,-export-dynamic      -lssl -lcrypto -lcrypto -lssl -lruby-3.0  -lssl -lcrypto -lcrypto -lssl -lm   -lc"
+/usr/bin/ld: /tmp/ccTmBaf7.o: in function `t':
+/home/shivesh/Documents/Github/wncc-website.github.io/vendor/bundle/ruby/3.0.0/gems/eventmachine-1.2.7/ext/conftest.c:15: undefined reference to `rb_thread_blocking_region'
 collect2: error: ld returned 1 exit status
 checked program was:
 /* begin */
@@ -194,7 +190,7 @@ checked program was:
 
 have_func: checking for rb_thread_call_without_gvl() in ruby/thread.h... -------------------- yes
 
-"gcc -o conftest -I/home/ishit_garg/.rbenv/versions/3.0.1/include/ruby-3.0.0/x86_64-linux -I/home/ishit_garg/.rbenv/versions/3.0.1/include/ruby-3.0.0/ruby/backward -I/home/ishit_garg/.rbenv/versions/3.0.1/include/ruby-3.0.0 -I.  -I/home/ishit_garg/.rbenv/versions/3.0.1/include    -O3 -ggdb3 -Wall -Wextra -Wdeprecated-declarations -Wduplicated-cond -Wimplicit-function-declaration -Wimplicit-int -Wmisleading-indentation -Wpointer-arith -Wwrite-strings -Wimplicit-fallthrough=0 -Wmissing-noreturn -Wno-cast-function-type -Wno-constant-logical-operand -Wno-long-long -Wno-missing-field-initializers -Wno-overlength-strings -Wno-packed-bitfield-compat -Wno-parentheses-equality -Wno-self-assign -Wno-tautological-compare -Wno-unused-parameter -Wno-unused-value -Wsuggest-attribute=format -Wsuggest-attribute=noreturn -Wunused-variable  -fPIC  conftest.c  -L. -L/home/ishit_garg/.rbenv/versions/3.0.1/lib -Wl,-rpath,/home/ishit_garg/.rbenv/versions/3.0.1/lib -L. -L/home/ishit_garg/.rbenv/versions/3.0.1/lib  -fstack-protector-strong -rdynamic -Wl,-export-dynamic      -lssl -lcrypto -lcrypto -lssl -Wl,-rpath,/home/ishit_garg/.rbenv/versions/3.0.1/lib -L/home/ishit_garg/.rbenv/versions/3.0.1/lib -lruby  -lssl -lcrypto -lcrypto -lssl -lm   -lc"
+"x86_64-linux-gnu-gcc -o conftest -I/usr/include/x86_64-linux-gnu/ruby-3.0.0 -I/usr/include/ruby-3.0.0/ruby/backward -I/usr/include/ruby-3.0.0 -I.  -Wdate-time -D_FORTIFY_SOURCE=2   -g -O2 -ffile-prefix-map=/build/ruby3.0-p8XSIY/ruby3.0-3.0.2=. -fstack-protector-strong -Wformat -Werror=format-security -fPIC  conftest.c  -L. -L/usr/lib/x86_64-linux-gnu -L. -Wl,-Bsymbolic-functions -Wl,-z,relro -Wl,-z,now -fstack-protector-strong -rdynamic -Wl,-export-dynamic      -lssl -lcrypto -lcrypto -lssl -lruby-3.0  -lssl -lcrypto -lcrypto -lssl -lm   -lc"
 checked program was:
 /* begin */
  1: #include "ruby.h"
@@ -219,7 +215,7 @@ checked program was:
 
 have_func: checking for rb_thread_fd_select()... -------------------- yes
 
-"gcc -o conftest -I/home/ishit_garg/.rbenv/versions/3.0.1/include/ruby-3.0.0/x86_64-linux -I/home/ishit_garg/.rbenv/versions/3.0.1/include/ruby-3.0.0/ruby/backward -I/home/ishit_garg/.rbenv/versions/3.0.1/include/ruby-3.0.0 -I.  -I/home/ishit_garg/.rbenv/versions/3.0.1/include    -O3 -ggdb3 -Wall -Wextra -Wdeprecated-declarations -Wduplicated-cond -Wimplicit-function-declaration -Wimplicit-int -Wmisleading-indentation -Wpointer-arith -Wwrite-strings -Wimplicit-fallthrough=0 -Wmissing-noreturn -Wno-cast-function-type -Wno-constant-logical-operand -Wno-long-long -Wno-missing-field-initializers -Wno-overlength-strings -Wno-packed-bitfield-compat -Wno-parentheses-equality -Wno-self-assign -Wno-tautological-compare -Wno-unused-parameter -Wno-unused-value -Wsuggest-attribute=format -Wsuggest-attribute=noreturn -Wunused-variable  -fPIC  conftest.c  -L. -L/home/ishit_garg/.rbenv/versions/3.0.1/lib -Wl,-rpath,/home/ishit_garg/.rbenv/versions/3.0.1/lib -L. -L/home/ishit_garg/.rbenv/versions/3.0.1/lib  -fstack-protector-strong -rdynamic -Wl,-export-dynamic      -lssl -lcrypto -lcrypto -lssl -Wl,-rpath,/home/ishit_garg/.rbenv/versions/3.0.1/lib -L/home/ishit_garg/.rbenv/versions/3.0.1/lib -lruby  -lssl -lcrypto -lcrypto -lssl -lm   -lc"
+"x86_64-linux-gnu-gcc -o conftest -I/usr/include/x86_64-linux-gnu/ruby-3.0.0 -I/usr/include/ruby-3.0.0/ruby/backward -I/usr/include/ruby-3.0.0 -I.  -Wdate-time -D_FORTIFY_SOURCE=2   -g -O2 -ffile-prefix-map=/build/ruby3.0-p8XSIY/ruby3.0-3.0.2=. -fstack-protector-strong -Wformat -Werror=format-security -fPIC  conftest.c  -L. -L/usr/lib/x86_64-linux-gnu -L. -Wl,-Bsymbolic-functions -Wl,-z,relro -Wl,-z,now -fstack-protector-strong -rdynamic -Wl,-export-dynamic      -lssl -lcrypto -lcrypto -lssl -lruby-3.0  -lssl -lcrypto -lcrypto -lssl -lm   -lc"
 checked program was:
 /* begin */
  1: #include "ruby.h"
@@ -242,7 +238,7 @@ checked program was:
 
 have_type: checking for rb_fdset_t in ruby/intern.h... -------------------- yes
 
-"gcc -I/home/ishit_garg/.rbenv/versions/3.0.1/include/ruby-3.0.0/x86_64-linux -I/home/ishit_garg/.rbenv/versions/3.0.1/include/ruby-3.0.0/ruby/backward -I/home/ishit_garg/.rbenv/versions/3.0.1/include/ruby-3.0.0 -I.  -I/home/ishit_garg/.rbenv/versions/3.0.1/include    -O3 -ggdb3 -Wall -Wextra -Wdeprecated-declarations -Wduplicated-cond -Wimplicit-function-declaration -Wimplicit-int -Wmisleading-indentation -Wpointer-arith -Wwrite-strings -Wimplicit-fallthrough=0 -Wmissing-noreturn -Wno-cast-function-type -Wno-constant-logical-operand -Wno-long-long -Wno-missing-field-initializers -Wno-overlength-strings -Wno-packed-bitfield-compat -Wno-parentheses-equality -Wno-self-assign -Wno-tautological-compare -Wno-unused-parameter -Wno-unused-value -Wsuggest-attribute=format -Wsuggest-attribute=noreturn -Wunused-variable  -fPIC    -c conftest.c"
+"x86_64-linux-gnu-gcc -I/usr/include/x86_64-linux-gnu/ruby-3.0.0 -I/usr/include/ruby-3.0.0/ruby/backward -I/usr/include/ruby-3.0.0 -I.  -Wdate-time -D_FORTIFY_SOURCE=2   -g -O2 -ffile-prefix-map=/build/ruby3.0-p8XSIY/ruby3.0-3.0.2=. -fstack-protector-strong -Wformat -Werror=format-security -fPIC    -c conftest.c"
 checked program was:
 /* begin */
 1: #include "ruby.h"
@@ -258,16 +254,12 @@ checked program was:
 
 have_func: checking for rb_wait_for_single_fd()... -------------------- yes
 
-"gcc -o conftest -I/home/ishit_garg/.rbenv/versions/3.0.1/include/ruby-3.0.0/x86_64-linux -I/home/ishit_garg/.rbenv/versions/3.0.1/include/ruby-3.0.0/ruby/backward -I/home/ishit_garg/.rbenv/versions/3.0.1/include/ruby-3.0.0 -I.  -I/home/ishit_garg/.rbenv/versions/3.0.1/include    -O3 -ggdb3 -Wall -Wextra -Wdeprecated-declarations -Wduplicated-cond -Wimplicit-function-declaration -Wimplicit-int -Wmisleading-indentation -Wpointer-arith -Wwrite-strings -Wimplicit-fallthrough=0 -Wmissing-noreturn -Wno-cast-function-type -Wno-constant-logical-operand -Wno-long-long -Wno-missing-field-initializers -Wno-overlength-strings -Wno-packed-bitfield-compat -Wno-parentheses-equality -Wno-self-assign -Wno-tautological-compare -Wno-unused-parameter -Wno-unused-value -Wsuggest-attribute=format -Wsuggest-attribute=noreturn -Wunused-variable  -fPIC  conftest.c  -L. -L/home/ishit_garg/.rbenv/versions/3.0.1/lib -Wl,-rpath,/home/ishit_garg/.rbenv/versions/3.0.1/lib -L. -L/home/ishit_garg/.rbenv/versions/3.0.1/lib  -fstack-protector-strong -rdynamic -Wl,-export-dynamic      -lssl -lcrypto -lcrypto -lssl -Wl,-rpath,/home/ishit_garg/.rbenv/versions/3.0.1/lib -L/home/ishit_garg/.rbenv/versions/3.0.1/lib -lruby  -lssl -lcrypto -lcrypto -lssl -lm   -lc"
+"x86_64-linux-gnu-gcc -o conftest -I/usr/include/x86_64-linux-gnu/ruby-3.0.0 -I/usr/include/ruby-3.0.0/ruby/backward -I/usr/include/ruby-3.0.0 -I.  -Wdate-time -D_FORTIFY_SOURCE=2   -g -O2 -ffile-prefix-map=/build/ruby3.0-p8XSIY/ruby3.0-3.0.2=. -fstack-protector-strong -Wformat -Werror=format-security -fPIC  conftest.c  -L. -L/usr/lib/x86_64-linux-gnu -L. -Wl,-Bsymbolic-functions -Wl,-z,relro -Wl,-z,now -fstack-protector-strong -rdynamic -Wl,-export-dynamic      -lssl -lcrypto -lcrypto -lssl -lruby-3.0  -lssl -lcrypto -lcrypto -lssl -lm   -lc"
 conftest.c: In function ‘t’:
 conftest.c:14:57: error: ‘rb_wait_for_single_fd’ undeclared (first use in this function)
    14 | int t(void) { void ((*volatile p)()); p = (void ((*)()))rb_wait_for_single_fd; return !p; }
       |                                                         ^~~~~~~~~~~~~~~~~~~~~
 conftest.c:14:57: note: each undeclared identifier is reported only once for each function it appears in
-conftest.c: At top level:
-cc1: warning: unrecognized command line option ‘-Wno-self-assign’
-cc1: warning: unrecognized command line option ‘-Wno-parentheses-equality’
-cc1: warning: unrecognized command line option ‘-Wno-constant-logical-operand’
 checked program was:
 /* begin */
  1: #include "ruby.h"
@@ -286,7 +278,7 @@ checked program was:
 14: int t(void) { void ((*volatile p)()); p = (void ((*)()))rb_wait_for_single_fd; return !p; }
 /* end */
 
-"gcc -o conftest -I/home/ishit_garg/.rbenv/versions/3.0.1/include/ruby-3.0.0/x86_64-linux -I/home/ishit_garg/.rbenv/versions/3.0.1/include/ruby-3.0.0/ruby/backward -I/home/ishit_garg/.rbenv/versions/3.0.1/include/ruby-3.0.0 -I.  -I/home/ishit_garg/.rbenv/versions/3.0.1/include    -O3 -ggdb3 -Wall -Wextra -Wdeprecated-declarations -Wduplicated-cond -Wimplicit-function-declaration -Wimplicit-int -Wmisleading-indentation -Wpointer-arith -Wwrite-strings -Wimplicit-fallthrough=0 -Wmissing-noreturn -Wno-cast-function-type -Wno-constant-logical-operand -Wno-long-long -Wno-missing-field-initializers -Wno-overlength-strings -Wno-packed-bitfield-compat -Wno-parentheses-equality -Wno-self-assign -Wno-tautological-compare -Wno-unused-parameter -Wno-unused-value -Wsuggest-attribute=format -Wsuggest-attribute=noreturn -Wunused-variable  -fPIC  conftest.c  -L. -L/home/ishit_garg/.rbenv/versions/3.0.1/lib -Wl,-rpath,/home/ishit_garg/.rbenv/versions/3.0.1/lib -L. -L/home/ishit_garg/.rbenv/versions/3.0.1/lib  -fstack-protector-strong -rdynamic -Wl,-export-dynamic      -lssl -lcrypto -lcrypto -lssl -Wl,-rpath,/home/ishit_garg/.rbenv/versions/3.0.1/lib -L/home/ishit_garg/.rbenv/versions/3.0.1/lib -lruby  -lssl -lcrypto -lcrypto -lssl -lm   -lc"
+"x86_64-linux-gnu-gcc -o conftest -I/usr/include/x86_64-linux-gnu/ruby-3.0.0 -I/usr/include/ruby-3.0.0/ruby/backward -I/usr/include/ruby-3.0.0 -I.  -Wdate-time -D_FORTIFY_SOURCE=2   -g -O2 -ffile-prefix-map=/build/ruby3.0-p8XSIY/ruby3.0-3.0.2=. -fstack-protector-strong -Wformat -Werror=format-security -fPIC  conftest.c  -L. -L/usr/lib/x86_64-linux-gnu -L. -Wl,-Bsymbolic-functions -Wl,-z,relro -Wl,-z,now -fstack-protector-strong -rdynamic -Wl,-export-dynamic      -lssl -lcrypto -lcrypto -lssl -lruby-3.0  -lssl -lcrypto -lcrypto -lssl -lm   -lc"
 checked program was:
 /* begin */
  1: #include "ruby.h"
@@ -310,17 +302,13 @@ checked program was:
 
 have_func: checking for rb_enable_interrupt()... -------------------- no
 
-"gcc -o conftest -I/home/ishit_garg/.rbenv/versions/3.0.1/include/ruby-3.0.0/x86_64-linux -I/home/ishit_garg/.rbenv/versions/3.0.1/include/ruby-3.0.0/ruby/backward -I/home/ishit_garg/.rbenv/versions/3.0.1/include/ruby-3.0.0 -I.  -I/home/ishit_garg/.rbenv/versions/3.0.1/include    -O3 -ggdb3 -Wall -Wextra -Wdeprecated-declarations -Wduplicated-cond -Wimplicit-function-declaration -Wimplicit-int -Wmisleading-indentation -Wpointer-arith -Wwrite-strings -Wimplicit-fallthrough=0 -Wmissing-noreturn -Wno-cast-function-type -Wno-constant-logical-operand -Wno-long-long -Wno-missing-field-initializers -Wno-overlength-strings -Wno-packed-bitfield-compat -Wno-parentheses-equality -Wno-self-assign -Wno-tautological-compare -Wno-unused-parameter -Wno-unused-value -Wsuggest-attribute=format -Wsuggest-attribute=noreturn -Wunused-variable  -fPIC  conftest.c  -L. -L/home/ishit_garg/.rbenv/versions/3.0.1/lib -Wl,-rpath,/home/ishit_garg/.rbenv/versions/3.0.1/lib -L. -L/home/ishit_garg/.rbenv/versions/3.0.1/lib  -fstack-protector-strong -rdynamic -Wl,-export-dynamic      -lssl -lcrypto -lcrypto -lssl -Wl,-rpath,/home/ishit_garg/.rbenv/versions/3.0.1/lib -L/home/ishit_garg/.rbenv/versions/3.0.1/lib -lruby  -lssl -lcrypto -lcrypto -lssl -lm   -lc"
+"x86_64-linux-gnu-gcc -o conftest -I/usr/include/x86_64-linux-gnu/ruby-3.0.0 -I/usr/include/ruby-3.0.0/ruby/backward -I/usr/include/ruby-3.0.0 -I.  -Wdate-time -D_FORTIFY_SOURCE=2   -g -O2 -ffile-prefix-map=/build/ruby3.0-p8XSIY/ruby3.0-3.0.2=. -fstack-protector-strong -Wformat -Werror=format-security -fPIC  conftest.c  -L. -L/usr/lib/x86_64-linux-gnu -L. -Wl,-Bsymbolic-functions -Wl,-z,relro -Wl,-z,now -fstack-protector-strong -rdynamic -Wl,-export-dynamic      -lssl -lcrypto -lcrypto -lssl -lruby-3.0  -lssl -lcrypto -lcrypto -lssl -lm   -lc"
 conftest.c: In function ‘t’:
-conftest.c:14:57: error: ‘rb_enable_interrupt’ undeclared (first use in this function); did you mean ‘rb_interrupt’?
+conftest.c:14:57: error: ‘rb_enable_interrupt’ undeclared (first use in this function); did you mean ‘rb_eInterrupt’?
    14 | int t(void) { void ((*volatile p)()); p = (void ((*)()))rb_enable_interrupt; return !p; }
       |                                                         ^~~~~~~~~~~~~~~~~~~
-      |                                                         rb_interrupt
+      |                                                         rb_eInterrupt
 conftest.c:14:57: note: each undeclared identifier is reported only once for each function it appears in
-conftest.c: At top level:
-cc1: warning: unrecognized command line option ‘-Wno-self-assign’
-cc1: warning: unrecognized command line option ‘-Wno-parentheses-equality’
-cc1: warning: unrecognized command line option ‘-Wno-constant-logical-operand’
 checked program was:
 /* begin */
  1: #include "ruby.h"
@@ -339,9 +327,9 @@ checked program was:
 14: int t(void) { void ((*volatile p)()); p = (void ((*)()))rb_enable_interrupt; return !p; }
 /* end */
 
-"gcc -o conftest -I/home/ishit_garg/.rbenv/versions/3.0.1/include/ruby-3.0.0/x86_64-linux -I/home/ishit_garg/.rbenv/versions/3.0.1/include/ruby-3.0.0/ruby/backward -I/home/ishit_garg/.rbenv/versions/3.0.1/include/ruby-3.0.0 -I.  -I/home/ishit_garg/.rbenv/versions/3.0.1/include    -O3 -ggdb3 -Wall -Wextra -Wdeprecated-declarations -Wduplicated-cond -Wimplicit-function-declaration -Wimplicit-int -Wmisleading-indentation -Wpointer-arith -Wwrite-strings -Wimplicit-fallthrough=0 -Wmissing-noreturn -Wno-cast-function-type -Wno-constant-logical-operand -Wno-long-long -Wno-missing-field-initializers -Wno-overlength-strings -Wno-packed-bitfield-compat -Wno-parentheses-equality -Wno-self-assign -Wno-tautological-compare -Wno-unused-parameter -Wno-unused-value -Wsuggest-attribute=format -Wsuggest-attribute=noreturn -Wunused-variable  -fPIC  conftest.c  -L. -L/home/ishit_garg/.rbenv/versions/3.0.1/lib -Wl,-rpath,/home/ishit_garg/.rbenv/versions/3.0.1/lib -L. -L/home/ishit_garg/.rbenv/versions/3.0.1/lib  -fstack-protector-strong -rdynamic -Wl,-export-dynamic      -lssl -lcrypto -lcrypto -lssl -Wl,-rpath,/home/ishit_garg/.rbenv/versions/3.0.1/lib -L/home/ishit_garg/.rbenv/versions/3.0.1/lib -lruby  -lssl -lcrypto -lcrypto -lssl -lm   -lc"
-/usr/bin/ld: /tmp/ccvW9ljK.o: in function `t':
-/home/ishit_garg/Desktop/wncc-website.github.io/vendor/bundle/ruby/3.0.0/gems/eventmachine-1.2.7/ext/conftest.c:15: undefined reference to `rb_enable_interrupt'
+"x86_64-linux-gnu-gcc -o conftest -I/usr/include/x86_64-linux-gnu/ruby-3.0.0 -I/usr/include/ruby-3.0.0/ruby/backward -I/usr/include/ruby-3.0.0 -I.  -Wdate-time -D_FORTIFY_SOURCE=2   -g -O2 -ffile-prefix-map=/build/ruby3.0-p8XSIY/ruby3.0-3.0.2=. -fstack-protector-strong -Wformat -Werror=format-security -fPIC  conftest.c  -L. -L/usr/lib/x86_64-linux-gnu -L. -Wl,-Bsymbolic-functions -Wl,-z,relro -Wl,-z,now -fstack-protector-strong -rdynamic -Wl,-export-dynamic      -lssl -lcrypto -lcrypto -lssl -lruby-3.0  -lssl -lcrypto -lcrypto -lssl -lm   -lc"
+/usr/bin/ld: /tmp/cc79GVWc.o: in function `t':
+/home/shivesh/Documents/Github/wncc-website.github.io/vendor/bundle/ruby/3.0.0/gems/eventmachine-1.2.7/ext/conftest.c:15: undefined reference to `rb_enable_interrupt'
 collect2: error: ld returned 1 exit status
 checked program was:
 /* begin */
@@ -366,7 +354,7 @@ checked program was:
 
 have_func: checking for rb_time_new()... -------------------- yes
 
-"gcc -o conftest -I/home/ishit_garg/.rbenv/versions/3.0.1/include/ruby-3.0.0/x86_64-linux -I/home/ishit_garg/.rbenv/versions/3.0.1/include/ruby-3.0.0/ruby/backward -I/home/ishit_garg/.rbenv/versions/3.0.1/include/ruby-3.0.0 -I.  -I/home/ishit_garg/.rbenv/versions/3.0.1/include    -O3 -ggdb3 -Wall -Wextra -Wdeprecated-declarations -Wduplicated-cond -Wimplicit-function-declaration -Wimplicit-int -Wmisleading-indentation -Wpointer-arith -Wwrite-strings -Wimplicit-fallthrough=0 -Wmissing-noreturn -Wno-cast-function-type -Wno-constant-logical-operand -Wno-long-long -Wno-missing-field-initializers -Wno-overlength-strings -Wno-packed-bitfield-compat -Wno-parentheses-equality -Wno-self-assign -Wno-tautological-compare -Wno-unused-parameter -Wno-unused-value -Wsuggest-attribute=format -Wsuggest-attribute=noreturn -Wunused-variable  -fPIC  conftest.c  -L. -L/home/ishit_garg/.rbenv/versions/3.0.1/lib -Wl,-rpath,/home/ishit_garg/.rbenv/versions/3.0.1/lib -L. -L/home/ishit_garg/.rbenv/versions/3.0.1/lib  -fstack-protector-strong -rdynamic -Wl,-export-dynamic      -lssl -lcrypto -lcrypto -lssl -Wl,-rpath,/home/ishit_garg/.rbenv/versions/3.0.1/lib -L/home/ishit_garg/.rbenv/versions/3.0.1/lib -lruby  -lssl -lcrypto -lcrypto -lssl -lm   -lc"
+"x86_64-linux-gnu-gcc -o conftest -I/usr/include/x86_64-linux-gnu/ruby-3.0.0 -I/usr/include/ruby-3.0.0/ruby/backward -I/usr/include/ruby-3.0.0 -I.  -Wdate-time -D_FORTIFY_SOURCE=2   -g -O2 -ffile-prefix-map=/build/ruby3.0-p8XSIY/ruby3.0-3.0.2=. -fstack-protector-strong -Wformat -Werror=format-security -fPIC  conftest.c  -L. -L/usr/lib/x86_64-linux-gnu -L. -Wl,-Bsymbolic-functions -Wl,-z,relro -Wl,-z,now -fstack-protector-strong -rdynamic -Wl,-export-dynamic      -lssl -lcrypto -lcrypto -lssl -lruby-3.0  -lssl -lcrypto -lcrypto -lssl -lm   -lc"
 checked program was:
 /* begin */
  1: #include "ruby.h"
@@ -389,7 +377,7 @@ checked program was:
 
 have_func: checking for inotify_init() in sys/inotify.h... -------------------- yes
 
-"gcc -o conftest -I/home/ishit_garg/.rbenv/versions/3.0.1/include/ruby-3.0.0/x86_64-linux -I/home/ishit_garg/.rbenv/versions/3.0.1/include/ruby-3.0.0/ruby/backward -I/home/ishit_garg/.rbenv/versions/3.0.1/include/ruby-3.0.0 -I.  -I/home/ishit_garg/.rbenv/versions/3.0.1/include    -O3 -ggdb3 -Wall -Wextra -Wdeprecated-declarations -Wduplicated-cond -Wimplicit-function-declaration -Wimplicit-int -Wmisleading-indentation -Wpointer-arith -Wwrite-strings -Wimplicit-fallthrough=0 -Wmissing-noreturn -Wno-cast-function-type -Wno-constant-logical-operand -Wno-long-long -Wno-missing-field-initializers -Wno-overlength-strings -Wno-packed-bitfield-compat -Wno-parentheses-equality -Wno-self-assign -Wno-tautological-compare -Wno-unused-parameter -Wno-unused-value -Wsuggest-attribute=format -Wsuggest-attribute=noreturn -Wunused-variable  -fPIC  conftest.c  -L. -L/home/ishit_garg/.rbenv/versions/3.0.1/lib -Wl,-rpath,/home/ishit_garg/.rbenv/versions/3.0.1/lib -L. -L/home/ishit_garg/.rbenv/versions/3.0.1/lib  -fstack-protector-strong -rdynamic -Wl,-export-dynamic      -lssl -lcrypto -lcrypto -lssl -Wl,-rpath,/home/ishit_garg/.rbenv/versions/3.0.1/lib -L/home/ishit_garg/.rbenv/versions/3.0.1/lib -lruby  -lssl -lcrypto -lcrypto -lssl -lm   -lc"
+"x86_64-linux-gnu-gcc -o conftest -I/usr/include/x86_64-linux-gnu/ruby-3.0.0 -I/usr/include/ruby-3.0.0/ruby/backward -I/usr/include/ruby-3.0.0 -I.  -Wdate-time -D_FORTIFY_SOURCE=2   -g -O2 -ffile-prefix-map=/build/ruby3.0-p8XSIY/ruby3.0-3.0.2=. -fstack-protector-strong -Wformat -Werror=format-security -fPIC  conftest.c  -L. -L/usr/lib/x86_64-linux-gnu -L. -Wl,-Bsymbolic-functions -Wl,-z,relro -Wl,-z,now -fstack-protector-strong -rdynamic -Wl,-export-dynamic      -lssl -lcrypto -lcrypto -lssl -lruby-3.0  -lssl -lcrypto -lcrypto -lssl -lm   -lc"
 checked program was:
 /* begin */
  1: #include "ruby.h"
@@ -414,7 +402,7 @@ checked program was:
 
 have_func: checking for writev() in sys/uio.h... -------------------- yes
 
-"gcc -o conftest -I/home/ishit_garg/.rbenv/versions/3.0.1/include/ruby-3.0.0/x86_64-linux -I/home/ishit_garg/.rbenv/versions/3.0.1/include/ruby-3.0.0/ruby/backward -I/home/ishit_garg/.rbenv/versions/3.0.1/include/ruby-3.0.0 -I.  -I/home/ishit_garg/.rbenv/versions/3.0.1/include    -O3 -ggdb3 -Wall -Wextra -Wdeprecated-declarations -Wduplicated-cond -Wimplicit-function-declaration -Wimplicit-int -Wmisleading-indentation -Wpointer-arith -Wwrite-strings -Wimplicit-fallthrough=0 -Wmissing-noreturn -Wno-cast-function-type -Wno-constant-logical-operand -Wno-long-long -Wno-missing-field-initializers -Wno-overlength-strings -Wno-packed-bitfield-compat -Wno-parentheses-equality -Wno-self-assign -Wno-tautological-compare -Wno-unused-parameter -Wno-unused-value -Wsuggest-attribute=format -Wsuggest-attribute=noreturn -Wunused-variable  -fPIC  conftest.c  -L. -L/home/ishit_garg/.rbenv/versions/3.0.1/lib -Wl,-rpath,/home/ishit_garg/.rbenv/versions/3.0.1/lib -L. -L/home/ishit_garg/.rbenv/versions/3.0.1/lib  -fstack-protector-strong -rdynamic -Wl,-export-dynamic      -lssl -lcrypto -lcrypto -lssl -Wl,-rpath,/home/ishit_garg/.rbenv/versions/3.0.1/lib -L/home/ishit_garg/.rbenv/versions/3.0.1/lib -lruby  -lssl -lcrypto -lcrypto -lssl -lm   -lc"
+"x86_64-linux-gnu-gcc -o conftest -I/usr/include/x86_64-linux-gnu/ruby-3.0.0 -I/usr/include/ruby-3.0.0/ruby/backward -I/usr/include/ruby-3.0.0 -I.  -Wdate-time -D_FORTIFY_SOURCE=2   -g -O2 -ffile-prefix-map=/build/ruby3.0-p8XSIY/ruby3.0-3.0.2=. -fstack-protector-strong -Wformat -Werror=format-security -fPIC  conftest.c  -L. -L/usr/lib/x86_64-linux-gnu -L. -Wl,-Bsymbolic-functions -Wl,-z,relro -Wl,-z,now -fstack-protector-strong -rdynamic -Wl,-export-dynamic      -lssl -lcrypto -lcrypto -lssl -lruby-3.0  -lssl -lcrypto -lcrypto -lssl -lm   -lc"
 checked program was:
 /* begin */
  1: #include "ruby.h"
@@ -439,7 +427,7 @@ checked program was:
 
 have_func: checking for pipe2() in unistd.h... -------------------- yes
 
-"gcc -o conftest -I/home/ishit_garg/.rbenv/versions/3.0.1/include/ruby-3.0.0/x86_64-linux -I/home/ishit_garg/.rbenv/versions/3.0.1/include/ruby-3.0.0/ruby/backward -I/home/ishit_garg/.rbenv/versions/3.0.1/include/ruby-3.0.0 -I.  -I/home/ishit_garg/.rbenv/versions/3.0.1/include    -O3 -ggdb3 -Wall -Wextra -Wdeprecated-declarations -Wduplicated-cond -Wimplicit-function-declaration -Wimplicit-int -Wmisleading-indentation -Wpointer-arith -Wwrite-strings -Wimplicit-fallthrough=0 -Wmissing-noreturn -Wno-cast-function-type -Wno-constant-logical-operand -Wno-long-long -Wno-missing-field-initializers -Wno-overlength-strings -Wno-packed-bitfield-compat -Wno-parentheses-equality -Wno-self-assign -Wno-tautological-compare -Wno-unused-parameter -Wno-unused-value -Wsuggest-attribute=format -Wsuggest-attribute=noreturn -Wunused-variable  -fPIC  conftest.c  -L. -L/home/ishit_garg/.rbenv/versions/3.0.1/lib -Wl,-rpath,/home/ishit_garg/.rbenv/versions/3.0.1/lib -L. -L/home/ishit_garg/.rbenv/versions/3.0.1/lib  -fstack-protector-strong -rdynamic -Wl,-export-dynamic      -lssl -lcrypto -lcrypto -lssl -Wl,-rpath,/home/ishit_garg/.rbenv/versions/3.0.1/lib -L/home/ishit_garg/.rbenv/versions/3.0.1/lib -lruby  -lssl -lcrypto -lcrypto -lssl -lm   -lc"
+"x86_64-linux-gnu-gcc -o conftest -I/usr/include/x86_64-linux-gnu/ruby-3.0.0 -I/usr/include/ruby-3.0.0/ruby/backward -I/usr/include/ruby-3.0.0 -I.  -Wdate-time -D_FORTIFY_SOURCE=2   -g -O2 -ffile-prefix-map=/build/ruby3.0-p8XSIY/ruby3.0-3.0.2=. -fstack-protector-strong -Wformat -Werror=format-security -fPIC  conftest.c  -L. -L/usr/lib/x86_64-linux-gnu -L. -Wl,-Bsymbolic-functions -Wl,-z,relro -Wl,-z,now -fstack-protector-strong -rdynamic -Wl,-export-dynamic      -lssl -lcrypto -lcrypto -lssl -lruby-3.0  -lssl -lcrypto -lcrypto -lssl -lm   -lc"
 checked program was:
 /* begin */
  1: #include "ruby.h"
@@ -464,7 +452,7 @@ checked program was:
 
 have_func: checking for accept4() in sys/socket.h... -------------------- yes
 
-"gcc -o conftest -I/home/ishit_garg/.rbenv/versions/3.0.1/include/ruby-3.0.0/x86_64-linux -I/home/ishit_garg/.rbenv/versions/3.0.1/include/ruby-3.0.0/ruby/backward -I/home/ishit_garg/.rbenv/versions/3.0.1/include/ruby-3.0.0 -I.  -I/home/ishit_garg/.rbenv/versions/3.0.1/include    -O3 -ggdb3 -Wall -Wextra -Wdeprecated-declarations -Wduplicated-cond -Wimplicit-function-declaration -Wimplicit-int -Wmisleading-indentation -Wpointer-arith -Wwrite-strings -Wimplicit-fallthrough=0 -Wmissing-noreturn -Wno-cast-function-type -Wno-constant-logical-operand -Wno-long-long -Wno-missing-field-initializers -Wno-overlength-strings -Wno-packed-bitfield-compat -Wno-parentheses-equality -Wno-self-assign -Wno-tautological-compare -Wno-unused-parameter -Wno-unused-value -Wsuggest-attribute=format -Wsuggest-attribute=noreturn -Wunused-variable  -fPIC  conftest.c  -L. -L/home/ishit_garg/.rbenv/versions/3.0.1/lib -Wl,-rpath,/home/ishit_garg/.rbenv/versions/3.0.1/lib -L. -L/home/ishit_garg/.rbenv/versions/3.0.1/lib  -fstack-protector-strong -rdynamic -Wl,-export-dynamic      -lssl -lcrypto -lcrypto -lssl -Wl,-rpath,/home/ishit_garg/.rbenv/versions/3.0.1/lib -L/home/ishit_garg/.rbenv/versions/3.0.1/lib -lruby  -lssl -lcrypto -lcrypto -lssl -lm   -lc"
+"x86_64-linux-gnu-gcc -o conftest -I/usr/include/x86_64-linux-gnu/ruby-3.0.0 -I/usr/include/ruby-3.0.0/ruby/backward -I/usr/include/ruby-3.0.0 -I.  -Wdate-time -D_FORTIFY_SOURCE=2   -g -O2 -ffile-prefix-map=/build/ruby3.0-p8XSIY/ruby3.0-3.0.2=. -fstack-protector-strong -Wformat -Werror=format-security -fPIC  conftest.c  -L. -L/usr/lib/x86_64-linux-gnu -L. -Wl,-Bsymbolic-functions -Wl,-z,relro -Wl,-z,now -fstack-protector-strong -rdynamic -Wl,-export-dynamic      -lssl -lcrypto -lcrypto -lssl -lruby-3.0  -lssl -lcrypto -lcrypto -lssl -lm   -lc"
 checked program was:
 /* begin */
  1: #include "ruby.h"
@@ -489,7 +477,7 @@ checked program was:
 
 have_const: checking for SOCK_CLOEXEC in sys/socket.h... -------------------- yes
 
-"gcc -I/home/ishit_garg/.rbenv/versions/3.0.1/include/ruby-3.0.0/x86_64-linux -I/home/ishit_garg/.rbenv/versions/3.0.1/include/ruby-3.0.0/ruby/backward -I/home/ishit_garg/.rbenv/versions/3.0.1/include/ruby-3.0.0 -I.  -I/home/ishit_garg/.rbenv/versions/3.0.1/include    -O3 -ggdb3 -Wall -Wextra -Wdeprecated-declarations -Wduplicated-cond -Wimplicit-function-declaration -Wimplicit-int -Wmisleading-indentation -Wpointer-arith -Wwrite-strings -Wimplicit-fallthrough=0 -Wmissing-noreturn -Wno-cast-function-type -Wno-constant-logical-operand -Wno-long-long -Wno-missing-field-initializers -Wno-overlength-strings -Wno-packed-bitfield-compat -Wno-parentheses-equality -Wno-self-assign -Wno-tautological-compare -Wno-unused-parameter -Wno-unused-value -Wsuggest-attribute=format -Wsuggest-attribute=noreturn -Wunused-variable  -fPIC    -c conftest.c"
+"x86_64-linux-gnu-gcc -I/usr/include/x86_64-linux-gnu/ruby-3.0.0 -I/usr/include/ruby-3.0.0/ruby/backward -I/usr/include/ruby-3.0.0 -I.  -Wdate-time -D_FORTIFY_SOURCE=2   -g -O2 -ffile-prefix-map=/build/ruby3.0-p8XSIY/ruby3.0-3.0.2=. -fstack-protector-strong -Wformat -Werror=format-security -fPIC    -c conftest.c"
 checked program was:
 /* begin */
 1: #include "ruby.h"
@@ -505,7 +493,7 @@ checked program was:
 
 have_header: checking for sys/event.h... -------------------- no
 
-"gcc -E -I/home/ishit_garg/.rbenv/versions/3.0.1/include/ruby-3.0.0/x86_64-linux -I/home/ishit_garg/.rbenv/versions/3.0.1/include/ruby-3.0.0/ruby/backward -I/home/ishit_garg/.rbenv/versions/3.0.1/include/ruby-3.0.0 -I.  -I/home/ishit_garg/.rbenv/versions/3.0.1/include    -O3 -ggdb3 -Wall -Wextra -Wdeprecated-declarations -Wduplicated-cond -Wimplicit-function-declaration -Wimplicit-int -Wmisleading-indentation -Wpointer-arith -Wwrite-strings -Wimplicit-fallthrough=0 -Wmissing-noreturn -Wno-cast-function-type -Wno-constant-logical-operand -Wno-long-long -Wno-missing-field-initializers -Wno-overlength-strings -Wno-packed-bitfield-compat -Wno-parentheses-equality -Wno-self-assign -Wno-tautological-compare -Wno-unused-parameter -Wno-unused-value -Wsuggest-attribute=format -Wsuggest-attribute=noreturn -Wunused-variable  -fPIC   conftest.c -o conftest.i"
+"x86_64-linux-gnu-gcc -E -I/usr/include/x86_64-linux-gnu/ruby-3.0.0 -I/usr/include/ruby-3.0.0/ruby/backward -I/usr/include/ruby-3.0.0 -I.  -Wdate-time -D_FORTIFY_SOURCE=2   -g -O2 -ffile-prefix-map=/build/ruby3.0-p8XSIY/ruby3.0-3.0.2=. -fstack-protector-strong -Wformat -Werror=format-security -fPIC   conftest.c -o conftest.i"
 conftest.c:3:10: fatal error: sys/event.h: No such file or directory
     3 | #include <sys/event.h>
       |          ^~~~~~~~~~~~~
@@ -521,7 +509,7 @@ checked program was:
 
 have_func: checking for epoll_create() in sys/epoll.h... -------------------- yes
 
-"gcc -o conftest -I/home/ishit_garg/.rbenv/versions/3.0.1/include/ruby-3.0.0/x86_64-linux -I/home/ishit_garg/.rbenv/versions/3.0.1/include/ruby-3.0.0/ruby/backward -I/home/ishit_garg/.rbenv/versions/3.0.1/include/ruby-3.0.0 -I.  -I/home/ishit_garg/.rbenv/versions/3.0.1/include    -O3 -ggdb3 -Wall -Wextra -Wdeprecated-declarations -Wduplicated-cond -Wimplicit-function-declaration -Wimplicit-int -Wmisleading-indentation -Wpointer-arith -Wwrite-strings -Wimplicit-fallthrough=0 -Wmissing-noreturn -Wno-cast-function-type -Wno-constant-logical-operand -Wno-long-long -Wno-missing-field-initializers -Wno-overlength-strings -Wno-packed-bitfield-compat -Wno-parentheses-equality -Wno-self-assign -Wno-tautological-compare -Wno-unused-parameter -Wno-unused-value -Wsuggest-attribute=format -Wsuggest-attribute=noreturn -Wunused-variable  -fPIC  conftest.c  -L. -L/home/ishit_garg/.rbenv/versions/3.0.1/lib -Wl,-rpath,/home/ishit_garg/.rbenv/versions/3.0.1/lib -L. -L/home/ishit_garg/.rbenv/versions/3.0.1/lib  -fstack-protector-strong -rdynamic -Wl,-export-dynamic      -lssl -lcrypto -lcrypto -lssl -Wl,-rpath,/home/ishit_garg/.rbenv/versions/3.0.1/lib -L/home/ishit_garg/.rbenv/versions/3.0.1/lib -lruby  -lssl -lcrypto -lcrypto -lssl -lm   -lc"
+"x86_64-linux-gnu-gcc -o conftest -I/usr/include/x86_64-linux-gnu/ruby-3.0.0 -I/usr/include/ruby-3.0.0/ruby/backward -I/usr/include/ruby-3.0.0 -I.  -Wdate-time -D_FORTIFY_SOURCE=2   -g -O2 -ffile-prefix-map=/build/ruby3.0-p8XSIY/ruby3.0-3.0.2=. -fstack-protector-strong -Wformat -Werror=format-security -fPIC  conftest.c  -L. -L/usr/lib/x86_64-linux-gnu -L. -Wl,-Bsymbolic-functions -Wl,-z,relro -Wl,-z,now -fstack-protector-strong -rdynamic -Wl,-export-dynamic      -lssl -lcrypto -lcrypto -lssl -lruby-3.0  -lssl -lcrypto -lcrypto -lssl -lm   -lc"
 checked program was:
 /* begin */
  1: #include "ruby.h"
@@ -546,7 +534,7 @@ checked program was:
 
 have_func: checking for clock_gettime()... -------------------- yes
 
-"gcc -o conftest -I/home/ishit_garg/.rbenv/versions/3.0.1/include/ruby-3.0.0/x86_64-linux -I/home/ishit_garg/.rbenv/versions/3.0.1/include/ruby-3.0.0/ruby/backward -I/home/ishit_garg/.rbenv/versions/3.0.1/include/ruby-3.0.0 -I.  -I/home/ishit_garg/.rbenv/versions/3.0.1/include    -O3 -ggdb3 -Wall -Wextra -Wdeprecated-declarations -Wduplicated-cond -Wimplicit-function-declaration -Wimplicit-int -Wmisleading-indentation -Wpointer-arith -Wwrite-strings -Wimplicit-fallthrough=0 -Wmissing-noreturn -Wno-cast-function-type -Wno-constant-logical-operand -Wno-long-long -Wno-missing-field-initializers -Wno-overlength-strings -Wno-packed-bitfield-compat -Wno-parentheses-equality -Wno-self-assign -Wno-tautological-compare -Wno-unused-parameter -Wno-unused-value -Wsuggest-attribute=format -Wsuggest-attribute=noreturn -Wunused-variable  -fPIC  conftest.c  -L. -L/home/ishit_garg/.rbenv/versions/3.0.1/lib -Wl,-rpath,/home/ishit_garg/.rbenv/versions/3.0.1/lib -L. -L/home/ishit_garg/.rbenv/versions/3.0.1/lib  -fstack-protector-strong -rdynamic -Wl,-export-dynamic      -lssl -lcrypto -lcrypto -lssl -Wl,-rpath,/home/ishit_garg/.rbenv/versions/3.0.1/lib -L/home/ishit_garg/.rbenv/versions/3.0.1/lib -lruby  -lssl -lcrypto -lcrypto -lssl -lm   -lc"
+"x86_64-linux-gnu-gcc -o conftest -I/usr/include/x86_64-linux-gnu/ruby-3.0.0 -I/usr/include/ruby-3.0.0/ruby/backward -I/usr/include/ruby-3.0.0 -I.  -Wdate-time -D_FORTIFY_SOURCE=2   -g -O2 -ffile-prefix-map=/build/ruby3.0-p8XSIY/ruby3.0-3.0.2=. -fstack-protector-strong -Wformat -Werror=format-security -fPIC  conftest.c  -L. -L/usr/lib/x86_64-linux-gnu -L. -Wl,-Bsymbolic-functions -Wl,-z,relro -Wl,-z,now -fstack-protector-strong -rdynamic -Wl,-export-dynamic      -lssl -lcrypto -lcrypto -lssl -lruby-3.0  -lssl -lcrypto -lcrypto -lssl -lm   -lc"
 checked program was:
 /* begin */
  1: #include "ruby.h"
@@ -569,7 +557,7 @@ checked program was:
 
 have_const: checking for CLOCK_MONOTONIC_RAW in time.h... -------------------- yes
 
-"gcc -I/home/ishit_garg/.rbenv/versions/3.0.1/include/ruby-3.0.0/x86_64-linux -I/home/ishit_garg/.rbenv/versions/3.0.1/include/ruby-3.0.0/ruby/backward -I/home/ishit_garg/.rbenv/versions/3.0.1/include/ruby-3.0.0 -I.  -I/home/ishit_garg/.rbenv/versions/3.0.1/include    -O3 -ggdb3 -Wall -Wextra -Wdeprecated-declarations -Wduplicated-cond -Wimplicit-function-declaration -Wimplicit-int -Wmisleading-indentation -Wpointer-arith -Wwrite-strings -Wimplicit-fallthrough=0 -Wmissing-noreturn -Wno-cast-function-type -Wno-constant-logical-operand -Wno-long-long -Wno-missing-field-initializers -Wno-overlength-strings -Wno-packed-bitfield-compat -Wno-parentheses-equality -Wno-self-assign -Wno-tautological-compare -Wno-unused-parameter -Wno-unused-value -Wsuggest-attribute=format -Wsuggest-attribute=noreturn -Wunused-variable  -fPIC    -c conftest.c"
+"x86_64-linux-gnu-gcc -I/usr/include/x86_64-linux-gnu/ruby-3.0.0 -I/usr/include/ruby-3.0.0/ruby/backward -I/usr/include/ruby-3.0.0 -I.  -Wdate-time -D_FORTIFY_SOURCE=2   -g -O2 -ffile-prefix-map=/build/ruby3.0-p8XSIY/ruby3.0-3.0.2=. -fstack-protector-strong -Wformat -Werror=format-security -fPIC    -c conftest.c"
 checked program was:
 /* begin */
 1: #include "ruby.h"
@@ -585,7 +573,7 @@ checked program was:
 
 have_const: checking for CLOCK_MONOTONIC in time.h... -------------------- yes
 
-"gcc -I/home/ishit_garg/.rbenv/versions/3.0.1/include/ruby-3.0.0/x86_64-linux -I/home/ishit_garg/.rbenv/versions/3.0.1/include/ruby-3.0.0/ruby/backward -I/home/ishit_garg/.rbenv/versions/3.0.1/include/ruby-3.0.0 -I.  -I/home/ishit_garg/.rbenv/versions/3.0.1/include    -O3 -ggdb3 -Wall -Wextra -Wdeprecated-declarations -Wduplicated-cond -Wimplicit-function-declaration -Wimplicit-int -Wmisleading-indentation -Wpointer-arith -Wwrite-strings -Wimplicit-fallthrough=0 -Wmissing-noreturn -Wno-cast-function-type -Wno-constant-logical-operand -Wno-long-long -Wno-missing-field-initializers -Wno-overlength-strings -Wno-packed-bitfield-compat -Wno-parentheses-equality -Wno-self-assign -Wno-tautological-compare -Wno-unused-parameter -Wno-unused-value -Wsuggest-attribute=format -Wsuggest-attribute=noreturn -Wunused-variable  -fPIC    -c conftest.c"
+"x86_64-linux-gnu-gcc -I/usr/include/x86_64-linux-gnu/ruby-3.0.0 -I/usr/include/ruby-3.0.0/ruby/backward -I/usr/include/ruby-3.0.0 -I.  -Wdate-time -D_FORTIFY_SOURCE=2   -g -O2 -ffile-prefix-map=/build/ruby3.0-p8XSIY/ruby3.0-3.0.2=. -fstack-protector-strong -Wformat -Werror=format-security -fPIC    -c conftest.c"
 checked program was:
 /* begin */
 1: #include "ruby.h"
@@ -599,12 +587,7 @@ checked program was:
 
 --------------------
 
-"g++ -o conftest -I/home/ishit_garg/.rbenv/versions/3.0.1/include/ruby-3.0.0/x86_64-linux -I/home/ishit_garg/.rbenv/versions/3.0.1/include/ruby-3.0.0/ruby/backward -I/home/ishit_garg/.rbenv/versions/3.0.1/include/ruby-3.0.0 -I.  -I/home/ishit_garg/.rbenv/versions/3.0.1/include    -O3 -ggdb3 -Wall -Wextra -Wdeprecated-declarations -Wduplicated-cond -Wimplicit-function-declaration -Wimplicit-int -Wmisleading-indentation -Wpointer-arith -Wwrite-strings -Wimplicit-fallthrough=0 -Wmissing-noreturn -Wno-cast-function-type -Wno-constant-logical-operand -Wno-long-long -Wno-missing-field-initializers -Wno-overlength-strings -Wno-packed-bitfield-compat -Wno-parentheses-equality -Wno-self-assign -Wno-tautological-compare -Wno-unused-parameter -Wno-unused-value -Wsuggest-attribute=format -Wsuggest-attribute=noreturn -Wunused-variable  -fPIC  conftest.c  -L. -L/home/ishit_garg/.rbenv/versions/3.0.1/lib -Wl,-rpath,/home/ishit_garg/.rbenv/versions/3.0.1/lib -L. -L/home/ishit_garg/.rbenv/versions/3.0.1/lib  -fstack-protector-strong -rdynamic -Wl,-export-dynamic      -lssl -lcrypto -lcrypto -lssl -Wl,-rpath,/home/ishit_garg/.rbenv/versions/3.0.1/lib -L/home/ishit_garg/.rbenv/versions/3.0.1/lib -lruby -Wall -lm   -lc"
-cc1plus: warning: command line option ‘-Wimplicit-function-declaration’ is valid for C/ObjC but not for C++
-cc1plus: warning: command line option ‘-Wimplicit-int’ is valid for C/ObjC but not for C++
-cc1plus: warning: unrecognized command line option ‘-Wno-self-assign’
-cc1plus: warning: unrecognized command line option ‘-Wno-parentheses-equality’
-cc1plus: warning: unrecognized command line option ‘-Wno-constant-logical-operand’
+"x86_64-linux-gnu-g++ -o conftest -I/usr/include/x86_64-linux-gnu/ruby-3.0.0 -I/usr/include/ruby-3.0.0/ruby/backward -I/usr/include/ruby-3.0.0 -I.  -Wdate-time -D_FORTIFY_SOURCE=2   -g -O2 -ffile-prefix-map=/build/ruby3.0-p8XSIY/ruby3.0-3.0.2=. -fstack-protector-strong -Wformat -Werror=format-security -fPIC  conftest.c  -L. -L/usr/lib/x86_64-linux-gnu -L. -Wl,-Bsymbolic-functions -Wl,-z,relro -Wl,-z,now -fstack-protector-strong -rdynamic -Wl,-export-dynamic      -lssl -lcrypto -lcrypto -lssl -lruby-3.0 -Wall -lm   -lc"
 checked program was:
 /* begin */
 1: #include "ruby.h"
@@ -612,12 +595,7 @@ checked program was:
 3: int main() {return 0;}
 /* end */
 
-"g++ -o conftest -I/home/ishit_garg/.rbenv/versions/3.0.1/include/ruby-3.0.0/x86_64-linux -I/home/ishit_garg/.rbenv/versions/3.0.1/include/ruby-3.0.0/ruby/backward -I/home/ishit_garg/.rbenv/versions/3.0.1/include/ruby-3.0.0 -I.  -I/home/ishit_garg/.rbenv/versions/3.0.1/include    -O3 -ggdb3 -Wall -Wextra -Wdeprecated-declarations -Wduplicated-cond -Wimplicit-function-declaration -Wimplicit-int -Wmisleading-indentation -Wpointer-arith -Wwrite-strings -Wimplicit-fallthrough=0 -Wmissing-noreturn -Wno-cast-function-type -Wno-constant-logical-operand -Wno-long-long -Wno-missing-field-initializers -Wno-overlength-strings -Wno-packed-bitfield-compat -Wno-parentheses-equality -Wno-self-assign -Wno-tautological-compare -Wno-unused-parameter -Wno-unused-value -Wsuggest-attribute=format -Wsuggest-attribute=noreturn -Wunused-variable  -fPIC  conftest.c  -L. -L/home/ishit_garg/.rbenv/versions/3.0.1/lib -Wl,-rpath,/home/ishit_garg/.rbenv/versions/3.0.1/lib -L. -L/home/ishit_garg/.rbenv/versions/3.0.1/lib  -fstack-protector-strong -rdynamic -Wl,-export-dynamic      -lssl -lcrypto -lcrypto -lssl -Wl,-rpath,/home/ishit_garg/.rbenv/versions/3.0.1/lib -L/home/ishit_garg/.rbenv/versions/3.0.1/lib -lruby -Wextra -lm   -lc"
-cc1plus: warning: command line option ‘-Wimplicit-function-declaration’ is valid for C/ObjC but not for C++
-cc1plus: warning: command line option ‘-Wimplicit-int’ is valid for C/ObjC but not for C++
-cc1plus: warning: unrecognized command line option ‘-Wno-self-assign’
-cc1plus: warning: unrecognized command line option ‘-Wno-parentheses-equality’
-cc1plus: warning: unrecognized command line option ‘-Wno-constant-logical-operand’
+"x86_64-linux-gnu-g++ -o conftest -I/usr/include/x86_64-linux-gnu/ruby-3.0.0 -I/usr/include/ruby-3.0.0/ruby/backward -I/usr/include/ruby-3.0.0 -I.  -Wdate-time -D_FORTIFY_SOURCE=2   -g -O2 -ffile-prefix-map=/build/ruby3.0-p8XSIY/ruby3.0-3.0.2=. -fstack-protector-strong -Wformat -Werror=format-security -fPIC  conftest.c  -L. -L/usr/lib/x86_64-linux-gnu -L. -Wl,-Bsymbolic-functions -Wl,-z,relro -Wl,-z,now -fstack-protector-strong -rdynamic -Wl,-export-dynamic      -lssl -lcrypto -lcrypto -lssl -lruby-3.0 -Wextra -lm   -lc"
 checked program was:
 /* begin */
 1: #include "ruby.h"
@@ -625,12 +603,7 @@ checked program was:
 3: int main() {return 0;}
 /* end */
 
-"g++ -o conftest -I/home/ishit_garg/.rbenv/versions/3.0.1/include/ruby-3.0.0/x86_64-linux -I/home/ishit_garg/.rbenv/versions/3.0.1/include/ruby-3.0.0/ruby/backward -I/home/ishit_garg/.rbenv/versions/3.0.1/include/ruby-3.0.0 -I.  -I/home/ishit_garg/.rbenv/versions/3.0.1/include    -O3 -ggdb3 -Wall -Wextra -Wdeprecated-declarations -Wduplicated-cond -Wimplicit-function-declaration -Wimplicit-int -Wmisleading-indentation -Wpointer-arith -Wwrite-strings -Wimplicit-fallthrough=0 -Wmissing-noreturn -Wno-cast-function-type -Wno-constant-logical-operand -Wno-long-long -Wno-missing-field-initializers -Wno-overlength-strings -Wno-packed-bitfield-compat -Wno-parentheses-equality -Wno-self-assign -Wno-tautological-compare -Wno-unused-parameter -Wno-unused-value -Wsuggest-attribute=format -Wsuggest-attribute=noreturn -Wunused-variable  -fPIC  conftest.c  -L. -L/home/ishit_garg/.rbenv/versions/3.0.1/lib -Wl,-rpath,/home/ishit_garg/.rbenv/versions/3.0.1/lib -L. -L/home/ishit_garg/.rbenv/versions/3.0.1/lib  -fstack-protector-strong -rdynamic -Wl,-export-dynamic      -lssl -lcrypto -lcrypto -lssl -Wl,-rpath,/home/ishit_garg/.rbenv/versions/3.0.1/lib -L/home/ishit_garg/.rbenv/versions/3.0.1/lib -lruby -Wno-deprecated-declarations -lm   -lc"
-cc1plus: warning: command line option ‘-Wimplicit-function-declaration’ is valid for C/ObjC but not for C++
-cc1plus: warning: command line option ‘-Wimplicit-int’ is valid for C/ObjC but not for C++
-cc1plus: warning: unrecognized command line option ‘-Wno-self-assign’
-cc1plus: warning: unrecognized command line option ‘-Wno-parentheses-equality’
-cc1plus: warning: unrecognized command line option ‘-Wno-constant-logical-operand’
+"x86_64-linux-gnu-g++ -o conftest -I/usr/include/x86_64-linux-gnu/ruby-3.0.0 -I/usr/include/ruby-3.0.0/ruby/backward -I/usr/include/ruby-3.0.0 -I.  -Wdate-time -D_FORTIFY_SOURCE=2   -g -O2 -ffile-prefix-map=/build/ruby3.0-p8XSIY/ruby3.0-3.0.2=. -fstack-protector-strong -Wformat -Werror=format-security -fPIC  conftest.c  -L. -L/usr/lib/x86_64-linux-gnu -L. -Wl,-Bsymbolic-functions -Wl,-z,relro -Wl,-z,now -fstack-protector-strong -rdynamic -Wl,-export-dynamic      -lssl -lcrypto -lcrypto -lssl -lruby-3.0 -Wno-deprecated-declarations -lm   -lc"
 checked program was:
 /* begin */
 1: #include "ruby.h"
@@ -638,12 +611,7 @@ checked program was:
 3: int main() {return 0;}
 /* end */
 
-"g++ -o conftest -I/home/ishit_garg/.rbenv/versions/3.0.1/include/ruby-3.0.0/x86_64-linux -I/home/ishit_garg/.rbenv/versions/3.0.1/include/ruby-3.0.0/ruby/backward -I/home/ishit_garg/.rbenv/versions/3.0.1/include/ruby-3.0.0 -I.  -I/home/ishit_garg/.rbenv/versions/3.0.1/include    -O3 -ggdb3 -Wall -Wextra -Wdeprecated-declarations -Wduplicated-cond -Wimplicit-function-declaration -Wimplicit-int -Wmisleading-indentation -Wpointer-arith -Wwrite-strings -Wimplicit-fallthrough=0 -Wmissing-noreturn -Wno-cast-function-type -Wno-constant-logical-operand -Wno-long-long -Wno-missing-field-initializers -Wno-overlength-strings -Wno-packed-bitfield-compat -Wno-parentheses-equality -Wno-self-assign -Wno-tautological-compare -Wno-unused-parameter -Wno-unused-value -Wsuggest-attribute=format -Wsuggest-attribute=noreturn -Wunused-variable  -fPIC  conftest.c  -L. -L/home/ishit_garg/.rbenv/versions/3.0.1/lib -Wl,-rpath,/home/ishit_garg/.rbenv/versions/3.0.1/lib -L. -L/home/ishit_garg/.rbenv/versions/3.0.1/lib  -fstack-protector-strong -rdynamic -Wl,-export-dynamic      -lssl -lcrypto -lcrypto -lssl -Wl,-rpath,/home/ishit_garg/.rbenv/versions/3.0.1/lib -L/home/ishit_garg/.rbenv/versions/3.0.1/lib -lruby -Wno-ignored-qualifiers -lm   -lc"
-cc1plus: warning: command line option ‘-Wimplicit-function-declaration’ is valid for C/ObjC but not for C++
-cc1plus: warning: command line option ‘-Wimplicit-int’ is valid for C/ObjC but not for C++
-cc1plus: warning: unrecognized command line option ‘-Wno-self-assign’
-cc1plus: warning: unrecognized command line option ‘-Wno-parentheses-equality’
-cc1plus: warning: unrecognized command line option ‘-Wno-constant-logical-operand’
+"x86_64-linux-gnu-g++ -o conftest -I/usr/include/x86_64-linux-gnu/ruby-3.0.0 -I/usr/include/ruby-3.0.0/ruby/backward -I/usr/include/ruby-3.0.0 -I.  -Wdate-time -D_FORTIFY_SOURCE=2   -g -O2 -ffile-prefix-map=/build/ruby3.0-p8XSIY/ruby3.0-3.0.2=. -fstack-protector-strong -Wformat -Werror=format-security -fPIC  conftest.c  -L. -L/usr/lib/x86_64-linux-gnu -L. -Wl,-Bsymbolic-functions -Wl,-z,relro -Wl,-z,now -fstack-protector-strong -rdynamic -Wl,-export-dynamic      -lssl -lcrypto -lcrypto -lssl -lruby-3.0 -Wno-ignored-qualifiers -lm   -lc"
 checked program was:
 /* begin */
 1: #include "ruby.h"
@@ -651,12 +619,7 @@ checked program was:
 3: int main() {return 0;}
 /* end */
 
-"g++ -o conftest -I/home/ishit_garg/.rbenv/versions/3.0.1/include/ruby-3.0.0/x86_64-linux -I/home/ishit_garg/.rbenv/versions/3.0.1/include/ruby-3.0.0/ruby/backward -I/home/ishit_garg/.rbenv/versions/3.0.1/include/ruby-3.0.0 -I.  -I/home/ishit_garg/.rbenv/versions/3.0.1/include    -O3 -ggdb3 -Wall -Wextra -Wdeprecated-declarations -Wduplicated-cond -Wimplicit-function-declaration -Wimplicit-int -Wmisleading-indentation -Wpointer-arith -Wwrite-strings -Wimplicit-fallthrough=0 -Wmissing-noreturn -Wno-cast-function-type -Wno-constant-logical-operand -Wno-long-long -Wno-missing-field-initializers -Wno-overlength-strings -Wno-packed-bitfield-compat -Wno-parentheses-equality -Wno-self-assign -Wno-tautological-compare -Wno-unused-parameter -Wno-unused-value -Wsuggest-attribute=format -Wsuggest-attribute=noreturn -Wunused-variable  -fPIC  conftest.c  -L. -L/home/ishit_garg/.rbenv/versions/3.0.1/lib -Wl,-rpath,/home/ishit_garg/.rbenv/versions/3.0.1/lib -L. -L/home/ishit_garg/.rbenv/versions/3.0.1/lib  -fstack-protector-strong -rdynamic -Wl,-export-dynamic      -lssl -lcrypto -lcrypto -lssl -Wl,-rpath,/home/ishit_garg/.rbenv/versions/3.0.1/lib -L/home/ishit_garg/.rbenv/versions/3.0.1/lib -lruby -Wno-unused-result -lm   -lc"
-cc1plus: warning: command line option ‘-Wimplicit-function-declaration’ is valid for C/ObjC but not for C++
-cc1plus: warning: command line option ‘-Wimplicit-int’ is valid for C/ObjC but not for C++
-cc1plus: warning: unrecognized command line option ‘-Wno-self-assign’
-cc1plus: warning: unrecognized command line option ‘-Wno-parentheses-equality’
-cc1plus: warning: unrecognized command line option ‘-Wno-constant-logical-operand’
+"x86_64-linux-gnu-g++ -o conftest -I/usr/include/x86_64-linux-gnu/ruby-3.0.0 -I/usr/include/ruby-3.0.0/ruby/backward -I/usr/include/ruby-3.0.0 -I.  -Wdate-time -D_FORTIFY_SOURCE=2   -g -O2 -ffile-prefix-map=/build/ruby3.0-p8XSIY/ruby3.0-3.0.2=. -fstack-protector-strong -Wformat -Werror=format-security -fPIC  conftest.c  -L. -L/usr/lib/x86_64-linux-gnu -L. -Wl,-Bsymbolic-functions -Wl,-z,relro -Wl,-z,now -fstack-protector-strong -rdynamic -Wl,-export-dynamic      -lssl -lcrypto -lcrypto -lssl -lruby-3.0 -Wno-unused-result -lm   -lc"
 checked program was:
 /* begin */
 1: #include "ruby.h"
@@ -664,12 +627,7 @@ checked program was:
 3: int main() {return 0;}
 /* end */
 
-"g++ -o conftest -I/home/ishit_garg/.rbenv/versions/3.0.1/include/ruby-3.0.0/x86_64-linux -I/home/ishit_garg/.rbenv/versions/3.0.1/include/ruby-3.0.0/ruby/backward -I/home/ishit_garg/.rbenv/versions/3.0.1/include/ruby-3.0.0 -I.  -I/home/ishit_garg/.rbenv/versions/3.0.1/include    -O3 -ggdb3 -Wall -Wextra -Wdeprecated-declarations -Wduplicated-cond -Wimplicit-function-declaration -Wimplicit-int -Wmisleading-indentation -Wpointer-arith -Wwrite-strings -Wimplicit-fallthrough=0 -Wmissing-noreturn -Wno-cast-function-type -Wno-constant-logical-operand -Wno-long-long -Wno-missing-field-initializers -Wno-overlength-strings -Wno-packed-bitfield-compat -Wno-parentheses-equality -Wno-self-assign -Wno-tautological-compare -Wno-unused-parameter -Wno-unused-value -Wsuggest-attribute=format -Wsuggest-attribute=noreturn -Wunused-variable  -fPIC  conftest.c  -L. -L/home/ishit_garg/.rbenv/versions/3.0.1/lib -Wl,-rpath,/home/ishit_garg/.rbenv/versions/3.0.1/lib -L. -L/home/ishit_garg/.rbenv/versions/3.0.1/lib  -fstack-protector-strong -rdynamic -Wl,-export-dynamic      -lssl -lcrypto -lcrypto -lssl -Wl,-rpath,/home/ishit_garg/.rbenv/versions/3.0.1/lib -L/home/ishit_garg/.rbenv/versions/3.0.1/lib -lruby -Wno-address -lm   -lc"
-cc1plus: warning: command line option ‘-Wimplicit-function-declaration’ is valid for C/ObjC but not for C++
-cc1plus: warning: command line option ‘-Wimplicit-int’ is valid for C/ObjC but not for C++
-cc1plus: warning: unrecognized command line option ‘-Wno-self-assign’
-cc1plus: warning: unrecognized command line option ‘-Wno-parentheses-equality’
-cc1plus: warning: unrecognized command line option ‘-Wno-constant-logical-operand’
+"x86_64-linux-gnu-g++ -o conftest -I/usr/include/x86_64-linux-gnu/ruby-3.0.0 -I/usr/include/ruby-3.0.0/ruby/backward -I/usr/include/ruby-3.0.0 -I.  -Wdate-time -D_FORTIFY_SOURCE=2   -g -O2 -ffile-prefix-map=/build/ruby3.0-p8XSIY/ruby3.0-3.0.2=. -fstack-protector-strong -Wformat -Werror=format-security -fPIC  conftest.c  -L. -L/usr/lib/x86_64-linux-gnu -L. -Wl,-Bsymbolic-functions -Wl,-z,relro -Wl,-z,now -fstack-protector-strong -rdynamic -Wl,-export-dynamic      -lssl -lcrypto -lcrypto -lssl -lruby-3.0 -Wno-address -lm   -lc"
 checked program was:
 /* begin */
 1: #include "ruby.h"
@@ -677,17 +635,7 @@ checked program was:
 3: int main() {return 0;}
 /* end */
 
-"g++ -o conftest -I/home/ishit_garg/.rbenv/versions/3.0.1/include/ruby-3.0.0/x86_64-linux -I/home/ishit_garg/.rbenv/versions/3.0.1/include/ruby-3.0.0/ruby/backward -I/home/ishit_garg/.rbenv/versions/3.0.1/include/ruby-3.0.0 -I.  -I/home/ishit_garg/.rbenv/versions/3.0.1/include    -O3 -ggdb3 -Wall -Wextra -Wdeprecated-declarations -Wduplicated-cond -Wimplicit-function-declaration -Wimplicit-int -Wmisleading-indentation -Wpointer-arith -Wwrite-strings -Wimplicit-fallthrough=0 -Wmissing-noreturn -Wno-cast-function-type -Wno-constant-logical-operand -Wno-long-long -Wno-missing-field-initializers -Wno-overlength-strings -Wno-packed-bitfield-compat -Wno-parentheses-equality -Wno-self-assign -Wno-tautological-compare -Wno-unused-parameter -Wno-unused-value -Wsuggest-attribute=format -Wsuggest-attribute=noreturn -Wunused-variable  -fPIC  conftest.c  -L. -L/home/ishit_garg/.rbenv/versions/3.0.1/lib -Wl,-rpath,/home/ishit_garg/.rbenv/versions/3.0.1/lib -L. -L/home/ishit_garg/.rbenv/versions/3.0.1/lib  -fstack-protector-strong -rdynamic -Wl,-export-dynamic      -lssl -lcrypto -lcrypto -lssl -Wl,-rpath,/home/ishit_garg/.rbenv/versions/3.0.1/lib -L/home/ishit_garg/.rbenv/versions/3.0.1/lib -lruby -lstdc++ -lm   -lc"
-cc1plus: warning: command line option ‘-Wimplicit-function-declaration’ is valid for C/ObjC but not for C++
-cc1plus: warning: command line option ‘-Wimplicit-int’ is valid for C/ObjC but not for C++
-conftest.c: In function ‘int main()’:
-conftest.c:5:35: warning: variable ‘tuple’ set but not used [-Wunused-but-set-variable]
-    5 |   int main(){ pair<const int,int> tuple = make_pair(1,2); }
-      |                                   ^~~~~
-At global scope:
-cc1plus: warning: unrecognized command line option ‘-Wno-self-assign’
-cc1plus: warning: unrecognized command line option ‘-Wno-parentheses-equality’
-cc1plus: warning: unrecognized command line option ‘-Wno-constant-logical-operand’
+"x86_64-linux-gnu-g++ -o conftest -I/usr/include/x86_64-linux-gnu/ruby-3.0.0 -I/usr/include/ruby-3.0.0/ruby/backward -I/usr/include/ruby-3.0.0 -I.  -Wdate-time -D_FORTIFY_SOURCE=2   -g -O2 -ffile-prefix-map=/build/ruby3.0-p8XSIY/ruby3.0-3.0.2=. -fstack-protector-strong -Wformat -Werror=format-security -fPIC  conftest.c  -L. -L/usr/lib/x86_64-linux-gnu -L. -Wl,-Bsymbolic-functions -Wl,-z,relro -Wl,-z,now -fstack-protector-strong -rdynamic -Wl,-export-dynamic      -lssl -lcrypto -lcrypto -lssl -lruby-3.0 -lstdc++ -lm   -lc"
 checked program was:
 /* begin */
 1: #include "ruby.h"
