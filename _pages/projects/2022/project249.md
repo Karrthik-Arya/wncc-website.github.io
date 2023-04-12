@@ -63,7 +63,7 @@ Edge detection:<br>
 - https://www.javatpoint.com/opencv-canny-edge-detection
 <br>
 Prerequisites:
-No prerequisites. But having knowledge of basics of web development will be preferred.
+No prerequisites. 
 </p>
 </div>
 <div class = "d-flex flex-wrap">

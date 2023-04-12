@@ -3,7 +3,7 @@ layout: project
 title: Seasons of Code
 project: Institute OnChain Voting System with ZKPs
 topics:
-    - Competitive Programming
+    - Blockchain
 mentors:
     - Nikhil Tiwari	
     - Ananya Khandelwal

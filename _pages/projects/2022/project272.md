@@ -6,6 +6,7 @@ topics:
     - Machine Learning
 mentors:
     - Harshit Morj
+    - Kartik Gokhale
     
 mentees:
 - 5-6

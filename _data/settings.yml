@@ -506,7 +506,7 @@ soc-items:
     image: "assets/images/soc/2023/item261.jpg"
     url: "/soc/projects/2023/project261"
     soc-type:
-      - type: "Miscellaneous"
+      - type: "CP"
       - type: "2023"
 
   - title: "Economics meets Machine Learning"
@@ -659,7 +659,6 @@ soc-items:
     url: "/soc/projects/2023/project280"
     soc-type:
      - type: "Miscellaneous" 
-     - type: "Development"
      - type: "2023"
 
   - title : "YOLO-Cam-Object Detection based Analytics"
@@ -767,6 +766,70 @@ soc-items:
     url: "/soc/projects/2023/project295"
     soc-type:
      - type: "Machine Learning" 
+     - type: "2023"
+
+  - title : "Blockchain Development- It's not that difficult!"
+    image_small: "assets/images/soc/2023/item296.jpeg"
+    image : "assets/images/soc/2023/item296.jpeg"
+    url: "/soc/projects/2023/project296"
+    soc-type:
+     - type: "Blockchain" 
+     - type: "2023"
+
+  - title : "Light field imaging and Dual Attention Networks"
+    image_small: "assets/images/soc/2023/item297.png"
+    image : "assets/images/soc/2023/item297.png"
+    url: "/soc/projects/2023/project297"
+    soc-type:
+     - type: "Machine Learning" 
+     - type: "2023"
+
+  - title : "Stable Diffusion"
+    image_small: "assets/images/soc/2023/item298.jpg"
+    image : "assets/images/soc/2023/item298.jpg"
+    url: "/soc/projects/2023/project298"
+    soc-type:
+     - type: "Machine Learning" 
+     - type: "2023"
+
+  - title : "FlappeRL"
+    image_small: "assets/images/soc/2023/item299.webp"
+    image : "assets/images/soc/2023/item299.webp"
+    url: "/soc/projects/2023/project299"
+    soc-type:
+     - type: "Machine Learning" 
+     - type: "2023"
+
+  - title : "Hands-on Computational Physics"
+    image_small: "assets/images/soc/2023/item300.png"
+    image : "assets/images/soc/2023/item300.png"
+    url: "/soc/projects/2023/project300"
+    soc-type:
+     - type: "Miscellaneous" 
+     - type: "2023"
+
+  - title : "Image Colorization"
+    image_small: "assets/images/soc/2023/item301.png"
+    image : "assets/images/soc/2023/item301.png"
+    url: "/soc/projects/2023/project301"
+    soc-type:
+     - type: "Machine Learning" 
+     - type: "2023"
+
+  - title : "PaperPal"
+    image_small: "assets/images/soc/2023/item302.png"
+    image : "assets/images/soc/2023/item302.png"
+    url: "/soc/projects/2023/project302"
+    soc-type:
+     - type: "Machine Learning" 
+     - type: "2023"
+
+  - title : "JobFinderX"
+    image_small: "assets/images/soc/2023/item303.jpeg"
+    image : "assets/images/soc/2023/item303.jpeg"
+    url: "/soc/projects/2023/project303"
+    soc-type:
+     - type: "Development" 
      - type: "2023"
 
 Done:

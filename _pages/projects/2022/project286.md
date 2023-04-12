@@ -7,7 +7,7 @@ topics:
 mentors:
     - Abhinav Raghuvanshi
     - Pranav Malpure
-    
+    - Rohan Kalbag
 mentees:
 - 4
     

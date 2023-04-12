@@ -5,7 +5,8 @@ project: Social media website with MERN
 topics:
     - Web Development
 mentors:
-    - Shivam kumar   
+    - Shivam kumar
+    - Prakhar Agarwal
     
 mentees:
 - 10
