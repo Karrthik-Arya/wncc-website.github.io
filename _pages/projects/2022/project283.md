@@ -51,12 +51,14 @@ permalink: /soc/projects/2023/project283
 
 <p class="display3" style = "font-size:22px;" >
 
-We will be implementing the following paper:
-
-https://drive.google.com/file/d/1Cu4oIsm8dE6pa63pDw5DCtOHQLxFg2H9/view?usp=drivesdk  <br>
 In this project, we will create a secure and robust distributed storage system that can be employed on the cloud. We shall ensure robustness in the sense that even if a few servers fail, there is sufficient redundancy in the data stored to successfully retrieve the data, while also ensuring that said redundancy does not occupy excessive space. We shall ensure so using a decentralised encoding scheme. Furthermore, we shall ensure that the data is kept confidential by suitable cryptographic mechanisms. We offload the hassle of key management from the users to the cloud keyservers in such a way to ensure that even the full compromise or failure of a few keyservers does not leak the encryption keys to a malicious adversary. Moreover, we also implement a proxy re-encryption scheme which allows the cloud servers, upon and only after taking permission from a user, to re-encrypt their data into an encryption of a different user's data in such a way that the cloud servers learn no information about the underlying data throughout the process.
-Our system would be developed in a way so as to put little computational load on the users and little communication overhead between the users and the cloud.
+Our system would be developed in a way so as to put little computational load on the users and little communication overhead between the users and the cloud.
 
+We will be implementing the following paper: https://ieeexplore.ieee.org/document/6035700
+
+We would use Docker to simulate the cloud environment and use socket programming in Python to enable communication between the systems. We would also use SageMath for implementing the cryptographic mechanisms required.
+
+*Note:* This would be a full-fledged project which could be expected to be deployed on real systems with minor modifications. We expect around 6 hours of work per week on average for successful completion of the project.
 <br>
  Prerequisites (Desired but not necessary):<br>
 Python is a must. You should have interest in cybersecurity. 
@@ -77,7 +79,7 @@ Python is a must. You should have interest in cybersecurity.
     <tbody>
     <tr>
       <td  >Week 1-3</td>
-      <td>Socket programming with multiple simulta</td>
+      <td>Socket programming with multiple simultaneous clients, Docker for simulating cloud environment, Sphinx Documentation</td>
     </tr>
     <tr>
       <td>Week 4</td>
@@ -85,7 +87,7 @@ Python is a must. You should have interest in cybersecurity.
     </tr>
     <tr>
       <td>Week 5</td>
-      <td>Implement pairings over elliptic curves and the System Setupl</td>
+      <td>Implement pairings over elliptic curves and the System Setup</td>
     </tr>
     <tr>
       <td>Week 6-7.5</td>

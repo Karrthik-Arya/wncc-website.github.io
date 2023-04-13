@@ -53,17 +53,16 @@ permalink: /soc/projects/2023/project247
 <br>
 <br>
         <p class="display3" style = "font-size:22px;" >
-        "The project would involve implementing a paper on application-specific homomorphic encryption, the application being computing the k nearest neighbours to a supplied query point on an encrypted database stored on the cloud.
-The mentees would learn (in reference to the paper):<br>
-- how to implement socket programming for communication between the various entities involved<br>
-- how to set up, create, and interact with a Docker container externally to simulate the cloud server<br>
-- SageMath and how to implement basic cryptographic schemes<br>
-- how to implement an asymmetric scalar product preserving homomorphic encryption scheme<br>
-- how to connect everything they've built together<br><br>
+       In this project, we will create a mechanism for performing secure and controlled k-NN queries that can be employed on the cloud. The system would have a data owner who outsources their data to a cloud server. To ensure that the data owner has sole ownership of the data, we will ensure data confidentiality by storing only encrypted data on the cloud server, thus disallowing the cloud server from knowing the contents of the stored data. We enforce query controllability by allowing a query user to request the data owner's permission to issue a query. Only after the data owner permits the query can it be issued to the cloud server to compute the k nearest neighbours to the supplied query point. Our system would ensure query privacy: neither the data owner nor the cloud server would know the contents of the query. Furthermore, the cloud server would compute on the encrypted data itself, gaining no information about the computed results, which could only be decrypted by the query user. This would be ensured by using an asymmetric scalar product that preserves a homomorphic encryption scheme.
 
-<a href="https://www.sciencedirect.com/science/article/pii/S0743731515002105">Link to the paper: <a>
-        <br>
-        
+For the same, we will be referring to the following paper: https://www.sciencedirect.com/science/article/pii/S0743731515002105
+ 
+Throughout the course of the project, the mentees would learn the following (in reference to the paper): 
+- how to implement socket programming for communication between the various entities involved
+- how to set up, create, and interact with a Docker container externally to simulate the cloud server
+- SageMath and how to implement basic cryptographic schemes
+- how to implement an asymmetric scalar product preserving homomorphic encryption scheme
+- how to connect everything they've built together
 <br>
 Prerequisites:<br>
 - Python<br>
